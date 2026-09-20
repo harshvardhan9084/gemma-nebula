@@ -1,0 +1,10 @@
+# Pipeline dependencies (GitHub Actions + local)
+pdfplumber>=0.11
+pypdfium2>=4.30
+pillow>=10.0
+requests>=2.31
+ftfy>=6.2
+pytesseract>=0.3.10
+fastembed>=0.3
+numpy>=1.26
+google-genai>=1.0

@@ -1,0 +1,21 @@
+# secrets - NEVER commit
+aktu_pipeline.env
+.env
+
+# pipeline outputs
+extraction_out/
+
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+package.json
+package-lock.json
+chroma_db/
+temp_uploads/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.DS_Store
