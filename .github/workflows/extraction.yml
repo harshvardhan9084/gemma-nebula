@@ -1,12 +1,24 @@
-# Extraction pipeline (v5.4) on the public runner.
+# Extraction pipeline (v5.5) on the public runner.
 #
-# Manual dispatch only - needs repo secrets:
+# Manual dispatch - needs repo secrets:
 #   SUPABASE_URL          https://qnakqtiokspzoopivfyl.supabase.co
 #   SUPABASE_SERVICE_KEY  service/secret key (server-side only)
 #   GEMMA_API_KEYS        comma-separated AI Studio keys
+#   REPO_A_PAT            (only for pdf_dir starting with repo-a/) fine-grained
+#                         PAT with read access to harshvardhan9084/aktu-pyq
 #
 # True 2-way sharding (both matrix legs get a non-empty half of the PDFs).
-# Idempotent: papers already in Supabase (file_hash) are skipped on resume.
+# Idempotent: papers already 'complete' in Supabase (file_hash) are skipped;
+# review/failed rows are retried with --ai (transient AI failures heal).
+#
+# UNATTENDED CHAIN: stage=all rounds re-dispatch themselves via the `post`
+# job while tools/remaining.py > 0 (capped at 30 iterations). The scrape
+# workflow's collect job fires the first round (iter=0) when the round-3
+# download finishes, so expansion runs end-to-end without human input.
+#
+# pdf_dir prefix repo-a/ = corpus lives in Repo A (aktu-pyq, private):
+# the checkout step below pulls it with REPO_A_PAT and paths become
+# repo-a/corpus/... e.g. repo-a/corpus/unstructured + repo-a/data/aktu-pyq_manifest.csv
 name: extraction
 
 on:
@@ -21,12 +33,16 @@ on:
         default: '0'
         type: string
       pdf_dir:
-        description: 'PDF directory'
+        description: 'PDF directory (repo-a/ prefix = fetch from Repo A)'
         default: 'corpus/aktuonline3'
         type: string
       manifest:
         description: 'manifest csv (fills source_url/provenance)'
         default: 'data/aktuonline3_manifest.csv'
+        type: string
+      iter:
+        description: 'chain iteration counter (auto-managed)'
+        default: '0'
         type: string
 
 permissions: {}
@@ -56,6 +72,15 @@ jobs:
 
       - name: Install deps
         run: pip install -r pipeline/requirements.txt
+
+      - name: Checkout Repo A corpus (aktu-pyq) when pdf_dir starts with repo-a/
+        if: ${{ startsWith(github.event.inputs.pdf_dir || 'corpus/aktuonline3', 'repo-a/') }}
+        uses: actions/checkout@v4
+        with:
+          repository: harshvardhan9084/aktu-pyq
+          ref: main
+          token: ${{ secrets.REPO_A_PAT }}
+          path: repo-a
 
       - name: Preflight secrets
         env:
@@ -91,3 +116,53 @@ jobs:
             --dir "${{ github.event.inputs.pdf_dir || 'corpus/aktuonline3' }}" \
             --manifest "${{ github.event.inputs.manifest || 'data/aktuonline3_manifest.csv' }}" \
             --ai --db --soft-deadline 320 $SHARD_ARGS $PILOT
+
+  post:
+    needs: extract
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install requests
+        run: pip install -q requests
+
+      - name: Count remaining + chain dispatch
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GH_TOKEN: ${{ github.token }}
+          STAGE: ${{ github.event.inputs.stage || 'extract' }}
+          PILOT_N: ${{ github.event.inputs.pilot_n || '0' }}
+          PDF_DIR: ${{ github.event.inputs.pdf_dir || 'corpus/aktuonline3' }}
+          ITER: ${{ github.event.inputs.iter || '0' }}
+        run: |
+          set -e
+          echo "### Chain status" >> $GITHUB_STEP_SUMMARY
+          if [ "$STAGE" != "all" ] || [ "$PILOT_N" != "0" ]; then
+            echo "stage=$STAGE pilot=$PILOT_N - not a chain round, no re-dispatch" >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
+          REMAIN=$(python3 tools/remaining.py --dir "$PDF_DIR")
+          echo "remaining PDFs not complete: $REMAIN (iter $ITER/30)" >> $GITHUB_STEP_SUMMARY
+          if [ "$REMAIN" -gt 0 ] && [ "$ITER" -lt 30 ]; then
+            NEXT=$((ITER + 1))
+            echo "re-dispatching extraction round $NEXT" >> $GITHUB_STEP_SUMMARY
+            gh api -X POST "repos/${{ github.repository }}/actions/workflows/extraction.yml/dispatches" \
+              -f ref=aktu-runner \
+              -f 'inputs[stage]=all' -f 'inputs[pilot_n]=0' \
+              -f "inputs[pdf_dir]=$PDF_DIR" \
+              -f 'inputs[manifest]=data/aktuonline3_manifest.csv' \
+              -f "inputs[iter]=$NEXT"
+          elif [ "$REMAIN" -gt 0 ]; then
+            echo "::warning::iteration cap (30) reached with $REMAIN still unfinished - chain stopped, manual attention needed" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "EXPANSION COMPLETE - all PDFs in $PDF_DIR are extraction_status=complete" >> $GITHUB_STEP_SUMMARY
+          fi

@@ -1082,8 +1082,8 @@ class Supabase:
                     'Content-Type': 'application/json'}
 
     def _send(self, fn, *a, **kw):
-        """Transient-failure shield for Supabase REST: 500 (incl. PostgREST
-        statement timeouts), 502/503/504 gateways and network resets are
+        """Transient-failure shield for Supabase REST: 500 (incl. statement
+        timeouts / load blips), 502/503/504 gateways and network resets are
         retried (4 attempts, 5s/15s/30s) instead of failing the whole paper.
         Non-5xx errors raise immediately."""
         last = None
@@ -1099,7 +1099,7 @@ class Supabase:
             except requests.RequestException as e:
                 last = e
                 if attempt < 3:
-                    time.sleep((5, 15, 30)[attempt])
+                    time.sleep(4 + 8 * attempt)
                     continue
         if last:
             raise last
@@ -1128,16 +1128,16 @@ class Supabase:
             return f'{self.url}/storage/v1/object/public/{bucket}/{path}'
 
     def get_paginated(self, table, select, filters=None, page=500, order=None):
-        """GET all matching rows with offset pagination. `order` (e.g. 'id')
-        makes pages STABLE - without it, concurrent writes can shift offsets
-        between pages and silently skip/duplicate rows."""
+        """GET all matching rows with offset pagination (pages capped at 1000).
+        `order` (e.g. 'id') gives a stable ordering so offset pages never skip
+        or repeat rows under concurrent writes."""
         rows, off = [], 0
         while True:
             p = {'select': select, 'limit': str(page), 'offset': str(off)}
-            if filters:
-                p.update(filters)
             if order:
                 p['order'] = order
+            if filters:
+                p.update(filters)
             r = self._send(lambda: requests.get(
                 f'{self.url}/rest/v1/{table}', headers=self.hdr,
                 params=p, timeout=90))
@@ -1167,8 +1167,9 @@ class Supabase:
         r.raise_for_status()
 
     def rpc(self, name, payload):
-        r = requests.post(f'{self.url}/rest/v1/rpc/{name}', headers=self.hdr,
-                          data=json.dumps(payload), timeout=120)
+        r = self._send(lambda: requests.post(
+            f'{self.url}/rest/v1/rpc/{name}', headers=self.hdr,
+            data=json.dumps(payload), timeout=120))
         r.raise_for_status()
         return r.json()
 
@@ -1237,6 +1238,17 @@ def canonical_code(sb, code):
     return mapped
 
 
+def source_from_url(url):
+    """Provenance label from the paper's source URL (multi-source ready)."""
+    u = (url or '').lower()
+    if 'ryzenstudy' in u: return 'ryzenstudy'
+    if 'aktuonline' in u: return 'aktuonline'
+    if 'pooripadhai' in u: return 'pooripadhai'
+    if 'lastmomenttuitions' in u: return 'lastmomenttuitions'
+    if 'aktu.ac.in' in u: return 'aktu-official'
+    return 'external' if u else 'unknown'
+
+
 def push_paper(sb, fname, file_hash, parsed, mark_review, diagrams_dir=None,
                enrich_ok=False):
     """Upsert subject, paper, questions (+ topics/types), occurrences, parent
@@ -1252,7 +1264,8 @@ def push_paper(sb, fname, file_hash, parsed, mark_review, diagrams_dir=None,
     pr = sb.upsert('papers', [{'subject_code': code, 'year': meta.get('year'),
                                'file_hash': file_hash, 'source_url': meta.get('source_url'),
                                'storage_url': meta.get('source_url'),
-                               'source': 'ryzenstudy', 'is_text_layer': meta.get('is_text_layer', True)}],
+                               'source': source_from_url(meta.get('source_url')),
+                               'is_text_layer': meta.get('is_text_layer', True)}],
                    'file_hash')
     paper_id = pr[0]['id'] if pr else None
     if not paper_id:

@@ -13,8 +13,8 @@
 |---|---|
 | Product | AKTU highest-frequency repeated questions (aktu-pyq.vercel.app) |
 | Code repo (A) | `harshvardhan9084/aktu-pyq` (PRIVATE, product home) |
-| Runner repo (B) | `harshvardhan9084/gemma-nebula` branch `aktu-runner` (PUBLIC, temporary, CI only) |
-| Pipeline | v5.4 one-pass paper-wise (extract+AI repair+enrich+push+vectors), true 2-way sharding |
+| Runner repo (B) | `harshvardhan9084/gemma-nebula` branch `aktu-runner` (PUBLIC, temporary, CI only) — branch LIVE since 09-20 (push+secrets done, chain armed) |
+| Pipeline | v5.5 one-pass paper-wise (extract+AI repair+enrich+push+vectors; rpc shield + auto-alias v1), true 2-way sharding |
 | DB | Supabase `qnakqtiokspzoopivfyl` |
 | Papers in DB | **2,509** (1,393 ryzenstudy + 1,116 aktuonline) — 2,454 complete / 55 review |
 | Questions in DB | **56,080** (embeddings 100%, marks NULL 4,985) |
@@ -44,12 +44,12 @@
 - Views: top_repeats, subject_coverage, repeated_questions
 
 ### GitHub
-- Repo A `aktu-pyq` (private): product home, corpus round-1 + round-2, workflows. **Inaccessible to the automation PAT as of 2026-09-20** (old token dead, new token scoped to public repos only).
-- Repo B `gemma-nebula` branch `aktu-runner` (public, TEMPORARY — user plans to flip private after 1-2 days of heavy work):
+- Repo A `aktu-pyq` (private): product home, corpus round-1 + round-2, workflows. **REACHABLE again since 09-20 evening**: the new dual-repo fine-grained PAT (user-supplied) has read+write on BOTH aktu-pyq and gemma-nebula (contents, actions, secrets scopes verified live).
+- Repo B `gemma-nebula` branch `aktu-runner` (public, TEMPORARY — user plans to flip private after 1-2 days of heavy work). Secrets set via API 09-20: SUPABASE_URL, SUPABASE_SERVICE_KEY, GEMMA_API_KEYS, REPO_A_PAT.
   - `tools/scrape_aktuonline3.py` — resume-safe round-3 downloader (chunked, checkpoint branches `scrape-r3-0/1`, collect job merges into `aktu-runner`)
   - `.github/workflows/scrape.yml` — push-triggered, 2 shards, ~1 req/s aggregate
   - `.github/workflows/extraction.yml` — dispatch-only, true 2-way matrix, secrets-guarded (SUPABASE_URL / SUPABASE_SERVICE_KEY / GEMMA_API_KEYS)
-  - `pipeline/aktu_pyq_extractor.py` v5.4 + `data/aktuonline_full_index.csv` (9,099 rows)
+  - `pipeline/aktu_pyq_extractor.py` v5.5 + `data/aktuonline_full_index.csv` (9,099 rows)
 - Why public: Actions minutes on standard runners are free/unlimited for public repos; private repos cap at 2,000 min/month. Heavy expansion runs happen while B is public.
 
 ### Sources
@@ -61,10 +61,10 @@
 
 ## 3. Now / Next (priority order)
 
-1. **NOW — Round-3 expansion scrape on B** (8,162 new papers, 2 shards, ~3h). Monitor run, then consolidate to `aktu-runner`.
-2. **BLOCKED ON USER (2 min) — add 3 secrets to gemma-nebula** (Settings → Secrets → Actions): `SUPABASE_URL`, `SUPABASE_SERVICE_KEY`, `GEMMA_API_KEYS`. Without them the extraction workflow refuses to start (preflight error names it).
-3. THEN — dispatch `extraction` (stage=extract) on B for corpus/aktuonline3. Free minutes; resume-safe by file_hash.
-4. THEN — `repair` stage (NULL marks backfill, v5.4 order=id safe) + `embed`/`cluster` re-run over the full corpus → fresh clusters + gate re-measure.
+1. **RUNNING — Round-3 expansion scrape on B** (8,162 new papers, 2 shards, ~3h). Scrape auto-started by the aktu-runner push; collect now merges BOTH shard manifests (union, last-wins) — the old overwrite bug is fixed.
+2. ~~BLOCKED ON USER — add 3 secrets to gemma-nebula~~ DONE 09-20 evening: all 4 secrets set via REST API (libsodium sealed box) using the new dual-repo PAT.
+3. **ARMED — unattended extraction chain**: collect fires extraction stage=all (iter=0) the moment scrape completes; extraction's post job counts remaining via tools/remaining.py and re-dispatches itself (cap 30 rounds ≈ 175 shard-hours). No human step between scrape-done and expanded DB.
+4. THEN — after chain completes: gate re-measure (cluster rebuild runs inside stage=all) + subject alias audit round-2/3 codes (v5.5 auto-alias v1 already maps 301 old-scheme codes).
 5. NEXT — subject alias audit: 1,265 codes now, 222 dash-pairs; run moat_rescue-style merge simulation before/after round-3 ingest.
 6. NEXT — official structure layer from user's machine (Indian IP) for ref_aktu_subjects PDFs.
 7. LATER — when heavy work done: flip gemma-nebula private (user's plan), revoke the runner PAT, and re-point workflows to Repo A (or keep B private with the 2,000-min budget for light runs).
@@ -72,6 +72,14 @@
 ---
 
 ## 4. Changelog (newest first)
+
+### 2026-09-20 (evening) — SETUP COMPLETED: push + secrets + self-driving expansion chain
+- User issued new dual-repo fine-grained PAT (aktu-pyq + gemma-nebula, read&write, incl. Actions secrets) — verified live against both repos; old public-only PAT retired.
+- `aktu-runner` branch PUSHED to gemma-nebula (the previous session's push died with the dead PAT): pipeline v5.5 (Repo A main ad67b9b: rpc shield + auto-alias), round-3 index (9,099 rows / 937 in_db), both workflows, tools.
+- Secrets set on B via REST API (libsodium sealed box): SUPABASE_URL, SUPABASE_SERVICE_KEY, GEMMA_API_KEYS, REPO_A_PAT — extraction preflight can no longer block.
+- scrape.yml collect job FIXED + UPGRADED: (a) manifest merge bug closed — it previously `git checkout`-overwrote shard 0's manifest rows with shard 1's; now tools/merge_manifests.py unions both (last-wins per paper_url); (b) chain dispatch: scrape complete → extraction stage=all iter=0; rows remain → re-dispatch scrape; ZERO progress → stop + warn (no infinite loop). Progress tracked in data/aktuonline3_progress.json (paths-ignored).
+- extraction.yml UPGRADED: `iter` input, optional Repo A corpus checkout (`pdf_dir` prefix `repo-a/` via REPO_A_PAT — round-1/2 corpora extractable from B too), and a `post` job running tools/remaining.py (sha256 vs papers.extraction_status=complete) that self-re-dispatches stage=all up to 30 rounds (~175 shard-hours, covers 8,162 papers at ~45s/paper on 2 shards).
+- Push to aktu-runner auto-triggers the round-3 scrape (push trigger) — expansion began immediately.
 
 ### 2026-09-20 — public runner migration + EXPANSION kickoff
 - Backlog run (Repo A, 791 gap-year papers) **COMPLETED**: papers 1,729→2,509, questions 39,615→56,080, finalize survived (v5.4 shield), vectors 100%, cluster rebuild replaced ALL corrupted member_ids rows (0 bad rows now) — known-issue closed.
@@ -122,8 +130,8 @@ Repeat-signal questions (verbatim ge2 ∪ clusters ge2): 2,167 (09-15) → re-me
 2. Subject-code fragmentation GROWING with round-2/3 old-scheme codes (1,265 codes, 222 dash pairs) — alias audit queued (§3.5). canonical_code() guard in push path prevents re-splitting merged subjects.
 3. marks NULL on 4,985 questions — `repair` stage (v5.4 order=id) self-heals a batch per run.
 4. 55 papers in review status — mostly Google-overload at AI stage; re-run enrich/extract self-heals.
-5. Repo A + its remaining 2,000-min/month budget unreachable from the automation PAT — public runner B is the workaround; keep heavy jobs while B is public.
-6. Extraction workflow on B blocked until user adds the 3 secrets (§3.2).
+5. ~~Repo A unreachable from automation PAT~~ CLOSED 09-20 evening: new dual-repo PAT restores Repo A read/write (workflows on B can check out Repo A corpus via REPO_A_PAT; heavy compute stays on B's free minutes).
+6. ~~Extraction workflow on B blocked until user adds the 3 secrets~~ CLOSED 09-20 evening: all 4 secrets set via API.
 7. Pooripadhai secondary source needs title-verify (occasionally wrong paper) — only for subject-gap backfill, not bulk.
 8. aktu.ac.in official PDFs geo-fenced — user-local run only (wayback path exists but PDFs not archived).
 
@@ -138,7 +146,10 @@ Repeat-signal questions (verbatim ge2 ∪ clusters ge2): 2,167 (09-15) → re-me
 # Pilot first:        stage=extract, pilot_n=5
 # Marks backfill:     stage=repair
 # Re-cluster:         stage=cluster (embed first if new questions)
-# Secrets (one-time): Settings → Secrets and variables → Actions → 3 keys
+# Secrets: DONE 09-20 via API (SUPABASE_URL, SUPABASE_SERVICE_KEY, GEMMA_API_KEYS, REPO_A_PAT)
+# Chain: scrape completes → collect dispatches extraction stage=all → post job re-dispatches until remaining=0 (cap 30)
+# Chain progress: data/aktuonline3_progress.json + Actions step summaries
+# Repo A corpus from B: dispatch extraction with pdf_dir=repo-a/corpus/unstructured, manifest=repo-a/data/aktu-pyq_manifest.csv
 
 # DB quick probe (pooler):
 #   papers 2509 · questions 56080 · clusters 15056 · subjects 1265
@@ -154,6 +165,6 @@ Repeat-signal questions (verbatim ge2 ∪ clusters ge2): 2,167 (09-15) → re-me
 
 1. Every session: prepend a dated changelog entry (§4) + refresh §1 table + append metrics row (§5). Never delete history.
 2. Every number from a live probe (db_state.py / GHA API / filesystem) on the day it was measured. No memory-based numbers.
-3. Credentials NEVER in git. Secrets live in: GitHub Actions secrets (B), user password manager. The automation PAT is rotate-when-compromised, scoped public-only.
+3. Credentials NEVER in git. Secrets live in: GitHub Actions secrets (A and B), user password manager. The automation PAT is rotate-when-compromised (current: dual-repo fine-grained, rotate when B flips private).
 4. After each heavy run: verify finalize survived (extraction_status counts, no_vector=0), then update the Launch Gate tracker (§1).
 5. Launch gate decision = per major branch/subject: does the subject have ≥4-verified-repetition questions for its top repeats? Expansion first, metric second — the gate follows the corpus.
