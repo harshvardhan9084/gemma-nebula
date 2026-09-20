@@ -90,7 +90,15 @@ jobs:
             git add corpus/aktuonline3 data/aktuonline3_manifest.csv 2>/dev/null || true
             TREE=$(git write-tree)
             unset GIT_INDEX_FILE
-            PARENT=$(git rev-parse "origin/$BR" 2>/dev/null || true)
+            # NOTE: rev-parse echoes unknown args to stdout, so a plain
+            # rev-parse of a missing ref yields the LITERAL ref name (this
+            # exact bug killed the first real run with
+            # 'fatal: not a valid object name origin/scrape-r3-0').
+            # --verify -q is the only safe resolution; empty = root commit.
+            PARENT=""
+            if git rev-parse -q --verify "refs/remotes/origin/$BR" >/dev/null 2>&1; then
+              PARENT=$(git rev-parse --verify "refs/remotes/origin/$BR")
+            fi
             MSG="scrape r3 state shard $SHARD round $round ($(ls corpus/aktuonline3 | wc -l) pdfs)"
             if [ -n "$PARENT" ]; then
               COMMIT=$(echo "$MSG" | git commit-tree "$TREE" -p "$PARENT")
@@ -99,6 +107,10 @@ jobs:
             fi
             git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" "$COMMIT:refs/heads/$BR"
             echo "checkpoint pushed to $BR"
+            # refresh the remote-tracking ref: the direct-URL push above does
+            # NOT create refs/remotes/origin/$BR, so without this the next
+            # round's parent lookup would fail again
+            git fetch -q --depth=1 origin "$BR" || true
 
             if [ -f ".scrape_done_$SHARD" ]; then echo "SHARD $SHARD COMPLETE"; break; fi
           done
