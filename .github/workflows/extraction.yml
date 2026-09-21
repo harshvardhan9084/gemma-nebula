@@ -44,6 +44,10 @@ on:
         description: 'chain iteration counter (auto-managed)'
         default: '0'
         type: string
+      not_before:
+        description: 'UTC HH:MM - hold extraction until then (e.g. AI free-tier RPD reset 07:00Z). Empty = start now.'
+        default: ''
+        type: string
 
 permissions: {}
 
@@ -52,7 +56,30 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  hold:
+    # Optional quota window: burns the wait in its OWN job so the extract
+    # job's 350-min budget starts fresh afterwards.
+    if: ${{ github.event.inputs.not_before != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 200
+    steps:
+      - name: Hold until UTC time
+        run: |
+          T="${{ github.event.inputs.not_before }}"
+          TARGET=$(date -u -d "$T" +%s)
+          NOW=$(date -u +%s)
+          D=$((TARGET - NOW))
+          if [ "$D" -gt 0 ] && [ "$D" -lt 10800 ]; then
+            echo "holding $D s until $T UTC (AI free-tier quota window)"
+            sleep "$D"
+            echo "hold complete at $(date -u +%H:%M)Z - quota should be reset"
+          else
+            echo "not_before passed/out-of-range ($D s) - continuing immediately"
+          fi
+
   extract:
+    needs: hold
+    if: ${{ !cancelled() && (needs.hold.result == 'success' || needs.hold.result == 'skipped') }}
     runs-on: ubuntu-latest
     timeout-minutes: 350
     strategy:

@@ -18,12 +18,6 @@
 name: scrape-aktuonline3
 
 on:
-  push:
-    branches: [aktu-runner]
-    paths-ignore:
-      - 'corpus/aktuonline3/**'
-      - 'data/aktuonline3_manifest.csv'
-      - 'data/aktuonline3_progress.json'
   workflow_dispatch:
     inputs:
       delay:
