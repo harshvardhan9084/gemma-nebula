@@ -115,7 +115,7 @@ jobs:
             --stage "$STAGE" \
             --dir "${{ github.event.inputs.pdf_dir || 'corpus/aktuonline3' }}" \
             --manifest "${{ github.event.inputs.manifest || 'data/aktuonline3_manifest.csv' }}" \
-            --ai --db --soft-deadline 320 $SHARD_ARGS $PILOT
+            --ai --db --soft-deadline 285 $SHARD_ARGS $PILOT
 
   post:
     needs: extract
