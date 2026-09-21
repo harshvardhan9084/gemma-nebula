@@ -73,6 +73,15 @@
 
 ## 4. Changelog (newest first)
 
+### 2026-09-21 — CHAIN STALL FIXED + RESTARTED (run 35560697111)
+- Why numbers stalled: run `35532765328` legs hit the 350-min job wall (~5h50m, ~967 papers done, then cancelled); the `post` job crashed — `tools/remaining.py` built one ~26 KB `in.(…)` URL with hundreds of hashes → PostgREST HTTP 400 → no re-dispatch. Chain died at 648/8,157 papers extracted.
+- Fix `5a70103`: **remaining.py v2** = full paginated scan of `papers(extraction_status=complete)` + local hash diff (no URL limits; verified live: 34 pdfs → 5 complete → 29 remaining) + **soft-deadline 320→285** (deadline checks only run between papers; 65-min headroom now).
+- Fresh chain dispatched (stage=all, iter=0) → run `35560697111`, both shard legs green. Push of the fix auto-fired the scrape workflow (push trigger) — cancelled as redundant (scrape complete: 9,100/9,100 handled).
+- Live DB at restart: 3,157 papers / 68,666 questions / cluster ladder 941×2 · 81×3 · 12×4. Remaining ≈ 7,509 papers ≈ 12 rounds × ~6 h ≈ 3 days at 2 shards (4-shard speedup optional after one clean round).
+- NOTE for future pushes to this branch: push triggers scrape (paths-ignore only covers corpus/aktuonline3 + manifests). After the chain finishes, consider gating the push trigger (e.g. add `tools/**`, `.github/**` to paths-ignore).
+
+
+
 ### 2026-09-20 (evening) — SETUP COMPLETED: push + secrets + self-driving expansion chain
 - User issued new dual-repo fine-grained PAT (aktu-pyq + gemma-nebula, read&write, incl. Actions secrets) — verified live against both repos; old public-only PAT retired.
 - `aktu-runner` branch PUSHED to gemma-nebula (the previous session's push died with the dead PAT): pipeline v5.5 (Repo A main ad67b9b: rpc shield + auto-alias), round-3 index (9,099 rows / 937 in_db), both workflows, tools.
