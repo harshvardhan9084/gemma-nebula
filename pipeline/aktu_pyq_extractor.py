@@ -538,11 +538,16 @@ def load_models():
     NOTE: 'gemini-flash-lite-latest' is an ALIAS of 3.5-flash-lite -> excluded
     so one physical model can't burn quota under two names.
     """
+    # v5.6 ladder = ONLY models that passed the live strict-JSON probe
+    # (keyprobe run 35764793813, 4 keys). Dropped: 2.5-flash-lite (404 on all
+    # keys), 3-flash-preview / 3.8-flash / 3.7-flash (flaky JSON or 0/4 PASS,
+    # RPD 20). gemma-4-26b: 4/4 PASS ~0.8s, RPD 14.4k. flash-lites: RPD 500,
+    # 250K TPM -> first for every kind (user directive).
     default_ladder = (
-        'gemma-4-26b-a4b-it,gemma-4-31b-it,'          # bulk: 14.4k RPD each
-        'gemini-3.1-flash-lite,gemini-3.5-flash-lite,'  # volume: 500 RPD
-        'gemini-3.5-flash,gemini-3.7-flash,gemini-3.6-flash,'
-        'gemini-3-flash-preview,gemini-3.8-flash,gemini-2.5-flash')  # smart: 20 RPD
+        'gemini-3.1-flash-lite,gemini-3.5-flash-lite,'   # lites: 500 RPD, 250K TPM
+        'gemma-4-26b-a4b-it,gemma-4-31b-it,'             # 14.4k RPD workhorses
+        'gemini-2.5-flash,'                              # smart fallback (old keys)
+        'gemini-3.6-flash')                              # bench fill
     models = [m.strip() for m in os.environ.get(
         'GEMMA_FALLBACK_MODELS', default_ladder).split(',') if m.strip()]
     # GEMMA_MODEL stays honored as an extra candidate (never reorders anything)
@@ -646,24 +651,23 @@ class AIRouter:
 
     # smartest-first / volume-first / cheapest-first per call kind
     KIND_ORDER = {
-        'repair': ['gemini-3.5-flash', 'gemini-3.7-flash', 'gemini-3.6-flash',
-                   'gemini-3-flash-preview', 'gemini-3.8-flash', 'gemini-2.5-flash',
-                   'gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
-                   'gemma-4-26b-a4b-it', 'gemma-4-31b-it'],
-        'enrich': ['gemma-4-26b-a4b-it', 'gemma-4-31b-it',
-                   'gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
-                   'gemini-3.5-flash', 'gemini-3.7-flash', 'gemini-3.6-flash',
-                   'gemini-3-flash-preview', 'gemini-3.8-flash', 'gemini-2.5-flash'],
+        # v5.6: flash-lites lead EVERY kind (user directive + probe: lites =
+        # RPD 500 / 250K TPM; gemma-26b = 4/4 strict-JSON PASS, RPD 14.4k).
+        'repair': ['gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
+                   'gemma-4-26b-a4b-it', 'gemma-4-31b-it',
+                   'gemini-2.5-flash', 'gemini-3.6-flash'],
+        'enrich': ['gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
+                   'gemma-4-26b-a4b-it', 'gemma-4-31b-it',
+                   'gemini-2.5-flash', 'gemini-3.6-flash'],
         'marks':  ['gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
                    'gemma-4-26b-a4b-it', 'gemma-4-31b-it',
-                   'gemini-3.5-flash', 'gemini-3.7-flash', 'gemini-3.6-flash',
-                   'gemini-3-flash-preview', 'gemini-3.8-flash', 'gemini-2.5-flash'],
+                   'gemini-2.5-flash', 'gemini-3.6-flash'],
     }
-    BENCH_429_DAY = 6 * 3600      # RPD gone -> effectively rest of this run
+    BENCH_429_DAY = 24 * 3600     # RPD gone -> hard cap (until-reset wins)
     BENCH_429_MIN = 75            # RPM/TPM -> outlive the per-minute window
     BENCH_OVERLOAD = 45           # single 500/503 strike
     OVERLOAD_STRIKES = 3          # strikes before a long overload bench
-    BENCH_OVERLOAD_LONG = 900     # 15 min after repeated overloads
+    BENCH_OVERLOAD_LONG = 300     # 5 min after repeated overloads (v5.6)
     BENCH_BAD = 24 * 3600         # 400 reject -> not usable, rest of run
 
     def __init__(self, keys, models):
@@ -693,6 +697,14 @@ class AIRouter:
                 and self.benched.get(c, (0, ''))[0] <= now]
 
     @staticmethod
+    def _secs_to_reset(now=None):
+        # Free-tier RPD resets ~midnight Pacific = 07:00 UTC (DST-safe margin
+        # +5 min). v5.6: a 429-day combo sleeps until the reset, not 6h.
+        t = time.gmtime(now if now is not None else time.time())
+        secs = t.tm_hour * 3600 + t.tm_min * 60 + t.tm_sec
+        return (7 * 3600 + 300 - secs) % 86400 or 86400
+
+    @staticmethod
     def _quota_window(err):
         t = str(err).lower()
         if 'perday' in t or 'per_day' in t or 'requestsperday' in t:
@@ -712,7 +724,9 @@ class AIRouter:
         low = str(err).lower()
         if '429' in low or 'quota' in low or 'exhausted' in low:
             if self._quota_window(err) == 'day':
-                self._bench(model, key, self.BENCH_429_DAY, 'RPD exhausted')
+                self._bench(model, key, self._secs_to_reset(),
+                            f'RPD exhausted -> bench until 07:05 UTC reset '
+                            f'({self._secs_to_reset() // 3600}h{(self._secs_to_reset() % 3600) // 60}m)')
             else:
                 wait = self._suggested_wait(err) or self.BENCH_429_MIN
                 self._bench(model, key, min(max(wait, self.BENCH_429_MIN), 1800),
@@ -724,6 +738,10 @@ class AIRouter:
                 f'-> dropped for the rest of the run')
         elif '400' in low:
             self._bench(model, key, self.BENCH_BAD, 'model rejects request')
+        elif ('404' in low or 'not found' in low or
+              'no longer available' in low):
+            # model gone for this key/project (e.g. 2.5-flash on new keys)
+            self._bench(model, key, self.BENCH_BAD, 'model unavailable (404)')
         else:                       # 500/503/overload/timeout/network
             s = self.strikes.get((model, key), 0) + 1
             self.strikes[(model, key)] = s
