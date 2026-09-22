@@ -1,0 +1,19 @@
+name: keyprobe
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Probe keys x models (strict JSON)
+        env:
+          GEMMA_API_KEYS: ${{ secrets.GEMMA_API_KEYS }}
+        run: python3 tools/keyprobe.py
