@@ -9,21 +9,18 @@
 
 ## 1. Product Status (live)
 
-| Area | State @ 2026-09-20 |
+| Area | State @ 2026-09-24 (v5.7.1 restart) |
 |---|---|
 | Product | AKTU highest-frequency repeated questions (aktu-pyq.vercel.app) |
 | Code repo (A) | `harshvardhan9084/aktu-pyq` (PRIVATE, product home) |
-| Runner repo (B) | `harshvardhan9084/gemma-nebula` branch `aktu-runner` (PUBLIC, temporary, CI only) — branch LIVE since 09-20 (push+secrets done, chain armed) |
-| Pipeline | v5.5 one-pass paper-wise (extract+AI repair+enrich+push+vectors; rpc shield + auto-alias v1), true 2-way sharding |
+| Runner repo (B) | `harshvardhan9084/gemma-nebula` branch `aktu-runner` (PUBLIC, temporary, CI only) — pipeline **v5.7.1** live (`b27d20e`) |
 | DB | Supabase `qnakqtiokspzoopivfyl` |
-| Papers in DB | **2,509** (1,393 ryzenstudy + 1,116 aktuonline) — 2,454 complete / 55 review |
-| Questions in DB | **56,080** (embeddings 100%, marks NULL 4,985) |
-| Subjects | 1,265 codes (222 dash-codes pending alias audit) |
-| Clusters | 15,056 (freq4: 12 · freq3: 81 · freq2: 941 · freq1: 14,022) — member_ids corruption FIXED (0 bad rows) |
-| Verbatim repeats | ge2: 1,717 · ge3: 93 · ge4: 2 |
-| Corpus on disk | round-1 1,395 PDFs (Repo A) · round-3 scrape **IN PROGRESS on B** |
-| Round-3 expansion | **9,099-paper full archive index built; 8,162 NEW to download** (937 already in DB) |
-| Launch gate | "min 4 repetitions for major branches/subjects" — NOT yet met at scale (12 clusters + 2 verbatim at freq≥4); expansion is the lever, see §3 |
+| Papers in DB | **3,218** (3,157 complete / 61 review) — was frozen here 09-22→24; v5.7.1 unfreezes |
+| Questions in DB | **69,856** (occurrences 73,100) |
+| Clusters | 15,056 (freq≥4: 12 · ≥3: 81 · ≥2: 941) across 230 subjects |
+| AI pool | 7 keys × 2 flash-lites (14 lanes, ~7k RPD) + gemma-4-26b emergency (7/7 probe PASS, RPD 14.4k) |
+| Round-3 expansion | 8,156 PDFs on disk / 1,080 complete / **7,070 remaining** — 3-shard rounds on v5.7.1 |
+| Launch gate | cluster-level freq≥4: 12 (freq≥2: 941, ≥3: 81) — expansion rounds re-cluster each finalize; composite recompute after ingest |
 
 ### Launch Gate tracker
 | Metric | 2026-09-15 | 2026-09-20 (post-backlog) |
@@ -72,6 +69,15 @@
 ---
 
 ## 4. Changelog (newest first)
+
+### 2026-09-24 — FREEZE ROOT-CAUSED + v5.7/v5.7.1 (7-key lite-only ladder, 3 shards, running) — Super Z
+- **Owner report:** manual key tests 16/16 in ms while pipeline "constantly failing ~5:6"; 3 NEW keys (7-key pool, "only the 2 flash-lite models"); random 503 minutes; ~7,000 RPD; order = stop → analyse → upgrade → re-run.
+- **Autopsy (run `35960494539`, 09-24 05:33→11:25Z):** 1,496 AI calls ALL enrich/repair, ZERO extract pushes; DB frozen at 3,218 papers / 69,856 questions since 09-22 (~40 h, ~7 wasted rounds at ~110 papers/h of pure churn). Extract hit its 285-min soft deadline at paper ~574/3521, then repair crashed on a deep-offset 500 → embed+cluster never ran (gate refresh blocked 2 days).
+- **ROOT CAUSE (reproduced locally with a stub DB):** scraped dash-name files parse NO subject code (`parse_filename` expects `__` format; `tier0` header regex misses old/scan headers) AND `load_manifest` **discarded the manifest's paper_code** → `meta.code=None` → `push_paper` silently returned `(None, [])` → nothing inserted; papers re-chewed every round. The previous session's "mid-rebuild cluster ladder 1,000" was ALSO a measurement artifact (REST 1,000-row cap) — real clusters were 15,056 all along.
+- **v5.7 (`6ae51f8`):** manifest carries paper_code/course/semester/year; `fill_meta_identity()` + dash-name regex fallback (`nar-101`→NAR101, `ar1003`→AR1003, `kcs-502`→KCS502 all unit-tested); push skips now LOUD + counted in EXTRACT SUMMARY; AIRouter = **7 keys × 2 flash-lites = 14 lanes (~7k RPD) + gemma-4-26b-a4b-it as EMERGENCY lane** (gated in `_ring`: excluded while ANY lite lane is healthy); pacing 2.2→1.2 s + router lock; **soft-deadline is per-PROCESS now** (was per-stage → overran into the 350-min wall) with +55 min housekeeping reserve; stage order extract→embed→cluster→enrich→repair, every housekeeping stage crash-isolated; repair scan keyset-paginated (`id=gt`) + cap 2,000/round; workflow true 3-way sharding.
+- **keyprobe on all 7 keys** (run `36028128521`, 42 combos, strict JSON): 3.5-flash-lite **PASS 5/7** (k3/k4 429 = today's RPD already burned by morning rounds; resets 07:00Z), 3.1-flash-lite 503×7 (global overload minute — transient, exactly the owner's "random 503 minutes"), gemma-4-26b **7/7 PASS ~0.8 s**, 2.5-flash/3.6-flash confirmed dead (429/404) → ladder design validated; GEMMA_API_KEYS secret refreshed to 7 keys.
+- **v5.7.1 hotfix (`b27d20e`):** `subjects.course` is the `course_t` ENUM — the v5.7 fill produced 'Btech'/'Barch' → every subjects upsert violated the enum → run `36028594692` spent ~40 min marking per-paper failures with 0 inserts (killed). `COURSE_ENUM` now maps all 15 census labels exactly; `course_t` extended live via pooler (BArch, BFA, BFad, BHMCT, MAM, MPharm, MTech, MURP, DPharm). Verified against the REAL DB: NAR101 2014-15 paper pushed → complete, 4 questions + occurrences + vectors.
+- **Fresh round on `b27d20e` dispatched (run `36032254205`); chain continues automatically.** Ops note: a post-job re-fire can beat a just-pushed fix to the branch head — always check `head_sha` before adopting an auto-fired run; the GHA "pending run" quirk makes each new dispatch supersede older pending ones.
 
 ### 2026-09-21 — CHAIN STALL FIXED + RESTARTED (run 35560697111)
 - Why numbers stalled: run `35532765328` legs hit the 350-min job wall (~5h50m, ~967 papers done, then cancelled); the `post` job crashed — `tools/remaining.py` built one ~26 KB `in.(…)` URL with hundreds of hashes → PostgREST HTTP 400 → no re-dispatch. Chain died at 648/8,157 papers extracted.
