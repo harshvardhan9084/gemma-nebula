@@ -1420,6 +1420,16 @@ def dash_code_from_filename(fname):
     return None
 
 
+# subjects.course is a Postgres ENUM (course_t). Manifest course labels are
+# FILE-GENERATOR uppercase; map them to enum members exactly, never .title().
+COURSE_ENUM = {
+    'BTECH': 'BTech', 'BPHARM': 'BPharm', 'MPHARM': 'MPharm', 'MTECH': 'MTech',
+    'BFAD': 'BFad', 'BARCH': 'BArch', 'BHMCT': 'BHMCT', 'BFA': 'BFA',
+    'MAM': 'MAM', 'MURP': 'MURP', 'DPHARM': 'DPharm',
+    'BBA': 'BBA', 'BCA': 'BCA', 'MBA': 'MBA', 'MCA': 'MCA',
+}
+
+
 def fill_meta_identity(meta, fname, manifest):
     """v5.7: fill missing paper identity from the manifest (which now carries
     paper_code/course/semester/academic_year), then from the dash-name regex.
@@ -1435,7 +1445,10 @@ def fill_meta_identity(meta, fname, manifest):
     if not meta.get('year') and m.get('year'):
         meta['year'] = m['year']
     if not meta.get('course') and m.get('course'):
-        meta['course'] = m['course'].title().replace('BTECH', 'BTech')
+        # subjects.course is the course_t ENUM - .title() produced 'Btech'/
+        # 'Barch' (invalid) and every push died on the subjects upsert
+        # (v5.7.1 hotfix, caught live on run 36028594692).
+        meta['course'] = COURSE_ENUM.get(m['course'].upper(), 'Other')
     if not meta.get('semester') and m.get('semester'):
         try:
             meta['semester'] = int(re.sub(r'\D', '', str(m['semester'])) or 0) or None
