@@ -52,9 +52,19 @@ Usage:
   python3 aktu_pyq_extractor.py --stage all --dir corpus/unstructured --db --ai
   python3 aktu_pyq_extractor.py --list-models
 """
-import argparse, hashlib, json, os, re, sys, time, uuid, difflib
+import argparse, hashlib, json, os, re, sys, time, uuid, difflib, threading
 from collections import defaultdict
 from datetime import datetime, timezone
+
+_T0 = time.time()          # v5.7: process start — the soft-deadline is a
+                           # per-RUN budget, not a per-stage one (the 09-24
+                           # rounds overran because every stage reset its own
+                           # t0 and the 350-min wall killed legs mid-repair)
+
+def soft_time_left(args, reserve=0):
+    """Seconds left in this run's soft budget. Extract uses reserve=0 (285);
+    housekeeping stages use reserve=55 so they still finish before the wall."""
+    return args.soft_deadline * 60 + reserve * 60 - (time.time() - _T0)
 
 try:
     import pdfplumber
@@ -543,11 +553,14 @@ def load_models():
     # keys), 3-flash-preview / 3.8-flash / 3.7-flash (flaky JSON or 0/4 PASS,
     # RPD 20). gemma-4-26b: 4/4 PASS ~0.8s, RPD 14.4k. flash-lites: RPD 500,
     # 250K TPM -> first for every kind (user directive).
+    # v5.7 (owner directive 2026-09-24): ONLY the 2 flash-lite models on the
+    # now-7-key pool = 14 lanes x RPD 500/key/model ~= 7,000 calls/day.
+    # gemma-4-26b (4/4 probe PASS, RPD 14.4k) is the EMERGENCY lane: it is
+    # excluded from the ring until EVERY flash-lite lane is benched, so a
+    # 503-overload minute degrades to one extra model instead of stalling.
     default_ladder = (
-        'gemini-3.1-flash-lite,gemini-3.5-flash-lite,'   # lites: 500 RPD, 250K TPM
-        'gemma-4-26b-a4b-it,gemma-4-31b-it,'             # 14.4k RPD workhorses
-        'gemini-2.5-flash,'                              # smart fallback (old keys)
-        'gemini-3.6-flash')                              # bench fill
+        'gemini-3.5-flash-lite,gemini-3.1-flash-lite,'   # lites: RPD 500, 250K TPM
+        'gemma-4-26b-a4b-it')                            # EMERGENCY only
     models = [m.strip() for m in os.environ.get(
         'GEMMA_FALLBACK_MODELS', default_ladder).split(',') if m.strip()]
     # GEMMA_MODEL stays honored as an extra candidate (never reorders anything)
@@ -651,18 +664,16 @@ class AIRouter:
 
     # smartest-first / volume-first / cheapest-first per call kind
     KIND_ORDER = {
-        # v5.6: flash-lites lead EVERY kind (user directive + probe: lites =
-        # RPD 500 / 250K TPM; gemma-26b = 4/4 strict-JSON PASS, RPD 14.4k).
-        'repair': ['gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
-                   'gemma-4-26b-a4b-it', 'gemma-4-31b-it',
-                   'gemini-2.5-flash', 'gemini-3.6-flash'],
-        'enrich': ['gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
-                   'gemma-4-26b-a4b-it', 'gemma-4-31b-it',
-                   'gemini-2.5-flash', 'gemini-3.6-flash'],
-        'marks':  ['gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
-                   'gemma-4-26b-a4b-it', 'gemma-4-31b-it',
-                   'gemini-2.5-flash', 'gemini-3.6-flash'],
+        # v5.7: flash-lites lead EVERY kind (owner directive); gemma-26b is the
+        # EMERGENCY lane (gated in _ring, last in every order).
+        'repair': ['gemini-3.5-flash-lite', 'gemini-3.1-flash-lite',
+                   'gemma-4-26b-a4b-it'],
+        'enrich': ['gemini-3.5-flash-lite', 'gemini-3.1-flash-lite',
+                   'gemma-4-26b-a4b-it'],
+        'marks':  ['gemini-3.5-flash-lite', 'gemini-3.1-flash-lite',
+                   'gemma-4-26b-a4b-it'],
     }
+    EMERGENCY = {'gemma-4-26b-a4b-it'}   # only when every lite lane is benched
     BENCH_429_DAY = 24 * 3600     # RPD gone -> hard cap (until-reset wins)
     BENCH_429_MIN = 75            # RPM/TPM -> outlive the per-minute window
     BENCH_OVERLOAD = 45           # single 500/503 strike
@@ -680,21 +691,31 @@ class AIRouter:
         self.counter = 0           # round-robin cursor (advances every call)
         self.calls_ok = 0
         self._next_ok = 0.0        # global pacing timestamp
+        self.lock = threading.RLock()   # v5.7: ring/counter/pacing are shared
 
     def alive(self):
         return bool(self.combos)
 
     def _ring(self, kind):
         """All (model, key) combos of this kind, tier-ordered, filtered to
-        healthy (not dead-key, not benched). Unknown/custom models go last."""
+        healthy (not dead-key, not benched). Unknown/custom models go last.
+        v5.7: EMERGENCY models are excluded while ANY non-emergency lane is
+        healthy — they unlock only when every flash-lite lane is benched."""
         order = self.KIND_ORDER.get(kind) or self.KIND_ORDER['enrich']
-        known = sorted((c for c in self.combos if c[0] in order),
-                       key=lambda c: order.index(c[0]))
-        ring = known + [c for c in self.combos if c[0] not in order]
         now = time.time()
-        return [c for c in ring
-                if c[1] not in self.dead_keys
-                and self.benched.get(c, (0, ''))[0] <= now]
+        with self.lock:
+            healthy = [c for c in self.combos
+                       if c[1] not in self.dead_keys
+                       and self.benched.get(c, (0, ''))[0] <= now]
+        core = [c for c in healthy if c[0] not in self.EMERGENCY]
+        if core:
+            known = sorted((c for c in core if c[0] in order),
+                           key=lambda c: order.index(c[0]))
+            return known + [c for c in core if c[0] not in order]
+        emerg = [c for c in healthy if c[0] in self.EMERGENCY]
+        known = sorted((c for c in emerg if c[0] in order),
+                       key=lambda c: order.index(c[0]))
+        return known + [c for c in emerg if c[0] not in order]
 
     @staticmethod
     def _secs_to_reset(now=None):
@@ -717,7 +738,8 @@ class AIRouter:
         return int(m.group(1)) if m else 0
 
     def _bench(self, model, key, secs, why):
-        self.benched[(model, key)] = (time.time() + secs, why)
+        with self.lock:
+            self.benched[(model, key)] = (time.time() + secs, why)
         log(f'    [ai] bench {model} k{self.keys.index(key) + 1} for {int(secs)}s ({why})')
 
     def _on_failure(self, model, key, err):
@@ -753,10 +775,14 @@ class AIRouter:
                 self._bench(model, key, wait, f'overload strike {s}')
 
     def _pace(self, min_interval):
-        wait = self._next_ok - time.time()
+        """v5.7: atomically reserve the next free send-slot so parallel
+        callers pace globally instead of stampeding on the same instant."""
+        with self.lock:
+            now = time.time()
+            wait = self._next_ok - now
+            self._next_ok = max(self._next_ok, now) + min_interval
         if wait > 0:
             time.sleep(wait)
-        self._next_ok = time.time() + min_interval
 
     def _attempt(self, model, key, prompt, schema):
         """One combo: SDK structured output first, then REST JSON-mime.
@@ -816,7 +842,7 @@ class AIRouter:
         except requests.RequestException as e:
             return None, str(e)
 
-    def call(self, prompt, schema, kind='enrich', min_interval=2.2, budget_s=110):
+    def call(self, prompt, schema, kind='enrich', min_interval=1.2, budget_s=110):
         """Walk this kind's hardcoded ladder (rotating start every call) until
         one healthy combo answers. Every failure benches its combo, so dead or
         quota-burned models are never retried call after call (the v4 bug).
@@ -840,9 +866,13 @@ class AIRouter:
                 healthy = self._ring(kind)
             if not healthy or time.time() >= deadline:
                 return None
-        n = len(healthy)
-        start = self.counter % n
-        self.counter += 1
+        if healthy and all(c[0] in self.EMERGENCY for c in healthy):
+            log(f'    [ai] every flash-lite lane benched -> EMERGENCY '
+                f'{sorted(self.EMERGENCY)[0]} serves this call')
+        with self.lock:
+            n = len(healthy)
+            start = self.counter % n
+            self.counter += 1
         tried = 0
         last_err = 'no attempt made'
         for off in range(n):
@@ -855,13 +885,15 @@ class AIRouter:
             res, err = self._attempt(model, key, prompt, schema)
             dt = time.time() - t0
             if res is not None:
-                self.strikes.pop((model, key), None)
-                self.calls_ok += 1
+                with self.lock:
+                    self.strikes.pop((model, key), None)
+                    self.calls_ok += 1
                 log(f'    [ai] {kind} c#{self.calls_ok} -> {model} '
                     f'k{self.keys.index(key) + 1} OK {dt:.1f}s')
                 return res
             last_err = err or 'unknown'
-            self._on_failure(model, key, last_err)
+            with self.lock:
+                self._on_failure(model, key, last_err)
         log(f'    [ai] call gave up after {tried} healthy combos ({kind}): '
             f'{str(last_err)[:110]}')
         return None
@@ -1145,15 +1177,26 @@ class Supabase:
                 return None
             return f'{self.url}/storage/v1/object/public/{bucket}/{path}'
 
-    def get_paginated(self, table, select, filters=None, page=500, order=None):
-        """GET all matching rows with offset pagination (pages capped at 1000).
-        `order` (e.g. 'id') gives a stable ordering so offset pages never skip
-        or repeat rows under concurrent writes."""
-        rows, off = [], 0
+    def get_paginated(self, table, select, filters=None, page=500, order=None,
+                      keyset=False, cap=0):
+        """GET all matching rows. Default: stable offset pagination (order=
+        required for stable pages). v5.7 `keyset=True`: walk the `order`
+        column via id=gt.{last} instead of deep offsets - offset+filter page
+        scans hit Supabase statement timeouts on the grown questions table.
+        `cap` stops early after N rows (housekeeping stays inside the wall)."""
+        rows, off, last = [], 0, None
+        col = order.split('.')[0].split(' ')[0].lstrip('-') if order else None
         while True:
-            p = {'select': select, 'limit': str(page), 'offset': str(off)}
+            if cap and len(rows) >= cap:
+                rows = rows[:cap]
+                break
+            p = {'select': select, 'limit': str(page)}
             if order:
                 p['order'] = order
+            if keyset and col and last is not None:
+                p[col] = f'gt.{last}'
+            else:
+                p['offset'] = str(off)
             if filters:
                 p.update(filters)
             r = self._send(lambda: requests.get(
@@ -1164,7 +1207,10 @@ class Supabase:
             rows.extend(chunk)
             if len(chunk) < page:
                 return rows
-            off += page
+            if keyset and col and chunk:
+                last = chunk[-1][col]
+            else:
+                off += page
 
     def patch(self, table, filters, payload):
         r = self._send(lambda: requests.patch(
@@ -1274,6 +1320,10 @@ def push_paper(sb, fname, file_hash, parsed, mark_review, diagrams_dir=None,
     meta = parsed['meta']
     code = canonical_code(sb, meta.get('code'))
     if not code:
+        # v5.7: NEVER silent again - this exact early-return froze the chain
+        # for ~40h (09-22..24) while rounds kept "processing" papers.
+        log(f'    [!] PUSH SKIP: no subject code for {str(fname)[:64]} '
+            f'(manifest paper_code missing and header/filename parse failed)')
         return None, []
     name = parsed.get('subject_name') or code
     sb.upsert('subjects', [{'code': code, 'name': name,
@@ -1359,6 +1409,41 @@ def parse_filename(fname):
         out['subject_name'] = parts[4].replace('-', ' ').title()
     return out
 
+def dash_code_from_filename(fname):
+    """v5.7 fallback for scraped dash-style names:
+    barch-1-sem-architectural-design-1-nar-101-2015.pdf -> NAR101.
+    Handles 2-4 digit codes (AR1003) and 2-digit year suffixes (2018-19)."""
+    base = os.path.splitext(os.path.basename(fname))[0].lower()
+    m = re.search(r'-([a-z]{2,6})-?(\d{2,4})-(?:\d{4}(-\d{2,4})?)$', base)
+    if m:
+        return (m.group(1) + m.group(2)).upper()
+    return None
+
+
+def fill_meta_identity(meta, fname, manifest):
+    """v5.7: fill missing paper identity from the manifest (which now carries
+    paper_code/course/semester/academic_year), then from the dash-name regex.
+    Without this, code=None made push_paper silently no-op -> the 09-22..24
+    freeze (0 papers ingested in ~40h across ~7 chain rounds)."""
+    if meta.get('code') and meta.get('year') and meta.get('course') \
+            and meta.get('semester'):
+        return meta
+    m = manifest.get(fname.lower()) or {}
+    if not meta.get('code'):
+        meta['code'] = (m.get('code')
+                        or dash_code_from_filename(fname) or None)
+    if not meta.get('year') and m.get('year'):
+        meta['year'] = m['year']
+    if not meta.get('course') and m.get('course'):
+        meta['course'] = m['course'].title().replace('BTECH', 'BTech')
+    if not meta.get('semester') and m.get('semester'):
+        try:
+            meta['semester'] = int(re.sub(r'\D', '', str(m['semester'])) or 0) or None
+        except Exception:
+            pass
+    return meta
+
+
 def find_pdfs(root):
     if os.path.isfile(root):
         return [root]
@@ -1414,8 +1499,15 @@ def load_manifest(path):
     for row in rows:
         p = (row.get('unstructured_path') or '').replace('\\', '/').split('/')[-1]
         if p:
+            # v5.7: carry the manifest's paper_code/course/semester/year -
+            # scraped dash-name files parse no code from filename or PDF
+            # header, and code=None made push_paper silently no-op (freeze).
             mapping[p.lower()] = {'url': row.get('paper_url') or '',
-                                  'name': row.get('paper_name') or ''}
+                                  'name': row.get('paper_name') or '',
+                                  'code': (row.get('paper_code') or '').strip().upper(),
+                                  'course': (row.get('course') or '').strip().upper(),
+                                  'semester': (row.get('semester') or '').strip(),
+                                  'year': (row.get('academic_year') or '').strip()}
     return mapping
 
 
@@ -1464,10 +1556,11 @@ def stage_extract(args, sb, router):
     t0 = time.time()
     summary = []
     enriched_n = 0
+    push_skips = 0
     outbox = open(os.path.join(args.out, 'outbox.jsonl'), 'a', encoding='utf-8')
 
     for i, path in enumerate(pdfs):
-        if (time.time() - t0) > args.soft_deadline * 60:
+        if soft_time_left(args) <= 0:
             log(f'[!] soft deadline reached at paper {i}; checkpoint and exit')
             break
         fname = os.path.basename(path)
@@ -1485,6 +1578,10 @@ def stage_extract(args, sb, router):
                 m = manifest[fname.lower()]
                 meta.setdefault('source_url', m['url'])
                 meta.setdefault('subject_name', m['name'].title())
+            # v5.7: fill missing identity (manifest code/year/course/semester
+            # + dash-name fallback) BEFORE parse - code=None used to make
+            # push_paper silently no-op (the 09-22..24 freeze).
+            fill_meta_identity(meta, fname, manifest)
             parsed = parse_paper(lines, meta)
             parsed['subject_name'] = meta.get('subject_name') or fmap.get('subject_name')
             infer_diagram_flags(parsed, pages)
@@ -1546,6 +1643,8 @@ def stage_extract(args, sb, router):
                     except Exception as e:
                         # embeddings are re-runnable (stage embed) - never fail the paper
                         log(f'      [vectors] failed (paper still complete): {str(e)[:80]}')
+                else:
+                    push_skips += 1
             state[fname] = {'status': status, 'conf': conf, 'hash': fhash,
                             'at': datetime.now(timezone.utc).isoformat()}
             summary.append((fname, status, conf))
@@ -1568,6 +1667,9 @@ def stage_extract(args, sb, router):
     from collections import Counter
     cnt = Counter(s for _, s, _ in summary)
     log(f'total={len(summary)} ' + ' '.join(f'{k}={v}' for k, v in cnt.items()))
+    if push_skips:
+        log(f'[!] {push_skips} papers SKIPPED at push (no subject code / no paper row) '
+            '- manifest paper_code + dash-name fallback should prevent this; investigate!')
     if not summary and n_done:
         log(f'[i] nothing to process: all {n_done} in-scope papers already complete in DB '
             '-> correct no-op; the next run automatically picks the next unfinished papers')
@@ -1593,7 +1695,7 @@ def stage_enrich(args, sb, router):
     log(f'[i] enrich: {len(papers)} papers pending')
     patched_q = enriched_ok = 0
     for pi, p in enumerate(papers):
-        if (time.time() - t0) > args.soft_deadline * 60:
+        if soft_time_left(args, reserve=55) <= 0:
             log(f'[!] soft deadline at enrich paper {pi}; DB-driven resume later')
             return
         try:
@@ -1686,15 +1788,19 @@ def stage_repair(args, sb, router):
     if not router.alive():
         log('[!] no GEMMA key(s) configured -> repair skipped')
         return
+    # v5.7: keyset walk (id=gt.last) + 2,000/round cap - the deep offset scan
+    # with marks=is.null hit Supabase statement timeouts at offset 4000 and
+    # killed shard 0 on 09-24 (then blocked embed+cluster for 2 days).
     rows = sb.get_paginated('questions', select='id,subject_code,text',
-                            filters={'marks': 'is.null'}, page=500, order='id')
-    log(f'[i] repair: {len(rows)} questions with marks IS NULL')
+                            filters={'marks': 'is.null'}, page=500, order='id',
+                            keyset=True, cap=2000)
+    log(f'[i] repair: {len(rows)} questions with marks IS NULL (keyset, cap 2000/round)')
     if not rows:
         return
     t0 = time.time()
     fixed = 0
     for i in range(0, len(rows), 40):
-        if (time.time() - t0) > args.soft_deadline * 60:
+        if soft_time_left(args, reserve=55) <= 0:
             log('[!] soft deadline at repair; rest self-heals next run')
             return
         chunk = rows[i:i + 40]
@@ -1907,7 +2013,10 @@ def main():
             print(f'  {kind:7s}: ' + ' > '.join(order))
         return
 
-    stages = ['extract', 'enrich', 'repair', 'embed', 'cluster'] if args.stage == 'all' else [args.stage]
+    # v5.7: gate-fresh embed+cluster run BEFORE enrich/repair so a sick
+    # housekeeping stage can never again hide repeat stats for days; every
+    # non-extract stage is crash-isolated (log + continue; next run heals).
+    stages = ['extract', 'embed', 'cluster', 'enrich', 'repair'] if args.stage == 'all' else [args.stage]
     need_db = args.db or args.stage in ('enrich', 'repair', 'embed', 'cluster', 'all')
     if need_db and not (os.environ.get('SUPABASE_URL') and os.environ.get('SUPABASE_SERVICE_KEY')):
         sys.exit('this stage needs SUPABASE_URL + SUPABASE_SERVICE_KEY '
@@ -1920,14 +2029,19 @@ def main():
         os.makedirs(os.path.join(args.out, 'ai_cache'), exist_ok=True)
         os.makedirs(os.path.join(args.out, 'parsed'), exist_ok=True)
         stage_extract(args, sb, router)
-    if 'enrich' in stages:
-        stage_enrich(args, sb, router)
-    if 'repair' in stages:
-        stage_repair(args, sb, router)
-    if 'embed' in stages:
-        stage_embed(args, sb)
-    if 'cluster' in stages:
-        stage_cluster(args, sb)
-
+    for st in ('embed', 'cluster', 'enrich', 'repair'):
+        if st in stages:
+            try:
+                if st == 'embed':
+                    stage_embed(args, sb)
+                elif st == 'cluster':
+                    stage_cluster(args, sb)
+                elif st == 'enrich':
+                    stage_enrich(args, sb, router)
+                else:
+                    stage_repair(args, sb, router)
+            except Exception as e:
+                log(f'[!] stage {st} crashed (round continues, self-heals next '
+                    f'run): {type(e).__name__}: {str(e)[:140]}')
 if __name__ == '__main__':
     main()

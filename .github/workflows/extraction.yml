@@ -84,11 +84,12 @@ jobs:
     timeout-minutes: 350
     strategy:
       fail-fast: false
-      max-parallel: 2
+      max-parallel: 3
       matrix:
         include:
-          - { shard: 0, shards: 2 }
-          - { shard: 1, shards: 2 }
+          - { shard: 0, shards: 3 }
+          - { shard: 1, shards: 3 }
+          - { shard: 2, shards: 3 }
     steps:
       - uses: actions/checkout@v4
 
@@ -130,13 +131,17 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
           GEMMA_API_KEYS: ${{ secrets.GEMMA_API_KEYS }}
+          # v5.7 ladder (owner 2026-09-24): 2 flash-lites on 7 keys + gemma-26b
+          # emergency lane. Mirrors the code default; set here so a probe-driven
+          # change only needs an env edit, not a code edit.
+          GEMMA_FALLBACK_MODELS: "gemini-3.5-flash-lite,gemini-3.1-flash-lite,gemma-4-26b-a4b-it"
         run: |
           set -x
           STAGE="${{ github.event.inputs.stage || 'extract' }}"
           PILOT=""
           N="${{ github.event.inputs.pilot_n }}"
           if [ -n "$N" ] && [ "$N" != "0" ]; then PILOT="--pilot $N"; fi
-          SHARD_ARGS="--shard ${{ matrix.shard }} --shards 2"
+          SHARD_ARGS="--shard ${{ matrix.shard }} --shards ${{ matrix.shards }}"
           if [ "$STAGE" != "extract" ] && [ "$STAGE" != "all" ]; then
             # DB-wide stages are not shardable - single leg does the work
             if [ "${{ matrix.shard }}" = "1" ]; then
