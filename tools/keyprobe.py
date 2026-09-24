@@ -16,11 +16,12 @@ import json, os, re, time, urllib.request, urllib.error
 
 BASE = "https://generativelanguage.googleapis.com/v1beta"
 
+# v5.7: 7-key pool -> trimmed to the 6 probe-relevant models (Sep-22 probe
+# already proved 2.5-flash-lite/3.5-flash/3.7-flash/3-flash-preview/3.8-flash
+# FAIL/404/0-of-4); 7 keys x 6 models = 42 combos fits the 25-min cap.
 CANDS = [
-    "gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-flash-lite",
-    "gemini-3.5-flash", "gemini-3.7-flash", "gemini-3.6-flash",
-    "gemini-3-flash-preview", "gemini-3.8-flash", "gemini-2.5-flash",
-    "gemma-4-26b-a4b-it", "gemma-4-31b-it",
+    "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it", "gemini-2.5-flash", "gemini-3.6-flash",
 ]
 
 SCHEMA = {
