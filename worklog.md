@@ -70,6 +70,14 @@
 
 ## 4. Changelog (newest first)
 
+### 2026-09-26 — 32H STANDSTILL AUTOPSIED + v5.8 SHIPS + CHAIN RELAUNCHED — Super Z
+- **PAT rotated again** (old fine-grained PAT 401-dead); new dual-repo PAT verified live; GEMMA_API_KEYS re-set to 7 keys on BOTH repos + REPO_A_PAT refreshed on B.
+- **Autopsy (run `36095328616`, 09-25 04:39→10:24Z):** ALL 3 extract shards GREEN; the **post job** died on Supabase REST 503 straight for 60s+ at 10:23Z — remaining.py v2's 4-attempt/50s ladder exhausted → chain dispatch never fired → **32 h total standstill**. The owner's '5:6 failing' pattern = two unshielded blip paths (AI model-level 503 minutes + Supabase platform blips) hitting per-combo retry logic.
+- **v5.8 (`61ca986`):** AIRouter 5xx strikes counted per MODEL (server blips hit every key of a model); 2nd strike benches the whole model 180s with 180→360→600s escalation; sibling lite keeps serving; EMERGENCY gemma-4 lane unchanged; _ring INTERLEAVE (key-index sort → consecutive attempts alternate models, owner rule); db._send backoff 5/15/30→2/6/12s; **remaining.py v3** chain spine tolerates ~7.7 min Supabase unavailability (6 attempts, 10/30/60/120/240s).
+- **Live DB at relaunch (REST-measured 17:20 UTC):** papers 6,291 (1,393 ryzenstudy + 4,898 aktuonline) · questions **116,627** · occurrences 121,280 · clusters 24,020 (rebuilt 09-24 22:12, stale by 11 h of post-build ingestion) · subjects 2,576 / aliases 560 · extraction 5,808 complete / 483 review / 0 failed · embeddings 116,533/116,627 (94 gaps only → next re-cluster is union-find only).
+- **Round-3 exact remaining (sha256 corpus ↔ DB): 4,390 of 8,156** (3,731 complete · 428 review · 3,962 never ingested). At 3 shards × ~45 s/paper ≈ 1,140 papers/round → **~4 rounds ≈ 24 h wall clock**.
+- **Chain RELAUNCHED: run `36262156661` (iter=0, stage=all, 3 shards, v5.8 head) — all 3 shards green through preflight.**
+- Gate ladder: freq≥4 = 29 clusters (top 6: BP301T phenol acidity, BP302T eutectics) · freq≥3 = 195 · freq≥2 = 1,693 — refresh due after this corpus wave.
 ### 2026-09-24 — FREEZE ROOT-CAUSED + v5.7/v5.7.1 (7-key lite-only ladder, 3 shards, running) — Super Z
 - **Owner report:** manual key tests 16/16 in ms while pipeline "constantly failing ~5:6"; 3 NEW keys (7-key pool, "only the 2 flash-lite models"); random 503 minutes; ~7,000 RPD; order = stop → analyse → upgrade → re-run.
 - **Autopsy (run `35960494539`, 09-24 05:33→11:25Z):** 1,496 AI calls ALL enrich/repair, ZERO extract pushes; DB frozen at 3,218 papers / 69,856 questions since 09-22 (~40 h, ~7 wasted rounds at ~110 papers/h of pure churn). Extract hit its 285-min soft deadline at paper ~574/3521, then repair crashed on a deep-offset 500 → embed+cluster never ran (gate refresh blocked 2 days).
