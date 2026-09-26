@@ -676,9 +676,10 @@ class AIRouter:
     EMERGENCY = {'gemma-4-26b-a4b-it'}   # only when every lite lane is benched
     BENCH_429_DAY = 24 * 3600     # RPD gone -> hard cap (until-reset wins)
     BENCH_429_MIN = 75            # RPM/TPM -> outlive the per-minute window
-    BENCH_OVERLOAD = 45           # single 500/503 strike
-    OVERLOAD_STRIKES = 3          # strikes before a long overload bench
-    BENCH_OVERLOAD_LONG = 300     # 5 min after repeated overloads (v5.6)
+    BENCH_OVERLOAD = 90           # v5.8: single 5xx strike -> combo bench 90s
+    OVERLOAD_STRIKES = 2          # v5.8: 2nd strike -> bench the whole MODEL (503 is server-side)
+    BENCH_OVERLOAD_LONG = 180     # v5.8: model blip bench ('some random minutes')
+    BENCH_OVERLOAD_MAX = 600      # v5.8: escalation cap on repeat blips
     BENCH_BAD = 24 * 3600         # 400 reject -> not usable, rest of run
 
     def __init__(self, keys, models):
@@ -686,7 +687,10 @@ class AIRouter:
         self.keys = [k for k in keys if k]
         self.combos = [(m, k) for m in self.models for k in self.keys]
         self.benched = {}          # (model, key) -> (until_epoch, reason)
-        self.strikes = {}          # (model, key) -> consecutive 5xx count
+        self.model_bench = {}      # v5.8: model -> (until_epoch, reason); 503 is server-side
+        self.strikes = {}          # v5.8: model -> consecutive 5xx count (blips hit every
+                                   # key of a model, so per-MODEL counting saves the
+                                   # 6-wasted-calls storm the owner saw as '5:6 failing')
         self.dead_keys = set()
         self.counter = 0           # round-robin cursor (advances every call)
         self.calls_ok = 0
@@ -706,11 +710,15 @@ class AIRouter:
         with self.lock:
             healthy = [c for c in self.combos
                        if c[1] not in self.dead_keys
-                       and self.benched.get(c, (0, ''))[0] <= now]
+                       and self.benched.get(c, (0, ''))[0] <= now
+                       and self.model_bench.get(c[0], (0, ''))[0] <= now]
         core = [c for c in healthy if c[0] not in self.EMERGENCY]
         if core:
+            # v5.8 INTERLEAVE: key-index first so consecutive attempts alternate
+            # models (m1k1, m2k1, m1k2, m2k2...) - never beat the same model
+            # twice in a row, even across keys (owner rule).
             known = sorted((c for c in core if c[0] in order),
-                           key=lambda c: order.index(c[0]))
+                           key=lambda c: (self.keys.index(c[1]), order.index(c[0])))
             return known + [c for c in core if c[0] not in order]
         emerg = [c for c in healthy if c[0] in self.EMERGENCY]
         known = sorted((c for c in emerg if c[0] in order),
@@ -765,11 +773,23 @@ class AIRouter:
             # model gone for this key/project (e.g. 2.5-flash on new keys)
             self._bench(model, key, self.BENCH_BAD, 'model unavailable (404)')
         else:                       # 500/503/overload/timeout/network
-            s = self.strikes.get((model, key), 0) + 1
-            self.strikes[(model, key)] = s
+            # v5.8: server-side blips hit EVERY key of a model -> count per MODEL.
+            s = self.strikes.get(model, 0) + 1
+            self.strikes[model] = s
             if s >= self.OVERLOAD_STRIKES:
-                self._bench(model, key, self.BENCH_OVERLOAD_LONG,
-                            f'{s}x overload strikes')
+                # bench the whole MODEL patiently, escalating on repeat blips;
+                # sibling model keeps serving, EMERGENCY lane covers both-down.
+                prev = self.model_bench.get(model, (0, ''))[0]
+                base = self.BENCH_OVERLOAD_LONG if prev <= time.time() \
+                    else min(self.BENCH_OVERLOAD_LONG * 2, self.BENCH_OVERLOAD_MAX)
+                until = time.time() + base
+                self.model_bench[model] = (until, f'{s}x overload')
+                for m, k in self.combos:
+                    if m == model:
+                        self.benched[(m, k)] = (until, 'model blip bench')
+                self.strikes[model] = 0
+                log(f'    [ai] model {model} benched {base:.0f}s '
+                    f'(server-side blip; siblings keep serving)')
             else:
                 wait = self._suggested_wait(err) or self.BENCH_OVERLOAD
                 self._bench(model, key, wait, f'overload strike {s}')
@@ -886,7 +906,7 @@ class AIRouter:
             dt = time.time() - t0
             if res is not None:
                 with self.lock:
-                    self.strikes.pop((model, key), None)
+                    self.strikes.pop(model, None)
                     self.calls_ok += 1
                 log(f'    [ai] {kind} c#{self.calls_ok} -> {model} '
                     f'k{self.keys.index(key) + 1} OK {dt:.1f}s')
@@ -1141,7 +1161,9 @@ class Supabase:
             try:
                 r = fn(*a, **kw)
                 if r.status_code in (500, 502, 503, 504) and attempt < 3:
-                    wait = (5, 15, 30)[attempt]
+                    # v5.8: tighter backoff (2/6/12s) - Supabase blips clear in
+                    # seconds; the old 5/15/30s ladder stalled shards for 50s/write
+                    wait = (2, 6, 12)[attempt]
                     log(f'    [db] HTTP {r.status_code} from Supabase, retry {attempt + 1}/3 in {wait}s')
                     time.sleep(wait)
                     continue

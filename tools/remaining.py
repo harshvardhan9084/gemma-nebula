@@ -48,11 +48,17 @@ def main():
             hashes.append(h.hexdigest())
 
     # full scan of completed papers, offset pagination (stable order=id)
+    # v3: this script is the CHAIN'S SPINE - a single Supabase blip window
+    # (measured: 60s+ of straight 503 on run 36095328616's post job at
+    # 2026-09-25 10:23Z) burned the old 4-attempt/50s ladder and silently
+    # killed the whole unattended chain for 32h. A post job that runs once
+    # per ~6h round can afford 7.7 min of patience: 6 attempts, backoff
+    # 10/30/60/120/240s. Same policy as the extractor's db._send shield.
     done = set()
     off = 0
     while True:
         r = None
-        for attempt in range(4):
+        for attempt in range(6):
             try:
                 r = requests.get(
                     f'{url}/rest/v1/papers',
@@ -62,10 +68,16 @@ def main():
                     headers=hdr, timeout=90)
                 r.raise_for_status()
                 break
-            except requests.RequestException:
-                if attempt == 3:
+            except requests.RequestException as e:
+                if attempt == 5:
+                    print(f'[!] Supabase unreachable after 6 attempts '
+                          f'(~7.7 min): {e}', file=sys.stderr)
                     raise
-                time.sleep((5, 15, 30, 60)[attempt])
+                wait = (10, 30, 60, 120, 240)[attempt]
+                print(f'[db] HTTP error on papers scan (offset {off}), '
+                      f'retry {attempt + 1}/5 in {wait}s: {str(e)[:90]}',
+                      file=sys.stderr)
+                time.sleep(wait)
         rows = r.json()
         if not isinstance(rows, list) or not rows:
             break
