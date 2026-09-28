@@ -11,10 +11,9 @@
 # Idempotent: papers already 'complete' in Supabase (file_hash) are skipped;
 # review/failed rows are retried with --ai (transient AI failures heal).
 #
-# UNATTENDED CHAIN: stage=all rounds re-dispatch themselves via the `post`
-# job while tools/remaining.py > 0 (capped at 30 iterations). The scrape
-# workflow's collect job fires the first round (iter=0) when the round-3
-# download finishes, so expansion runs end-to-end without human input.
+# MANUAL DISPATCH ONLY: Each run must be triggered manually via workflow_dispatch.
+# Automatic re-dispatch has been disabled - check remaining PDFs manually and
+# trigger the next iteration if needed.
 #
 # pdf_dir prefix repo-a/ = corpus lives in Repo A (aktu-pyq, private):
 # the checkout step below pulls it with REPO_A_PAT and paths become
@@ -161,8 +160,6 @@ jobs:
     if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    permissions:
-      actions: write
     steps:
       - uses: actions/checkout@v4
 
@@ -173,35 +170,19 @@ jobs:
       - name: Install requests
         run: pip install -q requests
 
-      - name: Count remaining + chain dispatch
+      - name: Report remaining PDFs (no auto-dispatch)
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-          GH_TOKEN: ${{ github.token }}
           STAGE: ${{ github.event.inputs.stage || 'extract' }}
           PILOT_N: ${{ github.event.inputs.pilot_n || '0' }}
           PDF_DIR: ${{ github.event.inputs.pdf_dir || 'corpus/aktuonline3' }}
           ITER: ${{ github.event.inputs.iter || '0' }}
         run: |
           set -e
-          echo "### Chain status" >> $GITHUB_STEP_SUMMARY
-          if [ "$STAGE" != "all" ] || [ "$PILOT_N" != "0" ]; then
-            echo "stage=$STAGE pilot=$PILOT_N - not a chain round, no re-dispatch" >> $GITHUB_STEP_SUMMARY
-            exit 0
-          fi
+          echo "### Extraction Complete" >> $GITHUB_STEP_SUMMARY
+          echo "stage=$STAGE pilot=$PILOT_N" >> $GITHUB_STEP_SUMMARY
           REMAIN=$(python3 tools/remaining.py --dir "$PDF_DIR")
           echo "remaining PDFs not complete: $REMAIN (iter $ITER/30)" >> $GITHUB_STEP_SUMMARY
-          if [ "$REMAIN" -gt 0 ] && [ "$ITER" -lt 30 ]; then
-            NEXT=$((ITER + 1))
-            echo "re-dispatching extraction round $NEXT" >> $GITHUB_STEP_SUMMARY
-            gh api -X POST "repos/${{ github.repository }}/actions/workflows/extraction.yml/dispatches" \
-              -f ref=aktu-runner \
-              -f 'inputs[stage]=all' -f 'inputs[pilot_n]=0' \
-              -f "inputs[pdf_dir]=$PDF_DIR" \
-              -f 'inputs[manifest]=data/aktuonline3_manifest.csv' \
-              -f "inputs[iter]=$NEXT"
-          elif [ "$REMAIN" -gt 0 ]; then
-            echo "::warning::iteration cap (30) reached with $REMAIN still unfinished - chain stopped, manual attention needed" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "EXPANSION COMPLETE - all PDFs in $PDF_DIR are extraction_status=complete" >> $GITHUB_STEP_SUMMARY
-          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Note:** Automatic re-dispatch is disabled. Manually trigger the next iteration if needed." >> $GITHUB_STEP_SUMMARY
