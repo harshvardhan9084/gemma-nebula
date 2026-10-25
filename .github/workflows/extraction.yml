@@ -1,23 +1,20 @@
-# Extraction pipeline (v5.5) on the public runner.
+# Extraction pipeline v6 (quality-first) on the public runner.
 #
-# Manual dispatch - needs repo secrets:
+# MANUAL DISPATCH ONLY - needs repo secrets:
 #   SUPABASE_URL          https://qnakqtiokspzoopivfyl.supabase.co
 #   SUPABASE_SERVICE_KEY  service/secret key (server-side only)
-#   GEMMA_API_KEYS        comma-separated AI Studio keys
-#   REPO_A_PAT            (only for pdf_dir starting with repo-a/) fine-grained
-#                         PAT with read access to harshvardhan9084/aktu-pyq
+#   GEMMA_API_KEYS        comma-separated AI Studio keys (5 keys)
 #
-# True 2-way sharding (both matrix legs get a non-empty half of the PDFs).
-# Idempotent: papers already 'complete' in Supabase (file_hash) are skipped;
-# review/failed rows are retried with --ai (transient AI failures heal).
+# v6 (pipeline/aktu_pyq_extractor_v6.py): chunked VISION extraction (page text
+# + page images per call, 1-2 page chunks), per-paper multi-pass (extract ->
+# completeness audit -> targeted re-extract -> deterministic clean -> AI clean
+# -> QC gate), paper-scoped --reprocess replace, hard per-run call budget and
+# per-call pacing (owner spec 2026-10-25: a ~5h run spends ~2,000 calls total
+# = ~40/model/hour on the 2-model x 5-key lanes).
 #
-# MANUAL DISPATCH ONLY: Each run must be triggered manually via workflow_dispatch.
-# Automatic re-dispatch has been disabled - check remaining PDFs manually and
-# trigger the next iteration if needed.
-#
-# pdf_dir prefix repo-a/ = corpus lives in Repo A (aktu-pyq, private):
-# the checkout step below pulls it with REPO_A_PAT and paths become
-# repo-a/corpus/... e.g. repo-a/corpus/unstructured + repo-a/data/aktu-pyq_manifest.csv
+# The "legacy" extractor choice runs the v5.8 script unchanged.
+# Non-extract stages (enrich/repair/embed/cluster) are v5 stages and run the
+# v5 script regardless of the extractor input.
 name: extraction
 
 on:
@@ -27,24 +24,70 @@ on:
         description: 'extract | enrich | repair | embed | cluster | all'
         default: 'extract'
         type: string
+      extractor:
+        description: 'v6 (vision+QC, default) | legacy (v5.8)'
+        default: 'v6'
+        type: choice
+        options: [v6, legacy]
+      pdf_dir:
+        description: 'PDF dirs, comma-separated (scanned recursively)'
+        default: 'corpus/unified,corpus/aktuonline3,corpus/aktuonline4'
+        type: string
+      manifest:
+        description: 'manifest CSVs, comma-separated (fills source_url/identity)'
+        default: 'data/unified_manifest.csv,data/aktuonline3_manifest.csv,data/aktuonline4_manifest.csv'
+        type: string
       pilot_n:
         description: 'run on next N unfinished PDFs (0 = all)'
         default: '0'
         type: string
-      pdf_dir:
-        description: 'PDF directory (repo-a/ prefix = fetch from Repo A)'
-        default: 'corpus/aktuonline3'
-        type: string
-      manifest:
-        description: 'manifest csv (fills source_url/provenance)'
-        default: 'data/aktuonline3_manifest.csv'
-        type: string
-      iter:
-        description: 'chain iteration counter (auto-managed)'
+      limit:
+        description: 'hard cap on PDFs this run (0 = no cap)'
         default: '0'
         type: string
+      course:
+        description: 'course filter: path substring, e.g. BTech / BPharm / MBA / MCA / BCA (empty = all)'
+        default: ''
+        type: string
+      year:
+        description: 'year filter: filename substring, e.g. 2022-23 (empty = all)'
+        default: ''
+        type: string
+      reprocess:
+        description: 'RE-extract papers already complete (paper-scoped REPLACE, old rows backed up)'
+        default: false
+        type: boolean
+      status_filter:
+        description: 'with reprocess: which DB statuses to re-extract'
+        default: 'complete,review,failed'
+        type: string
+      total_calls:
+        description: 'AI call budget for the WHOLE run (all shards). 2000 = the 5h spec'
+        default: '2000'
+        type: string
+      min_interval_s:
+        description: 'per-shard seconds between call starts (empty = auto: 18000*shards/total_calls)'
+        default: ''
+        type: string
+      route:
+        description: 'auto (text + page images) | text (no images) | vision (images only) | ocr'
+        default: 'auto'
+        type: choice
+        options: [auto, text, vision, ocr]
+      qc_min_questions:
+        description: 'papers with fewer extracted questions -> review (never silent-accept)'
+        default: '10'
+        type: string
+      chunk_pages:
+        description: 'pages per vision call (1-3)'
+        default: '2'
+        type: string
+      dry_run:
+        description: 'tier0 + chunk plan only: no AI calls, no DB writes'
+        default: false
+        type: boolean
       not_before:
-        description: 'UTC HH:MM - hold extraction until then (e.g. AI free-tier RPD reset 07:00Z). Empty = start now.'
+        description: 'UTC HH:MM - hold until then (e.g. AI RPD reset 07:00Z). Empty = start now.'
         default: ''
         type: string
 
@@ -56,8 +99,6 @@ concurrency:
 
 jobs:
   hold:
-    # Optional quota window: burns the wait in its OWN job so the extract
-    # job's 350-min budget starts fresh afterwards.
     if: ${{ github.event.inputs.not_before != '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 200
@@ -71,7 +112,6 @@ jobs:
           if [ "$D" -gt 0 ] && [ "$D" -lt 10800 ]; then
             echo "holding $D s until $T UTC (AI free-tier quota window)"
             sleep "$D"
-            echo "hold complete at $(date -u +%H:%M)Z - quota should be reset"
           else
             echo "not_before passed/out-of-range ($D s) - continuing immediately"
           fi
@@ -105,55 +145,90 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-hin tesseract-ocr-eng >/dev/null
           tesseract --version | head -1
-          echo "available langs:" && tesseract --list-langs 2>/dev/null | tail -n +2 | tr '\n' ' ' && echo
-
-      - name: Checkout Repo A corpus (aktu-pyq) when pdf_dir starts with repo-a/
-        if: ${{ startsWith(github.event.inputs.pdf_dir || 'corpus/aktuonline3', 'repo-a/') }}
-        uses: actions/checkout@v4
-        with:
-          repository: harshvardhan9084/aktu-pyq
-          ref: main
-          token: ${{ secrets.REPO_A_PAT }}
-          path: repo-a
 
       - name: Preflight secrets
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
         run: |
           if [ -z "$SUPABASE_URL" ]; then
-            echo "::error::Secrets missing. Add SUPABASE_URL, SUPABASE_SERVICE_KEY, GEMMA_API_KEYS in Settings > Secrets and variables > Actions."
+            echo "::error::Secrets missing. Add SUPABASE_URL, SUPABASE_SERVICE_KEY, GEMMA_API_KEYS."
             exit 1
           fi
 
-      - name: Paper-wise ${{ github.event.inputs.stage }} (shard ${{ matrix.shard }})
+      - name: Compute rate plan
+        id: rate
+        run: |
+          SHARDS=3
+          TOTAL="${{ github.event.inputs.total_calls || '2000' }}"
+          MI="${{ github.event.inputs.min_interval_s }}"
+          if [ -z "$MI" ]; then
+            MI=$(python3 -c "import math; print(math.ceil(18000 * $SHARDS / max(1, int('$TOTAL'))))")
+          fi
+          PER_SHARD=$(python3 -c "import math; print(math.ceil(int('$TOTAL') / $SHARDS))")
+          echo "per-shard budget: $PER_SHARD calls, min-interval ${MI}s (total target $TOTAL in ~5h)"
+          echo "per_shard=$PER_SHARD" >> "$GITHUB_OUTPUT"
+          echo "mi=$MI" >> "$GITHUB_OUTPUT"
+
+      - name: Paper-wise extraction (shard ${{ matrix.shard }})
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
           GEMMA_API_KEYS: ${{ secrets.GEMMA_API_KEYS }}
-          # v5.7 ladder (owner 2026-09-24): 2 flash-lites on 7 keys + gemma-26b
-          # emergency lane. Mirrors the code default; set here so a probe-driven
-          # change only needs an env edit, not a code edit.
           GEMMA_FALLBACK_MODELS: "gemini-3.5-flash-lite,gemini-3.1-flash-lite,gemma-4-26b-a4b-it"
         run: |
           set -x
           STAGE="${{ github.event.inputs.stage || 'extract' }}"
-          PILOT=""
-          N="${{ github.event.inputs.pilot_n }}"
-          if [ -n "$N" ] && [ "$N" != "0" ]; then PILOT="--pilot $N"; fi
+          EXTRACTOR="${{ github.event.inputs.extractor || 'v6' }}"
+          PILOT="${{ github.event.inputs.pilot_n || '0' }}"
+          LIMIT="${{ github.event.inputs.limit || '0' }}"
+          DRY="${{ github.event.inputs.dry_run || 'false' }}"
           SHARD_ARGS="--shard ${{ matrix.shard }} --shards ${{ matrix.shards }}"
-          if [ "$STAGE" != "extract" ] && [ "$STAGE" != "all" ]; then
-            # DB-wide stages are not shardable - single leg does the work
-            if [ "${{ matrix.shard }}" = "1" ]; then
-              echo "stage $STAGE runs on shard 0 only"
+          OPTS=""
+          [ "$PILOT" != "0" ] && OPTS="$OPTS --pilot $PILOT"
+          [ "$LIMIT" != "0" ] && OPTS="$OPTS --limit $LIMIT"
+          [ -n "${{ github.event.inputs.course }}" ] && OPTS="$OPTS --course ${{ github.event.inputs.course }}"
+          [ -n "${{ github.event.inputs.year }}" ] && OPTS="$OPTS --year ${{ github.event.inputs.year }}"
+          if [ "$DRY" = "true" ]; then
+            python3 pipeline/aktu_pyq_extractor_v6.py \
+              --dir "${{ github.event.inputs.pdf_dir }}" \
+              --manifest "${{ github.event.inputs.manifest }}" \
+              --dry-run $SHARD_ARGS $OPTS
+            exit 0
+          fi
+          if [ "$EXTRACTOR" = "v6" ]; then
+            if [ "$STAGE" != "extract" ] && [ "$STAGE" != "all" ]; then
+              # v6 covers extraction only; delegate the rest to the v5 script
+              if [ "${{ matrix.shard }}" != "0" ]; then
+                echo "stage $STAGE runs on shard 0 only"; exit 0
+              fi
+              python3 pipeline/aktu_pyq_extractor.py --stage "$STAGE" --db --ai --soft-deadline 285
               exit 0
             fi
-            SHARD_ARGS=""
+            python3 pipeline/aktu_pyq_extractor_v6.py \
+              --dir "${{ github.event.inputs.pdf_dir }}" \
+              --manifest "${{ github.event.inputs.manifest }}" \
+              --ai --db --soft-deadline 285 \
+              --route "${{ github.event.inputs.route || 'auto' }}" \
+              --qc-min "${{ github.event.inputs.qc_min_questions || '10' }}" \
+              --chunk-pages "${{ github.event.inputs.chunk_pages || '2' }}" \
+              --min-interval "${{ steps.rate.outputs.mi }}" \
+              --max-calls "${{ steps.rate.outputs.per_shard }}" \
+              $SHARD_ARGS $OPTS \
+              ${{ github.event.inputs.reprocess == 'true' && '--reprocess' || '' }} \
+              ${{ github.event.inputs.reprocess == 'true' && format('--status-filter {0}', github.event.inputs.status_filter) || '' }}
+            if [ "$STAGE" = "all" ] && [ "${{ matrix.shard }}" = "0" ]; then
+              python3 pipeline/aktu_pyq_extractor.py --stage embed --db
+              python3 pipeline/aktu_pyq_extractor.py --stage cluster --db
+            fi
+          else
+            PILOT_ARG=""
+            [ "$PILOT" != "0" ] && PILOT_ARG="--pilot $PILOT"
+            python3 pipeline/aktu_pyq_extractor.py \
+              --stage "$STAGE" \
+              --dir "${{ github.event.inputs.pdf_dir || 'corpus/unified' }}" \
+              --manifest "${{ github.event.inputs.manifest || 'data/unified_manifest.csv' }}" \
+              --ai --db --soft-deadline 285 $SHARD_ARGS $PILOT_ARG
           fi
-          python3 pipeline/aktu_pyq_extractor.py \
-            --stage "$STAGE" \
-            --dir "${{ github.event.inputs.pdf_dir || 'corpus/aktuonline3' }}" \
-            --manifest "${{ github.event.inputs.manifest || 'data/aktuonline3_manifest.csv' }}" \
-            --ai --db --soft-deadline 285 $SHARD_ARGS $PILOT
 
   post:
     needs: extract
@@ -174,15 +249,12 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-          STAGE: ${{ github.event.inputs.stage || 'extract' }}
-          PILOT_N: ${{ github.event.inputs.pilot_n || '0' }}
-          PDF_DIR: ${{ github.event.inputs.pdf_dir || 'corpus/aktuonline3' }}
-          ITER: ${{ github.event.inputs.iter || '0' }}
+          PDF_DIR: ${{ github.event.inputs.pdf_dir || 'corpus/unified,corpus/aktuonline3,corpus/aktuonline4' }}
         run: |
-          set -e
           echo "### Extraction Complete" >> $GITHUB_STEP_SUMMARY
-          echo "stage=$STAGE pilot=$PILOT_N" >> $GITHUB_STEP_SUMMARY
-          REMAIN=$(python3 tools/remaining.py --dir "$PDF_DIR")
-          echo "remaining PDFs not complete: $REMAIN (iter $ITER/30)" >> $GITHUB_STEP_SUMMARY
+          echo "extractor=${{ github.event.inputs.extractor || 'v6' }} reprocess=${{ github.event.inputs.reprocess || 'false' }} dry_run=${{ github.event.inputs.dry_run || 'false' }}" >> $GITHUB_STEP_SUMMARY
+          FIRST_DIR="${PDF_DIR%%,*}"
+          REMAIN=$(python3 tools/remaining.py --dir "$FIRST_DIR" 2>/dev/null || echo "n/a (multi-dir)")
+          echo "remaining PDFs not complete in $FIRST_DIR: $REMAIN" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Note:** Automatic re-dispatch is disabled. Manually trigger the next iteration if needed." >> $GITHUB_STEP_SUMMARY
+          echo "**Manual dispatch:** trigger the next iteration from the Actions tab when ready." >> $GITHUB_STEP_SUMMARY
