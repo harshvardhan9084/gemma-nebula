@@ -174,7 +174,7 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
           GEMMA_API_KEYS: ${{ secrets.GEMMA_API_KEYS }}
-          GEMMA_FALLBACK_MODELS: "gemini-3.5-flash-lite,gemini-3.1-flash-lite,gemma-4-26b-a4b-it"
+          GEMMA_FALLBACK_MODELS: "gemini-3.1-flash-lite,gemini-3.5-flash-lite,gemma-4-26b-a4b-it"
         run: |
           set -x
           STAGE="${{ github.event.inputs.stage || 'extract' }}"

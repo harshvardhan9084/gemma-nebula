@@ -559,8 +559,8 @@ def load_models():
     # excluded from the ring until EVERY flash-lite lane is benched, so a
     # 503-overload minute degrades to one extra model instead of stalling.
     default_ladder = (
-        'gemini-3.5-flash-lite,gemini-3.1-flash-lite,'   # lites: RPD 500, 250K TPM
-        'gemma-4-26b-a4b-it')                            # EMERGENCY only
+        'gemini-3.1-flash-lite,gemini-3.5-flash-lite,'   # lites: RPD 500, 250K TPM;
+        'gemma-4-26b-a4b-it')                            # 3.1 first = RPD headroom (owner 2026-10-27)
     models = [m.strip() for m in os.environ.get(
         'GEMMA_FALLBACK_MODELS', default_ladder).split(',') if m.strip()]
     # GEMMA_MODEL stays honored as an extra candidate (never reorders anything)
@@ -663,16 +663,24 @@ class AIRouter:
     """
 
     # smartest-first / volume-first / cheapest-first per call kind
+    # owner directive 2026-10-27 (AI Studio dashboard): 3.1-flash-lite leads
+    # every ladder - RPD headroom 320 (180/500 used) vs 3.5-flash-lite 165
+    # (335/500 used); drain the roomier pool before the tighter one.
     KIND_ORDER = {
         # v5.7: flash-lites lead EVERY kind (owner directive); gemma-26b is the
         # EMERGENCY lane (gated in _ring, last in every order).
-        'repair': ['gemini-3.5-flash-lite', 'gemini-3.1-flash-lite',
+        'repair': ['gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
                    'gemma-4-26b-a4b-it'],
-        'enrich': ['gemini-3.5-flash-lite', 'gemini-3.1-flash-lite',
+        'enrich': ['gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
                    'gemma-4-26b-a4b-it'],
-        'marks':  ['gemini-3.5-flash-lite', 'gemini-3.1-flash-lite',
+        'marks':  ['gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
                    'gemma-4-26b-a4b-it'],
     }
+    # owner directive 2026-10-27: weighted ring - each (model,key) combo of the
+    # roomier-RPD lite appears twice per key, the tighter lite once, so ~2/3 of
+    # first-tries burn 3.1-lite's RPD before 3.5-lite's. A benched combo's
+    # duplicates are bench-filtered in _ring, so adjacency costs nothing.
+    RPD_WEIGHTS = {'gemini-3.1-flash-lite': 2, 'gemini-3.5-flash-lite': 1}
     EMERGENCY = {'gemma-4-26b-a4b-it'}   # only when every lite lane is benched
     BENCH_429_DAY = 24 * 3600     # RPD gone -> hard cap (until-reset wins)
     BENCH_429_MIN = 75            # RPM/TPM -> outlive the per-minute window
@@ -685,7 +693,15 @@ class AIRouter:
     def __init__(self, keys, models):
         self.models = [m for m in models if m]
         self.keys = [k for k in keys if k]
-        self.combos = [(m, k) for m in self.models for k in self.keys]
+        # RPD-headroom weighted ring (owner directive 2026-10-27): higher-RPD
+        # headroom models get more ring slots -> more first-tries per run.
+        # Bench state is keyed by (model, key), so duplicates share benches
+        # and a 429'd lane never double-fires within one walk.
+        self.combos = []
+        for m in self.models:
+            w = self.RPD_WEIGHTS.get(m, 1)
+            for k in self.keys:
+                self.combos.extend([(m, k)] * w)
         self.benched = {}          # (model, key) -> (until_epoch, reason)
         self.model_bench = {}      # v5.8: model -> (until_epoch, reason); 503 is server-side
         self.strikes = {}          # v5.8: model -> consecutive 5xx count (blips hit every
