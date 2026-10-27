@@ -1,4 +1,21 @@
 ---
+Task ID: CRON-V6-20261027 (setup)
+Agent: Super Z (main)
+Task: CEO order 2026-10-27 — "setup a scheduled cron job for interval of 6 hours: audit all stats from all platforms → fix or flag good → run the next jobs on GHA. Start from upcoming 9PM IST. Use the RPM/RPD dashboard to manipulate the round robin, higher RPD models first. Do not launch GHA now. Quality over cost."
+
+Work Log:
+- ROUND-ROBIN MANIPULATED per the AI Studio dashboard (3.1-flash-lite 180/500 RPD used vs 3.5-flash-lite 335/500): KIND_ORDER now leads gemini-3.1-flash-lite on every call kind; NEW RPD_WEIGHTS = {3.1-lite: 2, 3.5-lite: 1} gives a WEIGHTED ring (2:1 first-tries toward the roomier pool); gemma-4-26b stays EMERGENCY-gated (unlocks only when every lite lane benches; its 14.4k RPD remains the safety net). Bench state keyed by (model,key) so duplicate slots are bench-filtered — adjacency costs nothing. Ladder order also swapped in load_models() default + extraction.yml GEMMA_FALLBACK_MODELS env. Verified live with a 3-key test ring (12 entries, 3.1×2/3.5×1/gemma×1 per key, gemma gated). Commit f65b0db pushed to aktu-runner (rebased over my 3c61451+bd29017 after a soft-reset recovery — local tree had drifted).
+- AUDIT-DISPATCH SCRIPT: scripts/v6_cron_cycle.py — self-contained cycle: (1) GHA audit (latest extraction.yml run status/conclusion; cancelled runs treated as neutral, not faults); (2) RAW DB audit (papers/questions deltas vs persisted state, new failed-error signature classes vs known set, unit-400 drain counter, review/complete of new batch); (3) repo audit (local==origin, fix commits present, fix commit time fetched live); (4) gates: run-active → audit only; conclusion bad → FLAG; unit-400 still failed after a POST-fix SUCCESS run → FLAG (pre-fix failures = pending-retry note, not a flag); repo unsynced / new fail class → FLAG; clean → DISPATCH next run (same proven #52 inputs, total_calls=2000, qc_min=10, chunk=2, route=auto) or REPROCESS-MAKE-GREAT when two consecutive clean cycles add zero papers (drain signal; reprocess inputs include corpus/hunt5). DRY=1 env = audit without dispatch. State: scripts/out/v6_cron_state.json + append-only v6_cron_cycles.log.
+- CRON REGISTERED: job id 477668, priority 10, kind=cron "0 0 21,3,9,15 * * ?" tz Asia/Calcutta → fires 21:00 / 03:00 / 09:00 / 15:00 IST (6h cadence), FIRST FIRE today 2026-10-27 21:00 IST (= 15:30 UTC). Payload = full standing order (script path, verdict protocol, quality bar, RPD policy, worklog duty, zero-churn + never-touch-PROD rules, PAT secrecy).
+- INCIDENT (transparent): my first script test ran WITHOUT DRY mode and live-dispatched run 40519857329 (#53) — violating "do not launch gha for now". Cancelled within ~1 minute (cancel 202 ×2, final status completed/cancelled; run died in setup/deps, DB confirmed 0 papers ingested, zero AI calls spent). Hardened: DRY mode added, cancelled-conclusion made neutral, unit-400 gate now only trusts post-fix SUCCESS runs as proof. State reset to pre-incident baseline (papers 9458 / questions 182891 / checked_at 2026-10-26 23:55Z) so the 21:00 fire is cycle #1.
+- NO GHA LAUNCHED otherwise: #52 remains the last real run (365 papers, 7,019 questions). The 69 failed (25 pre-#52 + 44 unit-400) sit in retry queue for the 21:00 dispatch with the unit fix live.
+
+Stage Summary:
+- 6h self-driving loop is live: cron 477668 fires the audit→fix/flag→dispatch cycle from 21:00 IST; each fire audits GHA+RAW+repo, holds on any flag, dispatches only on clean audits; backlog-drain mode auto-transitions to the reprocess make-it-great campaign when the backlog empties.
+- Round-robin now spends 3.1-flash-lite RPD first (2:1 ring weight per owner dashboard), 3.5-lite second, gemma emergency-only — the tighter 3.5 pool drains slower.
+- Zero net GHA launches today beyond the cancelled 1-minute accident; next real run = cron cycle #1 at 21:00 IST.
+
+---
 Task ID: V6-RUN52-REPORT (2026-10-27)
 Agent: Super Z (main)
 Task: CEO request — "Tell me the output and statistics of the Run. To decide next run" — full post-run analysis of V6 dispatch run #52 (40382351405).
