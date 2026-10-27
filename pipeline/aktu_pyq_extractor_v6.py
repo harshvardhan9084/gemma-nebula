@@ -428,7 +428,7 @@ The images are the source of truth when the text layer is garbled (two-column sp
 watermark digits, broken words) - read the images carefully.
 
 Return strict JSON only: {"questions":[{"label":"<as printed: 1,2,3,a,b,c or Q1>","text":"<the question>",
-"marks":<int or null>,"section":"<A/B/C or null>","unit":"<Unit-1 etc or null>",
+"marks":<int or null>,"section":"<A/B/C or null>","unit":<int 1-9 or null>,
 "topic":"<2-6 word syllabus topic or null>","qtype":"theory|numerical|short|mcq|diagram or null",
 "parent":"<label of the parent question for sub-parts, else null>","page":<page no>}]}
 
@@ -536,6 +536,18 @@ def targeted_reextract(router, pdf_path, pages, missing, args):
     return ai.get('questions') or []
 
 
+def unit_int(v):
+    """Coerce AI unit to DB int4: 'Unit-3'/'UNIT 3'/'3'/3 -> 3, junk -> None.
+    questions.unit is integer; raw strings 400 the whole paper (run #52, 44 papers)."""
+    if v is None:
+        return None
+    m = re.search(r'(\d{1,2})', str(v))
+    if not m:
+        return None
+    n = int(m.group(1))
+    return n if 1 <= n <= 9 else None
+
+
 def apply_ai_questions(raw_qs, meta_pages):
     """Normalize AI question dicts -> internal shape (label/text/marks/...)."""
     out = []
@@ -558,7 +570,7 @@ def apply_ai_questions(raw_qs, meta_pages):
         lbl = str(q.get('label') or '').strip()[:8]
         out.append({'label': lbl, 'text': t, 'marks': marks,
                     'section': (str(q.get('section'))[:4] if q.get('section') else None),
-                    'unit': (str(q.get('unit'))[:12] if q.get('unit') else None),
+                    'unit': unit_int(q.get('unit')),
                     'topic': q.get('topic'), 'page': page,
                     'parent': str(q.get('parent') or '').strip()[:8] or None,
                     'has_diagram': False})
@@ -664,7 +676,7 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
         row = {'subject_code': code, 'text': txt, 'text_normalized': norm,
                'question_hash': qh, 'language': 'en',
                'question_type': q.get('question_type') or classify_qtype(q['text'], q.get('has_diagram', False)),
-               'marks': q.get('marks'), 'unit': q.get('unit'),
+               'marks': q.get('marks'), 'unit': unit_int(q.get('unit')),
                'unit_topic': (sanitize_topic_v6(q.get('topic')) if q.get('topic') else None),
                'choice_group': None,
                'has_diagram': bool(q.get('has_diagram')),
