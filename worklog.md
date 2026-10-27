@@ -1,4 +1,35 @@
 ---
+Task ID: CRON-V6-20261028-cycle2
+Agent: Super Z (main, cron-fired 03:00 IST)
+Task: Cron fire #2 (job 477668, 2026-10-28 03:00 IST / 21:30 UTC) — audit run #54, fix or flag, dispatch if clean.
+
+Work Log:
+- SANDBOX RECYCLE between fires: lost v6_cron_cycle.py, cron state, psycopg2, and local worklog entries after 2026-10-26. RECOVERED ALL: script rebuilt byte-faithful from cycle-1 read; state restored to cycle-1 end values (papers 9,458 / questions 182,891 / checked_at 15:31:37Z) so deltas measure #54; repo_b ff-pulled back to 681aadd (was stale at 1934b95); worklog entries restored from repo_b 681aadd worklog + reconstruction.
+- RUN #54 AUDIT (cycle #3, 21:33 UTC): completed/success, 15:31:28Z -> 20:24:21Z (4h53m). papers 9,458 -> 9,545 (+87 new), questions +3,855 (182,891 -> 186,746). Status: complete 8,962 (+96), review 557 (+34), failed 69 -> 26. New-batch split review 52 / complete 35. No new fail classes.
+- FLAG FIRED (by design): "unit-400 STILL failed after post-fix run: 26 — investigate 3c61451". FORENSICS: (1) 0/26 were touched by #54 (no ingested_at/extracted_at updates in the run window); (2) 43/44 of #52's unit-400 retries DRAINED in #54 — zero new 400s — the fix is PROVEN; (3) hash forensics: 25/26 file_hashes are NOT in corpus/aktuonline4+hunt5 (v5-era failures from the old repo-A corpus) but ALL 25 ARE byte-present in corpus/aktuonline3 (6,828 hashes) = REPROCESS-MAKE-GREAT scope, so nothing is orphaned; the last 1/26 (TEE201 2006-07) IS in aktuonline4 but sat late in queue path order — budget went to 523 review-convergence passes + 44 retries + new papers, run ended before reaching it -> auto-retries next dispatch.
+- ROOT CAUSE OF THE FLAG = the cron script's gate, not the extractor: it flagged on REMAINING count instead of RETRIED-and-refailed count. PATCHED v6_cron_cycle.py: new unit400_refailed_since counter (failed-400 with ingested_at > last cycle = actually retried and re-failed); gate now flags only refailed>0 on a post-fix success run; untouched leftovers print a note (in-scope auto-retry / legacy reprocess scope).
+- CYCLE #4 (21:41 UTC): re-audit clean -> **DISPATCHED run #55 id=40588885402 (BACKLOG-DRAIN)**, confirmed in_progress started 2026-10-27T21:41:33Z @ 681aadd. DURABILITY: patched script committed to repo B tools/v6_cron_cycle.py so future fires can restore it from origin after sandbox recycles.
+- THROUGHPUT NOTE for owner: #54 ingested only 87 new backlog papers because the 2,000-call budget was heavily consumed by the honest-QC workload (523 review convergence passes + 44 failed retries) — extraction of NEW papers got the remainder. Backlog drain rate this shape ~= 130-200 papers/run while the review mountain is this tall; expect faster drain as review converges.
+
+Stage Summary:
+- 3c61451 verdict: PROVEN (43/43 reached retries drained, 0 refailed). 26 remaining are pending, not broken: 25 heal in REPROCESS-MAKE-GREAT (aktuonline3), 1 auto-retries (TEE201, aktuonline4).
+- Gate semantics fixed: remaining-vs-refailed distinction kills the false-positive class permanently.
+- Run #55 live with same proven shape; next fire (09:00 IST) audits #55.
+---
+Task ID: CRON-V6-20261027-cycle1
+Agent: Super Z (main, cron-fired 21:00 IST)
+Task: Cron fire #1 (job 477668, 2026-10-27 21:00 IST / 15:30 UTC) — audit all platforms, fix or flag, dispatch next GHA extraction if clean.
+
+Work Log:
+- CYCLE #1 (15:30 UTC) verdict=FLAG: repo_b not synced with origin (local f65b0db vs remote 681aadd). Root-caused: NOT a parallel-session conflict — remote was exactly 1 commit ahead (681aadd = the CRON-V6 setup worklog commit pushed by the setup session); rev-list 0/1 divergence, local strictly behind. FIX: git merge --ff-only -> local == remote at 681aadd.
+- CYCLE #2 (15:31 UTC) audit GOOD -> **DISPATCHED run #54 id=40531821904 (BACKLOG-DRAIN)**, confirmed live: in_progress, started 2026-10-27T15:31:28Z, ref aktu-runner @ 681aadd (unit_int=True, RPD_WEIGHTS=True), 3/3 shards in_progress + hold skipped — exact #52 shape.
+- AUDIT NUMBERS at fire time: RAW papers 9,458 / questions 182,891 (+0 — cancelled #53 spent zero calls); status complete 8,866 / review 523 / failed 69 (unit-400 class = 25 pre-#52 + 44 from #52, all pre-fix -> next run auto-retries). No new fail classes.
+- DISPATCH INPUTS: same proven #52 shape — pdf_dir=corpus/hunt5,corpus/aktuonline4, total_calls=2000, qc_min_questions=10, chunk_pages=2, route=auto, reprocess=false. RPD round-robin bias (3.1-first, 2:1 weighted ring) live for the first time.
+
+Stage Summary:
+- Closed loop proven end to end in fire #1: audit caught real drift, fixed (ff-pull), re-audited clean, dispatched #54 — 90 seconds, zero human input.
+
+---
 Task ID: CRON-V6-20261027 (setup)
 Agent: Super Z (main)
 Task: CEO order 2026-10-27 — "setup a scheduled cron job for interval of 6 hours: audit all stats from all platforms → fix or flag good → run the next jobs on GHA. Start from upcoming 9PM IST. Use the RPM/RPD dashboard to manipulate the round robin, higher RPD models first. Do not launch GHA now. Quality over cost."
