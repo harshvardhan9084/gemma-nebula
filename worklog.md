@@ -1,4 +1,22 @@
 ---
+Task ID: V6-RUN52-REPORT (2026-10-27)
+Agent: Super Z (main)
+Task: CEO request — "Tell me the output and statistics of the Run. To decide next run" — full post-run analysis of V6 dispatch run #52 (40382351405).
+
+Work Log:
+- RUN #52 VERDICT: completed/success, 18:57:24Z -> 23:51:18Z (4h54m), all 3 shards + post green, zero budget stops. Shards exited on the internal ~290-min processing deadline (NOT the call budget: 594+596+608 = 1,798/2,000 spent). Config live in run: models=[gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemma-4-26b-a4b-it], keys=7, combos=21, min_interval=27s, per-shard budget 667, queue 494-495/shard.
+- THROUGHPUT: 365 backlog papers ingested (papers 9,093 -> 9,458), window 18:59:54Z -> 23:50:12Z. New batch: complete 127 (avg 22.9 q), review 194 (avg 23.3 q, parked by QC gate: leaks=1..8, below_parser_outline), failed 44. Route: 214 text-layer / 151 vision-flagged, ALL processed vision-first per v6 trustable mandate. Questions +7,019 (total 182,891), needs_review 4,353 (62% — QC gate honesty), avg extraction_confidence 0.98, marks null 39%. v6 quality lift visible: complete rows q=10-48 vs old weak class 3-9.
+- ROOT-CAUSED THE 44 FAILURES (new bug class, not extraction): PostgREST 400 on questions insert. questions.unit is INTEGER; v6 AI schema asked "unit":"<Unit-1 etc or null>" and apply_ai_questions L561 passed str(q.get('unit'))[:12] raw into int4 -> 22P02 -> whole paper failed (14+13+17 across shards). All 44 subject_codes exist in subjects; marks int-guarded, question_type enum-safe, embedding NULL by design (embed is a later dispatch) — unit was the only unguarded int4. 208 partial-insert occurrence rows stranded (upserts make retry idempotent-safe).
+- FIX SHIPPED: commit 3c61451 on aktu-runner — unit_int() coercion (regex first digit 1-9 or None) applied at BOTH normalize (L573) and push (L679), prompt changed to "unit":<int 1-9 or null>. Syntax-checked, pushed. Next run auto-converts: non-reprocess skips complete only, so 44 failed retry with fix + 194 review get a convergence AI pass + fresh backlog continues.
+- BACKLOG COVERAGE (sha256 of 1,483 corpus files vs DB file_hash, git-archive method): aktuonline4 549 files -> 365 ingested (66%), 184 remaining; hunt5 934 files -> 0 ingested (sorts after corpus/aktuonline4, vision-heavy scans never started). TOTAL: 25% drained, 1,118 remaining. Earlier 1,505 estimate = manifest rows; dir truth is 1,483 (22 purged strays/dupe rows).
+- ECONOMICS: ~25 papers/shard/hour at current mix; 1,118 remaining ≈ 3-4 more dispatches of this shape (hunt5 scans ~4-8 calls/paper vision-heavy). RPD windows real: 3.5-flash k3/k4 benched until 07:05Z during the run; next dispatch starts with fresh daily quota. 2,000-call target is well-matched to the 5h wall (27s x 3 shards x ~5h ≈ 2,300 ceiling) — do not raise.
+
+Stage Summary:
+- Run #52 = first v6 production batch: 365 papers, 7,019 trustable questions, zero churn on existing rows, budget+deadline discipline proven; 44-paper 400 bug root-caused (questions.unit int4) and FIXED in 3c61451 before any re-dispatch.
+- Backlog 25% drained; hunt5 (934 scans) fully queued for next runs; next dispatch needs no input changes — same dirs, same budget; it self-heals 44 + converges 194 review + drains 184 a4 + starts hunt5.
+- Recommendation delivered to CEO: dispatch next run as-is (clean-stop discipline makes repeat dispatches safe), consider a dedicated 2,000-call top-up for the 194 review conversions after backlog drain, embed+cluster dispatch stays separate.
+
+---
 Task ID: 19 (SCOPEPURGE-20261025-1 + UNIFIED-MOVE)
 Agent: Super Z (main)
 Task: CEO order 2026-10-25 — "remove the existence of those 'out of scope courses' from the supabase projects too... delete everything out of scope, not just questions/repeats... delete some very very useless stuff too. move all 2520 PDFs from repo A to repo B at a unified location (not structured for now). and prepare manifests for the next questions extraction."
