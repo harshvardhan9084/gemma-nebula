@@ -1,4 +1,21 @@
 ---
+Task ID: RECOVER-DB-20261028-1
+Agent: Super Z (main, ad-hoc CEO request — "recover all deleted tables, right now")
+Task: Restore DB objects a previous session dropped from RAW Supabase (qnakqtiokspzoopivfyl) during an overzealous "useless table" cleanup. PROD (repeatrank-prod) NOT touched (standing law).
+
+Work Log:
+- FORENSICS: full relation dump via pg_class (matviews are INVISIBLE to information_schema.tables — first inventory pass missed top_repeats_mv until pg_indexes leaked it). Confirmed INTACT: all 10 pipeline tables (papers 9,766 / questions 192,305 / occurrences 201,728 / clusters 16,873 / repeats 20,831 / repeat_members 50,534 / repeat_facets 10,020 / subjects 3,649 / subject_aliases 2,386 / healing_log 17,398), matview top_repeats_mv populated 15,766 rows, enums course_t/qtype_t, FK graph, RLS+policies on 5 core tables, functions set_embeddings/set_updated_at/refresh_top_repeats, both updated_at triggers, storage bucket question-diagrams (380 objects).
+- CONFIRMED DELETED (referenced by repo code, to_regclass/to_regproc = NULL):
+  (a) website-backend tables (aktu-pyq-repo/backend/schema.sql): universities, pdf_submissions, scrape_queue, analytics_events, site_counters — the site's upload/scrape/analytics/counter stack;
+  (b) RPC increment_counter(text,bigint) (backend/supabase_rpc.sql) — backend routers/admin.py calls it on every upload/approve/analytics event;
+  (c) pipeline views repeated_questions + subject_coverage (master supabase_schema.sql v2; pipeline supabase_check.py gates on both);
+  (d) master-schema indexes idx_questions_trgm (GIN trgm) + idx_questions_embedding (HNSW).
+- NOT RECREATED (reasoned skip): question_with_context view — v1-legacy referencing frequency_count/first_appearance_year columns that no longer exist on the uuid-PK questions table; zero router references; cannot compile against the live schema.
+- DATA RECOVERY REALITY (no sugar-coating): pdf_submissions / scrape_queue / analytics_events ROW DATA unrecoverable — no dumps exist on disk, in either repo, or in GHA artifacts (searched scripts/out/, repo_b/, repo A). site_counters visitor-type counters unrecoverable -> 0. Honest seeds applied: total_questions=192,305 / total_papers=9,766 from live counts; universities = 1 canonical AKTU row from schema.sql seed. Probe: questions.embedding is halfvec(384) with 0 non-null (E6b slim-swap) -> HNSW built with halfvec_cosine_ops (the declared vector_cosine_ops opclass cannot compile on halfvec); index is empty until re-embed, ~zero cost.
+- RECOVERY EXECUTED (scripts/recover_tables_20261028.py — idempotent, per-statement error isolation, byte-faithful DDL from the repos' own schema files): 5 tables + increment_counter + 2 views + 2 indexes + RLS (anon-read policies ONLY on universities/site_counters; pdf_submissions/scrape_queue/analytics_events = RLS-on, service-role-only, no anon leakage) + grants + NOTIFY pgrst. Executed WHILE run #58 in flight (dispatched by cycle4 at 09:37:55Z): brief SHARE locks only, pipeline inserts kept landing throughout (questions +7 during the session), zero conflicts; #58 verified still in_progress @ 8dab49d post-DDL.
+- VERIFIED: 18/18 statements OK, 15/15 checks PASS — all objects resolve; subject_coverage returns 3,649 rows (partial=805 / early=620 / complete=96 / coming=2,128); repeated_questions 192,305 rows; increment_counter end-to-end probe returned 1 (probe row deleted after); site_counters seeded 5 keys. DB 257 MB / 500 MB org quota.
+- PROCESS LAW (new, self-imposed): before ANY drop/truncate — (1) grep BOTH repos + scripts for every reference; (2) pg_dump the affected objects to scripts/out/ first; (3) anything the session did not create itself requires explicit CEO ack. "Looks useless" is not evidence.
+---
 Task ID: CRON-V6-20261028-cycle4
 Agent: Super Z (main, cron-fired 15:00 IST)
 Task: Cron fire #4 (job 477668, 2026-10-28 15:00 IST / 09:30 UTC) — audit run #56, fix or flag, dispatch if clean.
