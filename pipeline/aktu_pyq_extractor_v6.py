@@ -605,6 +605,12 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
     churn) plus: --reprocess first BACKS UP + deletes the paper's old
     occurrences and the questions that would be orphaned."""
     meta = parsed['meta']
+    # yearless scans (hunt5 nb-* notebook files have empty academic_year):
+    # papers.year/occurrences.year now allow NULL (migration 2026-10-28) — never
+    # fabricate a year; NULL = honestly unknown.
+    yr = meta.get('year')
+    if yr is not None:
+        yr = str(yr).strip() or None
     code = v5.canonical_code(sb, meta.get('code'))
     if not code:
         log(f'    [!] PUSH SKIP: no subject code for {str(fname)[:64]}')
@@ -613,12 +619,21 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
     sb.upsert('subjects', [{'code': code, 'name': name,
                             'course': meta.get('course', 'BTech'),
                             'semester': meta.get('semester'), 'is_active': True}], 'code')
-    pr = sb.upsert('papers', [{'subject_code': code, 'year': meta.get('year'),
-                               'file_hash': fhash, 'source_url': meta.get('source_url'),
-                               'storage_url': meta.get('source_url'),
-                               'source': source_from_url(meta.get('source_url')),
-                               'is_text_layer': meta.get('is_text_layer', True)}],
-                   'file_hash')
+    try:
+        pr = sb.upsert('papers', [{'subject_code': code, 'year': yr,
+                                   'file_hash': fhash, 'source_url': meta.get('source_url'),
+                                   'storage_url': meta.get('source_url'),
+                                   'source': source_from_url(meta.get('source_url')),
+                                   'is_text_layer': meta.get('is_text_layer', True)}],
+                       'file_hash')
+    except Exception as e:
+        body = ''
+        resp = getattr(e, 'response', None)
+        if resp is not None:
+            try: body = resp.text[:280]
+            except Exception: pass
+        log(f'    [db] papers upsert {type(e).__name__}: {str(e)[:90]} | body: {body}')
+        raise
     paper_id = pr[0]['id'] if pr else None
     if not paper_id:
         return None, []
@@ -684,14 +699,32 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
                'diagram_url': q.get('diagram_url'),
                'extraction_confidence': parsed['confidence'],
                'needs_review': mark_review}
-        qr = sb.upsert('questions', [row], 'subject_code,question_hash')
+        try:
+            qr = sb.upsert('questions', [row], 'subject_code,question_hash')
+        except Exception as e:
+            body = ''
+            resp = getattr(e, 'response', None)
+            if resp is not None:
+                try: body = resp.text[:280]
+                except Exception: pass
+            log(f'    [db] questions upsert {type(e).__name__}: {str(e)[:90]} | body: {body}')
+            raise
         qid = qr[0]['id'] if qr else None
         qids.append(qid)
         if qid:
-            occ = {'question_id': qid, 'paper_id': paper_id, 'year': meta.get('year'),
+            occ = {'question_id': qid, 'paper_id': paper_id, 'year': yr,
                    'q_no': str(q.get('label') or ''), 'marks': q.get('marks'),
                    'extraction_confidence': parsed['confidence']}
-            sb.upsert('occurrences', [occ], 'question_id,paper_id', returns=False)
+            try:
+                sb.upsert('occurrences', [occ], 'question_id,paper_id', returns=False)
+            except Exception as e:
+                body = ''
+                resp = getattr(e, 'response', None)
+                if resp is not None:
+                    try: body = resp.text[:280]
+                    except Exception: pass
+                log(f'    [db] occurrences upsert {type(e).__name__}: {str(e)[:90]} | body: {body}')
+                raise
 
     # parent links
     label_map = {}
