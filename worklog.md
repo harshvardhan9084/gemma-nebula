@@ -1,4 +1,22 @@
 ---
+Task ID: CRON-V6-20261028-cycle4
+Agent: Super Z (main, cron-fired 15:00 IST)
+Task: Cron fire #4 (job 477668, 2026-10-28 15:00 IST / 09:30 UTC) — audit run #56, fix or flag, dispatch if clean.
+
+Work Log:
+- NO recycle this fire (fastest cycle yet). psycopg2 reinstalled only.
+- RUN #56 AUDIT (cycle #6, 09:30 UTC): completed/success. papers 9,670 -> 9,766 (+96), questions +2,113 (192,141). complete 9,113 / review 627 / failed 26. Audit GOOD on DB numbers -> dispatched #57 — but then the anomaly hunt began: failed went 25 -> 26 (+1) while refailed_since=0.
+- ANOMALY ROOT-CAUSED — **INVISIBLE FAILURE CLASS DISCOVERED**: GHA shard logs show #56 actually FAILED 27 papers, but only 1 (TME101, questions-endpoint 400) is visible in DB. The other 26: ALL `nb-*` hunt5 notebook scans failing on the **papers-endpoint upsert** with NO DB ROW EVER CREATED — invisible to every DB-side audit (failed count, fail-classes, refailed-gate all blind). The run's own log is the only witness ("[96/387] FAILED ... rest/v1/pa | nb-bas103-...").
+- ROOT CAUSE: `papers.year` is NOT NULL; hunt5's 923 `nb-*` manifest rows have EMPTY academic_year (`BTECH,,,BAS103,...`) -> meta year=None -> papers upsert 400 (Postgres 23502) BEFORE row creation. `occurrences.year` has the same trap one stage later. Impact exposure: **923 of 934 hunt5 files are nb-* scans** — the whole remaining notebook block would have failed invisibly run after run, burning vision AI calls for zero rows.
+- ACTIONS TAKEN: (1) **CANCELLED run #57 in-flight** (was ~30 min in, running the broken code against the nb block; 202-confirmed; its partial upserts are idempotent, questions +4 landed safely). (2) **MIGRATION**: `ALTER TABLE papers/occurrences ALTER COLUMN year DROP NOT NULL` + pgrst reload — NULL = honestly unknown year for yearless scans, zero row churn, product layer untouched (facets only rebuild later, NULL-tolerant by design; file_hash UNIQUE still dedupes). (3) **EXTRACTOR PATCH** (commit 8dab49d): yr normalization (''/whitespace -> None, never fabricate a year), error-body logging (response.text[:280]) on papers/questions/occurrences upserts — failures stop being invisible AND become diagnosable (TME101's questions-400 body will print on its next retry). (4) **CRON SCRIPT v3**: invisible-failure detector (fetch shard logs, extract FAILED filenames, check DB for their rows — flags invisible count with samples; skips cancelled runs + acked runs via state.invisible_ack), and the new-fail-class detector rewritten against a persisted class baseline (the old ingested_at-window version was provably blind — the failure path never updates row timestamps, verified via TME101's #56 timeline).
+- CYCLE #7: re-audit clean -> **DISPATCHED run #58 id=40665748913 (BACKLOG-DRAIN)**, confirmed in_progress 09:37:55Z @ 8dab49d, 3 shards up. Verified: fix commit present, repo synced, invisible_ack seeded for #56.
+- NUMBERS CORRECTED FOR OWNER: #56's true failure = 27 (26 invisible nb-* + 1 TME101), not 1. #54/#55 earlier runs may carry a small invisible tail too (nb-* files sit LATE in path order — they were mostly unreached before #56; no evidence of earlier invisible failures in #52/#54 logs reviewed so far).
+
+Stage Summary:
+- The audit loop's biggest blind spot found and closed: DB-only auditing cannot see papers whose FIRST write fails — the run log is the ground truth for failure counting. Cron v3 now reads both.
+- 923 nb-* notebook scans UNLOCKED: with year nullable they can finally land (year=NULL honestly marks exam-session unknown). Next fire audits #58 — expectation: first nb-* rows appear (papers with nb- storage_url > 0), zero invisible failures in the detector.
+- Quality bar held: no QC lowered, no data fabricated (NULL year instead of fake year), 923 real papers rescued from silent quota waste.
+---
 Task ID: CRON-V6-20261028-cycle3
 Agent: Super Z (main, cron-fired 09:00 IST)
 Task: Cron fire #3 (job 477668, 2026-10-28 09:00 IST / 03:30 UTC) — audit run #55, fix or flag, dispatch if clean.
