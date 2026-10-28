@@ -1,4 +1,17 @@
 ---
+Task ID: CRON-V6-20261028-cycle8
+Agent: Super Z (cron fire 2026-10-28 23:30:01 +08 — audit-and-dispatch, Job ID 477668)
+Task: V6 cron cycle #8 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
+
+Work Log:
+- SANDBOX RECYCLE recovered first: psycopg2-binary 2.9.13 reinstalled; v6_cron_state.json survived recycle (cycles=7); repo_b fetched — in sync with origin/aktu-runner @ 705642c (two pre-existing local workflow mods left untouched, not ours to discard).
+- AUDIT GHA: latest run #58 (id 40665748913) completed/SUCCESS (started 2026-10-28T09:37:55Z) — the cycle4 nb-* extractor-patch run (8dab49d) finished clean; prior #57 cancelled, #56 success.
+- AUDIT RAW deltas since cycle7: papers 9,851 (+85), questions 193,786 (+1,641). Status: complete 9,167 / failed 25 / review 659. unit-400 failed remaining: 25 — but 0 retried-and-refailed in this window (fix 3c61451 not disproven); in-scope failures auto-retry on next dispatch, legacy ones belong to the reprocess campaign scope.
+- REPO SYNC: local 705642c = origin/aktu-runner, unit_fix=True, rpd_bias=True (fix committed 2026-10-27T06:37:04Z).
+- DECIDE: audit GOOD → DISPATCHED run id 40716959767 mode=BACKLOG-DRAIN; CONFIRMED started: status in_progress, run_started_at 2026-10-28T15:32:17Z, head 705642c, extraction.yml workflow_dispatch. Single-run law respected (#58 already finished before dispatch).
+- ADMIN STORE check-in (owner order #2 follow-through): scripts/admin_store_backup.py snapshot 20261028T153337Z — all 8 admin_* tables present and intact on RAW, rows=0 each (RepeatRank app has not re-seeded yet; expected — app re-seeds settings and resumes events/feedback via upserts on its next app-side run). Snapshots kept under scripts/out/ (30-deep retention) will capture the re-seed automatically on future fires; no action needed.
+- Zero-churn law intact: audit + dispatch only, no data mutations on RAW this cycle (the one RPC probe row pattern from RECOVER-DB-20261028-1 not needed — no recovery work this fire).
+---
 Task ID: RECOVER-DB-20261028-2
 Agent: Super Z (main, ad-hoc CEO follow-up — "admin_* tables: need them WITH data again")
 Task: Identify + restore the deleted RepeatRank admin store group (8 `admin_*` tables) on RAW, with data if any source still holds it. PROD touched READ-ONLY (introspection; store never existed there) — zero PROD writes, standing law intact.
