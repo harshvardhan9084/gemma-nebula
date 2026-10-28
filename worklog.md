@@ -1,4 +1,19 @@
 ---
+Task ID: CRON-V6-20261028-cycle3
+Agent: Super Z (main, cron-fired 09:00 IST)
+Task: Cron fire #3 (job 477668, 2026-10-28 09:00 IST / 03:30 UTC) — audit run #55, fix or flag, dispatch if clean.
+
+Work Log:
+- SANDBOX RECYCLED AGAIN between fires (2nd time): script/state/deps lost. RECOVERY NOW ~1 MINUTE thanks to fire-#2's durability push: repo_b ff to origin 9f381f9 -> cp tools/v6_cron_cycle.py -> state JSON rebuilt from cycle-4 end values -> psycopg2 reinstalled. The recycle-resilience design works.
+- RUN #55 AUDIT (cycle #5, 03:31 UTC): completed/success, 21:41:33Z -> 02:31:05Z (4h50m). papers 9,545 -> 9,670 (+125 new), questions +3,282 (186,746 -> 190,028). Status: complete 9,049 (+87), review 596 (+39), failed 26 -> 25. New-batch split review 68 / complete 57. No new fail classes. Unit-400: 25 remaining, 0 retried-and-refailed — the refailed-gate note printed correctly (25 = the known legacy aktuonline3 batch, REPROCESS-MAKE-GREAT scope; TEE201, the last in-scope one, DRAINED in #55 exactly as predicted).
+- CYCLE #5 verdict: audit GOOD -> **DISPATCHED run #56 id=40627200524 (BACKLOG-DRAIN)**, confirmed in_progress started 2026-10-28T03:31:44Z @ 9f381f9, 3-shard shape assumed (same inputs: hunt5+aktuonline4, total_calls=2000, qc_min=10, chunk=2, route=auto).
+- TREND: two consecutive v6 runs now (+87 then +125 new papers, +3,855 then +3,282 questions) — throughput improving as the review mountain shrinks (review 523 -> 557 -> 596 though; convergence passes still eating budget: review keeps growing because each run's honest QC parks more new papers in review than it converts).
+
+Stage Summary:
+- Loop is stable: 3 fires, 3 dispatches (#54/#55/#56), zero false flags after the gate fix, zero quality-bar compromises. Backlog drain: 9458 -> 9545 -> 9670 (a4+hunt5 remaining ~= 1,118 - 87 - 125 = ~906).
+- The 25 legacy unit-400 failures remain parked for the REPROCESS-MAKE-GREAT campaign (aktuonline3 scope) — the script auto-transitions when backlog drain stalls (zero_delta_streak >= 2).
+- Next fire (15:00 IST) audits #56; watch for the review-mountain plateau — if review keeps growing while new-paper drain stays ~100/run, the post-drain reprocess campaign becomes the priority.
+---
 Task ID: CRON-V6-20261028-cycle2
 Agent: Super Z (main, cron-fired 03:00 IST)
 Task: Cron fire #2 (job 477668, 2026-10-28 03:00 IST / 21:30 UTC) — audit run #54, fix or flag, dispatch if clean.
