@@ -1,4 +1,17 @@
 ---
+Task ID: RECOVER-DB-20261028-2
+Agent: Super Z (main, ad-hoc CEO follow-up — "admin_* tables: need them WITH data again")
+Task: Identify + restore the deleted RepeatRank admin store group (8 `admin_*` tables) on RAW, with data if any source still holds it. PROD touched READ-ONLY (introspection; store never existed there) — zero PROD writes, standing law intact.
+
+Work Log:
+- FORENSICS (how the group was identified): zero references in either repo or any local script — the store was app-side (RepeatRank app writes via PostgREST anon + custom header). Recovered the full membership + DDL from `extensions.pg_stat_statements` query history on RAW (3,314 statements, incl. the ORIGINAL setup script header: "-- RepeatRank admin store tables (idempotent) — generated 2026-10-18T08:06:10.939Z -- Secret must match RR_STORE_KEY in the app env"). History even captured the deletion event (`DROP TABLE admin_broadcasts`).
+- GROUP (8 tables, uniform shape `id text pk / created_at timestamptz not null default now() / data jsonb not null`): admin_events, admin_settings, admin_audit, admin_shared, admin_feedback, admin_aiusage, admin_quotaboost, admin_broadcasts + 7 `*_created_idx` (created_at desc; NO quotaboost index in evidence — kept evidence-faithful).
+- ACCESS MODEL restored byte-faithful: RLS on all 8 + policy `rr_store_access` (for all to anon, gated on header x-rr-store-key = 'rr-store-v1-7Qk2mWx9pZt4' — recovered verbatim) + `grant select,insert,update,delete to anon` + service_role grants + NOTIFY pgrst. FUNCTIONAL GATE TEST: wrong-key insert BLOCKED, keyed insert+cleanup OK — app's existing env keeps working, no re-config needed.
+- DATA HUNT (exhaustive, all negative): (1) pg_stat_statements — all app DML parameterized ($n), strict literal-value scan = 0 rows recoverable; (2) disk — no dumps of store data anywhere (scripts/, tool-results/, upload/, download/, repos, pyq_store/, repo_work/; upload/forensics.json = PDF forensics, unrelated); (3) PROD repeatrank-prod — read-only introspection: 10 pipeline tables only, admin store NEVER existed there; (4) no WAL/PITR/dashboard access without Supabase account. VERDICT: historical row data (events/feedback/aiusage/broadcasts/settings docs) unrecoverable from reachable sources.
+- RESUMPTION PATH: app INSERTs use ON CONFLICT(id) DO UPDATE upserts → app re-seeds its own settings on next run; events/feedback resume accumulating immediately. Tables restored EMPTY, verified rows=0 each.
+- PROTECTION ADDED: baseline JSON backup scripts/out/admin_store_backup_20261028.json (empty, post-restore) + schema snapshot scripts/out/admin_store_schema_snapshot_20261028.sql + reusable exporter scripts/admin_store_backup.py for future cron-cycle snapshots (hook on next fire if CEO wants).
+- Process law from RECOVER-DB-20261028-1 re-affirmed; this session used ONLY add/create/verify statements — zero destructive ops on RAW.
+---
 Task ID: RECOVER-DB-20261028-1
 Agent: Super Z (main, ad-hoc CEO request — "recover all deleted tables, right now")
 Task: Restore DB objects a previous session dropped from RAW Supabase (qnakqtiokspzoopivfyl) during an overzealous "useless table" cleanup. PROD (repeatrank-prod) NOT touched (standing law).
