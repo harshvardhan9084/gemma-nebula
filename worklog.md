@@ -1,4 +1,18 @@
 ---
+Task ID: CRON-V6-20261029-cycle8
+Agent: Super Z (cron fire 2026-10-29 11:30:01 +08 / 03:30 UTC — audit-and-dispatch, Job ID 477668)
+Task: V6 cron cycle (9th fire; script prints #8 — see recycle note) — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
+
+Work Log:
+- SANDBOX RECYCLE recovered first: psycopg2-binary 2.9.13 reinstalled; v6_cron_state.json was ROLLED BACK to the cycle-7 snapshot by the recycle (cycles=7, pre-15:32Z baselines) — script therefore re-printed "CYCLE #8" and recomputed deltas against the Oct-28-09:38 baseline. repo_b local had lost the pushed worklog commit — fetch + ff-only restored fa7018c. Known local workflow mods (keyprobe.yml, scrape.yml) left untouched.
+- AUDIT GHA: run #59 (id 40716959767 — dispatched by previous fire) completed/SUCCESS; prior #58 success, #57 cancelled. Run #58's nb-* patch (8dab49d) holding across two consecutive clean runs.
+- AUDIT RAW (vs rolled-back baseline; real deltas vs cycle-8 audit in parens): papers 9,851 (+85; real +0), questions 194,487 (+2,342; real +701). Status: complete 9,187 / review 638 / failed 26 — run #59 processed ~21 review papers: +20 complete, −21 review, +1 failed.
+- FAILURE CLASSES (read-only probe): all 26 failed papers = ONE known class, "400 Client Error: Bad Request .../rest/v1/questions?on_conflict=" (unit-400 upsert family). No new error classes. Newest failure 45ac24cb: ingested Oct-26 19:32Z, extracted_at Oct-28 09:51:58Z (run #58 window), transitioned review→failed during run #59's processing.
+- METRIC BLIND SPOT (honest note for future cycles): the script's "retried-and-refailed" check keys on ingested_at > since — a previously-ingested paper that transitions review→failed on retry keeps its old ingested_at and is NOT counted as refailed. "0 retried-and-refailed" is true per the metric's definition (no newly-ingested paper 400'd) but one legacy paper did re-fail via the review path this window. Fix 3c61451 not disproven (its scope is the ingestion path); these 26 remain reprocess-campaign scope per script note.
+- REPO SYNC: local fa7018c = origin/aktu-runner, unit_fix=True, rpd_bias=True.
+- DECIDE: audit GOOD → DISPATCHED run id 40812592291 (run_number #60) mode=BACKLOG-DRAIN; CONFIRMED started: status in_progress, run_started_at 2026-10-29T03:31:09Z, head fa7018c, extraction.yml workflow_dispatch. Single-run law respected (#59 long finished before dispatch).
+- Zero-churn law intact: read-only probes only; no data mutations on RAW this fire.
+---
 Task ID: CRON-V6-20261028-cycle8
 Agent: Super Z (cron fire 2026-10-28 23:30:01 +08 — audit-and-dispatch, Job ID 477668)
 Task: V6 cron cycle #8 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
