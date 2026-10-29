@@ -1,4 +1,17 @@
 ---
+Task ID: CRON-V6-20261029-cycle9
+Agent: Super Z (cron fire 2026-10-29 21:31:00 +08 / 13:31 UTC — audit-and-dispatch, Job ID 477668)
+Task: V6 cron cycle #9 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
+
+Work Log:
+- SANDBOX RECYCLE recovered first: psycopg2-binary 2.9.13 reinstalled. State file survived INTACT this time (cycles=8, last_run_id=40812592291, checked_at 03:31:18Z) — no rollback, deltas trustworthy. repo_b already at e7dd13c, in sync with origin (known local workflow mods left untouched).
+- AUDIT GHA: run #60 (id 40812592291 — dispatched by 03:30Z fire) completed/SUCCESS. Three consecutive clean runs (#58/#59/#60) on the current fix stack (8dab49d + 3c61451 + f65b0db).
+- AUDIT RAW: papers 9,966 (+115), questions 196,565 (+2,078). Status: complete 9,271 / review 670 / failed 25. Run #60 flow: new batch split 58 complete / 57 review; ~26 legacy review papers processed to complete; failed 26 → 25 (no new failures).
+- FAILURE CLASSES (read-only probe): all 25 failed papers = the single known unit-400 class ("400 Client Error .../rest/v1/questions?on_conflict="). None newly ingested. Notably 45ac24cb — the paper that 400'd during run #59 and motivated last cycle's blind-spot note — RECOVERED on retry during run #60 (out of failed set; extracted_at unchanged Sep-28-era neighbors now top the list). Retry path demonstrably drains this class.
+- REPO SYNC: local e7dd13c = origin/aktu-runner, unit_fix=True, rpd_bias=True.
+- DECIDE: audit GOOD → DISPATCHED run id 40882724113 (run_number #61) mode=BACKLOG-DRAIN; CONFIRMED started: status in_progress, run_started_at 2026-10-29T13:31:33Z, head e7dd13c, extraction.yml workflow_dispatch. Single-run law respected (#60 finished before dispatch).
+- Zero-churn law intact: read-only probes only; no data mutations on RAW this fire.
+---
 Task ID: CRON-V6-20261029-cycle8
 Agent: Super Z (cron fire 2026-10-29 11:30:01 +08 / 03:30 UTC — audit-and-dispatch, Job ID 477668)
 Task: V6 cron cycle (9th fire; script prints #8 — see recycle note) — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
