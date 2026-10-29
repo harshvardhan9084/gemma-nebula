@@ -1,4 +1,17 @@
 ---
+Task ID: CRON-V6-20261030-cycle10
+Agent: Super Z (cron fire 2026-10-30 05:30:01 +08 / 2026-10-29 21:30 UTC — audit-and-dispatch, Job ID 477668)
+Task: V6 cron cycle #10 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
+
+Work Log:
+- SANDBOX RECYCLE recovered first: psycopg2-binary 2.9.13 reinstalled. State survived INTACT (cycles=9, last_run_id=40882724113, checked_at 13:31:42Z) — no rollback, deltas trustworthy. repo_b already at ba2e3be, in sync with origin (known local workflow mods left untouched).
+- AUDIT GHA: run #61 (id 40882724113 — dispatched by 13:31Z fire) completed/SUCCESS. FOUR consecutive clean runs (#58/#59/#60/#61) on the current fix stack (8dab49d + 3c61451 + f65b0db).
+- AUDIT RAW: papers 9,966 (+0 — no new source papers this window), questions 197,206 (+641). Status: complete 9,284 / review 657 / failed 25. Run #61 flow: zero new-batch papers; 13 legacy review papers processed to complete (670→657 review, 9271→9284 complete); no new failures.
+- FAILURE CLASSES (read-only probe): unchanged — all 25 failed papers = the single known unit-400 class ("400 Client Error .../rest/v1/questions?on_conflict="). No new classes. Unit-400 set stable at 25; retry path demonstrated draining capability in cycle #9 (45ac24cb recovery); full drain of the legacy remainder remains reprocess-campaign scope.
+- REPO SYNC: local ba2e3be = origin/aktu-runner, unit_fix=True, rpd_bias=True.
+- DECIDE: audit GOOD → DISPATCHED run id 40958415297 (run_number #62) mode=BACKLOG-DRAIN; CONFIRMED started: status in_progress, run_started_at 2026-10-29T21:30:49Z, head ba2e3be, extraction.yml workflow_dispatch. Single-run law respected (#61 finished before dispatch).
+- Zero-churn law intact: read-only probes only; no data mutations on RAW this fire.
+---
 Task ID: CRON-V6-20261029-cycle9
 Agent: Super Z (cron fire 2026-10-29 21:31:00 +08 / 13:31 UTC — audit-and-dispatch, Job ID 477668)
 Task: V6 cron cycle #9 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
