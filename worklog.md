@@ -1,4 +1,17 @@
 ---
+Task ID: CRON-V6-20261031-cycle14
+Agent: Super Z (cron fire 2026-10-31 05:30:00 +08 / 2026-10-30 21:30 UTC — audit-and-dispatch, Job ID 477668)
+Task: V6 cron cycle #14 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
+
+Work Log:
+- SANDBOX RECYCLE recovered first: psycopg2-binary 2.9.13 reinstalled. State survived INTACT (cycles=13, last_run_id=41081395060, checked_at 15:30:59Z) — no rollback. repo_b already at d79255b, in sync with origin (known local workflow mods left untouched).
+- AUDIT GHA: run #65 (id 41081395060 — dispatched by 15:30Z fire) completed/SUCCESS. EIGHT consecutive clean runs (#58–#65) on the current fix stack (8dab49d + 3c61451 + f65b0db).
+- AUDIT RAW: papers 10,256 (+45), questions 202,392 (+892). Status: complete 9,525 / review 706 / failed 25. Run #65 flow: new batch 38 complete / 7 review; ~14 legacy review papers processed to complete; no new failures. Review backlog NET DECREASED for the first time since tracking (713→706) — drain rate now exceeds new-batch inflow.
+- FAILURE CLASSES (read-only probe): unchanged — all 25 failed papers = the single known unit-400 class ("400 Client Error .../rest/v1/questions?on_conflict="). No new classes; set stable at 25, legacy drain remains reprocess-campaign scope.
+- REPO SYNC: local d79255b = origin/aktu-runner, unit_fix=True, rpd_bias=True.
+- DECIDE: audit GOOD → DISPATCHED run id 41131608224 (run_number #66) mode=BACKLOG-DRAIN; CONFIRMED started: status in_progress, run_started_at 2026-10-30T21:30:58Z, head d79255b, extraction.yml workflow_dispatch. Single-run law respected (#65 finished before dispatch).
+- Zero-churn law intact: read-only probes only; no data mutations on RAW this fire.
+---
 Task ID: CRON-V6-20261030-cycle13
 Agent: Super Z (cron fire 2026-10-30 23:30:02 +08 / 15:30 UTC — audit-and-dispatch, Job ID 477668)
 Task: V6 cron cycle #13 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
