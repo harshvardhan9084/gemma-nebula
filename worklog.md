@@ -1,4 +1,17 @@
 ---
+Task ID: CRON-V6-20261101-cycle19
+Agent: Super Z (cron fire 2026-11-01 17:30:00 +08 / 09:30 UTC — audit-and-dispatch, Job ID 477668)
+Task: V6 cron cycle #19 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
+
+Work Log:
+- SANDBOX RECYCLE recovered first: psycopg2-binary 2.9.13 reinstalled. State survived INTACT (cycles=18, last_run_id=41269492355, checked_at 03:31:10Z) — no rollback. repo_b already at a86973f, in sync with origin (known local workflow mods left untouched).
+- AUDIT GHA: run #70 (id 41269492355 — dispatched by 03:30Z fire) completed/SUCCESS. THIRTEEN consecutive clean runs (#58–#70) on the current fix stack (8dab49d + 3c61451 + f65b0db).
+- AUDIT RAW: papers 10,446 (+0 — no new source papers this window), questions 206,850 (+368). Status: complete 9,703 / review 718 / failed 25. Run #70 flow: zero new-batch papers; pure backlog drain — 9 legacy review papers processed to complete (727→718 review); no new failures.
+- FAILURE CLASSES (read-only probe): unchanged — all 25 failed papers = the single known unit-400 class ("400 Client Error .../rest/v1/questions?on_conflict="). No new classes; residual set stable at 25, reprocess-campaign scope.
+- REPO SYNC: local a86973f = origin/aktu-runner, unit_fix=True, rpd_bias=True.
+- DECIDE: audit GOOD → DISPATCHED run id 41293463648 (run_number #71) mode=BACKLOG-DRAIN; CONFIRMED registered: status queued at 09:30:58Z (runner pickup pending — normal transient GHA state), head a86973f, extraction.yml workflow_dispatch. Single-run law respected (#70 finished before dispatch).
+- Zero-churn law intact: read-only probes only; no data mutations on RAW this fire.
+---
 Task ID: CRON-V6-20261101-cycle18
 Agent: Super Z (cron fire 2026-11-01 11:30:01 +08 / 03:30 UTC — audit-and-dispatch, Job ID 477668)
 Task: V6 cron cycle #18 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
