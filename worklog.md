@@ -1,4 +1,17 @@
 ---
+Task ID: CRON-V6-20261101-cycle20
+Agent: Super Z (cron fire 2026-11-01 23:30:00 +08 / 15:30 UTC — audit-and-dispatch, Job ID 477668)
+Task: V6 cron cycle #20 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
+
+Work Log:
+- SANDBOX RECYCLE recovered first: psycopg2-binary 2.9.13 reinstalled. State survived INTACT (cycles=19, last_run_id=41293463648, checked_at 09:31:07Z) — no rollback. repo_b already at 0e7c48d, in sync with origin (known local workflow mods left untouched).
+- AUDIT GHA: run #71 (id 41293463648 — dispatched by 09:30Z fire; had been queued at registration) completed/SUCCESS. FOURTEEN consecutive clean runs (#58–#71) on the current fix stack (8dab49d + 3c61451 + f65b0db).
+- AUDIT RAW: papers 10,501 (+55), questions 207,945 (+1,095). Status: complete 9,745 / review 731 / failed 25. Run #71 flow: new batch 32 complete / 23 review; ~10 legacy review papers processed to complete; no new failures.
+- FAILURE CLASSES (read-only probe): unchanged — all 25 failed papers = the single known unit-400 class ("400 Client Error .../rest/v1/questions?on_conflict="). No new classes; residual set stable at 25, reprocess-campaign scope.
+- REPO SYNC: local 0e7c48d = origin/aktu-runner, unit_fix=True, rpd_bias=True.
+- DECIDE: audit GOOD → DISPATCHED run id 41321635852 (run_number #72) mode=BACKLOG-DRAIN; CONFIRMED started: status in_progress, run_started_at 2026-11-01T15:31:16Z, head 0e7c48d, extraction.yml workflow_dispatch. Single-run law respected (#71 finished before dispatch).
+- Zero-churn law intact: read-only probes only; no data mutations on RAW this fire.
+---
 Task ID: CRON-V6-20261101-cycle19
 Agent: Super Z (cron fire 2026-11-01 17:30:00 +08 / 09:30 UTC — audit-and-dispatch, Job ID 477668)
 Task: V6 cron cycle #19 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
