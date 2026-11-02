@@ -1,4 +1,17 @@
 ---
+Task ID: CRON-V6-20261102-cycle21
+Agent: Super Z (cron fire 2026-11-02 11:30:01 +08 / 03:30 UTC — audit-and-dispatch, Job ID 477668)
+Task: V6 cron cycle #21 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
+
+Work Log:
+- SANDBOX RECYCLE recovered first: psycopg2-binary 2.9.13 reinstalled. State survived INTACT (cycles=20, last_run_id=41321635852, checked_at 15:31:25Z) — no rollback. repo_b already at b7e6ee5, in sync with origin (known local workflow mods left untouched).
+- AUDIT GHA: run #72 (id 41321635852 — dispatched by 15:30Z fire) completed/SUCCESS. FIFTEEN consecutive clean runs (#58–#72) on the current fix stack (8dab49d + 3c61451 + f65b0db).
+- AUDIT RAW: papers 10,517 (+16), questions 208,424 (+479). Status: complete 9,762 / review 729 / failed 26 (+1). Run #72 flow: new batch 8 complete / 8 review; ~10 legacy review papers processed (9 to complete); no new failure classes.
+- FAILURE CLASSES (read-only probe): all 26 failed papers = the single known unit-400 class ("400 Client Error .../rest/v1/questions?on_conflict="). The +1 (23f2c11e) is an Oct-26-ingested LEGACY paper that transitioned review→failed during run #71's window (extracted_at Nov-01 10:31Z) — the known metric blind spot (old ingested_at escapes the refailed check), NOT a new class, NOT fix regression. Same transient pattern that has repeatedly self-recovered on retry (45ac24cb cycle #9, 486756cf/fdc10117 cycle #17). Reprocess-campaign scope.
+- REPO SYNC: local b7e6ee5 = origin/aktu-runner, unit_fix=True, rpd_bias=True.
+- DECIDE: audit GOOD → DISPATCHED run id 41383531607 (run_number #73) mode=BACKLOG-DRAIN; CONFIRMED started: status in_progress, run_started_at 2026-11-02T03:31:06Z, head b7e6ee5, extraction.yml workflow_dispatch. Single-run law respected (#72 finished before dispatch).
+- Zero-churn law intact: read-only probes only; no data mutations on RAW this fire.
+---
 Task ID: CRON-V6-20261101-cycle20
 Agent: Super Z (cron fire 2026-11-01 23:30:00 +08 / 15:30 UTC — audit-and-dispatch, Job ID 477668)
 Task: V6 cron cycle #20 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
