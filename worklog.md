@@ -1,4 +1,17 @@
 ---
+Task ID: CRON-V6-20261103-cycle22
+Agent: Super Z (cron fire 2026-11-03 05:30:01 +08 / 2026-11-02 21:30 UTC — audit-and-dispatch, Job ID 477668)
+Task: V6 cron cycle (script prints #22 — recycle rollback re-increment; 21st distinct audit window) — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
+
+Work Log:
+- SANDBOX RECYCLE with PARTIAL ROLLBACK recovered first: psycopg2-binary 2.9.13 reinstalled; v6_cron_state.json rolled back to the cycle-21 snapshot (checked_at Nov-02 03:31Z) — cycle-22's state updates lost locally, though its pushes survived on origin (repo_b ff'd 2b601e8 → e6e30d6) and run #74 completed on GHA. Deltas below are vs the rolled-back cycle-21 baseline; real deltas vs the cycle-22 audit noted in parens. Script therefore re-printed "CYCLE #22"; Task ID disambiguated by date.
+- AUDIT GHA: run #74 (id 41472429907 — dispatched by the 15:30Z fire) completed/SUCCESS. SEVENTEEN consecutive clean runs (#58–#74) on the current fix stack (8dab49d + 3c61451 + f65b0db).
+- AUDIT RAW: papers 10,564 (+47 vs cycle-21 baseline; real +0 — no new source papers this window), questions 208,906 (+482 baseline; real +254). Status: complete 9,774 / review 765 / failed 25 (stable). Run #74 flow: pure backlog drain — 9 legacy review papers processed to complete (774→765); no new failures.
+- FAILURE CLASSES (read-only probe): unchanged — all 25 failed papers = the single known unit-400 class ("400 Client Error .../rest/v1/questions?on_conflict="). No new classes; residual set stable at 25, reprocess-campaign scope.
+- REPO SYNC: local e6e30d6 = origin/aktu-runner, unit_fix=True, rpd_bias=True.
+- DECIDE: audit GOOD → DISPATCHED run id 41529156924 (run_number #75) mode=BACKLOG-DRAIN; CONFIRMED started: status in_progress, run_started_at 2026-11-02T21:31:45Z, head e6e30d6, extraction.yml workflow_dispatch. Single-run law respected (#74 finished before dispatch).
+- Zero-churn law intact: read-only probes only; no data mutations on RAW this fire.
+---
 Task ID: CRON-V6-20261102-cycle22
 Agent: Super Z (cron fire 2026-11-02 23:30:01 +08 / 15:30 UTC — audit-and-dispatch, Job ID 477668)
 Task: V6 cron cycle #22 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
