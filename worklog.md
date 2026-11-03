@@ -1,4 +1,15 @@
 ---
+Task ID: REMEDIATION-PLAN-20261104
+Agent: Super Z (owner Q&A, 2026-11-03 22:45 IST / 17:15 UTC — not a cron fire)
+Task: Owner asked "you found these lot more issues in the data — how are we going to solve them?". Deliver a grounded remediation plan. Read-only probe only; no mutations.
+
+Work Log:
+- FRESH READ-ONLY PROBE (scripts/state_check_20261104.py): papers complete 9,788 (+9 vs cycle23) / review 751 (424 older than 7d + 327 ingested last 7d) / failed 25. Questions 209,573: needs_review 29,487 (14.1%), embedded 0 (0%), unit-tagged 5,037 (2.4%), has_diagram 19,285 vs diagram_url crops 309 (1.6%). site_counters frozen at 2026-10-28 10:40 UTC: total_papers 9,766 / total_questions 192,305 / visitors+searches+contributors all 0 — real 10,564 / 209,573. Sources: aktuonline 8,248 / ryzenstudy 1,393 / external 923; pools hunt5 934/934, aktuonline4 537/571 (34 left).
+- GHA AUDIT: run #76 (id 41611813690) completed SUCCESS — 19 consecutive clean runs (#58–#76). NO run #77 in flight: the 23:30+08 fire (15:30 UTC) left no worklog trace — 3rd silent-skip occurrence of this fire slot. Next scheduled fire 05:30+08 (21:30 UTC) expected to audit #76 and dispatch #77. Cadence law respected: no out-of-band dispatch from this chat turn (single-run law would permit it, but 6h cadence is cost control).
+- PLAN DELIVERED IN CHAT: Track A — backlog drain (already in motion ~10-12 papers/run; optional acceleration by rebalancing shard budget now that source hunting is starved; qc_min=10 unchanged). Track B — enrichment backfills as SEPARATE workflows (not extraction.yml, so total_calls=2000 law untouched; fill-NULL-only, never overwrite): B1 unit tags (catalog matcher free pass, LLM residual; pilot on sem-3 kit 5,150 q), B2 diagram crops (priority = repeats seen in >=2 years: kit 261 / global ~1,000), B3 embeddings (0 -> 209,573 in daily slices + incremental hook; needs owner model/cost decision). Track C — site_counters one-time correction (awaiting owner go) + end-of-run counter-sync; PAT rotation before 2026-11-23 (owner action, ~Nov 16-20); source hunting deprioritized (kit already has all years 2019-20 -> 2025-26); website catalog seeding = repo-A-side, needs explicit mandate.
+- Zero-churn law intact: read-only probe; no RAW mutations; repo A and PROD untouched.
+
+---
 Task ID: COVERAGE-SEM3-AIML-20261103
 Agent: Super Z (owner-requested ad-hoc analysis, 2026-11-03 — not a cron fire)
 Task: Answer owner's two questions — (a) data-completeness verdict for the CSE(AI&ML) sem-3 six-subject kit; (b) why only ~50 papers per 5h — including the owner's challenge on whether GHA run LOGS (not just statuses) were ever read. READ-ONLY throughout.
