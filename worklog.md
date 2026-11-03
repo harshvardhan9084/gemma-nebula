@@ -1,4 +1,17 @@
 ---
+Task ID: CRON-V6-20261103-cycle23
+Agent: Super Z (cron fire 2026-11-03 17:30:00 +08 / 09:30 UTC — audit-and-dispatch, Job ID 477668)
+Task: V6 cron cycle (script re-printed "#22" due to state rollback — recorded as cycle23 for unique audit sequencing) — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
+
+Work Log:
+- SANDBOX RECYCLE with PARTIAL ROLLBACK recovered first (same pattern as 05:30Z fire): psycopg2-binary 2.9.13 reinstalled; v6_cron_state.json again at the cycle-21 snapshot; repo_b ff'd 2b601e8 → a51e88e (both prior worklog pushes survived on origin). Deltas vs cycle-21 baseline with real deltas in parens. NOTE: persistent snapshot rollback point suggests the recycle image predates cycle-22; future fires should expect this and ff + re-derive.
+- AUDIT GHA: run #75 (id 41529156924 — dispatched by the 21:30Z fire) completed/SUCCESS. EIGHTEEN consecutive clean runs (#58–#75) on the current fix stack (8dab49d + 3c61451 + f65b0db).
+- AUDIT RAW: papers 10,564 (+47 baseline; real +0), questions 209,217 (+793 baseline; real +311). Status: complete 9,776 / review 763 / failed 25 (stable). Run #75 flow: 2 legacy review papers processed to complete; no new failures.
+- FAILURE CLASSES (read-only probe): unchanged — all 25 failed papers = the single known unit-400 class ("400 Client Error .../rest/v1/questions?on_conflict="). No new classes; residual set stable at 25, reprocess-campaign scope.
+- REPO SYNC: local a51e88e = origin/aktu-runner, unit_fix=True, rpd_bias=True.
+- DECIDE: audit GOOD → DISPATCHED run id 41611813690 (run_number #76) mode=BACKLOG-DRAIN; CONFIRMED started: status in_progress, run_started_at 2026-11-03T09:32:12Z, head a51e88e, extraction.yml workflow_dispatch. Single-run law respected (#75 finished before dispatch).
+- Zero-churn law intact: read-only probes only; no data mutations on RAW this fire.
+---
 Task ID: CRON-V6-20261103-cycle22
 Agent: Super Z (cron fire 2026-11-03 05:30:01 +08 / 2026-11-02 21:30 UTC — audit-and-dispatch, Job ID 477668)
 Task: V6 cron cycle (script prints #22 — recycle rollback re-increment; 21st distinct audit window) — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
