@@ -1,4 +1,17 @@
 ---
+Task ID: CRON-V6-20261104-cycle24
+Agent: Super Z (cron fire 2026-11-04 05:30:01 +08 / 2026-11-03 21:30 UTC — audit-and-dispatch, Job ID 477668)
+Task: V6 cron cycle #24 — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
+
+Work Log:
+- SANDBOX RECYCLE recovered first: psycopg2-binary 2.9.13 reinstalled. State survived INTACT (cycles=23, last_run_id=41611813690, checked_at 15:22:53Z — the coverage session's re-pin) — no rollback. repo_b already at 49a6e78, in sync with origin (includes REMEDIATION-PLAN-20261104 worklog push; known local workflow mods left untouched).
+- AUDIT GHA: run #76 (id 41611813690 — dispatched by the 09:30Z fire) completed/SUCCESS. NINETEEN consecutive clean runs (#58–#76) on the current fix stack (8dab49d + 3c61451 + f65b0db). NOTE: the 23:30+08 fire (15:30 UTC) left no trace — 3rd silent-skip of that slot; this 05:30+08 fire caught up the dispatch, no runs lost.
+- AUDIT RAW: papers 10,564 (+0 vs 15:22Z baseline — no run activity in the window), questions 209,573 (+0). Status: complete 9,788 / review 751 / failed 25 (stable). #76's healing gains already baked into the re-pinned baseline.
+- FAILURE CLASSES (read-only probe): unchanged — all 25 failed papers = the single known unit-400 class; 0 retried-and-refailed this window (fix 3c61451 not disproven); in-scope ones auto-retry next dispatch, legacy ones reprocess-campaign scope.
+- REPO SYNC: local 49a6e78 = origin/aktu-runner, unit_fix=True, rpd_bias=True.
+- DECIDE: audit GOOD → DISPATCHED run id 41722520409 (run_number #77) mode=BACKLOG-DRAIN; CONFIRMED started: status in_progress, run_started_at 2026-11-03T21:31:10Z, head 49a6e78, extraction.yml workflow_dispatch. Single-run law respected (#76 completed before dispatch).
+- Zero-churn law intact: read-only probes only; no data mutations on RAW this fire.
+---
 Task ID: REMEDIATION-PLAN-20261104
 Agent: Super Z (owner Q&A, 2026-11-03 22:45 IST / 17:15 UTC — not a cron fire)
 Task: Owner asked "you found these lot more issues in the data — how are we going to solve them?". Deliver a grounded remediation plan. Read-only probe only; no mutations.
