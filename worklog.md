@@ -1,4 +1,16 @@
 ---
+Task ID: COVERAGE-SEM3-AIML-20261103
+Agent: Super Z (owner-requested ad-hoc analysis, 2026-11-03 — not a cron fire)
+Task: Answer owner's two questions — (a) data-completeness verdict for the CSE(AI&ML) sem-3 six-subject kit; (b) why only ~50 papers per 5h — including the owner's challenge on whether GHA run LOGS (not just statuses) were ever read. READ-ONLY throughout.
+
+Work Log:
+- (a) COVERAGE (family-merged via canonical codes, K-series + B-series): DS KCS301+BCS301 / PY KNC302+BCC302 / COA KCS302+BCS302 / TC KAS301+BAS401 / DSTL KCS303+BCS303 / M4 KAS302+BAS303/402/403/404. Kit = 143 papers (121 complete / 16 review), 5,150 distinct questions, 745 repeats (261 seen in >=2 years). Every exam year 2019-20 -> 2025-26 present in all six (only DSTL/M4 additionally lack 2018-19; pre-2019 holes = old-syllabus codes, not gaps). Verdicts: M4 + DSTL STRONG; DS/PY/COA/TC GOOD. Known anomalies chased: questions inside KCS303 papers carry subject_code=BCS303 and DS repeats filed under BCS301 — family merge resolves both. Report: download/AKTU_sem3_CSE-AIML_coverage_report_2026-11-03.xlsx.
+- (b) THROUGHPUT: runs #65-#76 ~288 min each (6h cron). Budget: 3 shards x max_calls=667 = 2,001 calls/run (= total_calls=2000 law); lane min_interval=27s -> 1 call per ~28s per shard; 4.35-4.71 vision calls/paper -> ~150-160 papers/shard, ~450-480 attempts/run. First real log read (shard-0 of #75 id 41529156924 + #76 id 41611813690 + #76 post job): 100% of parsed attempts landed in review (flags: leaks=N dominant, low_recall<10, below_parser_outline); calls 561-574/667 (84-86%). Net-NEW papers by ingested_at: #73 +47, #74 0, #75 0, #76 0; new questions +228/+254/+311/+356. Cause: pools drained — hunt5 manifest 934/934 in RAW, aktuonline4 537/571 (34 left). Current runs are healing cycles over the 751-paper global review tail (#76 flipped 12 to complete). Verdict: design + source exhaustion, NOT a fault. Confirmed honestly to owner: previous audits used run status/conclusion only.
+- GLOBAL BASELINES probed: embeddings 0/209,573; unit-tagged 5,037 (2.4%); diagram crops 309 vs 19,285 has_diagram questions; needs_review 29,487 (14.1%); papers in review 751; sources aktuonline 8,248 / ryzenstudy 1,393 / external 923.
+- SANDBOX ROLLBACK recovered: v6_cron_state.json re-pinned to cycle-23 baseline (papers 10,564 / questions 209,573 / last_run 41611813690, checked_at 2026-11-03).
+- Zero-churn law intact: read-only probes only; no RAW mutations; repo A and PROD untouched.
+
+---
 Task ID: CRON-V6-20261103-cycle23
 Agent: Super Z (cron fire 2026-11-03 17:30:00 +08 / 09:30 UTC — audit-and-dispatch, Job ID 477668)
 Task: V6 cron cycle (script re-printed "#22" due to state rollback — recorded as cycle23 for unique audit sequencing) — audit GHA extraction runs + RAW pipeline health, decide dispatch. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / total_calls=2000.
