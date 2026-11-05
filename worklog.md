@@ -1,4 +1,17 @@
 ---
+Task ID: MERCURY3-PILOTS-20261105
+Agent: Super Z (owner directive follow-up, 2026-11-05 — not a cron fire)
+Task: Live pilot of the mercury lane on the real corpus backlog (#79, #80) + fix whatever the pilots expose.
+
+Work Log:
+- PILOT #79 (12/shard x 3, real backlog head): 33 processed — 21 complete-status + 12 review (QC-honest) + 3 FAILED (known corrupt-PDF class, PdfminerException). Mercury served 26/33 papers (route=mercury), Google vision only 7 papers (~19 calls, vs ~150+ all-Google). 72/72 mercury calls OK. Token cost measured IN PRODUCTION: 59,772 in + 53,113 out = ~3,420 tokens/paper ALL-IN (better than the 5,320 local estimate — most real papers are 1-chunk). Pace ~29 s/paper/shard average (Google-lane papers slowed by the 27 s min-interval; mercury papers 3-30 s).
+- PILOT #79 EXPOSED A PRE-EXISTING BLOCKER: 30/30 attempted pushes = "PUSH SKIP: no subject code". These are never-ingested filename variants (e.g. *-bp809et-may-2026.pdf) whose codes neither the filename parser, nor PDF content parse, nor the passed manifests provide. NOT a mercury bug. DB after #79: unchanged (0 drain) — questions extracted then discarded at push.
+- FIX 1 (commit ad44818): identity recovery in push_paper_v6 — when meta code is empty, reuse the subject_code ALREADY STORED on the papers row matching file_hash (zero-churn: identity was established at first ingest; never re-derived from a lossy filename). All 737 review rows have a stored code → the heal path is fully unblocked.
+- FIX 2 (same commit): pre-AI identity gate in stage_extract_v6 — selection now also reads subject_code; papers with no code from filename/PDF/DB are logged IDENTITY-BLOCKED and skipped BEFORE any AI call (no token burn on unpushable files; honest status identity_blocked).
+- PILOT #80 (re-run after fixes): 0 PUSH SKIP, mercury 8 calls all-OK, review rows heal correctly (4 new question rows landed, DB questions 210,072 → 210,076), identity-blocked files skip clean, corrupt PDFs fail fast. Backlog split now clear: the 762-paper DB backlog (737 review + 25 failed) is pushable; the never-ingested codeless file variants are a SEPARATE expansion slice needing owner input (provide codes/manifest, or approve a fuzzy-identity fallback, or accept exclusion from "finish").
+- Capacity math updated with production numbers: 200M free tokens / ~3.4K per paper ≈ ~58,000 paper-extractions ≈ 5.5x full-corpus re-extraction (10,564 papers ≈ 36M tokens) or ~76x the current backlog. Pace ceiling: GHA 3 shards ≈ 300-400 papers/hour (wall-clock bound, NOT token or rate-limit bound; free-tier TPM caps alone would allow ~5K papers/hour).
+- Zero-churn law intact: no identity re-pointing, no deletions; repo A + PROD untouched.
+---
 Task ID: KEYPOOL-INCIDENT-20261105
 Agent: Super Z (owner directive follow-up, 2026-11-05 — not a cron fire)
 Task: Post-prune verification of GEMMA_API_KEYS pool after the "only healthy keys" directive.
