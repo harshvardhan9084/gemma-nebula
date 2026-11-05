@@ -1,4 +1,17 @@
 ---
+Task ID: OWNER-KEYS-ROTATION-20261105
+Agent: Super Z (owner directive, 2026-11-05 ~16:55 IST / 11:25 UTC - not a cron fire)
+Task: Owner directive - remove the chatbot key (AIza...aMQA) from the pipeline; GEMMA pool = exactly 6 fresh keys (1 AIza + 5 new-format AQ. keys, "official format for newer Google API keys from May 2026"). Plus: document the exact RAW schema (tables/columns the extraction pipeline writes) with real best-case and worst-case rows, to align with the owner's syllabus CSV (54 identity fields) being built in a parallel chat.
+
+Work Log:
+- KEY ROTATION EXECUTED: 6 keys staged to .secrets/google_keys.txt (git-ignored, never printed); GEMMA_API_KEYS rewritten via sealed-box PUT (HTTP 204) with EXACTLY those 6 - the chatbot key ...aMQA is permanently out (it had already been dead-by-leak k2 and left the pool during the KEYPOOL-INCIDENT prune; now formally excluded by directive).
+- INCIDENT CLOSE-OUT: this rotation also fully restores the KEYPOOL-INCIDENT loss - the 5 AQ.-format tokens dropped by prune v1 are BACK (owner re-pasted them); pool 1 key -> 6 keys. Vision-lane redundancy restored.
+- IN-RUNNER VERDICT (keyprobe run #6, id 42017139181, conclusion success): ALL 6 KEYS VALID, 60 models visible each. AQ.-format works transparently through the standard Gemini REST API. Workhorse trio (gemini-3.1-flash-lite / gemini-3.5-flash-lite / gemma-4-26b-a4b-it): PASS on all 6 keys except one transient k4x3.5-flash-lite 503 (high-demand blip, retry-class). 24/36 combos PASS overall; every miss is either gemini-2.5-flash 404 ("no longer available to new users" - new projects, NOT in our rotation), transient 503/500, or gemini-3.6-flash capacity - ZERO dead keys. Vision RPD headroom back to ~6 x 1,500/day.
+- RAW SCHEMA EVIDENCE DUMP (read-only, scripts/db_schema_examples_20261105.py): pipeline-written tables = papers(14 cols), questions(20 cols), + identity/derived: subjects(19), subject_aliases(4), clusters(10), occurrences(8), repeats(30), repeated_questions(19), healing_log(10), site_counters(3). Best/worst example rows pulled for papers + questions (live values, not doc guesses). Live counters: papers 10,564 (9,802 complete / 737 review / 25 failed), questions 210,076 (needs_review 29,766 = 14.1%; unit 5,063; unit_topic 184,495; marks 186,367; has_diagram 19,317; diagram_url crops 309; embedded 0).
+- IDENTITY FINDINGS for the owner's CSV join: questions/papers key on subject_code ONLY (no slug); glue = subject_aliases (dash-variants -> canonical) + subjects.canonical_code/subject_sid. subjects.units_json is POLLUTED (BCS301 row carries foreign subjects' units: drones/darshan/genetic-eng), subjects.name = code placeholder, semester NULL -> the owner's syllabus CSV (subject_id slug + primary_code + all_codes + k_era_pool_codes + clean unit1..5_text) is exactly the authority this table lacks. Proposed (NOT executed, needs owner go): ingest CSV as the subjects master, backfill papers/questions slug identity by code mapping - zero-churn, fill-NULL-only.
+- RUNS: #78/#79/#80 all completed success (23 consecutive clean #58-#80). State baseline re-pinned: cycles=25, last_run_id=42008869430, questions=210,076.
+- Zero-churn law intact: read-only DB probes; only secret values + state json + worklog touched; repo A + PROD untouched.
+
 Task ID: MERCURY3-PILOTS-20261105
 Agent: Super Z (owner directive follow-up, 2026-11-05 — not a cron fire)
 Task: Live pilot of the mercury lane on the real corpus backlog (#79, #80) + fix whatever the pilots expose.
