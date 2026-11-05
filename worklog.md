@@ -1,4 +1,15 @@
 ---
+Task ID: KEYPOOL-INCIDENT-20261105
+Agent: Super Z (owner directive follow-up, 2026-11-05 — not a cron fire)
+Task: Post-prune verification of GEMMA_API_KEYS pool after the "only healthy keys" directive.
+
+Work Log:
+- INCIDENT (own fault, caught within minutes): the first prune run rewrote GEMMA_API_KEYS to 1 key. Root cause: tools/prune_dead_keys.py v1 filtered tokens by the AIzaSy prefix and classified 5 tokens as "junk/placeholder" — but keyprobe (09:43Z, same secret) had just proved those 5 tokens k3-k7 VALID (60 models visible, flash-lites PASS). They are real keys in a format that does NOT start with AIzaSy. prune v1 dropped them from the secret; secret values are write-only so they cannot be re-read from GitHub.
+- RECOVERY ATTEMPT: full-project local scan for key literals found only 2 real keys (AIzaSyA...48Sw alive-but-geo-fenced from the sandbox, AIzaSyA...aMQA = the leaked-dead one) + 2 example placeholders. The k3-k7 values are NOT on local disk. They still EXIST and WORK in the owner's Google AI Studio — recoverable only by the owner re-pasting them (or adding fresh keys). ACTION NEEDED: owner re-provides the 5 keys or creates fresh ones; pool back to 6+.
+- CURRENT STATE: GEMMA_API_KEYS = 1 healthy Google key (…48Sw); MERCURY_API_KEYS = 2 Inception keys. Impact: vision lanes (scans + scan-paper healing) run on a single key (RPD 500/model ≈ 1,000 calls/day across both lites ≈ 250-500 scan papers/day, zero redundancy); mercury lane unaffected (text-layer extraction + text passes). Scan backlog is 198 papers → still finishable, but redundancy is gone until keys are restored.
+- FIX: tools/prune_dead_keys.py rewritten — probes EVERY token regardless of prefix, strips quotes, treats quota-exhausted and geo-fenced verdicts as ALIVE, refuses to write if anything would drop below 2 healthy tokens, never writes when zero alive. Pushed in this commit.
+- Zero-churn law intact: no RAW mutations; repo A + PROD untouched.
+---
 Task ID: MERCURY3-LANE-20261105
 Agent: Super Z (owner directive, 2026-11-05 — not a cron fire)
 Task: Owner: keep only the remaining healthy Google keys; integrate mercury-3 (Inception Labs, t2t diffusion LLM, 2 accounts x 100M free tokens each) into the extraction pipeline; report measured pace/output; finish the whole corpus first.
