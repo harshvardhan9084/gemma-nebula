@@ -1,4 +1,21 @@
 ---
+Task ID: CRON-V6-20261106-cycle28
+Agent: Super Z (owner-directed fire 2026-11-05 22:52 +08 / 17:22 UTC - "upgrade the whole cron job for the GOODS discussed")
+Task: (a) hard+soft limits so genuinely-short papers can never loop; (b) retire the fixed 2,000-call spec, enforce the RPD law (6 keys x 500 = 3,000 vision RPD/day, strictly under at 2,800); (c) speed at MAX; (d) run the cycle.
+
+Work Log:
+- LOOP RISK CONFIRMED AND FIXED: the thin campaign (8bd3aa3) had no attempt counter - a genuinely-<20q paper would be re-picked every run forever. New RETRY ledger lives in papers.extraction_error (op-state field, zero-churn: cleared on every success):
+  RETRY#N:afterq(prev beforeq) = attempt N done with progress; RETRY-ACCEPT = terminal, QC-clean after the cap -> genuine short paper, complete, never re-picked; RETRY-FROZEN = terminal, still QC-failing -> human review queue, never re-picked.
+  HARD limit MAX_REATTEMPTS=2 per paper, ever. SOFT limit: attempt 2 is spent only if attempt 1 improved the paper (more questions or QC-clean) - fruitless attempts terminate immediately. Selection skips terminal stamps and >=2-attempt papers (belt and suspenders).
+- ZERO-LOSS guard (protects the 48,964 occurrences anchored on thin complete papers): a re-extract finding FEWER questions than stored is pushed upsert-only (old occurrences kept, nothing deleted); paper-scoped REPLACE-with-backup only when the new set >= stored count. push_paper_v6 grew replace_ok/keep_n/keep_status and returns the final status.
+- RPD LAW: 6 keys x 500 = 3,000 vision RPD/day ceiling; cron dispatcher budgets strictly under at 2,800 via scripts-out ledger v6_rpd_ledger.json fed from the run logs' "AI calls spent" lines (24h sliding window, straddling runs fully attributed -> can never overdraw; <180 left -> HOLD-RPD until the 07:05Z reset). The fixed 2,000-calls/5h spec is retired in code, workflow and docs.
+- SPEED AT MAX: extraction.yml matrix 3->6 shards (max-parallel 6), SHARDS=6 rate plan, min-interval auto = max(8, ceil(10800*6/total)) - the daily RPD cap is the only governor, per-minute stays ~<=15 fleet starts vs 15 RPM/model/key on 12 combos.
+- PAPERS-CLEAR primary mode: work_left = review + failed + thin_left -> THIN inputs (thin_max=20, status_filter complete,review,failed); thin_left metric excludes terminal stamps so accepted-short papers never keep the mode alive.
+- SCOPE: papers-clear pool 4,267 = review 737 + failed 25 + thin 3,505 (0-4q 299 / 5-9q 437 / 10-14q 909 / 15-19q 1,860); scan-heavy 1,919 -> ~4-6 days at 2,800 vision RPD/day; text-layer 2,068 fly on mercury free pool.
+- SHIPPED: 3a27792 = extractor v6.1 (retry ledger + zero-loss guard; py_compile + 12-case ledger unit test) + extraction.yml 6-shard RPD plan (YAML validated). Cycle #28: DISPATCHED 42074101654 (PAPERS-CLEAR, calls=2800) - run #81 in_progress on 3a27792, 6 shards live. Quality bar unchanged: qc_min=10 / chunk_pages=2 / route=auto / vision-first.
+
+---
+---
 Task ID: THIN-CAMPAIGN-20261105
 Agent: Super Z (owner directive, 2026-11-05 ~18:40 UTC - not a cron fire)
 Task: Owner rule - a real AKTU paper carries ~20 questions (7 section-A + 5 section-B + 8 section-C, counting choice variants); papers extracted below that bar must be RE-EXTRACTED. Set up cron + GHA for the "finish everything" outcome. (Also answered: what site_counters is; start-with-partial-CSV verdict; ID-assignment strategy with measured 91.2% free match; parquet explainer; open-sourcing advice; CSV progress 300 PDFs / 2,200 subjects / 4,400 codes acknowledged.)
