@@ -3,7 +3,11 @@
 # MANUAL DISPATCH ONLY - needs repo secrets:
 #   SUPABASE_URL          https://qnakqtiokspzoopivfyl.supabase.co
 #   SUPABASE_SERVICE_KEY  service/secret key (server-side only)
-#   GEMMA_API_KEYS        comma-separated AI Studio keys (5 keys)
+#   GEMMA_API_KEYS        comma-separated AI Studio keys (only healthy ones)
+#   MERCURY_API_KEYS      optional comma-separated Inception Labs keys (sk_...);
+#                         when present, mercury-3 serves the TEXT lane (solid
+#                         text-layer chunks + check/clean passes) and the Google
+#                         flash-lite lanes are spent almost only on scans/vision
 #
 # v6 (pipeline/aktu_pyq_extractor_v6.py): chunked VISION extraction (page text
 # + page images per call, 1-2 page chunks), per-paper multi-pass (extract ->
@@ -174,6 +178,7 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
           GEMMA_API_KEYS: ${{ secrets.GEMMA_API_KEYS }}
+          MERCURY_API_KEYS: ${{ secrets.MERCURY_API_KEYS }}
           GEMMA_FALLBACK_MODELS: "gemini-3.1-flash-lite,gemini-3.5-flash-lite,gemma-4-26b-a4b-it"
         run: |
           set -x

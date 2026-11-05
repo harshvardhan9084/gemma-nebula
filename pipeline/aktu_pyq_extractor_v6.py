@@ -47,6 +47,21 @@ hard per-process budget and --min-interval (default 9.0 s) paces sends so a
 3-shard x 5h run lands at ~2,000 calls (~40/model/hour on the 2x5 lanes).
 503 = transient (bench + rotate); 429 = daily lane gone (bench to reset);
 the emergency gemma lane only serves when every lite lane is benched.
+
+MERCURY LANE (owner directive 2026-11-05, "finish the whole corpus first"):
+Inception Labs mercury-3 (diffusion dLLM, OpenAI-compatible, TEXT-ONLY,
+~650-800 tok/s measured) serves every TEXT job: chunks whose text layer is
+solid, the completeness check and the AI clean pass. Google flash-lite lanes
+are then spent almost ONLY on what only they can do - reading scans. The
+route decision stays per chunk: solid text + mercury on -> mercury; no/garbled
+text or a 0-question mercury answer -> Google vision (never silently thin).
+Same V6_EXTRACT_SCHEMA, same deterministic clean, same QC gates (qc-min etc.);
+a mercury paper that trips QC still lands in review and is vision-healed by
+the next run. Mercury calls are counted in their own budget (free tier per
+key: 1,000 RPM / 1M in-TPM / 100K out-TPM; 2 keys = 200M free tokens) and do
+NOT consume the --max-calls Google budget. reasoning_effort is forced
+(instant by default): the medium default burns ~8K reasoning tokens and
+returns zero questions (measured 2026-11-05).
 """
 import argparse, base64, hashlib, io, json, os, re, sys, time
 from collections import Counter, defaultdict
@@ -87,7 +102,24 @@ except ImportError:
     PIL_OK = False
 
 GEMMA_BASE = 'https://generativelanguage.googleapis.com/v1beta'
-PROMPT_VERSION = 'v6-vision-qc'
+PROMPT_VERSION = 'v6-vision-qc+mercury'
+
+# --- Inception Labs (mercury-3) lane ---------------------------------------
+INCEPTION_BASE = 'https://api.inceptionlabs.ai/v1'
+MERCURY_MODEL = os.environ.get('MERCURY_MODEL', 'mercury-3')
+MERCURY_EFFORT = os.environ.get('MERCURY_EFFORT', 'instant')   # instant|low|medium|high
+
+
+def load_mercury_keys():
+    """MERCURY_API_KEYS: comma-separated Inception keys (sk_...). Values are
+    never logged; only the COUNT is printed."""
+    raw = os.environ.get('MERCURY_API_KEYS') or ''
+    keys = []
+    for chunk in re.split(r'[,;\s]+', raw.strip()):
+        k = chunk.strip()
+        if k.startswith('sk_') and k not in keys:
+            keys.append(k)
+    return keys
 
 # ---------------------------------------------------------------------------
 # Schemas (strict JSON, used by both SDK response_schema and prompt text)
@@ -220,10 +252,11 @@ def clean_v6(text, valid_marks=VALID_MARKS):
     return t, marks
 
 
-def ai_clean_pass(router, flagged, min_interval, budget_s=150):
+def ai_clean_pass(router, flagged, min_interval, budget_s=150, mrouter=None):
     """One AI call for up to 25 leak-flagged question texts. Diff-guarded:
     a cleaned text is accepted only if it keeps >= 55% of the original length
-    and >= 70% of its alphanumeric content (anti-hallucination)."""
+    and >= 70% of its alphanumeric content (anti-hallucination).
+    Text-only job: mercury lane first, Google fallback."""
     if not flagged:
         return {}
     items = [{'i': i, 'text': q['text'][:600]} for i, q in enumerate(flagged[:25])]
@@ -239,7 +272,13 @@ never add content, never drop the actual question. If a text is hopeless garble 
 its text unchanged.
 TEXTS:
 {listing[:22000]}"""
-    ai = router.call(prompt, V6_CLEAN_SCHEMA, kind='clean', min_interval=min_interval, budget_s=budget_s)
+    ai, _err = (mrouter.call(prompt, V6_CLEAN_SCHEMA, kind='clean',
+                             budget_s=budget_s)
+                if mrouter is not None and mrouter.alive()
+                and mrouter.budget_left() > 0 else (None, 'mercury off'))
+    if ai is None:
+        ai = router.call(prompt, V6_CLEAN_SCHEMA, kind='clean',
+                         min_interval=min_interval, budget_s=budget_s)
     out = {}
     if isinstance(ai, dict) and isinstance(ai.get('items'), list):
         for it in ai['items']:
@@ -337,6 +376,120 @@ class AIRouterV6(AIRouter):
             return None, f'HTTP {r.status_code}: {r.text[:220]}'
         except requests.RequestException as e:
             return None, str(e)
+
+
+# ---------------------------------------------------------------------------
+# MercuryRouter: Inception Labs mercury-3 text lane (OpenAI-compatible)
+# ---------------------------------------------------------------------------
+class MercuryRouter:
+    """Text-only diffusion lane for solid text-layer chunks + text-only passes
+    (completeness check, AI clean). Contract mirrors AIRouterV6._attempt:
+    call(prompt_str, schema, kind, ...) -> (dict|None, err|None).
+    Own budget + token metering, separate from the Google call budget.
+    Free tier per key (docs 2026-11): 1,000 RPM / 1M in-TPM / 100K out-TPM."""
+
+    BENCH_429 = 90          # per-minute limit -> outlive the window
+    BENCH_5XX = 60          # transient server blip
+    BENCH_400 = 3600        # request rejected (schema/model) -> cool off 1h
+    DEAD_401_403 = True     # key dropped for the rest of the run
+
+    def __init__(self, keys, max_calls=0, min_interval=0.7):
+        self.keys = [k for k in keys if k]
+        self.idx = 0
+        self.max_calls = int(max_calls or 0)      # 0 = unlimited
+        self.budget_spent = 0
+        self.min_interval = float(min_interval)
+        self._last = 0.0
+        self._bench = {}                          # key -> (until_epoch, why)
+        self.tok_in = 0
+        self.tok_out = 0
+        self.calls_ok = 0
+
+    def alive(self):
+        return bool(self.keys)
+
+    def budget_left(self):
+        if not self.max_calls:
+            return 10 ** 9
+        return max(0, self.max_calls - self.budget_spent)
+
+    def stats(self):
+        return {'model': MERCURY_MODEL, 'effort': MERCURY_EFFORT,
+                'keys': len(self.keys), 'calls': self.budget_spent,
+                'calls_ok': self.calls_ok, 'tokens_in': self.tok_in,
+                'tokens_out': self.tok_out}
+
+    def _pick(self):
+        now = time.time()
+        for _ in range(len(self.keys)):
+            k = self.keys[self.idx % len(self.keys)]
+            self.idx += 1
+            until, _why = self._bench.get(k, (0, ''))
+            if now >= until:
+                return k
+        return None
+
+    def call(self, prompt, schema, kind='extract', min_interval=None, budget_s=120):
+        """prompt: plain str (no image parts on this lane)."""
+        if not HAVE_REQUESTS:
+            return None, 'no requests lib'
+        if self.budget_left() <= 0:
+            return None, 'mercury call budget exhausted'
+        k = self._pick()
+        if not k:
+            return None, 'all mercury keys benched'
+        wait = self.min_interval if min_interval is None else float(min_interval)
+        gap = time.time() - self._last
+        if gap < wait:
+            time.sleep(wait - gap)
+        self.budget_spent += 1
+        self._last = time.time()
+        body = {'model': MERCURY_MODEL,
+                'messages': [{'role': 'user', 'content': prompt}],
+                'temperature': 0.5,               # mercury-3 allows 0.5-1.0 only
+                'max_completion_tokens': 8192,
+                'response_format': {'type': 'json_schema',
+                                    'json_schema': {'name': 'v6_' + kind,
+                                                    'strict': True,
+                                                    'schema': schema}},
+                'reasoning_effort': MERCURY_EFFORT}
+        try:
+            r = requests.post(f'{INCEPTION_BASE}/chat/completions',
+                              headers={'Authorization': 'Bearer ' + k,
+                                       'Content-Type': 'application/json'},
+                              json=body, timeout=budget_s)
+        except requests.RequestException as e:
+            self._bench[k] = (time.time() + self.BENCH_5XX, str(e)[:60])
+            return None, str(e)[:120]
+        if r.status_code == 429:
+            self._bench[k] = (time.time() + self.BENCH_429, '429')
+            return None, 'HTTP 429 (mercury rate limit)'
+        if r.status_code in (500, 502, 503, 504, 529):
+            self._bench[k] = (time.time() + self.BENCH_5XX, '5xx')
+            return None, f'HTTP {r.status_code}'
+        if r.status_code in (400, 401, 403):
+            if r.status_code in (401, 403) and self.DEAD_401_403 and k in self.keys:
+                self.keys.remove(k)               # dead key, never log the value
+            else:
+                self._bench[k] = (time.time() + self.BENCH_400, str(r.status_code))
+            return None, f'HTTP {r.status_code}: {r.text[:140]}'
+        if r.status_code != 200:
+            return None, f'HTTP {r.status_code}: {r.text[:140]}'
+        try:
+            d = r.json()
+            u = d.get('usage') or {}
+            self.tok_in += int(u.get('prompt_tokens') or 0)
+            self.tok_out += int(u.get('completion_tokens') or 0)
+            txt = ((d.get('choices') or [{}])[0].get('message') or {}).get('content') or ''
+            v = parse_ai_text(txt)
+        except Exception as e:
+            return None, f'bad mercury payload: {str(e)[:90]}'
+        if isinstance(v, list):                   # bare array despite the schema
+            v = {'questions': v}
+        if isinstance(v, dict):
+            self.calls_ok += 1
+            return v, None
+        return None, 'mercury returned non-object JSON'
 
 
 # ---------------------------------------------------------------------------
@@ -449,8 +602,35 @@ Rules:
   else theory.
 """
 
+# Text-only variant for the mercury lane (identical extraction contract; the
+# model must do its own splice/watermark repair since it cannot see images).
+_ex_cut = EXTRACT_RULES.find('Return strict JSON only:')
+EXTRACT_RULES_TEXT = (
+    'You are extracting EVERY exam question from ONE chunk of an AKTU university\n'
+    'question paper. You receive ONLY the OCR/text-layer text of the page(s) - no images.\n'
+    'The text layer is usually clean, but repair obvious two-column splices, watermark\n'
+    'digits and broken words yourself, and NEVER copy watermarks or page furniture into\n'
+    'the question text.\n'
+    + EXTRACT_RULES[_ex_cut:]) if _ex_cut > 0 else EXTRACT_RULES
 
-def extract_chunk(router, chunk, pdf_path, args, route):
+
+def extract_chunk(router, chunk, pdf_path, args, route, mrouter=None):
+    """One chunk -> (ai, lane). Lane choice, quality-first:
+      * solid text + mercury lane alive -> mercury-3 (t2t, text only);
+      * mercury missing/off/0-questions, or thin text -> Google vision route
+        (page images when renderable, else text-only REST/SDK).
+    Returns lane in {'mercury', 'vision', 'text'} so the caller can report the
+    honest route mix per paper."""
+    text_ok = len((chunk.get('text') or '').strip()) >= 350
+    if mrouter is not None and route in ('auto', 'text') and text_ok \
+            and mrouter.alive() and mrouter.budget_left() > 0:
+        prompt = (f'{EXTRACT_RULES_TEXT}\nPAGES {chunk["pages"][0]}-'
+                  f'{chunk["pages"][-1]} TEXT:\n{chunk["text"]}')
+        ai, _err = mrouter.call(prompt, V6_EXTRACT_SCHEMA, kind='extract',
+                                budget_s=args.call_budget)
+        if ai and (ai.get('questions') or []):
+            return ai, 'mercury'
+        # 0-questions / payload failure -> fall through to the vision lane
     parts = [{'text': f'{EXTRACT_RULES}\nPAGES {chunk["pages"][0]}-{chunk["pages"][-1]} TEXT:\n{chunk["text"]}'}]
     used_images = False
     if route in ('auto', 'vision', 'ocr'):
@@ -460,7 +640,7 @@ def extract_chunk(router, chunk, pdf_path, args, route):
             used_images = True
     ai = router.call(parts, V6_EXTRACT_SCHEMA, kind='extract',
                      min_interval=args.min_interval, budget_s=args.call_budget)
-    return ai, used_images
+    return ai, ('vision' if used_images else 'text')
 
 
 def merge_questions(per_chunk):
@@ -485,9 +665,10 @@ def merge_questions(per_chunk):
     return out
 
 
-def completeness_check(router, merged, hint, args):
+def completeness_check(router, merged, hint, args, mrouter=None):
     """1 text call: compare extracted labels against the parsed outline +
-    section map; return likely-missing labels and suspect pages."""
+    section map; return likely-missing labels and suspect pages.
+    Text-only job: mercury lane first, Google fallback (same prompt)."""
     labels = [str(q.get('label') or '') for q in merged]
     hint_labels = [str(q.get('label') or '') for q in (hint.get('questions') or [])]
     sections = hint.get('checks', {}).get('sections') or []
@@ -502,8 +683,13 @@ EXTRACTED LABELS: {json.dumps(labels[:80])}
 PARSER OUTLINE: {json.dumps(hint_labels[:80])}
 SECTIONS SEEN: {json.dumps(sections[:12])}
 PAGES: {pages_n or 'unknown'}"""
-    ai = router.call(prompt, V6_CHECK_SCHEMA, kind='check',
-                     min_interval=args.min_interval, budget_s=args.call_budget)
+    ai, _err = (mrouter.call(prompt, V6_CHECK_SCHEMA, kind='check',
+                             budget_s=args.call_budget)
+                if mrouter is not None and mrouter.alive()
+                and mrouter.budget_left() > 0 else (None, 'mercury off'))
+    if ai is None:
+        ai = router.call(prompt, V6_CHECK_SCHEMA, kind='check',
+                         min_interval=args.min_interval, budget_s=args.call_budget)
     if not isinstance(ai, dict):
         return [], [], set()
     missing = [str(x) for x in (ai.get('missing_labels') or []) if str(x).strip()][:12]
@@ -568,6 +754,12 @@ def apply_ai_questions(raw_qs, meta_pages):
         if page is not None and meta_pages and page not in meta_pages:
             page = None
         lbl = str(q.get('label') or '').strip()[:8]
+        # mercury-3 occasionally shuffles schema field names into 'label'
+        # (e.g. label="qtype"); such values are junk, never printed labels.
+        if lbl.lower() in {'qtype', 'theory', 'numerical', 'short', 'mcq', 'diagram',
+                           'text', 'marks', 'section', 'unit', 'topic', 'parent',
+                           'page', 'label', 'questions', 'null', 'none'}:
+            lbl = ''
         out.append({'label': lbl, 'text': t, 'marks': marks,
                     'section': (str(q.get('section'))[:4] if q.get('section') else None),
                     'unit': unit_int(q.get('unit')),
@@ -845,16 +1037,22 @@ def stage_extract_v6(args, sb, router):
     state = json.load(open(state_path)) if os.path.exists(state_path) else {}
     outbox = open(os.path.join(args.out, 'outbox_v6.jsonl'), 'a', encoding='utf-8')
     summary, budget_stops = [], 0
+    mrouter = getattr(router, 'mercury', None)
+    mercury_on = bool(args.mercury != 'off' and mrouter is not None and mrouter.alive())
+    if mercury_on:
+        ms = mrouter.stats()
+        log(f'[v6] mercury lane ON: {ms["model"]} x{ms["keys"]} keys '
+            f'effort={ms["effort"]} min_interval={mrouter.min_interval}s')
 
     for i, path in enumerate(pdfs):
         if soft_time_left(args) <= 0:
             log(f'[!] soft deadline reached at paper {i}; checkpoint and exit')
             break
-        if router.budget_left() <= 0:
+        if router.budget_left() <= 0 and not (mercury_on and mrouter.budget_left() > 0):
             budget_stops += 1
             if budget_stops == 1:
-                log('[!] CALL BUDGET exhausted - no further AI calls this run; '
-                    'remaining papers left for the next dispatch')
+                log('[!] CALL BUDGET exhausted (Google + mercury) - no further AI '
+                    'calls this run; remaining papers left for the next dispatch')
             if args.dry_run:
                 continue
             # keep checkpointing progress but stop doing (AI) work
@@ -891,29 +1089,32 @@ def stage_extract_v6(args, sb, router):
             chunks = build_chunks(pt, args.chunk_pages)
             n_chunks = len(chunks)
 
-            # 1) chunked vision extraction
-            if not router.alive():
+            # 1) chunked extraction (mercury text lane + Google vision lane)
+            m_ok = mercury_on and mrouter.budget_left() > 0
+            if not router.alive() and not m_ok:
                 log('    [!] no AI keys - paper parked at review (never silent-accept)')
                 per_chunk, used_ai = [], False
             else:
-                per_chunk, used_ai = [], bool(router.alive())
+                per_chunk, used_ai = [], bool(router.alive() or m_ok)
+                lanes = []
                 for ch in chunks:
-                    ai, used_images = extract_chunk(router, ch, path, args, args.route)
-                    if used_images:
-                        route_used = 'vision'
-                    elif route_used == 'none':
-                        route_used = 'text'
+                    ai, lane = extract_chunk(router, ch, path, args, args.route,
+                                             mrouter=mrouter if m_ok else None)
+                    lanes.append(lane)
                     qs = apply_ai_questions((ai or {}).get('questions'), meta_pages) if ai else []
                     per_chunk.append(qs)
-                    if router.budget_left() <= 0:
+                    if router.budget_left() <= 0 and not (m_ok and mrouter.budget_left() > 0):
                         log('    [!] budget hit mid-paper - continuing with what we have')
                         break
+                route_used = '+'.join(lanes) if lanes else 'none'
             merged = merge_questions(per_chunk)
 
             # 2) completeness audit + targeted re-extract
             remove_labels = set()
-            if router.alive() and router.budget_left() > 0 and merged:
-                missing, suspect, remove_labels = completeness_check(router, merged, hint, args)
+            if (router.alive() or m_ok) and merged and \
+                    (router.budget_left() > 0 or (m_ok and mrouter.budget_left() > 0)):
+                missing, suspect, remove_labels = completeness_check(
+                    router, merged, hint, args, mrouter=mrouter if m_ok else None)
                 if missing and router.budget_left() > 0:
                     extra = targeted_reextract(router, path, suspect or list(pt), missing, args)
                     for q in apply_ai_questions(extra, meta_pages):
@@ -930,9 +1131,11 @@ def stage_extract_v6(args, sb, router):
                     q['marks'] = mk
 
             # 4) AI clean pass (only flagged questions, diff-guarded)
-            if args.ai_clean and router.alive() and router.budget_left() > 0:
+            if args.ai_clean and (router.alive() or m_ok) and \
+                    (router.budget_left() > 0 or (m_ok and mrouter.budget_left() > 0)):
                 flagged = [q for q in merged if leak_flags(q['text'])]
-                for idx, new in ai_clean_pass(router, flagged, args.min_interval).items():
+                for idx, new in ai_clean_pass(router, flagged, args.min_interval,
+                                              mrouter=mrouter if m_ok else None).items():
                     flagged[idx]['text'] = new
 
             # 5) structure: topics/qtype/diagrams
@@ -1020,10 +1223,18 @@ def stage_extract_v6(args, sb, router):
     log(f'AI calls spent this process: {router.budget_spent}'
         + (f' / {router.max_calls}' if router.max_calls else '')
         + f' | budget stops: {budget_stops}')
+    mstat = None
+    if mercury_on:
+        ms = mrouter.stats()
+        mstat = dict(ms)
+        log(f'mercury lane: calls={ms["calls"]} ok={ms["calls_ok"]} '
+            f'tok_in={ms["tokens_in"]} tok_out={ms["tokens_out"]} '
+            f'({ms["model"]}/{ms["effort"]}, {ms["keys"]} keys left)')
     with open(os.path.join(args.out, 'run_v6.json'), 'w') as f:
         json.dump({'prompt_version': PROMPT_VERSION, 'route': args.route,
                    'chunks': args.chunk_pages, 'qc_min': args.qc_min,
                    'calls_spent': router.budget_spent, 'max_calls': router.max_calls,
+                   'mercury': mstat,
                    'papers': [{"file": a, "status": b, "n_q": c} for a, b, c in summary]},
                   f, ensure_ascii=False, indent=1)
 
@@ -1049,6 +1260,12 @@ def main():
                     help='hard per-process AI call budget (0 = unlimited). 2000/5h run spec: use ~total/shards')
     ap.add_argument('--call-budget', type=int, default=150, help='per-call deadline seconds')
     ap.add_argument('--route', choices=['auto', 'text', 'vision', 'ocr'], default='auto')
+    ap.add_argument('--mercury', choices=['auto', 'off'], default='auto',
+                    help='mercury-3 text lane (Inception Labs) for text-layer chunks '
+                         '+ text-only passes; auto = on when MERCURY_API_KEYS present')
+    ap.add_argument('--mercury-min-interval', type=float, default=0.7,
+                    help='seconds between mercury calls in this process '
+                         '(free tier allows 1,000 RPM/key)')
     ap.add_argument('--course', default='', help='substring filter on file path (e.g. BTech, BPharm)')
     ap.add_argument('--year', default='', help='substring filter on file path (e.g. 2022-23)')
     ap.add_argument('--chunk-pages', type=int, default=2)
@@ -1064,9 +1281,14 @@ def main():
     pool = load_key_pool()
     models = load_models()
     router = AIRouterV6(pool.keys, models, max_calls=args.max_calls)
+    mkeys = load_mercury_keys() if args.mercury != 'off' else []
+    if mkeys:
+        router.mercury = MercuryRouter(mkeys, max_calls=0,
+                                       min_interval=args.mercury_min_interval)
     log(f'[v6] models={models} keys={len(pool.keys)} combos={len(router.combos)} '
         f'min_interval={args.min_interval}s max_calls={args.max_calls or "inf"} '
-        f'route={args.route} qc_min={args.qc_min}')
+        f'route={args.route} qc_min={args.qc_min} '
+        + (f'mercury={MERCURY_MODEL}x{len(mkeys)}({MERCURY_EFFORT})' if mkeys else 'mercury=off'))
     if args.list_models:
         v5.list_models(pool)
         return
