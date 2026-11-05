@@ -1,0 +1,28 @@
+# One-shot maintenance: probe every Google key inside the GEMMA_API_KEYS
+# secret and rewrite the secret with ONLY healthy keys (owner directive
+# 2026-11-05: "only remain the remaining healthy keys of google").
+# Needs a temporary PRUNE_PAT secret with secrets:write on this repo;
+# the operator deletes it right after the run. Key values never appear in logs.
+name: prune-keys
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install -q requests pynacl
+      - name: Probe + prune
+        env:
+          GEMMA_API_KEYS: ${{ secrets.GEMMA_API_KEYS }}
+          PRUNE_PAT: ${{ secrets.PRUNE_PAT }}
+        run: python3 tools/prune_dead_keys.py
