@@ -12,9 +12,15 @@
 # v6 (pipeline/aktu_pyq_extractor_v6.py): chunked VISION extraction (page text
 # + page images per call, 1-2 page chunks), per-paper multi-pass (extract ->
 # completeness audit -> targeted re-extract -> deterministic clean -> AI clean
-# -> QC gate), paper-scoped --reprocess replace, hard per-run call budget and
-# per-call pacing (owner spec 2026-10-25: a ~5h run spends ~2,000 calls total
-# = ~40/model/hour on the 2-model x 5-key lanes).
+# -> QC gate), paper-scoped --reprocess replace, RETRY anti-loop ledger, hard
+# per-run call budget and per-call pacing.
+#
+# RPD LAW (owner 2026-11-06): 6 keys x 500 RPD = 3,000 vision calls/day is the
+# daily ceiling for the Google flash-lite lanes; the cron dispatcher budgets
+# strictly under it (2,800) via its cross-run ledger and passes the remaining
+# budget as total_calls. 6 parallel shards burn the budget at MAX speed while
+# pacing stays far under the 15 RPM/model/key per-minute window. The old fixed
+# 2,000-calls/5h spec is retired.
 #
 # The "legacy" extractor choice runs the v5.8 script unchanged.
 # Non-extract stages (enrich/repair/embed/cluster) are v5 stages and run the
@@ -70,11 +76,11 @@ on:
         default: '0'
         type: string
       total_calls:
-        description: 'AI call budget for the WHOLE run (all shards). 2000 = the 5h spec'
-        default: '2000'
+        description: 'AI call budget for the WHOLE run (all shards). The cron ledger passes the remaining daily RPD slice (strictly under 6 keys x 500 RPD = 3,000; cap 2,800). Manual runs: 2800'
+        default: '2800'
         type: string
       min_interval_s:
-        description: 'per-shard seconds between call starts (empty = auto: 18000*shards/total_calls)'
+        description: 'per-shard seconds between call starts (empty = auto: max(8, 10800*6/total_calls) - MAX speed under the daily RPD cap)'
         default: ''
         type: string
       route:
@@ -131,12 +137,15 @@ jobs:
     timeout-minutes: 350
     strategy:
       fail-fast: false
-      max-parallel: 3
+      max-parallel: 6
       matrix:
         include:
-          - { shard: 0, shards: 3 }
-          - { shard: 1, shards: 3 }
-          - { shard: 2, shards: 3 }
+          - { shard: 0, shards: 6 }
+          - { shard: 1, shards: 6 }
+          - { shard: 2, shards: 6 }
+          - { shard: 3, shards: 6 }
+          - { shard: 4, shards: 6 }
+          - { shard: 5, shards: 6 }
     steps:
       - uses: actions/checkout@v4
 
@@ -166,14 +175,18 @@ jobs:
       - name: Compute rate plan
         id: rate
         run: |
-          SHARDS=3
-          TOTAL="${{ github.event.inputs.total_calls || '2000' }}"
+          SHARDS=6
+          TOTAL="${{ github.event.inputs.total_calls || '2800' }}"
           MI="${{ github.event.inputs.min_interval_s }}"
           if [ -z "$MI" ]; then
-            MI=$(python3 -c "import math; print(math.ceil(18000 * $SHARDS / max(1, int('$TOTAL'))))")
+            # MAX speed under the daily RPD cap: pace the whole budget to be
+            # consumable in ~3h at 6-way parallelism (call latency usually
+            # binds first); floor 8s keeps the fleet ~<=15 starts/min, far
+            # under the 15 RPM/model/key per-minute window on 12 combos.
+            MI=$(python3 -c "import math; print(max(8, math.ceil(10800 * $SHARDS / max(1, int('$TOTAL')))))")
           fi
           PER_SHARD=$(python3 -c "import math; print(math.ceil(int('$TOTAL') / $SHARDS))")
-          echo "per-shard budget: $PER_SHARD calls, min-interval ${MI}s (total target $TOTAL in ~5h)"
+          echo "per-shard budget: $PER_SHARD calls, min-interval ${MI}s (total $TOTAL on $SHARDS shards - RPD-law slice)"
           echo "per_shard=$PER_SHARD" >> "$GITHUB_OUTPUT"
           echo "mi=$MI" >> "$GITHUB_OUTPUT"
 

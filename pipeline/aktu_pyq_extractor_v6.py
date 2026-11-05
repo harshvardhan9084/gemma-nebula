@@ -62,6 +62,31 @@ key: 1,000 RPM / 1M in-TPM / 100K out-TPM; 2 keys = 200M free tokens) and do
 NOT consume the --max-calls Google budget. reasoning_effort is forced
 (instant by default): the medium default burns ~8K reasoning tokens and
 returns zero questions (measured 2026-11-05).
+
+RE-EXTRACT ANTI-LOOP LEDGER (owner directive 2026-11-06, "papers clear-zero"):
+A real AKTU paper carries ~20 questions (incl. choice variants), so papers
+below the bar are re-extracted -- but a paper that GENUINELY has fewer must
+never loop forever, and nothing may lose questions it already has.
+papers.extraction_error doubles as the per-paper attempt ledger:
+  RETRY#N:afterq(prev beforeq)  attempt N done, DB now holds afterq (progress)
+  RETRY-ACCEPT ...              terminal: QC-clean after the hard cap -> a
+                                genuine short paper, accepted, never re-picked
+  RETRY-FROZEN ...              terminal: still QC-failing -> human review
+                                queue, never re-picked (review never ships)
+HARD limit: MAX_REATTEMPTS = 2 re-extract attempts per paper, ever.
+SOFT limit: a next attempt is only spent if the last one improved the paper
+(more questions, or QC-clean). Terminal stamps are skipped by every future
+reprocess selection -> no endless loop, bounded spend.
+ZERO-LOSS guard: a re-extract that finds FEWER questions than the DB already
+holds is pushed upsert-only (old occurrences kept, nothing deleted);
+paper-scoped REPLACE (with backup) runs only when the new set is at least as
+full as the old one.
+
+RPD LAW (owner 2026-11-06): 6 keys x 500 RPD = 3,000 vision calls/day is the
+hard daily ceiling for the Google flash-lite lanes; the dispatcher budgets
+strictly under it (2,800) via its own cross-run ledger. There is no fixed
+2,000-calls-per-run spec anymore -- the daily RPD cap is the only governor;
+pacing just needs to stay clear of the 15 RPM/model/key per-minute window.
 """
 import argparse, base64, hashlib, io, json, os, re, sys, time
 from collections import Counter, defaultdict
@@ -102,7 +127,39 @@ except ImportError:
     PIL_OK = False
 
 GEMMA_BASE = 'https://generativelanguage.googleapis.com/v1beta'
-PROMPT_VERSION = 'v6-vision-qc+mercury'
+PROMPT_VERSION = 'v6-vision-qc+mercury+retryledger'
+
+# --- Re-extract anti-loop ledger (owner directive 2026-11-06) ---------------
+MAX_REATTEMPTS = 2          # HARD cap: re-extract attempts per paper, ever
+RETRY_STAMP_RX = re.compile(r'RETRY#(\d+):(\d+)q\(prev (-?\d+)q\)')
+
+
+def parse_retry_stamp(err):
+    """papers.extraction_error -> (attempts_done, last_after_n, last_before_n).
+    No stamp -> (0, None, None)."""
+    m = RETRY_STAMP_RX.search(str(err or ''))
+    if not m:
+        return 0, None, None
+    try:
+        return int(m.group(1)), int(m.group(2)), int(m.group(3))
+    except ValueError:
+        return 0, None, None
+
+
+def retry_terminal(n_eff, mark_review, attempts, old_n):
+    """Decide the terminal stamp for a paper that missed the bar.
+    Returns (stamp, status) or None = non-terminal (keep the RETRY#N stamp and
+    allow one more attempt later). Terminal fires when the HARD cap is reached
+    OR the SOFT limit says the last attempt did not improve the paper (no new
+    questions AND still QC-failing)."""
+    improved = (n_eff > old_n) or (not mark_review)
+    if attempts < MAX_REATTEMPTS and improved:
+        return None
+    if mark_review:
+        return (f'RETRY-FROZEN n={n_eff}q after {attempts} attempt(s); QC still '
+                f'failing - human review queue (anti-loop terminal)', 'review')
+    return (f'RETRY-ACCEPT n={n_eff}q genuine-short after {attempts} attempt(s); '
+            f'owner bar ~20q, anti-loop terminal', 'complete')
 
 # --- Inception Labs (mercury-3) lane ---------------------------------------
 INCEPTION_BASE = 'https://api.inceptionlabs.ai/v1'
@@ -792,10 +849,16 @@ def qc_paper(questions, hint, args):
 # Push (upsert semantics + paper-scoped REPLACE for --reprocess)
 # ---------------------------------------------------------------------------
 def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
-                  reprocess, outdir, used_ai):
+                  reprocess, outdir, used_ai, replace_ok=None,
+                  keep_n=0, keep_status=None):
     """v6 push. Same DB semantics as v5.push_paper (upsert, zero identity
     churn) plus: --reprocess first BACKS UP + deletes the paper's old
-    occurrences and the questions that would be orphaned."""
+    occurrences and the questions that would be orphaned.
+    replace_ok=False (with --reprocess) = ZERO-LOSS mode: skip the delete,
+    upsert on top of the existing rows; the papers patch then never regresses
+    n_questions below keep_n and keeps keep_status='complete' standing."""
+    do_replace = bool(reprocess) if replace_ok is None \
+        else (bool(reprocess) and bool(replace_ok))
     meta = parsed['meta']
     # yearless scans (hunt5 nb-* notebook files have empty academic_year):
     # papers.year/occurrences.year now allow NULL (migration 2026-10-28) — never
@@ -842,9 +905,9 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
         raise
     paper_id = pr[0]['id'] if pr else None
     if not paper_id:
-        return None, []
+        return None, [], None
 
-    if reprocess:
+    if do_replace:
         try:
             old_occ = sb.get_paginated('occurrences', select='id,question_id,year,q_no,marks',
                                        filters={'paper_id': f'eq.{paper_id}'}, page=1000)
@@ -946,9 +1009,15 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
             except Exception:
                 pass
 
-    patch = {'extraction_status': 'review' if mark_review else 'complete',
+    n_final = len(parsed['questions'])
+    if keep_n and n_final < int(keep_n):
+        n_final = int(keep_n)          # zero-loss: never regress the stored count
+    status = 'review' if mark_review else 'complete'
+    if keep_status == 'complete' and not do_replace:
+        status = 'complete'            # upsert-only on top of a complete paper
+    patch = {'extraction_status': status,
              'extracted_at': datetime.now(timezone.utc).isoformat(),
-             'n_questions': len(parsed['questions']),
+             'n_questions': n_final,
              'extraction_error': None}
     if used_ai:
         patch['enriched_at'] = datetime.now(timezone.utc).isoformat()
@@ -956,7 +1025,7 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
         sb.patch('papers', {'id': f'eq.{paper_id}'}, patch)
     except Exception as e:
         log(f'    [db] paper patch failed: {str(e)[:80]}')
-    return paper_id, qids
+    return paper_id, qids, status
 
 
 def sanitize_topic_v6(t):
@@ -1005,6 +1074,7 @@ def stage_extract_v6(args, sb, router):
 
     n_skipped_done = 0
     predb = {}                                  # file_hash -> stored subject_code
+    paper_ctx = {}                              # path -> {status, n, err} (reprocess)
     if sb and pdfs and not args.reprocess:
         hlist = [get_hash(p) for p in pdfs]
         done = set()
@@ -1025,11 +1095,12 @@ def stage_extract_v6(args, sb, router):
         hlist = [get_hash(p) for p in pdfs]
         for i in range(0, len(hlist), 100):
             chunk_hashes = hlist[i:i + 100]
-            rows = sb.get_paginated('papers', select='file_hash,extraction_status,subject_code,n_questions',
+            rows = sb.get_paginated('papers', select='file_hash,extraction_status,subject_code,n_questions,extraction_error',
                                     filters={'file_hash': 'in.(' + ','.join(chunk_hashes) + ')'},
                                     page=1000)
             stmap = {r['file_hash']: r.get('extraction_status') for r in rows}
             nqmap = {r['file_hash']: r.get('n_questions') for r in rows}
+            errmap = {r['file_hash']: r.get('extraction_error') for r in rows}
             for r in rows:
                 predb[r['file_hash']] = r.get('subject_code') or None
             for p, h in zip(pdfs[i:i + 100], chunk_hashes):
@@ -1043,6 +1114,16 @@ def stage_extract_v6(args, sb, router):
                     if (args.thin_max and st is not None
                             and (nqmap.get(h) or 0) >= args.thin_max):
                         continue
+                    # anti-loop ledger (owner 2026-11-06): terminal stamps
+                    # (RETRY-ACCEPT / RETRY-FROZEN) are never re-picked; the hard
+                    # cap MAX_REATTEMPTS is enforced at write time - this skip is
+                    # the belt-and-suspenders copy.
+                    p_err = str(errmap.get(h) or '')
+                    attempts, _la, _lb = parse_retry_stamp(p_err)
+                    if 'RETRY-ACCEPT' in p_err or 'RETRY-FROZEN' in p_err \
+                            or attempts >= MAX_REATTEMPTS:
+                        continue
+                    paper_ctx[p] = {'status': st, 'n': nqmap.get(h) or 0, 'err': p_err}
                     sel.append((p, st, nqmap.get(h)))
         # quality-first ordering: review (known-broken) -> failed -> complete-thin,
         # least questions first inside each class
@@ -1069,6 +1150,7 @@ def stage_extract_v6(args, sb, router):
     state = json.load(open(state_path)) if os.path.exists(state_path) else {}
     outbox = open(os.path.join(args.out, 'outbox_v6.jsonl'), 'a', encoding='utf-8')
     summary, budget_stops = [], 0
+    retry_stats = Counter()                     # attempt / RETRY-ACCEPT / RETRY-FROZEN
     mrouter = getattr(router, 'mercury', None)
     mercury_on = bool(args.mercury != 'off' and mrouter is not None and mrouter.alive())
     if mercury_on:
@@ -1212,12 +1294,63 @@ def stage_extract_v6(args, sb, router):
             flags, leaks = qc_paper(merged, hint, args)
             mark_review = bool(flags)
 
-            # 7) push (upsert or paper-scoped replace)
+            # 7) push (upsert / paper-scoped replace / zero-loss upsert-only)
             status = 'review' if mark_review else 'complete'
+            ctx = paper_ctx.get(path) or {}
+            old_n = int(ctx.get('n') or 0)
+            old_status = ctx.get('status')
+            prev_attempts, _la, _lb = parse_retry_stamp(ctx.get('err'))
+            n_new = len(merged)
+            bar = args.thin_max or 0
+            success = (not mark_review) and (bar == 0 or n_new >= bar)
+            replace_ok = None
+            keep_n, keep_status = 0, None
+            if args.reprocess and ctx:
+                # zero-loss guard: REPLACE only when the new set is at least as
+                # full as what the DB already holds (review papers that came out
+                # QC-clean are always taken - that is the heal).
+                if old_status == 'failed':
+                    replace_ok = True          # failed rows are partial junk (backed up)
+                else:
+                    replace_ok = (n_new >= old_n) or \
+                                 (old_status == 'review' and not mark_review)
+                if not replace_ok:
+                    keep_n, keep_status = old_n, old_status
+                    log(f'    [zero-loss] new set {n_new}q < stored {old_n}q '
+                        f'-> upsert-only, old occurrences kept')
             if sb:
-                push_paper_v6(sb, fname, fhash, parsed, mark_review,
-                              os.path.join(args.out, 'diagrams'), args.reprocess,
-                              args.out, used_ai)
+                _pid, _qids, status = push_paper_v6(
+                    sb, fname, fhash, parsed, mark_review,
+                    os.path.join(args.out, 'diagrams'), args.reprocess,
+                    args.out, used_ai, replace_ok=replace_ok,
+                    keep_n=keep_n, keep_status=keep_status)
+                # anti-loop ledger stamp (owner 2026-11-06)
+                if args.reprocess and ctx and _pid and not success:
+                    attempts = prev_attempts + 1
+                    n_eff = max(n_new, old_n) if not replace_ok else n_new
+                    term = retry_terminal(n_eff, mark_review, attempts, old_n)
+                    if term:
+                        stamp, term_status = term
+                        try:
+                            sb.patch('papers', {'id': f'eq.{_pid}'},
+                                     {'extraction_error': stamp,
+                                      'extraction_status': term_status,
+                                      'n_questions': n_eff})
+                            status = term_status
+                            retry_stats[stamp.split(' ')[0]] += 1
+                            log(f'    [ledger] TERMINAL {stamp}')
+                        except Exception as e:
+                            log(f'    [db] ledger stamp failed: {str(e)[:80]}')
+                    else:
+                        stamp = f'RETRY#{attempts}:{n_eff}q(prev {old_n}q)'
+                        try:
+                            sb.patch('papers', {'id': f'eq.{_pid}'},
+                                     {'extraction_error': stamp})
+                            retry_stats['attempt'] += 1
+                            log(f'    [ledger] {stamp} (attempt {attempts}/'
+                                f'{MAX_REATTEMPTS}, may re-run)')
+                        except Exception as e:
+                            log(f'    [db] ledger stamp failed: {str(e)[:80]}')
                 if not args.no_crop:
                     try:
                         crop_diagrams(path, parsed, os.path.join(args.out, 'diagrams'),
@@ -1269,6 +1402,9 @@ def stage_extract_v6(args, sb, router):
     log(f'AI calls spent this process: {router.budget_spent}'
         + (f' / {router.max_calls}' if router.max_calls else '')
         + f' | budget stops: {budget_stops}')
+    if retry_stats:
+        log('retry ledger: ' + ' '.join(f'{k}={v}' for k, v in sorted(retry_stats.items()))
+            + f' (hard cap {MAX_REATTEMPTS} attempts/paper)')
     mstat = None
     if mercury_on:
         ms = mrouter.stats()
