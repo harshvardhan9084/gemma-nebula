@@ -805,6 +805,20 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
         yr = str(yr).strip() or None
     code = v5.canonical_code(sb, meta.get('code'))
     if not code:
+        # Identity recovery (zero-churn): the paper was selected for (re)
+        # extraction, so a papers row may already exist for this file_hash
+        # with the subject_code established at first ingest. Reuse it - never
+        # re-point or re-derive identity from a lossy filename.
+        try:
+            rows = sb.get_paginated('papers', select='subject_code',
+                                    filters={'file_hash': f'eq.{fhash}'}, page=1)
+            if rows and rows[0].get('subject_code'):
+                code = v5.canonical_code(sb, rows[0]['subject_code'])
+                if code:
+                    log(f'    [identity] subject_code recovered from existing paper row: {code}')
+        except Exception:
+            pass
+    if not code:
         log(f'    [!] PUSH SKIP: no subject code for {str(fname)[:64]}')
         return None, []
     name = parsed.get('subject_name') or code
@@ -990,15 +1004,17 @@ def stage_extract_v6(args, sb, router):
         return hcache[p]
 
     n_skipped_done = 0
+    predb = {}                                  # file_hash -> stored subject_code
     if sb and pdfs and not args.reprocess:
         hlist = [get_hash(p) for p in pdfs]
         done = set()
         for i in range(0, len(hlist), 100):
-            rows = sb.get_paginated('papers', select='file_hash,extraction_status',
+            rows = sb.get_paginated('papers', select='file_hash,extraction_status,subject_code',
                                     filters={'file_hash': 'in.(' + ','.join(hlist[i:i + 100]) + ')'},
                                     page=1000)
             for r in rows:
                 st = r.get('extraction_status')
+                predb[r['file_hash']] = r.get('subject_code') or None
                 if st == 'complete' or (st == 'review' and not args.ai):
                     done.add(r['file_hash'])
         n_skipped_done = len(done)
@@ -1009,10 +1025,12 @@ def stage_extract_v6(args, sb, router):
         hlist = [get_hash(p) for p in pdfs]
         for i in range(0, len(hlist), 100):
             chunk_hashes = hlist[i:i + 100]
-            rows = sb.get_paginated('papers', select='file_hash,extraction_status',
+            rows = sb.get_paginated('papers', select='file_hash,extraction_status,subject_code',
                                     filters={'file_hash': 'in.(' + ','.join(chunk_hashes) + ')'},
                                     page=1000)
             stmap = {r['file_hash']: r.get('extraction_status') for r in rows}
+            for r in rows:
+                predb[r['file_hash']] = r.get('subject_code') or None
             for p, h in zip(pdfs[i:i + 100], chunk_hashes):
                 st = stmap.get(h)
                 if st is None or st in want:   # not ingested yet -> ingest; else status filter
@@ -1088,6 +1106,20 @@ def stage_extract_v6(args, sb, router):
             meta_pages = set(pt)
             chunks = build_chunks(pt, args.chunk_pages)
             n_chunks = len(chunks)
+
+            # identity gate (zero-churn): reuse the stored subject_code of an
+            # already-ingested paper; never burn AI tokens on a file that no
+            # code source (filename / PDF content / DB row) can identify.
+            db_code = predb.get(fhash)
+            if not meta.get('code') and db_code:
+                meta['code'] = db_code
+            if not meta.get('code') and fhash not in predb:
+                summary.append((fname, 'identity_blocked', None))
+                state[fname] = {'status': 'identity_blocked', 'hash': fhash,
+                                'at': datetime.now(timezone.utc).isoformat()}
+                log(f'  [{i + 1}/{len(pdfs)}] IDENTITY-BLOCKED (no code from '
+                    f'filename/PDF/DB - owner decision needed on fallback) {fname[:44]}')
+                continue
 
             # 1) chunked extraction (mercury text lane + Google vision lane)
             m_ok = mercury_on and mrouter.budget_left() > 0
