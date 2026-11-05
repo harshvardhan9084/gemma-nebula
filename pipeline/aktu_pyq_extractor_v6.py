@@ -1020,22 +1020,36 @@ def stage_extract_v6(args, sb, router):
         n_skipped_done = len(done)
         pdfs = [p for p in pdfs if get_hash(p) not in done]
     elif sb and pdfs and args.reprocess:
-        keep = []
+        sel = []
         want = set(x.strip() for x in args.status_filter.split(',') if x.strip())
         hlist = [get_hash(p) for p in pdfs]
         for i in range(0, len(hlist), 100):
             chunk_hashes = hlist[i:i + 100]
-            rows = sb.get_paginated('papers', select='file_hash,extraction_status,subject_code',
+            rows = sb.get_paginated('papers', select='file_hash,extraction_status,subject_code,n_questions',
                                     filters={'file_hash': 'in.(' + ','.join(chunk_hashes) + ')'},
                                     page=1000)
             stmap = {r['file_hash']: r.get('extraction_status') for r in rows}
+            nqmap = {r['file_hash']: r.get('n_questions') for r in rows}
             for r in rows:
                 predb[r['file_hash']] = r.get('subject_code') or None
             for p, h in zip(pdfs[i:i + 100], chunk_hashes):
                 st = stmap.get(h)
                 if st is None or st in want:   # not ingested yet -> ingest; else status filter
-                    keep.append(p)
-        pdfs = keep
+                    # thin-paper completeness campaign (--thin-max N): papers already
+                    # at/above the bar stay untouched (owner rule 2026-11-05: a real
+                    # AKTU paper carries ~20 questions incl. choice variants; measured
+                    # corpus median 21.0 / avg 20.3). null n_questions (failed/new)
+                    # always kept. null-vs-0 trick: None or 0 -> 0 < N -> kept.
+                    if (args.thin_max and st is not None
+                            and (nqmap.get(h) or 0) >= args.thin_max):
+                        continue
+                    sel.append((p, st, nqmap.get(h)))
+        # quality-first ordering: review (known-broken) -> failed -> complete-thin,
+        # least questions first inside each class
+        rank = {'review': 0, 'failed': 1, 'complete': 2}
+        sel.sort(key=lambda t: (rank.get(t[1], 3),
+                                t[2] if t[2] is not None else -1))
+        pdfs = [p for p, _, _ in sel]
     if args.course:
         pdfs = [p for p in pdfs if args.course.lower() in p.lower()]
     if args.year:
@@ -1302,6 +1316,9 @@ def main():
     ap.add_argument('--year', default='', help='substring filter on file path (e.g. 2022-23)')
     ap.add_argument('--chunk-pages', type=int, default=2)
     ap.add_argument('--qc-min', type=int, default=10, help='papers with fewer questions -> review')
+    ap.add_argument('--thin-max', type=int, default=0,
+                    help='with --reprocess: only papers with n_questions < N (0 = off). '
+                         'Thin-paper completeness campaign (AKTU papers carry ~20 questions)')
     ap.add_argument('--no-ai-clean', dest='ai_clean', action='store_false',
                     help='disable the AI clean pass for leak-flagged questions')
     ap.add_argument('--shard', type=int, default=0)

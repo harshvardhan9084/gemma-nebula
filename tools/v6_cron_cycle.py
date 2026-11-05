@@ -43,6 +43,16 @@ REPROCESS_INPUTS = dict(DISPATCH_INPUTS, **{
     "manifest": "data/unified_manifest.csv,data/aktuonline3_manifest.csv,data/aktuonline4_manifest.csv,data/hunt5_extractor_manifest.csv",
     "reprocess": "true", "status_filter": "complete,review,failed",
 })
+THIN_INPUTS = dict(REPROCESS_INPUTS, **{
+    # owner completeness rule 2026-11-05: a real AKTU paper carries ~20 questions
+    # (incl. choice variants; measured corpus median 21.0 / avg 20.3) -> papers
+    # below the bar are under-extracted and get re-extracted with paper-scoped
+    # REPLACE (old rows backed up, audited). Quality-first ordering inside the
+    # extractor: review -> failed -> complete-thin; text layer flies on mercury,
+    # scans stay bound by the total_calls law. Engages automatically when the
+    # review tail is nearly drained (see decide block).
+    "thin_max": "20",
+})
 
 def api(path, method="GET", body=None):
     data = json.dumps(body).encode() if body else None
@@ -97,6 +107,11 @@ def db_audit(prev):
                           count(*) FILTER (WHERE extraction_status='complete')
                    FROM papers WHERE ingested_at > %s""", (since,))
     a["new_review_complete"] = cur.fetchone()
+    # thin-paper pool (owner completeness rule: AKTU papers carry ~20 questions;
+    # sub-bar complete papers are under-extracted -> THIN-MAKE-GREAT campaign)
+    cur.execute("""SELECT count(*) FROM papers
+                   WHERE extraction_status='complete' AND coalesce(n_questions,0) < 20""")
+    a["thin_complete"] = cur.fetchone()[0]
     conn.close()
     a["d_papers"] = a["papers"] - prev.get("papers_total", a["papers"])
     a["d_questions"] = a["questions"] - prev.get("questions_total", a["questions"])
@@ -211,7 +226,14 @@ def main():
         else:
             # drain check: backlog = hunt5+aktuonline4 hashes not in DB (cheap proxy:
             # zero papers delta over 2 consecutive clean cycles => drained)
-            if state.get("zero_delta_streak", 0) >= 2:
+            review_left = a["status"].get("review", 0)
+            thin_left = a.get("thin_complete", 0)
+            print(f"[DECIDE] review_left={review_left} thin_complete={thin_left}")
+            if review_left <= 50 and thin_left > 0:
+                # review tail nearly drained -> thin-paper completeness campaign
+                inputs = THIN_INPUTS
+                mode = "THIN-MAKE-GREAT"
+            elif state.get("zero_delta_streak", 0) >= 2:
                 inputs = REPROCESS_INPUTS
                 mode = "REPROCESS-MAKE-GREAT"
             else:

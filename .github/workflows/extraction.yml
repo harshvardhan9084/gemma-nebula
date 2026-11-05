@@ -65,6 +65,10 @@ on:
         description: 'with reprocess: which DB statuses to re-extract'
         default: 'complete,review,failed'
         type: string
+      thin_max:
+        description: 'with reprocess: only papers with n_questions < N (0 = off). Thin-paper completeness campaign (AKTU papers carry ~20 questions)'
+        default: '0'
+        type: string
       total_calls:
         description: 'AI call budget for the WHOLE run (all shards). 2000 = the 5h spec'
         default: '2000'
@@ -220,7 +224,8 @@ jobs:
               --max-calls "${{ steps.rate.outputs.per_shard }}" \
               $SHARD_ARGS $OPTS \
               ${{ github.event.inputs.reprocess == 'true' && '--reprocess' || '' }} \
-              ${{ github.event.inputs.reprocess == 'true' && format('--status-filter {0}', github.event.inputs.status_filter) || '' }}
+              ${{ github.event.inputs.reprocess == 'true' && format('--status-filter {0}', github.event.inputs.status_filter) || '' }} \
+              ${{ github.event.inputs.reprocess == 'true' && github.event.inputs.thin_max != '' && github.event.inputs.thin_max != '0' && format('--thin-max {0}', github.event.inputs.thin_max) || '' }}
             if [ "$STAGE" = "all" ] && [ "${{ matrix.shard }}" = "0" ]; then
               python3 pipeline/aktu_pyq_extractor.py --stage embed --db
               python3 pipeline/aktu_pyq_extractor.py --stage cluster --db

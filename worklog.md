@@ -1,4 +1,17 @@
 ---
+Task ID: THIN-CAMPAIGN-20261105
+Agent: Super Z (owner directive, 2026-11-05 ~18:40 UTC - not a cron fire)
+Task: Owner rule - a real AKTU paper carries ~20 questions (7 section-A + 5 section-B + 8 section-C, counting choice variants); papers extracted below that bar must be RE-EXTRACTED. Set up cron + GHA for the "finish everything" outcome. (Also answered: what site_counters is; start-with-partial-CSV verdict; ID-assignment strategy with measured 91.2% free match; parquet explainer; open-sourcing advice; CSV progress 300 PDFs / 2,200 subjects / 4,400 codes acknowledged.)
+
+Work Log:
+- RULE MEASURED BEFORE WIRING: complete-paper n_questions median 21.0 / avg 20.3 - the owner's 20-question model is exactly right. Distribution: 20-29q 6,157 papers / 15-19 1,974 / 10-14 1,030 / 01-09 856 / 0-q 152 (those are review/failed, not complete). THIN POOL (complete, <20q) = 3,505 papers: 1,697 text-layer (22,267 q) + 1,808 scans (24,207 q). Thinnest: 1-question papers (NEC-309 2018-19, RAR102, KEC-063, KAS201T...).
+- IMPLEMENTED (py_compile + YAML validated, both cycle copies synced repo_b/tools + sandbox scripts):
+  1. extractor v6 --thin-max N: reprocess-mode filter - papers at/above the bar stay untouched, null-n_questions (failed/new) always kept; QUALITY-FIRST ORDERING: review -> failed -> complete-thin, least-questions-first inside each class.
+  2. extraction.yml new input thin_max (+ passthrough only when reprocess=true and !=0).
+  3. cron cycle: THIN_INPUTS (thin_max=20, status_filter complete,review,failed, paper-scoped REPLACE with backup) + thin_complete count in db_audit + auto-mode THIN-MAKE-GREAT when review_left<=50 AND thin>0 (BACKLOG-DRAIN keeps priority until the review tail is nearly drained; REPROCESS-MAKE-GREAT remains the final fallback). [DECIDE] line now logs review_left/thin_complete every fire.
+- COST LEDGER (measured rates): text-layer thin = 1,697 x ~3.4K tokens ~= 5.8M mercury tokens (free pool); scan thin = 1,808 x ~4.4 vision calls ~= 8,000 calls ~= 4 runs under the total_calls=2000 law. Expected finish: review tail first (552 text-review fly on mercury, 185 scan-review vision-bound), then thin campaign auto-engages - ~2-3 days of normal cron runs to finish the sub-20 pool, qc gates unchanged (qc_min=10 / route=auto / chunk_pages=2 / total_calls=2000).
+- Zero-churn law intact: REPLACE mode backs up old rows per paper (outdir/replaced + outbox), no cross-paper identity re-pointing, repo A + PROD untouched.
+
 Task ID: OWNER-STRATEGY-CSV2-20261105
 Agent: Super Z (owner Q&A follow-up, 2026-11-05 ~18:05 UTC - not a cron fire)
 Task: Owner asked (a) what/where is site_counters; (b) start ID-assignment from a PARTIAL aktu_syllabus.csv (256/480 PDFs done) or wait; (c) the strategy to assign CSV subject IDs then Unit IDs to each question without overburning resources; (d) agreed to review-never-ships; (e) what is a parquet file; (f) doctrine: not live yet, do not keep spending on repeats/embeddings/production things until RAW data is trustable.
