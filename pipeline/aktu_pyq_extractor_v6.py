@@ -447,11 +447,14 @@ class MercuryRouter:
     Own budget + token metering, separate from the Google call budget.
     Free tier per key (docs 2026-11): 1,000 RPM / 1M in-TPM / 100K out-TPM."""
 
-    BENCH_429 = 90          # per-minute limit -> outlive the window
-    BENCH_5XX = 60          # transient server blip
-    BENCH_400 = 3600        # request rejected (schema/model) -> cool off 1h
-    DEAD_401_403 = True     # key dropped for the rest of the run
-    REJOIN_MAX_WAIT = 95    # all keys benched -> wait out nearest rejoin if <= this
+    # Owner 2026-11-07: keys throw random error codes "for nothing", any time,
+    # any key -> do NOT bench on a single error. Count CONSECUTIVE errors per
+    # key; after CONSEC_ERR_BENCH_N in a row, rest that key BENCH_REST seconds.
+    # Single errors just rotate instantly to the next healthy key (round-robin).
+    CONSEC_ERR_BENCH_N = 2  # bench after n consecutive errors on the same key
+    BENCH_REST = 120        # rest duration (replaces old 90s/60s/3600s tiers)
+    DEAD_401_403 = True     # auth errors are never "for nothing" -> key dropped for the run
+    REJOIN_MAX_WAIT = 130   # all keys benched -> wait out nearest rejoin if <= this (> BENCH_REST)
 
     def __init__(self, keys, max_calls=0, min_interval=0.7):
         self.keys = [k for k in keys if k]
@@ -461,6 +464,7 @@ class MercuryRouter:
         self.min_interval = float(min_interval)
         self._last = 0.0
         self._bench = {}                          # key -> (until_epoch, why)
+        self._consec = {}                         # key -> consecutive-error count
         self.tok_in = 0
         self.tok_out = 0
         self.calls_ok = 0
@@ -479,6 +483,19 @@ class MercuryRouter:
                 'calls_ok': self.calls_ok, 'tokens_in': self.tok_in,
                 'tokens_out': self.tok_out}
 
+    def _note_err(self, k, why):
+        """Consecutive-error bench (owner 2026-11-07): count errors per key;
+        at CONSEC_ERR_BENCH_N in a row rest the key BENCH_REST seconds, then it
+        rejoins automatically. Any success resets the counter."""
+        c = self._consec.get(k, 0) + 1
+        self._consec[k] = c
+        if c >= self.CONSEC_ERR_BENCH_N:
+            self._bench[k] = (time.time() + self.BENCH_REST, f'{why} x{c}')
+            self._consec[k] = 0
+            log(f'[ai] mercury key rested {self.BENCH_REST}s after {c} consecutive errors ({why}); load moves to siblings')
+        else:
+            log(f'[ai] mercury key error #{c} ({why}); rotating to next key')
+
     def _pick(self):
         now = time.time()
         for _ in range(len(self.keys)):
@@ -491,11 +508,11 @@ class MercuryRouter:
 
     def call(self, prompt, schema, kind='extract', min_interval=None, budget_s=120):
         """prompt: plain str (no image parts on this lane).
-        Instant round-robin (owner 2026-11-06): on ANY error from a key (429,
-        5xx, timeout, 4xx) bench that key and rotate to the next healthy key
-        INSIDE the same call. If every key is benched but the nearest bench
-        expires shortly, wait it out (bounded) so keys automatically rejoin
-        and load re-distributes over time."""
+        Instant round-robin (owner 2026-11-06) + consecutive-error benching
+        (owner 2026-11-07): ANY error from a key rotates to the next healthy
+        key INSIDE the same call without benching; after CONSEC_ERR_BENCH_N
+        consecutive errors the key rests BENCH_REST=120s and rejoins
+        automatically. 401/403 keys are dead and dropped for the run."""
         if not HAVE_REQUESTS:
             return None, 'no requests lib'
         if self.budget_left() <= 0:
@@ -541,9 +558,9 @@ class MercuryRouter:
                                            'Content-Type': 'application/json'},
                                   json=body, timeout=budget_s)
             except requests.RequestException as e:
-                self._bench[k] = (time.time() + self.BENCH_5XX, str(e)[:60])
                 last_err = str(e)[:120]
-                continue                              # instant rotate to next key
+                self._note_err(k, 'conn')             # count, rotate instantly
+                continue
             if r.status_code == 200:
                 try:
                     d = r.json()
@@ -554,30 +571,35 @@ class MercuryRouter:
                     v = parse_ai_text(txt)
                 except Exception as e:
                     last_err = f'bad mercury payload: {str(e)[:90]}'
-                    continue                          # rotate: another key may answer
+                    self._note_err(k, 'payload')      # rotate: another key may answer
+                    continue
                 if isinstance(v, list):               # bare array despite the schema
                     v = {'questions': v}
                 if isinstance(v, dict):
+                    self._consec[k] = 0               # success resets the consecutive counter
                     self.calls_ok += 1
                     return v, None
                 last_err = 'mercury returned non-object JSON'
+                self._note_err(k, 'json')
                 continue
             if r.status_code == 429:
-                self._bench[k] = (time.time() + self.BENCH_429, '429')
                 last_err = 'HTTP 429 (mercury rate limit)'
+                self._note_err(k, '429')
                 continue                              # instant rotate to next key
             if r.status_code in (500, 502, 503, 504, 529):
-                self._bench[k] = (time.time() + self.BENCH_5XX, '5xx')
                 last_err = f'HTTP {r.status_code}'
+                self._note_err(k, f'{r.status_code}')
                 continue                              # instant rotate to next key
             if r.status_code in (400, 401, 403):
                 if r.status_code in (401, 403) and self.DEAD_401_403:
                     self.keys = [x for x in self.keys if x != k]  # dead key; never log value
+                    self._consec.pop(k, None)
                 else:
-                    self._bench[k] = (time.time() + self.BENCH_400, str(r.status_code))
+                    self._note_err(k, str(r.status_code))
                 last_err = f'HTTP {r.status_code}: {r.text[:140]}'
                 continue                              # instant rotate to next key
             last_err = f'HTTP {r.status_code}: {r.text[:140]}'
+            self._note_err(k, str(r.status_code))
             continue
         return None, f'mercury exhausted {max_tries} rotations ({last_err})'
 
