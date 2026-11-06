@@ -13,6 +13,13 @@ Platforms audited:
            vision calls/day ceiling; this dispatcher budgets STRICTLY UNDER it
            at DAILY_VISION_CAP=5,700 via a cross-run ledger (scripts/out/
            v6_rpd_ledger.json, fed by the "AI calls spent" lines in run logs).
+           LEDGER WINDOW (owner fix 2026-11-07 v3): the quota day is anchored
+           at the 07:05Z reset (Google midnight-Pacific per-key RPD) — spend
+           = calls of runs FINISHED since 07:05Z today, NOT a rolling 24h
+           window. A rolling window let one pre-cadence-law run (4,587 calls)
+           pin the ledger ~24h and starve GHA of dispatches; the quota-day
+           window frees exactly at 07:05Z so the 4 slots (07:30Z/11:30Z/
+           15:30Z/19:30Z fires, 1,425 calls each) fit inside every quota day.
            The old fixed 2,000-calls-per-run spec is RETIRED (owner: "forgot
            that i ever said '2000' calls"); the earlier 3,000 mis-read is also
            retired — models multiply, they don't divide.
@@ -153,10 +160,19 @@ def prune_rpdl(d):
             out[rid] = e
     return {"runs": out}
 
-def spent_24h(d):
-    """Conservative daily spend: every call made by runs finished in the last
-    24h (a run straddling the 07:05Z reset is fully attributed -> never over)."""
-    cut = time.time() - 24 * 3600
+def quota_day_start() -> float:
+    """07:05Z reset anchor for the current vision quota day (owner law)."""
+    now = datetime.now(timezone.utc)
+    start = now.replace(hour=7, minute=5, second=0, microsecond=0)
+    if now < start:
+        start -= timedelta(days=1)
+    return start.timestamp()
+
+def spent_quota_day(d):
+    """Spend THIS quota day: every call by runs finished since 07:05Z today
+    (a run straddling the reset is fully attributed to the new day -> never
+    over; spend frees exactly at the 07:05Z reset, matching per-key RPD)."""
+    cut = quota_day_start()
     tot = 0
     for rid, e in d.get("runs", {}).items():
         try:
@@ -346,10 +362,10 @@ def main():
             record_run_calls(rpdl, latest["id"], calls)
             save_rpdl(rpdl)
             print(f"[RPD] run {latest['id']} recorded: {calls} Google calls")
-    spent = spent_24h(rpdl)
+    spent = spent_quota_day(rpdl)
     remaining = max(0, DAILY_VISION_CAP - spent)
-    state["rpd_spent_24h"] = spent
-    print(f"[RPD] spent(24h)={spent} cap={DAILY_VISION_CAP} (owner law corrected: "
+    state["rpd_spent_day"] = spent
+    print(f"[RPD] spent(quota-day since 07:05Z)={spent} cap={DAILY_VISION_CAP} (owner law corrected: "
           f"strictly under 6 keys x 500 RPD x 2 models = 6,000) "
           f"-> dispatchable now: {remaining}")
     print(f"[CADENCE] full runs last 24h: {len(g['runs_24h'])}/{MAX_RUNS_PER_DAY} "
@@ -482,7 +498,7 @@ def main():
                "retry_active": a["retry_active"],
                "retry_accepted": a["retry_accepted"],
                "retry_frozen": a["retry_frozen"],
-               "rpd_spent_24h": spent, "rpd_cap": DAILY_VISION_CAP,
+               "rpd_spent_day": spent, "rpd_cap": DAILY_VISION_CAP,
                "runs_24h": len(g["runs_24h"]),
                "verdict": verdict.split(" ")[0]}
         with open(OBS_F, "a", encoding="utf-8") as f:
@@ -490,7 +506,7 @@ def main():
     except Exception as e:
         print(f"[warn] observation append failed: {e}")
     line = (f"cycle#{cyc} verdict={verdict} papers={a['papers']} q={a['questions']} "
-            f"rpd_spent24h={spent}/{DAILY_VISION_CAP} flags={flags or '-'}")
+            f"rpd_spentday={spent}/{DAILY_VISION_CAP} flags={flags or '-'}")
     cycle_log(line)
     print(f"\nVERDICT: {verdict}")
     print(f"STATE: {STATE_F}")
