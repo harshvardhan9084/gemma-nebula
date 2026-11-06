@@ -40,7 +40,7 @@ RPD ledger: /home/z/my-project/scripts/out/v6_rpd_ledger.json
 Cycle log: /home/z/my-project/scripts/out/v6_cron_cycles.log (append)
 """
 import json, os, re, subprocess, sys, time, urllib.parse, urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 PAT = open("/home/z/my-project/.secrets/gh_pat.txt").read().strip()
 REPO = "harshvardhan9084/gemma-nebula"
@@ -50,6 +50,7 @@ OUT_DIR = "/home/z/my-project/scripts/out"
 STATE_F = f"{OUT_DIR}/v6_cron_state.json"
 LOG_F = f"{OUT_DIR}/v6_cron_cycles.log"
 RPDL_F = f"{OUT_DIR}/v6_rpd_ledger.json"
+OBS_F = f"{OUT_DIR}/v6_observations.jsonl"
 REPO_B = "/home/z/my-project/repo_b"
 KNOWN_FAIL_SIGS = ("400 Client Error: Bad Request for url: https://qnakqtiokspzoopivfyl.supabase.co/rest/v1/qu",)
 
@@ -59,6 +60,17 @@ KNOWN_FAIL_SIGS = ("400 Client Error: Bad Request for url: https://qnakqtiokspzo
 DAILY_VISION_CAP = 5700
 MIN_RUN_CALLS = 180        # below this a run cannot even clear ~20 papers: hold
 MAX_REATTEMPTS = 2         # mirror of extractor MAX_REATTEMPTS (anti-loop law)
+
+# ---- CADENCE LAW (owner 2026-11-07) -----------------------------------------
+# The cron agent fires every 4 hours (6 fires/day) and REPORTS every fire.
+# GHA extraction runs at most MAX_RUNS_PER_DAY = 4 FULL runs/day (owner: "4
+# full runs, not test or failed" -> failed/test runs don't consume the daily
+# quota; the RPD ledger still gates their spend). Each run is budgeted
+# CALLS_PER_RUN = 5,700/4 = 1,425 vision calls so the daily cap spreads
+# evenly across the day's 4 runs. Mercury pool = 6 keys with consecutive-error
+# benching (n=2 -> 120s rest) per owner 2026-11-07.
+MAX_RUNS_PER_DAY = 4
+CALLS_PER_RUN = DAILY_VISION_CAP // MAX_RUNS_PER_DAY   # 1,425
 
 BASE_INPUTS = {
     "stage": "extract", "extractor": "v6",
@@ -213,10 +225,22 @@ def db_audit(prev):
 # ---------------- GHA ----------------
 def gha_audit():
     g = {}
-    runs = api(f"/repos/{REPO}/actions/workflows/extraction.yml/runs?per_page=3")["workflow_runs"]
+    runs = api(f"/repos/{REPO}/actions/workflows/extraction.yml/runs?per_page=25")["workflow_runs"]
     g["runs"] = [{k: r[k] for k in ("id", "run_number", "status", "conclusion",
-                   "run_started_at", "updated_at")} for r in runs]
+                   "run_started_at", "created_at", "event")} for r in runs]
     g["latest"] = g["runs"][0] if g["runs"] else None
+    # CADENCE LAW: the daily 4-run quota counts workflow_dispatch runs started
+    # in the last 24h that are in_progress or succeeded (failed runs do not
+    # consume the quota; the RPD ledger still constrains their spend).
+    cut = time.time() - 86400
+    def _ts(s):
+        try:
+            return datetime.fromisoformat(str(s).replace("Z", "+00:00")).timestamp()
+        except Exception:
+            return 0.0
+    g["runs_24h"] = [r for r in g["runs"] if r["event"] == "workflow_dispatch"
+                     and _ts(r.get("created_at")) >= cut
+                     and (r["status"] == "in_progress" or r["conclusion"] == "success")]
     return g
 
 def fetch_run_logs(run_id):
@@ -328,6 +352,8 @@ def main():
     print(f"[RPD] spent(24h)={spent} cap={DAILY_VISION_CAP} (owner law corrected: "
           f"strictly under 6 keys x 500 RPD x 2 models = 6,000) "
           f"-> dispatchable now: {remaining}")
+    print(f"[CADENCE] full runs last 24h: {len(g['runs_24h'])}/{MAX_RUNS_PER_DAY} "
+          f"(per-run budget {CALLS_PER_RUN} = cap/4; cron fires 6x/day)")
 
     # new fail-class detection vs persisted baseline (fires once per new class)
     known = set(state.get("known_fail_classes", []))
@@ -389,6 +415,10 @@ def main():
                 flags.append(f"{inv} INVISIBLE failures (run logs vs DB, e.g. {samples[:2]})")
         if flags:
             verdict = "FLAG:" + ";".join(flags)
+        elif len(g["runs_24h"]) >= MAX_RUNS_PER_DAY:
+            verdict = (f"HOLD-CADENCE ({len(g['runs_24h'])}/{MAX_RUNS_PER_DAY} full runs "
+                       f"in last 24h; rpd_left={remaining}; next reset 07:05Z)")
+            print(f"[DECIDE] {verdict}")
         elif remaining < MIN_RUN_CALLS:
             verdict = f"HOLD-RPD (spent {spent}/{DAILY_VISION_CAP}, {remaining} left < {MIN_RUN_CALLS}; next reset 07:05Z)"
             print(f"[DECIDE] {verdict}")
@@ -401,18 +431,21 @@ def main():
             print(f"[DECIDE] work_left={work_left} (review={review_left} "
                   f"failed={failed_left} thin={thin_left}) rpd_left={remaining}")
             if work_left > 0:
-                inputs = dict(THIN_INPUTS, total_calls=str(remaining))
+                calls_this = min(remaining, CALLS_PER_RUN)
+                inputs = dict(THIN_INPUTS, total_calls=str(calls_this))
                 mode = "PAPERS-CLEAR"
             elif state.get("zero_delta_streak", 0) >= 2:
-                inputs = dict(REPROCESS_INPUTS, total_calls=str(remaining))
+                calls_this = min(remaining, CALLS_PER_RUN)
+                inputs = dict(REPROCESS_INPUTS, total_calls=str(calls_this))
                 mode = "REPROCESS-MAKE-GREAT"
             else:
-                inputs = dict(BASE_INPUTS, total_calls=str(remaining))
+                calls_this = min(remaining, CALLS_PER_RUN)
+                inputs = dict(BASE_INPUTS, total_calls=str(calls_this))
                 mode = "BACKLOG-DRAIN"
             body = {"ref": REF, "inputs": inputs}
             if dry:
                 verdict = (f"GOOD (DRY) — would dispatch {mode} with "
-                           f"total_calls={remaining} rpd_left={remaining}")
+                           f"total_calls={calls_this} rpd_left={remaining}")
                 print(f"[DECIDE] DRY: audit clean — {verdict}")
             else:
                 req = urllib.request.Request(
@@ -423,10 +456,10 @@ def main():
                     time.sleep(8)
                     nr = api(f"/repos/{REPO}/actions/workflows/extraction.yml/runs?per_page=1")["workflow_runs"][0]
                     dispatched = nr["id"]
-                    verdict = (f"DISPATCHED {dispatched} ({mode}, calls={remaining}, "
+                    verdict = (f"DISPATCHED {dispatched} ({mode}, calls={calls_this}, "
                                f"rpd_left={remaining})")
                     print(f"[DECIDE] audit GOOD -> dispatched run id={dispatched} mode={mode} "
-                          f"total_calls={remaining}")
+                          f"total_calls={calls_this} (cadence {len(g['runs_24h']) + 1}/{MAX_RUNS_PER_DAY})")
                 except Exception as e:
                     verdict = f"FLAG:dispatch-failed {e}"
                     flags.append(f"dispatch failed: {e}")
@@ -435,6 +468,27 @@ def main():
                   "last_run_id": (dispatched or latest["id"]),
                   "papers_total": a["papers"], "questions_total": a["questions"]})
     save_state(state)
+    # OBSERVATION DUTY (owner 2026-11-07): one JSONL line per fire = the delta
+    # series for plotting (papers/questions/status pools over time per run).
+    try:
+        obs = {"ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+               "cycle": cyc, "run_id": (dispatched or latest["id"]),
+               "run_status": latest["status"], "run_conclusion": latest["conclusion"],
+               "papers": a["papers"], "questions": a["questions"],
+               "complete": a["status"].get("complete", 0),
+               "review": a["status"].get("review", 0),
+               "failed": a["status"].get("failed", 0),
+               "thin_left": a["thin_complete"],
+               "retry_active": a["retry_active"],
+               "retry_accepted": a["retry_accepted"],
+               "retry_frozen": a["retry_frozen"],
+               "rpd_spent_24h": spent, "rpd_cap": DAILY_VISION_CAP,
+               "runs_24h": len(g["runs_24h"]),
+               "verdict": verdict.split(" ")[0]}
+        with open(OBS_F, "a", encoding="utf-8") as f:
+            f.write(json.dumps(obs) + "\n")
+    except Exception as e:
+        print(f"[warn] observation append failed: {e}")
     line = (f"cycle#{cyc} verdict={verdict} papers={a['papers']} q={a['questions']} "
             f"rpd_spent24h={spent}/{DAILY_VISION_CAP} flags={flags or '-'}")
     cycle_log(line)
