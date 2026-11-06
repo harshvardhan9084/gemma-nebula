@@ -449,6 +449,7 @@ class MercuryRouter:
     BENCH_5XX = 60          # transient server blip
     BENCH_400 = 3600        # request rejected (schema/model) -> cool off 1h
     DEAD_401_403 = True     # key dropped for the rest of the run
+    REJOIN_MAX_WAIT = 95    # all keys benched -> wait out nearest rejoin if <= this
 
     def __init__(self, keys, max_calls=0, min_interval=0.7):
         self.keys = [k for k in keys if k]
@@ -487,66 +488,96 @@ class MercuryRouter:
         return None
 
     def call(self, prompt, schema, kind='extract', min_interval=None, budget_s=120):
-        """prompt: plain str (no image parts on this lane)."""
+        """prompt: plain str (no image parts on this lane).
+        Instant round-robin (owner 2026-11-06): on ANY error from a key (429,
+        5xx, timeout, 4xx) bench that key and rotate to the next healthy key
+        INSIDE the same call. If every key is benched but the nearest bench
+        expires shortly, wait it out (bounded) so keys automatically rejoin
+        and load re-distributes over time."""
         if not HAVE_REQUESTS:
             return None, 'no requests lib'
         if self.budget_left() <= 0:
             return None, 'mercury call budget exhausted'
-        k = self._pick()
-        if not k:
-            return None, 'all mercury keys benched'
         wait = self.min_interval if min_interval is None else float(min_interval)
-        gap = time.time() - self._last
-        if gap < wait:
-            time.sleep(wait - gap)
-        self.budget_spent += 1
-        self._last = time.time()
-        body = {'model': MERCURY_MODEL,
-                'messages': [{'role': 'user', 'content': prompt}],
-                'temperature': 0.5,               # mercury-3 allows 0.5-1.0 only
-                'max_completion_tokens': 8192,
-                'response_format': {'type': 'json_schema',
-                                    'json_schema': {'name': 'v6_' + kind,
-                                                    'strict': True,
-                                                    'schema': schema}},
-                'reasoning_effort': MERCURY_EFFORT}
-        try:
-            r = requests.post(f'{INCEPTION_BASE}/chat/completions',
-                              headers={'Authorization': 'Bearer ' + k,
-                                       'Content-Type': 'application/json'},
-                              json=body, timeout=budget_s)
-        except requests.RequestException as e:
-            self._bench[k] = (time.time() + self.BENCH_5XX, str(e)[:60])
-            return None, str(e)[:120]
-        if r.status_code == 429:
-            self._bench[k] = (time.time() + self.BENCH_429, '429')
-            return None, 'HTTP 429 (mercury rate limit)'
-        if r.status_code in (500, 502, 503, 504, 529):
-            self._bench[k] = (time.time() + self.BENCH_5XX, '5xx')
-            return None, f'HTTP {r.status_code}'
-        if r.status_code in (400, 401, 403):
-            if r.status_code in (401, 403) and self.DEAD_401_403 and k in self.keys:
-                self.keys.remove(k)               # dead key, never log the value
-            else:
-                self._bench[k] = (time.time() + self.BENCH_400, str(r.status_code))
-            return None, f'HTTP {r.status_code}: {r.text[:140]}'
-        if r.status_code != 200:
-            return None, f'HTTP {r.status_code}: {r.text[:140]}'
-        try:
-            d = r.json()
-            u = d.get('usage') or {}
-            self.tok_in += int(u.get('prompt_tokens') or 0)
-            self.tok_out += int(u.get('completion_tokens') or 0)
-            txt = ((d.get('choices') or [{}])[0].get('message') or {}).get('content') or ''
-            v = parse_ai_text(txt)
-        except Exception as e:
-            return None, f'bad mercury payload: {str(e)[:90]}'
-        if isinstance(v, list):                   # bare array despite the schema
-            v = {'questions': v}
-        if isinstance(v, dict):
-            self.calls_ok += 1
-            return v, None
-        return None, 'mercury returned non-object JSON'
+        max_tries = max(4, 2 * max(1, len(self.keys)))   # bounded sweeps
+        tries = 0
+        last_err = 'no live mercury keys'
+        while tries < max_tries:
+            if not self.keys:
+                return None, f'no live mercury keys ({last_err})'
+            k = self._pick()
+            if not k:
+                # all keys benched: wait out the nearest rejoin if it is near
+                now = time.time()
+                pending = [until - now for until, _w in self._bench.values()
+                           if until > now]
+                soonest = min(pending) if pending else 0.0
+                if soonest <= self.REJOIN_MAX_WAIT and self.budget_left() > 0:
+                    log(f'[mercury] all {len(self.keys)} keys benched; auto-rejoin '
+                        f'in {soonest:.0f}s (load re-distributes across keys)')
+                    time.sleep(min(soonest + 0.5, self.REJOIN_MAX_WAIT))
+                    continue
+                return None, f'all mercury keys benched ({last_err})'
+            gap = time.time() - self._last
+            if gap < wait:
+                time.sleep(wait - gap)
+            self.budget_spent += 1
+            self._last = time.time()
+            tries += 1
+            body = {'model': MERCURY_MODEL,
+                    'messages': [{'role': 'user', 'content': prompt}],
+                    'temperature': 0.5,               # mercury-3 allows 0.5-1.0 only
+                    'max_completion_tokens': 8192,
+                    'response_format': {'type': 'json_schema',
+                                        'json_schema': {'name': 'v6_' + kind,
+                                                        'strict': True,
+                                                        'schema': schema}},
+                    'reasoning_effort': MERCURY_EFFORT}
+            try:
+                r = requests.post(f'{INCEPTION_BASE}/chat/completions',
+                                  headers={'Authorization': 'Bearer ' + k,
+                                           'Content-Type': 'application/json'},
+                                  json=body, timeout=budget_s)
+            except requests.RequestException as e:
+                self._bench[k] = (time.time() + self.BENCH_5XX, str(e)[:60])
+                last_err = str(e)[:120]
+                continue                              # instant rotate to next key
+            if r.status_code == 200:
+                try:
+                    d = r.json()
+                    u = d.get('usage') or {}
+                    self.tok_in += int(u.get('prompt_tokens') or 0)
+                    self.tok_out += int(u.get('completion_tokens') or 0)
+                    txt = ((d.get('choices') or [{}])[0].get('message') or {}).get('content') or ''
+                    v = parse_ai_text(txt)
+                except Exception as e:
+                    last_err = f'bad mercury payload: {str(e)[:90]}'
+                    continue                          # rotate: another key may answer
+                if isinstance(v, list):               # bare array despite the schema
+                    v = {'questions': v}
+                if isinstance(v, dict):
+                    self.calls_ok += 1
+                    return v, None
+                last_err = 'mercury returned non-object JSON'
+                continue
+            if r.status_code == 429:
+                self._bench[k] = (time.time() + self.BENCH_429, '429')
+                last_err = 'HTTP 429 (mercury rate limit)'
+                continue                              # instant rotate to next key
+            if r.status_code in (500, 502, 503, 504, 529):
+                self._bench[k] = (time.time() + self.BENCH_5XX, '5xx')
+                last_err = f'HTTP {r.status_code}'
+                continue                              # instant rotate to next key
+            if r.status_code in (400, 401, 403):
+                if r.status_code in (401, 403) and self.DEAD_401_403:
+                    self.keys = [x for x in self.keys if x != k]  # dead key; never log value
+                else:
+                    self._bench[k] = (time.time() + self.BENCH_400, str(r.status_code))
+                last_err = f'HTTP {r.status_code}: {r.text[:140]}'
+                continue                              # instant rotate to next key
+            last_err = f'HTTP {r.status_code}: {r.text[:140]}'
+            continue
+        return None, f'mercury exhausted {max_tries} rotations ({last_err})'
 
 
 # ---------------------------------------------------------------------------
@@ -1391,7 +1422,10 @@ def stage_extract_v6(args, sb, router):
     outbox.close()
 
     log('\n===== V6 EXTRACT SUMMARY =====')
-    from collections import Counter
+    # NOTE: no local `from collections import Counter` here — a function-level
+    # import makes Counter local to the WHOLE function and crashes the
+    # retry_stats = Counter() above with UnboundLocalError (run #81, all 6
+    # shards dead at t+14s). Module-level import (line ~92) is authoritative.
     cnt = Counter(s for _, s, _ in summary)
     log(f'total={len(summary)} ' + ' '.join(f'{k}={v}' for k, v in cnt.items()))
     nq = [c for _, _, c in summary if isinstance(c, int)]
