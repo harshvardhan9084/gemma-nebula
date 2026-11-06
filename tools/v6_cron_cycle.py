@@ -7,11 +7,15 @@ Platforms audited:
   1. GHA   harshvardhan9084/gemma-nebula extraction.yml (repo B, ref aktu-runner)
   2. RAW   Supabase qnakqtiokspzoopivfyl (papers/questions deltas, failed classes,
            papers-clear pools: review / failed / thin <20q)
-  3. QUOTA RPD LAW (owner 2026-11-06): 6 keys x 500 RPD = 3,000 vision calls/day
-           is the hard ceiling; this dispatcher budgets STRICTLY UNDER it at
-           DAILY_VISION_CAP=2,800 via a cross-run ledger (scripts/out/
+  3. QUOTA RPD LAW (owner 2026-11-06, CORRECTED same day — "use your own
+           calculation, not verbatim"): 6 keys x 500 RPD PER MODEL x 2 vision
+           models (gemini-3.1-flash-lite + gemini-3.5-flash-lite) = 6,000
+           vision calls/day ceiling; this dispatcher budgets STRICTLY UNDER it
+           at DAILY_VISION_CAP=5,700 via a cross-run ledger (scripts/out/
            v6_rpd_ledger.json, fed by the "AI calls spent" lines in run logs).
-           The old fixed 2,000-calls-per-run spec is RETIRED.
+           The old fixed 2,000-calls-per-run spec is RETIRED (owner: "forgot
+           that i ever said '2000' calls"); the earlier 3,000 mis-read is also
+           retired — models multiply, they don't divide.
   4. REPO  repo_b checkout vs origin (fix commits present: 3c61451 unit, f65b0db RPD-bias)
 
 Modes (papers clear-zero first, owner 2026-11-06):
@@ -35,7 +39,7 @@ State: /home/z/my-project/scripts/out/v6_cron_state.json
 RPD ledger: /home/z/my-project/scripts/out/v6_rpd_ledger.json
 Cycle log: /home/z/my-project/scripts/out/v6_cron_cycles.log (append)
 """
-import json, os, re, subprocess, sys, time, urllib.request
+import json, os, re, subprocess, sys, time, urllib.parse, urllib.request
 from datetime import datetime, timezone
 
 PAT = open("/home/z/my-project/.secrets/gh_pat.txt").read().strip()
@@ -49,9 +53,10 @@ RPDL_F = f"{OUT_DIR}/v6_rpd_ledger.json"
 REPO_B = "/home/z/my-project/repo_b"
 KNOWN_FAIL_SIGS = ("400 Client Error: Bad Request for url: https://qnakqtiokspzoopivfyl.supabase.co/rest/v1/qu",)
 
-# ---- RPD LAW (owner 2026-11-06) --------------------------------------------
-# 6 keys x 500 RPD = 3,000 vision RPD/day. Strictly under -> dispatch cap:
-DAILY_VISION_CAP = 2800
+# ---- RPD LAW (owner 2026-11-06, corrected: keys x models, not keys only) ----
+# 6 keys x 500 RPD/model x 2 flash-lite vision models = 6,000 vision RPD/day.
+# Strictly under -> dispatch cap:
+DAILY_VISION_CAP = 5700
 MIN_RUN_CALLS = 180        # below this a run cannot even clear ~20 papers: hold
 MAX_REATTEMPTS = 2         # mirror of extractor MAX_REATTEMPTS (anti-loop law)
 
@@ -84,7 +89,19 @@ def api(path, method="GET", body=None):
     data = json.dumps(body).encode() if body else None
     req = urllib.request.Request(f"https://api.github.com{path}", headers=HDR,
                                  data=data, method=method)
-    return json.load(urllib.request.urlopen(req, timeout=30))
+    return json.load(_OPENER.open(req, timeout=30))
+
+class _SafeRedirect(urllib.request.HTTPRedirectHandler):
+    """Fixes the HTTP 401 on job-log downloads (2026-11-02..05 cycles): urllib
+    re-sends the Authorization header when following the 302 to
+    logs.githubusercontent.com, whose CDN rejects the PAT. Strip auth on any
+    cross-host redirect (curl -L does the same by default)."""
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if urllib.parse.urlparse(newurl).netloc != urllib.parse.urlparse(req.full_url).netloc:
+            req.headers.pop("Authorization", None)
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+_OPENER = urllib.request.build_opener(_SafeRedirect)
 
 def load_state():
     if os.path.exists(STATE_F):
@@ -217,7 +234,7 @@ def fetch_run_logs(run_id):
                 continue
             req = urllib.request.Request(
                 f"https://api.github.com/repos/{REPO}/actions/jobs/{j['id']}/logs", headers=HDR)
-            txt = urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "ignore")
+            txt = _OPENER.open(req, timeout=60).read().decode("utf-8", "ignore")
             for line in txt.splitlines():
                 m = re.search(r"FAILED \w+.*?\| (.+)$", line.strip())
                 if m:
@@ -297,8 +314,9 @@ def main():
     spent = spent_24h(rpdl)
     remaining = max(0, DAILY_VISION_CAP - spent)
     state["rpd_spent_24h"] = spent
-    print(f"[RPD] spent(24h)={spent} cap={DAILY_VISION_CAP} (owner law: strictly "
-          f"under 6 keys x 500 = 3,000) -> dispatchable now: {remaining}")
+    print(f"[RPD] spent(24h)={spent} cap={DAILY_VISION_CAP} (owner law corrected: "
+          f"strictly under 6 keys x 500 RPD x 2 models = 6,000) "
+          f"-> dispatchable now: {remaining}")
 
     # new fail-class detection vs persisted baseline (fires once per new class)
     known = set(state.get("known_fail_classes", []))
