@@ -289,7 +289,9 @@ EDGE_JUNK = re.compile(r'^[\s.,;:|\-]+|[\s,;:|\-]+$')
 
 def clean_v6(text, valid_marks=VALID_MARKS):
     """Deterministic scrub -> (clean_text, marks_from_text_or_None)."""
-    t = text or ''
+    # 22P05 guard: Postgres text cannot store NUL (\u0000) — strip at origin
+    # (run #83: btech-ic-5-sem-industrial-instrumentation-eic-502-2015 400'd here)
+    t = (text or '').replace('\x00', '')
     marks = None
     t = WM_TOKEN_RX.sub(' ', t)
     t = TRAIL_BRACKET_JUNK.sub(' ', t)
@@ -991,6 +993,12 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
 
     qids = []
     for q in parsed['questions']:
+        # 22P05 guard: strip NUL from every LLM-sourced string field before any
+        # DB write (covers ai_clean_pass output, occ.q_no, diagram_kind).
+        for _k in ('text', 'label', 'diagram_kind', 'topic'):
+            _v = q.get(_k)
+            if isinstance(_v, str) and '\x00' in _v:
+                q[_k] = _v.replace('\x00', '')
         if q.get('diagram_file'):
             local = os.path.join(diagrams_dir, q['diagram_file']) if diagrams_dir else q['diagram_file']
             try:
