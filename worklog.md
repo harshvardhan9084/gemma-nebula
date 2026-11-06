@@ -1,4 +1,18 @@
 ---
+Task ID: CRON-V6-20261107-cycle33
+Agent: Super Z (cron fire 2026-11-07 03:41:51 +08 / 2026-11-06 19:41 UTC - Job ID 510040, first fire in the 19:30Z dispatch slot under the new 4h cadence; script cycle #36)
+Task: audit + report stats/logs every fire; dispatch only if the verdict clears. Deps check first (psycopg2 + pynacl present, no reinstall needed).
+
+Work Log:
+- VERDICT: HOLD-RPD (24h RPD ledger 5,703/5,700, dispatchable 0 < 180-call floor; script notes next reset 07:05Z). Dispatched nothing; no GHA run started this fire -> the 15-min post-dispatch watch is NOT required. The 19:30Z dispatch slot passed with zero dispatch because the vision budget is still exhausted - spend has to age out of the rolling 24h ledger.
+- AUDIT: latest run #83 (42208121391) completed/success (started 2026-11-06T11:09:30Z), nothing active. Recent history: #83 #82 #80 #79 #78... success, #81 failure (failed runs do not consume the cadence quota). CADENCE: 2/4 full runs in the last 24h; per-run budget 1,425 = 5,700/4.
+- DB DELTAS vs previous observation (cycle #35, 19:05:22Z, 37 min earlier): papers 10,564 (+0), questions 231,097 (+0), status complete 8,507 / review 2,056 / failed 1 (all +0), papers-clear pools thin_left 1,175 (+0), RETRY ledger active 888 / accepted 268 / frozen 1,085 (all +0), RPD 5,703/5,700 (+0). Post-run plateau confirmed - nothing moving, as expected with no run in flight.
+- FAILURE CROSS-CHECK: run #83 reported exactly 1 failed paper (btech-ic-5-sem-industrial-instrumentation-eic-50); DB-invisible discrepancies 0. unit-400 failed pool = 1; 0 were retried-and-refailed this window so fix 3c61451 is not disproven - in-scope papers auto-retry at the next dispatch, legacy ones remain reprocess-campaign scope.
+- REPO: local 9530e66 == remote 9530e66, synced; unit_fix + rpd_bias fix commits present (2026-10-27T06:37:04Z).
+- OBSERVATION DUTY: line cycle #36 appended to scripts/out/v6_observations.jsonl (ts 19:42:36Z, verdict HOLD-RPD) - delta series continues.
+- LAWS INTACT: RPD cap 5,700 never raised; cadence 4/day @ 1,425; RETRY ledger + terminal stamps + zero-churn untouched; qc_min=10 / chunk_pages=2 / route=auto / vision-first; repo A and PROD Supabase untouched; no secrets printed or committed.
+
+
 Task ID: CRON-V6-20261107-cycle32
 Agent: Super Z (owner-directive fire 2026-11-07 ~02:55 +08 / 2026-11-06 18:53 UTC; script cycles #34 audit + #35 DRY verify)
 Task: owner delivered 4 upgrades - (a) mercury pool is now 6 keys total; (b) new bench policy: "some of these throw any error codes for nothing! it happens anytime to any key ... understand this in consecutive n call error and let that key rest for 120 seconds"; (c) update the cron job message to the real + every-4h cadence (6 fires/day) with GHA at 4 full runs/day; (d) every fire reports stats + latest logs, observes DB deltas when GHA is running.
