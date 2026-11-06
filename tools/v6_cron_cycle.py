@@ -241,10 +241,21 @@ def fetch_run_logs(run_id):
                     fn = m.group(1).strip()
                     if fn and fn not in names:
                         names.append(fn)
-                        slug = fn.replace(".pdf", "")[:44]
-                        cur.execute("SELECT count(*) FROM papers WHERE source_url LIKE %s",
-                                    (f"%{slug}%",))
-                        if cur.fetchone()[0] == 0:
+                        # Join by paper CODE (e.g. KHU801), not by filename slug:
+                        # papers.source_url stores HTML/Drive URLs while run logs
+                        # print corpus filenames — the old slug-LIKE join false-
+                        # flagged 4 DB-visible papers as INVISIBLE (cycle #31).
+                        hit = 0
+                        for cd in set(re.findall(r"[A-Z]{2,4}\d{3}[A-Z]?", fn)):
+                            cur.execute("SELECT count(*) FROM papers WHERE source_url ILIKE %s",
+                                        (f"%{cd}%",))
+                            hit += cur.fetchone()[0]
+                        if not hit:
+                            slug = fn.replace(".pdf", "")[:44]
+                            cur.execute("SELECT count(*) FROM papers WHERE source_url LIKE %s",
+                                        (f"%{slug}%",))
+                            hit = cur.fetchone()[0]
+                        if hit == 0:
                             invisible += 1
                 mc = re.search(r"AI calls spent this process: (\d+)", line)
                 if mc:

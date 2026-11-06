@@ -916,9 +916,27 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
         log(f'    [!] PUSH SKIP: no subject code for {str(fname)[:64]}')
         return None, []
     name = parsed.get('subject_name') or code
-    sb.upsert('subjects', [{'code': code, 'name': name,
-                            'course': meta.get('course', 'BTech'),
-                            'semester': meta.get('semester'), 'is_active': True}], 'code')
+    # course_t enum guard + semester sanitize + non-fatal upsert (run #82):
+    # meta['course']='AKTL' (aktl__ filename prefix) 400'd this upsert and the
+    # whole paper died BEFORE papers/questions were written. A reference-table
+    # side-write must never zero a paper's extraction again.
+    _raw = str(meta.get('course') or '').strip()
+    _vals = set(v5.COURSE_ENUM.values()) | {'Other'}
+    _c = v5.COURSE_ENUM.get(_raw.upper(), _raw if _raw in _vals else 'Other')
+    _sem = meta.get('semester')
+    try:
+        _sem = int(str(_sem)) if _sem is not None and str(_sem).strip() != '' else None
+    except (TypeError, ValueError):
+        _sem = None
+    if _sem is not None and not (1 <= _sem <= 8):
+        _sem = None                     # subjects_semester_check (1..8)
+    try:
+        sb.upsert('subjects', [{'code': code, 'name': name,
+                                'course': _c, 'semester': _sem,
+                                'is_active': True}], 'code')
+    except Exception as e:
+        log(f'    [db] subjects upsert failed (paper continues, code={code}): '
+            f'{type(e).__name__} {str(e)[:110]}')
     try:
         pr = sb.upsert('papers', [{'subject_code': code, 'year': yr,
                                    'file_hash': fhash, 'source_url': meta.get('source_url'),

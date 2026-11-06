@@ -1435,16 +1435,29 @@ def push_paper(sb, fname, file_hash, parsed, mark_review, diagrams_dir=None,
 # main
 # ---------------------------------------------------------------------------
 def parse_filename(fname):
-    """Course__SemNN__year__CODE__slug.pdf"""
+    """Course__SemNN__year__CODE__slug.pdf
+    v6.2 fix (run #82 root cause): generator prefixes like
+    'aktl__BTech__Sem08__2021-22__KHU801__slug.pdf' made the blind parts[0]
+    parse produce course='AKTL' (invalid course_t enum -> subjects upsert
+    400 -> the WHOLE paper failed, all 4 such papers dead since ingest),
+    year='Sem08' and code='2021-22'. Anchor the parse on the first KNOWN
+    course token instead of blindly taking parts[0]."""
     base = os.path.splitext(os.path.basename(fname))[0]
     parts = base.split('__')
     out = {}
-    if len(parts) >= 5:
-        out['course'] = parts[0].upper().replace('BTECH', 'BTech').replace('BPHARM', 'BPharm')
-        out['semester'] = int(re.sub(r'\D', '', parts[1]) or 0) or None
-        out['year'] = parts[2]
-        out['code'] = parts[3]
-        out['subject_name'] = parts[4].replace('-', ' ').title()
+    known = set(COURSE_ENUM.keys())          # BTECH, BPHARM, MBA, ...
+    start = 0
+    for i, seg in enumerate(parts):
+        if seg.upper() in known:
+            start = i
+            break
+    p = parts[start:]
+    if len(p) >= 5:
+        out['course'] = p[0].upper().replace('BTECH', 'BTech').replace('BPHARM', 'BPharm')
+        out['semester'] = int(re.sub(r'\D', '', p[1]) or 0) or None
+        out['year'] = p[2]
+        out['code'] = p[3]
+        out['subject_name'] = '__'.join(p[4:]).replace('-', ' ').title()
     return out
 
 def dash_code_from_filename(fname):
