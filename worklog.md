@@ -1,4 +1,24 @@
 ---
+Task ID: CRON-V6-20261107-cycle37
+Agent: Super Z (cron fire 2026-11-07 19:30:00 +08 / 2026-11-07 11:30 UTC - job 510130, dispatch slot 2/4; script cycle #40)
+Task: audit + dispatch per v3 standing order. Verdict RUNNING -> audit only, report deltas, dispatch nothing.
+
+Work Log:
+- SANDBOX RECYCLED: psycopg2-binary + pynacl reinstalled before the script ran (environment-only).
+- VERDICT: RUNNING - run #84 (42351616831, this quota day's run 1/4, dispatched 07:31Z) still in_progress at 11:30Z (4h elapsed, same pace as #83's ~4.9h). No second run launched (script enforces). The 11:30Z slot passes with no dispatch because the slot's budget is already in flight - the day's run 2/4 will dispatch at the next fire once #84 completes and records its 1,425 calls.
+- DB DELTAS vs observation #39 (dispatch time 07:31Z, 4h of run #84):
+  * papers 10,564 -> 10,615 (+51 NEW papers ingested during the run)
+  * questions 231,097 -> 235,815 (+4,718) - extraction at full pace
+  * complete 8,507 -> 8,081 (-426), review 2,056 -> 2,534 (+478): thin/review make-great churn - sub-bar papers re-opened through review for re-extraction, draining back as QC passes
+  * failed 1 -> 0 AND unit-400 failed remaining = 0 - THE LAST unit-400-stuck paper (btech-ic-5-sem-industrial-instrumentation-eic-50) CLEARED in run #84; fix 3c61451 fully proven, failed pool empty
+  * thin_left 1,175 -> 413 (-762) - papers-clear queue draining fast
+  * RETRY ledger active 888 -> 1,160 (+272), accepted 268 -> 341 (+73 genuine short papers), frozen 1,085 -> 1,358 (+273 papers hit the 2-attempt hard cap -> RETRY-FROZEN human-review queue; anti-loop law working, they leave the pool forever)
+- RPD: spent(quota-day)=0 - run #84's ~1,425 calls get recorded on completion from its 'AI calls spent' log line; cap 5,700, physical 6,000.
+- CADENCE 1/4 (rolling-24h; #82 aged out). REPO synced 9f438a3, unit_fix + rpd_bias present, no flags, 0 DB-invisible failures.
+- OBSERVATION: line cycle #40 appended.
+- LAWS INTACT: cap 5,700 never raised, cadence 4/day @ 1,425, RETRY ledger + zero-churn untouched, quality bar unchanged, repo A + PROD untouched, no secrets printed.
+
+
 Task ID: CRON-V6-20261107-cycle36
 Agent: Super Z (cron fire 2026-11-07 15:30:01 +08 / 2026-11-07 07:30 UTC - job 510130, first DISPATCH-slot fire of the new quota day; script cycle #39)
 Task: audit + dispatch per v3 standing order; 10-15 min post-dispatch watch if a run starts this fire.
