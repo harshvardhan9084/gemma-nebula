@@ -1,4 +1,19 @@
 ---
+Task ID: CRON-V6-20261107-cycle36
+Agent: Super Z (cron fire 2026-11-07 15:30:01 +08 / 2026-11-07 07:30 UTC - job 510130, first DISPATCH-slot fire of the new quota day; script cycle #39)
+Task: audit + dispatch per v3 standing order; 10-15 min post-dispatch watch if a run starts this fire.
+
+Work Log:
+- SANDBOX RECYCLED: psycopg2-binary + pynacl reinstalled before the script ran (environment-only).
+- VERDICT: DISPATCHED 42351616831 (PAPERS-CLEAR, calls=1,425, rpd_left=5,700) - run 1/4 of the new quota day. The v3 quota-day ledger freed EXACTLY at the 07:05Z reset as designed: spent(quota-day)=0 -> dispatchable 5,700 -> work_left=3,232 (review 2,056 + failed 1 + thin 1,175) -> PAPERS-CLEAR @ CALLS_PER_RUN=1,425 (cadence to 2/4). First dispatch under the fixed v3 pipeline - the owner's 'why is GHA not running' FLAG is now fully closed: dispatch at the 07:30Z slot happened at 07:31Z, 26 minutes after the reset.
+- RUN BOOT VERIFIED: run 42351616831 started 07:31:13Z, all 6 extract shards in_progress by 07:31:17Z (parallel=6 per SPEED law), hold job skipped (normal).
+- 14-MIN POST-DISPATCH WATCH (standing order): 07:35/07:40/07:45 checks - run in_progress throughout, all 6 shards healthy, zero job failures. DB deltas during watch: questions 231,097 -> 231,295 (+198 in ~14 min, extraction flowing at pace), papers 10,564 (stable - papers-clear re-extracts existing rows), status complete 8,507 -> 8,485 / review 2,056 -> 2,079 / failed 1 -> 0 - the last unit-400-stuck paper (btech-ic-5-sem-industrial-instrumentation-eic-50) is being re-extracted right now (fix 3c61451 path). Status churn complete<->review is the normal re-extraction transition (papers move through review until QC passes).
+- PRE-DISPATCH AUDIT: #83 completed/success; repo local cc370d8 == remote, unit_fix + rpd_bias present; 0 DB-invisible failures.
+- NEXT: 11:30Z slot fire -> run 2/4 @ 1,425 (rpd_left will be 5,700 - 1,425 = 4,275 after this run's calls are recorded on completion); then 15:30Z, 19:30Z.
+- OBSERVATION: line cycle #39 appended (rpd_spent_day=0 at dispatch time - the run's 1,425 will be recorded when its logs report 'AI calls spent').
+- LAWS INTACT: cap 5,700 never raised, cadence 4/day @ 1,425, RETRY ledger + zero-churn untouched, quality bar unchanged, repo A + PROD untouched, no secrets printed.
+
+
 Task ID: CRON-V6-20261107-cycle35
 Agent: Super Z (cron fire 2026-11-07 11:30:01 +08 / 2026-11-07 03:30 UTC - NEW v3 job 510130, first fire under the merged standing order; script cycle #38)
 Task: audit + report every fire; dispatch only if the verdict clears. Report-only slot per the rhythm (03:30Z); quota day still runs to the 07:05Z reset.
