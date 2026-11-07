@@ -642,6 +642,53 @@ def render_page_jpegs(pdf_path, page_nos, scale=2.0, max_width=1100, quality=72,
 # ---------------------------------------------------------------------------
 # Chunking
 # ---------------------------------------------------------------------------
+
+def tier0_pdfium(pdf_path):
+    """tier0 fallback for PDFs pdfminer cannot open (owner FLAG run #84:
+    32x 'PdfminerException: No /Root object!', 19 of them DB-invisible).
+    pypdfium2 repairs most broken xref tables, so the paper still reaches
+    the vision-first lane - page images are the source of truth (owner
+    quality bar), the pdfium text lines are only a hint. Raises if pdfium
+    cannot open the file either -> outer failure path, which now zero-loss
+    upserts a failed papers row so the failure is visible and bounded."""
+    if not HAVE_PDFIUM:
+        raise RuntimeError('pdfium unavailable - no fallback for corrupt PDF')
+    doc = pdfium.PdfDocument(pdf_path)
+    out, pages, meta = [], [], {}
+    try:
+        n = len(doc)
+        for pno in range(n):
+            page = doc[pno]
+            w, h = page.get_size()
+            pages.append({'no': pno + 1, 'lines': [], 'drawings': [], 'w': w, 'h': h})
+            try:
+                tp = page.get_textpage()
+                try:
+                    txt = tp.get_text_range() or ''       # pypdfium2 4.x
+                except Exception:
+                    txt = tp.get_text_bounded() or ''     # pypdfium2 5.x
+                tp.close()
+            except Exception:
+                txt = ''
+            for s in txt.splitlines():
+                s = re.sub(r'\s+', ' ', s).strip()
+                if not s:
+                    continue
+                out.append({'page': pno + 1, 'top': 0.0, 'bottom': 0.0, 'text': s})
+            m = re.search(r'(Sub\s*Code|Subject\s*Code)\s*[:\-]?\s*([A-Z]{2,4}[- ]?\d{3}[A-Z]?)', txt)
+            if m and 'code' not in meta:
+                meta['code'] = m.group(2).replace(' ', '-')
+            m = re.search(r'THEORY\s+EXAMINATION\s+(\d{4}-\d{2})', txt)
+            if m and 'year' not in meta:
+                meta['year'] = m.group(1)
+        meta['n_pages'] = n
+        return out, meta, {'hindi': 0, 'junk': 0, 'cid': 0, 'ocr': 'pdfium-fallback'}, pages
+    finally:
+        try:
+            doc.close()
+        except Exception:
+            pass
+
 def page_texts_from(lines, pages):
     """page_no -> text. Uses tier0 `pages` geometry; falls back to the flat
     line list (the OCR path returns lines with page numbers)."""
@@ -1266,7 +1313,16 @@ def stage_extract_v6(args, sb, router):
                     f'hint_q={len(hint["questions"])} -> {fname[:48]}')
                 continue
 
-            lines, meta0, stats, pages = tier0(path)
+            try:
+                lines, meta0, stats, pages = tier0(path)
+            except Exception as e0:
+                # pdfminer dies on broken-xref PDFs ('No /Root object!') before
+                # the vision lane ever sees them (run #84: 32 failures, 19
+                # DB-invisible). pdfium repairs most of these -> fall back so
+                # the paper still gets vision-first extraction (owner 2026-11-07).
+                log(f'    [parse] tier0/pdfminer failed ({type(e0).__name__}: '
+                    f'{str(e0)[:60]}) -> pdfium fallback')
+                lines, meta0, stats, pages = tier0_pdfium(path)
             fmap = parse_filename(path)
             meta = {**fmap, **{k: v for k, v in meta0.items() if v is not None}}
             meta.setdefault('is_text_layer', bool(lines) and len(lines) > 30)
@@ -1466,6 +1522,42 @@ def stage_extract_v6(args, sb, router):
                              {'extraction_status': 'failed', 'extraction_error': str(e)[:200]})
                 except Exception:
                     pass
+                # zero-loss (owner FLAG run #84): the patch above matched 0 rows
+                # for never-ingested papers -> the failure was DB-invisible and
+                # dodged the RETRY ledger forever. Upsert the paper row first
+                # (upsert-only, zero-churn: creates, never deletes) so every
+                # failure is visible, counted and bounded.
+                try:
+                    fm = parse_filename(path)
+                    if fname.lower() in manifest:
+                        mm = manifest[fname.lower()]
+                        fm.setdefault('source_url', mm['url'])
+                        fm.setdefault('subject_name', mm['name'].title())
+                    fill_meta_identity(fm, fname, manifest)
+                    if not fm.get('code') and fhash in predb:
+                        fm['code'] = predb[fhash]
+                    code = canonical_code(sb, fm.get('code')) if fm.get('code') else None
+                    if code:
+                        sb.upsert('subjects', [{'code': code,
+                                                'name': fm.get('subject_name') or code,
+                                                'course': fm.get('course', 'BTech'),
+                                                'semester': fm.get('semester'),
+                                                'is_active': True}], 'code')
+                        sb.upsert('papers', [{'subject_code': code, 'year': fm.get('year'),
+                                              'file_hash': fhash,
+                                              'source_url': fm.get('source_url'),
+                                              'storage_url': fm.get('source_url'),
+                                              'source': source_from_url(fm.get('source_url')),
+                                              'is_text_layer': False}], 'file_hash')
+                        sb.patch('papers', {'file_hash': f'eq.{fhash}'},
+                                 {'extraction_status': 'failed',
+                                  'extraction_error': str(e)[:200]})
+                        log(f'    [db] failed-row upserted for visibility ({code})')
+                    else:
+                        log('    [db] failed-row upsert skipped: no subject code '
+                            '(identity-blocked class, stays corpus-side)')
+                except Exception as e2:
+                    log(f'    [db] failed-row upsert skipped: {str(e2)[:80]}')
         json.dump(state, open(state_path, 'w'))
     outbox.close()
 
