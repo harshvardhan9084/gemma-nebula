@@ -1,4 +1,20 @@
 ---
+Task ID: CRON-V6-20261107-cycle38
+Agent: Super Z (delayed cron fire 2026-11-07 22:18:08 +08 / 2026-11-07 14:18 UTC - job 510130, between the 11:30Z and 15:30Z slots; script cycles #41 + #42)
+Task: audit + dispatch per v3 standing order. Verdict FLAG:19 INVISIBLE failures -> investigate, FIX, re-run, then dispatch (done).
+
+Work Log:
+- SANDBOX RECYCLED: psycopg2-binary + pynacl reinstalled first (environment-only).
+- RUN #84 (42351616831) completed/success (07:31Z start, ~7h): recorded 1,428 Google calls to the quota-day ledger (spent 1,428/5,700). Final tally from its window: papers 10,615 -> 10,662 (+98 total ingested), questions 235,815 -> 236,604, review pool 2,534 -> 2,605, thin_left 413 -> 362, failed 0.
+- FLAG: run #84 logged 31 failed papers, 19 DB-INVISIBLE (samples rbt401/RMBI202/NBC015/RCH402/NPL603/EBT051/NAE061/RCAE15/MBTM047). ROOT CAUSE (diag script diag_run84_invisible.py): ALL 32 failures are one class - 'PdfminerException: No /Root object! - Is this really a PDF?' - broken-trailer single-page SCANNED PDFs that die inside tier0()'s pdfplumber.open BEFORE the vision lane and BEFORE any DB write; the failure path only PATCHed papers by file_hash (0 rows matched for never-ingested files) -> invisible + RETRY-ledger-dodging forever.
+- GROUND TRUTH on the REAL bytes (downloaded rbt401/RMBI202/NBC015 from manifest pdf_urls): pdfminer fails the exact production error; pypdfium2 repairs ALL THREE -> 1 page, 73-93 text lines, full JPEG render (~200KB) ready for the vision lane. (Synthetic detour noted: a trailer without /Root with valid xref is NOT enough for pdfium; the real files repair fine.)
+- FIX v6.1 a752c71 (commit+pushed to aktu-runner, extractor patched): (1) tier0_pdfium() fallback - on tier0 failure, rebuild tier0 output from pdfium (pages geometry, text hint, code/year regexes) so the paper reaches the vision-first lane instead of dying (quality bar intact - images are the source of truth); (2) ZERO-LOSS failed-row upsert in the failure path - upserts subjects+papers rows (same column set as push_paper, upsert-only, zero-churn) then stamps failed+error, so ANY future failure is DB-visible and RETRY-ledger-bounded; no-code files log and stay corpus-side (identity-blocked class, owner decision). Offline test scripts/test_tier0_pdfium_20261107.py ALL PASS (exact pdfminer error repro, recovery, render, chunk plumbing, headless-file contract).
+- FLAG CLEARED via invisible_ack += 42351616831 (investigated + root-caused + fixed; ack mechanism used per prior pattern 40627200524). Re-run cycle #42: audit GOOD.
+- DISPATCHED 42382634021 (PAPERS-CLEAR, calls=1,425, rpd_left=4,272) - run 2/4 of the quota day, FIRST RUN ON THE FIXED EXTRACTOR (a752c71) - the 19 corrupt papers are in its corpus and will be rescued via pdfium or, if truly unrecoverable, upserted as visible failed rows (both outcomes kill the invisible class).
+- 14-MIN WATCH: 14:39:40Z start, all 6 shards in_progress throughout, questions 236,604 -> 237,113 (+509 during watch), complete/review churn normal (8,057 -> 8,066 / 2,605 -> 2,596).
+- LAWS INTACT: cap 5,700 never raised (spent 1,428 today), cadence 2/4, RETRY ledger + zero-churn untouched (upsert-only adds), quality bar unchanged, repo A + PROD untouched, no secrets printed. NOTE: this fire was delayed (~2.8h after the 11:30Z slot) - gateway jitter, not a script issue.
+
+
 Task ID: CRON-V6-20261107-cycle37
 Agent: Super Z (cron fire 2026-11-07 19:30:00 +08 / 2026-11-07 11:30 UTC - job 510130, dispatch slot 2/4; script cycle #40)
 Task: audit + dispatch per v3 standing order. Verdict RUNNING -> audit only, report deltas, dispatch nothing.
