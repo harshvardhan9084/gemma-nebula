@@ -1,4 +1,19 @@
 ---
+Task ID: CRON-V6-20261107-cycle35
+Agent: Super Z (cron fire 2026-11-07 11:30:01 +08 / 2026-11-07 03:30 UTC - NEW v3 job 510130, first fire under the merged standing order; script cycle #38)
+Task: audit + report every fire; dispatch only if the verdict clears. Report-only slot per the rhythm (03:30Z); quota day still runs to the 07:05Z reset.
+
+Work Log:
+- SANDBOX RECYCLED: psycopg2-binary + pynacl reinstalled before the script ran (per standing order; environment-only).
+- VERDICT: HOLD-RPD (quota-day spend 5,703/5,700 - run #82 4,587 + #83 1,116, both finished after 07:05Z Nov 6 - 0 dispatchable < 180; reset 07:05Z). Correct for the report-only 03:30Z slot: the current quota day is genuinely exhausted; first dispatch of the new quota day = the 07:30Z fire (run 1/4 @ 1,425 calls). No run started -> no watch required.
+- AUDIT: latest run #83 (42208121391) completed/success, nothing active. CADENCE 2/4 (rolling-24h; frees further after 07:05Z).
+- DB DELTAS vs observation #37: papers 10,564 (+0), questions 231,097 (+0), complete 8,507 / review 2,056 / failed 1 (+0 all), thin_left 1,175 (+0), RETRY ledger 888 / 268 / 1,085 (+0 all). Post-run plateau.
+- FAILURE CROSS-CHECK: #83's 1 failed paper (btech-ic-5-sem-industrial-instrumentation-eic-50) DB-visible, 0 invisible; unit-400 pool = 1, 0 retried-and-refailed (fix 3c61451 not disproven); auto-retries at next dispatch.
+- REPO: local 3633eda == remote 3633eda, synced; unit_fix + rpd_bias present. v3 quota-day ledger working as designed (cycle #38 first full run under it).
+- OBSERVATION: line cycle #38 appended (rpd_spent_day field, v3 series).
+- LAWS INTACT: cap 5,700 never raised, cadence 4/day @ 1,425, RETRY ledger + zero-churn untouched, quality bar unchanged, repo A + PROD untouched, no secrets printed.
+
+
 Task ID: CRON-V6-20261107-cycle34
 Agent: Super Z (owner FLAG fire 2026-11-07 ~04:0x +08 / 2026-11-06 19:52 UTC; script cycles #36 audit + #37 verify)
 Task: owner FLAG: "why are you not starting next GHA run? ... i never said to not run GHA and it is not running it itself!" + merge the 2026-10-27 cron message with the 2026-11-07 v2 message into one GOOD message (remove the retired '2000 calls', restore what v2 dropped).
