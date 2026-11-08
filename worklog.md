@@ -1,4 +1,20 @@
 ---
+Task ID: CRON-V6-20261108-cycle39
+Agent: Super Z (cron fire 2026-11-08 17:02:46 IST / 2026-11-08 11:32:46 UTC - job 510130, dispatch slot 2/4 (11:30Z) of the 11-08 quota day; script cycle #44)
+Task: audit + dispatch per v3 standing order; 10-15 min post-dispatch watch (run started this fire).
+
+Work Log:
+- SANDBOX RECYCLED: psycopg2-binary + pynacl reinstalled before the script ran (environment-only).
+- FIRE-GAP NOTE: 4 fires never reached the agent (19:30Z 11-07, 23:30Z 11-07, 03:30Z 11-08, 07:30Z 11-08) - gateway jitter; script cycles went #42 -> #43 (15:30Z 11-07 fire, saw #85 RUNNING, session died before worklog bookkeeping) -> #44 (this fire). Cost is throughput only: the 07:30Z dispatch slot today was missed (4/day is a cap, not a quota); this 11:30Z slot carried the day's first dispatch.
+- RUN #85 (42382634021, dispatched yesterday 14:39Z by cycle38) completed/SUCCESS ~15:50Z 11-07 (~70 min): 6/6 shards green, all steps success, Mercury lane calls=166 ok=142 (6 keys left), recorded 664 Google calls. Its work: papers 10,615 -> 10,731, questions -> 238,663, thin_left 413 -> 59 (thin queue NEARLY DRAINED), failed pool stayed 0 - the 19 previously-invisible failure papers went through the v6.1 pdfium+zero-loss extractor with NO new invisible class (v6.1 fix a752c71 validated in production).
+- LEDGER NOTE (conservative by design): #85 finished BEFORE today's 07:05Z reset, but its 664 calls were first sighted at this cycle's audit and attributed to the 11-08 quota day (v3 first-sighting attribution errs toward under-dispatch - safe direction). Today's spend 664/5,700 -> rpd_left 5,036 at decision time.
+- VERDICT: DISPATCHED 42476295675 (PAPERS-CLEAR, calls=1,425, rpd_left=5,036) started 11:33:46Z - FIRST dispatch of the 11-08 quota day (rolling-24h cadence counter reads 2/4 including #85; quota-day count 1/4 - both under the 4/day cap). work_left=2,797 (review 2,738 + failed 0 + thin 59).
+- 15-MIN WATCH (11:34:42Z -> 11:49:14Z): 6/6 shards in_progress at start; 2 shards success by 11:42Z; 4/6 success by 11:49Z (shards 1,3 still working); questions 238,663 -> 238,966 (+303 during watch); papers steady 10,731; complete/review churn normal (7,993 -> 7,994 / 2,738 -> 2,737); hold job correctly skipped. Run healthy; likely to finish under the 1,425 budget given the small remaining pool.
+- AUDIT NUMBERS at decision: papers 10,731 (+69 since last script cycle), questions 238,663 (+2,059), review 2,738 / complete 7,993 / failed 0, thin_left 59, RETRY ledger active 987 / accepted 457 / frozen 1,534. REPO synced c341657 (unit_fix 3c61451 + rpd_bias f65b0db + v6.1 a752c71 present).
+- LAWS INTACT: cap 5,700 never raised, cadence <= 4/day, RETRY ledger + zero-churn untouched (upsert-only adds only), quality bar unchanged (qc_min=10, chunk_pages=2, route=auto, vision-first), repo A + PROD untouched, no secrets printed.
+- OBSERVATION: line cycle #44 appended (budget field rpd_spent_day).
+
+
 Task ID: CRON-V6-20261107-cycle38
 Agent: Super Z (delayed cron fire 2026-11-07 22:18:08 +08 / 2026-11-07 14:18 UTC - job 510130, between the 11:30Z and 15:30Z slots; script cycles #41 + #42)
 Task: audit + dispatch per v3 standing order. Verdict FLAG:19 INVISIBLE failures -> investigate, FIX, re-run, then dispatch (done).
