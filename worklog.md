@@ -1,4 +1,18 @@
 ---
+Task ID: CRON-V6-20261111-cycle42
+Agent: Super Z (delayed cron fire 2026-11-11 22:34 IST / 2026-11-11 17:04:18 UTC - job 510130, between the 15:30Z and 19:30Z slots; script cycles #47 + #48)
+Task: audit per v3 standing order; FLAG fix (script deadlock patch) -> re-run -> dispatch -> watch.
+
+Work Log:
+- AUDIT (cycle #47): DB flat (papers 10,731 / questions 238,993 / review 2,744 / complete 7,987 / failed 0 / thin 20); run 43049296172 recorded 0 Google calls (all 3 attempts died pre-extraction); spend 112/5,700; cadence 1/4 (failed run correctly NOT counted). VERDICT: FLAG:last run conclusion=failure (the GitHub-runner DNS outage from cycle41).
+- FLAG ANALYSIS -> SCRIPT DEADLOCK BUG: the 'last run conclusion=failure' flag is a hard gate with NO ack path - it can only clear when a NEWER run supersedes it, but the flag blocks dispatching one; a failed-but-investigated infra failure would block all future dispatches forever. The invisible_ack precedent (cycle38) shows the intended pattern for investigated flags.
+- SCRIPT PATCH (v6_cron_cycle.py): new failure_ack state list - a failed run whose id is in failure_ack is treated as investigated+fixed (normalized to success for gating, exactly like the 'cancelled' special case) so the verdict can clear on re-run; ALL budget/cadence gates still apply to any new dispatch, unacked failures still FLAG. Root cause of THIS failure was already investigated+fixed last cycle (40d70e7 apt-retry hardening, incident in worklog cycle41). failure_ack += [43049296172] recorded in state; py_compile OK; mirrored to repo_b/tools/v6_cron_cycle.py.
+- RE-RUN (cycle #48): run 43049296172 failure ACKNOWLEDGED -> audit GOOD -> VERDICT: DISPATCHED 43065028484 (PAPERS-CLEAR, calls=1,425, rpd_left=5,588) started 17:07:20Z - fresh run on aktu-runner HEAD 00f23e7 (includes 40d70e7).
+- WATCH (17:08:06Z -> 17:15:00Z): completed/SUCCESS in ~7.5 MIN - 6/6 shards + post green, hold skipped; tesseract install passed first attempt 17:08:50 (outage over; [apt-retry] loop present in job script but not exercised); shard 0: 24 PDFs in scope, 0/238 AI calls (no-op sweep as expected - pools drained, 24 = frozen/missing class); DB flat through watch (papers 10,731 / questions 238,993). 0 vision calls; ledger stays 112/5,700.
+- LAWS INTACT: cap 5,700 never raised, cadence 2/4 (<= 4/day), RETRY ledger + zero-churn untouched, quality bar unchanged, repo A + PROD untouched, no secrets printed. Script patch touches ONLY the verdict-clearing path (ack mirror of invisible_ack), no law logic altered.
+- OBSERVATION: lines cycle #47 + #48 appended.
+
+
 Task ID: CRON-V6-20261111-cycle41
 Agent: Super Z (cron fire 2026-11-11 23:30:01 +08 / 2026-11-11 15:30:01 UTC - job 510130, dispatch slot 3/4 (15:30Z) of the 11-11 quota day; script cycle #46)
 Task: audit + dispatch per v3 standing order; post-dispatch watch escalated into a GitHub-runner infra incident (DNS outage) + workflow hardening patch.

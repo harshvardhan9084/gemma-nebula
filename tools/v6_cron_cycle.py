@@ -396,6 +396,16 @@ def main():
         print("[DECIDE] last run was cancelled (orchestrator stop) — not a fault; "
               "proceeding to normal gates.")
         eff = "success"
+    # failure_ack: a failed run whose root cause was investigated and fixed by the
+    # agent (e.g. GitHub-runner infra outage, fix commit recorded in worklog) is
+    # ACKNOWLEDGED so the verdict can clear on re-run — mirrors the invisible_ack
+    # precedent. Budget/cadence gates below still apply to any new dispatch, and
+    # the failed run itself never consumed cadence (law: failed runs don't count).
+    if (latest["status"] == "completed" and eff not in ("success", "skipped")
+            and latest["id"] in set(state.get("failure_ack", []))):
+        print(f"[DECIDE] run {latest['id']} failure ACKNOWLEDGED after agent "
+              f"investigation+fix (see worklog); proceeding to normal gates.")
+        eff = "success"
     if latest["status"] != "completed":
         verdict = "RUNNING"
         print("[DECIDE] last run still active — audit only, no dispatch.")
