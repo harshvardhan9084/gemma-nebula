@@ -159,8 +159,15 @@ jobs:
 
       - name: Install tesseract OCR (+ Hindi) for scanned PDFs
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-hin tesseract-ocr-eng >/dev/null
+          set -e
+          ok=0
+          for i in 1 2 3 4 5; do
+            echo "[apt-retry] attempt $i/5 (runner DNS flakes fail this step outright otherwise)"
+            if sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-hin tesseract-ocr-eng >/dev/null; then ok=1; break; fi
+            echo "[apt-retry] attempt $i failed, sleeping 45s"
+            sleep 45
+          done
+          if [ "$ok" != "1" ]; then echo "[apt-retry] tesseract install failed after 5 attempts"; exit 100; fi
           tesseract --version | head -1
 
       - name: Preflight secrets
