@@ -1,4 +1,18 @@
 ---
+Task ID: CRON-V6-20261111-cycle41
+Agent: Super Z (cron fire 2026-11-11 23:30:01 +08 / 2026-11-11 15:30:01 UTC - job 510130, dispatch slot 3/4 (15:30Z) of the 11-11 quota day; script cycle #46)
+Task: audit + dispatch per v3 standing order; post-dispatch watch escalated into a GitHub-runner infra incident (DNS outage) + workflow hardening patch.
+
+Work Log:
+- SANDBOX RECYCLED: psycopg2-binary + pynacl reinstalled (environment-only).
+- AUDIT: run #87 recorded 0 Google calls (no-op confirmed); DB flat (papers 10,731 / questions 238,993 / review 2,744 / complete 7,987 / failed 0 / thin 20); today's spend 112/5,700, rpd_left 5,588. VERDICT: DISPATCHED 43049296172 (PAPERS-CLEAR, calls=1,425) started 15:32:00Z - run 2/4.
+- INCIDENT (GitHub-runner DNS outage, NOT the extractor): watch caught 5/6 shards failing at the 'Install tesseract OCR (+ Hindi)' apt step - 'E: Failed to fetch ... Temporary failure resolving security.ubuntu.com', exit 100. Attempt 1 (15:32Z): 5/6 failed, shard 0 green. Re-run-failed-jobs attempt 2 (15:52Z): 6/6 failed, identical step/signature (16:01Z). Patched extraction.yml with a bounded apt retry (5 attempts x 45s, same packages + version check retained; commit 40d70e7 on aktu-runner via contents API) and re-ran (attempt 3, 16:03Z): 5/6 failed again - attempt 3 REPLAYED THE OLD WORKFLOW (re-run-failed-jobs reuses the original run's commit, so a fresh patch cannot take effect; 0 '[apt-retry]' lines in its log, failed 16:14Z). STOPPED after 3 attempts; outage sustained 15:32Z -> 16:15Z+.
+- IMPACT: ZERO on data and budget - all failures occur before Preflight secrets/extraction; DB flat through all three attempts; 0 vision calls (ledger stays 112/5,700); no secrets touched; run 43049296172 final = failure (does NOT consume cadence quota per law).
+- HARDENING LANDED: extraction.yml 40d70e7 (aktu-runner) - apt install step now survives runner DNS flakes up to ~4 min. ONLY the install step touched; quality bar, RPD, cadence, RETRY ledger, zero-churn, repo A + PROD all untouched.
+- NEXT FIRE (19:30Z): dispatch a FRESH run - it checks out aktu-runner HEAD (40d70e7) with the retry loop; if the GitHub outage persists past the retries the run fails again at 0 cost and later slots self-heal. LESSON RECORDED: re-run-failed-jobs CANNOT validate workflow patches - always dispatch fresh post-patch.
+- OBSERVATION: line cycle #46 appended.
+
+
 Task ID: CRON-V6-20261111-cycle40
 Agent: Super Z (delayed cron fire 2026-11-11 19:03:39 IST / 2026-11-11 13:33:39 UTC - job 510130, between the 11:30Z and 15:30Z slots; script cycle #45)
 Task: audit + dispatch per v3 standing order; 10-15 min post-dispatch watch (run started this fire).
