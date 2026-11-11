@@ -1,4 +1,20 @@
 ---
+Task ID: CRON-V6-20261111-cycle40
+Agent: Super Z (delayed cron fire 2026-11-11 19:03:39 IST / 2026-11-11 13:33:39 UTC - job 510130, between the 11:30Z and 15:30Z slots; script cycle #45)
+Task: audit + dispatch per v3 standing order; 10-15 min post-dispatch watch (run started this fire).
+
+Work Log:
+- SANDBOX RECYCLED: psycopg2-binary + pynacl reinstalled before the script ran (environment-only).
+- FIRE-GAP NOTE: ~18 scheduled fires produced no cycles (11-08 15:30Z through 11-11 11:30Z; observation series gap 11-08 11:33:55Z -> 11-11 13:34Z, ~50h) - gateway jitter again. Throughput cost only: quota days 11-09/11-10 and 11-11's early slots ran ZERO dispatches (4/day is a cap, not a quota - no law violated); GHA shows no runs between #86 (11-08) and #87 (today).
+- RUN #86 (42476295675, dispatched by cycle39 on 11-08) completed/SUCCESS: all 6 extract shards + post job green; LIGHT run - 112 Google calls total (shard budgets were 238/shard), mercury calls=18 ok=15 (6 keys left), zero budget stops; work: thin_left 59 -> 20, questions 238,663 -> 238,993 (+330), papers flat 10,731, failed stayed 0. Its 112 calls first-sighted this cycle -> booked into today's ledger (conservative v3 attribution): spent 112/5,700, rpd_left 5,588 at decision time.
+- VERDICT: DISPATCHED 43030408645 (PAPERS-CLEAR, calls=1,425, rpd_left=5,588) started 13:34:53Z - first dispatch of the 11-11 quota day (cadence 1/4 both ways; 0 full runs in the last 24h).
+- WATCH RESULT (13:35:55Z -> 13:43:01Z): run #87 completed/SUCCESS in ~8 MINUTES - all 6 shards + post green, hold skipped. SHARD-0 LOG: '24 PDFs to process now (skipped 0 done), REPROCESS filter=complete,review,failed' then 'AI calls spent this process: 0 / 238' - a NO-OP sweep. DB flat at papers=10,731 questions=238,993 through the whole watch.
+- CONVERGENCE ASSESSMENT (DB probe): the PAPERS-CLEAR queue is effectively DRAINED - thin_left=20, failed=0, unit-400=0. Review pool 2,744 decomposed by extraction_error stamp: 1,571 RETRY-FROZEN (exactly the ledger's frozen counter - sub-20q papers at the 2-attempt cap, human-review queue forever per anti-loop law), 917 RETRY-active-stamped (sub-20q, attempts<2, re-extractable), 256 with NO stamp (genuine make-great candidates). Regular PAPERS-CLEAR runs are now no-ops; the next REAL work is the REPROCESS-MAKE-GREAT campaign (script decides per its verdicts) and/or an OWNER DECISION on the 1,571-paper frozen queue.
+- AUDIT NUMBERS at decision: papers 10,731, questions 238,993, review 2,744 / complete 7,987 / failed 0, thin_left 20, RETRY ledger active 917 / accepted 481 / frozen 1,571. REPO synced a721d66 (3c61451 + f65b0db + a752c71 present).
+- LAWS INTACT: cap 5,700 never raised (today's spend 112 + #87 actuals pending), cadence <= 4/day, RETRY ledger + zero-churn untouched (run #87's [replace] path on #86 only backfills with backup, no deletion), quality bar unchanged, repo A + PROD untouched, no secrets printed.
+- OBSERVATION: line cycle #45 appended (budget field rpd_spent_day); series now spans cycles #35-#45.
+
+
 Task ID: CRON-V6-20261108-cycle39
 Agent: Super Z (cron fire 2026-11-08 17:02:46 IST / 2026-11-08 11:32:46 UTC - job 510130, dispatch slot 2/4 (11:30Z) of the 11-08 quota day; script cycle #44)
 Task: audit + dispatch per v3 standing order; 10-15 min post-dispatch watch (run started this fire).
