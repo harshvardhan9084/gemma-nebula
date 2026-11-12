@@ -1168,15 +1168,17 @@ class Supabase:
                     'Content-Type': 'application/json'}
 
     def _send(self, fn, *a, **kw):
-        """Transient-failure shield for Supabase REST: 500 (incl. statement
-        timeouts / load blips), 502/503/504 gateways and network resets are
-        retried (4 attempts, 5s/15s/30s) instead of failing the whole paper.
+        """Transient-failure shield for Supabase REST: any 5xx is retried
+        (4 attempts, 2/6/12s) instead of failing the whole paper attempt
+        un-stamped. Covers 500-504 gateways AND Cloudflare-edge 520-527
+        (521/522/525 seen 2026-11-12 19:48-20:04Z burned 13 attempts as
+        un-stamped FAILED). Network resets retried (4 attempts, 4/12/20s).
         Non-5xx errors raise immediately."""
         last = None
         for attempt in range(4):
             try:
                 r = fn(*a, **kw)
-                if r.status_code in (500, 502, 503, 504) and attempt < 3:
+                if 500 <= r.status_code < 600 and attempt < 3:
                     # v5.8: tighter backoff (2/6/12s) - Supabase blips clear in
                     # seconds; the old 5/15/30s ladder stalled shards for 50s/write
                     wait = (2, 6, 12)[attempt]

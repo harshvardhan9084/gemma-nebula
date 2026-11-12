@@ -285,10 +285,16 @@ def fetch_run_logs(run_id):
                         # papers.source_url stores HTML/Drive URLs while run logs
                         # print corpus filenames — the old slug-LIKE join false-
                         # flagged 4 DB-visible papers as INVISIBLE (cycle #31).
+                        # Cycle #49: corpus filenames can be all-lowercase
+                        # (nb-cyber-security-auc002-...pdf) so upper() before the
+                        # code regex, and the code may live ONLY in
+                        # papers.subject_code (source_url is a Drive/HTML link)
+                        # — join on both columns.
                         hit = 0
-                        for cd in set(re.findall(r"[A-Z]{2,4}\d{3}[A-Z]?", fn)):
-                            cur.execute("SELECT count(*) FROM papers WHERE source_url ILIKE %s",
-                                        (f"%{cd}%",))
+                        for cd in set(re.findall(r"[A-Z]{2,4}\d{3}[A-Z]?", fn.upper())):
+                            cur.execute("SELECT count(*) FROM papers "
+                                        "WHERE source_url ILIKE %s OR subject_code ILIKE %s",
+                                        (f"%{cd}%", f"%{cd}%"))
                             hit += cur.fetchone()[0]
                         if not hit:
                             slug = fn.replace(".pdf", "")[:44]
