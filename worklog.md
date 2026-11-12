@@ -1,4 +1,17 @@
 ---
+---
+Task ID: CRON-V6-20261112-cycle47
+Agent: Super Z (cron fire 2026-11-12 19:30:00 +08 / 2026-11-12 19:30:47 UTC - job 510130; script internal cycle label #49)
+Task: audit per v3 standing order; 19:30Z slot - dispatch if numbers allow (they do: quota-day spend 1,428/5,700, quota-day dispatches 1 before this fire).
+
+Work Log:
+- SANDBOX RECYCLED: psycopg2-binary + pynacl reinstalled; worklog head cycle46 + repo_b fe77cf9 verified; obs tail cycle48 (03:32:37Z) -> today's 07:30Z/11:30Z/15:30Z fires LOST again (gateway loss pattern; 15:30Z left no obs line, no worklog entry - slot 2 unused; quota-day usage before this fire: 1 dispatch).
+- RUN #92 OUTCOME (43238544649, PAPERS-CLEAR, started 14:34:10Z, completed before the 19:31Z audit, recorded 1,428 Google calls - first budget-consuming run of the campaign): review 2,744->2,560 (-184), complete 7,987->8,171 (+184), questions 238,993->238,980 (net -13, REPLACE churn), ledger active 917->170, unstamped 256->13, accepted 481->551 (+70), frozen 1,571->2,377 (+806). RECONCILIATION (exact): 990 papers processed (747 actives + 243 unstamped) = 184 healed to complete (18.6%) + 806 attempt-2-still-flagged -> RETRY-FROZEN terminal, now amnesty-queued. thin_left 20->41 (+21: fresh clean extraction returned <20q where leak-inflated old counts held >=20q; COMPLETE-tier thin gate now governs them).
+- DISPATCH #93 43291115380 (PAPERS-CLEAR, calls=1,425, quota-day spend 1,428/5,700 before run, rpd_left=4,272; quota-day dispatches 2/4, rolling-24h 4/4) started 19:31:57Z; hold job skipped (budget green). WATCH 19:32->19:50Z: 6/6 extract shards in_progress throughout; live DB deltas review 2,560->2,558, complete 8,171->8,173, questions 238,980->239,064 (+84, oscillating via paper-scoped REPLACE) - drain mechanism confirmed working on the remaining 170 actives + 13 unstamped slice.
+- HITS TAKEN: (1) sandbox recycle wiped deps (reinstalled, no other loss); (2) Supabase pooler connect timeouts 19:39-19:50Z - transient DB-side, affects only my audit/watch connection, GHA extractor unaffected; 5 watcher polls lost their DB line, watch duty still fulfilled on the 19:32-19:38 window; (3) today's 3 lost gateway fires (07:30/11:30/15:30Z) - cadence slots went unused, day running at 2/4 quota-day dispatches; no mis-audit on my side (verdicts were DISPATCH both times the agent actually ran).
+- NEXT: 23:30Z + 03:30Z fires report-only (rolling-24h cadence 4/4 regardless); this run should drain actives+unstamped (183 papers vs 1,425-call budget); once drained the dispatcher auto-fires PAPERS-CLEAR-AMNESTY for the 2,377 frozen - earliest fresh slot tomorrow 07:30Z after the 07:05Z reset (5,700 new). Amnesty remains ONE-SHOT per paper (AMNESTY-FROZEN terminal after) - anti-loop intact under owner authorization.
+- LAWS INTACT: cap 5,700 never raised (ceiling 6,000, 07:05Z anchor), cadence enforced by script (4/4 rolling-24h), RETRY ledger + terminal stamps + zero-churn untouched, quality bar unchanged (qc_min=10, chunk_pages=2, route=auto, vision-first), 6-shard max speed + Mercury rotation untouched, repo A + PROD Supabase untouched, no secrets printed.
+
 Task ID: CRON-V6-20261112-cycle46
 Agent: Super Z (owner-directive session 2026-11-12 14:10Z - NOT a cron fire; owner mandate: "10731 successfully parsed papers - make it finish, anyhow, faithfully, errorless; citations, no obvious questions, report what you hit")
 Task: evidence audit of the 2,744 review papers -> root-cause fix -> campaign kickoff -> dispatch + watch.
