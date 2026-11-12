@@ -1,4 +1,20 @@
 ---
+Task ID: CRON-V6-20261112-cycle45
+Agent: Super Z (cron fire 2026-11-12 11:30:00 +08 / 2026-11-12 03:30:00 UTC - job 510130, report-only slot 03:30Z = tail of the 11-11 quota-day window; script internal cycle label #48)
+Task: audit per v3 standing order; report-only slot - dispatch only if the numbers say otherwise (they do not: cadence 4/4).
+
+Work Log:
+- SANDBOX RECYCLED (no rollback this time): psycopg2-binary + pynacl reinstalled; worklog head cycle44 and scripts/out state (cycles=48, failure_ack [43049296172], invisible_ack, last_run_id 43120473990) all intact and consistent with repo_b remote ab9784f.
+- NUMBERING NOTE: script internal cycle labels and worklog Task IDs are separate series (obs labels consecutive 43-48; the two 11-11 FLAG-turn obs lines 15:30Z/17:04Z remain absent - known cycle43-rollback loss, not re-fabricated).
+- AUDIT: GHA latest run #91 id=43120473990 completed/success (started 23:31:30Z, the cycle44 dispatch) recording 0 Google calls -> 5th consecutive green no-op sweep; prior #90/#89 success, #88 failure (DNS incident 43049296172, acked + hardened 40d70e7).
+- DB FLAT (plateau holds, zero_delta_streak=4): papers 10,731 (+0) / questions 238,993 (+0) / review 2,744 / complete 7,987 / failed 0 / thin_left 20; unit-400 failed remaining 0; RETRY ledger active=917 accepted=481 frozen=1,571 (cap 2 attempts/paper).
+- BUDGET: quota-day spend 112/5,700 (rpd_left=5,588, 0.02% of cap), window anchored to the 07:05Z reset; next reset 07:05Z today (~3.5h) opens the 11-12 quota day fresh with cap 5,700.
+- CADENCE: 4/4 full runs used in the window (13:35Z / 17:07Z / 19:32Z / 23:31Z dispatches; the DNS-failed 43049296172 consumed none) -> VERDICT: HOLD-CADENCE (4/4; rpd_left=5,588; next reset 07:05Z). No dispatch, nothing active, no watch owed. Report-only duty fulfilled.
+- OWNER DECISION POINTS UNCHANGED (reported cycle40/42/43/44, no reply yet): (1) 1,571 RETRY-FROZEN papers - human review queue vs amnesty reprocess round; (2) 256 unstamped make-great candidates - REPROCESS-MAKE-GREAT campaign; (3) meanwhile PAPERS-CLEAR dispatches return green-empty at zero cost - corpus at plateau, budget + cadence headroom idle by law.
+- LAWS INTACT: cap 5,700 never raised, cadence exactly 4/4, RETRY ledger + terminal stamps + zero-churn untouched, quality bar unchanged (qc_min=10, chunk_pages=2, route=auto, vision-first), 6-shard max-speed + Mercury rotation untouched, repo A + PROD Supabase untouched, no secrets printed.
+- OBSERVATION: line cycle #48 appended (obs series now 14 lines).
+
+
 Task ID: CRON-V6-20261111-cycle44
 Agent: Super Z (cron fire 2026-11-12 07:30:01 +08 / 2026-11-11 23:30:01 UTC - job 510130, report-only slot 23:30Z; script cycle #50)
 Task: audit per v3 standing order; 23:30Z slot dispatched because the numbers said otherwise (cadence 3/4, rpd_left 5,588, nothing active); post-dispatch watch.
