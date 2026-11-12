@@ -449,17 +449,34 @@ def main():
             verdict = f"HOLD-RPD (spent {spent}/{DAILY_VISION_CAP}, {remaining} left < {MIN_RUN_CALLS}; next reset 07:05Z)"
             print(f"[DECIDE] {verdict}")
         else:
-            # papers clear-zero first (owner 2026-11-06): review+failed+thin queue
+            # papers clear-zero (owner 2026-11-06) + REVIEW-CLEAR CAMPAIGN
+            # (owner mandate 2026-11-12 "10,731 successfully parsed - make it
+            # finish, anyhow, faithfully, errorless"): the review pool splits into
+            # ledger-active (attempts<2) + unstamped + frozen (terminal). Audit
+            # 2026-11-12: 100% corpus reachability; the extractor's thin_max gate
+            # is now COMPLETE-tier only, so PAPERS-CLEAR drains actives+unstamped;
+            # the frozen pool then drains via a ONE-SHOT amnesty round (AMNESTY
+            # once per paper, AMNESTY-FROZEN terminal - anti-loop preserved,
+            # owner-authorized). PDF-less thin completes (audit: 20 papers whose
+            # source PDFs are not in the corpus) are already complete (terminal-
+            # good) and must NOT keep the campaign alive forever.
             review_left = a["status"].get("review", 0)
             failed_left = a["status"].get("failed", 0)
             thin_left = a["thin_complete"]
-            work_left = review_left + failed_left + thin_left
-            print(f"[DECIDE] work_left={work_left} (review={review_left} "
-                  f"failed={failed_left} thin={thin_left}) rpd_left={remaining}")
-            if work_left > 0:
+            unstamped_left = max(0, review_left - a["retry_frozen"] - a["retry_active"])
+            active_left = a["retry_active"] + unstamped_left
+            print(f"[DECIDE] pools: review={review_left} (active={a['retry_active']} "
+                  f"unstamped~{unstamped_left} frozen={a['retry_frozen']}) "
+                  f"failed={failed_left} thin={thin_left} rpd_left={remaining}")
+            if active_left + failed_left > 0:
                 calls_this = min(remaining, CALLS_PER_RUN)
                 inputs = dict(THIN_INPUTS, total_calls=str(calls_this))
                 mode = "PAPERS-CLEAR"
+            elif review_left > 0 and a["retry_frozen"] > 0:
+                calls_this = min(remaining, CALLS_PER_RUN)
+                inputs = dict(THIN_INPUTS, total_calls=str(calls_this),
+                              amnesty_frozen="true")
+                mode = "PAPERS-CLEAR-AMNESTY"
             elif state.get("zero_delta_streak", 0) >= 2:
                 calls_this = min(remaining, CALLS_PER_RUN)
                 inputs = dict(REPROCESS_INPUTS, total_calls=str(calls_this))

@@ -15,12 +15,12 @@
 # -> QC gate), paper-scoped --reprocess replace, RETRY anti-loop ledger, hard
 # per-run call budget and per-call pacing.
 #
-# RPD LAW (owner 2026-11-06): 6 keys x 500 RPD = 3,000 vision calls/day is the
-# daily ceiling for the Google flash-lite lanes; the cron dispatcher budgets
-# strictly under it (2,800) via its cross-run ledger and passes the remaining
-# budget as total_calls. 6 parallel shards burn the budget at MAX speed while
-# pacing stays far under the 15 RPM/model/key per-minute window. The old fixed
-# 2,000-calls/5h spec is retired.
+# RPD LAW (owner 2026-11-06, v3 2026-11-07): 6 keys x 500 RPD/model x 2 flash-lite
+# vision models = 6,000 vision calls/day hard ceiling; the cron dispatcher budgets
+# strictly under it (DAILY_VISION_CAP=5,700, quota-day window anchored 07:05Z) via
+# its cross-run ledger and passes the remaining budget as total_calls. 6 parallel
+# shards burn the budget at MAX speed while pacing stays far under the
+# 15 RPM/model/key per-minute window. The old fixed 2,000-calls/5h spec is retired.
 #
 # The "legacy" extractor choice runs the v5.8 script unchanged.
 # Non-extract stages (enrich/repair/embed/cluster) are v5 stages and run the
@@ -72,11 +72,15 @@ on:
         default: 'complete,review,failed'
         type: string
       thin_max:
-        description: 'with reprocess: only papers with n_questions < N (0 = off). Thin-paper completeness campaign (AKTU papers carry ~20 questions)'
+        description: 'with reprocess: only papers with n_questions < N (0 = off). COMPLETE-tier gate only (review/failed are QC-flagged, never thin-gated - audit 2026-11-12)'
         default: '0'
         type: string
+      amnesty_frozen:
+        description: 'owner mandate 2026-11-12: ONE-SHOT re-attempt of RETRY-FROZEN papers (AMNESTY once per paper ever, AMNESTY-FROZEN terminal afterwards)'
+        default: 'false'
+        type: string
       total_calls:
-        description: 'AI call budget for the WHOLE run (all shards). The cron ledger passes the remaining daily RPD slice (strictly under 6 keys x 500 RPD = 3,000; cap 2,800). Manual runs: 2800'
+        description: 'AI call budget for the WHOLE run (all shards). The cron ledger passes the remaining daily RPD slice (strictly under 6,000 vision/day; cron cap 5,700/4 per run). Manual runs: 2800'
         default: '2800'
         type: string
       min_interval_s:
@@ -245,7 +249,8 @@ jobs:
               $SHARD_ARGS $OPTS \
               ${{ github.event.inputs.reprocess == 'true' && '--reprocess' || '' }} \
               ${{ github.event.inputs.reprocess == 'true' && format('--status-filter {0}', github.event.inputs.status_filter) || '' }} \
-              ${{ github.event.inputs.reprocess == 'true' && github.event.inputs.thin_max != '' && github.event.inputs.thin_max != '0' && format('--thin-max {0}', github.event.inputs.thin_max) || '' }}
+              ${{ github.event.inputs.reprocess == 'true' && github.event.inputs.thin_max != '' && github.event.inputs.thin_max != '0' && format('--thin-max {0}', github.event.inputs.thin_max) || '' }} \
+              ${{ github.event.inputs.reprocess == 'true' && github.event.inputs.amnesty_frozen == 'true' && '--amnesty-frozen' || '' }}
             if [ "$STAGE" = "all" ] && [ "${{ matrix.shard }}" = "0" ]; then
               python3 pipeline/aktu_pyq_extractor.py --stage embed --db
               python3 pipeline/aktu_pyq_extractor.py --stage cluster --db

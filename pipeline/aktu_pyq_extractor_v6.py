@@ -132,13 +132,24 @@ PROMPT_VERSION = 'v6-vision-qc+mercury+retryledger'
 # --- Re-extract anti-loop ledger (owner directive 2026-11-06) ---------------
 MAX_REATTEMPTS = 2          # HARD cap: re-extract attempts per paper, ever
 RETRY_STAMP_RX = re.compile(r'RETRY#(\d+):(\d+)q\(prev (-?\d+)q\)')
+FROZEN_ATTS_RX = re.compile(r'(?:RETRY|AMNESTY)-FROZEN n=(-?\d+)q after (\d+) attempt')
 
 
 def parse_retry_stamp(err):
     """papers.extraction_error -> (attempts_done, last_after_n, last_before_n).
-    No stamp -> (0, None, None)."""
-    m = RETRY_STAMP_RX.search(str(err or ''))
+    No stamp -> (0, None, None). Terminal FROZEN stamps carry the cumulative
+    attempt count ('...n=Xq after N attempt(s)') - parsed since 2026-11-12 so
+    the owner-mandated amnesty attempt stays cumulative-honest (frozen papers
+    enter their amnesty attempt with attempts=N, never reset to 0)."""
+    s = str(err or '')
+    m = RETRY_STAMP_RX.search(s)
     if not m:
+        mf = FROZEN_ATTS_RX.search(s)
+        if mf:
+            try:
+                return int(mf.group(2)), int(mf.group(1)), None
+            except ValueError:
+                return 0, None, None
         return 0, None, None
     try:
         return int(m.group(1)), int(m.group(2)), int(m.group(3))
@@ -146,18 +157,29 @@ def parse_retry_stamp(err):
         return 0, None, None
 
 
-def retry_terminal(n_eff, mark_review, attempts, old_n):
+def retry_terminal(n_eff, mark_review, attempts, old_n, amnesty=False):
     """Decide the terminal stamp for a paper that missed the bar.
     Returns (stamp, status) or None = non-terminal (keep the RETRY#N stamp and
     allow one more attempt later). Terminal fires when the HARD cap is reached
     OR the SOFT limit says the last attempt did not improve the paper (no new
-    questions AND still QC-failing)."""
+    questions AND still QC-failing).
+    AMNESTY (owner mandate 2026-11-12): the frozen pool's ONE-SHOT re-attempt.
+    Still-failing -> AMNESTY-FROZEN (terminal forever, amnesty can never
+    repeat); QC-clean -> AMNESTY-ACCEPT (complete). Anti-loop preserved: the
+    attempt count is cumulative (2 ledger + 1 amnesty max, ever)."""
     improved = (n_eff > old_n) or (not mark_review)
     if attempts < MAX_REATTEMPTS and improved:
         return None
     if mark_review:
+        if amnesty:
+            return (f'AMNESTY-FROZEN n={n_eff}q after {attempts} attempt(s); '
+                    f'owner-mandated 2026-11-12 amnesty exhausted, QC still '
+                    f'failing (anti-loop terminal)', 'review')
         return (f'RETRY-FROZEN n={n_eff}q after {attempts} attempt(s); QC still '
                 f'failing - human review queue (anti-loop terminal)', 'review')
+    if amnesty:
+        return (f'AMNESTY-ACCEPT n={n_eff}q after {attempts} attempt(s); QC-clean '
+                f'heal (owner 2026-11-12 amnesty, was below the 20q bar)', 'complete')
     return (f'RETRY-ACCEPT n={n_eff}q genuine-short after {attempts} attempt(s); '
             f'owner bar ~20q, anti-loop terminal', 'complete')
 
@@ -1237,26 +1259,45 @@ def stage_extract_v6(args, sb, router):
                     # AKTU paper carries ~20 questions incl. choice variants; measured
                     # corpus median 21.0 / avg 20.3). null n_questions (failed/new)
                     # always kept. null-vs-0 trick: None or 0 -> 0 < N -> kept.
-                    if (args.thin_max and st is not None
+                    # SCOPE FIX (audit 2026-11-12, owner mandate "make it finish"):
+                    # the thin gate is a COMPLETE-tier gate. review/failed papers
+                    # are QC-flagged regardless of n_questions - applying the gate
+                    # to them starved every review paper holding >=20q (audit:
+                    # 917 active + 255 unstamped all n>=20, 100% corpus-reachable,
+                    # yet unreachable by this gate since 2026-11-06 - the plateau).
+                    if (args.thin_max and st == 'complete'
                             and (nqmap.get(h) or 0) >= args.thin_max):
                         continue
                     # anti-loop ledger (owner 2026-11-06): terminal stamps
-                    # (RETRY-ACCEPT / RETRY-FROZEN) are never re-picked; the hard
-                    # cap MAX_REATTEMPTS is enforced at write time - this skip is
-                    # the belt-and-suspenders copy.
+                    # (RETRY-ACCEPT / RETRY-FROZEN / AMNESTY-FROZEN) are never
+                    # re-picked; the hard cap MAX_REATTEMPTS is enforced at write
+                    # time - this skip is the belt-and-suspenders copy.
+                    # AMNESTY (owner mandate 2026-11-12 "10,731 successfully parsed,
+                    # make it finish, faithfully"): ONE-SHOT re-attempt of frozen
+                    # papers under the current extractor (v6.1 never touched the
+                    # frozen pool; the active pool's attempt-1 healed 0-10q ->
+                    # 20-32q, the same heal is expected). Bounded: AMNESTY once
+                    # per paper ever ('AMNESTY' must be absent from the stamp),
+                    # AMNESTY-FROZEN terminal afterwards, cumulative attempts
+                    # carried through the stamp text.
                     p_err = str(errmap.get(h) or '')
                     attempts, _la, _lb = parse_retry_stamp(p_err)
-                    if 'RETRY-ACCEPT' in p_err or 'RETRY-FROZEN' in p_err \
+                    amn = bool(args.amnesty_frozen and p_err.startswith('RETRY-FROZEN')
+                               and 'AMNESTY' not in p_err)
+                    if p_err.startswith(('RETRY-ACCEPT', 'RETRY-FROZEN', 'AMNESTY-FROZEN')) \
                             or attempts >= MAX_REATTEMPTS:
-                        continue
-                    paper_ctx[p] = {'status': st, 'n': nqmap.get(h) or 0, 'err': p_err}
-                    sel.append((p, st, nqmap.get(h)))
+                        if not amn:
+                            continue
+                    paper_ctx[p] = {'status': st, 'n': nqmap.get(h) or 0, 'err': p_err,
+                                    'amnesty': amn}
+                    sel.append((p, st, nqmap.get(h), 1 if amn else 0))
         # quality-first ordering: review (known-broken) -> failed -> complete-thin,
-        # least questions first inside each class
+        # least questions first inside each class; amnesty retries of a class run
+        # after its fresh-ledger work
         rank = {'review': 0, 'failed': 1, 'complete': 2}
-        sel.sort(key=lambda t: (rank.get(t[1], 3),
+        sel.sort(key=lambda t: (rank.get(t[1], 3), t[3],
                                 t[2] if t[2] is not None else -1))
-        pdfs = [p for p, _, _ in sel]
+        pdfs = [p for p, _, _, _ in sel]
     if args.course:
         pdfs = [p for p in pdfs if args.course.lower() in p.lower()]
     if args.year:
@@ -1463,7 +1504,8 @@ def stage_extract_v6(args, sb, router):
                 if args.reprocess and ctx and _pid and not success:
                     attempts = prev_attempts + 1
                     n_eff = max(n_new, old_n) if not replace_ok else n_new
-                    term = retry_terminal(n_eff, mark_review, attempts, old_n)
+                    term = retry_terminal(n_eff, mark_review, attempts, old_n,
+                                          amnesty=bool(ctx.get('amnesty')))
                     if term:
                         stamp, term_status = term
                         try:
@@ -1486,6 +1528,23 @@ def stage_extract_v6(args, sb, router):
                                 f'{MAX_REATTEMPTS}, may re-run)')
                         except Exception as e:
                             log(f'    [db] ledger stamp failed: {str(e)[:80]}')
+                if args.reprocess and ctx and _pid and success \
+                        and ctx.get('amnesty') and status == 'complete':
+                    # AMNESTY-HEAL (owner mandate 2026-11-12): a frozen paper came
+                    # out QC-clean at/above the bar -> complete. The stale frozen
+                    # stamp is replaced by the heal record (documented transition;
+                    # questions were paper-scoped replaced above with backup kept,
+                    # zero-loss guard still applied).
+                    heal = (f'AMNESTY-HEAL n={n_new}q after {prev_attempts + 1} '
+                            f'attempt(s); QC-clean (owner 2026-11-12 amnesty, '
+                            f'frozen was at {old_n}q)')
+                    try:
+                        sb.patch('papers', {'id': f'eq.{_pid}'},
+                                 {'extraction_error': heal})
+                        retry_stats['AMNESTY-HEAL'] += 1
+                        log(f'    [ledger] {heal[:72]}')
+                    except Exception as e:
+                        log(f'    [db] heal stamp failed: {str(e)[:80]}')
                 if not args.no_crop:
                     try:
                         crop_diagrams(path, parsed, os.path.join(args.out, 'diagrams'),
@@ -1628,7 +1687,12 @@ def main():
     ap.add_argument('--qc-min', type=int, default=10, help='papers with fewer questions -> review')
     ap.add_argument('--thin-max', type=int, default=0,
                     help='with --reprocess: only papers with n_questions < N (0 = off). '
-                         'Thin-paper completeness campaign (AKTU papers carry ~20 questions)')
+                         'Thin-paper completeness campaign - COMPLETE-tier papers only '
+                         '(review/failed are QC-flagged, never thin-gated; audit 2026-11-12)')
+    ap.add_argument('--amnesty-frozen', action='store_true',
+                    help='owner mandate 2026-11-12: ONE-SHOT re-attempt of RETRY-FROZEN '
+                         'papers (AMNESTY once per paper ever; AMNESTY-FROZEN terminal '
+                         'afterwards; cumulative attempt count preserved in stamps)')
     ap.add_argument('--no-ai-clean', dest='ai_clean', action='store_false',
                     help='disable the AI clean pass for leak-flagged questions')
     ap.add_argument('--shard', type=int, default=0)
