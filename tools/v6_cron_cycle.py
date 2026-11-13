@@ -233,6 +233,11 @@ def db_audit(prev):
     cur.execute("""SELECT count(*) FROM papers WHERE extraction_error LIKE 'RETRY#%%'
                    AND extraction_error NOT LIKE 'RETRY-%%'""")
     a["retry_active"] = cur.fetchone()[0]
+    # AMNESTY-FROZEN is a terminal stamp (one-shot amnesty round, anti-loop law):
+    # counting it as unstamped made the deadlock latch un-clearable and the
+    # unstamped pool estimate wrong (cycle 55: script said ~785, DB truth ~1).
+    cur.execute("""SELECT count(*) FROM papers WHERE extraction_error LIKE 'AMNESTY-FROZEN%%'""")
+    a["amnesty_frozen"] = cur.fetchone()[0]
     conn.close()
     a["d_papers"] = a["papers"] - prev.get("papers_total", a["papers"])
     a["d_questions"] = a["questions"] - prev.get("questions_total", a["questions"])
@@ -487,7 +492,8 @@ def main():
             review_left = a["status"].get("review", 0)
             failed_left = a["status"].get("failed", 0)
             thin_left = a["thin_complete"]
-            unstamped_left = max(0, review_left - a["retry_frozen"] - a["retry_active"])
+            unstamped_left = max(0, review_left - a["retry_frozen"] - a["retry_active"]
+                                 - a.get("amnesty_frozen", 0))
             active_left = a["retry_active"] + unstamped_left
             # UNSTAMPED-DEADLOCK latch (cycle 50, run 43359557110 evidence: a
             # PAPERS-CLEAR dispatch spent 0 calls with active_left=1 - the last
@@ -508,7 +514,8 @@ def main():
             deadlock = bool(state.get("unstamped_deadlock")) and unstamped_left > 0
             eff_active = 0 if deadlock else active_left
             print(f"[DECIDE] pools: review={review_left} (active={a['retry_active']} "
-                  f"unstamped~{unstamped_left} frozen={a['retry_frozen']}) "
+                  f"unstamped~{unstamped_left} frozen={a['retry_frozen']} "
+                  f"amnesty={a.get('amnesty_frozen', 0)}) "
                   f"failed={failed_left} thin={thin_left} rpd_left={remaining}"
                   + (" [deadlock latch ON - unstamped bypassed]" if deadlock else ""))
             if eff_active + failed_left > 0:
