@@ -1,5 +1,20 @@
 ---
 ---
+Task ID: CRON-V6-20261113-cycle53
+Agent: Super Z (fire 2026-11-13 14:04Z - the 11:30Z slot firing late, job 510130)
+Task: standing fire (audit + dispatch + report) + owner directive "drop those 11 PDFs".
+
+Work Log:
+- AUDIT: #96 (43392311488, PAPERS-CLEAR-AMNESTY, started 08:19:23Z) COMPLETED/SUCCESS, 1,428 Google calls recorded. papers 10,731 (+0), questions 239,722 (+460 since cycle54 obs), complete 8,190->8,557 (+367 healed), review 2,541->2,174, failed 0, thin pool 20->281 (healed papers landing complete with <20q become the make-great reprocess pool).
+- LEDGER POST-AMNESTY (direct DB fact-check): RETRY-FROZEN 2,540->1,383 (amnesty #96 processed ~1,157 frozen papers: 367 healed to complete, 788 re-stamped AMNESTY-FROZEN terminal, ~2 loose); RETRY-ACCEPT 575 (all complete); review pool ~99.9% terminal-stamped. Audit printed unstamped~785 -> FLAG on my own audit tool (fixed below).
+- VERDICT: DISPATCHED 43439662979 (PAPERS-CLEAR-AMNESTY, calls=1,425, rpd_left=4,272) at 14:06:53Z; 6/6 extract shards in_progress from 14:06:57Z; watch: +19 questions by 14:09:34Z, review 2,174->2,172, amnesty stamps climbing live (788->794 by 14:15Z).
+- OWNER DIRECTIVE EXECUTED ("drop those 11 PDFs"): scripts/drop_11_pdfs_20261113.py removed the 11 straggler-verify-v2 leaves from the manifests (9 aktuonline3 + 2 aktuonline4 rows) with pre-drop proof: 0 papers rows reference them (never ingested), 0 structured_path refs, all paper_code='' status OK. POST-VERIFY with the extractor's own load_manifest: a3 9,090 entries / 8,479 coded, a4 569/569 coded (100%), 0 dup, 0 mismatch, 0 leaves remaining. Owner review pack updated: 11 rows LEFT OPEN -> DROPPED (download/straggler_review_2026-11-13.csv). Commit f8568dd. STRAGGLER CASE CLOSED: 124 v1 + 119 v2 verified fills (ingest via picker on later runs) + 11 dropped by owner ruling + 0 open.
+- FLAG FOUND+FIXED (own tool): v6_cron_cycle unstamped formula ignored AMNESTY-FROZEN (terminal stamp) -> unstamped estimate ~785 vs DB truth ~1 and the deadlock latch could never auto-clear (unstamped_left==0 unreachable). Patch: unstamped = review - retry_frozen - retry_active - amnesty_frozen; DECIDE line now prints the amnesty pool too. Verified live on the DB: fixed unstamped=1 (old formula 795). Mirror pushed repo_b tools (4f920c2). No cycle re-run this fire (verdict already executed; patch exercises at the next fire).
+- BOOKKEEPING: main worklog was missing the cycle52 entry (only in the repo_b copy) -> backfilled for parity this cycle.
+- LAWS INTACT: cap 5,700 untouched (1,428 spent this quota day, 4,272 left), cadence 2/4 used, RETRY/AMNESTY terminal stamps + zero-churn untouched (the drop touched ZERO paper rows - manifest config only), quality bar unchanged, repo A + PROD Supabase read-only, no secrets printed/committed.
+
+---
+---
 Task ID: OWNER-V6-20261113-cycle52
 Agent: Super Z (owner message session 2026-11-13 ~11:00-12:20Z, between fires - job 510130; no dispatch this session, amnesty run #96 left grinding)
 Task: owner ruling UPGRADE on the straggler zone ("they are NOT junk and are real papers... you got powers that you could find -> verify -> fill codes yourself. separate from the GHA") + report run #96 progress (owner called out that I saw it but didn't mention it).
