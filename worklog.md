@@ -1,5 +1,20 @@
 ---
 ---
+Task ID: CRON-V6-20261113-cycle50
+Agent: Super Z (owner go-ahead session 2026-11-13 ~08:15Z - "do whatever which takes us to the good"; the 07:30Z cron fire itself never reached the agent, the owner's manual message carried this slot; script internal cycle label #51)
+Task: audit -> caught a HOLD mis-audit (cadence window bug) -> fixed per owner go-ahead -> amnesty dispatched + watched.
+
+Work Log:
+- SANDBOX RECYCLED (deps wiped): psycopg2-binary + pynacl reinstalled; worklog head cycle49 + repo_b 5566eb7 verified consistent.
+- FIRST AUDIT SAID HOLD-CADENCE at 08:15Z with rpd_left=5,700 fresh and 0 runs used today - a MIS-AUDIT by the standing order's own definition (HOLD only for real budget exhaustion / the day's 4 runs used / active run). ROOT CAUSE: the cadence gate still counted runs over a ROLLING-24H window (yesterday's 4 runs of quota day 11-12 were blocking today's fresh slots) - the exact same bug class the owner had fixed for RPD spend in v3 (e8d13b2, quota-day anchoring), but the cadence gate never got the same treatment. Left as-is, today's 07:30Z+11:30Z slots would be wasted and the amnesty would start at 15:30Z instead of 08:19Z.
+- OWNER GO-AHEAD (in-message, 2026-11-13): "do whatever which takes us to the good" -> FIX commit b70ae99 (aktu-runner; tools mirror): cadence gate anchored to the quota day (most recent 07:05Z <= now), exactly like RPD spend; runs_day added to the obs line, runs_24h KEPT for delta-series continuity (no breaking change). Unit tests: py_compile + anchor math both cases (08:18Z -> cut 11-13 07:05Z; 03:30Z -> cut 11-12 07:05Z). The 4/day max and all other laws untouched - this only makes the law count what it says ("the day's 4 runs").
+- LATCH FIRED AS DESIGNED (first live test of 27abea6): `[DECIDE] clear-stage deadlock detected: last run spent 0 calls with active_left=1 -> latching amnesty path` + `[deadlock latch ON - unstamped bypassed]` -> VERDICT: DISPATCHED 43392311488 (PAPERS-CLEAR-AMNESTY, calls=1,425, rpd_left=5,700, cadence 1/4 this quota day) started 08:19:23Z, hold skipped. THE AMNESTY ROUND IS LIVE.
+- WATCH 08:19->08:32Z (~13 min): 6/6 extract shards in_progress throughout; live deltas review 2,541->2,528 (13 frozen papers processed), complete 8,190->8,203 (+13 healed), questions 239,262->239,511 (+249). Heal pace ~1 paper/min with all six shards grinding; the 1,425-call budget is the limiter (expected ~120-180 frozen papers per run).
+- NEXT: this run grinds its budget; the 11:30/15:30/19:30Z fires carry today's slots 2-4 (quota-day anchored now); 2,540 frozen at ~120-180/run -> amnesty ETA ~3-5 quota days; AMNESTY-ACCEPT/HEAL stamps are one-shot, AMNESTY-FROZEN terminal (anti-loop preserved, cumulative attempts). NAR405 stays PDF-less and latched out of the way; identity-blocked straggler pool (~138) still needs the owner's identity-fallback ruling.
+- HITS TAKEN: (1) the cadence-window bug itself (yesterday's runs blocking today - fixed b70ae99); (2) sandbox recycle wiped deps (reinstalled, no other loss); (3) the 07:30Z cron fire never reached the agent (gateway loss pattern continues) - the owner's manual message carried the slot, 45 min late, no harm done.
+- LAWS INTACT: cap 5,700 never raised (ceiling 6,000, 07:05Z anchor - both gates now quota-day anchored consistently), cadence 4/day unchanged in substance, RETRY ledger + terminal stamps + zero-churn untouched, quality bar unchanged (qc_min=10, chunk_pages=2, route=auto, vision-first), 6-shard max speed + Mercury rotation untouched, repo A + PROD Supabase untouched, no secrets printed.
+
+---
 Task ID: CRON-V6-20261113-cycle49
 Agent: Super Z (cron fire 2026-11-13 11:30:00 +08 / 2026-11-13 03:30:48 UTC - job 510130, report-only slot per rhythm; script internal cycle label #50)
 Task: audit; watch duty caught a green NO-OP amnesty-blocker -> root-cause + latch fix -> NAR405 repair attempt (failed, dead source) -> bookkeeping.
