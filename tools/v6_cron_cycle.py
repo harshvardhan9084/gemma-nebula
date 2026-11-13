@@ -245,17 +245,30 @@ def gha_audit():
     g["runs"] = [{k: r[k] for k in ("id", "run_number", "status", "conclusion",
                    "run_started_at", "created_at", "event")} for r in runs]
     g["latest"] = g["runs"][0] if g["runs"] else None
-    # CADENCE LAW: the daily 4-run quota counts workflow_dispatch runs started
-    # in the last 24h that are in_progress or succeeded (failed runs do not
-    # consume the quota; the RPD ledger still constrains their spend).
-    cut = time.time() - 86400
+    # CADENCE LAW (owner 2026-11-07): the daily 4-run quota counts workflow
+    # dispatch runs started since the QUOTA-DAY anchor (most recent 07:05Z <=
+    # now) that are in_progress or succeeded (failed runs do not consume the
+    # quota). v3.1 (2026-11-13, owner go-ahead "do whatever which takes us to
+    # the good"): the gate now anchors to the quota day exactly like the RPD
+    # spend does (v3 commit e8d13b2 precedent) - the old rolling-24h window
+    # made yesterday's 4 runs block today's fresh slots (observed 08:15Z:
+    # HOLD-CADENCE 4/4 while quota day 11-13 had 0 runs and 5,700 fresh).
+    # runs_24h kept alongside for the obs series continuity.
     def _ts(s):
         try:
             return datetime.fromisoformat(str(s).replace("Z", "+00:00")).timestamp()
         except Exception:
             return 0.0
+    now = time.time()
+    qd = datetime.utcfromtimestamp(now).replace(hour=7, minute=5, second=0, microsecond=0)
+    if qd.timestamp() > now:
+        qd -= timedelta(days=1)          # before 07:05Z -> quota day started yesterday
+    g["quota_day_cut"] = qd.strftime("%Y-%m-%d %H:%MZ")
+    g["runs_day"] = [r for r in g["runs"] if r["event"] == "workflow_dispatch"
+                     and _ts(r.get("created_at")) >= qd.timestamp()
+                     and (r["status"] == "in_progress" or r["conclusion"] == "success")]
     g["runs_24h"] = [r for r in g["runs"] if r["event"] == "workflow_dispatch"
-                     and _ts(r.get("created_at")) >= cut
+                     and _ts(r.get("created_at")) >= now - 86400
                      and (r["status"] == "in_progress" or r["conclusion"] == "success")]
     return g
 
@@ -374,8 +387,9 @@ def main():
     print(f"[RPD] spent(quota-day since 07:05Z)={spent} cap={DAILY_VISION_CAP} (owner law corrected: "
           f"strictly under 6 keys x 500 RPD x 2 models = 6,000) "
           f"-> dispatchable now: {remaining}")
-    print(f"[CADENCE] full runs last 24h: {len(g['runs_24h'])}/{MAX_RUNS_PER_DAY} "
-          f"(per-run budget {CALLS_PER_RUN} = cap/4; cron fires 6x/day)")
+    print(f"[CADENCE] full runs quota-day (since {g.get('quota_day_cut', '?')}): "
+          f"{len(g['runs_day'])}/{MAX_RUNS_PER_DAY} "
+          f"(rolling-24h informational: {len(g['runs_24h'])}; per-run budget {CALLS_PER_RUN} = cap/4; cron fires 6x/day)")
 
     # new fail-class detection vs persisted baseline (fires once per new class)
     known = set(state.get("known_fail_classes", []))
@@ -451,9 +465,9 @@ def main():
                 flags.append(f"{inv} INVISIBLE failures (run logs vs DB, e.g. {samples[:2]})")
         if flags:
             verdict = "FLAG:" + ";".join(flags)
-        elif len(g["runs_24h"]) >= MAX_RUNS_PER_DAY:
-            verdict = (f"HOLD-CADENCE ({len(g['runs_24h'])}/{MAX_RUNS_PER_DAY} full runs "
-                       f"in last 24h; rpd_left={remaining}; next reset 07:05Z)")
+        elif len(g["runs_day"]) >= MAX_RUNS_PER_DAY:
+            verdict = (f"HOLD-CADENCE ({len(g['runs_day'])}/{MAX_RUNS_PER_DAY} full runs "
+                       f"this quota day since {g.get('quota_day_cut', '?')}; rpd_left={remaining}; next reset 07:05Z)")
             print(f"[DECIDE] {verdict}")
         elif remaining < MIN_RUN_CALLS:
             verdict = f"HOLD-RPD (spent {spent}/{DAILY_VISION_CAP}, {remaining} left < {MIN_RUN_CALLS}; next reset 07:05Z)"
@@ -531,7 +545,7 @@ def main():
                     verdict = (f"DISPATCHED {dispatched} ({mode}, calls={calls_this}, "
                                f"rpd_left={remaining})")
                     print(f"[DECIDE] audit GOOD -> dispatched run id={dispatched} mode={mode} "
-                          f"total_calls={calls_this} (cadence {len(g['runs_24h']) + 1}/{MAX_RUNS_PER_DAY})")
+                          f"total_calls={calls_this} (cadence {len(g['runs_day']) + 1}/{MAX_RUNS_PER_DAY} this quota day)")
                 except Exception as e:
                     verdict = f"FLAG:dispatch-failed {e}"
                     flags.append(f"dispatch failed: {e}")
@@ -556,6 +570,7 @@ def main():
                "retry_frozen": a["retry_frozen"],
                "rpd_spent_day": spent, "rpd_cap": DAILY_VISION_CAP,
                "runs_24h": len(g["runs_24h"]),
+               "runs_day": len(g["runs_day"]),
                "verdict": verdict.split(" ")[0]}
         with open(OBS_F, "a", encoding="utf-8") as f:
             f.write(json.dumps(obs) + "\n")
