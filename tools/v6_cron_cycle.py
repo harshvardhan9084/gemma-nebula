@@ -437,9 +437,13 @@ def main():
                       f"disproven); in-scope ones auto-retry next dispatch, "
                       f"legacy ones are reprocess-campaign scope")
         # invisible-failure detector: run reports FAILED but no DB row exists.
-        lf, inv, samples = (None, None, [])
+        lf, inv, samples, calls_seen = (None, None, [], 0)
         if latest["conclusion"] != "cancelled" and latest["id"] not in set(state.get("invisible_ack", [])):
-            lf, inv, samples, _c2 = fetch_run_logs(latest["id"])
+            lf, inv, samples, calls_seen = fetch_run_logs(latest["id"])
+            # evidence feed for the unstamped-deadlock latch below (cycle 50):
+            # calls actually spent by the latest completed run
+            if calls_seen is not None:
+                state["last_run_calls"] = calls_seen
         if lf is not None and lf > 0:
             print(f"[LOGS] run reported {lf} failed papers; DB-invisible: {inv} "
                   f"(samples: {samples})")
@@ -471,10 +475,29 @@ def main():
             thin_left = a["thin_complete"]
             unstamped_left = max(0, review_left - a["retry_frozen"] - a["retry_active"])
             active_left = a["retry_active"] + unstamped_left
+            # UNSTAMPED-DEADLOCK latch (cycle 50, run 43359557110 evidence: a
+            # PAPERS-CLEAR dispatch spent 0 calls with active_left=1 - the last
+            # unstamped paper NAR405 is PDF-less, audit cycle46, and can never
+            # be re-picked). A clear-stage run that spends ~0 calls while
+            # active_left > 0 proves the residual unstamped pool is
+            # un-resolvable by extraction; it must not block the owner-mandated
+            # amnesty round forever. Latched until the pool actually drains.
+            if (state.get("last_run_calls", 0) or 0) < 100 and active_left > 0:
+                if not state.get("unstamped_deadlock"):
+                    print(f"[DECIDE] clear-stage deadlock detected: last run spent "
+                          f"{state.get('last_run_calls', 0)} calls with "
+                          f"active_left={active_left} -> unstamped pool "
+                          f"un-resolvable (PDF-less straggler); latching amnesty path")
+                state["unstamped_deadlock"] = True
+            if unstamped_left == 0:
+                state["unstamped_deadlock"] = False
+            deadlock = bool(state.get("unstamped_deadlock")) and unstamped_left > 0
+            eff_active = 0 if deadlock else active_left
             print(f"[DECIDE] pools: review={review_left} (active={a['retry_active']} "
                   f"unstamped~{unstamped_left} frozen={a['retry_frozen']}) "
-                  f"failed={failed_left} thin={thin_left} rpd_left={remaining}")
-            if active_left + failed_left > 0:
+                  f"failed={failed_left} thin={thin_left} rpd_left={remaining}"
+                  + (" [deadlock latch ON - unstamped bypassed]" if deadlock else ""))
+            if eff_active + failed_left > 0:
                 calls_this = min(remaining, CALLS_PER_RUN)
                 inputs = dict(THIN_INPUTS, total_calls=str(calls_this))
                 mode = "PAPERS-CLEAR"
