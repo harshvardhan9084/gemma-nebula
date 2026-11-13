@@ -1,5 +1,19 @@
 ---
 ---
+Task ID: CRON-V6-20261113-cycle56
+Agent: Super Z (fire 2026-11-13 23:30:30Z - the 23:30Z report-only slot, job 510130; numbers said otherwise: 4th dispatch went out)
+Task: standing fire (audit + FLAG fix + dispatch + watch).
+
+Work Log:
+- FLAG caught+fixed: sandbox filesystem had rolled back to a pre-19:33 checkpoint - local repo_b was 4ebfeba while origin was ca7cf00 (cycle55 worklog commit), and the main worklog had lost its cycle55 entry. git pull fast-forwarded to ca7cf00 (synced=True), cycle55 entry copied back into the main worklog (parity restored). No data risk at any point: dispatches always fire on the REMOTE aktu-runner state, which was current.
+- MILESTONE in the audit: papers 10,731 -> 10,883 (+152) and questions 240,749 -> 243,758 (+3,767) - run #98 (43488177930, completed/success, 756 calls recorded - self-terminated under its 1,425 budget after draining what the picker served) INGESTED the identity-fixed straggler fills: the owner mission "10,731 successfully parsed papers" is now EXCEEDED at 10,883. thin pool 387->200, attempt-1 actives 3->342 (papers stamped after one short extraction, awaiting attempt 2), +28 re-frozen, +2 accepted.
+- VERDICT 1st pass: FLAG:repo_b not synced -> FIXED (above), re-ran the script per protocol. VERDICT 2nd pass: DISPATCHED 43527867636 (PAPERS-CLEAR, calls=1,425, rpd_left=2,088) at 23:32:30Z - the 4th and FINAL run of the 2026-11-13 quota day (cadence 4/4; RPD 3,612/5,700 spent incl. this run's budget on completion). 6/6 extract shards in_progress.
+- WATCH (first 6 min): questions 243,758->243,929 (+171); attempt-2 results landing as designed: RETRY-ACCEPT 577->588 (genuine shorts accepted forever), RETRY-FROZEN 340->355 (failed twice -> terminal), complete 8,635->8,650, review 2,248->2,233; AMNESTY-FROZEN stable 1,745 (amnesty round complete).
+- NOTE for the ledger math: RETRY-FROZEN and AMNESTY-FROZEN stamps now overlap on amnesty-processed papers (stamps append), so the sum frozen+amnesty exceeds the stamped-review count and unstamped clamps at 0 - DECIDE's unstamped~0 is clamp-rounded; the actives (342) are what drive PAPERS-CLEAR and they are real. Revisit only if a true loose residue is suspected (last direct count: 1 loose paper).
+- LAWS INTACT: no second run while active, cap 5,700 untouched (never raised), cadence 4/4 exactly, RETRY/AMNESTY terminal stamps + zero-churn untouched, quality bar unchanged, repo A + PROD read-only, no secrets printed/committed.
+
+---
+---
 Task ID: CRON-V6-20261113-cycle55
 Agent: Super Z (fire 2026-11-13 19:30:47Z - the 19:30Z slot on time, job 510130)
 Task: standing fire (audit + report; verdict RUNNING - audit only, no dispatch).
