@@ -1,5 +1,20 @@
 ---
 ---
+Task ID: CRON-V6-20261114-cycle61
+Agent: Super Z (owner session 2026-11-14 ~12:40-13:15Z "i don't see #102 there! the GHA is still!" + "what libraries are we using, are they best?", job 510130 context)
+Task: owner noticed GHA idle after #101-cancel; asked for the extraction library stack and whether it is best.
+
+Work Log:
+- ROLLBACK #3 CAUGHT + RECOVERED (same playbook as cycle56): local repo_b was at c66f1e2 (cycle57), scripts/ had lost completeness_run.py + evidence + the 1.1GB pdf_cache (re-fetchable), main worklog had lost cycle58-60. Origin intact: fetch confirmed 5fc4790 (cycle60) + a0437e0 (cycle59) + e8a4d61 (cycle58) all on GitHub; no local-only commits; git reset --hard origin/aktu-runner; tools copied back to scripts/; gate patch verified (CAMPAIGN branches present); worklog parity restored by copying repo_b/worklog.md over the main copy.
+- WHY NO #102 UNTIL NOW: after the owner rule, every legacy mode (PAPERS-CLEAR / AMNESTY / MAKE-GREAT / BACKLOG-DRAIN) is either retired or a blind re-shot - the only legal run needed a new mode. Built it this session.
+- PAPERS-FIX v1 SHIPPED (commit 4da000f): extractor --fix-pids (comma stems) - filters the shard scope to exactly the listed papers, bypasses the terminal-stamp pick-skip FOR LISTED PAPERS ONLY, FIX-HEAL stamp on QC-clean heal (documented transition, same pattern as AMNESTY-HEAL), anti-loop ledger stamps otherwise unchanged; zero-loss guard (replace only when new >= old) unchanged; workflow input fix_pids wired with the standard conditional pass-through.
+- FIX LIST (evidence-first): 633 papers carry parser-reliable MISSING evidence (miss>=2, over<=miss, from completeness_full.jsonl); 415 of them sit in the complete>=20 bulk. Top-200 by severity dispatched (MBA013 2010-11 miss=29, BAS105 2024-25 miss=29, NMCAE25A 2020-21 miss=24, KMBNFM02 2024-25 miss=23, EIC013 miss=19, KEE301 miss=18...). 64/150 of the original top-150 resolved directly; stems of Drive-sourced papers (uc?export=download&id=... form) need DB-side mapping (papers.source_url -> file_hash -> local pdf) - queued for the next fix run, ~86+ papers.
+- RUN #102 = 43598352048 DISPATCHED 13:09:39Z: extraction.yml, reprocess=true, status_filter=complete,review, thin_max=0, route=auto, total_calls=1,425 (cadence 3/4 today: #100 ~0-call, #101 cancelled, #102), 6/6 extract shards in_progress at 13:12Z. Expected: ~200 papers x 4-8 vision calls, self-terminates on list/budget exhaustion; zero-loss guard means no paper can lose questions; FIX-HEAL stamps will mark healed papers for the verifier re-run.
+- NEXT: (a) watch #102, (b) DB-side stem resolution for Drive-sourced fix papers, (c) phase 2: parser v2 (old formats, 750 parse-fails + 1,588 OVER-suspect), local tesseract OCR for the 3,606 scans, fuzzy match for 2,585 PDF-absent, (d) verifier re-run on #102's papers = the fix-pass scoreboard (CLEAN before/after).
+- LAWS INTACT: blind re-shots stay retired (fix list is evidence-only, each paper once), zero-churn (stamps documented transitions only), RPD cap untouched, cadence 3/4, repo A + PROD untouched, no secrets printed.
+
+---
+---
 Task ID: CRON-V6-20261114-cycle60
 Agent: Super Z (owner command session 2026-11-14 ~11:25Z "okay, so fire the next run", job 510130 context)
 Task: owner ordered the next run fired after the cycle59 owner-rule session.
