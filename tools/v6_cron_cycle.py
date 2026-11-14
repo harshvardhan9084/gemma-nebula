@@ -581,7 +581,12 @@ def main():
     try:
         obs = {"ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                "cycle": cyc, "run_id": (dispatched or latest["id"]),
-               "run_status": latest["status"], "run_conclusion": latest["conclusion"],
+               # cycle61 fix: on dispatch fires `latest` still holds the PREVIOUS
+               # run (fetched pre-dispatch) - pairing its completed/success with
+               # the NEW run_id mislabeled every dispatch-fire obs line. The
+               # freshly dispatched run is honestly in_progress/None.
+               "run_status": ("in_progress" if dispatched else latest["status"]),
+               "run_conclusion": (None if dispatched else latest["conclusion"]),
                "papers": a["papers"], "questions": a["questions"],
                "complete": a["status"].get("complete", 0),
                "review": a["status"].get("review", 0),
