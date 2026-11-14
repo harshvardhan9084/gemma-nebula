@@ -1,5 +1,21 @@
 ---
 ---
+---
+---
+Task ID: CRON-V6-20261115-cycle62
+Agent: Super Z (cron fire 2026-11-14 19:30Z / job 510130, cycle #60 script counter)
+Task: scheduled audit + dispatch fire; carry the quota day's 3rd legal run; watch #102's fix results.
+
+Work Log:
+- AUDIT: papers 10,883, questions 245,657 (+1,094 since cycle59 obs: #101 partial +145 booked cycle60, #102 ~+950 rows net), complete 8,606 / review 2,277, thin 63, unit-400 failed 0, ledger active 29 accepted 646 frozen 478 amnesty 1,769, RPD spent 233/5,700 (#102's ACTUAL calls - 200 stems x ~1.2 calls, most AKTU papers are 2-4 pages), cadence 3/4, repo synced c1b7c33, fix commits present.
+- VERDICT: DISPATCHED #103 = 43632632877 (PAPERS-CLEAR drain, 1,425 budget) 19:32:20Z. Verified owner-rule-legal before letting it run: the DECIDE gate only suppresses the amnesty path; #103 targets retry-ACTIVE (29 papers, attempts<2 - law c allows), ~1 unstamped review + thin 63 (attempt 1) - NOT the 478 frozen / 1,769 amnesty terminal pools. 6/6 shards live.
+- #102 SCOREBOARD (verifier snapshot 10,864 papers vs post-run DB): 200/200 stems matched in shards, 233 vision calls, 126 FIX-HEAL stamps = 49 verified grows +291q (KMBNFM02 2024-25 2->25, MBA013 30->49, EC021 20->34, NME043 12->25...), 72 FLAT re-shots confirming genuinely-short papers, ~90 zero-loss keeps. Mission-real gains.
+- INTEGRITY BREACH FOUND + ROOT-CAUSED + FIXED: 6 papers SHRANK vs snapshot (BP605T 18->11, BOE405 33->28, RME075 26->25, NOE082 24->16, NMCAE25A 17->15, BMC104 12->11 = -17 questions; occ-level also MCA412 28->18). Root cause 1: the zero-loss guard's review-heal clause (replace_ok = n_new>=old_n OR (review AND QC-clean)) let QC-clean SMALLER shots replace richer review-status sets. Root cause 2: the papers post-push patch cleared extraction_error unconditionally, wiping ledger stamps on clean heals (KCE501, NME202, TEE101, KCS053, RME075-2009 lost RETRY-FROZEN/AMNESTY marks).
+- PATCH SHIPPED commit 23248b3 (pushed, remote=local verified): replace_ok = (n_new >= old_n) ONLY (failed rows still always replace) - all 5 damage cases now unit-tested blocked, grows/equal still replace; keep_err param preserves RETRY-/RETRY#/AMNESTY-/FIX- ledger stamps across clean pushes (failure text still clears); new DRAIN-HEAL stamp documents formerly-stamped papers healing in plain drains (same pattern as AMNESTY-HEAL/FIX-HEAL); heal stamp counts use n_eff=max(n_new,old_n).
+- #103 LIVE WATCH (~65 min, per standing order): 67 papers touched, +145 questions rows net (row-vs-nq divergence: deduped shares), +247 nq-level on first 35 processed (BOE405-other 20->46, KAS103 13->30, RCS101 17->37, BAS101-2025-26 13->28, CS201 31->40), only -2 (NMCAE25A, the pre-patch hole), frozen 478->506 (+28 attempt-2 terminals), accepted 646->649, active 29->24 (thin attempt-1s joining), 5/6 shards success, shard 5/6 finishing its list. Run left to self-terminate: cancel carries mid-push risk, exposure bounded.
+- LIBRARY STACK (owner's question, verified from code): pdfplumber + pypdfium2 + Pillow (PDF parse/raster), ftfy, requests; google-genai SDK = vision lane (Gemma/Gemini flash-lite, RPD-lawed); Inception Labs mercury-3 via OpenAI-compatible API = text lane with per-chunk route auto (solid text -> mercury, garbled/scan -> Google vision, QC-fail -> vision heal). Best-of-breed for printed+scanned exam PDFs; the 3,606 scan-grade papers stay the hard tail (phase-2: local tesseract pre-pass, parser v2 for 2002-2014 layouts).
+- NEXT: (a) 23:30Z fire audits #103 final + final damage tally, (b) next fix batch = 633-strong MISSING-evidence pool minus healed, MUST include the 6 damage papers + MCA412 (evidence-backed, now floor-protected), (c) DB-side stem mapping for Drive-sourced fix papers (~86), (d) phase 2 parser v2 / tesseract / fuzzy-match queues unchanged.
+- LAWS INTACT: no blind re-shot dispatched (gate held, drain is law-c), zero-churn honored (loss documented + hole closed same fire), RPD 233+~400 of 5,700, cadence 3/4, repo A + PROD untouched, no secrets printed or committed.
 Task ID: CRON-V6-20261114-cycle61
 Agent: Super Z (owner session 2026-11-14 ~12:40-13:15Z "i don't see #102 there! the GHA is still!" + "what libraries are we using, are they best?", job 510130 context)
 Task: owner noticed GHA idle after #101-cancel; asked for the extraction library stack and whether it is best.
