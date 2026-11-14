@@ -974,7 +974,7 @@ def qc_paper(questions, hint, args):
 # ---------------------------------------------------------------------------
 def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
                   reprocess, outdir, used_ai, replace_ok=None,
-                  keep_n=0, keep_status=None):
+                  keep_n=0, keep_status=None, keep_err=None):
     """v6 push. Same DB semantics as v5.push_paper (upsert, zero identity
     churn) plus: --reprocess first BACKS UP + deletes the paper's old
     occurrences and the questions that would be orphaned.
@@ -1165,10 +1165,23 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
         status = 'complete'            # upsert-only on top of a complete paper
     patch = {'extraction_status': status,
              'extracted_at': datetime.now(timezone.utc).isoformat(),
-             'n_questions': n_final,
-             'extraction_error': None}
+             'n_questions': n_final}
     if used_ai:
         patch['enriched_at'] = datetime.now(timezone.utc).isoformat()
+    # OWNER RULE 2026-11-15 (cycle62): the papers patch used to clear
+    # extraction_error unconditionally, silently WIPING RETRY/AMNESTY ledger
+    # stamps whenever a formerly-stamped paper came out QC-clean without a
+    # heal context (run #103 evidence: KCE501, NME202, TEE101, KCS053,
+    # RME075-2009). Ledger stamps are zero-churn law - they survive the push;
+    # the drain-heal / fix-heal / amnesty-heal stamp blocks right after may
+    # overwrite them with a documented transition. Non-ledger error text
+    # (previous failure messages) still clears on success.
+    _ledger_prefixes = ('RETRY-', 'RETRY#', 'AMNESTY-', 'FIX-HEAL',
+                        'DRAIN-HEAL')
+    if keep_err and str(keep_err).startswith(_ledger_prefixes):
+        pass                        # ledger stamp survives; see comment above
+    else:
+        patch['extraction_error'] = None
     try:
         sb.patch('papers', {'id': f'eq.{paper_id}'}, patch)
     except Exception as e:
@@ -1493,13 +1506,17 @@ def stage_extract_v6(args, sb, router):
             keep_n, keep_status = 0, None
             if args.reprocess and ctx:
                 # zero-loss guard: REPLACE only when the new set is at least as
-                # full as what the DB already holds (review papers that came out
-                # QC-clean are always taken - that is the heal).
+                # full as what the DB already holds. OWNER RULE 2026-11-15
+                # (cycle62): NO exceptions for review papers any more - the old
+                # heal clause let run #102 replace 4 review papers with SMALLER
+                # QC-clean sets (18->11, 33->28, 26->25, 24->16 = -27 real
+                # occurrences of data). A heal that grows the set still passes
+                # the floor; a shot that comes out smaller keeps the stored set
+                # (n_final stays at keep_n, status documented by heal stamps).
                 if old_status == 'failed':
                     replace_ok = True          # failed rows are partial junk (backed up)
                 else:
-                    replace_ok = (n_new >= old_n) or \
-                                 (old_status == 'review' and not mark_review)
+                    replace_ok = (n_new >= old_n)
                 if not replace_ok:
                     keep_n, keep_status = old_n, old_status
                     log(f'    [zero-loss] new set {n_new}q < stored {old_n}q '
@@ -1509,7 +1526,8 @@ def stage_extract_v6(args, sb, router):
                     sb, fname, fhash, parsed, mark_review,
                     os.path.join(args.out, 'diagrams'), args.reprocess,
                     args.out, used_ai, replace_ok=replace_ok,
-                    keep_n=keep_n, keep_status=keep_status)
+                    keep_n=keep_n, keep_status=keep_status,
+                    keep_err=(ctx.get('err') if ctx else None))
                 # anti-loop ledger stamp (owner 2026-11-06)
                 if args.reprocess and ctx and _pid and not success:
                     attempts = prev_attempts + 1
@@ -1538,6 +1556,7 @@ def stage_extract_v6(args, sb, router):
                                 f'{MAX_REATTEMPTS}, may re-run)')
                         except Exception as e:
                             log(f'    [db] ledger stamp failed: {str(e)[:80]}')
+                _n_eff = n_new if replace_ok else max(n_new, old_n)
                 if args.reprocess and ctx and _pid and success \
                         and ctx.get('amnesty') and status == 'complete':
                     # AMNESTY-HEAL (owner mandate 2026-11-12): a frozen paper came
@@ -1545,7 +1564,7 @@ def stage_extract_v6(args, sb, router):
                     # stamp is replaced by the heal record (documented transition;
                     # questions were paper-scoped replaced above with backup kept,
                     # zero-loss guard still applied).
-                    heal = (f'AMNESTY-HEAL n={n_new}q after {prev_attempts + 1} '
+                    heal = (f'AMNESTY-HEAL n={_n_eff}q after {prev_attempts + 1} '
                             f'attempt(s); QC-clean (owner 2026-11-12 amnesty, '
                             f'frozen was at {old_n}q)')
                     try:
@@ -1561,7 +1580,7 @@ def stage_extract_v6(args, sb, router):
                     # came out QC-clean -> complete. Documented transition (same
                     # pattern as AMNESTY-HEAL); paper-scoped replace above kept the
                     # zero-loss guard, so the stored set grew or held.
-                    heal = (f'FIX-HEAL n={n_new}q (owner rule 2026-11-14 '
+                    heal = (f'FIX-HEAL n={_n_eff}q (owner rule 2026-11-14 '
                             f'evidence-backed fix, was {old_n}q)')
                     try:
                         sb.patch('papers', {'id': f'eq.{_pid}'},
@@ -1570,6 +1589,27 @@ def stage_extract_v6(args, sb, router):
                         log(f'    [ledger] {heal[:72]}')
                     except Exception as e:
                         log(f'[db] fix-heal stamp failed: {str(e)[:80]}')
+                if args.reprocess and ctx and _pid and success \
+                        and status == 'complete' and not ctx.get('amnesty') \
+                        and not ctx.get('fix'):
+                    # DRAIN-HEAL (owner rule 2026-11-15, cycle62): a formerly
+                    # ledger-stamped paper came out QC-clean complete in a plain
+                    # PAPERS-CLEAR drain (no amnesty/fix context). The old stamp
+                    # must not vanish silently - document the transition, same
+                    # pattern as AMNESTY-HEAL / FIX-HEAL.
+                    _prev = str(ctx.get('err') or '')
+                    if _prev.startswith(('RETRY-', 'RETRY#', 'AMNESTY-',
+                                         'FIX-HEAL', 'AMNESTY-HEAL')):
+                        heal = (f'DRAIN-HEAL n={_n_eff}q (owner rule 2026-11-15 '
+                                f'drain heal, QC-clean; prev stamp: '
+                                f'{_prev[:58]})')
+                        try:
+                            sb.patch('papers', {'id': f'eq.{_pid}'},
+                                     {'extraction_error': heal})
+                            retry_stats['DRAIN-HEAL'] += 1
+                            log(f'    [ledger] {heal[:72]}')
+                        except Exception as e:
+                            log(f'[db] drain-heal stamp failed: {str(e)[:80]}')
                 if not args.no_crop:
                     try:
                         crop_diagrams(path, parsed, os.path.join(args.out, 'diagrams'),
