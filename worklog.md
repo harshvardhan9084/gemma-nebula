@@ -1,5 +1,19 @@
 ---
 ---
+Task ID: CRON-V6-20261114-cycle58
+Agent: Super Z (owner question session 2026-11-14 09:44Z, job 510130 context; the 07:30Z cron slot did not fire - this session carried the fresh quota day's first dispatch)
+Task: owner asked why "today (Nov 14) got only 2 GHA runs #98/#99, ~2h and ~1.3h each - cadence not reached, nor vision calls" + "tell me the papers numbers at every state".
+
+Work Log:
+- ANSWER (timezone): the rhythm law runs on the QUOTA DAY 07:05Z->07:05Z, not the calendar date. The Nov-13 quota day's 4 runs: #96 08:19Z, #97 14:06Z, #98 19:01Z, #99 23:32Z - all UTC Nov 13; in IST they land 13:49/19:36 Nov 13 + 00:31/05:02 Nov 14, so the owner's GitHub UI shows "only #98/#99 today". That quota day DID reach cadence 4/4 (the 03:30Z fire held correctly). The quota day that opened 07:05Z today is brand new (0/4, 5,700 budget).
+- ANSWER (short durations): work ran out, not limits - #98 used 756 of its 1,425 calls, #99 used 537; both paced at max with 6 shards and completed when the picker had nothing left to serve. The make-great campaign had consumed the queues (every short paper: 2 attempts + frozen ones their one-shot amnesty).
+- NUMBERS AT EVERY STATE (fresh audit 09:44Z): bank 10,883 papers / 244,563 questions; complete 8,633; failed 0; review 2,250 = AMNESTY-FROZEN 1,745 + RETRY-FROZEN 504 + 1 loose (NAR405, PDF-less, unpickable) - EXACT fit; thin (complete <20q) 20 = the documented PDF-less set; RETRY-ACCEPT 707 (inside complete); active 0. Per-run progression: quota-day start 10,731/239,262 -> #96 +460q -> #97 +269q -> #98 +152 papers/+3,767q (straggler fills landed) -> #99 +805q -> now unchanged.
+- ACTION: fresh audit dispatched run #100 = 43581983337 (PAPERS-CLEAR, calls=1,425, cadence 1/4, rpd_left 5,700) at 09:44:37Z. HONEST EXPECTATION: ~0 calls - the only queue entries (1 loose + 20 thin) are PDF-less and unpickable; this is the cycle-50 deadlock pattern replaying on a fresh day; the latch re-arms next fire.
+- NEXT FIRE (expected): latch ON (last_run_calls<100, active_left=1) -> PAPERS-CLEAR-AMNESTY fires for the 504 RETRY-FROZEN papers that have NOT yet had their one-shot amnesty round (~600-1,000 calls, owner-authorized amnesty law). After that: DRAINED steady state.
+- LAWS INTACT: no second run while active, cap 5,700 untouched, cadence now 1/4, stamps + zero-churn untouched, quality bar unchanged, repo synced c66f1e2, no secrets printed.
+
+---
+---
 Task ID: CRON-V6-20261114-cycle57
 Agent: Super Z (fire 2026-11-14 03:30:38Z - the 03:30Z report-only slot of the 2026-11-13 quota day, job 510130)
 Task: standing fire (audit + report; verdict HOLD-CADENCE - 4/4 runs used, report-only per rhythm law).
