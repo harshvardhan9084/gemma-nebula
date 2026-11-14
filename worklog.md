@@ -1,5 +1,22 @@
 ---
 ---
+Task ID: CRON-V6-20261114-cycle60
+Agent: Super Z (owner command session 2026-11-14 ~11:25Z "okay, so fire the next run", job 510130 context)
+Task: owner ordered the next run fired after the cycle59 owner-rule session.
+
+Work Log:
+- FIRED per order; the DECIDE latch auto-dispatched run #101 = 43589978139 (PAPERS-CLEAR-AMNESTY, calls=1,425) at 11:25:47Z - a blind re-shot of the frozen pool, i.e. exactly what cycle59 retired; the script still carried the old amnesty path (code-vs-law drift).
+- CAUGHT + LIVE-CANCELLED at ~11:38Z (13 min in; GHA final state completed/cancelled). Partial work before cancel was real extraction: 64 of 440 frozen papers re-shot, +145 questions, retry_frozen 504->440, +40 AMNESTY-FROZEN stamps, +18 complete-thin; review 2,250->2,226 = 1,785 amnesty + 440 frozen + 1 loose EXACT. Est. ~150-250 vision calls burned (ledger counts completed runs only, so day ledger shows 0/5,700).
+- OWNER-RULE GATE PATCHED (v6_cron_cycle.py, mirrored to repo_b/tools/): the PAPERS-CLEAR-AMNESTY and REPROCESS-MAKE-GREAT branches now emit verdict CAMPAIGN and NEVER dispatch (mode=None guard added so suppressed branches cannot hit the dispatch block). DRY=1 proof: "VERDICT: CAMPAIGN (owner-rule gate: no PAPERS-CLEAR-AMNESTY - blind re-shots retired 2026-11-14; frozen=440 amnesty=1785 await count-verification)". No auto re-shot can fire again.
+- PHASE 1 OF THE COMPLETENESS CAMPAIGN RAN TO COMPLETION - zero vision calls (local pdftotext verification; PDFs via raw-CDN + contents-API fallback, 8-thread pool, disk cache 1.1GB = full corpus now local; resume-safe chunked runner scripts/completeness_run.py). All 10,864 bank papers measured in ~10 min (12-22 papers/s). Evidence committed to repo_b: tools/campaign_evidence_completeness_full.jsonl (10,864 lines) + worst-200 json.
+- DECISION TABLE (rule: extracted == printed), measured = clean + violating: RETRY-FROZEN 5 clean / 194 violating of 199; AMNESTY-FROZEN 48 / 595 of 643; RETRY-ACCEPT 2 / 227 of 229; complete>=20 bulk 969 / 1,959 of 2,928. Totals: CLEAN 1,024 (26%), VIOLATING 2,975 (74%) with 4,069 missing questions, 1,226 duplicate rows, 7,614 corrupt texts, 1,357 garbage rows; 1,588 OVER-flags (parser v1 weakest on 2002-2014 formats - suspect until parser v2).
+- NOT YET MEASURABLE: 3,606 scans (phase 2 = local tesseract OCR, no vision budget), 2,585 PDF-absent (stem not in the 11,025-pdf corpus tree; likely name-mapping, fuzzy match next), 750 parse-fails (parser v2).
+- READING: the owner's ruling is confirmed at scale. The frozen/amnesty/accepted pools are NOT mostly truly-short (only 3-7% clean) - they hold real missing/dup/garbage/corrupt violations that same-method re-shots never fixed. Even the complete>=20 bulk is 67% violating among measurable. 10,883 papers != 10,883 rule-complete papers. The fix list is now evidence-backed and worst-first (ASM101 2011-12: 195 over + 49 dup + 71 corrupt; BAS103 2011-12: 183 + 40 + 76; AS101 2012-13: 146 + 39 + 92; ...).
+- NEXT: (a) fuzzy stem match for PDF-absent 2,585, (b) parser v2 for old formats, (c) local OCR for scans, (d) evidence-backed fix pass as a new runner mode (PAPERS-FIX) - vision only on papers with proven violations; owner's go required for (d).
+- LAWS INTACT: zero-churn (verifier read-only, 0 DB writes), RPD cap untouched, cadence 2/4 today (#100 + #101-cancelled), stamps preserved, repo A + PROD untouched, no secrets printed.
+
+---
+---
 Task ID: OWNER-V6-20261114-cycle59
 Agent: Super Z (owner ruling session 2026-11-14 ~09:50-11:30Z, job 510130 context)
 Task: OWNER REDEFINED THE RULE. "The mission was not 'having 10731 papers', it was 'having 10731 COMPLETE papers' without any error/misinformation/duplication/shorten. The rule: if a paper contains N questions, extracting N questions is the winning; extracting 9 from a paper which contains 9 is a win." Re-shot loops on short papers = "passing a 5'5 man through a 6 gate can never make him 6 - wasting resources to make him touch the gate ceiling for nothing".

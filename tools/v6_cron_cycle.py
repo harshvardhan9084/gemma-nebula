@@ -507,7 +507,8 @@ def main():
                     print(f"[DECIDE] clear-stage deadlock detected: last run spent "
                           f"{state.get('last_run_calls', 0)} calls with "
                           f"active_left={active_left} -> unstamped pool "
-                          f"un-resolvable (PDF-less straggler); latching amnesty path")
+                          f"un-resolvable (PDF-less straggler); latch ON "
+                          f"(amnesty path retired by OWNER RULE 2026-11-14)")
                 state["unstamped_deadlock"] = True
             if unstamped_left == 0:
                 state["unstamped_deadlock"] = False
@@ -523,24 +524,38 @@ def main():
                 inputs = dict(THIN_INPUTS, total_calls=str(calls_this))
                 mode = "PAPERS-CLEAR"
             elif review_left > 0 and a["retry_frozen"] > 0:
-                calls_this = min(remaining, CALLS_PER_RUN)
-                inputs = dict(THIN_INPUTS, total_calls=str(calls_this),
-                              amnesty_frozen="true")
-                mode = "PAPERS-CLEAR-AMNESTY"
+                # OWNER RULE 2026-11-14 (cycle59, live-cancelled run 101 was the
+                # last one): blind same-method re-shots are RETIRED. Re-running
+                # the extractor on a short paper cannot make it hold more
+                # questions than it prints ("a 5'5 man through a 6 gate"). The
+                # frozen + amnesty pools are owned by the completeness campaign:
+                # verify printed-count vs stored-count per paper first;
+                # re-extraction only on evidence-backed violations.
+                verdict = (f"CAMPAIGN (owner-rule gate: no PAPERS-CLEAR-AMNESTY - "
+                           f"blind re-shots retired 2026-11-14; "
+                           f"frozen={a['retry_frozen']} "
+                           f"amnesty={a.get('amnesty_frozen', 0)} await "
+                           f"count-verification)")
+                print("[DECIDE] owner-rule gate: amnesty re-shot suppressed")
+                mode = None
             elif state.get("zero_delta_streak", 0) >= 2:
-                calls_this = min(remaining, CALLS_PER_RUN)
-                inputs = dict(REPROCESS_INPUTS, total_calls=str(calls_this))
-                mode = "REPROCESS-MAKE-GREAT"
+                verdict = ("CAMPAIGN (owner-rule gate: no REPROCESS-MAKE-GREAT - "
+                           "blind re-shots retired 2026-11-14; evidence-backed "
+                           "fix passes only)")
+                print("[DECIDE] owner-rule gate: make-great re-shot suppressed")
+                mode = None
             else:
                 calls_this = min(remaining, CALLS_PER_RUN)
                 inputs = dict(BASE_INPUTS, total_calls=str(calls_this))
                 mode = "BACKLOG-DRAIN"
-            body = {"ref": REF, "inputs": inputs}
-            if dry:
+            if mode is None:
+                pass  # owner-rule gate: verdict already set, no dispatch
+            elif dry:
                 verdict = (f"GOOD (DRY) — would dispatch {mode} with "
                            f"total_calls={calls_this} rpd_left={remaining}")
                 print(f"[DECIDE] DRY: audit clean — {verdict}")
             else:
+                body = {"ref": REF, "inputs": inputs}
                 req = urllib.request.Request(
                     f"https://api.github.com/repos/{REPO}/actions/workflows/extraction.yml/dispatches",
                     data=json.dumps(body).encode(), headers=HDR, method="POST")
