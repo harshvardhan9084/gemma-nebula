@@ -79,6 +79,10 @@ on:
         description: 'owner mandate 2026-11-12: ONE-SHOT re-attempt of RETRY-FROZEN papers (AMNESTY once per paper ever, AMNESTY-FROZEN terminal afterwards)'
         default: 'false'
         type: string
+      fix_pids:
+        description: 'owner rule 2026-11-14 EVIDENCE-BACKED FIX: comma-separated filename stems proven violating by completeness verification. Re-extracts exactly these papers (zero-loss guard applies; blind re-shots stay retired)'
+        default: ''
+        type: string
       total_calls:
         description: 'AI call budget for the WHOLE run (all shards). The cron ledger passes the remaining daily RPD slice (strictly under 6,000 vision/day; cron cap 5,700/4 per run). Manual runs: 2800'
         default: '2800'
@@ -250,7 +254,8 @@ jobs:
               ${{ github.event.inputs.reprocess == 'true' && '--reprocess' || '' }} \
               ${{ github.event.inputs.reprocess == 'true' && format('--status-filter {0}', github.event.inputs.status_filter) || '' }} \
               ${{ github.event.inputs.reprocess == 'true' && github.event.inputs.thin_max != '' && github.event.inputs.thin_max != '0' && format('--thin-max {0}', github.event.inputs.thin_max) || '' }} \
-              ${{ github.event.inputs.reprocess == 'true' && github.event.inputs.amnesty_frozen == 'true' && '--amnesty-frozen' || '' }}
+              ${{ github.event.inputs.reprocess == 'true' && github.event.inputs.amnesty_frozen == 'true' && '--amnesty-frozen' || '' }} \
+              ${{ github.event.inputs.fix_pids != '' && format('--fix-pids {0}', github.event.inputs.fix_pids) || '' }}
             if [ "$STAGE" = "all" ] && [ "${{ matrix.shard }}" = "0" ]; then
               python3 pipeline/aktu_pyq_extractor.py --stage embed --db
               python3 pipeline/aktu_pyq_extractor.py --stage cluster --db

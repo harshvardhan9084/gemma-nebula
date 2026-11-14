@@ -1208,6 +1208,12 @@ def stage_extract_v6(args, sb, router):
     if not pdfs:
         log(f'[!] WARNING: 0 PDFs found in "{args.dir}" -- check the pdf_dir input!')
     pdfs = [p for i, p in enumerate(pdfs) if i % args.shards == args.shard]
+    fixset = set(x.strip().lower() for x in (args.fix_pids or '').split(',') if x.strip())
+    if fixset:
+        pdfs = [p for p in pdfs
+                if os.path.splitext(os.path.basename(p))[0].lower() in fixset]
+        log(f'[i] FIX MODE (owner rule 2026-11-14): {len(fixset)} evidence-backed '
+            f'stems requested, {len(pdfs)} matched in shard {args.shard}/{args.shards}')
     manifest = load_manifests_multi(args.manifest)
     log(f'[i] shard {args.shard}/{args.shards}: {len(pdfs)} PDFs in scope, '
         f'{len(manifest)} manifest rows loaded')
@@ -1219,6 +1225,9 @@ def stage_extract_v6(args, sb, router):
         if p not in hcache:
             hcache[p] = sha256(p)
         return hcache[p]
+
+    def stem_of(p):
+        return os.path.splitext(os.path.basename(p))[0].lower()
 
     n_skipped_done = 0
     predb = {}                                  # file_hash -> stored subject_code
@@ -1284,12 +1293,13 @@ def stage_extract_v6(args, sb, router):
                     attempts, _la, _lb = parse_retry_stamp(p_err)
                     amn = bool(args.amnesty_frozen and p_err.startswith('RETRY-FROZEN')
                                and 'AMNESTY' not in p_err)
+                    is_fix = bool(fixset) and stem_of(p) in fixset
                     if p_err.startswith(('RETRY-ACCEPT', 'RETRY-FROZEN', 'AMNESTY-FROZEN')) \
                             or attempts >= MAX_REATTEMPTS:
-                        if not amn:
+                        if not (amn or is_fix):
                             continue
                     paper_ctx[p] = {'status': st, 'n': nqmap.get(h) or 0, 'err': p_err,
-                                    'amnesty': amn}
+                                    'amnesty': amn, 'fix': is_fix}
                     sel.append((p, st, nqmap.get(h), 1 if amn else 0))
         # quality-first ordering: review (known-broken) -> failed -> complete-thin,
         # least questions first inside each class; amnesty retries of a class run
@@ -1545,6 +1555,21 @@ def stage_extract_v6(args, sb, router):
                         log(f'    [ledger] {heal[:72]}')
                     except Exception as e:
                         log(f'    [db] heal stamp failed: {str(e)[:80]}')
+                if args.reprocess and ctx and _pid and success \
+                        and ctx.get('fix') and status == 'complete':
+                    # FIX-HEAL (owner rule 2026-11-14): an evidence-backed fix paper
+                    # came out QC-clean -> complete. Documented transition (same
+                    # pattern as AMNESTY-HEAL); paper-scoped replace above kept the
+                    # zero-loss guard, so the stored set grew or held.
+                    heal = (f'FIX-HEAL n={n_new}q (owner rule 2026-11-14 '
+                            f'evidence-backed fix, was {old_n}q)')
+                    try:
+                        sb.patch('papers', {'id': f'eq.{_pid}'},
+                                 {'extraction_error': heal})
+                        retry_stats['FIX-HEAL'] += 1
+                        log(f'    [ledger] {heal[:72]}')
+                    except Exception as e:
+                        log(f'[db] fix-heal stamp failed: {str(e)[:80]}')
                 if not args.no_crop:
                     try:
                         crop_diagrams(path, parsed, os.path.join(args.out, 'diagrams'),
@@ -1693,6 +1718,14 @@ def main():
                     help='owner mandate 2026-11-12: ONE-SHOT re-attempt of RETRY-FROZEN '
                          'papers (AMNESTY once per paper ever; AMNESTY-FROZEN terminal '
                          'afterwards; cumulative attempt count preserved in stamps)')
+    ap.add_argument('--fix-pids', default='',
+                    help='owner rule 2026-11-14 EVIDENCE-BACKED FIX: comma-separated '
+                         'filename stems proven violating by completeness_run.py '
+                         '(missing/dup/garbage/corrupt vs the printed structure). '
+                         'Re-extracts exactly these papers once each - bypasses the '
+                         'terminal-stamp pick-skip but does NOT alter the anti-loop '
+                         'ledger stamps (FIX-HEAL marks a QC-clean heal). Blind '
+                         're-shot loops remain retired; this list is evidence only.')
     ap.add_argument('--no-ai-clean', dest='ai_clean', action='store_false',
                     help='disable the AI clean pass for leak-flagged questions')
     ap.add_argument('--shard', type=int, default=0)
