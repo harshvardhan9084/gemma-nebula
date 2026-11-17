@@ -68,16 +68,18 @@ DAILY_VISION_CAP = 5700
 MIN_RUN_CALLS = 180        # below this a run cannot even clear ~20 papers: hold
 MAX_REATTEMPTS = 2         # mirror of extractor MAX_REATTEMPTS (anti-loop law)
 
-# ---- CADENCE LAW (owner 2026-11-07) -----------------------------------------
-# The cron agent fires every 4 hours (6 fires/day) and REPORTS every fire.
-# GHA extraction runs at most MAX_RUNS_PER_DAY = 4 FULL runs/day (owner: "4
-# full runs, not test or failed" -> failed/test runs don't consume the daily
-# quota; the RPD ledger still gates their spend). Each run is budgeted
-# CALLS_PER_RUN = 5,700/4 = 1,425 vision calls so the daily cap spreads
-# evenly across the day's 4 runs. Mercury pool = 6 keys with consecutive-error
-# benching (n=2 -> 120s rest) per owner 2026-11-07.
-MAX_RUNS_PER_DAY = 4
-CALLS_PER_RUN = DAILY_VISION_CAP // MAX_RUNS_PER_DAY   # 1,425
+# ---- CADENCE LAW (owner 2026-11-07; AMENDED 2026-11-18) ----------------------
+# AMENDMENT (owner 2026-11-18 "decrease the cron fire times to 3 per day at
+# exact interval"): the cron now fires 3x/day at exact 8h intervals
+# (07:30Z / 15:30Z / 23:30Z), and every fire carries that day's dispatch —
+# no more report-only slots. MAX_RUNS_PER_DAY = 3 FULL runs/day (failed/test
+# runs don't consume the daily quota; the RPD ledger still gates their spend).
+# Each run is budgeted CALLS_PER_RUN = 5,700/3 = 1,900 vision calls so the
+# daily cap (5,700 — never raised, strictly under the 6,000 ceiling) still
+# spreads fully across the day's runs. Mercury pool = 6 keys with
+# consecutive-error benching (n=2 -> 120s rest) per owner 2026-11-07.
+MAX_RUNS_PER_DAY = 3
+CALLS_PER_RUN = DAILY_VISION_CAP // MAX_RUNS_PER_DAY   # 1,900
 
 BASE_INPUTS = {
     "stage": "extract", "extractor": "v6",
@@ -394,7 +396,7 @@ def main():
           f"-> dispatchable now: {remaining}")
     print(f"[CADENCE] full runs quota-day (since {g.get('quota_day_cut', '?')}): "
           f"{len(g['runs_day'])}/{MAX_RUNS_PER_DAY} "
-          f"(rolling-24h informational: {len(g['runs_24h'])}; per-run budget {CALLS_PER_RUN} = cap/4; cron fires 6x/day)")
+          f"(rolling-24h informational: {len(g['runs_24h'])}; per-run budget {CALLS_PER_RUN} = cap/{MAX_RUNS_PER_DAY}; cron fires {MAX_RUNS_PER_DAY}x/day)")
 
     # new fail-class detection vs persisted baseline (fires once per new class)
     known = set(state.get("known_fail_classes", []))
