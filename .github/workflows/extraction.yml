@@ -255,7 +255,7 @@ jobs:
               ${{ github.event.inputs.reprocess == 'true' && format('--status-filter {0}', github.event.inputs.status_filter) || '' }} \
               ${{ github.event.inputs.reprocess == 'true' && github.event.inputs.thin_max != '' && github.event.inputs.thin_max != '0' && format('--thin-max {0}', github.event.inputs.thin_max) || '' }} \
               ${{ github.event.inputs.reprocess == 'true' && github.event.inputs.amnesty_frozen == 'true' && '--amnesty-frozen' || '' }} \
-              ${{ github.event.inputs.fix_pids != '' && format('--fix-pids {0}', github.event.inputs.fix_pids) || '' }}
+              ${{ github.event.inputs.fix_pids != '' && format('--fix-pids "{0}"', github.event.inputs.fix_pids) || '' }}
             if [ "$STAGE" = "all" ] && [ "${{ matrix.shard }}" = "0" ]; then
               python3 pipeline/aktu_pyq_extractor.py --stage embed --db
               python3 pipeline/aktu_pyq_extractor.py --stage cluster --db
