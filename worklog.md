@@ -1,4 +1,20 @@
 ---
+Task ID: CRON-V6-20261118-cycle67
+Agent: Super Z (scheduled fire 2026-11-18 05:00 IST = 2026-11-17 23:30Z, job 535407, script counter #64 - FIRST scheduled fire under standing order v4)
+Task: first 3x/day fire - resilience check (obs tail + GHA run list before anything), fresh audit, follow the verdict, report.
+
+Work Log:
+- RESILIENCE CHECK (owner v4 clause): NO missed fires - this is the first scheduled fire under the recreated job 535407 (created ~18:45Z 11-17; first slot 23:30Z = this one). Obs tail + GHA run list confirm the cycle66 owner session fully landed: #105 (44130127416), #106 (44130618320), #107 (44133259415) ALL completed/success. No silent gap.
+- AUDIT: papers 10,883 (+0), questions 246,701 (+746 net since the last script audit at 16:12Z = the batch#2 session's full yield), complete 8,556 / review 2,327 / failed 0, thin_left 23, ledger retry-active 22 / accepted 660 / frozen 540 / amnesty-frozen 1,764, stamps FIX-HEAL 180 (+78), AMNESTY-HEAL 172, DRAIN-HEAL 3, RPD spent(quota-day since 07:05Z)=224/5,700 (#105 0 + #106 34 + #107 190; rpd_left 5,476), cadence 3/3, repo synced 54775f2, shell-quote fix 5ad5994 present in extraction.yml.
+- VERDICT: HOLD-CADENCE (3/3 full runs this quota day since 2026-11-17 07:05Z - all three were the owner-ordered PAPERS-FIX batch#2 dispatches from the cycle66 session; rpd_left=5,476; next reset 07:05Z = 12:35 IST today). No dispatch - per v4 a fire is report-only only under a HOLD verdict, and this is one.
+- BATCH#2 INTEGRITY AUDIT (read-only DB probes): 132 papers touched since 16:45Z = 129 batch2-clean + 3 damage-3, EXACT scope match, no bleed. ALL 22 papers carrying fresh RETRY#1 attempt stamps GREW (zero shrink; zero-loss floor 23248b3 held everywhere): BOE405 28->44, KBT501 28->40, EEE701 20->36, KME074 12->32, BP501T 23->31, EAU602 20->27, NMCAE25A 15->37, BMC104 11->18, MCA412 18->26 (damage-3 trio healed). 9 re-shots landed <20q but >= prev (floor-safe): BOE412 18, BP102T 17, EEC406 18, ECS502 18, EME302 17, EME602 15, KCE-303 19, RMB208 17, BMC104 18. Zero-churn: papers count unchanged, no rows deleted, stamps-only transitions (5 AMNESTY-FROZEN re-shot under the owner's evidence mandate -> attempt/FIX-HEAL stamps; 2 wrongly-stamped RETRY-ACCEPTs un-stamped per cycle66; complete->review -45 is honest QC re-flagging of re-shot papers, not loss).
+- THIN 23 COMPOSITION: 20 legacy unstamped thin (NAR/HMCT/RHM nursing-era 2014-2021 papers, incl. RAR102 2020-21 at 1q - phase-2 scanner/parser candidates; never stamped, attempt-1 eligible) + 3 batch#2 heal survivors (BP102T 17, BOE412 18, EEC406 18 - grew under evidence but the evidence itself caps <20q, FIX-HEAL stamped).
+- BOOKKEEPING HYGIENE: obs series carries cycle 64 three times - the two cycle66 dispatcher scripts wrote their own obs lines labeled 64 while v6_cron_cycle.py's counter resumed from its own state (63->64); scheduled fires emit 65, 66, 67... from here. Historical lines left untouched (zero-churn on records); the ts field disambiguates for plotting.
+- WORKLOG LAYOUT: cycles 63-66 entries sit at this file's BOTTOM (appended after section 8 by the cycle65/66 sessions); this entry restores the documented newest-first-at-top convention (section 8.1 "prepend"). History left untouched.
+- NEXT: (a) 15:30Z fire (21:00 IST) opens quota day 2026-11-18: 3 fresh slots + fresh 5,700 budget; the DECIDE gate will size the first drain from the 22 attempt-1 actives (law-c attempt-2 eligible) + the 20 legacy thin attempt-1s, (b) phase-2 next block = DB-side stem mapping for the 301 Drive-sourced papers (papers.source_url -> download -> corpus ingest -> fix dispatch) - needs owner go, (c) completeness-verifier re-run over the 132 re-shot papers for the official before/after scoreboard, (d) the 2,327 review pool awaits QC-pass triage inside that verifier run.
+- LAWS INTACT: no dispatch (cadence 3/3 - correct HOLD), no blind re-shot, zero-churn (read-only probes only), RPD cap untouched, repo A + PROD untouched, no secrets printed or committed.
+
+---
 ---
 ---
 ---
