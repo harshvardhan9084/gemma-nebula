@@ -1,4 +1,18 @@
 ---
+Task ID: CRON-V6-20261119-cycle74
+Agent: Super Z (scheduled fire 2026-11-18 23:30Z = 2026-11-19 05:00 IST, job 535407; standing order v4)
+Task: resilience check, audit, verdict-follow, report; deliver the owner's promised self-contained answers (pdf-less mechanism / retraction of 1,262 / report style fix) and dispatch evidence-backed phase-2 work on already-held PDFs.
+
+Work Log:
+- RESILIENCE: last observation = cycle68 15:35Z (15:30Z fire ran); no scheduled fire missed. GHA: run #108 (owner-session dispatch 16:24Z) completed/success. Sandbox recycled -> reinstalled psycopg2-binary + pynacl.
+- AUDIT (cycle69): papers 10,883 (+0), questions 246,522 (+1,336 from run #108); complete 8,492 / review 2,391; thin_left 55; RETRY ledger active=31 accepted=605 frozen=671; unit-400 remaining 0. RPD spent 799/5,700 (run #108 recorded); cadence 1/3. VERDICT FLAG:repo_b not synced (parallel session).
+- FLAG ROOT-CAUSE + FIX: local repo_b behind origin by b88dc65 (parallel session's census correction). git pull --ff-only -> synced. Re-audit (cycle70): verdict CAMPAIGN (owner-rule gate; blind re-shots stay retired).
+- CENSUS CORRECTION ADOPTED (b88dc65): "pdf-less 2,585" was a NAME-JOIN BUG (DB stems vs corpus canonical names are two naming schemes); full corpus sha256 hash sweep (11,025 files -> 10,831 unique) proves 2,523 of the 2,585 files ARE in-repo, only 62 truly absent (1,218 question rows, all complete; ryzenstudy-era transient downloads never archived). Whole DB 10,820/10,883 (99.4%) corpus-linked by file_hash. Earlier "1,262 truly-absent" RETRACTED (same broken name join). Parked under no-new-PDFs directive; zero owner decision needed.
+- DISPATCH (this fire, evidence-backed only): (1) extraction run #109 id=44421921779 = PAPERS-FIX fix_pids=119 real-gap stems (MISSING>=3 vs actual in-hand corpus PDFs per reverify2523: band MISSING>=3 = 119 papers, 117 complete + 2 review), reprocess=true status_filter=complete,review, total_calls=1900 (cadence slot 2/3, RPD 799+1900=2,699<=5,700), route=auto qc_min=10 chunk_pages=2. (2) ocr_evidence run #4 id=44421926299 = CPU-only missing-250 parse-fail stems (ocr_parsefail_missing.txt; zero AI calls, zero DB writes, not an extraction run).
+- WATCHED #109 ~15 min: all 6 shards ran; 4 shards done by 15 min; DB transitions as designed (questions 246,522 -> 246,470 during paper-scoped REPLACE backup, then climbing; complete 8,492 -> 8,456 / review 2,391 -> 2,427 mid-flight as re-extracted papers await QC). OCR-evid #4 all 7 jobs completed fast.
+- OUT/fix_list_realgap_119.json saved (dispatch list provenance). Laws intact: zero-churn DB, no new PDFs, no repo A / PROD contact, no secrets printed. Next fire 15:30Z audits #109's final numbers + records its call spend.
+---
+---
 Task ID: OWNER-V6-20261118-cycle73
 Agent: Super Z (owner session 2026-11-18 ~21:00-23:00 IST, after owner rejected the fire report: "what does '2585 pdf-less' mean? how could they be counted if they doesn't exist!"; directive: "stop totally adding new PDFs now, work on already got PDFs")
 Task: answer the owner's pdf-less question with proven mechanics; execute the no-new-PDFs directive on already-held PDFs.
