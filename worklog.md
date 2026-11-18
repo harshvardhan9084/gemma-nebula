@@ -1,4 +1,16 @@
 ---
+Task ID: CRON-V6-20261118-cycle69
+Agent: Super Z (owner session 2026-11-18 ~13:00-13:50Z, follow-up to cycle66; owner corrections on cron firing, "no work", dup rows, Drive mapping)
+Task: answer the owner's four challenges with live verification, no new dispatch unless legal work exists.
+
+Work Log:
+- CRON GAP OWNED + WATCHDOG: the pre-535407 cron died silently after the 11-15 03:31Z fire (2.5-day gap, documented 11-17). Recreated job 535407 has fired 2/2 slots since (23:30Z 11-17 HOLD-CADENCE, 07:30Z 11-18 CAMPAIGN); next slot 15:30Z (21:00 IST). NEW: watchdog job 536860 (daily 09:30 IST) - checks v6_observations.jsonl age; >8h stale = a slot was missed -> resurrects: runs v6_cron_cycle.py, follows verdict, reports in plain language, worklog entry.
+- "NO WORK" RESOLVED WITH DATA: review pool 2,327 live census = 1,764 amnesty-frozen + 540 retry-frozen + 22 retry-active + 1 unstamped (exact). THE 11-14 EVIDENCE POOL IS FULLY DRAINED: 633 parser-reliable MISSING papers = 629 stems dispatched across the four fix lists (#102 resolved 200 + #102 raw 150 + batch2 raw 430 + batch2 clean 129, union 629) + 4 healed-since (FIX/AMNESTY/DRAIN-HEAL). batch#3 dispatch script (scripts/dispatch_fix_batch3.py) built and run - CORRECTLY ABORTED with an empty list (no run started, no obs line, nothing to cancel). Next legal work requires NEW evidence or NEW tools: (a) full-corpus verifier re-baseline post-patch (chunked across fire sessions, pdf_cache re-fetch), (b) Drive-stem mapping (923 drive-sourced papers DB-wide, 294 in review), (c) phase-2 parser v2 + tesseract for the ~3,606 scan-grade tail, (d) dup cleanup awaiting owner yes.
+- DUP CLAIM VERIFIED LIVE (owner asked "are you sure?"): STRICT same-paper copies (same paper holding identical question text twice under different codes) = 1,558 groups / 1,561 extra rows / 223 papers - EXACT match to the 11-17 report. created_at waves of copy rows: 2026-09 1,706 / 2026-10 125 / 2026-11 1,288. LOOSE same-hash groups across subjects = 14,762 (35,966 rows) - these include LEGIT cross-paper verbatim repeats (unique(subject_code,question_hash) forces one row per code) and are NOT cleanup targets; the strict 1,561 are. Exhibit re-verified: e1669abe BOP111 2017-18 stamped n_questions=25 holds 40 rows (25 under stale BOP231 + 15 under correct BOP111). Tool: scripts/verify_owner_questions_20261118.py (read-only).
+- DRIVE ITEM EXPLAINED TO OWNER (was "301"): papers whose source_url is a Google Drive link; live count 923 DB-wide, 294 currently in review (earlier 301 = count drift, same item). They cannot be re-fixed until each Drive PDF is fetched/hashed/mapped. Reachability checks queued into fire sessions; storage decision (where ~923 PDFs live) stays with the owner.
+- VERDICT-EQUIVALENT: no dispatch - evidence pool empty, VERIFIED not assumed (abort on empty list). RPD 0/5,700, cadence 0/3 (slot 1/3 remains for 15:30Z fire), repo A + PROD untouched, zero-churn (all probes read-only), no secrets printed.
+
+---
 Task ID: CRON-V6-20261118-cycle68
 Agent: Super Z (scheduled fire 2026-11-18 13:00 IST = 2026-11-18 07:30Z, job 535407, script counter #65)
 Task: slot 1/3 of quota day 2026-11-18 - audit, dispatch per verdict; investigate before idling per the default-duty clause.
