@@ -160,7 +160,11 @@ def main():
             if n % 10 == 0:
                 print(f'  [{n}/{len(mine)}] ok={ok} miss={miss} fail={fail}', flush=True)
     print(f'[i] shard done: ok={ok} miss={miss} fail={fail}')
-    sys.exit(0 if (fail + miss) == 0 else 2)        # nonzero only if not all clean
+    # ALWAYS exit 0: FILE-NOT-FOUND / OCR-ERROR are legitimate evidence rows
+    # (recorded in the verdicts JSONL), not job failures - a nonzero exit here
+    # skips the upload step (default success() gate) and drops the shard's
+    # evidence from the gather merge (run #1 lesson: 250 verdicts lost).
+    sys.exit(0)
 
 
 if __name__ == '__main__':
