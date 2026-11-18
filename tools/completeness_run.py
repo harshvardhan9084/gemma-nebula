@@ -24,6 +24,32 @@ CONT = re.compile(r"^\s*(?:Q(?:ues[tion]*)?[\.\:\-]?\s*)?(\d{1,2})\s*[\.\)\:]\s*
 FORMULA = re.compile(r"^\s*(\d+)\s*[xX×]\s*(\d+)\s*=\s*(\d+)\s*$")
 NOISE = re.compile(r"^\s*[^A-Za-z0-9(\[]*[-–—_=~|.,;:'\"^]*\s*$")
 
+# ---- local corpus hash map (2026-11-18 owner-session fix) -------------------
+# The 11-14 baseline joined papers to PDFs by FILENAME (source_url last segment).
+# That name join failed on 2,585 rows ('PDF-ABSENT') even though the corpus holds
+# their actual files - hash-proven (2,523 of 2,585; only 62 rows truly file-less).
+# Fix: look every paper up by its file_hash in the full-corpus sha256 map first
+# (built by scripts/corpus_hash_sweep_20261118.py over the local sparse checkout),
+# and only fall back to the CDN name join when the hash is unknown.
+LOCAL_CORPUS_ROOT = "/home/z/my-project/repo_b"
+LOCAL_HMAP_PATH = "/home/z/my-project/scripts/out/corpus_hashmap.json"
+_LOCAL_HMAP = None
+
+def local_pdf_by_hash(fh):
+    global _LOCAL_HMAP
+    if _LOCAL_HMAP is None:
+        try:
+            _LOCAL_HMAP = json.load(open(LOCAL_HMAP_PATH))
+        except Exception:
+            _LOCAL_HMAP = {}
+    if not fh:
+        return None
+    rel = _LOCAL_HMAP.get(fh)
+    if not rel:
+        return None
+    p = os.path.join(LOCAL_CORPUS_ROOT, rel)
+    return p if os.path.exists(p) else None
+
 def build_pathmap():
     if os.path.exists(PATHMAP):
         return json.load(open(PATHMAP))
@@ -112,10 +138,12 @@ def parse_printed(txt):
             "n_parts": sum(len(c["parts"]) for c in containers),
             "n_standalone": len([c for c in containers if c.get("standalone") and not c["parts"]])}
 
-def verify(pid, sc, yr, nq, klass, url, stored_rows, pathmap):
+def verify(pid, sc, yr, nq, klass, url, stored_rows, pathmap, fh=""):
     stem = (url or "").rsplit("/", 1)[-1].replace(".html", "")
     r = {"pid": pid, "sc": sc, "yr": yr, "nq": nq, "class": klass, "stem": stem}
-    pdf = fetch_pdf_cached(url, stem, pathmap)
+    pdf = local_pdf_by_hash(fh)
+    if not pdf:
+        pdf = fetch_pdf_cached(url, stem, pathmap)
     if not pdf:
         r["verdict"] = "PDF-ABSENT" if stem.lower() not in pathmap else "FETCH-FAIL"
         return r
@@ -193,9 +221,9 @@ def main():
     ]
     queue = []
     for klass, cond in order:
-        cur.execute(f"SELECT id, subject_code, year, n_questions, source_url FROM papers WHERE {cond}")
-        for pid, sc, yr, nq, url in cur.fetchall():
-            queue.append((pid, sc, yr, nq, klass, url))
+        cur.execute(f"SELECT id, subject_code, year, n_questions, source_url, coalesce(file_hash,'') FROM papers WHERE {cond}")
+        for pid, sc, yr, nq, url, fh in cur.fetchall():
+            queue.append((pid, sc, yr, nq, klass, url, fh))
     cur.execute("""SELECT o.paper_id, (q.parent_id IS NOT NULL), q.text
                     FROM occurrences o JOIN questions q ON q.id=o.question_id""")
     stored = {}
@@ -209,8 +237,8 @@ def main():
     with open(OUT, "a", encoding="utf-8") as fout, \
          cf.ThreadPoolExecutor(max_workers=8) as ex:
         chunk = todo[:args.max] if args.max else todo
-        futs = {ex.submit(verify, pid, sc, yr, nq, klass, url, stored.get(pid, []), pathmap):
-                (pid, sc, klass) for (pid, sc, yr, nq, klass, url) in chunk}
+        futs = {ex.submit(verify, pid, sc, yr, nq, klass, url, stored.get(pid, []), pathmap, fh):
+                (pid, sc, klass) for (pid, sc, yr, nq, klass, url, fh) in chunk}
         for fut in cf.as_completed(futs):
             try:
                 rec = fut.result()
