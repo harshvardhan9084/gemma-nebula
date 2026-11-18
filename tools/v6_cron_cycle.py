@@ -267,7 +267,11 @@ def gha_audit():
         except Exception:
             return 0.0
     now = time.time()
-    qd = datetime.utcfromtimestamp(now).replace(hour=7, minute=5, second=0, microsecond=0)
+    # timezone-aware UTC anchor (2026-11-18 cycle71): naive utcfromtimestamp()
+    # silently depended on host tz == UTC; aware version is exact everywhere.
+    # Equivalence verified cycle71: identical anchor epoch for instants
+    # 6h/7h/8h back (both sides of the 07:05Z cut).
+    qd = datetime.fromtimestamp(now, tz=timezone.utc).replace(hour=7, minute=5, second=0, microsecond=0)
     if qd.timestamp() > now:
         qd -= timedelta(days=1)          # before 07:05Z -> quota day started yesterday
     g["quota_day_cut"] = qd.strftime("%Y-%m-%d %H:%MZ")

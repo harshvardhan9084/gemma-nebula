@@ -1,4 +1,18 @@
 ---
+Task ID: CRON-V6-20261118-cycle71
+Agent: Super Z (scheduled v4 fire 2/3: 2026-11-18 15:30Z = 21:00 IST, job 535407)
+Task: scheduled audit + dispatch cycle (resilience check first, fresh audit, follow verdict, report).
+
+Work Log:
+- RESILIENCE CHECK PASSED: pre-fire obs last line = 14:40:46Z CLEANUP (the cycle70 dup-cleanup delta marker); GHA run list pulled directly via API - latest still #107 (44133259415, success, 11-17 17:06Z), nothing active, no run dispatched today, every scheduled fire since job 535407 creation has an obs line (no silent gap).
+- FRESH AUDIT (script counter #67, re-run as #68 post-patch): papers 10,883 (+0), questions 245,186 (+0 - post-cleanup baseline booked by the cycle67 line), complete 8,556 / review 2,327 / failed 0, thin_left 23, retry ledger active 22 / accepted 660 / frozen 540, unit-400 remaining 0. RPD spent(quota-day since 07:05Z)=0/5,700 (dispatchable 5,700). Cadence 0/3 (rolling-24h informational: 3 = #105-#107 on 11-17). Repo synced 576905a, fix commits present.
+- LEDGER SHIFT EXPLAINED (verified vs obs history, not an anomaly): retry ledger active 0->22 / frozen 512->540 / accepted 667->660 landed when runs #105-#107 COMPLETED on 11-17 between 17:06Z and the 23:31Z fire - re-shot papers that returned <20q got attempt stamps (22 = one attempt used, 28 = frozen at 2 attempts) per the ANTI-LOOP LAW; the cycle66 worklog was written mid-run before the final stamps.
+- -1,515 QUESTIONS EXPLAINED (verified against dup_cleanup_report_20261118.json): the 14:35Z owner-approved dup cleanup (cycle70) removed 1,515 duplicate question rows + 1,561 dup occurrences (1,558 strict-dup groups -> 0, 33 repointed, 46 kept-elsewhere, full backup kept); the cycle67 audit line booked the post-cleanup baseline. Zero data damage; papers unchanged.
+- SCRIPT PATCH (minor, decision path untouched): (a) fossil state key rpd_spent_24h=5703 removed from v6_cron_state.json - a stale v3 rolling-window value from the 11-14 campaign day that v4 never overwrites and that could misread as today's spend; (b) quota-day anchor made timezone-proof: naive utcfromtimestamp() -> aware fromtimestamp(now, tz=utc), killing the DeprecationWarning and a silent host-tz dependency in the 07:05Z anchor math; equivalence proven first (identical anchor epochs at 6h/7h/8h back, both sides of the cut), py_compile OK, full re-run verdict identical. Mirror synced to repo_b/tools/.
+- VERDICT: CAMPAIGN (owner-rule gate held) - NO DISPATCH. Nothing legal to dispatch: the 11-14 evidence pool is fully drained (633 = 629 dispatched across the four fix lists + 4 healed-since; batch#3 correctly aborted empty at 13:17Z), drain pools empty (failed=0, unit-400=0), review pool 2,327 fully stamped (1,764 amnesty + 540 frozen + 22 active + 1 unstamped latch-bypassed), thin 23 = legacy + heal survivors under ledger management. Phase-2 candidates awaiting explicit owner go: Drive-stem mapping (923 drive-sourced papers DB-wide, 294 in review, 301 known uc?export stems), parser v2 + tesseract for the ~3,606 scan-grade tail, full verifier re-baseline post-patch, residual stale-code unique rows (14,278, no dups - cleanup-list candidate).
+- LAWS INTACT: no dispatch (gate held - blind re-shots retired per owner rule 11-14), zero-churn (audit read-only; only the fossil state key removed, never DB data), RPD cap 5,700 untouched, cadence 0/3 fresh, repo A + PROD untouched, no secrets printed or committed.
+
+---
 Task ID: CRON-V6-20261118-cycle70
 Agent: Super Z (owner session 2026-11-18 ~13:20-14:10Z, owner exit session: "delete those 1561 rows", "delete the watchdog cron", "tell me every kind/state of all numbers")
 Task: execute the approved cleanup, remove watchdog, deliver the full data-quality census.
