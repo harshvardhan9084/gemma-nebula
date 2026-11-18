@@ -1,0 +1,122 @@
+aktuonline.com aktuonline.com
+Pr inted Puges : 4
+(Following Paper UD and No. to be filled in your Answer Book) |
+0207
+B.Tech
+(SEM ODD SEMESTER THEORY EXAMINATION 2009.10
+THERMAL & HYDRAULIC MACHINES
+time: 3 Hours] {Total Marks: 100
+Note : (1) Answer all questions.
+Use of Steam Tables and Mollier Chart
+(2) ate permitted. is
+(3) Assume missing data if any and
+the assumptions made.
+Answer any of the following 5x4=20
+fa) What are the limitations of first law of thermo-
+dynamics? State two statements of second law of
+thermodynamics.
+om Determine the beat ge Supplied to 1 kg of steam at
+IN har SO dr heating e> to mabe ite temnerarure ae
+300°C. The occurs reversibly at constant
+pressure.
+ic) Explain reheat vapour power cycle using T-s
+diagram.
+,
+(d) Define entropy and also show that h is a
+property.
+J3-0207) [Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+What do you understand by thermodynamic
+equilibrium? Explain.
+(ae) working Determine thermal limits of of 10 a MPa and oyele
+16 kPa for on steam pressure working fluid in it.
+as
+2 Answer any two of the following : 10x2=20
+(a) A gas turbine runs at pressure ratio of 8 with
+the maximum temperature limited to 1100 K in
+cycle. The isentropic efficiency of turbine is
+960% and isentropic efficiency of compressor is
+85%. Determine the work done and cycle
+efficiency if the air enters the compressor at
+15°C. Also find the cycle efficiency and back
+work ratio if a regenerator is fitted with
+efficiency of 75%. Show the cycle on T-s
+diagram.
+(b) Obtain the mathematicai condition for maximum
+blade efficiency in of single
+impulse turbine. case a stage
+(c} Write short notes on the following :
+G) Reheat factor
+Polytropic efficiency
+Intercooling in turbines
+gas
+(iv) Difference between and reaction yi
+turbines.
+3 Answer any two of the following ; 10x2=20
+(a) A single acting, single cylinder air of
+200 bore by 250 stroke is compressor
+such mm that tts clearance mm be altered by moving
+can
+2
+aktuonline.com
+-aktuonline.com aktuonline.com
+the cylinder head, the stroke being unaffected.
+Calculate the FAD at 300 when the
+clearance volume is set at rpm 700 cm? and delivery
+preasure S bar. Assume that no-d.24 and suetlon
+pressure and temperature are 1 bar and 32°C
+respectively. Also find the power required
+assuming mechanical efficiency of 80%. Free au
+conditions are 1.013 bar and 15°C.
+(b} A four stroke gas engine has cylinder bore
+30 cm and piston siroke 37.5 cm. Find indicated
+power, brake power, mechanical efficiency and
+indicated thermal efficiency for the following
+observations of test during 45 minutes.
+Engine revolution : 9450
+#ngine explosions 3600
+:
+Net load on brake : 900 N
+Effective brake radius : 80 cm
+Indicated mean effective pressure : 600 kPa.
+Gas used 9 m3
+Pressure of gas : 150 mm of water gauge
+Temperature of gas : 300 K
+Atmospheric pressure : 75 cm of mercury
+Calorific value of gas 18.5
+Mass of cooling water in jacket : 200 kg
+Rise in cooling water temperature 50°C.
+(c) Write short notes on the following : 2.5%4
+(i) Stalling
+Indicator diagram
+(iit) Spark ignition engine
+(iv) isothermal efficiency.
+0207) | 3
+aktuonline.com)ttp://www.UPTUonline.com
+aktuonline.com aktuonline.com
+4 Answer of
+any two the following 10x2=20
+(a) A water jet of 20 m/s impinges on a concave
+it shaped is stationary. blade to At deflect what water angle jet should by 110° the jet when
+strike that there is shock at exit if blade
+is moving so with 8 m/s no velocity. Also find the
+work done kg of water.
+per
+(b) Describe the components of a reaction turbine in
+detail.
+(c) Differentiate between impulse turbine and reaction >
+turbine.
+5 Answer any four of the following : Sxd=20
+the working of centrifugal with
+* fa) a pump
+its neat sketch.
+{b) Describe the principle cf operation of jet pump.
+{c) What do you by cavitation? Explain.
+{d) Discuss physical sigmficunce of slip in pumps. ~
+Describe the utility of air vessel in reciprocating
+pumps.
+(f) Enlist the different types of casings for impeller
+and centrifugal pump.
+TIME 4 | 6500 |
+aktuonline.com

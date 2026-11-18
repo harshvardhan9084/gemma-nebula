@@ -1,0 +1,71 @@
+Printed Pages : 3
+LO A NCS-101
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 199128
+:
+B. Tech.
+(SEM. I) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+COMPUTER SYSTEM & PROGRAMMING IN C
+Time : 3 Hours] : [Total Marks : 100
+1 Attempt any FOUR parts : 5x4=20
+of computer?
+(a) What are the classifications
+Explain any two in detail.
+(b) Describe the functionalities of an operating
+system.
+(c) Convert the hexadecimal number
+to octal number.
+(d) Draw a flowchart to find the sum and reverse
+of a given number.
+the various functionalities of compiler,
+(e) Biscuss
+linker and loader.
+(f) What is storage class? Describe automatic,
+register, static and external with neat syntax.
+199128] 1 [ Contd...
+http://www.aktuonline.com
+2 Attempt
+any TWO parts 10x2=20
+(a) Describe about the basic components of
+computers with neat block diagram.
+a
+(b) Explain logical and bit operators with example.
+(c) Write about the formatted and unformatted
+Input / Output functions in ‘C’.
+3 Attempt TWO parts’:
+any 10x2=20
+(a) Describe about the types of looping statements
+in ‘C’ with
+necessary syntax.
+(b) Write a C program to find the multiplication
+of two matrices.
+(c) What are the types of function? Write a C
+program to find the factorial of a given number
+using recursion.
+4 Attempt any TWO parts : 10x2=20
+(a) How to declare an array? Explain about various
+operations of an array.
+(b) What is enumerated
+data type? Write a C
+program to display months in the year using
+enum.
+(c) Differentiate structure and union in ‘C’. Write
+a C program to store the student details using
+union.
+199128] 2 { Contd...
+http://www.aktuonline.com
+5 Attempt any TWO parts : 10x2=20
+(a) State the features of pointers. Write ‘C’
+a
+program to sort a given number using pointers.
+(b) What is the difference between break and
+continue in C ? Describe the structure of
+switch-case with neat example.
+(c)
+List out various file operations in ‘C’. Write
+a C program to count the number of characters
+in a file.
+199128] 3
+69725
+http://www.aktuonline.com

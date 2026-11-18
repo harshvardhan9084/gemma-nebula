@@ -1,0 +1,131 @@
+00
+TCS-802
+Printed Pages :
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0148 Roll No. |
+B. Tech.
+(SEM. VIII) EXAMINATION, 2007-08
+ARCHITECTURE
+ADVANCE COMPUTER
+Time : 3 Hours] [Total Marks : 100
+Notes : ; (t) Attempt all questions.
+(2) All question carry equal marks.
+(3) Be precise in your answer.
+(4) No second Answer book will be provided.
+1 Attempt any two parts of the following :
+(a) Explain how instruction set, compiler technology, CPU
+implementation and control and memory hierarchy affect
+the CPU performance and justify the effects in term of
+program length, clock rate and effective CPI.
+(b) Distinguish between the following :
+(i) | Medium-grain and fine-grain multicomputers in
+their architectures and programming requirements.
+(ii) Single threaded and multi-threaded processor
+architectures.
+(c) Consider a shared bus parallel computer built using 32
+bit RISC processors running at 150 MHz with
+CPI-1. Assume that 15% of the instructions are loads
+and 10% are stores. Assume 0.95 hit ratio to cache
+for read and write through caches. The bandwidth of
+the bus is 2 GB/sec.
+(1) How many processors can the bus support
+without getting saturated ?
+U-0148} [Contd...
+caches there, how processors
+ii) If the bus are not assuming the many main is can
+fas the support cache ? memory as
+as
+2 Attempt any two parts of the following :
+(a) Discuss data and resource dependences to following exploit
+implicit parallelism in the program. Analyze the
+instructions sequence : /
+S1 : Load Load Rj, M(10) 1024 / / R; < 10241 Mem (10) /
+$2 $3. : add R,, Ry < + Ry
+S4 M (1024), R,;/Mem ((1024)) (Rj)
+S5 : store store M ((R,)), 1024 / Memo <— < 1024)/
+Memory : (10) constains 64 initially.
+(i) Draw a dependence graph to show all the
+dependences.
+(ii) | Are there any resource dependences ? If only one
+copy of functional unit is available in the CPU.
+(b) Explain the cache address mapping techniques. Consider
+a cache memory (M,) and memory (M,) hierarchy with,
+the following characteristics :
+M, : 16 k words, 50 ns access time
+M, : 1m words, 400 m access time.
+Assum A words cache blocks and a set size of 256
+words with set anociative mapping.
+(i) | Show the mapping between M, and Mj.
+(ii) Calculat the effective memory access time with
+a cache hit ratio
+(c) Give the block diagram for a pipelined floating point
+adder. Assume that exponent matching takes 0.1 mec.,
+mantissa alignment 0.2 n sec., adding mantissas
+1.0 n sec and normalizing result 0.2 n sec. What will
+be the highest clock speed which can be used to drive
+the added adder’. using If two this vectors adder of what 100 will components be the time are of to
+addition. be
+U-0148] 2 [Contd...
+Attempt of the following
+(a) Consider any two the five-stage parts pipelined : specified by
+the following reservation table processor
+:
+(i) List the set of forbidden patencies and the
+collision vector.
+(i) | Draw the transition diagram showing all possible
+initial sequences without causing collision in the
+pipeline.
+(iii) Identyfy simple cycles, greedy cycles and MAL
+(minimum average latency).
+(iv) What will be the maximum through put of this
+pipeline.
+(b) Discuss the and superpipelined processing.
+Also estimate the performance of superpiplined
+superscalar processor of degree (m, n).
+Give the difference between a thread, a trace and a
+process. Also explain how simultaneous multithreading
+is superior to multithreading (blocked and interleaved).
+What extra processor resources are required to support
+simultaneous multihreading ?
+Attempt any two parts of the following :
+(a) Discuss the matrix multiplecation on a Mesh. Give the
+algonthem that uses n x n processors arranged in a mesh
+contiguration. Also find the time complexity of the
+algerithm.
+1.0148] 3 [Contd..
+(b) Give the PRAM algorithm for solving a ‘first order
+linear recurrence :
+x; =Q; Xj; +d; fori = 1, 2...n, where the value of
+and dy, given. Assume 0
+and Xo, 4), =0. are x, =
+(c) Explain a, the Bidirectional Gaussian elemination for solving
+a set of linear algebraic equation.
+:
+Attempt ronsider any two the parts following of the double following
+(a) for = 1<4, toop (L; &
+: { (2 0;
+L, : for (J 0; J<4; J++)
+S=A = [J] J} + C
+T: Bi ] =A = [2] [J+1] + 1
+U: DG, j) = B [i] [-2] 2
+ed -
+1
+the dependence caused by all possible pairs
+_ of variables. Identify the type of each dependences
+and find the its distance and direction vector.
+(ii) the statement and iteration dependence
+gtaph for the loop.
+(b) Explain the following terms associated with fast and
+efficient synchronization schemes on a shared-memory
+multiprocessor :
+(1) verses sleep-wait protocols for sole
+access of a critical section. -~
+(1) Lock mechanisms for pre- 10
+achieve sole access to a critical section.
+(iit) Post - synchronization method.
+(c) Write | short notes on any two of the following : y
+(1) Combined parallel work-sharing construct
+(i) Run-time library routines
+(a) Parallel execution environment routines.
+|
+U-0148]

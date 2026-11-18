@@ -1,0 +1,173 @@
+* u 4 7 & é 1 2 5 2 5 *
+Printed Pages - : 7 TCS-602
+(Following Paper ID and Rol! No. to be filled in your Answer Book)
+ZU Roll No. | |
+B. Tech.
+(SEM. VI) EXAMINATION, 2007-08
+COMPUTER NETWORKS
+Time 3 Hours] [Total Marks 100
+: :
+Note alll questions,
+:
+(2) All questions carry equal marks.
+(3) Be precise in your answer.
+(4) No second answer book will be provided.
+1 Attempt any four parts : 5x4
+(a) Differentiate between bit-rate and baud-rate. A
+modem constellation diagram has data point at
+coordinates: (1,1), (J,-1), (-1,1) and (-1,-1).
+How many bps can a modem with these parameters
+achieve at 1200 baud?
+(b) Asystem is designed to sample analog signals,
+convert them to digital form with 4-bit converter,
+a
+and transmit them. What bit rate is required if
+the analog signal consists of frequencies between
+400 Hz to 3400 Hz ?
+U-1078) [Contd...
+(c) Compare and contrast circuit, message and packet
+switching techniques.
+What the relative merits and demerits of a
+(d) are comparison multi-mode
+single-mode fiber in to a
+fiber? Describe the structure and composition
+between the two.
+difference
+(e) Ina certain communication channel, the signal
+is 100 W and the noise power is 10 W. V
+power the rate of
+In order to send information at
+10 kbps, what is required bandwidth?
+between-
+(f) What is ISDN? Differentiate
+(@) BRI & PRI
+(i) B-4ISDN & N-ISDN
+5x4
+2 Attempt any four parts.
+A blocks (frames) is to
+(a) series of 8-bit message
+be transmitted across a data link using a CRC
+detection. A generator polynomial of NE .
+for error example illustrate
+11001 is to be used. Use an to
+the following:
+generation
+(i) The CRC process
+checking
+(i) The CRC process.
+{Contd...
+2
+(b) (i) Abit string, 01111 O11111 0,
+be
+needs to transmitted at the data link
+layer. What is the string actually transmitted
+after bit stuffing?
+(ii) | Sketch the Manchester encoding for the bit
+stream: 0001110101.
+y (c) Discriminate between the send window and receive
+window for link and how they related with
+are
+(i) repeat retransmission scheme
+(i) go-back-N control scheme.
+(d)  Whyis the channel throughput doubled in
+slotted ALOHA compared to pure
+ALOHA?
+stop-and-wait
+fi) A protocol uses a 100 kbps
+satellite link which employs a round-trip
+propagation delay of 250 ms approximately.
+Find out the percentage of time the sender
+is blocked to wait for acknowledgement,
+if the frame size is 1000 bits.
+(ec) How do contention-free protocols differ from
+contention-oriented protocols? Discuss any one
+protocol of contention-free category.
+ANE
+U-2078) [Contd...
+is bridge different from a repeater? What
+How disadvantages of each?
+are the advantages and be
+State with reason whether an LAN can
+extended to any size by increasing the number
+not?
+of repeaters or
+Attempt any two parts - 10x2
+3 is el |
+(a) Whatis count-to-infinity problem? How
+it addressed in link sate routing protocol?
+For following subnet, distance vector routing
+that have just come
+is used and the vectors
+in to router C: from B: (5, 0, 8, 12, 6,
+2); from D: (16, 12, 6, 0, 9, 10); and from
+E: (7, 6, 3, 9, 0, 4). The measured delays
+3, and 5 respectively.
+to B, D, and E are 6, both
+What is C’s new routing table? Give
+the outgoing line to use and the expected .
+delay.
+B
+[Contd...
+i) What is fragmentation? Why do we need
+it? Discuss pros and cons of transparent
+and fragmentation.
+non-transparent
+(b) @ Explain how do ARP and RARP map IP
+addresses onto data link layer such as
+(ii) Sketch the IP header neatly and explain the
+function of each field. List major differences
+between IPv4 and
+(c) () Explain token bucket algorithm. What
+problems of leaky bucket algorithm are
+addressed by it?
+(ii) With the aid of an example, explain
+why subnetting was introduced. Hence state
+the meaning of subnet router and an
+mask. a What is the maximum
+address
+number of hosts which a on
+internet having a subnet mask of
+255.255.240.0 can handle?
+Attempt two parts 10x2
+any :
+(a) Draw the diagram of TCP header and explain the
+use of following :
+() Source and destination port addresses
+(ii) | Sequence and acknowledgement numbers
+S [Contd...
+(ii) Code bits
+(iv) Window size
+(v) Urgent pointer
+Describe the role of checksum field and optional
+pad bytes.
+(b) With the aid of time diagram, explain
+a sequence
+how a logical connection between two TCP Ww
+entities is established using three-way handshake
+procedure. Include in your diagram the socket
+primitives at both the client and side that
+server
+trigger the sending of each segment. Also explain
+how the initial sequence number in each direction
+is seleted.
+(c) @) What is cryptography? Distinguish
+between symmetric and asymmetric key
+cryptography. .
+(i) Discuss different steps of FPEG compression
+standard.
+5 any two parts:
+(a) Explain why a DNS is required with the
+Internet and describe its main functional parts.
+In. relation to DNS, explain why
+a
+hierarchical naming structure is used instead of a
+flat structure?
+6
+(b) What is the function of SMTP?
+Differentiate between (UA) and
+a user agent a
+mail transfer agent? How does MIME enhance
+SMTP?’
+(c) Show the working of RSA algorithm with
+suitable example.
+7 [ 12525

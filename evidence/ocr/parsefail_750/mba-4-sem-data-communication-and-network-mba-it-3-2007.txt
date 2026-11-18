@@ -1,0 +1,64 @@
+Vv - 7 0 7 2
+Printed Pages : 2 MBA-IT-3
+PAPER (Following Paper ID and Roll No. to be filled in your Answer Book)
+ID :
+M. B. A.
+(SEM. IV) EXAMINATION, 2006-07
+DATA COMMUNICATION & NETWORK
+LT. -3
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions.
+1 Attempt any two parts of the following : 2x10
+(a) Explain any one of the following Data Compression
+techniques :
+(i) a Finite Set of Equally Likely
+Symbols.
+(ii) | Frequency Dependent Coding,
+(iii) Context Dependent Encoding.
+(b) Explain CDMA signal. How is it different from
+SDMA?
+(c) Compare FM and AM Signals with applications.
+2 Attempt any two parts of the following : 2x10
+(a) What are the components of a typical LAN?
+What are the functions of each component?
+(b) What are the differences between a "thick
+Ethernet" and a "thin Ethernet"? With the help
+of a diagram show the usual configuration for
+Ethernet.
+(c) What is ISDN? Why it is becoming important
+in today's competitive business environment?
+V-7072] 1 [Contd...
+http:/Awww.uptuonline.com
+3 Attempt four parts of the following 4x5
+(a) What any the principles that applied :
+arrive are the layers of were OSI model? to
+(b) What is at the significance seven of an protocol in
+a a
+computer network?
+(c) Define and describe Virtual Private Network
+(VPN).
+(d) What is the main difference between a Point-
+to-Point channel and a Broadcast channel?
+Describe any one of them.
+What are the advantages of using asynchronos
+transfer mode (ATM)?
+(f) Explain the relation between Services and
+Protocols.
+4 Attempt any four parts of the following : 4x5
+(a) Describe the directory structure of the UNIX file
+system. What are pipes and filters? What is a
+pipeline?
+(b) Why is Linux known as an open-source software?
+What are its main features?
+(c) Why is mobile communication becoming important?
+Give at least one example of mobile communication.
+(d) What is the difference between mobile communication
+and wireless communication? Explain with the help
+of an example.
+What do you understand by Wireless Application
+Protocol (WAP)? How is it helping the business
+world?
+(f) What are XML and XML Script? Compare their
+capabilities? Why are they becoming important?
+V-7072] 2 [ 4395 ]
+http:/Awww.uptuonline.com

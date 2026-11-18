@@ -1,0 +1,155 @@
+! ONT UP
+aktuonline.com
+- 2
+Printed Pages : 7 TEE-402
+' (Following Paper ID and Roll No. to be filled in your Book)
+PAPER ID : 2052
+B. Tech.
+(SEM. IV) EXAMINATION, 2007-08
+NETWORK ANALYSIS & SYNTHESIS
+Time 3 Hours] [Total Marks 100
+:
+Note Attempt all questions.
+:
+1 Attempt of the following 2x10=20
+any two parts :
+(a) Define with suitable examples
+(i) ‘Tree
+(ii) Planar graph
+(itt) Incidence matrix
+(iv) Twigs
+(v) Path
+(b) (i) For the network shown in Fig. 1b(i) the
+oriented graph and obtain the cut set
+matrix. Also find the number of twigs and
+links.
+Fig. 1b(i)
+U-2052) | Et [Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+; /
+(ii) Obtain the dual network of the network
+shown in Fig. 1b(ii).
+1Q 1H
+3F
+2A 2
+Fig. 1b(ii)
+(c) Consider the network as shown in Fig. 1(c).
+1
+Let Cy =3F. R,=19, R,=2Q,
+volt,
+i, =1H, Ig =2H,
+Vo (0)=0 1, (0) an i, (0) 0
+using graph theory find
+ip . iy ig is ig |
+| T
+Ug Ug Ug U5 U6
+Fig. 1(c)
+2 [Contd...
+U-2052]
+aktuonline.com aktuonline.com
+following : 2x10=20
+2 Attempt any two parts of the -
+(a) State and prove Millman's theorem.
+(ii) Find the power loss in the 10 Q of the
+circuit as shown in Fig. 2(a)(ii).
+Fig. 2(a)(ii)
+(b) Fig. 2b represents a mixed circuit. Find the
+magnitude of Vy by superposition theorem and
+find the power produced by each of the
+sources.
+Fig. 2(b)
+(c) In the circuit of Fig. 2c, switch 'S' is in position
+1 until steady states reached is switch 'S' is
+moved to position 2 at time ¢ = Q. With switch
+in position '2', determine the Laplace transform
+of the current through the inductor making use
+of Thevenin's theorem.
+U-2052] 0 3 [Contd...
+aktuonline.com
+aktuonline.com
+Fig. 2c
+3 Answer any four of the following : 4x5=20 @
+(a) Enumerate the necessary condition for the
+transfer function.
+(b) Find the driving point admittance of the network
+as shown in Fig, 3b. Also plot the poles and
+zeros of Y(s) on the S-plane.
+Fig. 3b
+(c) Check the stability of the following polynomial
+by applying Routh-Huswitz criterion. Also
+mention the number of roots lying on the jw-
+axis, right and left half of s-plane.
+s§ +5s° +1184 25s? 36s”
+P(s) = + + +30s +36
+(d) In the network of Fig. 3d draw pole-zero plot.
+NHN 4 [Conta...
+aktuonline.com
+ktuonline.com aktuonline.com
+Fig. 3(d)
+(e) _ Show that pole-zero plot of the given network
+10s
+e function . V(s) V(s) = and obtain .
+v(t) with the help of pole-zero plot.
+(f) Obtain the transfer impedance of the network
+as shown in Fig. 3f
+1H
+Ty 1H 1,=0
+4
+v2
+Fig. 3f
+4 Answer any four of the following 4x5=20
+(a) Obtain the conditions of symmetry and
+reciprocity in terms of T-parameters.
+(b) Prove that in series parallel interconnected
+@ two
+networks with h-parameter matrix [h A] and
+[hp | respectively, the overall
+matrix is given
+as :
+5
+U-2052] [Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+(c) Obtain z-parameters of the network shown in
+Fig. 4(c)
++ I, 19 I,
++
+21
+v1 10 v,
+{ | {
+Fig. 4(c)
+(d) Obtain Y-parameters of the network shown in
+Fig. 4(d)
+2F 2F
+7
+Fig. 4(d)
+Determine the h-parameters of the network
+shown in Fig. 4(e)
+Fig. 4(e)
+(f) For a two port network, Y-parameters are
+Yio = Yo4 who. Calculate the
+U-2052) [Contd...
+aktuonline.com hitp://www.UPTUonline.com
+aktuonline.com aktuonline.com
+Z-parameters for the network and write
+network using
+equilibirum equations for the
+these two types of parameters and also show
+the equivalent network for both type of
+parameters
+5 Attempt any two of the following : 2x10=20
+(a) Enlist the properties of LC immittance
+function. Check whether the function
+) Z(s) +98+3
+is a positive real
+function.
+| (b) Find the first and second forms of caner
+network for the function
+Z(s)=
+s*+2s 3
+(c) Design a prototype band stop filter section
+having cut-off frequencies of 2000 Hz and
+5000 Hz and design resistance of 600Q.
+U-2052) M7 [ 5125 ]
+aktuonline.com

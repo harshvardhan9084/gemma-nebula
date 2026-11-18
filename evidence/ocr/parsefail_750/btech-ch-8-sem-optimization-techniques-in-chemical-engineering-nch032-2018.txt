@@ -1,0 +1,65 @@
+Printed Pages:02 Sub Code: NCH 032
+Paper Id: | 5| 1] 8} 4 Roll No.
+B.TECH
+(SEM THEORY EXAMINATION 2017-18
+OPTIMIZATION TECHNIQUES IN CHEMICAL ENGINEERING
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+2. Any special paper specific instruction.
+SECTION A
+Attempt all questions in brief. 2x 10=20
+a) Define Enumerate Dichotomous. few engineering applications of optimization.
+b) c) Define dynamic programming.
+d) What do by function?
+e) Define the you saddle mean point. convex
+What is the significance of Lagrange multipliers?
+g) Discuss about unconstrained optimization problems.
+h) Define artificial variables.
+i) Define duality problem.
+D What is golden section?
+SECTION B
+Attempt any three of the following: =30
+a) Enumerate the scope and limitations of optimization techniques.
+b) Explain all direct methods for solving LPP.
+Describe the Newton’s method to find an optimality of a function of one variable.
+d) Find the minimum of f(x) x(x-1.5) in the interval (0,1) within 10% of the exact
+value and 6 0.001. =
+=
+e) Describe the gradient method for determining the search direction of first order
+systems.
+SECTION C
+Attempt any one part of the following: 10x1=10
+a) Find the volume of largest rectangular solid inscribed in the ellipsoid.
++ ( 2?/c?) =1.
+b) Explain the secant method of uni-dimensional search.
+Attempt any one part of the following: 10x1=10
+a) Explain finite difference approximation with example.
+b) The total annual cost of a pump and motor (C) in a particular piece of equipment is a
+function of x the size of the motor in horsepower, namely
+,
+C=$500+$0.9x+$ 0.3 (150000)/x
+Find the motor size that minimizes the total annual cost.
+5. Attempt any one part of the following: 10x1=10
+(a) Find the minimum of the function
+F(x) 0.65 > 0.65x
+= — 14+x + x
+Using Newton-Raphson method with the starting point xi= 0.1. Use € = 0.01
+for checking the convergence.
+(b) What are the various direct and indirect methods of multivariable search? Discuss any
+one of them.
+Attempt part of the following: 10x1=10
+any one
+a) Describe the gradient method for determining the search direction of first order
+systems.
+b) Describe Fibonacci search method for a unimodel function of a single variable. Find
+the maximum and minimum values of the function
+f(x) = 45x4 + 40x3 + 5.
+Attempt any one part of the following: 10x1=10
+a) Describe the Optimal solution and optimal basic solution in detail.
+b) Solve the following LPP graphically,
+Minimize f = x2
+Subject to
+2x, +x2>6
+X1 + 3x2>6
++ 6x2
+x1> 0, x2 >0.

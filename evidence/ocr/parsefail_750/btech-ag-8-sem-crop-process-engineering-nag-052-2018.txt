@@ -1,0 +1,52 @@
+Printed Pages: 2 Sub Code: NAG-052
+Paper Id: | 1| 0| 8} 7 Roll No.
+B.TECH
+(SEM THEORY EXAMINATION 2017-18
+CROP PROCESS ENGINEERING
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+Define Fineness modulus.
+On what principles Pneumatic separation works?
+ao Discuss about the principle of crop processing.
+Write down sieves chart.
+What is unsized separation?
+ho What is principle of size reduction?
+Write down two operation of crop processing.
+What is Rittenger’s law?
+Define grain shape.
+What do you mean by milling?
+SECTION B
+2. Attempt any three of the following:
+a. Write FPO requirements for installation of a small scale fruit processing
+industry in Uttar-Pradesh.
+b. What do you mean by oil expeller? Write down the mustered processing with
+flow diagram.
+c. What do you mean by theory of filtration? Define mixing index.
+d. Explain the procedure of fruit processing.
+e. What are the desirable design features of processing equipments? Describe.
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+a. Explain the procedure of scalping and screening of fruits.
+b. Write short notes on :
+i. Bucket Elevators
+ii. Gravity Conveyor
+4. Attempt any one part of the following: 10x1=10
+a. What is the theory of mixing and mixing index?
+b. Explain the construction and working of Burr-mill.
+5. Attempt any one part of the following: 10x1=10
+a. While crushing a material it is observed that 80% of the product is less than
+6.35mm in size. The power required is 10kw.calculate the power required to the
+same feed if 80% of the product is to be less than 3.18mm?
+b. Write down the scope, importance and principle of food processing.
+6. Attempt any one part of the following: 10x1=10
+Explain principle involves in size reduction in detail.
+b. a. Discuss the status and of food processing industry in country
+scope our
+7. Attempt any one part of the following: 10x1=10
+a. Explain the working of belt conveyor.
+b. Design a horizontal screw conveyor for conveying grain (bulk density = 640
+kg/m3) with required capacity of 2 tonnes/hr and for conveying length of 5m.
+The diameter of is 5cm. Assume data wherever
+screw conveyor necessary.

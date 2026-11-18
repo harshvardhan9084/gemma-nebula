@@ -1,0 +1,222 @@
+Printed Pages—I1 _ EME202
+(Following Paper ID and Roll No. to be filled in Answer Book)
+your
+PAPER ID : 4303
+B. Tech.
+(SEM. Il) THEORY EXAMINATION 2010-11
+ENGINEERING MECHANICS
+Time : 3 Hours Total Marks : 100
+‘Note? This paper is in three sections. Section A carries 20
+marks, Section B carries 30 marks and Section C
+carries 50 marks.
+(2) Attempt all questions. Marks are indicated against
+each question/part. > - ‘
+(3) ‘Assume missing data suitably, if any.
+SECTION—A
+1. You are required to answer all the parts : (2*10=20)
+. Choose correct answer for the following four parts t
+(a) The instantaneous of rotation of body in plane
+‘motion: centre a
+(@) within the body.
+(ii) can exist outside the body.
+(iii) can exist anywhere in the space.
+(iv) all of the above.
+EME202/RFW-20800
+1 [Turn Over
+http://www.UPTUonline.com
+to
+(b) Proof Resilience of a body is the energy stored up :
+(i) Elastic limit |
+(ii) Proportionality limit
+(ii) Ultimate point
+(iv) Point of fracture
+M
+(c) Inthe flexure formula ¢ , y is the distance of fiber
+under consideration from :
+@) Neutral axis of beam
+(ii) Neutral surface of the beam
+(iii) Bottom surface of beam
+(iv) Top surface of beam
+(d) The gradient of Bending Moment Curve gives the idea about
+:
+(i) Magnitude. of loading ~
+(ii) Magnitude of shear force
+Gi Rate of change of shear force
+(iv) Rate of change of loading.
+Fill in the blanks for the following three parts : You will be
+full marks, if all the entries in a part are correct
+(otherwise will be awarded zero).
+(e) pulley drive the tight tension side of the drive will
+act in a direction to the direction of
+for the belt. ;
+http://www.UPTUonline.com
+(f) If an area is about an axis its area product of
+inertia will always be
+Bending fora linearly loading
+(g) moment equation varying is
+degree polynomial.
+Choose answer for the following three
+correct parts :
+- Acycle stops when wheels are stopped rolling with the
+help of brake
+as :
+(A) Rolling of the wheels decreases as the brakes
+(B) Sliding friction is much higher than rolling friction which
+against motion.
+acts
+(i) Both statement A and statement B are the
+explanation of the phenomena.
+correct
+(i) Neither of the statement A_and staterhent B is
+the correct explanation of the phenomena.
+it) Statement A is the correct explanation of the
+phenomena but statement B is incorrect. |
+(iv) Statement B is the correct explanation of the
+phenomena but A is incorrect.
+statement
+(i) Assertion (A) : In dealing with the equilibrium of constrained
+bodies under the action of concurrent forces in plane,
+one -
+we cannot determine definitely the magnitude of more than
+two reactive forces and the problem is said to be statically.
+determinate.
+EME202/RFW-20800 3 [Turn Over
+;
+http://www.UPTUonline.com
+resolution
+Reason (R) : The of a given force into more
+than two coplanar concurrent components is an
+indeterminate problem.
+(ij) Aand R and R is the explanation of
+are true correct
+A.
+(ii) R are true but R is not the correct explanation’
+ofA,
+Gii) A is true and R is false.
+(iv) Both A and R are false.
+a 7
+G) is fired from rifle. If the rifle recoils freely, the
+» kinetic energy of the rifle in comparison to that of the bullet.
+(A). will be less as rifle is heavier than the bullet
+(B) will be same because of the law of conservation of
+energy.
+(i) . Statement A is true and is a correct explanation
+of the phenomena. te
+(ii) Statement B is true and is a correct explanation
+of the phenomena.
+(ii) of the statement A and statement B is
+-
+true.
+(iv) Both the statements are true but they-are not
+correct explanation of the phenomena.
+SECTION—B
+2.. Answer three of the following (10x3=30) ©
+any parts :
+(a) Two prismatic bars AB and BC of length 0.5 m and 1.0m
+EME202/RFW-20800 4
+http://www.UPTUonline.com
+respectively, are joined rigidly at B and suspended by a
+string OA as shown. Determine the. value of @ for
+equilibrium of the arrangement.
+‘Find the shear force and equation for the simply
+moment
+supported beam shown in figure. Also sketch the shear
+. force and bending moment diagram.
+(c) ‘Determine the area moment of inertia of an ellipse about
+its centroidal axes.
+EME202/RFW-20800 5 [Turn Over
+http://www.UPTUonline.com .
+(d) Two weights, each of 20 N, are suspended from a two-
+step pulley as shown in figure. Find the acceleration of the
+weight A. The weight of the pulley is 200 N and its radius
+of gyration is 200 mm.
+(e) A simply supported beam of I section (as shown in figure)
+caries a uniformly distributed load of 50 kN/m over its entire
+span. If the value of flexural stress is limited to 107 Pa, find
+the maximum possible length of the beam.
+50 mm
+5 mm
+5mm
+k— 50mm
+SECTION—C
+3. Answer any one part of the following : 10
+(a) Two cylinders of mass 100 kg and 500 kg are connected
+by bar of negligible weight hinged at each cylinder.
+EME202/RFW-20800 6
+Determine the magnitude of force P, acting parallel to the
+45° plane, for equilibrium :
+(b) Figure shows a wedge B held between the block A and
+surface C. A horizontal push of 20 KN is acting
+on
+block A. Find the vertical force Q on the wedge B so as to
+just move it downward. Assume coefficient of friction as
+0.3 for all contact surfaces of contact.
+4. Answer any one part of the following : 10
+Draw the shear force and bending moment diagram for
+EME202/RFW-20800 7 [Turn Over
+http://www.UPTUonli
+the simply supported beam shown in figure.
+2m I
+Im >k—-
+(b) For the shown in figure, find the
+truss force in the members :
+AB = BC = CD = ED = BH=
+5. Answer any two parts of the following : (5x2=10)
+centroid
+(a) Determine the and moment of inertia of the area
+shown about centroidal x-axis.
+EME202/RFW-20800 8
+http://www.UPTUonline.com
+(b) Determine the mass moment.of inertia of a solid cylinder
+height
+of radius R and h about its longitudinal axis.
+(c) Determine the centroid of a thin wire bent in shape of 'W'
+as shown in figure.
+wt
+6. Answer any two parts of the following :
+(a) of mass 5 kg and radius 50 mm is suspended
+from a cord that is wound around its circumference. Ifthe
+to finc-acceleration
+cylinder is allowed fail freely, of its
+mass centre G and tension in the cord.
+(b) Adisc of radius R rolls without slipping between two plates
+A and B. If plates are having velocities v and 2v as shown
+EME202/RFW-20800 9 [Turn Over
+http://www.UPTUonline.com
+in figure, determine the angular velocity of disc and velocity
+of center.
+_A passenger train passes a certain station at 60 km/h and
+covers a distance of 20 km with this speed and then stops
+at the next station 30 km from the first with uniform
+deceleration. Another train starting from the first station
+covers the same distance in double this time,and stops at
+the next station. The second train covers a part of the
+distance with uniform acceleration and remaining distance
+with uniform deceleration. Determine the maximum speed
+of local train.
+7. Answer any two parts of the following : (5x2=10)
+(a) A tapered bar whose diameter reduces from D, to D, over
+its length L.is subjected to a tensile load P. Derive an
+expression for elongation of this bar.
+EME202/RFW-20800 10
+__http://www.UPTUonline.com
+(b) A bar of length L and sectional A is subjected
+cross area
+to a tensile load P, find the strain energy (U,) stored in the
+bar due to this load. If the cross sectional area of half of
+the above bar (length L/2) is doubled (2A) as shown in
+figure, determine the strain energy in this case in terms of
+U,.
+P P
+hollow shaft having times
+(c) A outer diameter 1.2 inner.
+wy diameter is to replace a solid shaft transmitting the same
+power at the same speed. Determine the outer and inner
+. diameters of the hollow shaft in of the diameter of
+terms material
+solid shaft and percentage saving in the (by using
+hollow shaft). Assume that the is used in
+both the
+cases.
+EME202/RFW-20800 u 40075
+http://www.UPTUonline.com

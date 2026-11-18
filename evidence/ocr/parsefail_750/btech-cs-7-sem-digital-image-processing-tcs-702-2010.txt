@@ -1,0 +1,52 @@
+IN
+Printed Pages: 3 TCS702
+(Following Paper ID and Roll No. to:be filled in your Answer Book)
+PAPER ID: 0101
+B.Tech
+(SEM VII) ODD SEMESTER THEORY EXAMINATION 2009-10
+DIGITAL IMAGE PROCESSING
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions.
+(2) Each question carries equal marks.
+1 Attempt any four parts of the following :
+images
+(a) Explain the sampling and quantisation of
+with the help of suitable diagram. /
+(b) Discuss the Visual System and elerfients of
+Visual Perception.
+(c) Discuss the Histogram specification.
+pr (d) Explain the stretching with the help of
+contrast
+example.
+(e) Explain the Digital processing of camera images.
+(f)
+Explain spatial domain methods.
+2 Attempt four parts of the following
+any :
+(a) Explain the concept of filtering and its advantage.
+(b) Discuss low-pass filter and high-pass filter in 5 Attempt any four parts of the following :
+brief. (a) Explain the flow diagram of
+(c) Explain the Minimum Mean-square Error Restoration. understanding Image analysis and
+methods.
+(d) Explain the operation of Band-pass filters. : (b) What is clustering? Discuss types of clustering.
+(e) Explain the basis of filtering in Frequency Domain (c) Explain the feature
+extraction and feature detectors.
+and Frequency Domain method. (d) Discuss Geometric Invariants.
+(f) Discuss the common sources of blurring and (e) Describe in brief object recognition.
+noise. |
+(f) Discuss Multi-level feature processing.
+3 Attempt any two parts of the following
+(a) Explain the HSI (Hue Saturation Intensity) colour
+model. Discuss Image Smoothing too.
+(b) Explain the feature extraction and differentiate it with
+the segmentation of the image processing.
+(c) Explain the Morphological image processing in
+detail.
+4 . Attempt any two parts of the following :
+(a) Explain the Geometric Transformation of Images
+using Spline-Interpolation.
+(b) Discuss various Thresholding algorithms.
+(c) Write short notes on the following :
+(i) Edge relaxation
+(ii) Border Tracing
+[Contd... MH 3 [ 7700 |

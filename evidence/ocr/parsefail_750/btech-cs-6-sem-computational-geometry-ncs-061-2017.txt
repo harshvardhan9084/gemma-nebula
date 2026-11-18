@@ -1,0 +1,48 @@
+Printed Pages : 1 rotNo. | | NCS061
+B.TECH.
+THEORY EXAMINATION (SEM-VI) 2016-17
+COMPUTATIONAL GEOMETRY
+Time : 3 Hours Max. Marks : 100
+Note : Be precise in your answer. In case of numerical problem assume data wherever not provided.
+SECTION-A
+1 Explain the following (10x2=20)
+a) Fortune’s :
+sweep
+b) Minimum Spanning Tree
+c) Separating Chains
+d) Reflections
+e) Perspective projection
+f) Delayney Triangulations
+g) Quick Hull
+h) Planar Graphs
+i) Interval trees
+D Segment trees
+SECTION-B
+2 Attempt any five of the following : (10x5=50)
+a) What is convex hull? Discuss the orientation and limitation of convex hull in detail.
+b) What is triangulation? Describe the following.
+i) Angular triangulation
+ii) Point-set triangulations.
+c) What do you understand by divide and conquer? Discuss flip and incremental algorithm
+in detail.
+d) What is visibility? Discuss algorithms for weak and strong visibility.
+e) Define and explain voronoi diagrams What are its basic properties?
+f) Discuss zone theorem in detail. .
+g) Explain higher dimensional searching with example.
+range
+h) What is robust geometric computing? Discuss with example.
+SECTION-C
+Attempt any twoof the following : (15x2=30)
+3 Differentiate between:
+i) Classical and computational geometry
+ii) Plane and 3D line
+iii) Convex and in of computational
+concave context geometry
+4 What are sweep techniques? Also discuss these algorithms:
+i) Plane sweep for segment intersections
+ii) Topological sweep for line arrangements
+5 Write short notes on the following:
+i) Ham-Sandwich cuts.
+ii) Fractional Cascading.
+iii) Concatenable
+queues

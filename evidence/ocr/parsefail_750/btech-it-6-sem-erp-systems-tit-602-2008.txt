@@ -1,0 +1,68 @@
+aktuonline.com aktuonline.com
+Printed Pages 3 TIT — 602
+:
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID :
+B. Tech.
+(SEM. VI) EXAMINATION, 2007-08
+ERP SYSTEM
+Time : 3 Hours] [Total Marks : 100
+1 Attempt any four parts of the following : 5x4=20
+(a) | How Data Warehousing proves to be advantageous
+for companies
+?
+(b) Discuss the evolution of ERP systems.
+(c) Whatare the of ERP ?
+(d) Whatare the for the growth of ERP market ?
+reasons
+(e) Write in brief the technologies required for ERP.
+(f) | of
+What are the barriers to the success BPR ?
+Suggest suitable solutions to it.
+2 Attempt any four parts of the following : §x4=20
+(a) the advantages and disadvantages of using
+ERP in Manufacturing Management System ?
+(b) How ERP system work in BaaN IV Model ?
+(Contd...
+aktuonline.com
+(c) What is Gap analysis ? How the 'gaps' found
+during Gap are
+analysis filled ?
+(d) Discuss the ERP implementation life cycle.
+(e) Which ERP tools used make project refresh
+are to
+and compelling ?
+(f) Explain the following methods of object oriented
+architecture :
+(i) Method
+(i) | Hirorchical Method.
+~
+Attempt any two parts of the following : 10x2=20
+(a) | What is implementation methodology ? Discuss the
+issues for defining successful implementation.
+a ERP
+(b) | Whatare the different types of hidden costs in ERP ?
+Elaborate each one of them.
+(c) Explain the term 'knowledge management
+integration’. How ERP can be useful in this regards ?
+Attempt two parts of the following 10x2=20
+any :
+(a) What do you understand by the term MRP III ?
+List the five reasons for poor ERP results.
+(b) Explain in detail the guidelines used for ERP
+implementation.
+(c) Discuss the integration of SCM and CRM to ERP
+system.
+aktuonline.com U—1311) [Contd...
+~aktuonline.com aktuonline.com_
+—
+5 Attempt any two parts of the following : 10x2=20
+(a) Explain the architecture of SAP R/3.
+(b) Canthe ERP software packages jit the business
+need of the organization well ? Explain.
+(c) Write short
+notes on any two:
+(i) Seedreplication
+(1)
+(in) Visitor Management System.
+311) UMN 3 [3800]

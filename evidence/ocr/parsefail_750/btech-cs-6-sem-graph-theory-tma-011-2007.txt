@@ -1,0 +1,127 @@
+Printed Pages 7 TMA 011 /MA- 011
+: —
+(Foliowing Paper ID and Roll No. to be filled in your Answer Book)
+PAPER : 9972/9935 is i
+B. TECH.
+(SEM. VI) EXAMINATION, 2006-07
+GRAPH THEORY
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions.
+1 Attempt any four parts of the following : 5x4=20
+(a) Define a bipartite graph. Show that the
+complement of a bipartite graph need not to be
+a bipartite.
+(b) Discuss the Konigsberg Bridge Problem.
+(c) Define the following with one example each:
+(a) Infinite graph
+(b) Hamiltonian path
+(c) Component of a graph
+(d) Euler graph
+(e) Spanning subgraph
+(d) Define isomorphic graph. Draw three
+isomorphic graph of the following graph.
+V-9972) 1
+Differentiate, with
+a simple graph
+and a multigraph. Show that the maximum
+number of edges in a simple graph with n
+vertices n(n-1)/2.
+()
+What is the largest number of vertices ina
+graph with
+(a) 35 edges if all
+vertices are of degree at
+least 3,
+(b) 24 edges and all vertices of the
+degree same
+2 Attempt
+any four parts of the following: 5x4=20
+(a) Define binary tree and state two application of
+it in computer science.
+(b) Apply Prime’s algorithm to find a minimal
+spanning tree of the following graph.
+5
+V-9972] 2
+(c) Find shortest path form v, to vg using Dijksura
+aigorithm in the following graph.
+Fig. 3
+(d) Define spanning tree of a graph. Show that
+a Hamiltonian path in a graph is a spanning
+tree.
+(e) Show a tree in which its diameter in not
+equal to twice of the radius. Under what
+condition does this inequality hold?
+Elaborate.
+(f) What are the different properties when
+a graph G with n vertices is called a
+tree?
+V-9972] {Contd..
+3 Attempt four parts of the following : 5x4=20
+any
+(a) Define the edge connectivity and vertex
+connectivity of a connected graph. Find them
+for the following graphs :
+(i)
+~
+A \
+(ii
+Fig. 4
+4 {Contd..
+(b) Show that a complete graph x, is planar if
+ns4.
+(c) Draw a spanning tree of the following graph
+given below and list all the fundamental circuits
+with respect to this tree.
+Liv.
+Fig. 5
+(d) Find the dual of the following graph.
+V-9972} 5 {Contd..
+(ec) Prove that a graph G has a dual if and only
+if it is a planar.
+() Show, by sketching, that the thickness of eight-
+vertex complete graph is two.
+10x2=20
+4 Attempt any two parts -
+graph. Find the
+(a) Define basis vectors of a in cut-set
+number of distinct basis possible a
+subspace.
+reduced incidence matrix
+(b) Define (i) circuit matrix and
+(ii) fundamental matrix, of a connected
+(iii) fundamental cut-set relationship between
+graph. Also derive the
+them.
+(c) Consider the circuit matrix (B) and incidence
+matrix (A) of a simple connected graph whose
+columns are arranged using the same order of
+edges. Then prove that every row of B is
+orthogonal to every TOW of A. Also verify the
+result for the following graph.
+b Do
+"4
+k
+a
+Uo d U,
+Fig. 7
+6
+V-9972]
+5 Attempt any two parts : 10x2=20
+by chromatic number and
+(a) What do you polynomial mean of graph? Determine the
+chromatic and chromatic a polynomial of
+chromatic number
+the following graphs.
+a
+d
+(i) Gi)
+Fig. 8
+diagraph with example. Prove that
+(b) Define Euler diagraph without isolated verities is
+every Euler Also, show by constructing a
+strongly connected. is not tue.
+counter example, that converse
+(c) State and prove Cayley’s theorem for counting
+trees.
+[ 5485
+V-9972] 7

@@ -1,0 +1,224 @@
+aktuonline.com
+aktuonline.com
+* 1 6 Q 2 / 3 5 2 2 5 * ECS 101 / ECS 201
+Printed Pages : 8 -
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 1602
+B. Tech.
+2008-09
+(SEM. ID EXAMINATION,
+COMPUTER CONCEPTS & PROGRAMMING IN C
+aa [Total Marks 100
+Time : 3 Hours] :
+Note : (i) This question paper contains three sections.
+Section - A contains objective type questions,
+Section - B contains short answer type Questions
+and Section C contains descriptive types
+questions. -
+(ii) Attempt all questions.
+SECTION - A
+Note : This section contains 20 objective type 20x1=20
+questions. Answer all questions.
+Multiple choice
+/ (i) the binary code of (73)j9 is
+(a) 1010001
+(b) 1000100
+(c) 1100101
+(a) 1001001
+(e) 0110110
+1602]. 1 [Contd..
+aktuonline.com aktuonline.com
+(ii) Which of the following is not an input device ?
+(a) Light
+pen
+(b) MICR
+(c) Microphone
+(d) Speaker
+(e) None of the above.
+(iii) A block is enclosed within
+a pair of
+(a) {}
+(b) () (
+©)
+(d) <>
+(e)
+None of the above.
+(iv) The feature which permits a user to execute multiple
+programs simultaneously ?
+(a) Multi-user
+(b) Multi-tasking
+(c) Multi-process
+(d) Multi-programming
+(e) None of the above.
+In which of the following loops the number of
+remain known prior to the execution of the loop ?
+(a) While
+(b) Do-while
+(c) For
+(d) In of the
+none above.
+MM MN
+aktuonline.com aktuonline.com
+(vi) Which operator is used for accessing the members
+of a structure ?
+(a) dot (.)
+(b) arrow (->)
+(c) Both of the above
+(d) None of the above.
+~ (vii) Which of the following is not data structure ?
+a
+(a) queue
+(b)
+(c) tree
+(d) variable.
+(viii) Which character terminates strings in C ?
+(a) /0
+(b) \0
+(c) ‘\O'
+(d) 10
+(e) None of the above.
+(ix) Which of the following is correct statement for
+checking a condition in if statement ?
+(a) if (a=b)
+(b) if (a, b)
+(c) if (a b)
+(d) if (a==b)
+(e) None of the above.
+aktuonline.com aktuonline.com
+(x) which
+At stage 'C' preprocessor works ?
+(a) Before translation
+(b) Before execution
+(c) Before linking
+(d) Before debugging
+(e) None of the above
+State TRUE / FALSE
+(xi) The do... while statement first executes the loop body
+and then evaluate the loop control expression.
+(xii)
+C functions can return only one value under their
+function name.
+(xiii) During the evaluation of mixed expression, an implicit
+cast is generated automatically.
+(xiv) All static variables automatically initialized
+are to
+zero.
+(xv) A struct type in C is a built in data types.
+Fill in the blank
+:
+(xvi) The header file contains mathematical
+functions.
+(xvii) is used to determine the order in which
+different operators in an expression are evaluated.
+(xviii)
+is the process of arranging the elements
+of an array in order.
+(xix) A variable can be made constant by declaring it with
+the qualifier at the time of initialization.
+(xx) The parameters used in a function call are called
+aktuonline.com aktuonline.com
+SECTION - B
+Note : Attempt any three parts from this section. 10x3=30
+2 (a) (i) Area of a triangle is given by the formula
+-
+where a, 6 and ¢ are sides of the triangle and
+S=(a+b+c)/2. Write a 'c’ program. to
+compute the area of the triangle given the
+values of a, b and c.
+(ii) Explain different data types in 'C’.
+(b) (i) Explain differences between precedence and
+associativity of operators with suitable
+example.
+(ii) Write a'C' program to test whether a given year
+is leap year or not.
+(c) (i) Explain difference between a flow chart and
+an algorithm with an example.
+(ii) Write in 'c' 10 integer
+a program to accept
+numbers and print them in reverse order.
+aktuonline.com aktuonline.com
+(d) (i) Write a program in 'C' to receive an integer
+and find its octal equivalent.
+(ii) Write C the following
+a program to generate
+pattern
+*
+* nm,
+* OK OK
+(e) G) What is a pointer ? Write a'C' program to swap
+the values of two variables making use of
+pointers.
+(ii) Write a 'c' to the contents of
+file program copy one
+to another.
+SECTION - C
+Note : There five questions in the section. 10x5=50
+are
+Attempt all questions.
+3 Attempt any one part
+(a) Convert the following :
+(i) (478A)ig = jo
+(li) = (Y)o
+(iii) (11001100.10), (Z)i¢6
+=
+(iv) = (W)3
+(v) (752)g = (V)i6
+coMll sf
+aktuonline.com aktuonline.com
+(b) Write 'C' functions implement the
+your own to
+following standard library string functions :
+(i) strlen( )
+(ii)
+4 Attempt any one part :
+(a) A insures its drivers in the following
+company cases
+If the driver is married.
+If the driver is unmarried, male and above 30
+-
+years of age.
+- If the driver is unmarried and above 25 years
+of age.
+In all other the driver is insured. Write
+cases, not
+a ‘c’ program without using logical operators to
+determine whether the driver is insured or not.
+(b) Write a 'C' program to add first seven terms of the
+following series using a for loop :
+—+— 1 2 38
+I! 2! 3!
+5 Attempt any one part :
+(a) A-5-digit positive integer is entered through the
+keyboard write a 'C' function to calculate sum of
+digits of the 5-digit number :
+(i) Without using recursion
+(ii) Using recursion.
+(Res
+aktuonline.com aktuonline.com
+(b) Write macro definition with arguments for calculation
+of simple interest and amount. Store these macro
+definitions in file called Include this file
+a and the definitions for
+in your program, use macro
+calculating simple interest and amount.
+6 Attempt any one part :
+in that given dates.
+(a) Write a program 'C' compares two
+To store a date, use a structure that contains three
+members namely day, month and year. If the dates
+are equal then display message as "equal" otherwise
+"Unequal".
+(b) What are difference file opening modes in
+Suppose a file contains student's records with each
+record containing name and age of a student. Write
+a'C' read these records and display them
+program to
+in sorted order by name.
+7 Attempt any one part :
+given decimal
+(a) Write a 'C' program to convert a
+number to binary number using stack.
+(b) Write short notes on the following :
+(i) Dynamic Memory Allocation in 'C’
+(ii) Creation of linked list in 'C’
+602]. Mt 8 [ 35225

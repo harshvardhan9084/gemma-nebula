@@ -1,0 +1,92 @@
+aktuonline.com— aktuonline.com
+Printed Pages : 3 TIC-601
+(Following Paper 3097 ID and Roll No. to be filled | in | your | Answer Book) fj
+PAPER ID : | | [|
+B. Tech.
+(SEM. VI) EXAMINATION, 2007-08
+MICROCONTROLLER & EMBEDED SYSTEM
+lime : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+1 Attempt any four parts of the following ; §x4=20
+(a) Write salient features of microcontroller 8051.
+(b) Give the merits and demerits of CISC and RISC
+processors.
+(c) Which of the following will be more suitable
+from technical and commercial point of view :
+(i) Microprocessor based
+temperature
+measurement
+(ii) Microcontroller based — temperature
+measurement. Justity your answer.
+(d) Compare the two architectures of processor.
+(e) Give list of microcontrollers by different
+manufacturers. a How will select for
+application ? you your
+(f) What is the difference between 8 bit and
+16 bit microcontroller ?
+aktuonlindcono7) (Contd...
+aktuonline.com
+Attempt four of the following
+2 any parts : §x4=20
+(a) What are the alternate functions of port 3 of
+8051 microcontroller ?
+(b) Describe stack pointer, counter,
+DPTR of 8051. program
+(c) Explain the interrupts of 8051. How they can
+be enabled and disabled ? How priority can
+be assigned ?
+(d) Explain the following assembler directives
+(i) ORG
+Gi)
+EN
+(ii) DB
+{e) Describe mode 0 and mode | in which serial
+port can be configured.
+(f) Explain the following instructions
+of 8051
+(1) MOV X
+(i) XCH
+(ui) MVL AB.
+3 Attempt any two parts of the following : 2x10=20
+(a) Discuss the architecture of PIC microcontroller
+with the help of block diagrams.
+(b) Describe the architecture
+microcontroller with the of Atmel 89C205]1
+help of block diagram.
+(c) Discuss the following features of
+microcontroller :
+(i) Flash memory
+(it) Analog comparator.
+U-3097) 2 (Contd...
+Woe Fog 4
+aktuonline.com
+y
+aktuonline.com
+-
+4 Attempt two parts of the following : 2x10=20
+(a) How will you interface LCD with Atmel 89C51
+microcontroller ? Draw the circuits and explain
+its Operation.
+(b) How will you connect (i) electromechanical
+relay and (ii) HEX keyboard using
+microcontroller port pins ?
+(c) Explain interfacing of DAC to microcontroller.
+Write a program in assembly language for its
+operation.
+5 Attempt any four parts of the following : 4x5=20
+(a) How will frequency using
+microcontroller you ? measure
+(b) Describe microcontroller based temperature
+measurement.
+(c) Design a microcontroller based scheme for
+the measurement of load using strain gauge
+load cell.
+(d) How will you interface LVDT to microcontroller
+for the measurement of linear distance ?
+{e) Describe microcontroller based PID controller
+with the help of flow chart.
+(f) How will of | kHz
+using Timer you of generate 8051 a square pin wave P1.0. Assume
+control frequency 12 at kHz. port
+NL [ 2050 |

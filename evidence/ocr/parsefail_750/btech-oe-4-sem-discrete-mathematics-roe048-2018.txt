@@ -1,0 +1,66 @@
+Printed Pages: 02 Sub Code: ROE048
+Paper Id: | 1} 9} 4] 3} 3 Roll No.
+B. TECH.
+(SEM IV) THEORY EXAMINATION 2017-18
+DISCRETE MATHEMATICS
+Time: 3 Hours Total Marks: 70
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+Attempt a// questions in brief. 2x7=14
+a. Define partial ordering relation and give example.
+b. Define one-one onto mapping.
+c. How many generators are there of cyclic group G of order 10?
+d. Prove that V2 is irrational by giving a proof by contradiction.
+e. In how many ways can a committee of 5 teachers and 4 students be chosen from 8
+teachers and 14 students?
+f. Obtain the generating function for the finite sequence 3,3,3,3,3,3,3.
+g. Define tree and its properties.
+SECTION B
+Attempt three of the following: 7x3=21
+any
+a. Prove that the relation R in such that (a, b)R(c,d) @ (a+ d) = (c +b) for
+a,b,c,d € N is an equivalence relation.
+b. Show that [p > (¢ > r)] > [@ > gq) > (p > r)jis a tautology.
+In how team of 5 be chosen from 10 players to (a) include
+c. both many strongest ways and can the a weakest players? (b) include the strongest so as but exclude the
+weakest player?(c) exclude both the strongest and the weakest player?
+d. Solve the following recurrence equation using generating function:
+An — 9An—-1 + — = 0 for n= 3.
+e. Write a note on Coloring of graph.
+SECTION C
+Attempt any one part of the following: 7x1=7
+C
+a. If f:A > B and g: B > be one- to —one onto functions then prove that gof is also
+one- to —one onto and =
+b. Show that the set of all positive rational numbers forms an abelian group under the
+composition defined bya * b = (ab)/2.
+Attempt any one part of the following: 7x1=7
+Prove the validity of the following “if the fixed the casinos
+a. crooked, then the tourist trade argument will decline. If races the are tourist trade so decreases,
+then are the police will be happy. The police force is happy. Therefore, the
+races are not fixed.” never
+b. Verify that the two propositions ((pAq)V(pAr)) s and (~pV(~ r))Vs
+are equivalent.
+the following:
+Attempt any one part of 7Tx1=7
+a. A collection of 10 electric bulbs contain 3 defective ones (a) in how many ways can
+a sample of four bulbs be selected? (b) in how many ways can a sample of four
+bulbs be selected which contain 2 good bulbs and two defective ones? (c) in
+how many ways can a sample of four bulbs be selected so that either the sample
+contains 3 good ones and 1 defective ones or 1 good and 3 defective ones?
+b. Prove by mathematical induction that for any integer n + is divisible
+by 133.
+Attempt any one part of the following:
+a. Show that a, = is a particular relation for the relation a, +
++ = 3r?
+b. Solve the recurrence relation —2¥n41 + Yn = 2".n*by E and A operator
+method.
+of the following:
+Attempt any one part 7Tx1=7
+a. Prove that a tree with n vertices has n-1 edges and also draw the diagram of tree
+using inorder and preorder traversal of a tree.
+Postorder | 1
+p q |n r m |t u S
+Inorder p n q m |r 1 t S u
+b. that with vertices has edges.
+Prove a tree n n-1

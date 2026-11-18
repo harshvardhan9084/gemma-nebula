@@ -1,0 +1,108 @@
+'
+aktuonline.com aktuonline.com
+|
+TME - 402
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 4080
+B. Tech.
+toe
+(SEM. IV) EXAMINATION, 2007-08
+KINEMATICS OF MACHINE
+a
+Time : 3 Hours] [Total Marks : 100
+Note: (1) Attempt all questions.
+‘ (2) All questions carry equal marks.
+(3) Assume suitable value for missing data.
+1 Answer any four parts.
+(a) How many types of links you know ? Explain 5
+with examples.
+(b) Explain at least two constrained motion with = 5
+suitable examples.
+(c) Sketch and explain any two inversion of a 5
+double slider crank chain.
+nl (d) What do you mean by degree of freedom of 5
+~ a mechanism ? Explain with examples.
+(e) Determine the degree of freedom in each of 5
+the following cases shown in Fig. 1.
+U-4080) 4 [Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com
+aktuonline.com
+(ii)
+(f) Explain the methods of locating instantaneous
+centre.
+t
+2 Answer any two parts.
+(a) Explain Klein's construction to draw 10
+accelerations diagram for single slider crank
+mechanism.
+(b) What is Coriolis component of acceleration ? 10
+Derive expressions for evaluation it and
+explain an how the direction is fixed.
+(c) What are the different types of approximate 10
+straight line Motion Mechanisms ? Explain any
+one of them with neat diagram.
+3 Answer any four parts :
+Discuss the movability of four bar mechanism 5
+(a) links in arithematic
+if the length of the are
+progression.
+(b) Some four bar linkages are shown in Fig. 2. 5
+Where the numbers indicate in respective link
+length in cm. Identify the nature of each
+mechanism.
+u-4080) 2 [Contd...
+http://www.UPTUonline.com
+‘4 aktuonline.com aktuonline.com
+(ii)
+(c) Explain Freudenstein Equation for computing 5
+link length of four bar mechanism.
+a
+(d) Discuss the method of determining the angles 5
+for input and output link in a four bar
+mechanism for function generation.
+(e) Explain Three Portion Synthesis Slider Crank 5
+Mechanism.
+(f) Explailn Hart's mechanism with neat diagram. 5
+4 Answer any two parts :
+(a) (i) With neat diagram, define the terms 5+5
+‘base circle, prime circle and pressure
+angle for a Cam.
+(41) Explain with neat sketches the different
+types of Cam and follower.
+J
+(b) Establish a relation between pressure angle, 10
+distance of the location of the follower from the
+Cam a Center and the angle of rotation of a Cam
+for Cam follower mechanism with roller
+follower. Assume the follower to be an offset
+translating follower.
+ct UBTUontine.com (Contd...
+aktuonline.com aktuonline.com
+(c) A cam rotating at 150 rpm, operates a 10
+reciprocating roller follower of radius 2.5 cm.
+The follower axis a offset by 2.5 cm to the
+right. The least radius of the Cam is 5 cm.
+and the stroke of the follower is 5 cm. Ascent
+and descent both take place by uniform
+acceleration and retardation. Ascent takes place
+during 75° and descent during 90° of Cam
+rotations. Dwell between ascent and descent is
+60°. Draw velocity and acceleration diagrams.
+§ Answer any two parts :
+(a) (1) Derive an expression for velocity of 743
+sliding between pair of involate teeth.
+(ii) With the neat diagram, show the followings:
+addendum, working depth, and
+Base Circle.
+(b) Prove that in Sun and Planet gear train 10
+arrangement, irrespective of whichever wheel is
+fixed the velocity ratio is always less than or
+equal to unity.
+(c) Give the comparison between Involute and 10
+cycloidal tooth profile.
+Also derive the relation to obtain length of
+path of contact for two meshing
+having involute profile. spur gears
+U-4080) [7125]
+aktuonline.com

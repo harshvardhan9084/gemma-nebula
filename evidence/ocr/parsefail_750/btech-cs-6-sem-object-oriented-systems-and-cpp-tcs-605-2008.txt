@@ -1,0 +1,104 @@
+TCS 605
+Printed Pages : 4 -
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+B. Tech.
+(SEM. VI) EXAMINATION, 2007-08
+OBJECT ORIENTED SYSTEMS AND C++
+dime 3 Hours] Marks 100
+: :
+Note : all questions.
+(ii) All questions carry equal marks.
+four of the following §x4=20
+1 Attempt any :
+(a) Differentiate object and class with examples.
+(b) Give example of many to many association and link.
+(c) Explain generalization and inheritance.
+(d) Describe aggregation with suitable example.
+(e) Discuss the problems associated with multiple
+inheritance.
+|
+(f) What is the use of metadata ? Explain it with its
+application area.
+TNL
+2 Attempt any four among following : 5x4=20
+(a) Write scenarios for the following activities : Getting
+ready take a trip in
+to your car.
+(b) What will happen if concurrent activities are not
+synchronized ?
+(c) Drawthe nested - state diagram with generalization
+of car transmission.
+(d) Explore the relation of object and dynamic models.
+(e) diagram fora phone call.
+(f) Explain event and state.
+3 Attempt four of the followings 5x4=20
+any :
+(a) Drawthe data flow diagram for student information
+system.
+for ?
+(b) Design functional model flight simulator
+(c) Specify the operations in the above mentioned
+problem (3. a).
+(d) Prepare a data flow diagram for computing the
+volume and surface area of a cylinder. Inputs are
+the height and radius of the cylinder. Outputs are
+volume and surface
+area.
+(e) Describe the various phases of OMT methodology.
+(f) | Whatare of OMT methodology over
+traditional software development approach ?
+4 Attempt two parts of the following : 10x2=20
+any
+(a) (1) object - 'time' that has separate
+member data for hours, minutes and
+seconds. One constructor should initialize this
+data to zero and another should initialize it to
+fixed values. Amember function should display
+it, in 11:59:59 format.
+The final member function should add two
+object of 'time' passed as arguments.
+(i) Modify the'time' class in question [on 4(a)
+(1)] that instead ofa function 'add-time ( }'
+so
+it uses the overloaded + operator to add two
+times. Write a programme to test this class.
+(b) Create class 'publication' that the title (a
+a stores
+string) and price (type float) ofa publication. From
+this class derive two classes : 'book' which adds a
+page count (type int); and which adds a
+playing time in minutes (type float). Each of these
+function
+three classes should have a 'getdata ()' to
+get its data from the user at the keyboard, and a
+‘put data ( )' function to display its data. Write a
+‘main ()' the 'book' and 'tape' classes
+program to test
+by creating instances of them, asking the user to fill
+in their data with 'getdata ()', and then displaying
+the data with data ()?
+U-2063) M3
+(c) Writea that emulates the COPY command.
+program
+That ts, it should copy the contents ofa character
+file to another file. Invoke the program with two
+command - line arguments - the source file and the
+destination file like this
+:
+C>COPY srcfile.ext, destfile.ext
+Your should incorporate validations.
+program
+5 Attempt four of the followings 5x4=20
+any :
+(a) | Whats i-node? What it's each field signifies ?
+(b) | programming with high level language
+(c) explain in briefany five command related
+to system administration under UNIX environment.
+(d) | Write a
+steps to create file using vi editor.
+(e) What is meant by file permission and how is it
+modified ?
+| mounting ? Howa drive is mounted in the
+existing file system through command”
+~
+U-2063) 4 [3500]

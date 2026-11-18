@@ -1,0 +1,70 @@
+Printed Pages: 02 Sub Code:NBC401
+Paper Id: | 1} 9} 4] 4] 0) 1 Roll No.
+MCA (DUAL DEGREE)
+(SEM. IV) THEORY EXAMINATION 2017-18
+COMPUTER BASED NUMERICAL AND STATISTICAL TECHNIQUES
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+Attempt all questions in brief.
+a. Explain the floating point representation of numbers
+b. Find the absolute and relative error if is approximated by 0.6667.
+Write iterative formula using Newton-Raphson method to find the
+c. root of an a positive number. square
+d. Prove that pd <A
+= +
+e. Write the Lagrange Interpolation formula.
+f. Write Trapezoidal’s formula for numerical integration.
+g. The two regression lines are 8x — 10y + 66 = 0 and 40x — 18y = 214. Find the
+h. Explain mean values the of x Pi-Chart. and y.
+1. What is the difference term between interpolation and extrapolation
+?
+Differentiate between ill conditioned and well conditioned methods.
+SECTION B
+Attempt three of the following: 10x 3 =30
+any
+a. Find the root of the tanx + tanhx = 0 which lies in the interval (1.6, 3.0) correct
+to four significant digits using method of false position.
+b. Apply a central difference formula to obtain f(32) given that
+Apply £(25) = Bessel’s 0.2707, f(30) formula = 0.3027, obtain £(35) value = 0.3386, of for f(40) 25, = 0.3794 from the following table
+c. 20 to 24 y x 28 = 32
+x 2854 3162 3544 3992
+d. Solve y the following equations by using Gauss-Seidal iteration method
+27x + 6y 85
+6x + —z + 2z= = 72
+xty+54z=110
+e. Using Taylor’s series, find the solution of the diff. equation xy’ =x-—y,
+y(2) = 2 at x correct to five decimal places.
+SECTION C
+Attempt any one part of the following: 10x1=10
+(a) Find areal root of the equation x = e~* using the Newton-Raphson method.
+(b) Explain, what do you understand by rate of convergence and find the rate of
+convergence of Bisection method.
+Attempt any one part of the following: 10x1=10
+(a) Derive the Newton’s Forward Difference Formula.
+(b) Compute the value of f(x) for 2.5 from the following table
+1 x = 2 3 : 4
+x f(x) 1 8 27 64
+Using Lagrange’s interpolation method.
+Attempt any one part of the following: 10x1=10
+(a) Find dx approximately using Simpson’s 3/ 8" rule on integration.
+(b) Find y(2) if y(x) is the solution of 2 = 5 (x + y) using Runge-Kutta method,
+in taking h 1.0, Given y(0) 2.0.
+Attempt two steps part of the = following: = 10x1=10
+any one
+(a) What is curve fitting? Explain the method of least squares to fit a curve.
+(b) Determine the constants a and b by the method of least squares such that
+y = ae? fits the following data :
+Xx 1 5 7 12
+y 10 15 12 15 21
+Attempt any one part of the following: 10x1=10
+(a) The following table gives age (x) in years of cars and annual maintenance cost
+(y) in hundred rupees :
+x 1 3 5 7 9
+y 15 18 21 23 22
+Estimate the maintenance cost for a 4 year old car after finding the regression
+equation.
+(b) Write i) short Test notes of on significance
+ii) Regression Analysis
+ili) Chi-Square test

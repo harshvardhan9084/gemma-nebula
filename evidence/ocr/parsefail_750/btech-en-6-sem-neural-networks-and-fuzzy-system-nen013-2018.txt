@@ -1,0 +1,55 @@
+Printed pages: 0 Sub Code: NEN 013
+Paper Id: 121615 Roll No:
+B.Tech
+(SEM VI) THEORY EXAMINATION 2017-18
+NEURAL NETWORKS AND FUZZY SYSTEM
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+Attempt all questions in brief. 2x 10=20
+b) a) Describe What do you the Nerve understand by Neural Networks?
+c) What Learning Rule structure. of Neural network.
+d) How are are Neural Networks related to machine learning?
+e) What Back propogation networks?
+f) Explain are the crisp sets.
+g) Define learning in Neural Networks.
+h) Explain Fuzzy Controller.
+i) Explain the L-R Type fuzzy numbers.
+J) State the various rules for learning.
+SECTION B
+2. Attempt any three of the following: 10x 3=30
+a) Describe the Artificial Neuron and its model. Explain the working of Auto-associative
+and Hetro-associative memories.
+b) Explain the Linear Max-min composition in fuzzy sets. Describe the Fuzzy Entropy
+Theorem and describe its applications.
+c) Explain applications. the basic concepts of fuzzy logic. Explain the Fuzzy set theory and its
+d) Explain the Membership functions in fuzzy logic. Describe the Industrial applications
+of fuzzy logic.
+e) Explain the fuzzy back propagation (BP) algorithm. Also describe the effect of
+learning rule co-efficient.
+SECTION C
+Attempt part of the following: 10x1=10
+any one
+(a) How do activation functions put affect on artificial neuron? Explain various
+activation functions.
+(b) Explain Compare the it from architecture of networks. multilayer feed forward neural network with its working.
+recurrent
+Attempt any one part of the following: 10x1=10
+(a) Describe single layer artificial neural network and compare it with the multilayer
+perception model.
+(b) Describe the various methods of back propagation learning. Describe the factors
+affecting back propagation training.
+5. Attempt any one part of the following: 10x1=10
+(a) Describe Fuzzy and Crisp relations. Describe the methods for the conversion from
+Fuzzy to Crisp.
+(b) Explain the Fuzzy sets and Systems. How they are different from Crisp sets. Describe
+the Geometry and Properties of fuzzy sets.
+Attempt any one part of the following: 10x1=10
+(a) Explain the differences between Fuzzyfications & Defuzzificataions. Describe the
+Fuzzy implications
+(b) What are fuzzy if-then rules? Explain various operations and properties of fuzzy sets.
+Attempt any one part of the following: 10x1=10
+(a) Explain the function of fuzzy neutron. Describe the applications of Fuzzy Neural
+Networks.
+(b) Describe the principle of Fuzzy Neural Networks. Describe the architecture of Fuzzy
+Neural Networks.

@@ -1,0 +1,66 @@
+aktuonline.com
+aktuonline.com
+0 71 5 3
+Printed * Pages : 3 * TIT12
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+FELL
+rons,
+B.Tech
+(SEM VIN ODD SEMESTER THEORY EXAMINATION 2009-10
+MULTIMEDIA SYSTEMS
+Time : 3 Hours] [Total Marks: 100
+Note : (i) Attempt all questions.
+(ii) All questions carry equal marks.
+(iii) Be precise in your answer.
+(iv) No second answer book will be provided.
+1 Attempt any four parts : 5x4
+(a) What is multimedia ? Explain any two features
+of this technology which can be used in
+business.
+® (b) What do you mean by the authoring system ? '
+Explain in brief card paged based and iccn- —
+based event driven tools.
+(c) Differentiate between synthesized and captured
+media. Describe in brief the concept of virtual
+environment in multimedia.
+(d) Explain at least six features of an image.
+[AON
+45-0153)
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+(e) Discuss the effect of memory capacity and the Differentiate between dictionary based
+processor speed on multimedia application compression and sliding Window compression.
+development. modelling with examples
+Explain finite context
+Explain the concept of convergence of computer, and also write the algorithm for Shannon-Fano
+communications and entertainment products. coding.
+2 Attempt any four parts : 5x4 Attempt any two parts : 10x2
+{a) Explain the various multimedia building blocks. (a) Briefly explain why a bidirectional B-frame
+improves video compression rates. What
+(b) What are the audio cards used in drawbacks are there with using B-frames ?
+multimedia ? Explain the steps involved in of data redundancy
+audio digitization. (b) Describe four basic types apply
+(c) Differentiate between MIDI and digital audio. that data compression algorithms can to
+audio, image, and video. signals. architecture
+Give the formula to determine the size (in (c) Briefly describe ‘the quicktime and
+bytes) of a digital recording from a monophonic its components.
+recording.
+(d) What the need of interface design ? Explain Attempt any two parts 10x2
+five fundamental is rules for interface design in the advantages of video
+(a) (i) What are describe the MHEG
+multimedia applications. compression ? Briefly
+(e) Discuss the use of text in multimedia. Explain standards.
+the terms hypermedia and hypertext. (ii) Differentiate between a Bitmap and a
+vector drawing.
+(f) What is foni ? Explain the font designing and (b) What _ the main associated with the
+editing tools used in multimedia. operation are of MPEG stages ? Give a brief description
+role of each
+3 any two parts : of the stage.
+(a) What is the principle of arithmetic coding ? (c) Write short notes on :
+Generate the tag interval for the alphabet (i) Lossy Graphic Compression
+={x1,
+A (ii) Zig Zag Coding
+p(x2)=0.1 and: p(x3)=0.2. (iii) Multimedia Broadcast Services.
+&
+J3-0153) 2 35-0153] 3 [ 3100 |
+aktuonline.com http://www.U! TUonline.com

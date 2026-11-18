@@ -1,0 +1,58 @@
+aktuonline.com aktuonline.com
+Printed * u Pages - 4 2 8 1 7 0 * TME-026
+: ‘
+PAPER ID : 0488
+B. Tech.
+(SEM. VIII) EXAMINATION, 2007-08
+CONCURRENT ENGINEERING
+[Total Marks 100
+Time : 3 Hours] ;
+Note : (1) Attempt all the questions.
+(2) All questions carry equal marks.
+(3) Be precise in your answer.
+(4) No second answer book will. be provided.
+1 Attempt any two parts of the following : 10x2=20
+(a) Explain the basic concept of concurrent engineering
+with proper examples. Describe with suitable
+example, the basic steps to be followed in
+concurrent engineering.
+(b) Discuss with suitable example the challenges faced
+by modern production environment.
+(c) With the help of neat sketch, explain organizational
+structure with reference to concurrent engineering.
+Also discuss the activities and duties of team.
+2 Write short notes on any two of the following : 10x2=20
+(a) Quality Function Deployment (QFD)
+(b) Life Cycle Costing (LCC)
+(c) Modelling of CE design.
+v-0488) HN 1 [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+Attempt any two parts of the following : 10x2=20
+(a) Discuss with suitable example, the role of DFM
+in concurrent engineering. Also discuss DFM
+guidelines.
+(b) Explain the methods for design for
+computer
+manufacture (DFM) and design for assembly
+(DFA). Also discuss the DFM/DFA software.
+(c) Explain with suitable example, the difference
+between conventional quality and Taguchi’s quality.
+Also discuss Taguchi’s design method.
+Attempt any two parts of the following : 10x2=20
+(a) What do you understand by robust design? Also
+discuss cause and effect analysis.
+(b) What do understand by Taguchi’s loss
+you
+function? Also discuss the design and disturbance
+factors (noise) affecting the quality.
+(c) Write short notes
+on :
+(i) S/N Ratio
+(iil) Tolerance design
+Write short notes on any two : 10x2=20
+(a) Decomposition in concurrent design
+(b) Causes of unreliability
+(c) Some aspects of design for economics.
+2 [1700 |
+aktuonline.com

@@ -1,0 +1,44 @@
+Printed pages: 1 Sub Code: EEE-062
+Paper Id:120814 Roll No.
+B.TECH
+(SEM VI) THEORY EXAMINATION 2017-18
+SCADA & ENERGY MANAGEMENT SYSTEM
+Time: 3 Hours Total Marks 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2 x10
+a) Explain why SCADA in needed?
+b) What do you mean by RTU? Also explain its applications.
+c) Explain status indicators in SCADA.
+d) e) What What do do you mean by by data logging preparations? in SCADA?
+f) What you the applications mean report of line carriers.
+g) Explain are the configuration of power non redundant single processor system.
+h) What are the advantages of energy management system?
+i) What are the limitations in real time operation system requirements in SCADA systems?
+j) What are the printing facilities in machine communications
+SECTION B
+2. a) Attempt Explain the any general three of the following: of SCADA its and advantages. 10x3=30
+b) Explain the set points structure and feedback a loops in system, regulatory purpose systems.
+c) Explain Man machine communication system and its components in detail.
+d) Explain real time operation system and its requirement. Also explains modularization of software
+programming languages.
+e) What are functions performed at a centralized energy management system? Explain in detail.
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+(a) Explain different methods used for data acquisition ina SCADA system.
+(b) — Explain different types of communication channel required in the SCADA system.
+4. Attempt (a) any one the part application of the following: of control function for the in industry. 10x1=10
+— Explain data acquisition with the help of block diagram process and an explain each
+(b) of the system. system component
+5. Attempt any one part of the following: 10x1=10
+(a) | What do you mean by mimic diagrams in SCADA system? Explain its different
+functions and advantages.
+(b) Explain operator consoles and VDUs functions in man machine communication system.
+6. Attempt any one part of the following: 10x1=10
+(a) Explain the configuration of redundant dual core processor and multicontrol centers.
+(b) | What do you mean by EMS and where does it fit in the network? Also give some
+differences between SCADA and EMS.
+7. Attempt any one part of the following: 10x1=10
+(a) Define economic dispatch and power pool management and their significance in SCADA
+(b) — Explain System load management and production control in management center.
+energy

@@ -1,0 +1,118 @@
+Printed Pages 4 EC-402
+:
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER 3037 Roll No. [TTI | | [|
+B. Tech.
+(SEM. IV) EXAMINATION, 2006 - 2007
+SIGNALS & SYSTEMS
+Time : 3 Hours] [Total Marks : 100
+Note Attempt all questions.
+:
+1 Attempt any four parts of the following : 5x4=20
+(a) A discrete time signal x(7) is defined as
+-38<ks-l
+3
+x(k) =< 1, O<sk <3
+0, otherwise
+(1) Determine its values and sketch the signal
+x(k).
+(2) Sketch the signal x(—m +4)
+(b) For the following systems, determine whether or not
+the system is
+Stable
+(2) Causal
+(3) — Linear
+(4) Memory less
+(i) T[x(n)] X(n- Ny)
+=
+(ii) T [x(n)]
+V-3037] 1 {Contd...
+() (1) Show that the complex exponential
+signal is periodic.
+x,(t)
+(2) Let and x,(¢) be periodic signals with
+fundamental periods T, and Under what
+condition § is the sum
+periodic.
+(d) Explain the properties of continuous time LT] system.
+(e) Let and
+* = f,@) with LTI system show that
+x(t) * f(t) x(t) * (t) *h(O}
+=
+(f) Consider a sequence x(7)
+O<n<4
+otherwise
+=0
+Find its discrete time Fourier transform
+Attempt any four parts of the following : 5x4=20
+(a) Find the Fourier transform of
+=0 Vt<0
+(b) Describe the time domain properties of ideal frequency
+selective filters.
+(c) Design band filter that has the of its
+a pass centre
+pass band at = > Zero in its frequency response
+= -
+characteristic at y» =) and w= and its magnitude
+1 4n
+response iS S at L=—., 9
+2 [Contd...
+Determine the Fourier transform of the signal
+-M<n<M
+= 0, elsewehre
+(e) Determine the output of relaxed linear time-
+a
+invariant system with impulse response
+h(n) = <1 when the input is a unit
+step sequence, that is x(7)
+(f) Determine transform of the function
+the Fourier
+y(n) = x(n) * A(n).
+3 Attempt any two parts of the following : 10x2=20
+(a) (i) Show that distribution function
+f
+fy (x)dx where fy (x) — 00
+the density function of random variable x.
+(i) A probability density function is given as
+fy (x) X is the random variable,
+=a
+x=-o to x=0o. Determine the
+relationship between a and b.
+(b) A joint density function of the random variables X
+and ¥ is given as
+e-(x+y) for x29. y>0
+hy vy = otherwise
+Determine the followings :
+d) P(X
+(2) P(X>Y)
+(c) State different properties of probability density function
+and probability distribution functions.
+V-3037] 3 {Contd...
+4 Attempt any two parts of the following : 10x2=20
+(a) State and prove sampling theorem.
+(b) Compute the Fourier transform of the following
+signals :
+2”
+=
+1)"
+2) u(n+4).
+(c) Explain the discrete time processing of continuous
+time signal ? To achieve this give the Block diagram
+of a system.
+5 Attempt any two parts of the following : 10x2=20
+(a) Find z-transform and also the frequency response of
+(3)
+h(n) 1 (1 7 + y U(71)
+= 4) locate the zeros
+and poles in
+(b) Determine the z-transform of the signals and ROC
+of the following :
+x(n) =na"u(n)
+a”
+(2) (-1) —u(n-1)
+n
+(c) Using z-transform find the convolution two signals
+x, (7) = {1, -2, 1}
+(n) 1, O<n<5
+v5 - = 0, elsewhere
+4 { 1575 ]

@@ -1,0 +1,141 @@
+http://www.aktuonline.com
+* 1 4 3 6 * MCAS02(1)
+Printed Pages: 4
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+1436 aa
+|
+M.C.A
+(SEM V) ODD SEMESTER THEORY EXAMINATION 2009-10
+MULTIMEDIA SYSTEMS
+Time : 3 Hours] {Total Marks: 100
+(i) Attempt iP all q questions.
+(ii) Each question carries equal marks.
+1 | Attempt any four parts : 5x4=20
+(a) What do you understand by the term
+multimedia ? Describe how can multimedia
+be useful in business domain.
+(b)
+Discuss the hardware requirements of
+multimedia systems.
+(c) Determine the rate of the sample in an
+encoder which is to be used for the digitization
+of analog signal which had bandwidth
+an a
+from 15 Hz through to 10 kHz assuming
+the digitized signals ;
+(i) is to be stored within the memory of
+a computer
+(i) is to be transmitted channel
+over a
+which has a bandwidth from
+200 Hz to 3.4 kHz.
+[Contd... .
+http:// www.aktuonline.com
+(d) Why do we need authoring tools ? Discuss
+the salient features that are to be considered
+while purchasing authoring software.
+general an guidelines that useful
+Whar are the are
+im designing interactive multimedia ?
+Discuss various phases in multimedia
+application development.
+2 Attempt any four parts - 5x4=20
+, (a) What do you understand by MIDI ? How MIDI
+files different from digital audio ?
+(b) What are the various audio file formats ?
+a are
+Explain them briefly.
+(c) Calculate the size of 1 minute, 44.1 kHz,
+16-bits stereophonic sound file.
+(d) Discuss the use of text in multimedia. Explain
+the term hypermedia and hypertext.
+(e) What is the amount of memory that is
+required to store a 256-color image with
+each of the display sizes
+:
+@) 1024x768
+(i) 1280x1024
+(f) Explain any one dictionary based text
+compression technique.
+3 Attempt 10x2=20
+any two parts : following
+(a) In context to flash explain the :
+(i) Lavers and frames
+(ii) Tweening of the shapes
+(ii) Symbols
+(iv) Sound addition to a movie
+2
+15-1436)
+tb) Assuming the bandwidth http://www.aktuonline.com of a speech signal
+is from 50 Hz through 10 kHz and that
+to
+of a music signal is from 15 Hz through to
+KHz. derive the bit rate that is generated
+dy the digitization procedure in each case
+ing the Nvquist sampling rate is used
+its sample for the speech signal
+per
+and 16 bits per sample for the music signal.
+Derive the memory required to store a
+10 minute passage of stereophonic music.
+What is Data Compression ? Why is
+compression required in multimedia ?
+system
+What are the various compression techniques ?
+Answer any : 10x2=2(
+(a) A series of messages is to be transmitted
+between PSTN. The
+two computers over
+messages comprise just the characters A
+through H. Analysis has shown that the
+probability (relative frequency of occurrence)
+of each character is as follows :
+A and B 0.25, C and D 0.14
+= =
+E, F, G and H =0.055
+(i) Use Shannon's formuia to derive the
+minimum average number of bits per
+character.
+(ii) Use Huffman coding derive
+to a
+code word set and construct the
+corresponding Huffman code tree.
+formation fonhtte
+"WYS*WYGWYS*WYSWYSG".
+Attempt any two parts : 10x2=20
+(a) Explain different aspects of video signal
+representation. Explain various frames
+supported by MPEG standard.
+(b) Explain all the steps of JPEG image
+compression standard.
+(c) Discuss MHEG standard.
+}
+1436) [3475
+http://www.aktuonline.com
+(iii) Derive the number of bits
+average
+per character for your code word set
+and compare this with 7-bit ASCII
+code words.
+(b) What do you mean by speech compression ?
+Discuss various techniques of speech
+compression.
+(c) (i) Differentiate between :
+(a) Static and dynamic coding
+(b) Bitmap and vector drawing
+images.
+i.
+(i) Show all the steps of LZW
+compression including dictionary
+formation for the text string
+.
+5 Attempt any two parts : 10x
+(a) Explain different aspects of video signal
+representation. Explain various frames
+supported by MPEG standard.
+(b) Explain all the of JPEG image
+steps
+compression standard.
+(c) Discuss MHEG standard.
+JJ-1436] toe Fo
+- 8 #

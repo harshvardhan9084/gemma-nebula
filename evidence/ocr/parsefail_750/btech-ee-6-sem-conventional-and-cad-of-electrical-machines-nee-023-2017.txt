@@ -1,0 +1,58 @@
+Printed Pages : 2 Roll No. NEE023
+B. TECH.
+THEORY EXAMINATION (SEM-VI) 2016-17
+CONVENTIONAL & CAD OF ELECTRICAL MACHINES
+Time 3 Marks 100
+: Hours Max. :
+Note Be precise in In of numerical problem data wherever not provided.
+: your answer. case assume
+SECTION-A
+1 Explain the following: (10x2=20)
+a) What are the limitations in designing of machines?
+b) Write output design equation of core and yoke of a transformer.
+c) What is specific electrical loading?
+d) Give classification of insulating materials.
+e) Write down the factors affecting the size of rotating machines.
+f) Give basic difference between single layer and two layer winding.
+g) Define standardization.
+h) Write down the advantages and limitations of computer aided design.
+i) Define electrical specific loading
+j) Define dielectric losses.
+SECTION-B
+2 Attempt five of following: (10x5=50)
+any the
+a) Explain the method of determination of full load mmf for a salient pole synchronous generator.
+b) Discuss an arrangement of low voltage and high voltage winding on core of 3-phase core type and
+3-phase shell type transformers.
+c) Show that electrical specific loading of a rotating machine is constant provided that current
+density, ratio of conductor to slot area, ratio of slot width to the slot pitch and the slot depth area
+are constant.
+d) Explain continuous rating, short time rating and intermittent rating with reference electrical
+to
+machines.
+e) Derive the output equation for a 3-phhase shell type transformer. State the assumption made.
+Explain why stepped ore is used in transformers.
+f) What is dielectric loss, loss angle and power factor? Explain with the help of equivalent circuit and
+phasor diagram.
+g) (i) What are the desired properties of magnetic materials used in electrical machines?
+(ii) What is the effect of class of insulating materials used in electrical machines?
+Explain Simpson’s rule find the ampere/turn/m in teeth of the electrical machines.
+h) to out
+SECTION-C
+Attempt any two of the following: (15x2=30)
+3 Draw a flow chart and make a program to determine main dimensions, stator slots, conductor
+per slot, and winding details of a three-phase alternator. Mention the input data required in the
+programme.
+4 Design the stator frame for a 500 KVA, 6600 V, 50 Hz, 12-pole, star connected, three phase
+salient pole alternator, giving the following information:
+(1) Internal diameter and gross lengths of stator frame.
+(ii) Number of stator conductors.
+(iii) Number of stator slots
+Specific magnetic loading = 0.6 tesla
+Specific electric loading = 26000 ampere conductor per meter
+Assume other data needed if any.
+(1) What is gap expansion factor? How does it affect the calculation of ampere turns of air gap
+of induction motor?
+(ii) What changes would suggest in the design of a3 phase squirrel induction motor
+achieve increased starting you torque? cage
+to

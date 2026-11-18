@@ -1,0 +1,76 @@
+Printed Pages : 4
+| | |
+NMCA012/MCAE-12
+4 430
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+_|
+MCA
+(SEM. IV) THEORY EXAM. 2014-15
+CLIENT SERVER COMPUTING
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt the questions as indicated.
+Q1. Attempt any four questions from the following: 5x4=20
+(a) Differentiate between centralized and distributed
+(b) the difference between database schema and
+database state?
+(c) Discuss the advantages of a three-tier client server
+architecture two-tier client architecture.
+over server
+214430] 1 [Contd...
+(d) Discuss the
+role of object technology in client/ server de-
+velopment.
+Is it always beneficial to go for client/ server computing?
+Yes or No? Explain. Give certain applications where it is
+not recommended to C/S computing.
+use
+(f) Discuss some of the ways to improve performance in
+client/server developed applications.
+Q2. Attempt four questions from the following: 5x4=20
+any
+(a) What is meant by object linking and embedding (OLE)?
+Explain.
+(b) Discuss the role of server in detail.
+() Compare object oriented and relational management
+system features.
+(d) Discuss the distributed computing environment (DCE)
+architecture in detail.
+Discuss the OSI refererence model in detail.
+Explain Asynchronous Transfer Mode (ATM).
+214430] 2 [Contd...
+Q3. Attempt any Avo questions from the following: 10x2=20
+(a) Discuss the client/server development
+systems
+methodology in detail.
+(b) Write short notes on the following :
+(i) X-terminals
+(ii) UNIX work station.
+What is meant by WAN? Discuss the various WAN
+technologies in detail.
+Q4. Attempt fwo questions from the following 10x2=20
+any :
+(a) Discuss the various LAN and Management issues in
+detail.
+Describe
+(b) the following :
+(i) RAID-DISK
+(ii) Optical disk
+(ili) NICs
+{c) Write short notes on the following :
+(i) Software Distribution in C/S Environment
+(ii) MTTR and MTBF
+214430] 3 {Contd...
+QS. questions from the following: 10x2=20
+fwo
+(a) Discuss the various training advantages of GUI
+applications in detail.
+(b) Write short notes the following
+| on
+(i) Expert systems
+|
+Gi) POS
+(c) Describe the following
+(i) Text-management
+process
+(ii) Emergency Public safety
+214430] 4 [555]

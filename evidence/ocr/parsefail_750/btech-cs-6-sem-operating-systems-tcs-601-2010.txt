@@ -1,0 +1,79 @@
+12800
+Printed Pages ~4 601
+Paper TD and Roll No. to be filled in your Answer Book)
+Roll No.
+B.Tech.
+(CEM Vi) EVEN SEMESTER THEORY EXAMINATION,
+_/ 2009-2010
+A
+OPERATING SYSTEMS
+Tine Total
+: 3 Hours Marks : 100
+Neie : (i) ALL the quest‘ons.
+(ji) carry inarks.
+1. Attempt any four of the following : (4x5=20)
+(ay ite ad of Datch
+processing system.
+(b} What are the inajor functions of operating
+system ?
+(c) Explain the main features of an real time
+& operating system
+(d) Draw the layered structure of operating
+system. an
+Discuss the evolution of operating system.
+down about the following in brief :
+(a} System protection
+(b) System components
+TCS — 601 1 {Turn Over
+2. Attempt four of the (4x5=20) (c) Explain the different conditions of deadlock.
+any parts :
+(a) the state the transaction. process state and (a) Write down the methods for deadlock
+cm) Pravicte the Gf prevention. scheduling in
+problem. ©) Discuss about Multiprocessor
+(c) Explain the binary semaphores with an brief.
+example. the recovery from deadlock is done
+What do understand by concurrent using combined approach ?
+proprocess you ? Explain with an example.
+Write a brief note Process
+Communication. Attempt any two parts of the following : (2x10=20)
+(f) How concurrency problems are solved with
+Producer and Consumer problem ? (a) Discuss the paging details. system Also for memory give it,
+management and ir disadvantages.
+advantages
+3. Attempt any four paris of the following : (4x5=20) about following in details :
+(a) What do you understand by CPU (b) Discuss
+Scheduling ? Which one is best and why ? (i) | Demand paging
+(b) Calevlate around time and waiting
+time for following processes, if these (ii) Thrashing
+processes are using : ae
+(i) What do you understand by Page
+(i) SJF replacement ? Mame the alearithm
+(ii) FCFS available for Page replacement.
+Process Arrival time Burst time
+(ii) How many Page faults occur for
+P, 0 8 optimal Page replacement algorithm
+P, 1 4 with following reference string for
+four page frames :
+2 9 7, 8,
+Py 3 5 1, 2, 3, 4, 5, 3, 4, 1, 6, 7, 8, 7, 8, 9,
+9, 5, 4, 5, 4, 2
+TCS 601 TCS—601 3 (Turn Over
+—
+5. Attempt of the following (2x10=20)
+any two parts :
+(a} Explain the file system and its function and
+how system calls are related with file system.
+(b) Write short following
+notes on :
+(i) Memory mapped I/O.
+Method for file.
+iii) Direct Access
+(c) (i) Write down the criterion for selection
+of disk-scheduling algorithm.
+(ii) Suppose, numbered a 0 disk have 4999. 5000 The cylinders, drive is
+i, currently sending to request at cylinder
+143 and the previous a was a cylinder
+125. The queue of pending request in
+FIFO order is 86, 1470, 913, 1774, 948,
+1509, 1022, 1750, 130.
+4

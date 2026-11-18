@@ -1,0 +1,81 @@
+aktug
+ri ll
+Printed Pages : TEES02
+ing Paper ID and Roll No.-to be filled in your Answer Book)
+B.Tech
+(SEM V) ODD SEMESTER CONTROL THEORY EXAMINATION 2009-10
+SYSTEM
+Time Aours] {Total Marks
+: 3 : 100
+Note Atiempt all questions.
+:
+1 Attempt any four parts: 4x5=20
+(a) Explain open loop and closed loop controls with
+the help of suitable examples.
+(b) Discuss the effect of feedback on the following :
+(@)
+(i)
+(itt) Error.
+(c) Find the transfer function of the system shown
+in the fig.1 using Mason's 8 gain formula
+(d) Explain block diagram reduction technique to
+determine transfer function of a complicated
+system.
+EEE
+- 0 © 6
+aktuonline.com http://www.UPTUonline.com 2
+aktuonline.com aktuonline.com
+(e) For the system represented by the following Attempt any two parts : 2x10=20
+equations, find the transfer function X(s)/U(s) by (a) (1) Determine the values of K>0 and a>0,
+signal flow graph technique : so that system having :
+Xy= _ agXy +8,U : H(S)=1 oscillates at a frequency 2 rad/s,
+(ii) Find the stability of the following
+2 Attempt any four parts 4x5=20 Polynomial by Hurwitz criterion
+(a) For the system shown in the fig 2 (i) determine
+& and without Kp (ii) Kp . for § 0.60 (b) Discuss the
+, = principle constructional feature and working
+with controller. (c) of AC servomotor.
+Draw the root locus plot of :
+-
+(S+5y)(S+15)
+and also comment its stability.
+on
+Attempt two
+(aj Establish any the parts correlation : between 2x10=20
+(b) Derive the formula for Peak overshoot, Rise time and frequency time response
+and Peak time. with explain with diagrams. response analysis and suitably
+(c) Discuss the PI and PID controllers their (b) Draw the Plot function
+applications and their error constant. bode of the given
+(d) A unity feedback system is characterized by the
+open loop transfer function 2 }
+1 :
+G(S)= SO5S+1)
+Sketch the
+Determine the steady state errors for unit step and Nyquist plot for the following
+unit ramp input. Also determine the damping ratio transfer function
+and natural frequency of the dominant roots. G(S)H(S)
+(©) a general second order systems find the = 5 24
+c(t), when input is step.
+For K>0,
+43-2056) (Contd...
+aktuonline.com http://www.UB Uonline.com
+aktuonline.com aktuonline.com
+5 Attempt any two parts : 2x10=20
+(a) Express the following open loop transfer function
+in closed loop form using unity feedback. Draw
+the signal flow graph
+:
+CS)_ 8
+RS)
+(b) Design the lead compensator for a unity feedback
+control system with open loop transfer function J
+CSF _ «kK
+Such that velocity K, =10 and
+error constant
+phase margin of the system be at least 45°.
+|
+(c) Discuss the working of the Lag-Lead
+Compensator. Sketch the Bode Plot of Lag-Lead
+compensator. Give the design steps of a lag
+compensator. .
+£5500 }

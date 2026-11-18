@@ -1,0 +1,62 @@
+Printed Pages: 02 Sub Code: NAG601
+Paper Id: | 1} 8} 0} 6} 1) 1 Roll No.
+B.TECH
+(SEM VI) THEORY EXAMINATION 2017-18
+IRRIGATION & DRAINAGE ENGINEERING
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+a. What do you mean by irrigation?
+b. What are the benefits of irrigation?
+Cc. What is surface irrigation?
+d. What are different methods of measuring irrigation water on the farm?
+e. What do you mean by drainage?
+f. What are the objectives of drainage?
+g. What are the instruments is used for measurement of evaporation
+h. Enlist different methods of measurement of soil moisture?
+1. How do you determination depths in furrows by which method?
+What is Bio-Drainage?
+SECTION B
+2. Attempt any three of the following: 10x3 =30
+Derive Israelson’s equation for border irrigation?
+b. a. How do irrigation water with the help of Parshall flume?
+Differentiate you between measure submerged orifice and free flow orifice with neat
+diagram
+How do you measure irrigation water with the help of Parshall flume?
+d. Differentiate between gridiron and interceptor drains?
+e. A stream of 135 lit/sec was delivered from a canal and 100 lit/sec was diverted
+to the field. An area of 1.6 ha was irrigated in 8 hrs. The effective root zone
+depth is 1.8 m. The runoff loss in the field was 432 m>. The depth of water
+penetration varied linearly from 1.8 m at the head of the field to 1.2 m at the
+tail end. Available moisture holding capacity of the soil is 20 cm per m depth of
+soil. Determine the water conveyance efficiency, water application efficiency,
+water storage efficiency and water distribution efficiency. Irrigation was started
+at a moisture extraction level of 50% of the available moisture?
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+(a) Explain the terms ‘Crop water use efficiency’ and ‘Water storage efficiency’
+(b) List out the various methods of determination of hydraulic conductivity and
+derive the equation for hydraulic conductivity by auger-hole method with neat
+sketch
+Attempt any one part of the following: 10x1=10
+(a) Determine the size of the tile required the end of 300 long tile line, if the
+drainage coefficient is 1.2 grade at is 0.2 percent a and m tile spacing is 60
+Mannings roughness coefficient cm, for tile drains is 0.04. m.
+(b) Derive Ernst equation with neat sketch for steady state flow.
+Attempt any one part of the following: 10x1=10
+(a) Define salt balance? Classification and reclamation of saline and alkaline soils -
+explain?
+(b) Differentiate between Leaching Requirement and Leaching Ratio? Calculate the
+Delta for kharif crop having Duty as 2500 ha/cumec. (B for kharif=123d)
+Attempt any one part of the following: 10x1=10
+(a) Design an irrigation channel to carry 45 cumec of discharge by Kennedy’s
+method. The channel is to be laid out at slope of 1 in 4500. The critical velocity
+ratio (CVR) of the soil is 1.1. Use cutter’s coefficient n = 0.023. Assuming side
+slopes of the channel is 0.5:1.
+(b) | Explain about components and hydraulics of border irrigation method.
+Attempt any one part of the following: 10x1=10
+(a) Differentiate diagram. between submerged orifice and free flow orifice with neat
+(b) Derive Hooghoudt’s equation for spacing of tile drains under steady state
+conditions with neat sketch. Also state assumptions.

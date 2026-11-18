@@ -1,0 +1,39 @@
+www.aktuonline.com
+Printed pages: 2 AG304 and acceleration during outstroke and return stroke
+of the follower.
+(Following code and roll No. to be filled in book) 9 State and prove the law of gearing.
+paper your answer d. Explain followings (a) Degree of freedom (b)
+Paper code: 180311 Roll No. elements (c) links (4) pairs (5) kinematic chain
+e. Define functions of clutch and explain different
+types of clutch
+B TECH
+(SEM IIT) THEORY EXAMINATION 2014-15 SECTION - C
+THEORY OF MACHINES Attempt any two questions: (2*10=20)
+Q.3 A Porter governor has equal arms each 250 mm long
+TIME: 2 Hours Total Marks: 50 and pivoted on the axis of rotation. Each ball has a mass of 5
+kg and the mass of the central load on the sleeve is 25 kg.
+Note: Attempt all questions. The radius of rotation of the ball is 150 mm when the
+SECTION - A governor begins to lift and 200 mm when the governor is at
+Q1. Attempt any five questions: (5*3=15) maximum speed. Find the minimum and maximum speeds
+and range of speed of the governor.
+a. Explain with sketches the different types of cams and Q.4. Explain the procedure to construct Klein’s construction
+followers. to determine the velocity and acceleration of a slider crank
+b. State and prove the Kennedy’s theorem of this mechanism.
+instantaneous Centre. Q.5. A 100 mm wide and 10 mm thick belt transmits 5kw
+c. Derive an expression for the acceleration of a slider between two parallel shafts. The distance between the shaft
+cranks mechanism. centers is 1.5 m and the diameter of the smaller pulley is 440
+d. What is the function of a flywheel? How does it mm. The driving and the driven shafts rotate at 60 if rpm and
+differ from that of a governor? pulleys 150 rpm respectively. connected by: Find the stress in the belt the two
+e. Why is balancing of rotating parts necessary for high are (1) An belt, and
+speed engines? open
+f. What do you understand by gear train discuss the (2) A cross belt. The coefficient of friction is
+various types of gear train. 0.22.
+g. Explain the phenomena of ‘slip’ and ‘creep’ in a belt
+drive. Q.6. In an epicylic gear train, an arm carries two gears A
+SECTION - B and B having 36 and 45 teeth respectively. If the arm rotates
+Q2. Attempt three questions: (3*5=15) at 150 r.p.m. in the anticlockwise direction about the centre
+any of the gar A which is fixed, determine the speed of gear B.
+Describe various inversions of slider crank mechanism.
+b. a. Draw the displacement, velocity a and acceleration
+diagrams for a follower when it moves with simple
+harmonic motion. Derive the expression for velocity

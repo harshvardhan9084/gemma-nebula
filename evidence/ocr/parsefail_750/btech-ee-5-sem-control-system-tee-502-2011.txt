@@ -1,0 +1,77 @@
+aktuonline.com
+aktuonline.com
+Printed Pages—6 TEESO02
+B.Tech.
+(SEM. V ) THEORY EXAMINATION 2010-11
+CONTROL SYSTEM
+~ Time 3 Hours Total Marks 100
+: :
+Note : .-Attempt all questions. Each question carries equal marks.
+1. Attempt any two of the following (10x2=20)
+parts :
+©
+(a) Evaluate for a system whose block diagram
+1 2
+representation is shown in following Figure 1 (4) using
+block diagram reduction method.
+» Figure
+TEES02/VEQ-14965 1 {Turn Over
+aktuonline.com
+aktuonline.com
+‘>. flow graph representation for a control system
+«rose block diagram is given in the following Figure 1 (B).
+Find overall transfer function using Mason's gain formula.
+1
+‘igure (B)
+(c) Find the transfer function X(s)/E(s) for the
+electromechanical system shown in following Figure | (C).
+Figure 1 (C)
+Attempt any two parts of the following : (10x2=20)
+igi The transfer function of a control system is given
+OV:
+16
+Zz
+aktuonline.com http://www.UPTUonline.com
+aktuonliné.com aktuonline.com
+It-is desired that the damping ratio is 0.8. Determine the
+derivative rate feedback constant K and compare rise time,
+peak time, maximum overshoot and steady state for
+error
+unit ramp input without and with derivative feedback
+control.
+(b) The maximum overshoot ofa unity feedback control system.
+having its forward path transfer function as
+G(S)=K/S(1+ST) is to be reduced from 60% to 20%. The
+input is unit function. Determine the factor
+system an step
+by which K should be reduced to achieve aforesaid ---
+reduction.
+(c) Acontrol system is shown in following Fig. 2 (C)
+(C)
+Figure 2
+Determine the transfer function and derive an expression
+relating the output and time if the input is a step having a
+magnitude of 2 units.
+T /VEQ-14965 Com http://www.UPTUonline.com 3 {Turn Over
+aktuonline.com aktuonline.com
+», Attempt any two parts of the following : (10x2=20)
+(a) Construct the state model for system characterised by
+a
+the differential equation :
+3
+6 + 6y =u.
+Give the block diagram and signal flow graph representation |
+of the state model.
+(b) The open loop transfer function ofa unity feedback control
+system is given by :
+5)"
+Design suitable compensator such that the system will
+have a 10 and PM. = 50°,
+(c) is described by the equations :
+f0 fo
+1
+X,/=|0 O 1
+x,| [-6 -ll -6]|x, 1
+y=[1 1 0] ws
+Find if the system is completely observable. If not, find the Leal
+mode which is not observable.

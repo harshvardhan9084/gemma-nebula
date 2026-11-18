@@ -1,0 +1,41 @@
+Printed Pages : 1 | | TTT EIT505
+B.TECH.
+THEORY EXAMINATION (SEM-VI) 2016-17
+INFORMATION SECURITY AND CYBER LAWS
+Time : 3 Hours Max. Marks : 100
+Note: Be precise in In of numerical problem data wherever not provided.
+your answer. case assume
+SECTION-A
+Attempt ALL questions. 10X2=20
+What is the need of digital signature?
+Differentiate between Worm and Virus.
+What is Trojan horse?
+What is the need of information security?
+What is Database Security?
+Why is cyber Security important?
+What is Encryption?
+Why do we need information security?
+What are the security Issues in Hardware?
+Differentiate between symmetric key and asymmetric key algorithm.
+SECTION-B
+Attempt questions. 5X10=50
+any FIVE
+What is a firewall? Explain its different types in detail.
+Write short notes on CCTV and its application.
+What is application development security? Explain in detail.
+What do you understand by information security governance and risk management?
+Discuss the ethical and legal issues in software piracy.
+What are the steps involved in developing an information System?
+Explain Security Architecture & Design with Diagram.
+What is Physical Security? Write down the basic tenets of physical security.
+SECTION-C
+Attempt any TWO questions. 2X15=30
+3 Explain security threats to E-Commerce in detail. Also explain its types.
+4 What are the provisions of IT Act, 2000? List its advantages and limitations.
+5 Write short note
+on:
+i) WWW policy
+li) E-mail Security policy
+ili) Information Security Process
+iv) Patent Law
+v) Copy Right Law

@@ -1,0 +1,120 @@
+-aktuonline.com . aktuonline.com a
+Printed Pages : 4
+0
+EIT-701
+|
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 113702
+B. Tech.
+(SEM. VII) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+CRYPTOGRAPHY AND NETWORK SECURITY
+Time : 3 Hours] [Total Marks : 100
+Attempt four questions (5x4=20)
+1 any ;
+(a) Explain Feistel Encryption and Decryption
+algorithms. What is the difference between Diffusion
+and Confusion?
+(b) Compare and contrast substitution techniques with
+Transposition techniques under classical encryption.
+(c) What is the most security-critical component of
+DES round function? Give brief description of
+a
+this function.
+(d) What is the difference between block cipher and
+stream cipher? What are the different modes of
+of them.
+block cipher operation? Explain any one
+(e) What is the idea behind meet-in-middle attack?
+How it can be avoided in 3 DES?
+113702] 1 | Contd...
+aktuonline.com ktuonline. http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+The Hill Cipher uses the following key for
+enciphering the message.
+[3] 3 2
+K=
+Obtain the decryption key used for deciphering
+the cipher text.
+2 Attempt any four questions : (5x4=20)
+(a) Describe RSA algorithm, encryption and decryption
+function, In RSA, given e=07 and n=33, encrypt
+the message “ME” using 00 to 25 for letters
+A to Z.
+(b) Write the pseudo code for Miller Rabin primality
+testing. Test whether 61 is prime or not using the
+same Miller Rabin test.
+(c) Describe the Fermat’s Little Theorem. Using
+Fermat’s theorem, find the value of 3°” mod 11.
+(d) Define Ring and Field. Give an example of ring
+which ts not a field.
+(e) Illustrate the concept of Chinese Remainder
+Theorem. By using Chinese Remainder
+Theorem solve the simultaneous congruence
+X 2 mod P for all P € {3, 5, 7}
+Describe = Diffie-Hellman Key Exchange Algorithm.
+Users A & B the Diffie-Hellman key exchange
+technique use prime q=83 and a primitive
+=13. a common
+i. root private key what is A’s
+If user A has 5,
+public key?
+i If user B has private key 12, what is B’s
+public key?
+ii, | What is the shared key?
+113702] 2 { Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+questions (10x2=20)
+3 Attempt any two :
+(a) Write the Digital Signature Algorithm (DSA) of
+Digital Signature Standard. What is the implication
+if same K (secret per message) is used to sign
+two different message using DSA?
+(b) What are the requirements of a Message
+Authentication Code (MAC)? Discuss the logical
+and algorithmic steps of
+structure, components
+algorithm.
+(c) (i) between the following:
+a) Hash Code and Message
+Authentication Code (MAC)
+b) Weak collision resistance and Strong
+collision resistance.
+(i) Describe birthday attack against hash
+basis any of the
+function. Give the mathematical
+attack.
+4 Attempt any two questions : (10x2=20)
+(a) Enlist various services supported by S/MIME.
+Explain how S/MIME supports these services.
+What is the of content type field in
+purpose
+MIME header ?
+(b) What is Digital Certificate? Give the format of
+X.509 certificate showing the important elements
+of the certificate. How is an X.509 certificate
+revoked ?
+(©) Explain the full-service Kerberos environment?
+What the principle differences between version
+are
+4 and version 5 of Kerberos ?
+113702] 3 [ Contd...
+aktuonline.com http://www.UPTUonline.com
+| aktuonline.com .
+(10x2=20)
+5 Attempt any twe questions :
+(a) Explain the concept of security association (SA)
+in IPSEC. What is the use of ISAKMP protocol
+in IPSEC?
+(b) Who are the participants in SET (Secure Electronic
+Transaction) system? Describe in brief the
+sequence of events that are required for a
+transaction.
+(c) (@ What are the types of F irewall? Explain
+them
+(ii) What do you understand by Trusted
+System? Explain the concept of reference
+monitor.
+113702] 4 4925 |
+aktuonline.com http://www.UPTUonline.com

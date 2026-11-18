@@ -1,0 +1,51 @@
+Printed Pages : 2
+EEC-047
+(Followizg Paper ID and Roll No. to be filled in your Answer Book)
+B. Tech.
+(SEM. (ODD SEM.) THEORY
+EXAMINATION; 2014-15
+EMBEDDED SYSTEM
+Time : 3 Hours] {Yotal Marks : 100
+Attempt any FOUR parts : 5x4=20
+Explain the various timer and counting devices
+“the
+(b) Explain classificatién
+(c) Explain the various bus structures used in
+embedded systems.
+(d) Explain the working of timers and counters in
+detail.
+(e) Write short CISC and RISC
+notes on processors
+(f) Explain about Assembly language of 8051
+processor.
+2 Attempt any TWO parts 10x2=20
+(a) Describe about Component interfacing.
+(b) Elucidate microprocessor development design.
+(c) Explain in detail about the memory devices of
+DSP Chips.
+121753] { Contd...
+3 Attempt any TWO parts ; 10x2=20
+(a) Explain the Embedded programming in C++.
+(b) Explain the various bus used in
+structures
+embedded systems
+(c) (i) Explain the parallel port devices.
+(ii) the sophisticated interfacing
+features in device ports.
+4 Attempt TWO 10x2=20
+any .parts :
+(a) With neat sketch explain about architecture of
+80386.
+(b}) Explain in detail about the ARM_ processor.
+(c) Describe in detail about the Semaphores, Tasks
+and states,
+5 Attempt any TWO paits 10x2=20
+Push Buttons
+(a) Interface the DAC, LED and
+with microcontroller and explain it briefly.
+(b) Explain about the different types of protocols
+of embedded systems. _
+(c) Write in detail about the different types of
+addressing modes of the microcontroller and
+explain about the I/O concept.
+121753] 2 5025

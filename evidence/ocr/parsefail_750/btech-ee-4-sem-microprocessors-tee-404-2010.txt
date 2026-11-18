@@ -1,0 +1,96 @@
+aktuonline.com aktuonline.com
+10516
+|
+Printed 404
+(Following Paper ID and Roll No. to be filled in Answer Book)
+| | [| your | 1] [|
+B.Tech.
+IV)
+EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+MICROPROCESSOR
+Time : 3 Hours Total Marks : 100
+Note : Attempt all questions.
+1 Attempt any four parts of the
+(a) List the four categories of 8085
+instructions that manipulate data. For each pp 3+2
+of the following instructions explain the
+operation performed by them and also
+identify a category out of the above four.
+(i)
+(ji) MOVMA
+é
+(iii) MVI, B, 4FH *.
+(iv) LDA 2050 H
+TEE—404 1 [Turn
+aktuonline.com aktuonline.com
+(b) Identify appropriate control signals that
+generated at the output of 2-to-4 decoder are (c) Explain supported the five the groups 8086 microprocessor. of interrupts
+in fig. 1. a What is the on of signals INT and
+purpose
+10/M INTA in 8259 ? Explain the need of
+Interrupt Controller (8259A). 44+3+3
+Attempt two parts of the following:
+any
+(a) Describe an interrupt request response of 5+5
+an 8086 system. How does 8259A
+differentiate between an 8-bit and 16-bit
+microprocessors ?
+Fig. 1 (b) Explain the function of the following signals 10
+of 8257 :
+(c) Explain the need to multiplex the bus AD,
+to ADg in a 8085 microprocessor.
+(d) Explain the function of following signals of (ii) HRQ. (iv) HLDA
+8086 microprocessor : (v) (vi)
+MEMR MEMW
+Aq7/Ay Ayg/S5, Ayo/S¢ (vii) TC (viii) AEN
+(ii) | BHE/S7 (ix) ADSTB (x) MARK
+(iii) ALE (c) Enlist the data types supported by 80486.
+(iv) DEN Enlist its salient features also. What are four
+major 80386 architectural advancements in 80486 34443
+(e) Name and explain the specific CPU over ?
+operations for which following memory
+locations are reserved in 8086
+Microprocessor :
+(1) to I
+(ii) to
+(f) and the difference between overlapping
+non overlappings memory segments.
+TEE—404 2 TEE—404 “ 5
+aktuonline.com
+aktuonline.com aktuonline.com
+2. Attempt Attempt
+any two parts of the following: any two parts of the following: (2x10=20)
+(a) Determine which of the following 10 (a) Describe execution of CALL instruction 10
+instructions are illegal and state why ? in detail. a
+mov al, cx (b) Draw and discuss interrupt structure of 10
+1234H, 8086 in detail.
+mov ax
+mov dx, al (c) What do you mean by maskable and non- 10
+maskable interrupts ? Discuss in detail
+mov cs, 1234H specifically for 8086.
+[1234H], [5678H] ~
+mov
+mov [cx], ax
+Attempt any two parts of the following : (2x10=20)
+mov ax, [bp + bx]
+[si+ di], (a) Interface an Initializé-port 8255 with 8086 to work as an 10
+mov cx I/O port. ‘A as output port, .
+mov 1234H, [bx] port B as input port and port C as output
+port. Port A address should switch be 0740H. position Write
+mov cs, [si] SW, a program SW, connected to sense at port B. The sensed
+(b) Explain the operation of logical NOT pattern - is to be displayed port A, to
+instruction of 8086. Explain why in of 7+3 which 8 LEDs are connected, on while the port
+NOT instruction, “No segment register case C lower displays number of on switches out
+be the destination”. may of the total eight switches.
+(c) Explain the actions performed by each of 10 (b) Design an 8086 microprocessor based stop- 10
+the instructions given below : watch using 8253 and 8255. The stop-
+watch counts upto 100 seconds in the step
+SBB ax, [5678H] of 10 ms and displays the time on a 4-digit,
+SBB [3598H], di 7-segment multiplexed display. The CLK
+input frequency to 8253 is 2.4 MHz. Draw
+SBB [658EH], [bx] the required hardware scheme and write the
+SBB dx, required assembly language program. Select
+si suitable addresses for 8253 and 8255.
+TEE—404 TEE—404 4 [Turn Over
+aktuonline.com

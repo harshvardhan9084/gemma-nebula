@@ -1,0 +1,50 @@
+Printed Pages : 1 Roll No. NIT063
+B. TECH.
+THEORY EXAMINATION (SEM-VI) 2016-17
+BIOINFORMATICS
+Time : 3 Hours Max. Marks : 100
+Note : Be precise in your answer. In case of numerical problem assume data wherever not provided.
+SECTION-A
+1 Explain the following : (10x2=20)
+a) What is bioinformatics?
+b) Expand NCBI, EMBJ, DDBJ, and PIR.
+c) Write a short note on interfaces?
+d) What is informative site?
+e) What is the role of microarray in bioinformatics?
+f) Mention the various data mining tools, their description and classification.
+g) Give examples of macromolecular structure data and point out the information present in it.
+h) What are the three methods by which you can align a pair of sequence?
+i) Define genetic distance and state two distances based phylogenetic tree prediction methods.
+j) What type of information is obtained in a cluster analysis of microarray data? Explain with a
+suitable example.
+SECTION-B
+2 Attempt five of following: (10x5=50)
+any the
+a) Classify and explain major databases in bioinformatics giving examples of each database.
+b) Explain central dogma of molecular biology with neat diagram. Explain how it is an information
+science.
+c) State and explain various data retrieval tools in bioinformatics. Explain the steps for data mining
+and knowledge discovery of biological databases.
+d) What is structure visualization? Explain the various rendering tools in structure visualization.
+e) Explain microarray spotting flow in detail. How is microarray result analysis done?
+process
+f) Explain in detail the various methods of data mining for extracting patterns from data
+g) Differentiate between clustering and classification. Explain hierarchical and k-means clustering in
+brief.
+h) What is text mining? Explain NLP approach of text mining in detail, giving significance of each
+stage.
+SECTION-C
+Attempt of following: (15x2=30)
+any two the
+3 Define bioinformatics. Explain bioinformatics applications related to the following areas :
+a) Phylogenetic Analysis.
+b) Genome Annotation.
+c) Proteomics.
+d) Drug Discovery.
+4 Explain the basic machine learning process with neat diagram. Describe following machine
+learning in brief.
+processes
+a) Neural networks.
+b) Decision Trees.
+5 Draw the collaboration — communication model. Explain collaboration and communication
+hierarchy in detail with neat diagram and appropriate examples.

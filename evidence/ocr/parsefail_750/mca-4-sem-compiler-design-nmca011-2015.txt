@@ -1,0 +1,54 @@
+www.aktuonline.com
+Printed Pages : 4
+Q5. Attempt any two questions from the following: 10x2=20
+(a) Explain the following in the organization of code (Following 214429 Paper ID and Roll No. to be filled in Answer Book)
+your
+optimizer: PAPER ID : 214429
+(i) Control flow analysis (ii) Data flow analysis
+- -
+(iii) Transformations
+(b) Whatis activation record? Explain its organization. Also MCA
+discuss various storage allocation strategies.
+(SEM. IV) THEORY EXAM. 2014-15
+(c) Explain any two of the following in detail : COMPILER DESIGN
+(i) Lexical _(i1) Syntactic phase errors
+(iii) Semantic phase Time : 3 Hours] [Total Marks : 100
+errors.
+Note : Attempt the questions as indicated.
+Q1. Attempt any four questions from the following: 5x4=20
+(a) Discuss the role of compiler-writing tools. Describe vari-
+ous compiler writing tools.
+(b) Describe the technique used for reducing number of
+passes.
+(c) Discuss the role of Macros in programming language.
+(d) Describe the basic structure of compiler.
+214429] 4 214429] 1 [Contd...
+www.aktuonline.com
+(e) Define and differentiate between DFA and NFA with (b) Consider the following
+an
+example. E>T+E/T
+What is DAG? Discuss it.
+Q2. Attempt any two questions from the following: 10x2=20 Write down the procedures for the terminals of the
+non -
+(a) How lexical analyzer removes white spaces from source grammar to make a recursive descent parser.
+file? Explain the buffer input scheme for scanning the source
+(c) Discuss the role of data - flow analysis in detail.
+program.
+(b) Explain about basic parsing techniques. What is top down
+- Q4. Attempt any two questions from the following: 10x2=20
+parsing? Explain in detail.
+(c) How is finite automata useful for lexical analysis? Show (a) Discuss the important data structures which are used in
+V implementing symbol table.
+that the following regular expressions are same by
+constructing optimized DFA (b) Explain the implementation of simple stack allocation
+scheme while on run-time administration.
+(i) (a/b)*
+(c) Write short notes on the following : (Any two)
+(ii) (a* / b)*
+(iii) (a / b*)* (i) Principle sources of optimization
+(ii) Problems in code generation
+(iii) Error schemes
+Q3. Attempt any two questions from the following: 10x2=20 recovery
+(a) What do you understand by left factoring and how it is
+eliminated?
+214429] 2 [Contd... 214429] 3 [Contd...

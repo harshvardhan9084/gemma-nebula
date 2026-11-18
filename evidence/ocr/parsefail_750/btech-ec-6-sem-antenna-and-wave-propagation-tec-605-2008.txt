@@ -1,0 +1,87 @@
+Printed Pages : 3 TEC-605
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER 3100 | | [ [ i
+B. Tech.
+EXAMINATION, 2007-08
+(SEM. VI)
+ANTENNA AND WAVE PROPAGATION
+Time 3 Hours] [Total Marks : 100
+Note : Attempt all questions.
+I Attempt of the following 10x2=20
+any two :
+(a) What functions does an antenna fulfil ? What does
+the principle of reciprocity say about the properties
+of the antenna ? Explain the in details.
+same
+(b) What factors govern the selection of the feed point
+of a dipole antenna ? How do current feed and
+voltage feed differ ? Explain in details.
+X
+(c} <A thin dipole antenna is long, where }
+is the operating wave length. If the dipole has
+loss resistance of 1.5 ohm determine its
+a
+(i) Radiation resistance
+(11) Terminal resistance.
+U-3100) 3 [Contd...
+2 Attempt any two of the following : 10x2=26
+end fire and its radiation
+(a) Describe the array
+pattern. Explain how the pattern can be made
+directional.
+suitable choice
+(b) Why parabolic geometry is a
+for antenna reflectors ? Explain why an antenna
+using a paraboloid reflector is likely to be a
+highly directive receiving antenna.
+(c) Describe the log periodic dipole array antenna
+with the help of neat sketches. What are its
+applications ?
+3 Attempt any two parts of the following : 10x2=20
+(a) Why electromagnetic waves are said to be
+? what
+transverse In ways are transverse waves
+different from longitudinal waves ? Illustrate
+each type with the help of sketches.
+(b) Describe ground propagation. What is the
+wave
+angle of tilt ? How does it affect the field strength
+at a distance from the transmitter ?
+Show, with the aid of suitable sketch, what
+(c) a
+happens as the angle of incidence of a radio
+wave using sky wave propagation is brought
+closer and closer to the vertical. Define the
+skip distance, and show how it is related to
+the maximum usable frequency.
+U-3100) 2
+of following
+4 Attempt any two parts the : 10x2=20
+(a) A waveguide has an internal breadth a of 3 cm,
+and carries the dominant mode of a signal of
+unknown frequency. If the characteristic wave
+impedance is 500 Q. What is this frequency ?
+(b) What are waveguides ? Compare waveguides and
+transmission lines from the point of view of
+frequency limitation, attenuation, spurious radiation
+and power handling capacity.
+(c) Describe briefly the various methods of exciting
+waveguides, and explain under what circumferences
+each is most likely to be used.
+5 Attempt any two parts of the following 10x2=20
+(a) Make clear distinciton between velocity
+modulation a and modulation. Show how
+each in the current Klystron amplifier and explain
+how occurs modulation is if the tube
+is current have significant necessary
+to power gain.
+(b) Explain how oscillations are sustained in the
+cavity magnetron, with suitable sketches, assuming
+that the « mode oscillations already exist. Make
+clear why more energy is given to the RF field
+than is taken from tt.
+~ (c) With the aid of a schematic diagram, describe the
+travelling wave tube. What is a slow wave
+structure ? Why does the TWT need such a
+structure ?
+EMME 3 [ 2700

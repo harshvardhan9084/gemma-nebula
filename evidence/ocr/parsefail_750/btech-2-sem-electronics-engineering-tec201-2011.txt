@@ -1,0 +1,107 @@
+(SEM. THEORY 2010-11
+EXAMINATION
+ELECTRONICS ENGINEERING
+Time : 3 Hours Marks
+Total : 100
+Nete: (1) questions.
+(2) Be
+precise in your answer: No second answer book
+will d¢ provided.
+1. Attempt any four parts of the following : {5x4=20)
+(a) On the basis of diagram
+Eneigy band explain Insulator,
+and Semiconductors,
+(b) Explain Static and Dynamic Resistance of diode.
+{c) Describe
+the characteristics of ideal diode. Determine the
+on and off state of the device.
+44) Define the terms.conductivity, intrinsic concentration and
+energy gap of semiconductors.
+Determine the voltage V, and I for the given configuration :
+TECZOURFW.2 1148
+! iTurn Over
+(f) Differentiate between :
+fi} Donorand Acceptor
+(i) Intrinsic and Extrinsic semiconductors..
+2. Attempt any two parts of the following : (10x2=20)
+Draw
+(a) circuit diagrams to show two methods of producing
+a negative output voltage from a half wave rectifier. Explain
+briefly the cirentt operations.
+(b) (i) Explain the working of full-wave bridge rectifier and
+show that PIV > V_.
+(i) is clipper circuit ? Sketch the output voltage
+waveform for the circuit shown :
+{c) Discuss the different types of junction break-down
+that can occur iti a reverse biased diode. Explain the
+shape of the break-down diode characteristics. What
+will be their thermal coefficient ?
+@) Draw and explain the, circuit operation of voltage
+Tripter
+circuit.
+2
+http://www.aktuonline.com
+two parts of the following : (10*x2=20)
+Attempt any be biased for
+{a) () How must the two tra nsistor junction the
+proper transistor amplifier operation ? What is
+of leakage current in a transistor ?
+source transistor in C,
+(@) Draw the output characteristics of a
+configuration. Also indicate all the region of
+equivalent cireuit for
+{b) Draw and describe the h-parameter values
+a.common emitter transistor amplifier. Show how the
+of h-parameters are obtained from the common emitter
+characteristic curves and common emitter output
+input characteristic
+curves.
+Draw the small equivalent circuit of a BJT and
+(©) (i) component.
+explain each transistor.
+(ii) Sketch a emitter bias circuit using an npn
+Show all voltage polarities and current directions.
+operation of the circuit and write the
+Explain the
+equations for V,, I,. 1, and
+(10*2=20)
+4. Attempt any two parts of the following :
+channel depletion type
+(a) Sketch the structure ofap -type operation with neat
+MOSFET and explain its principle o f circuit
+diagrams. Also sketch its V-I characteristics and
+symbols for it.
+JFET. How
+) (b) Describe the construction and operation of a circuit
+does it differ from a MOSFET ? Draw the equivalent
+JFET amplifier and explain its biasing.
+fora Over
+3
+(i) Define pinch-off
+mention the its Significance. Also
+parameters that control the pinch-off
+of a JFET,
+(i) In.a JFET the drain .
+When the gate-source current is changed by 0.25 mA
+keeping voltage is changed by 0.125V,
+drain source voltage constant. the
+tansconductancé of the given JFET.
+3, Attempt any two Parts of the following
+of variables, Minimise
+K-map. the Boolean function using
+m( 1)+
+i) Convert the following numbers
+as indicated :
+(1221.12), =¢), (1221 = Org.
+(ii) Implement XNOR
+pate using universai gates,
+(c) @ Express F = ARB + A'C in Sum of
+also in Product of the Sums form, the Products ang
+fi) What are the characteristics of an idea}
+amplifier 2 Explain the working operational
+amplifier with sketch, of an inverting
+neat
+TEC2OUREW.23] ;
+48 4
+3375
+~~ http:/Avww.aktuonline.com

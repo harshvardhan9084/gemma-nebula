@@ -1,0 +1,70 @@
+www.aktuonline.com
+Printed pages:4 AG302 tank is falling down at a rate of 2.25 mm/s, calculate
+Cq.
+(Following code and roll No. to be filled in book) h. Distinguish between Darcy's friction factor and
+paper your answer Manning's friction factor.
+Paper code: 180309 Roll No. i. Define stream line, streak line and Path line.
+j. What do you understand by TGL and HGL?
+B TECH
+(SEM ITI) THEORY EXAMINATION 2014-15 Section (B)
+FLUID MECHANICS Q2. Attempt any three questions. 10x3=30
+TIME: 3 Hours Total Marks: 100 a. If U=2.3y+5; the equation in which of U a is velocity velocity profile in m/s over distance a plate is
+Note: (i) Attempt all the questions. Each question carries above the plate. Determine the shear stress at a at y=0 and y m
+equal marks. y=0.075 m, where dynamic viscosity of the oil is 8.35.
+(ii) Be precise in Write down the infeasibility in the question.
+your answer. b. Derive the continuity equation for 3-D steady
+Section (A) irrotational flow for incompressible fluid.
+Q1. Attempt all the questions. 2x10=20 c. Explain:
+a. What is kinematic viscosity? State & explain Newton's (i) Ventilation of weir
+law of viscosity. (ii) Cipolletti notch
+b. Explain how vacuum pressure can be measured with (iii) Broad crested weir
+the help of U- tube manometer. (iv) Submerged weir
+c. Explain the stability of a floating body (fully d. For the distribution main of a city water supply a 0.30 m
+submerged in the fluid. main available, is required. it is decided As pipe lay sizes above parallel 0.250 mains m of are not
+d. Calculate the velocity components of u & v of a 2-D diameter. Find the diameter to of two parallel main. same
+flow system described by the stream function, = x” e. What is the physical significance of Reynolds
+number and Froude number in the theory of
+e. Explain the principal of rotameter. similarity?
+f. A jet of water issues from a sharp edge vertical
+orifice under a constant head of 0.51 m. at a certain Section (C)
+point of issuing jet, the vertical and horizontal Q3. Attempt any two parts from the following. 5x2=10
+coordinates measured from vena-contracta are 0.406
+m and 0.085 m respectively. Determine c,, cy and cg. a. A wooden cylinder (specific gravity = 0.6) of circular
+g. A right angled triangular notch is provided in the cross section having length and diameter d floats in water.
+vertical side of a tank having plane area of 0.93 m* Find the maximum permissible I/d ratio so that the
+uniform at all levels. When the head over the notch cylinder may float in stable equilibrium with its axis
+is 75 mm, it is found that the water surface in the vertical.
+www.aktuonline.com
+b. A circular opening, 3 m in diameter, in the vertical towed in fresh water ( =1000 kg/m*) at 2 m/s
+side of a water tank is closed by a disc of 3m produces a resistance of 40 N. Calculate:
+diameter, which can rotate about a_ horizontal
+diameter. Calculate (1) the corresponding speed of the ship.
+(ii) the shaft power required to propel the
+(i) the force on the disc ship at this speed through sea water ( =1030
+(ii) torque required to maintain the disc in the kg/m*). Take the propel efficiency as 75%.
+vertical position when the head of water Explain, what are the minor losses in a pipe flow?
+above the horizontal diameter is 4 m. Under what circumstances will they be negligible?
+c. Deduce the expression for the force and its position Q7. Attempt from the following. 5x2=10
+on a vertical plane submerged surface. any two parts
+Q4. Attempt parts from the following. 5x2=10 A 5 diameter pipe takes off abruptly from large tank
+any two a. and cm runs 8 m, then changes abruptly to 10 cm a diameter
+What is the irrotational velocity field associated with the and runs 45 m, and next discharges directly into the open
+a. potential function? Does this equation satisfy the air with a velocity of 1.5 m/s. compute the necessary
+incompressible continuity equation? height of water surface above the point of discharge. Take
+b. What do you understand by flow net and where are friction coefficient f=0.0065 in the Darcy equation.
+these applied. At sudden enlargement of waterline from 24 cm to
+c. Define rotation, circulation, uniform flow and 48 cm diameter pipe, the hydraulic gradient rises by
+irrotational flow. 1 cm. calculate the rate of flow.
+Find out the most economical section for the
+Q5. Attempt any two parts from the following. 5x2=10 trapezoidal section
+a. Derive the expression for the Bernaulli’s Equation from
+Euler’s equation along a streamline.
+b. Explain the find working of Venturimeter for with a neat
+A sketch fireman and holds the expression hose ending discharge. into nozzle
+c. that issues 20 a water diameter jet of a If the
+of a in mm the 60 diameter water. hose is 700
+kPa, pressure find the water force experienced mm by the fireman.
+Q6. Attempt any two parts from the following. 5x2=10
+a. State Buckingham’s theorem.
+b. A ship has a length of 150 m and wetted area of
+3000 A model for this ship 5 m in length when

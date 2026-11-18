@@ -1,0 +1,52 @@
+Printed Pages: 02 Sub Code: NOE047/EOE047
+Paper Id: | 1} 9} 9} 4| 1) 7 Roll No.
+B.TECH.
+(SEM IV) THEORY EXAMINATION 2017-18
+MATERIAL SCIENCE
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+sp What are Miller indices?
+How are Miller indices determined?
+mene Draw neat sketches of unit cells of simple cubic structures.
+What do you understand grain size determination?
+Define phase rules.
+Write name of various type steel.
+Sore What are the properties of Aluminium Alloys?
+What are the ferro magnetic materials?
+What are the applications of ceramic materials?
+Define the fracture.
+SECTION B
+2. Attempt any three of the following: =30
+Draw the neat sketches of unit cells of BCC and FCC crystal structures.
+a. Calculate the number of atoms in each case.
+b. Distinguish between following (i) Slip and twin mechanisms (ii) Hot and cold
+working
+Draw neat-labeled Iron-carbide equilibrium diagram. Explain in variant
+reactions occur in this diagram.
+Explain nitriding process of heat treatment of steps.
+e. What are the constituents, properties and engineering application of PVC,
+PMMA?
+SECTION C
+3. Attempt of the following: 10x1=10
+any one part
+(a) Describe and illustrate the edge and screw type dislocations?
+(b) What is re-crystallization temperature? What are the factors which effect re-
+crystallization temperature?
+4. Attempt any one part of the following: 10x1=10
+(a) Define the following (i) toughness (ii) CI (iii) Brass (iv) Alloys
+(b) Draw equilibrium diagram of binary system with limited solid solubility in
+solid state. an
+5. Attempt any one part of the following: 10x1=10
+(a) | What is Martensitic transformations and also explain its characteristics.
+(b) Differentiate the following (i) Austempring and Marteempering (ii) Annealing
+and Normalising
+Attempt any one part of the following: 10x1=10
+(a) tensile test specifying standard specimen which is used for test?
+(b) | What are the super conductivity materials? And also write its application.
+Attempt any one part of the following: 10x1=10
+(a) | What are the plasticizers? Why they are used in polymeric materials?
+(b) Explain different processing steps used for producing high strength, high
+modulus carbon fibres from polyacrylonitrile processor material.

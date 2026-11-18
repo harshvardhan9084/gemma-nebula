@@ -1,0 +1,117 @@
+* 0 4 4 7 - a 1 9 2 / 4 2 6 5 0 *
+Printed Pages : 4 TCS - 801 / TIT - 801
+(Following Paper ID and Roli No. to be filled in your Answer Book)
+PAPER ID: 0147-0192
+B. Tech.
+(SEM. EXAMINATION, 2008-09
+DISTRIBUTED SYSTEMS
+2) Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions.
+(2) All questions equal marks.
+carry
+1 Answer any four parts of the following :
+(a) What are distributed systems ? What are
+significant advantages and limitations of distributed
+systems ? Explain with the example, what could be
+the impact of absence of global clock and shared
+memory ?
+(b) Why is scalability an important feature in the design of
+distributed system ? Discuss some of the guiding
+principles for designing a scalable distributed system.
+0147-0192) - Ot 1 [Contd..
+(c) What Vector Clocks ? Explain with the help of
+are of Clocks, how they
+implementation rule Vector are
+implemented. What are the advantages of Vector
+Clock over Lampart Clock ? For the space time
+diagram shown below, obtain the vector time stamp
+of various events
+:
+Ey Ep Ew Eira Eis Fre Fiz
+P | J
+E31 E32 E33 E34
+(d) What do you mean by Global state of the distributed
+system ? What are the differences between consistent
+Global state. Transitless Global State and strongly .
+Consistent Global State ?
+(ec) What do you mean by casual ordering of message ?
+If process P sends two messages M1 and M2 to
+another process Q, what problem may arise if the
+two messages are not received by recipent Q, in the
+order they were sent by process P. Develop an
+algorithm which guarantees the casual ordering of
+in distributed system. >
+message
+(f) What do you mean by problem of Mutual Exclusion
+in distributed system ? What are the requirements of
+a good mutual exclusion algorithm ? Explain the
+performance matrices to judge the performance of
+distributed mutual exclusion algorithm.
+0147-0192] 2
+the following
+2 any two of :
+(a) Explain how the two-phase commit protocol for nested
+transactions ensures that if the top-level transaction
+commits, all the right descendants are committed or
+aborted.
+protocols ? What Byzantine
+(b) What are agreement are problem and
+agreement problem, the consensus
+Interactive Consistency Problem ?
+(c) What is the problem of distributed deadlock
+detection ? What are the differences in Centralized,
+Distributed and Hierarchical control organizations
+for distributed deadlock detection ? What are
+advantages of distributed control organization over
+centralized control organization for distributed
+deadlock detection ?
+3 Attempt any two of the following :
+(a) What do you mean by distributed objects ? Explain the
+concept of remote method invocation with a suitable
+example. How are the parameters and results passed
+to a remote procedure ? Explain with a suitable
+example.
+(b) Which features of the AFS design make it more scalable
+than NFS ? What are the limits on its scalability,
+assuming that servers can be added as required ? Which
+recent developments offer greater scalability ?
+(c) What is a digital signature ? What are its uses in the
+security of a distributed system ? Give a method to
+create a digital signature. Describe how digital signature
+can be used for ensuring message integrity in a
+distributed system.
+0147-0192) 3 [Contd..
+4 Attempt any two of the following :
+(a) Explain why serial equivalence requires that once a
+transaction has released a lock on an object, it is not
+allowed to obtain any more locks.
+A server manages the objects a), a..... a,. The server
+provides two operations for its clients :
+read (i) returns the value of a,.
+write (i, value) assigns value to a,
+The transaction T and U are defined as follows :
+T : x = read (i); write 44);
+U : Write (i, 55); write (j, 66);
+Describe an interleaving of the transaction T and U in
+which locks are released early with the effect that the
+interleaving is not serially equivalent.
+(b) ‘What locks ? What essential differences in the
+lock-based are protocols and are Time stamp-based protocols ?
+(c) - What commit protocols ? Explain how two-phase
+commit are protocols respond failure of participating site
+and failure of co-ordinator. to
+Answer any two of the following :
+(a) What are the differences in centralized and distributed
+algorithms ? How is the performance of a distributed
+algorithm evaluated ? Explain the term, message
+complexity in reference to distributed algorithm.
+(b) Explain why the interfaces to remote objects in general
+and CORBA objects in particular do not provide a
+constructors. Explain how CORBA objects can be
+created in the absence of constructors. Pi
+(c) Write short notes on :
+@ Destination based routing.
+(ii) Deadlock Free Packet Switching
+(ii) Balanced sliding window protocol.
+0147-0192] 4 [ 12650
+16

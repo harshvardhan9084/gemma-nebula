@@ -1,0 +1,66 @@
+www.aktuonline.com
+Printed pages: 01 Sub Code: NEC502
+Paper Id: 3/0/5/1 Roll No:
+B TECH
+(SEM V) THEORY EXAMINATION 2017-18
+PRINCIPLES OF COMMUNICATION
+Time: 3 Hours Total Marks: 100
+Notes: Attempt all Sections. Assume any missing data. A
+SECTION
+Q1. Attempt all parts in brief. (2*10=20 )
+a) What is baseband signal?
+b) Draw block diagram of analog communication System.
+c) What VSB Signal. How it is used for reduction of Bandwidth.
+d) Draw phasor diagram for AM system along with its application.
+e) What is Modulation? Why it is required.
+f) Why is Line Coding required in Communication System?
+g) h) List What Comparison is Quantizer? between What role Narrowband does it play Wideband in Digital Transmission?
+1) What is White Noise? Draw its Spectral & Density Curve. FM.
+j) What is Noise Figure? List Sources of Noise.
+SECTION B
+Q2. Attempt any three question .All question carry equal marks (10*3=30)
+www.aktuonline.com a) Calculate the percentage saving when the carrier and one of the sideband are suppressed in an AM
+wave modulated to a depth of 1) 100% ii) 75%.
+b) Draw & Explain the block diagram of Phase shift method for generating the SSB Signal.
+c) Explain modulation and demodulation of PWM system using suitable waveform?
+d) What do you mean by Noise? Show the effect of certain types of filter on the noise What is slope
+overload distortion and granular or Idle noise
+e) Diagram. What is Differential Pulse Code Modulation? Explain working of DPCM with a proper block
+Q3. Attempt question .All question equal marks (10*1=10)
+any one carry
+a) The efficiency n of ordinary AM is defined as the percentage of the total power carried by the
+sidebands, that is
+1) =
+Where is the power carried by the sidebands and P, is the total power of the AM signal.
+i) Find y for my = 0.5 (50% modulation)
+ii) Show that for a single tone AM n max is 33% at m,=1.
+b) Assuming sinusoidal modulation prove that AM system with envelop detection the output signal to
+noise ratio(SNR) is given (S/N) by
+Where m is modulation index = for AM and y y=(S;/
+Q4. Attempt any one question .All question carry equal marks (10*1=10)
+a) In an FM system a 7 kHz modulating signal modulates 107.6Mhz carrier wave,so that the frequency
+deviation is 50Khz.Determine
+1) Carrier Swing in the FM signal and modulation index.
+11) The Highest and lowest frequency attained by the FM Signal
+b) Derive the expression for Narrowband FM signal and Wide Band FM. Explain advantage of
+Modulation Index
+www.aktuonline.com
+www.aktuonline.com
+Q5. Attempt any one question .All question carry equal marks (10*1=10)
+a) System A PCM is system equal to uses 50 a uniform 10° bits/sec. Quantizer Calculate followed by a 7-bit Binary encoder. The bit rate of the
+x
+1) What is the maximum message signal bandwidth for which the system operates satisfactory?
+11) Calculate the output signal to noise ratio when full load sinusoidal modulating wave
+of frequency 1Mhz is applied to the input
+b) Explain flat top sampling in detail?
+Q6. Attempt any one question .All question carry equal marks (10*1=10)
+a) Explain working of Adaptive Delta modulation with a proper block Diagram
+b) Show that maximum quantization in is given by 2
+error PCM D
+Q7. Attempt any one question .All question carry equal marks (10*1=10)
+a) For a given sequence 1011001011 construct Unipolar NRZ, Unipolar RZ bipolar NRZ, bipolar RZ,
+Alternate Mark Inversion (AMI), and Manchester format?
+b) What is pre-emphasis and de-emphasis and how SNR improves by using pre-emphasis and de-
+emphasis? Find out the figure of merit in SSB-SC.
+www.aktuonline.com
+www.aktuonline.com

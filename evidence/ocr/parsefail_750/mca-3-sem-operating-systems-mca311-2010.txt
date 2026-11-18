@@ -1,0 +1,107 @@
+http://www.aktuonline.com
+Printed Pages: 4 MCA3II
+(Following Paper ID and Roll No. to be filled in Answer Book)
+|] | | your
+M.C.A
+(SEM Il) ODD SEMESTER THEORY EXAMINATION 2009-10
+OPERATING SYSTEMS
+_
+Time : Hours] [Total Marks : 100
+Note : all questions.
+Attempt any four parts : 5x4=20
+(a) What is an operating system? Describe the
+role of an operating system as a resource
+manager.
+(b) What is the motivation for multiprogramming?
+(c) What is interrupt?-How does operating
+an an
+system handle an interrupt? - Discuss.
+(d) Distinguish between multithreading and
+multiprocessing.
+(e) What is a virtual machine? Briefly explain the
+main components of virtual machine.
+(f) Explain the following -
+(i) System
+(ii) Real-time systems.
+JJ-7308) [Contd...
+http://
+2 . Attempt any two parts : 10x2=20
+(a) (i) Define the difference between preemptive
+and non-preemptive scheduling.
+(ii) Show how multilevel feedback queues
+accomplish each of the following
+scheduling goals :
+(1) favour short jobs
+(2) favour I/O bound jobs to get good
+device utilization.
+(b) What are the performance criteria of a CPU
+scheduling algorithm? - Discuss.
+(c) (i) Consider the following
+shape shot of
+processes and compute average
+around time and waiting time of processes
+for FCFS, SJF algorithms.
+Process | Arrival time | Next Burst
+(ii) Compare the following scheduling
+algorithm, highlighting the strengihs and
+limitations of each algorithm -
+(a) FCFS
+(b) SIF
+(c) Preemptive Priority.
+[Contd...
+http://www.aktuonline.com
+3 Attempt any two parts : 10x2=20
+(a) Explain the producer consumer problem. Give
+solution to the problem using semaphores.
+a
+(i) What is a deadlock? Discuss the necessary
+conditions for deadlock with examples.
+(ii) Consider the following snapshot of a
+system :
+Allocation Max Available
+A BC DIA BCD
+“ep 24/1 5 2
+0}1 7 5 0
+3 5 442 3 5 6
+P3 0 63 2 0 6 5 2
+01 5 6
+Answer the following questions using Banker's
+algorithm :
+{ (i) What is the content of the matrix need?
+(ii) in safe
+Is the system a state?
+(c) Discuss the following :
+(i) Deadlock prevention
+(ii) Semaphores and monitors.
+33-7308) [Contd...
+http://www.aktuonling gom
+4 Attempt any two parts :
+(a) Consider the following page reference string
+7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3
+How faults would for the
+following many replacement page algorithm, assuming occur three
+frames? (remember that all frames initially
+empty) are
+(i) FIFO replacement
+(ii) LRU replacement
+(iii) Optimal replacement.
+(b) (i) Describe why SSTF (Shortest-Seek-Time-
+ee First) scheduling tends to favour mid
+range tracks at the expense of innermost
+and outermost tracks. “
+(i) Discuss the placement strategies
+page
+with examples.
+(c) Explain the following :
+(i) Demand Paging
+(ii) Thrashing.
+§ Write short notes on any four parts : 5x4=20
+(a) Encryption
+(b) Windows-NT
+ees
+(c) Access Matrix
+(d) File System in LINUX system
+Interprocess communication
+(f) System Threats.
+]
+JJ-7308) 4 [ 6580

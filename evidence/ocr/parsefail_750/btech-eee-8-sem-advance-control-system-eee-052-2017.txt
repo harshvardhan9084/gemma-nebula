@@ -1,0 +1,43 @@
+Printed Pages : 2 | [| | TT TT EEE052
+B.TECH.
+THEORY EXAMINATION (SEM-VIII) 2016-17
+ADVANCE CONTROL SYSTEM
+Time : 3 Hours Max. Marks : 100
+Note : Be precise in your answer. In case of numerical problem assume data wherever not provided.
+SECTION-A
+1 Explain the following : (10x2=20)
+a) Write down properties of STM..
+b) Write down note Jury stability criterion.
+different a on of Z-transform.
+c) Write down properties
+d) Write about way to find out controllability and observability of a system.
+e) What do you mean by Bilinear transformation?
+f) What are the sufficient conditions of lyapunov stability
+g) Give the advantages and disadvantages of canonical variables.
+h) What do you mean by STM? Give its formula
+i) Predict the stability of the following system: F(Z)= 8Z' + 4Z° + 2Z° +4Z
+jp Define Popov’s criterion for stability.
+SECTION-B
+2 Attempt any five of the following : (10x5=50)
+a) What are Fuzzy logics? Write an explanatory note on evolution of fuzzy logics.
+b) What do you mean by linear quadratic equation and derive Hamilton Jacobi equation.
+c) Obtain the unit step response of the system shown below
+E(s)
+C(s)
+d) Prove that the solution of state equation is unique.
+e) Write the state equations for the system as shown in Figure.1 in which x1, x2 and x3 constitute the
+state vectors. Determine whether the system is completely controllable or not.
+f) Differentiate between the SISO and MISO systems.
+g) What is non- linearity and explain different types of non linearities?
+h) Derive the describing function of On-off nonlinearity with hysteresis
+SECTION-C
+Attempt two of the following (15x2=30)
+any :
+Explain pontryagin’s minimum principle and then solve given problem. Consider the linear,
+constant system
+x = Bu
+With u(t) unrestricted .Find u(t) which minimizes trade-off between terminal error and
+control effort.
+What are neural networks? Write an explanatory note on evolution of neural networks. Also
+give difference between Neural and Fuzzy networks.
+Explain Ricatti equation and give solution for it.

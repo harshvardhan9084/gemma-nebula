@@ -1,0 +1,46 @@
+Printed Pages : 1 Roll No. [TTT EEC067
+B.TECH.
+THEORY EXAMINATION (SEM-VIII) 2016-17
+SPEECH PROCESSING
+Time : 3 Hours Max. Marks : 100
+Note Be precise in In of numerical problem data wherever not provided.
+: your answer. case assume
+SECTION A
+1 Attempt all parts: (10X2=20)
+Why is pitch? Explain.
+Explain acoustic phonetics.
+Why sampling is required? Explain.
+Define channel vocoder.
+What do by frequency domain? Explain.
+you mean
+Define correlation function with example.
+SR What do you understand by filter? Explain.
+Differentiate between speech and silence.
+Define convolution with an example.
+j. What is linear predictive coding? Explain.
+SECTION B
+2 Attempt (10X5=50)
+any FIVE parts:
+a. What do you mean by sampling and quantization as related to speech signal? Discuss it with the
+help of an example.
+b. Write a note on the digital models for speech signals using example.
+c. Draw the block diagram of a speech processing system and enumerate the applications of speech
+processing.
+d. Describe the short term pitch detection using block diagram and also discuss its working with an
+example.
+e. Discuss voiced/unvoiced system model for speech signal detection using block diagram.
+f. What are the various speech parameters? Discuss the relation between these parameters.
+g. Write a note on spectrographic display with suitable block diagram.
+h. Describe Homomorphic speech processing with example.
+SECTION C
+Attempt TWO questions: (15X2=30)
+any
+3 What is speech synthesis? Explain. Discuss the significance of LPC in speech synthesis system.
+Derive mathematical expression linear predictor coefficients.
+4 What is short-time Fourier analysis? Explain the properties of short-time Fourier analysis.
+Discuss the filter bank interpretation of short-time Fourier analysis and synthesis in detail.
+5 Write note on the following:
+a. Autocorrelation method.
+b. Normalized
+Formant estimation. mean square error.
+c.

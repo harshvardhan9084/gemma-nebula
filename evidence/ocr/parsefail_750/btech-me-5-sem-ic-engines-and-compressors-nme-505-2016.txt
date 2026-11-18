@@ -1,0 +1,109 @@
+www.aktuonline.com
+.
+Printed Pages: 3 237 NME-505
+(Following Paper ID and Roll No. to be filled in
+Answer Book) your
+Paper ID :140505
+B.Tech.
+(SEM. V) THEORY EXAMINATION, 2015-16
+www.aktuonline.com LC. ENGINES & COMPRESSORS
+hours] [MaximumMarks: 100
+Section-A
+Attempt all parts. All parts carry equal marks. Write
+answer of each part in short. (2x10=20)
+(a) State two differences between two stroke & Four
+Stroke Engines.
+(b) Write the name of various fuels used in IC Engines.
+(c) What is octane & Cetane Number?
+(1) NME-237
+www.aktuonline.com
+www.aktuonline.com
+|
+Mention different types of combustion chamber
+engines.
+used in SL
+(e) What is the difference in between reciprocating &
+centrifugal compressor?
+efficiency of Otto and
+(f) Write the formula for
+Diesel cycle.
+(g) Draw P-v & T-s diagram for Air Standard Ericsson
+cycle
+www.aktuonline.com
+(h) What are the major pollutants in exhaust emission?
+(i) State various types of injection System.
+Q) What do you mean by blow by losses?
+Section-B
+Attempt any five questions from this section.
+10x5=50
+Q2. Compare Otto, Diesel and Dual cycles for the
+a) Same compression ratio and heat input
+b) Same maximum pressure and temperature
+Q3. a) Write short notes on Surging and stalling.
+(2) NME-237
+www.aktuonline.com
+to
+www.aktuonline.com
+.
+b) . Write short notes on diesel knock and its control.
+Q4. Following data relates to 4 cylinders, 2 stroke petrol
+engine. Air/ Fuel ratio by weight 16:1. Calorific value
+of the fuel: 45200 kj/kg, Mechanical efficiency =82%.
+Air standard efficiency = 52%, Relative efficiency
+=70%, Volumetric efficiency = 78%, Stroke/bore ratio=
+1.25, Suction condition: 1 bar, 25°C Speed 2400
+= rpm,
+Power at brakes of 72 kW. Calculate
+www.aktuonline.com
+i)  Cp,[ressopm ratio.
+ii) Brake specific fuel consumption m.
+and stroke.
+iii) Bore
+Q5. Derive expression for the efficiency of a Dual Cycle
+an
+with P-V & T-S Diagram.
+working
+Q6. Why engine cooling is necessary. Explain the
+of thermo-syphon cooling system with neat sketh.
+Q7. Prove that for two stage compressors, the work done on
+one kg. of air is minimum with perfect intercooling when
+the intemediate pressure is geometric mean of the
+suction and delivery pressures.
+P=/PP
+Where P = Suction pressure.
+www.aktuditne.com 3 P.T.O.
+www.aktuonline.com
+P = Delivery pressure.
+Q8. What are the advantages of supercharging? Explain the
+effect of altitude on power output.
+Q9. What is the main function of a spark plug? Draw a neat
+sketch and explain its various parts.
+Section-C
+www.aktuonline.com Attempt any two questions from this section.
+(15x2=30)
+Q10.(a) How
+are the injection system elassified? Describe
+them briefly. Why the air injection system is not used
+now days?
+(b) Explain the of combustion
+stages ina C.I engine.
+Q11.(a) Explain the construction and working ofa root blower
+and axial flow with sketch,
+compressor a neat
+(b) Sketch
+and explain working principle of typical
+thermostat usu in engine cooling system.
+Q12. (a) What do you mean by combustion? List and explain
+various stages of combustion in Cl engines.
+(4) NME-237
+www.aktuonline.com
+|
+(b) Discuss the effect of following
+i) Effect of engine speed and load on flame propagation
+in SI engine.
+timing, engine load & compression
+ii) Effect of spark
+ratio on detonation in SI engine.
+—x——
+www.aktuonline.com
+www.aktuonline.com

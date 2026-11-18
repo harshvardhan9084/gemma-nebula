@@ -1,0 +1,73 @@
+Printed Pages : 3 TCS-501
+(Following Paper ID and Roll No. to be filled in Answer Book)
+PAPER ID 1073 | | | your { | [|
+: |
+B. Tech.
+(SEM. V) EXAMINATION, 2007-08
+COMPUTER GRAPHICS
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions.
+1 Attempt any four questions : 5x4=20
+(a) Draw and explain the architecture of racter
+graphics system with display a
+a processor.
+(b) Determine the resolution (pixel per centimeter)
+in the x and y directions for the video monitor
+in use on your system. Determine the aspect ratio,
+and expalin how relative proportions of object can
+be maintained on your system.
+(c) Explain vector and character generation.
+(d) Compare digital differential analyzer with
+Bresenham's line drawing algorithm.
+(e) What are logical interactive devices ? Explain
+some of the logical functions with examples.
+(f) and explain the principles behind the working
+of output devices.
+1073] 1 [Contd...
+2 any four questions : 5x4=20
+(a) Explain different ways to represent a polygon
+in Graphics device.
+a
+(b) Compare Scan line fill and Boundary fill
+algorithms.
+(c) Write a procedure of representing segements.
+Give the advantages and lackings of your
+procedure.
+(d) Why image transformation necessary and important
+in computer graphics ? Explain any one image
+transformation method.
+(e) Write a program to scan convert the interior of
+a specified ellipse into solid colour.
+Develop implement flood fill algorithm
+(f) and a
+to fill the interior of any specified area.
+3 Answer any two questions : 10x2=20
+(a) What is composite transformation ? Derive
+general Pivot-Point Rotation and General
+fixed-point scaling metrices. Compute the
+computational efficiency of each.
+(b) Explain transformation between coordinate
+and Affine transformation.
+systems
+(c) Write the algorithm for point clippling. Explain
+different line clipping algorithms.
+4 Attempt any two questions : 10x2=20
+(a) Explain the issues related to three dimensional
+display methods. Compare Parallel projection
+and Perspective projection methods for 3-D
+objects.
+‘10731 2
+(b) Explain different device handling algorithms.'
+(c) What are different interactive techniques used
+in computer graphics ? Explain.
+5 Attempt any two questions 10x2=20
+(a) Write procedures for implementing Bezier and
+Hermite algorithm for curve generation. Clearly
+state any assumption made.
+(b) Explain basic rendering and illumination method/
+models.
+(c) Write procedure for Back face detection
+method. a Compare face detection methods
+Back
+with A- Buffer method.
+1073] 3 J 7000 1

@@ -1,0 +1,140 @@
+aktuonline.com
+aktuonline.com
+Printed Pages: 7 TEE302
+(Following ID Roll No. filled in
+Paper and to be your Answer Book)
+PAPER ID: 2048
+B.Tech
+(SEM Hl) ODD SEMESTER THEORY EXAMINATION 2009-10
+| ELECTRICAL MEASUREMENTS & MEASURING INSTRUMENTS
+Marks 100
+Time: 3 Hours] [Total :
+Note (i) Attempt all the questions.
+:
+(ii) All questions carry equal marks.
+1 Answer any four parts of the following - 5x4=20
+(a) Explain the following terms ;
+(i) Accuracy
+(ii) Precision
+(iii) Reproducibility
+(iv) Resolution
+(v) Range.
+(b) A voltmeter having sensitivity of
+a
+200 ©/V reads 200 V on its 75 V scale
+when connected unknown
+across an
+resistor in series with milliammeter, reads
+to 10 mA.
+35-2048} [Contd...
+aktuonline.com 7
+aktuonline.com aktuonline.com
+construction and working of single
+Calculate - (e) Describe the
+phase induction type energymeter.
+(i) . Apparent resistance of the unknown
+resistor (f) voltmeter reading upto 2000 V
+is controlled by a spring with a torsion constant
+(ii) Actual resistance . of the unknown
+resistor of Nm/rad has full scale
+a
+(ti) Error due to the loading effect of ear
+voltmeter. Om deflection of 90°. The capacitance at zero
+~
+vollage is 15 pl What is the capacitance when
+(c) Differentiate between - the pointer indicates 2000 V ?
+(i) Primary and secondary standards 2 Answer any four parts of the following : 5x4=20
+(ii) Absolute and equation
+secondary instruments (a) Derive the for average power
+(iii) Direct and indirect over a cycle in single phase load. Prove
+measurements.
+that if can be measured by a
+(d) two resistors R, and R, are connected clectrodynamometer type wattmeter.
+in series and then in parallel. The values (b) ‘The following, measurements were made on,
+of resistances are voltmeter of the dynamometer having
+a type
+R, 100.040.1Q aa of OO V and a resistance of 780 Q.
+= and 60
+Appl ied Votlage (V) 50]
+R, 50 Deflection (depree) 3
+Calculate the uncertainty in the combined inductance
+resistance for both series parallel
+and Calculate the deflecting torque when the
+arrangements 4 applied voltage is 45 V. ~
+A &
+55-2048) 2 J5-2048) 3 [Contd...
+%
+aktuonline.com http://www PTUonline.com
+aktuonline.com
+following aktuonline.com 10x2=20
+(c) Explain special features incorporated in an 3 Answer any two of the :
+elecrodynamometer type wattmeter so that (a) Derive the relationship in current
+power :
+it can be used for low factor transformer for calculating
+applications. (i) Phase angle error
+(ii) Ratio error.
+(d) Two wattmeters connected to measure the
+input . to balanced 3-phase circuit . . indicate . . (b) Write +f . short technical 3C i od notes on any t two of
+a _ the following :
+2000 W and 500 W respectively. Find the
+power factor of circuit : (i) AC. techometer
+(ii) Kelvin's double bridge
+(a) When both the readings are positive (iii) Vibrating reed type frequency meter.
+(b) When the latter reading is obtained (c) A_ balanced has the following
+after reversing the connections the components connected between its five
+to -
+current coil of first instrument. nodes A, B, C, D and
+Between A & B 1000 Q_ resistance
+(e) What is . Phantom loading . ? Explain . with . resistance
+an example how is it more advantageous Between B & 1000
+Between C & an inductor
+than testing . with . direct . loading. . ;
+(f) The of Between D & A > 218 resistance
+meter constant a 230 V, 10 A Between A & 469 Q_ resistance
+watthour meter is 1800 revolutions
+kWh. The is tested half load Between & LO pi ; capacitance .
+per meter at Between detector
+and rated voltage and unity : power factor.
+The meter : found to make 80 revolutions Between ‘ 1 ac power supply PP
+is Obtain the values of resistance and inductance
+in : 138 sec. Determine : the meter error at ‘ Derive the formula
+half load. of the unknown inductor.
+used,
+[Contd...
+-2048) [Contd... 33-2048) 5
+aktuonline.com "°° http://www. TUonline.com
+aktuonline.com aktuonline.com
+4 Answer any -two of the following - 10x2=20 (b) Describe the principle of working and
+(a) Describe the construction. and working
+circuit diagram of digital oscilloscope.
+of a .co-ordinate type a.c. potentiometer. Also discuss the advantages and
+How is its standardized ? Explain how disadvantage of analog and digital
+unknown voltage be measured type
+an can oscilloscopes
+with it. (c) A CRT has anode voltage
+in the sample is an of 2000 V
+(b) The iron-loss 360 W at and parallel deflecting plates 2 cm long
+60 Hz with the eddy. current component and 5 mm part. The screen is 30 cm from
+6 times as large as the hysteresis-loss the centre of the plates. Find the input
+At what frequency will the iron-
+component. voltage required to deflect the beam through
+loss be doubled if the flux density is kept 3 cm. The input voltage is applied to the
+the same ? deflecting plates through“amplifiers having
+(c) Explain the methods of separation of iron an overall gain of 100.
+losses into their two components : eddy
+and hysteresis losses if the maximum
+current
+value of flux density is maintained constant
+and (i) frequency is varied keeping the form
+factor (ii) form factor is varied
+constant
+keeping the frequency constant. .
+5 Answer two of the following 10x2=20
+any ;
+(a) ixplain clearly the difference between
+operating principles of integrating type and
+successive approximation type of digital
+vollameters, 5
+35-2048) 6 *
+| 295¢
+aktuonline.com http://www.UPquonline.com

@@ -1,0 +1,93 @@
+aktuonline.com
+aktuonline.com
+Printed Pages—3 TMES802
+\(Following Paper ID and Roll No. to be filled in your Answer Book)
+Roll
+Tech.
+B.
+(SEM. VIII) THEORY EXAMINATION 2010-11
+MECHANICAL SYSTEM DESIGN
+Time: 3 Hours. Total Marks : 100
+Note: (ij) Attempt all questions.
+vee
+(ii) questions carry equal marks.
+- (wi) Be precise in your answer.
+missing
+(iv) Assume data, if any.
+«
+of
+1. Attempt any two parts the following
+(a) Define the Systems. Describe various processes involved
+in systems engineering with suitable examples.
+and
+(b) Explain the various phases interactions involved in the
+design process.
+(c) What is the difference between ‘statement of need' and
+‘definition of the problem' ? Explain it with the help of
+example.
+2. Attempt two parts of the following (2x10=20)
+any :
+(a) Explain state theory approach in system analysis.
+TME802/RFW-20864 [Turn Over
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+(b) What is the need of system modelling in mechanical
+systems ? How it is used in the above system ?
+(c) Asteel tube 2.4 cm external diameter and 1.8 cm internal
+diameter encloses rod 1.5 diameter to which
+it is rigidly joined a copper each end. If cm of 10°C
+at at a temperature inthe
+there is no longitudinal stress, Calculate the stresses
+rod and tube when the temperature is raised to 200°C.
+E,=210 GPa, E_= 100 GPa Coefficient of linear expansion :
+A, = 11 A, = 18
+x
+3. Attempt two parts of the following :
+any
+A) _ What are different types of graphs ? Write an algorithm to
+solve the shortest path problem.
+(by With the help of example, explain how optimization
+problem is formulated. an an
+(c) Differentiate between the following with suitable
+examples : -
+(i) Design variables and preassigned parameters.
+(ii) : Functional Constraints and Side Constraints.
+(ii) Bound point and free point in the design
+space.
+4. Attempt two parts of the following (2x10=20)
+any :
+(a) What kind of questions you are going to ask while evaluating
+a mechanical system ? Give an example.
+(b) Find ‘the dimensions of a cylindrical tin (with and bottom)
+top
+made up of sheet metal to maximize its volume such that
+the total surface area is equal to A, = 241.
+TMES802/RFW-20864 2
+aktuonline.com aktuonline.com
+(c) Ifacrank is at an angle 0 from dead centre 8 = wt, where
+w is the angular velocity and t is time, the distance of the
+piston from the end of its stroke (x) is given by
+x 2 6)
+Where r is the length of the crank and @ is the length of
+connecting find
+the rod. Forr=1 and ¢ =5, (i) the angular
+position of the crank at which the piston moves with
+maximum velocity, and (ii) the distance of the piston from
+the end of its stroke at that instant.
+5. Attempt any two parts of the following : (2x10=20)
+(a) Define Simulation. Describe different types of the computer
+(b) Describe different elements of decision problem. What is
+the role of conflict probability in decision making ?
+(c) An inspector working for a has a
+99% chance of correctly identifying defective items and a
+0.5% chance of incorrectly classifying a good item as
+defective. The company has evidence that the line produces
+0.9% of nonconforming items.
+is :
+@) What the probability that an item selected for
+inspection is classified as defective ?
+(ii) If an item selected at random is classified as
+nondefective, what is the probability that it is indeed
+good ?
+TMES802/RFW-20864 3 7350
+aktuonline.com

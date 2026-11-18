@@ -1,0 +1,67 @@
+aktuonline.com aktuonline.com
+Printed Pages: 3 TEC101
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+B.Tech
+(SEM I) ODD SEMESTER THEORY EXAMINATION 2009-10
+ELECTRONICS ENGINEERING
+Time: 3 Hours] [Total Marks: 104
+Note : Attempt all the questions.
+1 Attempt two parts of the following 10x2=20
+any
+(a) With a neat energy band diagram, explain
+the working of junction diode in
+a p-n reverse
+bias.
+(b) Draw the forward characteristics of a p-n
+junction diode and explain its :
+(i) static resistance
+resistance
+(ii) dynamic and
+(iii) average a.c. resistance.
+(c) Name the capacitances associated with a p-n
+junction diode and explain the and
+causes
+dependence of these capacitances.
+35-3033] [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+2 Attempt any two parts of the following 10x2=20
+(a) Explain the working of following circuit
+:
+(b) Draw the circuit of full rectifier. Derive
+the, for a its ripple wave factor.
+expression
+(c) Draw the output waveform of a full wave
+rectifier and compare its performance with
+(i, C filter Gi) LC filter.
+3 Attempt any two parts of the following : 10x2=20
+(a) Draw the BJT circuits for CB, CC and CE
+configurations. Compare Z;,Z,, 4, and A;
+for the above configurations.
+(b) Draw the circuit of a BJT in CE configuration
+employing voltage divider biasing. Calculate
+its stability against Ico.
+(c) Using a low frequency hybrid model, calculate
+-&- and A; of a 2 stage RC coupled BJT
+amplifier.
+JJ-3033] 2 [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+| Attempt any two parts of the following 10x2=20
+(a) With a neat sketch, explain the working of an
+n-channel JFET.
+(b) With a neat sketch, explain the working of a
+p-channel depletion mode MOSFET.
+(c) Draw the circuit of a JFET amplifier in all the
+three configurations. Compare 4,-, Ay, Z;, Z,
+for all of them.
+Attempt any two parts of the following : 10x2=20
+(a) (i) Convert
+age into Decimal 7650 octal into
+hex 11010110 binary into octal.
+(ii) Draw the circuit of a 2 input EX-OR gate
+using four 2 input NAND gates.
+(b) Minimise the following K-Map :
+(c) Draw an op-amp based circuit to give
+Vo +P, +V3.
+eb

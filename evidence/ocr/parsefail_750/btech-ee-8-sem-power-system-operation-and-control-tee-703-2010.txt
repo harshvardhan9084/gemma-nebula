@@ -1,0 +1,80 @@
+aktuonline.com aktuonline.com
+10728
+Printed Pages—4 TEE—703
+filled Answer Book)
+(Following Paper ID and Roll No. to be in your
+PAPER ID:
+B.Tech.
+(SEM VIII) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+POWER SYSTEM OPERATION & CONTROL
+Time 3 Hours Total Marks 100
+: :
+questions.
+Note: Attempt ALL
+1. Attempt any four parts of the
+(a) Explain the term Voltage Stability. How can
+it be overcome ? ie
+(b) Explain “Security” in relation to power
+system operation.
+(c) What are energy control centers ? Explain.
+(d) Explain Level Decomposition in power
+system. .
+(e) Explain SCADA system.
+(f) What do you understand by the term
+“power quality” ? Explain.
+TEE—703 1 [Turn Over
+aktuonline.com |
+aktuonline.com aktuonline.com
+2. Attempt any four parts of the following : (4x5=20) Two control areas have the following
+(a) Draw and explain 1/p ~ O/p characteristic characteristics :
+curves for thermal and hydro units. Area 1 R, =0.011 P.u.
+(b) What is a penalty factor in economic D, =0.85 P.u.
+scheduling ? Explain its significance.
+low is generation scheduled among various Base MVA=1000
+gencrators neglected in when thermal transmission losses are Area 2 R,=0.018 P.u.
+in brief system ? Explain. P.u.
+hydro-thermal about optimal — operation of Base MVA = 1000
+A system. with generating A load change of 200 MW occurs in area 1.
+stations power supplied system total load two of
+Neglecting transmission a losses the 300 MW. (i) frequency. Determine the new steady-state
+schedule for the plant generation is economic 175 MW
+and 125 MW. Find the savings in the (ii) Determine the tie-line power-flow
+production cost in Rs/hr. due to this deviation, =
+economic schedule as compared to equal Attempt two parts of the following (2x10=20)
+distribution of the same load between the any :
+two units. The incremental, ‘cost (a) Draw schematic and block diagram of
+characteristics are alternator explain. voltage regulator scheme and
+dC,
+dP, =30+0.3P 1 (b) Draw schematic diagram of a A.C. - static
+type excitation system and explain.
+d Cp (c) Two substations A and B operating at
+d P, = 325+ 04P, 11 kV - 3 phase are connected by two
+(f) Explain short parallel lines 1 and 2. Each line has a
+scheduling. term hydro-thermal 11/132 kVA transformer and a 132/11 kV
+impedance substation. of Each line has an ohms/ equivalent phase
+3. Attempt two of the following and Z»=0.2+j Z,;=0.2+j 0.6 ohms 0.4 phase which
+(a) Derive any the parts model of : (2x10=20) includes both the transformers per and the line,
+system and represent it a by speed block governing diagram. referred to 11 kV side.
+(b) Explain model fora
+system, how power deviation two area sending If the 30 MW bus bar 0.8 A Pf is leading, at 11 kV find and the is
+be incorporated in two power area system block can individual currents at into each transformer
+diagram. and the at the station A.
+powers
+3 [Turn Over
+aktuonline.com
+http://www.WPTUonline.com ~
+aktuonline.com aktuonline.com
+5. Attempt any two parts of the following : (2x10=20)
+(a) What is state estimation ? What is the
+significance of it in power system
+operation ?
+(b) What are FACTS controllers ? Explain
+different types of FACTS controllers.
+(c) Define the following :
+(i) Static Vor Compensator (SVC)
+(ii) Unified Power Flow Controller
+(UPFC)
+i,
+TEE—703 4
+aktuonline.com

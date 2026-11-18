@@ -1,0 +1,81 @@
+aktuonline.com 4 aktuonline.com
+10503
+Printed Pages—4 TEE—401
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 205 1
+B.Tech.
+IV) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+ELECTROMECHANICAL ENERGY
+CONVERSION - I
+Time : 3 Hours Total Marks : 100
+Note: Attempt all questions.
+1. Attempt of the following
+(a) Derive any the two expression for : stored in 10
+the magnetic field and show energy that the same
+is equal to the area between o-F curve and
+the flux axis.
+(b) Derive the expression for torqueinadoubly 10
+excited system. Explain the significance of
+reluctance torques and co-alignment torque
+~*~ in the same. Also derive the expression for
+— torque of a singly excited system from that
+of a doubly excited system.
+(c) (i) Draw neat labelled schematic 10
+diagrams to show flow of energy in
+electromechanical energy conversion
+via a coupling magnetic field, both for
+motors as well as for generators. vj
+(ii) Write electromechanical down the voltage device equation and for
+explain an the term ‘speed voltage’ in the
+same. ‘
+TEE—401 1 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+2. Attempt two of the following : A scott connection transformer supplies two 10
+any labelled sketches for the single phase furnaces at 100 V, each taking
+(a) Draw following of DC neat machine. 200 kW. The load on the leading phase is
+a and winding. at UPF and that on the other phase is
+(i) Stator containing poles 0.8 p.f. lagging. The 3 phase line input
+(ii) Rotor voltage is 11,000 volt. Calculate the line
+(iii) Brush and commutator currents on primary side. Neglect the
+(iv) Lap and Wave windings magnetizing current leakage
+(b) Explain the term Armature Reaction in impedance. Draw the phasor diagram.
+detail. What measures are taken to get rid
+of the same ? 5. Attempt any four of the following :
+(c) Draw External characteristic of DC shunt (a) An 11500/2300 volt two winding
+generator and explain the method to obtain transformer operates at rated 100 kVA. If
+Internal characteristic from the same. its windings are connected in series to form
+an autotransformer, what.will Also be the
+3. Attempt two of the following : voltage ratio ‘at the ? ? calculate
+(a) Draw any N—I, and T—I, for DC series the saving in conductor material. Take the
+and DC shunt motors. curves From these curves, output from 11500 volt side.
+obtain the N—T curves for both the (b) A 2300/230 V, 500 kVA, 50 Hz transformer
+machines. 7.5 has kW core loss full load. of 1600 During W and day, copper its loading loss of
+(b) Draw and explain the three point starter for at follows. a
+DC motors. Which of its short coming is was as
+overcome in the four point starter and
+how ?
+Describe Hopkinson’s test in detail.
+Determine the All Day efficiency of the
+transformer.
+4. — Atlempl any two of the following : (c) A 500 kVA transformer with 0.01 pn
+(a) Discuss about the Y-A connection and open resistance and 0.05 pn reactance is
+della connection in detail. What are their connected in parallel with a 250 kVA
+relative advantages and disadvantages ? transformer wih 0.015 pn resistance and
+Give their applications also. 0.04 pn reactance. The secondary voltage
+Deseribe the construction of three phase How of each would transformer they share is 400 load volt of on 750 no load. kVA
+(unit type and Bank transformers and at 0.8 p.f. lagging. a
+compare them.
+TEE—401 TEE—401 3 {Turn Over
+aktuonline.com )
+aktuonline.com aktuonline.com
+(d) Write a detailed note on excitation and 5
+harmonic transformer. phenomenon in a three phase
+(e) Why is Sumpuer’s test performed on 5
+transformers with ? Discuss diagram. in detail about this
+test connection autotransformer
+Compare an with a two 5
+winding advantages, transformer disadvantages on their operation, and «
+applications.
+aktuonline.com

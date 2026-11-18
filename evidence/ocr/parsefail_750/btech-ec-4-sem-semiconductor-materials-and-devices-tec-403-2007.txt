@@ -1,0 +1,126 @@
+ONT
+Printed Pages : 4 TEC - 403
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 3083 Roll No.
+B. Tech.
+(SEM. IV) EXAMINATION, 2006-07
+SEMICONDUCTOR MATERIALS & DEVICES
+Time : 3 Hours] [Total Marks : 100
+Note (1) Attempt all the questions.
+:
+(2) All the questions carry equal marks.
+1 Attempt any two parts of the following :
+(a) ) Define the Fermi-Dirac distribution 343
+function and Fermi energy level of a
+material. Describe briefly the temperature
+dependence of the above distribution
+function.
+(ii) Consider particular material with Fermi 4
+of a 6.25 eV and that the electrons
+energy
+in the material follow the Fermi-Dirac
+distribution function. Calculate the
+temperature at which there is a 1.0 per
+cent probability that a state 0.30 eV
+below the Fermi energy level will not
+contain an electron.
+(b) () Derive an expression for the thermal- 5
+equilibrium concentration of electrons in
+the conduction band of a semiconductor.
+(it) Define the effective density of states 243
+function in the conduction band. Find the
+V-3083] 1 [Contd...
+numerical value of the same for a
+semiconductor in which the effective mass
+of an electron is 1.5 m, where m, is the
+mass of a free electron.
+(c) () Let the donor and acceptor concentrations 6
+in a semiconductor be N, and Ny
+respectively. Show that the electron
+concentration in the semiconductor
+be given by can
+Ng «| 2
+No = +n?
+where is the intrinsic carrier
+concentration.
+(ii) A device is doped with a donor 4
+concentration of Nj = 3x10 For
+the device to operate satisfactorily, the
+intrinsic carrier concentration must remain
+less than 5 per cent of the total electron
+concentration. What is the maximum
+temperature that the device may operate?
+2
+Attempt any two parts of the following :
+(a) A 0.46 m-thick sample of GaAs is
+illuminated with monochromatic light of hv =
+2eV. The absorption coefficient is GaAs is
+5x10* cm’!. The power incident on the sample
+is 10 mW. Assume that the bandgap energy
+of GaAs is 1.43 eV.
+(i) Find the total energy absorbed by the
+sample ser second (J/s).
+(ii) Find the rate of excess thermal energy
+given up by the electrons to the electrons
+to the lattice before recombination (J/s).
+V-3083] 2 [Contd..
+(iii) Find the number of photons per second
+given off from recombination events,
+assuming perfect quantum efficiency.
+(b) Define the following terms with suitable 10
+examples :
+Photo luminescence
+Cathodoluminiscence
+Electro luminescence
+Carrier life time.
+(c) Write short notes on : 44+3+3
+(i)
+Gi) Quasi-Fermi Level
+Gii) Electroluminescence.
+3 Attempt any two parts of the following :
+(a) () Derive an expression for the built-in 4
+potential in p-n junction in terms of the
+donor and acceptor concentrations of n-
+and p-type materials.
+(i) Show that the total depletion width in 6
+a p-n junction at thermal equilibrium
+condition can be given by
+qd Na Na
+where, ¢, is the permittivity of the
+semiconductor, is the built-in potential
+of the junction, N, is the acceptor
+concentration in the p-type material, Ny
+is the donor concentration in the n-type
+material and q is the electronic charge.
+(b) Derive an expression for the current-voltage 10
+relation in an ideal p-n junction diode.
+V-3083] 3 [Contd..
+() Write short notes on : 4+6
+Zener breakdown
+qi) Avalanche breakdown.
+4 Attempt any two parts of the following :
+(a) In reference to a bipolar junction 2+242+4
+transistor, define the following quantities:
+(i) The emitter injection efficiency
+di) Current transfer ratio
+(iii) Base-to-collector current amplification factor
+(iv) Early effect.
+(b) Discuss briefly the principle of operation of 4+6
+a GaAs MESFET. Also derive an expression
+for the I-V characteristic of the device.
+(c) Write short notes
+Double heterostructure on : LED
+(ii) p-i-n photodetector
+Git) Solar cell
+5 Attempt of the following
+any two parts : 10
+(a) Describe briefly the principle of operation of
+an IMPATT diode.
+(b) What are the basic constructional differences 2+8
+between a conventional p-n junction diode and
+a tunnel diode? Explain briefly the operation
+of a tunnel diode.
+(c) Write short notes on : 5+5
+@) The Gunn diode
+Gi) Silicon Controlled Rectifier.
+V-3083] 4 [ 10650 ]

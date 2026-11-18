@@ -1,0 +1,99 @@
+URE http://www.aktuonline.com
+Pginted Pages : 4 MCA303
+ing Paper ID and Roll No. be filled in Answer Book) “|
+to your
+M.C.A
+(SEM II) ODD.SEMESTER THEORY EXAMINATION 2009-10
+OBJECT ORIENTED SYSTEMS AND CH
+lime:
+3 Hours] [Total Marks : 100
+Note : (i) Attempt all questions.
+(ii) Each question carries equal marks.
+1 Attempt any four parts of the following : 5x4
+(a) What is Object Oriented Modeling (OOM) ?
+List different steps involved in OOM process.
+(b) What is multiplicity in associations ? Give
+example to explain multiplicity.
+(c) Explain how you can define an object model
+of a system.
+(d) Suppose that a computer is built out of one or
+more CPUs, sound card and video. Model the
+system with represenatative classes and draw
+the class diagram.
+(e) Explain the following with example :
+(i) Meta data
+(ii) Candidate keys
+(f) Explain different forms of association with
+JJ-1433] | [Contd...
+http://www.aktuonline.com
+Attempt any four parts of the following : 5x4
+(a) Draw an object model for sales order system.
+(b) What is a state chart diagram ? Draw a state
+diagram for a mobile phone.
+(c) Give " substates diagram for
+a concurrent
+classroom and exam held.
+(d) Draw an event trace and scenario for using a
+stelephone line.
+(e) Explain the following
+Process
+flows
+(iii) Actor
+(iv) Data stores
+(f) Explain the use of constraints in functional
+modei with suitable example.
+Attempt any two parts of the following : 10x2
+(a) Using the quadratic formula as a starting point,
+prepare a data flow diagram for computing the
+ax?
+roots of the quadratic equation
+Real numbers, a, b and c are inputs. Outputs
+are values of x=R, and x=R).
+(b) Write a C— program to compute the following
+expression : d=a+bh+c where a, b, c and
+d compiex numbers.
+are
+1433] | 2 [Contd...
+http://www.aktuonline.com
+(c) If class D is derived from base classes
+two
+B, and then write these classes each
+containing a zero-argument constructor. Ensure
+that while building an object of type D firstly
+the of B, should called followed
+constructor get
+by that of B,. Also provide a destructor in each
+class. In what order would these destructors get
+called ? Write a complete C++ program for the
+above.
+Attempt any two parts of the following : 210x2
+(a) (i) DED for computing of a’
+Draw a mean
+sequence of values.
+(ii) What do by persistence ? How
+you mean
+will you make your data persistent ?
+(b) Write a C++ program that contains a class
+should have
+derived, from base. The base class
+a virtual function fun ( ) and it should be
+overridden in derived. Call fim () from the
+constructor of the derived class and show the
+output.
+(c) Write short notes on any two of the following :
+(i) ‘Friend function
+(11) Polymorphism
+(iii) Class template.
+TA Me
+3
+http://www.aktuonline.com
+5 Attempt any two of the following : 10x2
+(a) (i) List the steps which a designer must
+perform during object design.
+(ii) Differentiate between OO development
+form structured development.
+(b) Explain Jackson structured development (JSD),
+a software engineering approach with a suitable
+example.
+Explain different object modeling in
+brief. constructs

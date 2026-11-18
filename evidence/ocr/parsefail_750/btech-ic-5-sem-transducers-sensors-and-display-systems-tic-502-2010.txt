@@ -1,0 +1,72 @@
+aktuonline.com
+ll
+Printed Pages: 3
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 3096
+]
+B.Tech
+(SEM V) ODD SEMESTER THEORY EXAMINATION 2009-10
+TRANSDUCERS, SENSORS AND DISPLAY SYSTEMS
+Time : 3 Hours] [Total Marks: 100
+a
+Note : Attempt all the questions.
+1 any four of the following : 5x4
+(a) What are the basic blocks of a Generalized
+Instrumentation system ?
+(b) Explain the phenomenon of hysteresis in
+measurement systems.
+(c) Differentiate between the terms "Scale Range" and
+"Scale Span" giving suitable examples.
+(d) Define ‘passive and active! transducers and
+give an example of each.
+(e) Define ‘drift’, 'threshold value’, and 'dead band! of
+measuring system and give example for each..
+(f) Explain a the analog and digital modes an of operation
+of instruments.
+3
+\5%4
+2 Attempt any four parts of the following :
+(a) Explain the operating principle of an LVDT.
+(b) What is the advantage of using differential
+output rather than a single output for measuring
+displacement ?
+15-3096) [Contd...
+-aktuonline.com
+aktuonline.com aktuonline.com
+with diagram, the working of
+(c) Derive and plot frequency response of capacitive Explain for neat measurement.
+transducers. Pirani gauge pressure detail.
+(d) Explain dynamometer for shaft (d) Explain liquid vapour display in
+any one power (e) Draw the diagram of electro-phoretic image
+measurement. display and describe its working.
+(e) Discuss frequency response of piezoelectric (f) differential pressure level detector in
+accelerometer. detail.
+(f) Describe variable Reluctance / FM-oscillator
+digital systems, briefly. four parts of the following : 5x4
+5 Attempt any of working and circuit
+(Yh (a) Explain the principle oscilloscope.
+3 Attempt any four of the following : 5x4 diagram of storage method
+(a) Explain the principle and working of optical (b) Describe the conductive and capacitive
+pyrometers. for the measurement of level.
+(b) Describe the construction and working of Radiation (c) Explain ultrasonic level detectors in the
+measurement of liquid level.
+thermometers. Differentiate between Hot wire and Hot film
+(c) Draw and describe voltage-current and current- (d)
+time characteristics of thermistors. anemometer. of LCD display
+d) With different temperature range and application (e) What are the relative advantage devices ?
+environment, enlist, with explanation, various devices over LED display
+(f) Describe in brief various gas discharge plasma
+types of temperature transducers. devices.
+(e) Explain the merits of a thermocouple system for
+the measurement of temperature, when compared
+with the wire resistance thermometer and the
+thermistor.
+® What is a load cell ? Where is it used ?
+4 Attempt any four of the following : 5x4
+(a) How many elastic pressure transducers are
+there ? Explain each of them.
+there
+(b) How many types of manometers are ?
+2 [Contd... 43-3096) 3 [ 2200 ]
+33-3096]
+aktuonline.com http://www. TUonline.com

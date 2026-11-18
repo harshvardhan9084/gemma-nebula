@@ -1,0 +1,90 @@
+Printed Pages: 4 EEC302
+B.Tech
+(SEM I) ODD SEMESTER THEORY EXAMINATION 2009-10
+DIGITAL ELECTRONICS
+Time : 3 Hours] [Total Marks : 100
+Note : all questions. Each question carries
+equal marks.
+1 Attempt any four parts :
+(a) Explain the signed binary number representation.
+(b) Given the 8 data word 01011011, generate the
+13-bit composite word for the Hamming code that
+corrects single errors and detects double errors.
+(c) Simplify the boolean function in (i) SOP (ii) POS
+F(x, y,z)= (2,38, 6,7)
+(d) Simplify the following expression and implement it
+with two-level NAND gate circuit :
+Y= BD+BCD+ ABCD
+(e) Simplify the Boolean function f together with
+don't-care condition using Karnaugh map :
+F(w, x, y,z) (1,3, 4, 13, 15)
+d(w, x,y,z) = >. (2, 5, 6, 7)
+J5-0323] [Contd....
+(f) Minimize the following boolean function by
+using Quine Mc-Clusky method
+F(A, B, C, D, E) ¥, (20, 28, 37, 39, 48, 56)
+=
+2 Attempt any four parts :
+a
+(a) Design combinational circuit that adds one to a
+4-bit binary number, The circuit can
+be designed using four half-adders.
+Show that full-subtractor be constructed with
+a can
+two-half-substractors and an OR-gate.
+What do you mean by encoder ? Implement the
+following functions using 3 8 decoder.
+:
+F, (A, B, C) (0, 6)
+1, 3, 5,
+F, (A, B,C) = 5, (0, 2, 4, 7, )
+(d) Describe the decimal adder and demultiplexer.
+(e) What is magnitude comparator ? Design a
+two-bit comparator using logic gates.
+(f) Explain the procedure of binary multiplier.
+3 Attempt any two parts :
+(a) Differentiate between latches and flip-flop. Draw and
+.
+explain a er master-slave J-K
+INN LLL 2 [Conta...
+(b) Draw the circuit for converting SR flip flop into D
+flip flop. Also design a one input and one output
+sequential circuit using D flip flop for the state
+diagram shown in Fig. 3.1
+Fig. 3.1
+(c) Design a 4-bit binary synchronous counter
+with D-flip flop. Also briefly describe the universal
+shift register.
+4 Attempt any two parts :
+(a) Write down the classification of memories. Also
+draw and explain the programmable logic array.
+(b) What is the difference between flow chart and ASM
+chart ? Also draw an ASM chart and state table for
+a 2-bit UP-DOWN counter Having mode control
+input :
+M=1 : Up counting M = 0. Down counting. The
+circuit should generate an output 1 whenever count
+becomes minimum or maximum.
+(c) Explain the following
+ROM and PAL
+(ii) Realization of ASM chart using multiplexer.
+JJ-0323] TL
+&
+) Attempt any two parts :
+(a) the block diagram of asynchronous segmental
+Draw
+circuit and explain its working. Also list the different 7
+techniques used for state assignment. )
+(b) An asynchronous sequential circuit has two internal
+and one output. The excitation functions and
+output function of the circuit are as follows : =
+Y= +
+Yo = X19 +
+Output function
+(i) Derive the logic diagram of the circuit
+(ii) Derive the transition table and output map.
+(c) Define critical and non-critical What is
+Also race race.
+hazard ? explain the elimation of Hazard.
+ai,
+J-0323) 4 [ 14700

@@ -1,0 +1,87 @@
+Pages aktuonline.com
+GEE : 3
+A
+EIE-071
+(Following Paper ID and Roll No. to be filled in Answer Book)
+your
+PAPER ID : 113751
+B. Tech.
+(SEM. VII) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+DISCRETE STRUCTURES
+Time :3 [Total Marks : 100
+Note : Attempt All questions.
+1 Attempt four parts : (4*5=20)
+() Show any that n3+2n is divisible by 3 using mathematical
+| induction ?
+(i) Determine whether each of the following function are
+bijective or not :
+a. F:R->R,;
+b. F:R->R,; f(x)=°+1
+(ii) Let R be a Relation from set A to B and S be a relation
+from set B to C, then show that
+(RoS)! equivalent
+that = R={(a, b)| b (mod m)}
+(iv) Show a = is an then
+relation on Z. Show also if x, = y, and x) =
+= ty2) -
+1
+113751]
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+_(v) Let N={1,2,3...} and a relation is defined in N x N
+as follows: (a, b) is related to (c, d) iff ad = be then
+show that whether R is a equivalence relation.
+(vi) ‘Composition function is commutative. Prove the statement
+| | or give counter example.
+| 2 four parts (4x5=20)
+() If for any each and b : in G ab”. Show
+that G is abelian. a a group =
+(i) Define cyclic with example.
+that group ) is an abelian of order 6.
+(ii) Prove {0,1,2,3,4,5}. , +, an group
+Where Z, = theorem.
+(iv) State and prove Lagrange’s addition
+(v) Consider G = {0,1,2,3,4,5,6,7,8,9}under
+modulo 10. Find out order of each element of the group.
+(vi) Explain Field with an example.
+3 Attempt any two parts : (2x10=20)
+(i) Simplify the Boolean expression
+f (w,x,y,z) = Ym (0,2,4,5,8,14,15),
+d(w,x,y,z) ¥ m(7,10,13)
+Explain POSET = and Lattice with example.
+(i) Diagram for the following an under
+(ii) Draw the Hasse 36}, /). Define set Maximal,
+partial ordering: ({1, 2, 3, 4, 9, Find
+minimal, greatest and least element of POSET.
+these elements in the Hasse diagram. Is it a Lattice ?
+Attempt any two parts : (2x10=20)
+@) Check the validity of the following arguments using
+inference rules:
+a
+-(p
+bo pA
+113751] . 2 [| Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+(i) Prove the validity of the following argument using
+predicate calculus :
+“Every living thing is a human being or an animal.
+‘Mohan is alive and he is not an animal. All human
+being have hearts. Hence, Mohan has a heart”
+(ii) Show that A -Q) V(-P A Q)) is
+tautology or contradiction or contingency?
+5 Attempt two parts (2x10=20) ©
+@) any the given : relation
+- 4a,, + recurrence = 3n? - 3n + 1 :
+Explain a, Extended Pigeonhole Principle. What is the
+- minimum number of students required in a class be
+if to
+sure that atleast 5 will receive the same grade there
+are four possible grades ?
+(iii) Write a short note on the following :
+a. Planar graph
+b. graph
+c. Graph coloring.
+113751] 3 4925
+aktuonline.com http://www.UPTUonline.com

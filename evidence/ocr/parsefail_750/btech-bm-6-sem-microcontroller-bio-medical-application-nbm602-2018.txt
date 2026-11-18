@@ -1,0 +1,63 @@
+Printed Pages: 02 Sub Code: NBM602
+Paper Id: | 1| 0} 1} 6} 0] 2 Roll No.
+B.Tech.
+(SEM VI) THEORY EXAMINATION 2017-18
+Microcontroller & Bio-Medical Application
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+Attempt all questions in brief. 2x10=20
+a) Discuss the criteria for selecting a microcontroller device?
+b) Draw the block diagram of Microcontroller?
+c) Explain the difference between MOVX and MOV instruction?
+d) What are the functions of the assembler and linker?
+¢) What do you mean by contact debounce?
+What do you mean by bipolar mode of ADC?
+g) What is the use of latch in 8051?
+h) What is the effect of finite word length of registers in microcontroller?
+i) List the different assemble directive?
+j) What is RS-232?
+SECTION B
+Attempt any three of the following: 10x3=30
+What do you mean by the term addressing modes? What are the different addressing
+mode supported by 8051? Explain in brief.
+b wm Discuss the advantages of microcontrollers over microprocessors in control
+application?
+c) Write a simple 8051 program for adding two 16-bit numbers. Assemble and link it?
+d) Explain the timing Diagram to access external memory in 8051?
+e) Draw and explain DSP processor?
+SECTION C
+Attempt any one part of the following: 10x1=10
+a) What happens in the following examples-?
+(i) SJMP$
+(ii) MOV SP, #74
+(iii) CPL 91H
+(iv) JC 02
+(v) DEC51H
+b) What is the difference between a long jump (LJMP), a short jump (SJMP) and
+absolute jump (AJMP)? Explain the following Instructions-
+(i) (i) RL RR
+ACALL
+(iv) ADDC A, direct
+(v) ANLA,R
+Attempt part of the following: 10x1=10
+any one
+Explain the various flags in PSW register? Why is a register different from a memory
+location? Explain.
+Explain the domestic applications where microcontrollers would be possibly useful or
+do better?
+Attempt any one part of the following: 10x1=10
+Discuss the various timer modes supported by 8051? What is special about the auto-
+reload mode?
+b) How do you decide the edge and level triggered configurations of external interrupts
+INTO and INT1? Also write a program to measure the width of a pulse appearing at
+the pin
+Attempt any one part of the following: 10x1=10
+a) What with microcontroller? is the exact role Why of pull-up do resistor need delay while of interfacing around push while buttons, sending keyboard
+7-segment code each time 7-segment you a display? | sec a new
+b) Discuss the various selection to a criteria between LCD and LED display?
+an an
+Attempt any one part of the following: 10x1=10
+a) Explain the application of Microcontroller and computers in Biomedical Engineering?
+b) Explain the architecture of microcontroller in embedded biomedical application?

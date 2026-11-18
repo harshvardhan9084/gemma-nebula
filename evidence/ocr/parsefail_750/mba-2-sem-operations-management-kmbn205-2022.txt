@@ -1,0 +1,62 @@
+Printed Page: 1 of 2
+Subject Code: KMBN205
+PAPER ID-421081
+Roll No:
+MBA
+(SEM Il) THEORY EXAMINATION 2021-22
+OPERATIONS MANAGEMENT
+Time: 3 Hours Total Marks: 100
+Notes: Attempt all Sections and Assume missing data.
+any
+Appropriate marks are allotted to each question, answer accordingly.
+SECTION-A Attempt All of the following Questions in brief Marks(10X2=20)
+Ql(a) |What is operations management?
+Ql(b) |Define productivity.
+Ql(c) |What are the service characteristics?
+|What you understand by GAP in Quality?
+Ql(e) |What is Pareto’s Law?
+is JIT?
+Ql(g) |What are the various flows in SCM?
+Ql(h) |Define Push and Pull view of SCM.
+Ql(i) |Define inbound logistics.
+|What is TQM?
+SECTION-B Attempt ANY ONE of the following Case Analyses Marks(2X15=30)
+Q2(a) |A manufacturing firm estimated demand for material is 2500 units per year. Acquisition cost is
+Rs 400 per order and the carrying cost is Rs 50 per unit. Assume 250 working days in a year
+and daily usage is 10 units whereas the lead time is of 10 days. Determine:
+i) The EOQ and the reorder point
+ii) Draw suitable diagram showing the Inventory order cycle and reorder point.
+Q2(b) | The following data is related manufacturing The follows ABC
+to a company. company
+Analysis for Inventory control:
+Item No. 1 2 3 4 5 6 7 8
+Unit Cost 10 9 2 8 1 60 0.4 40
+Annual Demand 7000} 8000 10000 6000 8000 2000 5000 | 4000
+i) Classify the items into A, B and C Category.
+ii) Draw suitable diagram showing the ABC Analysis in terms of cost and quantity
+percentage.
+SECTION-C Attempt ANY ONE following Question Marks (1X10=10)
+Q3(a) |What are the factors affecting productivity?
+Q3(b) |What the various factors taken into consideration plant location? Explain models
+are any two
+used for plant locational planning?
+SECTION-C Attempt ANY ONE following Question Marks (1X10=10)
+Q4(a) |What are the types of manufacturing process? Explain by giving suitable examples.
+What are the characteristics of service? Explain the difference between product and service?
+Printed Page: 2 of 2
+Subject Code: KMBN205
+PAPER ID-421081
+Roll No:
+MBA
+(SEM Il) THEORY EXAMINATION 2021-22
+OPERATIONS MANAGEMENT
+SECTION-C Attempt ANY ONE following Question Marks (1X10=10)
+Q5(a) |What are the factors taken into consideration for service design?
+Q5(b) |Explain service quality gap by illustrating SERVQUAL model.
+SECTION-C Attempt ANY ONE following Question Marks (1X10=10)
+Q6(a) |What is the importance of SCM? Explain drivers of SCM and supply chain.
+reverse
+Q6(b) |What is the role of IT in SCM?
+SECTION-C Attempt ANY ONE following Question Marks (1X10=10)
+Q7(a) |What are Deming’s 14 principles for quality improvement?
+Q7(b) |What are the benefits of Total Productive Maintenance (TPM)? Explain the 8 pillars of TPM.

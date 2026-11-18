@@ -1,0 +1,150 @@
+www.aktuonline.com
+Printed Pages: 6 NME-401/EME-401
+(Following Paper ID and Roll No. to be filled in your
+Answer Books)
+Paper ID : 140408
+B.TECH.
+Theory Examination (Semester-IV) 2015-16
+APPLIED THERMODYNAMICS
+Time : 3 Hours Max. Marks : 100
+Section-A
+Q1. Attempt
+all parts. All parts carry equal marks. Write
+answer of each part in short. (2x10=20)
+(a) Define the heat rate using in the Rankine cycle.
+www.aktuonline.com (b) Define propulsive power and propulsive efficiency.
+(c) Explain about congeneration.
+(d) Explain the significance of Willian’s law in steam
+engines.
+(e) How Equivalent evaporation is used for comparison
+of boilers?
+1 P.T.O.
+2605/49 7/673/16825
+.
+www.aktuonline.com
+EEE
+www.aktuonline.com
+by perfect cooling?
+(f) What do you mean a
+(g) Why Rankine cycle is modified?
+(h) What is clausius clapeyron equation?
+(i) Define adiabatic flame temperature.
+| What do by Thrust Augmentation?
+(j) you mean
+Section-B
+five question. Each question carries equal
+Q2. Attempt any
+marks.
+(a) What do you understand by inversion curve? Define
+Joules coefficient. How these can be used for refrig-
+eration?
+www.aktuonline.com sample fuel has the following percentage compo-
+(b) A hydrogen 10%.
+sition by weight, Carbon = 84% =
+oxygen = 3.5% nitrogen = 1.5% and Ash = 1%.
+(i) Determine the stoichiometric air fuel ratio by
+mass.
+air is supplied, find percentage
+(ii) If 20% excess volume.
+composition of dry fuel gas by
+2605/49 7/673/16825
+.
+www.aktuonline.com
+www.aktuonline.com
+(c) What is the function of condenser? Classify and
+Explain Barometric jet condenser with neat sketch?
+(d) A plant
+steam power operates on the regenerative
+cycle. Steam form boiler at 30 bar and 400°C is
+expanded in a turbine. A part of the steam is bled at
+2 bar pressure in to the feed water heater and the
+remainder is condensed at 0.07 bar. Neglecting pump
+work, determine
+the work done per kg of steam and
+the efficiency of the cycle.
+(e) A double acting single cylinder steam engine runs at
+250 rpm and evelops 30 kW. The pressure limits of
+operation 10 bar and 1 bar. Cut off is 40% of the
+stroke. are
+The L/D ratio is 1.25 and diagram factor is
+0.75. Assume dry saturated steam at inlet, hyperbolic
+expansion and neglighble effect of piston rod. Find:
+G) Mean effective pressure
+www.aktuonline.com
+(ii) Cylinder dimensions
+(ii) Indicated thermal
+(f) An impulse steam turbine of 180 kW has steam flow-
+ing at rate of 165 kg/min and leaving axially. Steam
+turbine blade speed is 175 m/s and it leaves nozzle
+at 400 m/s. For the blade
+velocity coefficient of 0.9.
+3 P.T.O.
+www.aktuonline.com
+t www.aktuonline.com
+Find nozzle angle, blade angles at inlet and exit, axial
+thrust and diagram efficiency.
+(g) Define critical pressure ratio for nozzle of the steam
+Obtain analytically its value in terms of the
+turbine.
+index of expansion.
+(h) With the help of Enthalpy-entropy and schematic
+diagrams explain the difference between the work-
+ing of propeller turbine and a jet turbine.
+a
+Section-C
+carries equal marks.
+Attempt any two question. Each question
+(2x15=30)
+Q3. The following data refer to a single stage impulse turbine:
+Isentropic nozzle heat drop = 251 kJ/kg : nozzle efficiency
+www.aktuonline.com nozzle angle 20° ratio of blade speed to whirl
+= 90% : = : blade velocity co-effi-
+component of steam speed = 0.5 :
+cient = 0.9 ; the velocity of steam entering the nozzle =
+20m/s. Determine:
+(i) | The blade angles at inlet and outlet if the steam enters
+. blades without shock and leaves the blades
+in to the
+in an axial direction.
+www.aktuonline.com
+www.aktuonline.com
+eo
+Blade efficiency
+Power developed and axial thrust in an axial direction
+Q4. (a) the back work ratios relatively high in gas tur-
+are of plants?
+bine plants compared to those steam power
+(b) In a gas turbine plant compression is carried out in two
+stages with perfect intercooling and expansion in one
+stae turbine. If the maximum temperature
+K) and minmum temperature K) in the
+for maximum
+cycle remain constand, show that
+specific output of the plant, the optimum overall pressure
+ratio is given by
+10, = (Me Ne: Trax
+Where Adiabatic index Isentropic efficiency of
+y — : 1,,=
+the turbine.
+8 =
+o Isentropic efficiency of compressor.
+RE
+Q5. A boiler generate 7.5 kg of steam per kg of coal’ burnt at a
+ay, =) of 11 bar, from feed water having a temperature of
+3 pressure is 75% and factor of
+3 70°C. The efficiency of boiler evapora-
+3 tion 1.15. specific heat of steam at constant pressure is 2.3.
+Calculate:
+5 P.T.O.
+/673/16825
+www.aktuonline.com
+Fo
+www.aktuonline.com
+(i) Degree of superheat and temperature of steam gener-
+ated;
+value of coal in kJ/kg;
+(ii) Equivalent evaporation in
+kg of steam per kg of coal.
+www.aktuonline.com
+.
+www.aktuonline.com

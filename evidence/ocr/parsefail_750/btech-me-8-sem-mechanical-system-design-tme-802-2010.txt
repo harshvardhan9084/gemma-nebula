@@ -1,0 +1,77 @@
+aktuonline.com
+Printed Pages—4 TME—802
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+B.Tech.
+(SEM VIII) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+DESIGN: te t
+MECHANICAL SYSTEM
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt all questions.
+(ii) All questions equal marks.
+carry
+(iii) Be precise in your answer.
+(iv) Assume missing data, if
+any.
+1. Attempt any two parts of the following (2x10=20)
+(a) Explain in brief with suitable : example
+(any two) :
+(i) | System approach.
+(ii) Concurrent engineering and its
+application.
+(iii) Application of system concepts in
+(b) Why engineering. it is important to analyze need
+statement ? Write types of need and need
+statements for :
+(i) Computer
+(ii) Refrigerator
+(iii) Calculator
+aktuonline.com 1 [Turn Over
+hetp://www.UPTUonline.com
+aktuonline.com aktuonline.com
+(c) The surfaces of a plane wall of thickness L 3. Attempt any two parts of the following : (2x10=20)
+are maintained at temperature t, and tp. (a} (i) Discuss the graphical model in system
+The thermal conductivity of wall material design.
+varies according to the relation : (ii) The project activities, precedence
+relationships and durations are
+(i) | Derive an expression to find the steady described in the table given below.
+state conduction through the wall. Find critical path of the project.
+Duration
+(ii) Find the temperature at which mean Activity |Precedence (in days)
+thermal conductivity be evaluated in
+order to get the same heat flow by its P 4
+substitution in the simplified Fourier’s
+equation.
+Attempt any two parts of the following : (2x10=20)
+(a) Explain the decision process,approach for
+systems analysis.
+(b) What is subjective optimization ? What is
+(b) Explain what is meant by system analysis ? the role of human user in it ?
+List and explain the important types of (c) What do you understand by Aluminium
+models used in manufacturing systems Extrusion system ? Explain it with suitable
+analysis/ design. example.
+4. Attempt any two parts of the following : (2x10=20)
+(c) A bar of gold is in thermal contact with a (a) With suitable example, write short note on :
+bar of silver of the same length and area. (i) | Present worth method.
+One end of the compound bar is maintained (ii) Annual worth method.
+at 78°C and the opposite end is at 27°C. (b) Calculate the height of a right circular cone
+When the heat flow reaches steady state, of largest volume that can be enclosed by a
+find the temperature at the junction. -The. sphere of R radius.
+thermal conductivity of gold is 307 W/(m°C), (c) With neat sketch, explain the Insulation
+and the therfnal conductivity of silver is system. Derive of the critical thickness of
+417 Insulation sphere.
+TME —802 2 TME—802 3 [Turn Over
+aktuonline.com http://www.UPTUonline.com
+two parts of the following :
+(a) Explain what is meant by conditional
+probability. Give an example of a situation
+where you would use knowledge of
+conditional probability.
+(b) Define simulation. Simulate the followings
+for 10 days and also find out the average
+demand per day. 0 [0 [0]
+"Random
+DP, 02, 20. number : 40, 19, 87, 83, 73, 84, 29,
+(c) ‘Discuss the basic steps in the installation of
+Machinery.
+com 4

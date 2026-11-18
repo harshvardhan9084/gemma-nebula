@@ -1,0 +1,68 @@
+Printed Pages: 02 Sub Code: RCH401
+Paper Id: 151410 Roll No.
+(SEM-IV) THEORY B. EXAMINATION TECH. 2017-2018
+MASS TRANSFER-I
+Time: 3 Hours Max. Marks: 70
+Note: Attempt all sections. If require any missing data; then choose suitably.
+SECTION -A
+1. Attempt all questions in brief. 2x7=14
+Discuss Fick’s law of diffusion.
+Differentiate between Molecular diffusion and Knudsen diffusion.
+Discuss Henry’s law.
+Define HETP.
+Discuss the classification of cooling towers.
+Discuss about the Wet Bulb Temperature.
+Discuss the type of batch and continuous dryers.
+SECTION - B
+2. Attempt any three of the following. 7x3=21
+Classify different transfer operations.
+Discuss Film theory mass of mass transfer.
+Discuss Non-adiabatic humidification.
+A wet solid is to be dried from 80 to 5% moisture, wet basis. Compute the
+moisture to be evaporated, per 1000 kg of dried product.
+e. Write short notes on Crystal growth rates.
+SECTION — C
+3. Attempt any one of the following: 25°C, 7x1=7
+a. oxygen- nitrogen gas mixture at 1 std atm, the concentration of oxygen
+at diffusion two planes of the 2mm apart for are the 10 and where 20 vol%, respectively. Calculate the flux of
+(i) The nitrogen oxygen is non-diffusing case
+(ii) There is equimolar counter diffusion of the two
+b. Calculate the rate of diffusion of acetic acid (A) across a gases. film of non-diffusing water
+(B) solution 1 mm thick at 17 °C when the concentration on opposite sides of the film
+are respectively, 9 and 3 wt % acid. The diffusivity of acetic acid in the solution is
+0.95x10° The density of the 9% and 3% solution is 1012 kg/m? and 1003.2
+4. Attempt any one part of the following: 7x1=7
+a. 5000 kg/hr of SO2-Air mixture containing 5% by volume of is to be
+scrubbed with 200000 Kg/hr of water in a packed tower. The exit
+concentration of SO2 is reduced to 0.15%. The tower operates at 1 atm. The
+equilibrium relation is given by: Y = 30X, where Y= mole SO2/mole Air, X =
+mole SO2/ mole water; If the packed height of tower is 0.42 m, calculate the
+height of transfer unit.
+A Benzene air mixture is to be scrubbed in a counter countercurrent absorption
+column, using nonvolatile oil as a solvent. The inlet gas contains 5% benzene
+and the column operates at 27 OC and | atm. Find the number of trays needed
+to 30% recover efficient. 90% The of equilibrium the benzene, relationship using an air-oil for benzene ratio of is 7.30. y*=0.136x. The column is
+Attempt any of the following: 7x1=7
+a. Discuss one the following terms (i) Dry-bulb temperature (ii) Relative saturation
+(iii) percentage saturation (iv) Humid volume and (v) Humid Heat.
+b. The Differentiate among absolute humidity, relative humidity and percentage
+humidity. A gas (B)-benzene (A) mixture is saturated at 1 std. atm, 500C.
+Calculate the absolute humidity if B is (a) nitrogen and (b) carbon dioxide.
+(Given: equilibrium vapor pressure of benzene at 50°C is 275 mmHg)
+Attempt any one of the following: 7x1=7
+a. Discuss Rotary driers and Spray driers.
+b. Drying of a food product is carried out in an insulated tray. The drying air has
+a of partial 30 °C. pressure The product of water has vapor drying equal surface to 2360 of 0.05m’/kg. Pa and a wet The bulb material temperature has
+critical moisture content a of 0.12 (dry basis) and negligible equilibrium a
+moisture content. The drying rate in the falling rate period is proportional to
+the moisture content and the mass transfer coefficient is kg/m*h.Pa.
+Calculate the time required to dry the material from a moisture content of 0.22
+to 0.06 (both on dry basis). Vapor pressure of water at 30°C is 4232 Pa.
+Attempt any one of the following: 7x1=7
+a. How does solution crystallization differ from melt crystallization? What are
+the two main methods used to cause crystallization from an aqueous solution?
+Which is more common and why?
+Compute the heat evolved when 10 kg of benzene as a superheated vapor at 94
+mmHg, capacity 100°C, for the is cooled and be taken condensed to a and liquid for the at 10°C. liquid the average kJ/kg.K heat
+(Given: At vapor 94 may mmHg, saturation as 1.256 of benzene 1.507 is 25°C and
+latent heat pressure of vaporization at this temperature temperature is 434 kJ/kg)

@@ -1,0 +1,84 @@
+iaktuonline.com aktuonline.com
+Printed Pages—4 TME301
+E B.Tech.
+| (SEM. IIT) ODD SEMESTER THEORY EXAMINATION
+te 2010-11
+i MATERIALS SCIENCE
+Time : 3 Hours Total Marks : 100
+j Note : (4) Attempt all five questions.
+(2) All questions carry equal marks and they are shown
+against each question.
+(3) Avagadro's number is 0.6023
+x ‘ :
+1. Answer of the following (10x2=20)
+any two parts :
+(a) Describe the modern concept of the atomic model.
+(b) What is the coordination number ? Explain
+your answer
+with the help of a sketch, taking the example of a simple
+cubic lattice.
+(c) of iron is 7.86g/cm’. Its atomic weight is
+55.85. Calculate its atomic radius assuming B.C.C.
+structure.
+TME301/VEQ-14955 1 {Turn Over
+aktuonline.com
+http: ww UPTUonline.com
+aktuonline.com aktuonline.com
+(ii) Sodium Chloride Crystals having F.C.C. havi (10x2=20)
+‘density of structure 3. Answer any two parts of basic the following :
+Calculate its lattice- constant (a) (i) Whatare the differences between cast iron and
+Molecular weight of NaCl equals 58.5, and carbon steel ?
+2. Answer four (ii) Plain carbon stcel always contains some manganese
+any parts of the following : (5x4=20) and silicon. Then why is plain carbon steel not
+(a) Draw a tensile stress-strain diagram for material like considered an alloy steel ?
+mild steel and mark the following a
+points on it : (iii) Write a bricf note about "ferrite-stabilisers" and
+@) ~~ Limit of proportionality, "austenite " and their role in stainless steel.
+(ii) Elastic limit,
+(iv) What are silico-manganese steels used for ?
+(ii) Lower and higher yield points, (b) What are the conditions for formation of martensite and
+(iv) Ultimate tensile strength (U.T.S), bainite ? Explain with the help of time-temp-transformation
+and
+(v) Breaking strength diagrams.
+What information about stiffness and (c) Dffferentiate between brasses and bronzes. Is gun-metal
+material is revealed toughness of test brass bronze ? What do understand by "season
+by this curve ? a or you
+(b) Describe the procedure of hardness testin g on a Rockwell cracking" and dezincification ?
+tester. For which materials scales
+(c) endurance are A, B and C used ?
+What is limit ? What is its significance for parts Answer any two of the following : (10x2=20)
+subject to fatigue ? (a) Write a brief account of “energy band theory" and explain
+(d) How is grain size the difference between conductors, semiconductors and
+of a sample ascertained ? the basis
+(e} State and explain the phase-rule. insulators on of this theory.
+(f) Draw a solid-solution (b) What do you understand by magnetic hysteresis ? What
+type of equilibrium diagram and role does it play in the operation of transformers ?
+explain briefly the changes which take place when an alloy
+ofa particular composition begins to solidify and cools. (c) Explain what is a thermistor and the different uses it can
+Explain the phenomenon be put to.
+of "coring".
+TME301/VEQ-14955
+2 TME301/VEQ-14955 3 [Turn Over
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com
+5. Answer zeny four parts of the following : (5x4=20)
+(a) How is ceramic material defined ? How is it different
+a
+from “cérmet™ ? Name any two ceramic material tools used
+for machining of metals.
+(b) Whai fibre-reinforced plastics ? What kind of fibres
+are
+are used and why ?
+(c) Name different types of glasses. What are the properties
+of borosilicate glasses ?
+(d) What are the advantages of using twisted steel bars in
+R.C.C ? What other reinforcing material is used in cement-
+concrete ?
+(e) Describe the property of viscoelasticity. What is relaxation
+modulus ?
+(f) What is the common classification method for classifying
+plastics ? Name thermoplastics used in household.
+some
+4
+TME301/VEQ-14955 375+1385
+aktuonline.com http://www.UPTUonline.com

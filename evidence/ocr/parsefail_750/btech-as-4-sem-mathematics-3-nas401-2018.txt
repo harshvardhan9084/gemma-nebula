@@ -1,0 +1,88 @@
+Printed Pages: 03 Sub Code: NAS 401
+Paper Id: | 1} 9} 9) 4) 1) 8 Roll No.
+B. TECH.
+(SEM IV) THEORY EXAMINATION 2017-18
+MATHEMATICS II
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x 10=20
+(a) Determine analytic function terms of z whose real part is x*
+(b) Write Cauchy’s Reimann conditions in polar coordinates system
+(c) If the Fourier transform of e~ is Vz then find Fourier transform of
+(d) Find Z transform of a‘. .
+Write normal equations fit the by method of least
+(e) to curve y = square.
+(f) Find mean and variance of Poisson distribution.
+(g) Write the Newton Raphson iteration formula
+(h) Prove that third divided difference of !
+a is —
+(1) Discuss diagonal dominant property for system of linear equations.
+(j) Use Picard’s method to obtain y(0.2) up to two iterations. Given: = x—y with the
+condition y(0)=1
+SECTION B
+2. Attempt any three of the following: 10x 3 =30
+xsinx
+(a) By contour integration find: 5
+ox +a
+(b) Using Z-transform solve the difference equation: y,,,+4y,,,+3y, =3", given
+¥ =9,y, =1.
+(c) In a normal distribution. 31% of the items are under 45 and 8% are over 64. Find mean and
+li jy
+standard deviation of the distribution. It is given that { e* dx, then
+V2n
+f(0.5)=0.19and =0.42.
+3x+sinx—e* =0
+(d) Find three the decimal real root places. of equation by the method of False-position correct to
+(e) Find the value of Runge-Kutta method of fourth-order, given that
+_ 2 +xy, take h=0.05.
+dx
+SECTION C
+Attempt any one part of the following: 10x1=10
+(a) State and prove Cauchy’s Residue Theorem. Hence or otherwise evaluate
+2 a, where C is |z|=10.
++4)
+(b) Expand in the regions (i) 1 < |z+1| <3 (ii) 0 < |z+1| < |z+1|
+ds
+Attempt of the following:
+any one part
+(a) Find Fourier cosine transform of and hence find Fourier sine transform of
+l+x >
+(b) The temperature u in the semi-infinite rod 0 is determined by the differential
+Ou
+equation _ — Ot =k —; Ox Subject to the conditions;
+ou
+(i) u=0 when t=0, x = 0 (ii) =-u
+Ox
+(aconstant) when x=0 and t>0. Making use of cosine transform, show that
+u(x,t) 2 \dp
+> P
+Attempt part of the following:
+(a) The first any four one moments of distribution about 4 1,4,10 and 45. Calculate the
+moments about the and a comment x the = skewness are and kurtosis of the
+distribution. mean upon
+(b) To test the effectiveness of inoculation against cholera, the following table was obtained:
+Attacked Not attacked Total
+Inoculated 30 160 190
+inoculated
+Not Total 140 460 600
+170 620 790
+(The figures represent the number of persons)
+Use to defend refute the statement that that the inoculation prevents attack from
+or
+cholera. (Yoo; for 1d.f.=3.841).
+6. Attempt part of the following:
+any one
+(a) By means of Newton’s divided difference formula, find the value of f(15) from the following
+table:
+4 5 7 10 11 13
+x
+f(x) 48 100 294 900 1210 2028
+(b) Estimate from the table, the number of students who obtained marks between 40 and
+45.
+Marks: | 30-40 | 40-50 | 50-60 | 60-70 70-80
+No. of students: 31 42 51 35 31
+7. Attempt any one part of the following: 10x 1=10
+(a) Solve by Crout’s method, the following system of equations:
+xt+y+z=3, 3x+y-z=-3
+(b) Find the approximate value sinx dx by Simpson’s rule.

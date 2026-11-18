@@ -1,0 +1,100 @@
+aktuonline.com
+aktuonline.com
+Printed
+Pages : 4
+NEE101/NEE201
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 199130
+:
+B. Tech.
+(SEM. I) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+ELECTRICAL ENGINEERING
+Time : 3 Hours] [Total Marks : 100
+1 Attempt FOUR 5x4=20
+any parts :
+a) Why proper Earthing is necessary? What is the importance
+of earth’s resistance value?
+b) Write detailed note on importance of electrical safety
+issues.
+c) State the dot convention for mutually coupled coil in
+terms of the flux direction.
+d) Derive the induced emf-flux relationship of the
+transformer.
+e) What is transformer? Explain the constructional features
+of different types of transformer.
+f) Write detailed note on Hysteresis loss and Eddy current
+loss in magnetic circuit and also state how reduce
+to
+the eddy current loss considerably.
+199130 | 1 [ Contd...
+ktuonline.com http://www.aktuonline.com .
+. aktuonline.com
+'
+2 Attempt TWO 10x2=20
+any parts :
+a) Deduce Thevenins equivalent between the terminals a
+and b from the given circuit.
+0.5 I
+2 Ohms 1 Ohms
+5V
+b) Using Star-delta transformation, find the current in the
+branch b-c of the circuit. Consider all the values of
+resistances in Ohms.
+are
+10V
+199130 | 2 [ Contd...
+ktuonline. http://www.aktuonline.com .
+aktuonline.com aktuonline.com
+c) Find V and Tin the given circuit by using
+Superposition
+theorem
+0.1 Ohms 0.6 Ohms 0.1 Ohms
+—40V
+60 V —
+3 Attempt any TWO parts : 10x2=20
+a) Derive the quality factor of the Parallel RLC circuit at
+resonance.
+b) __In the given parallel RLC circuit, determine ig(t), i; (t)
+and i and i Determine the
+phasor diagram
+showing all currents and voltage.
+42 Cos 400t A
+1 A
+c) RLC circuit is composed of 10Q resistance,
+0.1 H inductance and 50 uF capacitance. A voltage
+V(t)=141.4 V is impressed upon the
+circuit. Determine (i) the expression for instantaneous
+current, (ii) the voltage drops Vz, V; and V¢. across
+Resistor capacitor and inductor, (iii)draw the phasor
+diagram using all the voltage relations.
+199130 | 3 [ Contd...
+aktuonline.com http://www.aktuonline.com
+aktuonline.com aktuonline.com
+4 Attempt any TWO parts 10x2=20
+a) Describe the construction and working of PMMC
+instrument and also derive the equation for deflection
+if the instrument is spring controlled.
+b) A balanced delta connected load impedance
+16+; 12 Q/phase is connected to a three phase 400V
+supply. Find the phase current, line current, power
+factor, active power, reactive power and total power.
+Also draw the phasor diagram.
+c) A 1mA meter d’Arsonval movement with an internal
+resistance of 100 Q is to be converted into a 0-100mA
+ammeter. Calculate the value of shunt resistance and
+voltage drop across the shunt resistance.
+5 Attempt any TWO parts : 10x2=20
+a) Write the expression for the induced emf and torque
+of dc machine. What is the value of the constant
+relating a and ?
+q@ n
+b) A 6.6kV, 20-poles, 50 HZ, 3 phase star-connected
+induction motor has rotor resistance of 0.12Q and a
+still reactance of 1.12Q. The motor has a speed of
+292.5 rpm at full load. Calculate the slip at maximum
+torque.
+c) Illustrate the operating principle of synchronous motor
+with suitable figures.
+199130 ] 4 62225
+aktuonline.com http://www.aktuonline.com :

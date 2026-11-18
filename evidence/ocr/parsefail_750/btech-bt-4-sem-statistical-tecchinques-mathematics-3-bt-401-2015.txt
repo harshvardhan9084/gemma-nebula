@@ -1,0 +1,72 @@
+www.aktuonline.com
+Printed pages: 4 BT401
+SEC-B
+(Following paper code and roll No. to be filled in your answer book) Q2. Attempt any 3 parts. 3x10=30
+Paper code: 154401 Roll No.
+(a) State distinctive features of Binomial and Poisson
+distribution. When does a binomial distribution tend to
+become a (i) normal distribution and (ii) Poisson
+B TECH distribution.
+(SEM IV) CARRY OVER EXAMINATION 2014-15 (b) What is meant by of central tendency? Discuss
+STATISTICAL TECCHINQUES (MATHEMATICS IIT) measure
+Time allowed: 3 Hrs. Max Marks: 100 the merits and demerits of median as a measure of
+central tendency.
+SEC- A (c) The runs scored by two batsman A and B in 9
+consecutive matches are given below
+Q1. Attempt any four parts. 4X5=20
+A | 85 | 20 | 62 | 28 | 74 69 | 13
+(a) Define bar graph and pie graph for the data. B 72 |4 15 | 30 | 59 | 15 | 49 | 27 | 26
+(b) Define non parametric tests. Write the advantages of non Which of the batsman is more consistent?
+parametric tests. (d) Calculate median from the following distribution:
+(c) A coin was tossed 400 times and the head turned up 216 Class 30-40 | 40-50 | 50-60 | 60-70 | 70-80 | 80-90 | 90-100
+times. Test the hypothesis that the coin is unbiased.
+(d) The two lines of regression for a bivariate distribution are Frequency 6 10 16 14 10 5 2
+3x+2y=7 and x+4y=9. Find the regression coefficients b,x of
+and b,y, and find the value of r. (e) A die is thrown 90 times and the number faces
+(e) If the first four moments of a distribution about the shown are as indicated below:
+value 5 equal to -4, 22, -117 and 560. Determine Faces 1/2 [3 |4 |5 [6
+the corresponding are about the Frequency | 18 | 13 | 15 | 14 | 16
+moments mean. Use chi-square test whether the die is fair.Tabulated
+(f) Calculate Karl Pearson’s coefficient of correlation for the value at 5% is 11.07.
+data given below:
+SEC -C
+X | 70 | 65 | 71 | 62 | 58 | 69 | 78 | 64
+Y | 91 | 76 | 65 | 83 | 90 | 64 | 55 | 48 Q3. Attempt any two parts. 2x5=10
+(a) Define techniques of statistical quality control and
+what are objectives of control charts?
+(b) What is Randomized block design? Discuss its analysis
+of variance.
+www.aktuonline.com
+(c) Determine the control limits for X and R charts if
+X=37.5, R=9.9 number of subgroups =20. It is
+given that A»=0.18.D3= 0.41, Da = 1.59 and
+=3.736.Also find the process of compatibility. (c) Define Karl Pearson’s coefficient of correlation. How
+would you interpret yhe sign and magnitude of a
+Q4. Attempt two parts. 2x5=10 correlation coefficient?
+(a) The following any figures relate the weekly sale records
+to
+(in rupees) of three salesmen A, B and C of a company
+during 13 sale calls.
+Salesman | Weekly sale record
+A 300 400 300 500
+B 600 300 300 400
+C 700 300 400 600 500
+Test whether there is any significant difference in the
+sales of 3 salesman using ANOVA. (Given F2,19(5%)=
+4.10)
+(b) What is the major purpose of hypothesis testing?
+Explain the various steps involved in hypothesis
+testing.
+(c) As a result of tests on 20,000 bulbs manufactured by
+it found that life time of the bulbs
+company was was
+normally distributed with an average life of 2040 hours
+and standard deviation of 60 hours. Estimate the
+number of bulbs that is expected to burn for:
+(i) More than 2150 hours
+(ii) less than 1960 hours.
+Q5. Attempt two parts. 2x5=10
+(a) Describe any the various methods of measuring variation
+along with their respective merits and demerits.
+(b) Find the of skewness and kurtosis for the
+following measures distribution:

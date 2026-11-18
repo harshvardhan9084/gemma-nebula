@@ -1,0 +1,118 @@
+LN NN
+Printed Pages : 4 TCS-054
+Paper
+(Following ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0156 Roll No. | |
+B. Tech.
+(SEM. VIII) EXAMINATION, 2007-08
+MOBILE COMPUTING
+2.
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions.
+(2) All questions carry equal. marks.
+(3) Be precise in your answer.
+(4) No second answer book will be provided.
+1 Attempt any four parts : 5x4
+hexagonal shape for cells
+(a) Why did we choose
+in cellular phone system? What is frequency
+reuse?
+(b) How do the signaling sequences address the
+following features in GSM?
+(i) Location Updating
+a. (ii) call origination
+J (ui) Authentication and ciphering
+(c) Distinguish between High Speed Circuit Switched
+Data (HSCSD) and General Packet Radio Service
+(GPRS) of GSM standard. What architectural
+additions need to be made existing GSM to
+have of GPRS? in
+support
+[Contd...
+(d) Discuss different channel allocation techniques
+used in cellular system.
+(e) Suppose that A,B,C are simultaneously transmitting
+0 bits, using CDMA system with following
+sequences:
+A = (-1-1-1+14+1-1+1+1)
+B (-1-1+1-1+14+1+1-1)
+C = = (-1+1-14141+41-1-1)
+What is the resulting chip sequence?
+(f) What are different handoff detection strategies?
+Discuss different types of Handoff with reference
+to network.
+2 Attempt any four parts: 5x4
+|
+(a) What are hidden node and exposed node problems
+in wireless LAN? How is it addressed in MACA?
+(b) Distinguish between DCF and PCF in context to
+wireless LAN. How their coexistence is made
+possible in wireless Lan?
+(c) Give an overview of the WAP architecture and
+compare it with the typical internet architecture
+when using www.
+(d) Sketch'a diagram showing the Bluetooth
+neat functions of the following
+protocol stack. State the
+layers:
+(i) Radio Layer
+(ii) | Baseband Layer
+(it) L2CAP layer
+U-0156] AIA 2 [Contd...
+(e) List the entities of mobile IP and describe data
+transfer from mobile node to fixed node and
+vice-versa. Why a and where is a °
+encapsulation
+needed?
+What are the implications of traditional TCP on
+mobility? Discuss any one strategy that attempts
+to increase TCP’s performance in wireless and
+mobile environment.
+Attempt any two parts: 10x2
+(a) Discuss the impact of mobile computing
+following of data on
+(i) aspects management.
+(i) Data Disseminaion
+(ui) Query Processing
+(b) How does mobility affect data replication when
+consider replicating mobile platform? Discuss
+different we possible replicating on
+schemes when both
+client and server move only within their home
+location servers.
+(c) What is multicluster architecture? Discuss
+required partition the any one
+into several clusters. to network
+Attempt any two parts: 10x2
+(a) What is mobile agent? What are the benefits/good
+reasons for using mobile agents? Discuss the
+classification of fault tolerance schemes
+for mobile
+agents.
+U-0156) NTT)
+3 [Contd...
+(b) Discuss different security threats stemming from
+attacking platform
+(i) An agent an agent
+(ji) An agent platform attacking an agent
+Discuss various issues related transaction
+(c) computing environment. to
+processing in mobile
+5 Attempt any two parts : 10:
+(a) Discuss fundamental differences between wired
+networks and ad hoc wireless networks related
+to routing. Identify of the key issues
+involved in QoS routing some in ad hoc networks.
+(b) Discuss the ad hoc on demand distance vectors
+routing. How is it different than standard distance
+vector algorithm?
+hybrid
+(c) Distinguish between proactive, reactive and
+protocols. For the topology shown in following
+figure, create a Directed Acyclic Graph (DAG)
+for node 1 as the source and node 7 as the
+destination in TORA. If the link between nodes
+4 and 6 breaks as shown in the figure, find the
+change in DAG (Also mark the distance from the
+destination).
+[ 9075

@@ -1,0 +1,95 @@
+aktuonline.com
+Ml ll
+TEE301
+Printed Pages: 4
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 2047
+.
+B.Tech
+(SEM III) ODD SEMESTER THEORY EXAMINATION 2009-10
+BASIC SYSTEM ANALYSIS
+Time: 3 Hours] [Total Marks: 100
+1 Attempt any four parts of the following : 5x4
+(a) What is difference between continuous and
+‘* time signals ? Explain with examples.
+(b) Define unit step and unit impulse functions.
+(c) Determine whether or not each of the following
+signals is periodic.
+@) . =
+(ii)
+(d) Show that if x,[7] is an odd signal and
+signal, then x,[n] is odd
+is an even an
+signal.
+(e) Develop an analogous mechanical system for
+a series RLC circuit using Force-Voltage
+analogy.
+2 Attempt any two parts of the following : 10x2=20
+{a Ostsl
+(a) Let x(t)= t > be a_ periodic
+signal with fundamental period 7=2 and
+Fourier coefficients
+35-2047] 2
+aktuonline.com
+http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+(i) Determine the value of a. (b) The figure shows a staircase waveform
+Volts |
+(ii) Determine the Fourier series
+dx (ft)
+representation of dt
+(iii) Use the result of part (ii) and the 0123 45 6 t-> (sec)
+differentiation property of the continuous (i) Write equation for the
+- time Fourier series to help determine terms of an unit functions. waveform in
+the Fourier series coefficients of x(t). step
+> Y (ii) _If this voltage is applied to an RL series
+(b) Consider a causal LTI system implemented as circuit with R=1Q and 7 =177, find
+the RLC circuit shown in the following figure.
+In this circuit, e(¢) is input voltage and v, (¢) the current and sketch its waveform.
+is considered output. (c) Determine inverse Fourier transform of
+as by, using convolution for the
+following functions :
+1 1
+@ (s—a)
+K=— 1 2
+(i) Find the differential equation relating i)
+e(t) and
+4 any two parts of the following 10x2
+(ii) Determine the v,(t) if -
+(c) What do you mean by Fourier analysis ? What ; © (a) Develop a state model for the circuit shown
+is Fourier transform ? Explain the development in the figure. The output is taken as the voltage
+of continuous time fourier-transform. across C.
+3 Attempt any two parts of the following :
+(a) What do you understand by Laplace transform ?
+Distinguish between Laplace transform and
+continuous time Fourier transform. Discuss
+importannt properties of Laplace transform.
+55-2047] | [Contd....
+3 [Contd..
+aktuonline.com
+aktuonline.com aktuonline.com
+(b) The differential equation of a certain
+electromechanical system is
+initial conditions y(0*)=0, Use
+the state variable method to obtain the complete
+of the system.
+(c) Discuss response the‘ state variable analysis approach.
+Establish the relation between transfer function
+of and variables.
+a system state
+5 Attempt any two parts of the following :
+(a) Find the inverse Z-transform of the following :
+ads
+1
+*
+|z|>2
+(b) Define Z-transform. Give relationship between
+Z-transform and discrete-timé Fourier transform.
+Dicsuss the important properties of ROCs for
+Z-transform,
+(c) (i) Determine the system function for causal
+LTI system with difference equation
+2|=x[n]
+(ii) Using Z-transform, determine y[n] if
+ulm)
+[1800 J

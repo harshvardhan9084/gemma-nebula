@@ -1,0 +1,134 @@
+aktuonline.com aktuonline.com
+.
+LT
+Printed Pages : 4 TIT — 012
+No.
+(Following Paper ID and Roll to be filled in your Answer Book)
+PAPER ID : 0510
+B. Tech.
+(SEM.. VIII) EXAMINATION, 2008-09
+MULTIMEDIA SYSTEM
+Time : 3 Hours] [Total Marks : 100
+1 Attempt any four parts. down 5x4
+(a) Define the term Multimedia. List four
+software used in multimedia industry with their _
+applications.
+(b) What are different types of requirements for
+multimedia computer system that can support
+multimedia applications in industries.
+is multimedia used in business
+(c) How the help of
+communication? Explain with an
+example.
+(d) What is multimedia authoring? Explain metaphor
+presentation in context of multimedia authoring.
+(e) An analog audio signal has a dynamic range
+of 40 db. Determine the magnitude of the
+quantization noise relative to the minimal
+signal amplitude, if the quantizer uses
+(i) 6 bits
+(ii) 10 bits
+0510) AM [Contd...
+aktuonline.com
+aktuonline.com aktuonline.cém
+(f) How does the process of raster scanning create
+an image on monitor? How can interlacing be
+useful for displaying steady images
+on slower
+monitors?
+2 Attempt any two parts. 10x2
+(a) What features of MIDI make it suitable
+for multimedia applications? Briefly justify
+your answer. What are the drawbacks of
+MIDI?
+(b) Describe the process of video digitization.
+How does it help in multimedia presentation?
+(c) How is MIDI used within the MPEG-4 audio
+compression standard?
+3 Attempt two
+any parts. 10x2
+(a) () Compare lossy and lossless data
+compression.
+(ii) Illustrate JPEG image preparation
+with suitable example.
+#
+(b) Briefly state the LZW compression algorithm
+and show how would you use it to encode the
+following stream of characters :
+MYMEMEMYMO
+You may that single character tokens
+coded by assume their are
+ASCII codes, as per the original
+0510] [Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+(f) How does the process of raster scanning create
+an image on monitor? How interlacing be
+useful for displaying steady can
+images on slower
+monitors?
+2 Attempt any two parts. 10x2
+(a) What features of MIDI make it suitable
+for multimedia applications? Briefly justify
+your answer. What are the drawbacks of
+MIDI?
+(b) Describe the process of video digitization.
+How does it help in multimedia presentation?
+(c) How is MIDI used within the MPEG-4 audio
+compression standard?
+3 Attempt
+any two parts. 10x2
+(a) (i) Compare lossy and lossless data
+compression.
+(ii) Illustrate JPEG image preparation
+with suitable example.
+(b) Briefly state the LZW compression algorithm
+and show how would you use it to encode the
+following stream of characters :
+MYMEMEMYMO
+You that single character
+may assume tokens are
+coded by their ASCII codes, as per the original
+0510]
+aktuonline.com http://www.UPTUonline.com [Contd...
+aktuonline.com aktuonline.com
+LZW algorithm. However, for the purpose of
+the solution you may simply output the character
+rather than the ASCII value.
+(c) Encode the following set of tokens using
+Huffman coding.
+BABACACADADABBCBABEBEDDABEEEBB
+4 Attempt any two parts.
+10x2
+(a) Briefly discuss that how Nyquist's Sampling
+Theorem affects the quality of the data and
+the
+form in Which sampling effects manifest
+themselves in the actual data for the following
+media types ;
+(i) graphics
+(ii) images
+(ili) video
+(b) Explain the process of video capturing and
+digitization.
+(c) Discuss with the help of suitable examples/
+diagram in context to digital audio.
+(i) Sampling variables
+(ii) Silence compression
+(iti) Loss less compression
+of sound
+0510) [Conta...
+aktuonline.com
+5 Attempt two parts 10x2
+any :
+(a) Illustrate CMYK color model. How is it
+different with RGB color model? Justify
+your
+answer.
+(b) Enlist various
+quality factors in multimedia
+transmission and explain them in detail.
+various video representation schemes.
+|
+[ 675
+aktuonline.com http://www.UPTUonline.com

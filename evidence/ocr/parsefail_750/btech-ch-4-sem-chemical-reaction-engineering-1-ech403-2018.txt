@@ -1,0 +1,68 @@
+Printed Pages: 02 Sub Code: ECH403
+Paper Id: 151406 Roll No.
+B. TECH.
+(SEM IV) BACKPAPER THEORY EXAMINATION, 2017-2018
+CHEMICAL REACTION ENGINEERING-I
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION-A
+1. Attempt all questions in brief. 2 x10 = 20
+(a) Explain transition state theory.
+(b) Differentiate between molecularity and order of reaction with suitable examples.
+(c) Define Equilibrium Kc.
+constant
+(d) Define Autocatalytic reaction.
+(ce) Define ‘Time constant’.
+(f) Define ‘Non-ideal’ flow.
+(g) Define Holding time.
+(h) Define CSTR.
+(i) Describe collision theory.
+(j) Explain the term ‘Activation Energy’.
+SECTION-B
+following:
+2. Attempt any three of the 10x3 = 30
+(a) Discuss ‘Autocatalytic’ reactions with the help of typical rate concentration
+(b) Explain the properties and relationships of E, C and F curves for various curve. flows with
+suitable examples.
+(c) Derive the design equation for PFR.
+(d) Explain Yield and Selectivity of a chemical reaction with suitable examples.
+(e) The stoichiometry of the decomposition is A — 2.5 R. Find a rate equation which
+satisfactorily represents this decomposition. The following data are obtained at 0°C in a
+constant volume batch reactor using pure gaseous A.
+Time, min 0 2 4 6 8 10 12 14 0.
+Partial Pressure of A,cm | 76 | 60 | 47.5 | 39 | 32 | 27.5 | 24 | 21.5 15
+SECTION-C
+3. Attempt any one part of the following: 10x1 =10
+(a) Why “differential method for analysing kinetic data is preferred integral method for
+fractional order over
+(b) Three of different sizes are connected in series. Discuss the behaviour of the
+system and also explain the scheme for connecting the reactors with neat diagram.
+4. Attempt any one part of the following: 10x1 =10
+(a) A liquid reactant P converted by 2™ order kinetics. 65 % of P is converted in 480 sec in
+a batch reactor. How much time would it take to reach 90% conversion?
+(b) An aqueous reactant stream (5 mol A/ litre) passes through a PFR followed by a CSTR.
+Find the concentration in the CSTR, if at the exit of the PFR C4 = J The
+reaction is order with respect to A, and the volume of the PFR is double that of
+CSTR.
+5. Attempt any one part of the following: 10x1 =10
+(a) Define Recycle Reactors. Also differentiate between reversible and Irreversible reaction.
+Ki Ko
+(b) For a series reaction A — R — S, obtain an expression for Cr and also prove that
+time taken to obtain the maximum concentration of R(Crmax) equals the log mean kinetic
+constant difference.
+6. Attempt any one part of the following: 10x1 =10
+(a) Specific rate constants of the following are obtained at different times of a reaction. Find
+order of the reaction from the data.
+Run 1 2 3 4
+t (Sec) 840 2100 3600 7260
+10
+k x (litres/gmole. Sec) 1.64 1.71 1.65 1.72
+(b) Derive the performance equation for “Tanks in series model’ with the help of suitable
+example.
+7. Attempt any one part of the following: 10x1 =10
+(a) The of reaction 27°C is 1.5x10“(s)'. Determine the frequency factor for
+this reaction. rate constant Take Energy a of Activation at is equal 1.5x10° cal/mol.
+to
+(b) For an isothermal batch reactor, 90% of a liquid is converted in 20 min. What space time
+and space velocity are needed to effect this conversion in a PFR?

@@ -1,0 +1,43 @@
+aktuonline.com aktuonline.com
+Printed pages: 2
+(Following code and roll No to be filled in your answer book)
+paper
+(2010-11)
+“{SEM. 1) ODD SEMESTER Electronics THEORY Enginecring EXAMINATION
+Time . 3 Hours Total Marks | 1040
+Note : Attempt all questions. All questions given, suitably. carry equal marks. Assume any data, not
+SECTION-A
+Attempt all the parts of this question. Al) parts of the question carry 2x10=20
+marks. These questions contain 10 objectives/ fl in the blank type/ true-false
+type questions.
+The kave voltage of a junction is after doping.
+ii. The Zener works as
+{a) (b) Current Voltage regulator regulator
+Power regulator
+ii of (a) all Both the diodes (a) and center-Tapped-transformer-full-wave-rectifier (>) is
+PIV The biasing circuit which of gives best stability to the Q point is —-.
+(a) Base resistor biasing
+{b) Emitter Potential resistor divider biasing biasing
+{c} (d) Feed back resistor biasing
+v Fhe parameters.a and of a bipolar junction transistor is related as —-----.
+vi. The gate {a} of'a netal depletion type MOSFET is made up of
+{b) semiconductor
+id) (c) both
+vii. The input impedance none of a JFET is
+(a) Very high
+{b) {c) Very low high
+id) Moderately low
+viii The De states that
+Phe CRO can phase measure
+(b) voltage
+id) {c) curremt the above
+The hil-seale none deflection of of obm scale ina multimeter reads
+(3) Infinity resistance
+ib) Zero Same resistance
+(d) none of the above
+SECTION - 6 —$
+2 a and explain the fermis in respect 7 of pen punction Hrs 30
+depletion layer Ud) barner dine AC and DC resistance.
+the and transition OPEN apple
+working of WEE tras hed es Vo. ot the
+aktuonline.com TUonline.com

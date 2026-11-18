@@ -1,0 +1,106 @@
+http://www.aktuonline.com
+Printed Pages: 4 MCA306
+(Following Paper ID and Roil No. to be filled in your Answer Bock) |
+1434
+M.C.A
+(SEM II) ODD SEMESTER THEORY EXAMINATION 2009-16
+COMPUTER BASED OPTIMIZATION TECHNIQUES
+: 3 Hours] [Total Marks: 106
+Notes : (1) Attempi all questions.
+(2) All questions carry equal marks.
+1 Attempt any two of the following 10x2=2 ho i=)
+(a) -For the optimum order quantity for a product
+for which the price breaks are as follows :
+Quantity Unit cost price
+10.00
+500
+<Q 9.25
+The monthly demand for the product is 200 units, the
+cost of storage is 2% of the unit cost and the cost
+of ordering is Rs. 350.00. Find the optimurn purchase
+quantity.
+items. The ordering
+The carrying cost is |
+Assuming working
+days and safety sto
+(i) EOQ
+(ii) The number of order per year
+(iii) Re-order level
+(iv) Total annual ordering and carrying cost.
+JJ-1434] [Contd...
+http://www.aktuonline.com
+(2) Illustrate single period inventory modei
+with shortest cost in detail.
+(1) List the five applications of Inventory model.
+(2) The probability of failure just before
+is shown p, below. If individual age
+n replacement Rs. 12.50 and
+replacement costs Rs. 3.00 item, group find
+the optimum costs replacement policy. per
+Attempt any two of the following : 10x2=20
+Enlist the algorithm of Simplex method
+for solving linear programming (LPP).
+(2) Explain the Charnes' Big-M method of solving
+Linear Programming Problems (LPP).
+(b) List the various steps of branch and bound method for
+, solving Integer Linear Programming Problems.
+(c) (1) What do by sensitivity analysis ?
+Discuss its you significance mean in solving LPP.
+(2) Illustrate the important results (at least
+three) in Duality.
+3 = Attempt any two of the following : 10x2=20
+{a) Apply Dual Simplex Method to solve the LPP.
+Max Z
+Subject to
+21
+210
+$3
+Xy
+20
+3-143] [Contd...
+http://www.aktuonline.com
+(b) Find the initial solution to the following TP using
+Vogel's Approximation Method (VAM) and
+Matrix-Minima (MM) method.
+Destination
+(c)
+A company has three plants A, B and C, 3
+warehouses X, Y and Z. The number of units- -
+available at the plants is 60, 70, 80 and the
+demand at X, Y, Z are 50, 80, 80 respectively.
+The unit cost of transportation is given in the
+following table :
+Find the so that the total transportation
+cost is minimum.
+4 Attempt any two of the following 10x2=20
+(a) Describe the Hungarian Method for Assignment
+problem (AP).
+(b) Illustrate Wolfe's method for quadratic programming
+in detail.
+(c) What do http://www.aktuonline.com by Dynamic Programming?
+you mean
+Use the dynamic programing to solve the LPP.
+Max
+Subject to the constraints
+2x1
+X_ S11
+X1,%_ 20
+5 Attempt two of the following 10x2=20
+any :
+(a) Describe Multistage decision problem and its
+solution in context of dynamic programming.
+(b) What do you mean by Queuing theory ? Describe
+basic elements of Queuing model.
+In public telephone booth the arrivals
+the a hour. call the are on
+average 15 per A on average
+takes 3 minutes. If there is just one phone, find
+(i) expected number of callers in the booth
+time ?
+at any
+(i) the production of the time the booth is
+expected to be idle ?
+(c) Write short notes on :
+()  Erlong Distribution and Poisson Distribution.
+(i) Markovian process, steady and transit state.
+4 [ 1525 ]

@@ -1,0 +1,139 @@
+aktuonline.com
+. aktuonline.com
+Printed Pages: 4 TAS101
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+ID:.9913
+PAPER
+B.Tech
+(SEM I) ODD SEMESTER THEORY EXAMINATION 2009-10
+PHYSICS
+Time; Hours} [Total Marks
+3 : 100
+Note (1) all
+: All Attempt questions. equal
+questions carry marks.
+(3) Standard data are given in the end of the
+guestion paper.
+1 Do any four of the following : 5x4=20
+(a) Discuss briefly Michelson-Morley experiment and
+mention its outcome.
+(b) Deduce an expression for time dialation on the
+basis of Lorentz transformation equations.
+(c) Obtain the volume of a cube, the proper length
+of each edge of which is L,, when it is moving
+with velocity along of its edges.
+(d) How fast electron v must one in order that
+its equal an the move of the ?
+(e) Show mass that the to relativistic rest mass form of Newton's proton
+second law when Ff is parallel to 7 is
+= du a v2 | 2
+° .
+(f) If the kinetic of body is twice of its
+. energy find its a velocity.
+rest mass AEE energy, [Contd...
+aktyoniine.com
+aktuonline.com aktuonline.com
+2 Do four of the following 5x4=20
+anv :
+(a) What do you understand by coherent sources?
+How are these obtained is practice ? Give
+examples.
+(b) Explain that biprism expt. the central fringe i
+in is
+achromatic when white light is used.
+(c) Light of wavelength 6000A_ is incident
+» normally on a wedge shaped film (u =1.35).
+The fringes are formed to be 2.0 from
+j each other. Calculate the angle of wedge.
+(dy. d What
+i is meant by diffraction of light ? Distinguish
+between Fresnel and Fraunhofer class of
+diffraction giving examples.
+(e) Calculate the angle between the central image of
+its diffracted
+a lamp filament and first image
+produced by a fabric with 160 threads per cm
+(A 6000 A)
+= :
+Obtain the design ofa plane transmission diffraction
+grating capable of resolving a wavelength difference
+of 6A at a mean wavelength of 6000 A in
+second order spectra.
+3 De ary of the following : 10x2=20
+(a) What do vou understand by double refraction ?
+Huygens theory of double refraction
+in
+an uniaxial crystal.
+2 [Contd...
+aktuonline.com com
+aktuonline.com aktuonline.com
+(b) (i) Calculate the thickness of a doubly
+refracting crystal plate required to
+introduce a path difference of Me between
+the ordinary and extraordinary when
+° rays
+.= Hy =1.55 and uw, =1.54. :
+oO
+(ii) The specific rotation of quartz at 5086 A
+is 29.73 deg/mm. Calculate the difference
+> in the refractive indices.
+(c) What are the requirements for producing laser
+action > How are they achieved ?
+‘4 # Do ‘any two of the following : 10x2=20
+(a) Explain the concept of Maxwell's displacement
+current and show how it led to the modification
+of the Ampere's law.
+(b) (i) What is Poynting vector ? If the electric
+amplitude of the wave is 5 V/.,, what is
+the magnetic amplitude of this wave ?
+(ii) Write four Maxwell's equation in conducting
+medium and derive wave equation.
+(c) () <A material has 10 turns per cm of wire
+wound uniformly upon it which carries a
+2.0 The flux density the
+current material of is 1.0 amp. Weber/m?. Calculate in the
+magnetising force and magnetisation of the
+material.
+(ii) What is by Hystersis and Hysteresis
+? How meant would the hysteresis
+curve select the material you use for construction
+curves of to
+permanent magnet. :
+3 [Contd...
+aktuonline.com aan
+tet:
+aktuonline.com aktuonline.com
+Do four of the following
+an anv Discuss the diffraction of - and 5x4=20 law.
+(a) X-rays Brage's
+Describe also functioning of a Bragg Spectrometer.
+Whar are modified and unmodified radiation in
+Compton scattering ? How Compton explained
+unmodified radiation ? How Compton effect is
+measured ?
+(c) A proton is moving with a speed of 2x 10° m/s.
+Find the wavelength of matter wave associated
+with it. &
+(d) State and give physical meaning of Heisenberg's
+uncertainty principle.
+(e)} What is physical significance of wavefunction
+W used in time independent Schrodinger wave
+equation ?
+(f) A particle is moving in dimensional potential
+0 one
+box of width 25.A. Calculate the probability
+of finding the particle within interval of re}
+an 5A
+at the centre of the box when it is in its state
+of least energy.
+Physical constants :
+Planck's constant J.s
+Velocity of light in free space C=3x10° m/s
+Electronic charge e=1,6x107!°C
+Permittivity of free space 12 F/m
+Permeability of free
+space
+Rest mass of electron kg
+Mass of proton
+4 [ 4000 |
+aktuonline.com

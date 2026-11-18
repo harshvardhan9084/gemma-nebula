@@ -1,0 +1,72 @@
+Printed Pages: 02 Sub Code:RAS201
+Paper Id: 199221 Roll No.
+B. Tech.
+(Semester-I]) Theory Examination 2017 - 18
+ENGINEERING PHYSICS-II
+Time:3 Hours Total Marks:70
+Note: Attempt all Sections. If require any missing data then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x7=14
+a. Define unit cell and primitive cell.
+b. Find What out is ionic the packing polarization factor in for dielectrics? a Simple Cubic structure.
+c. What is origin of magnetization in magnetic materials?
+d. What is the the difference between conduction and displacement current?
+f. e. What do by intrinsic and extrinsic current semiconductors?
+g. Explain you effect mean of temperature on electrical resistivity of superconducting
+materials.
+SECTION B
+2. Attempt any three parts of the following: 7x3=21
+Derive expression for Compton shift. Explain the of unmodified
+a. radiation an in Compton scattering. presence
+b. Explain ferroelectricity and piezoelectricity. Give some applications of
+ferroelectric and piezoelectric materials.
+c. Derive the electromagnetic wave equations in free space. Prove that the
+electromagnetic waves propagate with speed of light in free space.
+d. Show that the Fermi level of an intrinsic semiconductor lies half way between
+conduction band and valance band. What will be position of Fermi level in n-
+type semiconductor? Explain with suitable diagram.
+e. What are carbon nanotubes? Discuss arm chair, zigzag and chiral single walled
+carbon nanotubes
+SECTION C
+3. Attempt any one part of the following: 7x1=7
+(a) Show that in a cubic lattice a the distance between successive planes of indices (h
+k is given by = where ‘a’ is lattice constant. A substance with .
+FCC lattice has density 6250-kg/m? and molecular weight 60.2.Calculate the
+lattice constant. Given, Avogadro’s number is 6.02 x 102% per gm molecule.
+(b) What is Laue’s spot in X-ray diffraction? Explain how Bragg’s law explained
+formation of a Laue’s spot? Calculate A the longest wavelength that can be
+analyzed by crystal of spacing 2.82 in the second order.
+Attempt any one part of the following: 7x1=7
+(a) Explain dielectric loss. Deduce expression for dielectric loss and sketch the
+loss for polar material. an
+spectrum a
+(b) Distinguish diamagnetic, paramagnetic and ferromagnetic substances. A
+material has 10 turns per cm of wire wound uniformly upon it which carries a
+current of 2.0 The flux density in the material is 1.0
+ampere. the magnetization of 47 10~’weber/amp-
+= x
+meter).
+Attempt any one part of the following: 7x1=7
+(a) Derive Maxwell’s equations in differential form. Give physical significance of
+(b) Prove each equation. that electromagnetic in If the magnitude of
+E in a plane electromagnetic waves are is 377 transverse V/m, determine nature. the magnitude of H
+in free space. wave
+Attempt any one part of the following: 7x1=7
+(a) Find the probability of of level by electron if (i)
+out occupancy an energy an E<
+Er and (ii) E > Er, where Eris Fermi energy. Calculate the probability of
+occupancy of energy level by an electron at 300K which is lying 0.015eV
+below Fermi-level.
+(b) Deduce expression for the concentration of electrons in conduction band of
+intrinsic an semiconductor. A semiconductor rod of 10 length and 1 mm?’
+an cross-section has been doped with a total of mm donor atoms at room
+temperature. Calculate the electron and hole densities if the intrinsic carrier
+density in semiconductor is 10 m?.
+Attempt any one part of the following: 7x1=7
+(a) Discuss Meissner effect. Show that perfect diamagnetism and resistivity
+two independent and essential properties of the superconductor. zero
+are
+(b) Explain superconductivity on the basis of BCS theory. Determine critical
+current and current density, which can flow through a long thin
+superconducting wire of diameter 2 mm if critical field for the material is
+1.2x10* A/m.

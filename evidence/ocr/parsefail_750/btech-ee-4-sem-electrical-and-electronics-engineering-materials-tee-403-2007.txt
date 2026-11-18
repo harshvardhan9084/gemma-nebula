@@ -1,0 +1,102 @@
+aktuonline.com aktuonline.com
+Printed Pages : 3 TEE — 403
+{Following Paper ID and Roll No. to be filled in your Answer Book)
+‘PAPER’ ID’: 2053 Roll No.[ | |
+B. Tech.
+(SEM. IV) EXAMINATION, 2006-07
+ELECTRICAL & ELECTRONICS ENGINEERING
+MATERIALS
+Time 3 Hours] [Total Marks 100
+: :
+Note : Attempt all questions. Each question carries equal
+marks.
+1 Attempt any four parts of the following : §x4=20
+(a) What is Atomic Packing Factor? Calculate its
+value for simple cube and body centered cube.
+(b) Describe in brief the basic seven crystal systems.
+(c) What is meant by imperfections in a crystal?
+Explain edge dislocation.
+(d) Explain briefly the following mechanical
+properties of metals :
+(i)
+Gi) Plasticity
+(ii) Ductility
+(iv) Malleability
+(e) What is forbidden energy gap? Classify insulators,
+semiconductors and conductors on the basis of energy
+band diagram.
+(f) Draw the (112) and (111) planes in a simple cubic
+aktuonline.com
+V-2053] 1 (Contd...
+aktuonline.com aktuonline.com
+four following 5x4=20
+2 Attempt any parts of the :
+(a) Explain superconductivity. Name some of the
+important superconductivity alloys and elements
+and give applications in brief.
+(b) State the following thermo-electric effects
+(i) Seeback Effect
+Gi) Peltier Effect and
+(iit) Thomson Effect
+(c) Derive an expression for heat development in
+a current carrying conductor.
+(d) Discuss the effect of temperature and impurity
+on the conductivity of a metal.
+Determine the temperature coefficient of
+resistance of material used in a resistor if the
+resistance at 25°C is 45 ohm and at 75°C is
+59 ohms.
+(e) Explain in brief the zone theory of solids.
+(f) Explain thermal conductivity and obtain an
+expression for coefficient of thermal
+conductivity.
+3 Attempt any two parts of the following : 10x2=20
+(a) What do you understand by electronic
+polarization, ionic polarization and orientational
+polarization of dielectrics? Discuss how electric
+susceptibility is related to relative permitivity.
+(b) What is dipolar relaxation? Show that the
+dipolar relaxation leads to complex dielectric
+constant of the material and a also deduce
+expression. an
+(c) (i) What ferroelectric materials? Give
+their characteristics. are
+(ii) | What is piezo-electric effect? Explain the
+working of piezo-electric transducer.
+a
+2 (Contd...
+aktuonline.com aktuonline.com
+4 Attempt any two parts of the following : 10x2=20
+Differentiate
+(a) between extrinsic and intrinsic
+semiconductors.
+(ii) What is a P-N junction? What happens
+when P-N junction is biased in forward
+direction.
+(b) What is Hall Effect? Derive the relation between
+Hall coefficient and carrier density. Assume the
+presence of only one type of charge carrier.
+(c) Explain the working principle of FET. Discuss
+also the advantages of FET a bipolar
+transistor and tubes. over
+vacuum
+5 of following 10x2=20
+Attempt any a two the :
+(a) Draw typical hysterisis loop for a ferromagnetic
+material. Show which part is reversible and
+which is not. Define residual magnetism and
+coercive force. How are al] these properties
+explained in terms of the microscopic structure
+of the solid.
+(b) State the factors on which choice of
+conductor material depends.
+(ii) Discuss the properties of superconductors.
+Give their applications.
+(c) Calculate the loss per kg in a specimen of
+alloy steel for a maximum flux density of
+1.1 Wb/m2 and a frequency of 50 Hz
+using 0.5 mm thick sheets. The resistivity of
+alloy steel is 30 x 10-8 Qm. The density
+is 7800 kg/m?. Hysterisic loss in each cycle is
+380 W-S/m?.
+3) 3 { 3735 J

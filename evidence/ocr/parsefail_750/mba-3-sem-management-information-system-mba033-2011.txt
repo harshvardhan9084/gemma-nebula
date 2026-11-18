@@ -1,0 +1,83 @@
+Printed Pages—3 86933
+Following Paper ID and Roll No. to be filled in your Answer Book
+PAPER ID:
+MBA.
+(SEM. II) ODD SEMESTER THEORY
+EXAMINATION 2010-11
+MANAGEMENT INFORMATION SYSTEM
+Time : 3 Hours Total Marks : 100
+Note s— (1) Attempt all the questions.
+(2) All questions carry equal marks.
+(3) Be precise in
+your answer.
+1. Attempt four parts of the following (5x4=20)
+any :—
+(a) Information technology can’t really give a company a
+strategic advantage, because most aompetitive advantages
+don’t last more than a few years and become
+strategic necessities that just raise the soon stakes of
+the
+game. Discuss.
+(b) Is there an ethical crisis in business today ? What role
+does Information Technology play in business
+practices ?
+(c) Discuss the most important factors you would use in
+evaluating computer software.
+(d) Discuss Online
+Analytical Processing (OLAP) with the
+help of example.
+MBA033/VEQ-14749 1 {Turn Over
+of
+(e) Classi - 2 types tt oe 1
+System (MIS).
+(f) Discuss exterprise application architecture of cross
+enterprise applications.
+2. Attempt any two parts of the following :— (10x2=20)
+(a) Discuss classification of Information System. Elaborate
+component and resources of Information System.
+(b) Discuss Decision Support System (DSS), its components
+“basic _and packages. Decision Support System involves four
+types of analytical modeling activities. Discuss.
+(c) What are some of the limitations or dangers you see
+in of Artificial
+the use Intelligence (AI) technologies
+such as expert systems and virtual reality ? What could
+be done to minimize such effects? « 7
+3. Attempt any two parts of the following :—
+(a) How could a business use Internet Technologies to
+form virtual become agile competitor ?
+a company or an
+(b) MIS author and consultant Peter Keen says : “We have
+learned that it is not technology that creates a competitive
+edge, but the that exploits
+management process
+technology.” Explain. Classify different types of
+competitive forces and competitive strategies.
+(c) Differentiate between Business Process Reengineering
+and Business Improvement. Which would you prefer ?
+Explain.
+MBA033/VEQ-14749 2
+http://www.aktuonline.com
+Attempt any two parts of the following :— (10x2=26}
+(a) Elaborate various steps of System Development Lif:
+Cycle (SDLC) or Information System Development
+Cycle with the help of examples.
+(b) Why has prototyping become popular way to develop
+applications a
+business ? What are prototyping advantages
+and disadvantages ?
+(c) Discuss System Implementation Activities of System
+Development Cycle (SDLC) and elaborate why Post
+Implementation Review is important ?
+Attempt any two parts of the following :-—
+(a) What is the role of Ethics in today’s competitive and
+dynamic business environment ?
+(b) What is Customer Relationship Management
+Should every company become customer focused
+business ? Why why ? a
+or not
+(c) Discuss security and privacy issues in today >
+Information Technology (IT) enabled busines:
+.
+BA033/VEQ-14749
+3

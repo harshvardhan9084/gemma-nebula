@@ -1,0 +1,39 @@
+B. Tech. NEC-IOI (SEM. I) (ODD SEM.) THEORY EXAMINATION, 2014-15 http:/Awww.uptuonline.com
+ELECTRONICS ENGINEERING
+Time : 3 Hours] [Total Marks : 100
+Attempt any four parts : 5*4=20
+a) Explain the V-I characteristics of PN-junction diode.
+b) How zener diode acts as voltage regulator? Explain with suitable circuit.
+c) Elucidate the operation of half wave rectifier in detail and derive the expression for ripple
+factor.
+d) Draw a simple clipping circuit with suitable waveform and Explain types of clippers.
+e) Illustrate how LCD is differs from LED.
+f) Explain with suitable circuit that how diode acts as a vohage multiplier?
+Attempt any two parts : 10*2=20
+a) Explain the operation of common collector configuration with suitable characteristics in
+detail.
+b) Describe the VI characteristics of JFET with different operating regions in detail
+c) Explain the operation of voltage divider bias circuit and write down the approximate
+of and
+Equations Vg, 1E, Ic VCE.
+Attempt any two parts : 10*2=20
+a) Analyse the differential amplifier with suitable circuit in two modes of operation.
+b) Show that how input voltage is gets reversed using operational amplifier And also derive the
+expression for voltage gain using inverting amplifier.
+c) Describe in detail account on Integrator and Differentiator with suitable circuit.
+Attempt any two parts : 10*2=20
+a) Explain the functioning of a ramp type digital voltmeter.
+b) Enumerate with a block diagram of various elements involved in Digital Multimeter to
+the various of Voltage and Current.
+measure range
+c) Describe the construction and working of internal structure of CRT display.
+5 Attempt any two parts : 10*2=20
+a) Explain the functional elements of communication system in detail.
+b) Define modulation What is the need for modulation?
+i) A 400 wait carrier is modulated to a depth of 75 percent. Calculate the total power in the
+modulated wave.
+ii) The tuned circuit of the oscillator in a simple AM transmitter employs a 50 pH coil and 1-nF
+capacitor. If the oscillator output is modulated by audio frequencies up to 10 kHz, what is the
+frequency occupied by the sidebands?
+range
+http:/Awww.onlineQP.com

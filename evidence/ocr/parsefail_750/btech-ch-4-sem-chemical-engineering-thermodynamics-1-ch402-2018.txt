@@ -1,0 +1,71 @@
+Printed Pages: 02 Sub Code: CH402
+Paper Id: 151402 Roll No.
+B. TECH
+(SEM IV) THEORY EXAMINATION 2017-18
+CHEMICAL ENGINEERING THERMODYNAMICS-I
+Time: 3 Hours Total Marks:100
+Note: 1. Attempt all sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+a) Explain the Scope of second law of thermodynamics.
+b) Define residual property.
+c) Define isothermal compressibility.
+d) What is Raoult’s law?
+e) Define partial molar property.
+f) What do you mean by extent of reaction?
+g) Define osmotic pressure.
+h) What is non-ideal solution?
+i) Differentiate between open system and closed system.
+j) Define K value.
+SECTION-B
+2. Attempt three of the following:
+any
+a. Derive a correlation for work done during an adiabatic process under reversible
+conditions in closed system.
+b. maintained A heat pump 21 is °C to be all used times. to heat The house a house is estimated during the winter. be losing The heat house is to be of
+135000 KJ/hr at when the at outside temperature drops to -5°C. Determine to the minimum at a rate
+required to derive this heat unit. power
+c. What is the change in entropy pump when 0.8 m? of and 0.2 m? of N2 each at 1 bar and
+25°C is blended to form a gas mixture at the same conditions? Assume ideal gases.
+d. Define critical point. Discuss in detail the behavior of pure liquid with the help of P-V
+diagram.
+e. For the system ethyl ethanoate (1)- n-heptane (2) at 343.15 K, assuming the system obeys
+modified Raoult’s law predict whether azeotrope gets formed or not and if it gets formed
+calculate the azeotrope composition and pressure at T =343.15 K. At 343.15 K,
+=0.95x2" , Iny2 =0.95x1? KPa; KPa.
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+a) Describe different steps to find bubble point and dew point of a mixture.
+b) Define equation partial of solution molar property. Derive function an of equation composition. for partial molar properties from an
+property as a
+4. Attempt part of the following: 10x1=10
+a) Discuss the any equilibrium one criteria to chemical reaction.
+b) What is the effect of temperature on equilibrium constant? Using van’t Hoff equation
+predict the effect of increasing the temperature on endothermic and exothermic reactions.
+. Attempt any one part of the following: 10x1=10
+» Derive the Gibbs/Duhem equation.
+b) A mixture of component (1) and (2) follows Raoult's law. The pure component vapour
+pressure P#** and P#** in kPa are given by (t in °C) SS
+= 14.97-
+=14.20- SR
+At 76°C and 80 kPa, determine the equilibrium liquid and vapour compositions.
+Attempt any one part of the following: 10x1=10
+Consider the reaction
+1/202 — S03
+The pressure in the reactor is | atm and temperature is 749 K and at this
+temperature K =74. Determine moles of S03 formed and mole fraction of the species present
+in the reaction mixture at equilibrium for the cases given below. Assume ideal gas phase
+reaction. (1) Initially the number of moles of is is and is
+(ii) the number of moles of SO2 SO2 is 24, 12, oxygen is 9 18 and SOs S03 is zero.
+(iii) Initially the number of moles of is 12, oxygen is 9, nitrogen is zero. 79 and SOs is
+Zero. oxygen
+b) Determine the minimum pressure to desalinate sea water containing 3.5 g NaCl /100 g water
+at 25°C.
+7. Attempt any one part of the following: 10x1=10
+a) With the help of fundamental property relation, show that multiple phases at the same T and
+P in equilibrium when the chemical potential of each constituent species is same in all
+phases.
+b) Write notes on
+i. Equilibrium and Stability
+iii. ii. Vapour-Liquid- Solid -Liquid Equilibrium Liquid Equilibrium
+iv. Vapour-Liquid Equilibrium

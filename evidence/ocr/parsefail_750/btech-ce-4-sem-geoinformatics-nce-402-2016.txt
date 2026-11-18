@@ -1,0 +1,81 @@
+www.aktuonline.com
+Printed Pages: 4 ¢
+NCE-402 .
+(Following Paper ID and Roll No. to be filled in your
+Answer Books)
+Paper ID : 100410
+B.TECH.
+Theory Examination (Semester-IV)
+2015-16
+GEOINFORMATICS
+Time : 3 Hours Max. Marks : 100
+Section-A
+Q.1 Attempt all parts. All parts carry equal marks. Write
+answer of each part in short. (2x10=20)
+(a) Give any three advantages that an aerial photograph
+offers ground based observations.
+over
+www.aktuonline.com
+(b) How is an aerial photograph taken?
+(c) What do you understand by remote sensing?
+(d) Define spectral reflectance curve and what are its
+utilities in remote sensing?
+(e) Write short notes on orbital calendar and spatial reso-
+lution.
+1 P.T.O.
+2805/24.4/439/10975
+www.aktuonline.com
+www.aktuonline.com
+(f) What is resolution of a sensor? .
+(g) How can you classify raster data?
+(h) What do you understand by spatial data model?
+(i) Define image histogram.
+G) Give the functions GPS satellite signals.
+Section-B
+Q2. Attempt any 5 questions from this section.
+(a) Elaborate the two major uses of an aerial photo-
+graph.
+(b) Illustrate the fundamentals of aerial photo-interpre-
+tation.
+www.aktuonline.com
+(c) Explain the methodologies of remote sensing data
+analysis.
+(d) Elaborate the relative advantages of using aerial
+photos and satellite images over products of conven-
+tional
+survey.
+2
+www.aktuonline.com
+www.aktuonline.com
+(e) What are the advantages and disadvantages of vari-
+ous remote sensing platforms?
+(f) What things be represented by point, line and
+polygon? Explain can
+topological data model to repre-
+sent area.
+(g) What are the limitations of GIS?
+(h) Explain the functions of GIs.
+Section-C
+Note: Attempt any 2 questions from this section. (15<2=30)
+Q3. a) Explain in detail about the characteristics of photo-
+graphic images.
+b) Discuss on the spectral reflectance characteristics of
+and
+www.aktuonline.com water vegetation in spectral bands.
+Q4. a) Explain image referencing system.
+b) Explain the concept of object-oriented data model
+applied in GIS.
+3 PTO.
+2805/24.4/439/10975
+www.aktuonline.com
+www.aktuonline.com
+Q5. a) Explain topological model of data.
+vector
+b) Discuss in detail about the following terms:
+(i) GNSS
+(ii) GPS
+(iii) GLONASS
+(iv) GALILEO
+www.aktuonline.com
+2805/244/439/10975
+www.aktuonline.com

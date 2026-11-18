@@ -1,0 +1,118 @@
+* v 3 it) 9 2 *
+Printed Pages - : 4 TEC-602
+(SEM. VI) EXAMINATION, 2006-07
+DIGITAL SIGNAL PROCESSING
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions.
+1 Attempt any four parts of the following
+(a) Compute the N-point DFT of each of the 5
+following sequences :
+(1) where
+(2) x,(n)=a” O0<n<N
+(b) State the circular shift property of DFT and 5
+apply it to find inverse DFT of
+2%
+Y(k)=e _ pizk{
+(c) Consider a sequence
+x(n) = 6(n) + 26 (n —- - 3)
+(1) Find the expression of DFT X(k) is terms of kR.
+(2) If x(n) is circularly convolved with X(n)
+itself what is y(n) x(n) (4) x(n)?
+=
+(d) Let x(m) be an N point sequence and let 5
+=> 1 1 N
+w(n) find the DFT
+of x(n) w(n) in of DFT of x(n).
+terms
+V-3092] 1 [Contd...
+(©) State and prove the "circular convolution" 5
+property of DFT.
+(f) Find the linear convolution using circular 5
+convolution of the following sequences :
+x(n) ={1, 2, 1}, 2}
+2 Answer any four parts of the following : 5x4=20
+(a) Given an FFT program to find the N-point 5
+DFT of a sequence, how may this program be
+used to find the inverse DFT ?
+(b) Determine how a 2N point DFT of a real 5
+valued sequence may be computed using an
+N-point FFT algorithm.
+(c) Draw the flow graph of an eight point 5
+decimation - in -frequency algorithm and mention
+different expressions.
+(d) Determine the four point DFT of the sequence 5
+x(n) = {1, 0, 2, 1} using decimation in time
+FFT algorithm.
+(e) Explain how many the DFT of two real 5
+sequences be efficiently computed ?
+(f) Briefly explain Goertzal Algorithm for efficient 5
+DFT computation.
+3 Attempt any two parts of following :
+(a) What are linear phase FIR filters ? How can 10
+the symmetry of these filters help to simplify the
+network structure ? A linear phase filter has the
+following unit sample response :
+[Vatue [0.01 [0.02 [0.10 [0.40 | -0.10 [0.02 [-0.07|
+Draw the signal flow graph for this system that
+requires the minimum number of multiplications.
+V-3092] 2 [Contd...
+(b) Determine and draw the cascade and parallel 10
+realizations for the system described by the
+system function :
+A(z2)=
+(c) Draw the direct-form structures of the 10
+following system functions :
+(1) H, (2) = +2
+1-0.75 1 27 2
+2) H(z) +3.404 2”
+2° 40.4274
+41.74
+4 Attempt any two parts of following : 2x10=20
+(a) Use the rectangular window to design a 10
+linear phase FIR filter of order NV =24 to
+approximate the following frequency response
+magnitude
+-
+1,
+0, <0
+(b) Design an FIR filter to meet the following 10
+specifications :
+Passband edge = 2 kHz
+Stop band edge 5 kHz
+=
+Stop band attenuation = 42 dB
+Sampling frequency = Fs = 20 kHz
+Use Hanning window.
+V-3092] 3 [Contd...
+(©) Briefly explain frequency sampling method of 10
+designing FIR filter. An FIR filter has the
+following symmetry in the impulse response :
+h(n) h(M-1-n) for odd
+Derive its frequency = and show that it
+has linear phase. response
+5 Attempt any four parts of following : 5x4=20
+(a) Design a filter for the following specifications : 5
+(1) Monotonic passband and stop band
+(2) -3.01 dB cut off frequency of
+(3) Magnitude down at least 15 dB at 0.757
+H(s) 1
+(b) For the transfer function V2 5
+Find the corresponding system function H(z) using
+bilinear transformation.
+©) Show that bilinear transformation maps in 5
+JQ axis in the s-plane into the unit circle,
+|z| =1 and maps the left half s-plane
+Re(s) <0 inside the unit circle, |z|<1
+(d) A continuous time filter has the system 5
+function H(s) =————., i.e. H(s) is a
+second order pole at use the impulse-
+invariance method to design a digital filter.
+(©) Use bilinear transformation to convert low 5
+1
+pass filter, H(s) 2 into a. high
+s+1
+pass filter with passband edge at 100 Hz and
+(sampling frequency, F,)
+(f) Describe the method to design IIR filters 5
+by approximation of derivatives.
+V-3092] 4 [ 7550 ]

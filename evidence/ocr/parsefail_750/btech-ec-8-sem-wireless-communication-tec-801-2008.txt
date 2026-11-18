@@ -1,0 +1,195 @@
+aktuonline.com
+aktuonline.com
+Printed Pages : 7 | TEC-801
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0385
+B. Tech.
+(SEM. VIII) EXAMINATION, 2007-08
+WIRELESS COMMUNICATION
+3 Hours] [Total Marks : 100
+:
+‘Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+(3) Be precise in your answer.
+(4) No second answer book will be provided.
+1 Attempt any four parts of the following :
+’ (a) For LOS transmission, show that the received
+power (relative to transmitted power) decreases
+by 6 dB for every doubling of distance and
+also for every doubling of the radio frequency.
+(b) Using the ground reflection two ray model and
+the method images, find total clectric ficld at
+any time f at a distance d.
+(c) How the percentage of coverage area is
+determined within a cell ? Calculate the
+U-0385) MN AMAT [Contd...
+aktuonline.com
+aktuonline.com 4
+-
+percentage of area with a received signal that
+equal than threshold
+is or greater y.
+(d) What are the factors influencing small scale
+fading ? Show that the mobile radio channel
+can be modeled as a linear filter with time
+varying impulse response.
+(e) With the help of block diagram. explain the
+spread spectrum channel impulse response ~
+measurement system and give its advantages
+and disadvantages.
+(f) What is the concept of multipath shape factors
+for fading channels ? Define the three multipath
+shape factors and give the fading rates variance
+relationships in terms of the shape factors.
+2 Attempt any four parts of the following :
+modulation is used in
+(a) Why spread spectrum
+mobile radio environment ? Draw and explain
+the block diagram of a DS-SS system and show
+how interference is minimized the receiver.
+at
+(b) Compare similarities and differences between
+basic concepts of DS-SS FH-SS system.
+versus
+Analyze the performance of a synchronous
+frequency hopping spread spectrum system and
+show that the irreducible error rate due to
+2 [Contd.
+aktuonline.com http://www.UPTUonline.com
+-aktuonline.com
+| interference is aktuonline.com equal
+multiple access to
+is numberof MA users
+| 2| M where sere K is number o
+and M is number of possible hopping slots.
+(c) What is diversity technique ? What are the
+drawbacks of selection diversity ? How maximal
+ratio combining overcomes them ? Show that
+the average signal to noise ratio (SNR) at
+detector input of a maximal ratio combiner is
+MI where M is the number
+given by =
+of diversity branches and is SNR
+[ average
+of each branch.
+(d) What is the need of equalization ? With the
+help of block diagram, explain a communication
+system using an adaptive equalizer at the
+receiver and show that the equalizer is an
+inverse filter of the channel.
+(e) How transversal filter structure can be used as
+an adaptive equalizer ? Show that the optimum
+W
+weight yy is given by -R-1p. where R
+is input correlation matrix and P is cross
+correlation vector.
+TAN 3 [Contd.
+alk tp: //www.UPTUonline.com
+akfuonline.com aktuonline.com
+(f) Derive the probability of error expressions for
+and noncoherent orthogonal binary FSK
+in slow flat fading channel where the received
+a
+signal envelope has a Ricean probability
+distribution.
+3 Attempt any two parts of the following :
+(a) Give the model for Human speech production.
+Draw the block diagram of a linear predictive
+coder (LPC) system and explain it. How the
+predication coefficients determined ?
+are
+Describe a code-excited LPC.
+(b) Why non-uniform quantization is necessary for
+speech signals ? Give the Jaw and A law
+compandings and plot them. For PCM with p
+Jaw compander. the output signal to quantization
+La BY
+noise ratio is given by
+where is the number of quantization levels.
+Show that for os
+Ss |
+p= 255,
+=
+is of binary digits in
+where n the number
+PCM.
+U-0385) 4 [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+(c) List the multiple
+excess techniques used in
+different wireless communication systems.
+Explain the TDMA scheme, its
+salient features
+and the frame structure. Find expressions for
+the efficiency and number of channels
+in
+TDMA system.
+4 Attempt any four parts of the following :
+(a) Explain the principle of frequency reuse in a
+cellular network. Show that the frequency
+k reuse
+factor is given by k/S where is the average
+number of channels per cell and S is the total
+number of channels
+available.
+(b) Name the technique used to increase the capacity
+of a cellular system and compare them.
+cell sectoring and show how co-channel
+interference
+is reduced in this.
+(c) What is handoff in cellular systems ? List the
+metrics used to make handoff
+decisions and give the various handoff strategies.
+(d) Differentiate co-channel and adjacent channel
+interference in a cellular system and mention
+their causes. Find out the expression for signal
+U-0385) TMs [Contd...
+aktuonline.com http:
+aktuonline.com aktuonline.com
+to co-channel interference ratio (S/T) and show
+size of is required
+that a minimum cluster seven
+to meet an S/I requirement of at least 18 dB.
+path loss exponent n=4.
+Assume
+(e) What is GSM ? Mention the GSM services and
+features. Give the GSM system architecture and
+used in this.
+the various interfaces
+(f) List the key specifications of leading 2G
+technologies. How 2G GSM technology can be
+HSCSD (High Speed
+upgraded to 2.5 G
+Circuit Switched Data) ?
+5 Attempt any two parts of the following :
+(a) What the advantages and disadvantages of
+are
+using CDMA for cellular network Discuss
+the frequency and channel specification of
+CDMA digital cellular standard (IS-95) and
+explain the forward CDMA channel. How
+power control is done in IS-95 ?
+(b) Mentioned the vision and capabilities of 3G
+in
+wireless networks as defined by ITU
+IMT-2000 standard. Give the spectrum
+allocation, radio transmission technologies (RTT)
+and functional network architecture for
+IMT-2000 and illustrate the class of functions
+be supported by IMT-2000.
+to
+6 [Contd...
+U-0385)
+aktuonline.com aktuonline.com
+(c) Explain the united states digital cellular USDC
+(IS-136) standard under the following headings :
+(1) Radio interface
+(2) USDC channels
+(3) Frame structure on forward
+and link
+reverse
+(4) Speech and channel coding.
+aa
+U-0385) 7 [7000]
+aktuonline.com http://www.UPTUonline.com

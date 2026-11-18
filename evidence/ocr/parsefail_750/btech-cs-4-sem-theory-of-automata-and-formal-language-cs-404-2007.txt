@@ -1,0 +1,78 @@
+* v - 1 0 3 2 *
+Printed Pages : 4 CS -404
+B. Tech.
+(SEM. IV) EXAMINATION, 2006-07
+THEORY OF AUTOMATA &
+FORMAL LANGUAGES
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions.
+1 Attempt any four of the following 5x4=20
+(a) Construct a DFA that accepts : the strings which
+(= {0, 1}).
+contains the alphabets pattern 011 =
+(b) For the given state diagram of a NFA. Convert
+it to an equivalent DFA.
+(c) Construct the FA for the language L,
+(for n>1) ie.
+L, ={x €{0, 1}* | 1x12>n and n%
+symbol from the x is 1}
+V-1032] 1 [Contd...
+(d) Draw a Moore or Mealy machine that generates
+output 'Yes' when accepts a set of strings from (0+1)*
+terminating in last symbols.
+two same
+(©) Construct a DFA from the given NFA with
+moves.
+(f) Minimize the DFA corresponding to NFA of
+question 1(b).
+2 Attempt any two : 10x2=20
+(a) Illustrates the pumping lemma for regular
+{o! o|
+languages. Prove that language L =
+is not regular.
+(b) Show that CFG G with following productions
+S> a|Sa|bSS |SSb|SbS
+is an ambiguous grammar. Can you convert it to
+an unambiguous grammar ?
+(c) Convert the given grammar into GNF :
+A>SS|b
+V-1032] 2 [Contd...
+3 Attempt any two : 10x2=20
+(a) Construct the for the language
+grammar
+L= a” |n>1
+Identify the type of the grammer obtain.
+(b) How to make a PDA deterministic i.e. DPDA.
+Construct the DPDA for the language
+L={xe{a, b}*| x has equal number of a's and b's}
+(c) Given a context free grammar. How do you
+determine that the grammar as :
+Empty or Non-empty
+Gi) Finite non-finite
+or
+(iii) Whether a string x belongs to the
+language of the grammar.
+4 10x2=20
+Attempt any two :
+(a) State and prove that Post correspondence problem
+(PCP) is undecidable.
+(b) Let f, and f, are two natural functions which
+computed by TMs M, and M,
+are
+respectively. Construct a TM that computes
+(fi,
+max
+(c) Design a turing machine that recognises the
+1}.
+following L=
+V-1032] 3 [Contd...
+5 Attempt any two parts of the following : 10x2=20
+(a) Give the complete hierarchy of grammars with
+their recognizers as well as the form of
+production rules.
+(b) Write a left linear grammar for the following
+language. All strings of (a+b)* such that bbb
+is a substring in them.
+(c) Define context sensitive grammars and Linear
+Bound Automata (LBA).
+V-1032] 4 [3175]

@@ -1,0 +1,61 @@
+Ai A i
+Printed Pages : 2 CS 031
+(Following Paper iD and Roll No. to be filled in your Answer Book)
+PAPER: ID : 1042 Rolf
+B. Tech.
+(SEM. Vi) EXAMINATION, 2006-07
+DATA MINING & WAREHOUSING
+Time : 3 Hours] {Total Marks 100
+;
+Note Attempt all the
+: questions.
+1 Attempt
+any four parts of the questions :
+(a) What is data warehouse? What are the goals of a
+data warehouse?
+(5) What do you mean by Granular ty?
+What is partitioning?
+(c) Compare and contrast OLTP and data warehouse.
+(d) How are data marts different from date warehouse?
+What are the different types of data marts?
+{e) Data consolidation is data modelling
+Statement is Justify. activity. This
+(f) Explain true or not.
+cluster systems with suitable example.
+2 Attempt
+any two of the following :
+(a) What are the different components of a data
+warehouse? Explain with the help of a diagram.
+(b) What is meiadata and why is it important? Discuss
+the multidimensional data.
+V-1042]
+1 [Contd...
+(c) How mapping the data warehouse multiprocessor
+architecture is done? to a
+3
+Attempt any two of the following :
+(a) What is on-line transaction processing (OLTP)?
+Describe the evolution of OLTP. What are the critical
+features of OLTP systems?
+(b) Describe different Reporting and Query Tools and
+Applications.
+() How Artificial Intelligence is used in Data
+warehousing. Explain with suitable examples.
+4 Attempt four of the following
+any :
+(a) What is data mining? Describe the evolution of data
+mining.
+(b) What is difference between verification and
+discovery?
+(c) What are advantages of data mining? Explain.
+(d) What linear regression method? Give
+examples. are non two
+What are technologies used in data mining?
+(f) What do you mean by decision trees? Explain.
+§ Attempt any two of the following :
+(a) Give E.F. Codd’s 12 Guidelines for OLAP.
+(b) What genetic algorithms? Explain taking
+algorithm. are one
+©) Discuss Data visualization with reference to Data
+Mining.
+V-1042] 2 { 8000 }

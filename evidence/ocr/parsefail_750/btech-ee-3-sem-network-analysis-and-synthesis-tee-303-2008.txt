@@ -1,0 +1,121 @@
+aktuonline.com ——aktuenline-com-—
+Printed Pages 7 TEE-303
+:
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2044
+B. Tech.
+(SEM. III) EXAMINATION, 2007-08
+NETWORK ANALYSIS & SYNTHESIS
+~ Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions.
+equal marks.
+(2) All questions carry
+(3) In case of numerical problems assume
+data wherever not provided.
+1 Attempt any four parts of the following : 5x4=20
+(a) Draw the oriented graph of network with
+a
+fundamental outset matrix as given below :
+\
+{Contd...
+aktuonline.com
+{b) A resistive network is given in Fig. 1(b). Obtain the
+loop incidence matrix.
+Fig. 1(b)
+(c) Derive the generalised KCL equation in terms of
+fundamental matrix.
+cut set
+(d) Differentiate between Twig matrix and Link matrix
+with suitable example.
+(e) Anetworkis givenin Fig. 1(e). Obtain the loop currents
+using branchimpedance matrix and Tie-set matrix.
+Fig. 1(e)
+(f) Draw the dual networks of the circuits shown in
+Fig. 1f(1) and (2)
+30
+15 V@ 3H 20
+Fig.
+2044) rs [Contd...
+aktuonliné: aktuonline.com
+Fig. 1f (2)
+2 Attempt any three parts of the following : 62x3=20
+(a) Using superposition theorem, find the voltages across
+(4+ in the network shown in Fig. 2(a).
+100 230°V ©) @
+Fig. 2(a)
+(b) Obtain Thevenin's equivalent of the network across
+terminals AB for the circuit shown in Fig. 2(b).
+10|0°A
+Fig. 2(b)
+2044] [Contd...
+aktuonline.com aktuonline.com
+(c) In the network shown in Fig. 2(c), find the value of
+Ry, which
+results in maximum power transfer.
+10Q
+100 20°V
+Fig. 2(c)
+~
+(d) Verify the Tellegen's theorem for the network shown
+in Fig. 2(d).
+Fig. 2(d)
+(e) Verify reciprocity theorem for V and i for the network
+shown in Fig. 2(e).
+Fig. 2(e)
+2044) [Contd...
+aktuonline.com
+aktuonline.com = aktuonline.com
+3 Attempt any twe parts of the following : 10x2=20
+(a) Obtain V,/V, of the network shown in Fig.
+3(a). Also find pole-zero configuration.
+1F
+19 1H +
+vi 1F
+Fig. 3(a)
+(b) Draw the Bode plot of the following transfer function
+1
+= s) 10.055)
+40.5
+(c) Enlist the properties of driving point function. Also
+check the stability criteria of the polynomial by applying
+Routh-Hurwitz criterion in
+P(s)= +5°+3s4 +352 +387 +2841
+Attempt any two parts of the following : 10x2=20
+(a) Obtain the Y-parameters of the network shown in
+Fig. 4(a).
+OFAN Fig. 4(a)
+MN IE INN 5 [Contd...
+aktuonline.com aktuonline.com
+(b) For a network the equations are
+I, =0.5 V, -0.2 V,
+qT, Vv,
+=-0.2 + Vy
+Find Y-parameters and ABCD parameters. Also find
+its equivalent 2 -network.
+impedances of
+(c) Determine input and output a
+generalised network in terms of hybrid parameters.
+5 Attempt any two parts of the following : 10x2=20
+(a) Design an m-derived high pass filter having a design
+impedance of 600 Q, cut-off frequency of 5 kHz and
+Also determine the frequency of infinite
+attenuation.
+(b) Enlist the properties of RL driving point immittance
+function. Check whether
+P(s) = 48° + 28° +1754 +85? +168” +68+3
+is Hurwitz.
+(c) (1) Check whether the function
+Z(s) 257 +2s+1 is positive real
+= gs? +257 +542 a
+function.
+LA 6 [Contd...
+ero 8 DD
+aktuonline.com aktuonline.com
+point impedance of an LC
+(2) The driving
+10s4 +1287
+network is given by Z(s) +1
+= +1)
+Obtain the first form of Cauer LC network.
+SMH [21970]
+7

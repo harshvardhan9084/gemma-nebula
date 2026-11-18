@@ -1,0 +1,134 @@
+aktuonline.com aktuonline.com
+Printed Pages : 4 TEE-11
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+B. Tech.
+(SEM. VIED EXAMINATION, 2007-08
+DATA BASE MANAGEMENT SYSTEM,
+DATA MINING AND WAREHOUSING
+fine: 3 Hours] [Total Marks 100
+Note Attempt all questions.
+:
+(2) All questions carry equal marks.
+(3) Be precise in your answer:
+(4) No second answer book will be provided.
+I Attempt any four parts of the following : 4x5
+‘a) What are the five main functions of a database
+administrator?
+(b) List six major steps that you would take in
+setting up a database for a particular enterprise.
+{c) Construct an ER diagram for a car-insurance
+company whose customers own one or more cars
+each. Each car has associated with its zero to
+any number of recorded accidents.
+(d) Explain the distinction between condition-defined
+and user-defined constraints. Which of these
+constraints can the system check automatically?
+Explain your answer.
+0203) [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+be viewed as a graph. What
+(e) An E-R diagram can in terms of the structure of
+do the following schema? mean
+an enterprise disconnected
+(i) The graph is
+(ii) The graph is acyclic. strong
+(ft) We can convert any weak appropriate entity set to attributes. a
+entity set by simply adding entity sets?
+Why, then, do we have weak
+following 4x5
+Attempt any four parts of the university :
+(a) Design a relational database for maintains a data about
+Registrar's office. The office the number of
+each class, including the instructor, and place of the
+students enrolled, and the student-class time pair, a
+class meetings. For each
+grade is recorded.
+(b) List two reasons why null values might be
+introduced into the database.
+(c) Suppose there are two relations r and s, such
+that the foreign key B of r references the
+key A of Describe how the trigger
+primary mechanism be s. used to implement the ON
+DELETE CASCADE can option.
+SQL without using a ‘with’
+(d) Write an query, branches where the total
+clause, to find all the average total
+account deposit is less branches, than using 4 nested
+account deposit at all
+query in the ‘from’ clauset. which would
+(e) Describe the circumstances in rather you than SQL
+choose to use embedded SQL programming
+alone or only a general-purpose
+language. called
+(f) What are certain functional dependencies Explain.
+trivial functional dependencies? —
+MMMM = 2 [Contd...
+0203]
+aktuonline.com
+aktuonline.com aktuonline.com
+following 2x10
+3 Attempt any two parts of the :
+what is meant by “repetition of
+(a) @) information" and "inability to represent
+Explain why each of these
+properties indicate a bad relational
+design. may
+database
+(ii) Suppose that we decompose the schema
+R (A, B, C, D, E) into
+=
+(A, B.C)
+(A, D, E)
+Show that this decomposition is a following
+lossless-join decomposition if the holds
+set F of functional dependencies :
+A > BC
+E
+D
+E> A
+(b) Given the database schema R (a,b,c), and 4
+relation r on the schema R, write an SQL query to
+~ test whether the functional dependency holds
+on relation r. Also write an SOL assertica that
+enforces the functional dependency Assume that no
+null values are present.
+of
+(c) Use Armstrong's axioms to prove the soundness
+the decomposition rule.
+3 [Contd...
+0203]
+aktuonline.com
+aktuonline.com aktuonline.com
+>
+4 Attempt any two parts of the following 2x10
+(a) List the ACID properties. Explain the usefulness of
+each. Why should database implementors paid
+attention the ACID properties? more
+(b) What is to recoverable schedule?
+recoverability a of schedules desirable? Why is
+circumstances under Are there
+desirable any allow which it would be
+Explain to nonrecoverable schedules?
+your answer.
+(c) (i) What is a data warehouse? How does it
+differ from a database?
+(ii) Describe the main functions of the
+following components of a data warehouse :
+Load
+(a) manager
+(b) Warehouse manager
+(c) Query manager
+(d) Meta data
+§ Attempt any parts of the following : 2x10
+(aj) What do by two-phase locking? What
+benefit is you provided mean by rigorous two-phase
+locking? How does it with other forms
+of two-phase locking? compare
+(b) What is timestamp? Describe the basic time
+stamp ordering protocol for concurrency
+(c) Explain the following
+G) Granularity
+(ii) Multiversion Two-phase Locking.
+0203) NUE 4 [1115]
+aktuonline.com

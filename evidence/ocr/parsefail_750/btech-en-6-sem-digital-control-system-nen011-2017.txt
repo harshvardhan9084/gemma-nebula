@@ -1,0 +1,67 @@
+Printed Pages : 2 | [ | [TT Tt NENOLI
+B. TECH.
+THEORY EXAMINATION (SEM-VI) 2016-17
+DIGITAL CONTROL SYSTEM
+Time : 3 Hours Max. Marks : 100
+Note : Be precise in your answer. In case of numerical problem assume data wherever not provided.
+SECTION-A
+1 Attempt the following : (10x2=20)
+a) Explain state space representation of digital Control System.
+b) Design controller from continous to digital system.
+a for
+c) Explain acquisition time sample and hold operation.
+d) Write shifting property of Z transform.
+e) If X(z) = then find the initial and final value of the corresponding
+sequence.
+f) State Cayley-Hamilton theorem.
+g) Calculate the pulse transfer function of zero order hold whose transfer function is
+els
+CG [ } _
+he 5 =
+a
+h) Find out the equilibrium points of the following nonlinear system.
+a1(k) —23(k)
+=
+i) Write Euler-Lagrange equation.
+jp Define Asymptotic Stability.
+SECTION-B
+2 Attempt any five of the following: (10x5=50)
+a) (i) Draw the basic digital control system and explain the function of each block.
+(11) Discuss the relationship between Laplace transform and Z transform.
+b) (i) Explain the Concepts of controllability and observability.
+(ii) Describe the sample and hold operations.
+c) A plant is described by the transfer function shown in the below block diagram. With the help of
+Jury stability test find the range of K for the system to be stable.
+—
+SCS+2)
+d) (i)Write the Controllability and Observability conditions for Pulse Transfer Function.
+(11) Explain the relation between bilinear transformation and W-plane.
+e) Explain Jury stability criteria. Calculate the stability of the characteristic equation given below by
+using jury stability criteria:
+—
+F(z) = 1.375z 0.25=0
+Find the pulse transfer function of the zero order hold and the relation between G(s) and G(z).
+Explain the principle of optimality and dynamic programming.
+Explain the design procedure in the W-plane.
+SECTION-C
+Attempt two of the following (15x2=30)
+Find the optimal any control u°(k), k 0,1,2,.....10, : such that the performance index
+=
+10
+Ja 2S 2 2
+2
+K=0
+Is minimized, subject to the equality constraint
+x(k+1) x(k) 2u(k)
+= +
+i. The initial state is x(0) = 1 and the final state is x(11) =0
+ii. The initial state is x(O) = | and the final state x(11) is free.
+(i) find the Z transform of the sequence f(k)=(1/2)*
+(ii) compute the state transition matrix using Caley Hamilton Theorem for the given A.
+0 0 —2
+1 0
+10 3
+State and explain Liapunov stability criteria and test the stability of the discrete-data system
+described by
+Xi(k+1) = -0.5 Xi(k)
+X2(k+1) = -0.5X2(k)

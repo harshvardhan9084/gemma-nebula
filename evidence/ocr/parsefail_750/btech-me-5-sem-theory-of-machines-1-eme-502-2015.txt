@@ -1,0 +1,122 @@
+aktuonline.com aktuonline.com
+Printed Pages : 4
+(Following Paper ID and Roll No, to be filled in your Answer Book)
+140502
+PAPER ID :
+B. Tech.
+(SEM. V) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+. THEORY OF MACHINES - I
+Time : 3 Hours] [Total Marks : 100
+1 Attempt any FOUR parts of the following : 5x4=20
+a)  Deduce the expression for the friction moment of a collar
+thrust bearing, stating clearly the assumption made.
+b) explain the following :
+I Slip of the belt
+Il Creep of the belt.
+c) of 1200 N is required to just to a certain
+body inclined plane of angle 12° with move force acting
+parallel up to an the plane. If the angle of inclination is
+increased 15°, then the effort required is 1400 N.
+Find the coefficient to of friction and the weight of the
+body.
+d) A shaft has
+a number of collars integral with it. The
+external diameter of the collars is 400mm and the shaft
+diameter is 250mm. If the uniform intensity of pressure
+is 0.35N/mn¥ and its coefficient of friction is 0.05,
+estimate power absorbed in overcoming friction when
+the shaft runs at 105 rpm and carries a load of 1SOKN.
+140502] 1 [ Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+What is meant by self locking and self energized brake?
+f) Two parallel shafts 6°m apart are provided with 300
+mm and 400 mm diameter pulleys and are connected
+by means of a cross belt. The direction of rotation of
+the follower pulley is to be reversed by changing over
+to an open belt drive. How much length of the belt
+has to be reduced?
+2 Attempt any TWO parts of the following : 10x2=20
+a) Sketch slider crank chain and its various inversions,
+stating actual machines in which these are used in
+practice.
+b) State and prove the ‘Aronhold Kennedy’s Theorem’ of
+three instantaneous centres.
+The crank and connecting rod of a theoretical steam
+engine are 0.5 m and 2 long respectively. The crank
+makes 180 rpm in the clockwise m direction. When it has
+turned 450 from the inner dead centre position, determine:
+a) Velocity of piston b) Angular velocity of connecting
+rod. c) Velocity of point E the connecting rod 1.5m
+from the gudgeon pin. d) Velocity on of rubbing at the pins
+of the crank shaft; crank and
+crank cross head when
+the diameters of their pins are 50mm and 60mm and
+30mm respectively.
+3 Attempt any TWO parts of the following : 10x2=20
+a) Give a neat sketch of the straight line motion Hart
+mechanism. Prove that it produces an exact Straight line
+motion.
+b) Two shaft are connected by a Hooke’s Joint. The
+driving shaft revolves uniformly at 500 rpm. If the total
+permissible variation in speed of the driven shaft is not
+to exceed + 6% of the mean speed, find the greatest
+permissible angle between the centre line of the shafts.
+140502] 2 [{ Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+Whitworth FIG
+Ina quick return motion, as shownin 1.
+OA isa crank rotating at 30 revolutions per minute in a
+clockwise direction. The dimensions of various links are OA
+= 150mm; OC = 10mm; CD = 125mm; and
+Determine the acceleration of the sliding
+block R and the angular accelerating of the slotted level CA.
+D
+FIG
+1
+following 10x2=20
+4 Attempt any TWO parts of the : knife-edge
+a) Draw the profile of a cam operating a
+follower when the axis of the follower is offset 20 mm
+towards right from cam axis from the following data.
+i Follower to move outwards through 40 mm
+during 60° of cam rotation.
+ii Follower to dwell for the next 45°
+ii, Follower to return to its original position during
+next 90°
+iv. to dwell for the rest of the cam rotation.
+The displacement of the follower is to take place with
+SHM during both the outward and the return strokes.
+The least radius of cam is 50 mm. If the cam rotates
+at 300 rpm, determine the maximum velocity and
+acceleration of the follower during the outward stroke
+and return stroke.
+140502] 3 [ Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+b) What is tangent cam? Find the expression for the
+velocity and of a roller follower for such
+a cam.
+c) Explain with sketches the different types of cams and
+followers.
+5 Attempt any TWO parts of the following : 10x2=20
+a) Two mating gears have 20 and 40 involute teeth of
+module 10 mm and 20° pressure angle. If the addendum
+on each wheel is such that the path of contact is
+maximum and interference is just avoided, find the
+addendum for each gear wheel, path of contact, arc
+of contact and contact ratio.
+b) Prove that the maximum length of arc of contact
+between a pair of gear tooth to avoid interference is
+(r+R) tang.
+c) In an epicyclic train, shown in FIG 2 the
+number of teeth gear wheels as A, B and C 48, , 24
+and 50 respectively. on If the 400 are
+clockwise, find: 1. Speed of arm wheel rotates C when at A is r.p.m., fixed,
+and 2. Speed of wheel A when C
+is fixed.
+FIG 2
+140502] 4 19775
+aktuonline.com http://www.UPTUonline.com

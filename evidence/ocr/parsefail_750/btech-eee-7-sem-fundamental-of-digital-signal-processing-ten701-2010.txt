@@ -1,0 +1,88 @@
+aktuonline.com aktuonline.com
+Printed Pages: TEN701
+4
+(Following Paper ED and Roll No. to be filled in your Answer Book)
+0300 a
+B.Tech
+(SEM VII) ODD SEMESTER THEORY EXAMINATION 2009-10
+FUNDAMENTAL OF DIGITAL SIGNAL PROCESSING
+Time: 3 Hours] [Total Marks: 100
+Note : (i) Attempt all questions.
+(ii) All questions carry equal marks.
+1 Attempt any four parts of the following 5x4
+questions :
+(a) Compute the signal energy for x(t)
+(b) Explain the stability condition for the DSP
+described by
+systems the equation
+y(n)=a"U(n). a
+(c) Determine the Fourier transform for a
+rectangular pulse having pulse width T seconds
+and magnitude of A volts.
+(d) Compute DFT of the sequence
+2,
+1, 3}. Define twiddle factor and
+its properties also.
+EE
+55-0300] [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+two following 10x2
+(e) Compute the circular convolution of the Attempt any parts of the
+following sequence and compare the results questions :
+with linear convolution. x,[{n] {1, 2, 0, 1} and Obtain FIR linear phase and cascade realization
+= (a) function
+= {2, 2, 1, 1}. of the system
+z)|
+(f) State and prove following properties of DFT H{Z]=
+(i) circular time shifting (ii) circular time
+reversal. (b) Compare Direct form I and Direct form II
+realization of IIR filter system.
+2 Attempt any four parts of the following 5x4 variance of the round off noise
+questions : (c) Determine the cascade realization of
+(a) Draw the spectrum of a sampled signal and at the output of the two function
+aliasing. the filter with system
+where
+(b) Discuss the process of reconstruction of the
+signal from its samples. Obtain the impulse
+response of an ideal reconstruction filter. and
+(c) Explain the need for multirate signal processing.
+(d) Given find X(k) using
+DIT FFT algorithm. 10x2
+Attempt any two parts of the following
+(e) Find the impulse response and frequency questions :
+response of the second order system defined (1) Gibbs Phenomenon
+by equation (a) Write short notes equiripple on FIR filter design.
+y[n-1]+3[n—2]/16 = x[n]-0.5x[n-1] (2) Optimum
+(b) A low pass filter is to be designed with the
+(f) Find the magnitude and phase response for following desired frequency response
+the system characterized by the difference
+equation : for
+Hy
+=0 for
+4% [Contd...
+2 [Contd... 34-0300) 3
+aktuonline.com
+http://www.UPTWonline.com
+aktuonline.com aktuonline.com
+Determine the filter coefficients if the
+window function is defined as
+w(n) =1 for O<n<4
+= 0, for otherwise
+Also determine the frequency response
+of the designed filter.
+(c) Discuss the different design techniques available
+j for IIR filters.
+ea A
+5 “Attempt any two parts of the following 10x2
+questions
+:
+-(a) Write short notes on (1) Goertzel Algorithm
+(2) Effect of finite world length in digital
+filters.
+(b) Explain how DFT and FFT are useful in power
+spectral estimation. Define periodogram.
+(c) Draw the flow graph of 8 point DIF FFT
+algorithm and explain. an
+[ 2900
+ww.UPTUonline.com

@@ -1,0 +1,59 @@
+Printed Pages: 02 Sub Code: EEE409
+Paper Id: 120416 Roll No.
+B. TECH
+ELECTRICAL (SEM IV) MACHINES THEORY EXAMINATION & AUTOMATIC 2017-18 CONTROL
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+Attempt all questions in brief. 2 x10
+a) What is the difference between an ideal and practical transformer.
+b) Why a stator is necessary for a DC motor?
+c) What is meant by an induction motor?
+d) What are the essential elements for generating EMF in alternators?
+e) Explain the linear and non-linear systems.
+Define the dynamic and static system.
+g) Define: (i) Delay Time, (ii) Rise Time, (iii) Peak Time, (iv) Settling Time.
+h) Explain the concept of stability.
+i) Explain the phase margin.
+j) Define static velocity error constant.
+SECTION B
+Attempt any three of the following: 10x3=30
+a) Explain and how the flux EMF density induced in the in a winding of transformer is related to the number of
+turns core.
+b) Bring out clearly, with the help of neat sketches the differences between the 3-phase
+slip ring induction motor and the three-phase squirrel cage induction motor.
+c) Determine the transfer function of the electrical network shown in figure
+d) When a second order control system is subjected to a unit step input, the values of
+€=0.5 and @n= 6 rad/sec. Determine the rise time, peak time, setting time and peak
+overshoot.
+e) The forward path transfer function of a unity feedback system is given by
+G(s) Sketch the locus K varies from infinity.
+. root as zero to
+SECTION C
+Attempt any one part of the following: 10x1=10
+a) What Explain is its the effect? principle of operation of DC motors. What is back EMF in DC motors?
+b) What the losses taking place in DC machine and how do they with load
+current are and derive the condition for maximum a efficiency? vary
+Attempt any one part of the following: 10x1=10
+a) Why rotating field system is preferred over the stationary field system in a
+synchronous generator?
+b) Define form factor, chording factor and breadth factor. Also derive emf equation of an
+Attempt alternator. of the following: 10x1=10
+any one part
+a) Draw the free body diagram and write the differential equation of the given system
+shown in figure.
+F(t)
+b) Draw the mechanical equivalent network, write the equations and find
+F(s)/X2(s) of the system shown in figure. system
+fit)
+Frictionless wheels
+6. Attempt any one part of the following: 10x1=10
+a) Consider the system as shown in figure. Determine the value of ‘a’ such that the
+damping in its ratio is 0.5. Also obtain the values of rise time and maximum overshoot Mp
+step response.
+b) Find the dynamic error coefficients of the unity feedback system whose forward
+transfer function is G(s) = — Find the steady state error of the system for the input
+At.
+Attempt any one part of the following: 10x1=10
+a) Explain the effects of addition of poles and zeros on root locus in detail.
+b) Discuss the Bode plot in detail with an example.

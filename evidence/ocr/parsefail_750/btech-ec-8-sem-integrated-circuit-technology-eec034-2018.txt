@@ -1,0 +1,56 @@
+Printed pages: 02 Sub Code: EEC 034
+Paper Id: 131620 Roll No:
+B TECH
+THEORY EXAMINATION 2017-18
+INTEGRATED CIRCUIT TECHNOLOGY
+Time : 3 Hours Total Marks: 100
+Note: 1. — Attempt all Sections.
+2. Assume any missing data.
+SECTION A
+1. Attempt all questions in brief. 2 x10
+a. What is Moore’s law? Briefly describe the evolution of Ics.
+b. Describe crystal defects that come in Silicon wafer.
+Cc. Why Si3N4 is used for the isolation in CMOS IC fabrication?
+d. Explain What is the range difference of penetration between in Epitaxy ion implantation. and crystal growth?
+f. What is etching? Explain the dry and wet etching.
+What the advantages of using poly silicon for the deposition of gate electrode?
+h. g. Explain are liquid source diffusion of Boron.
+i. What are the applications of $102 layer?
+j. Show that to grow an oxide layer of thickness x, a thickness of 0.44x of silicon is
+consumed.
+SECTION B
+2. Attempt any three of the following:
+a. What is epitaxial growth? Explain vapour phase epitaxy and also tell what are the
+sources of Silicon in vapour phase epitaxy.
+b. What is ion beam lithography? Explain in detail.
+c. Derive Flick's law of diffusion and explain different types of diffusion furnace with
+suitable diagram.
+d. What is metalization? Describe the problems associated with this process.
+e. Explain Monolithic and Itybrid Integrated Circuits.
+SECTION C
+3. Attempt any one parts of the following: 10x1=10
+a. Discuss different steps in preparing wafers from raw Silicon.
+b. Explain Electronic Grade Silicon with neat diagram. Explain the polishing of
+Silicon in detail. process
+4. Attempt any one parts of the following: 10x1=10
+a) Explain the kinetics of thermal oxidation. Why oxidation is done in CMOS
+technology?
+b) How is the silicon nitrite used? Explain its deposition variables.
+5. Attempt any one parts of the following: 10x1=10
+a) What is ion implantation? What are the advantages and disadvantages of this process
+over diffusion? Explain why annealing is required after ion implantation process
+b) Define sheet resistance. Describe method for its Estimate the number
+of that be included a a logic measurement. chip which is be assembled in
+100 gates I/O package. can Assume on 4.5 and B gate 0.5. array to a
+o. = =
+6. Attempt any one parts of the following: 10x1=10
+a) Write a short note on package types and packaging design VLSI technology. What is
+meant by DIP? Explain in brief.
+b) Write note the following
+on
+(1) PVD process
+(2) DC sputtering method for metalization.
+7. Attempt any one parts of the following: 10x1=10
+a) Explain the n-MOS fabrication with suitable diagram.
+b) Give the various fabrication steps of CMOS transistor using n- well technique with
+diagram and brief explanation.

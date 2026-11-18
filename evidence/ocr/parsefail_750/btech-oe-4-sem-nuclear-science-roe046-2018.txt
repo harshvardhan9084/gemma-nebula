@@ -1,0 +1,53 @@
+Printed Pages: 02 Sub Code: ROE046
+Paper Id: | 1} 9} 4] 3} 1 Roll No.
+B. TECH.
+(SEM-IV) THEORY EXAMINATION 2017-18
+NUCLEAR SCIENCE
+Time: 3 Hours Total Marks: 70
+Note: 1. Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+1. Attempt questions in brief. 2x7=14
+a. What do you understand by binding energy?
+b. What is mass defect?
+c. How can you define Nuclear fusion?
+d. On what factors the chain reaction depends?
+e. What is decay constant?
+f. Discuss merits of DM counter.
+g. What are the limitations of cyclotron?
+SECTION B
+2. Attempt any three of the following: 7x3=21
+State the properties of Nuclear forces. Describe briefly Yukawa theory of
+a. Nuclear forces.
+b. State the main assumptions of the nuclear shell model. Explain the
+experimental evidences which suggest this model.
+c. What do you understand by nuclear reaction? Discuss different types of nuclear
+reactions with examples.
+d. What are the basic components of a mass spectrograph? Describe the working
+principle of Aston’s mass spectrograph.
+e. Describe the nature properties and uses of alpha, beta and gamma radiations.
+SECTION C
+3. Attempt of the following: 7x1=7
+any one part
+(a) | What do you mean by mass defect? How it is related with the packing factor?
+A neutron breaks into a proton and an electron. Calculate the energy produced
+in this reaction in MeV.
+(b) Write short notes on:
+(i) Nuclear Angular Momentum (ii) Nuclear Magnetic dipole moment.
+4. Attempt any one part of the following: 7x1=7
+(a) Describe shell model and collective model in detail.
+(b) Explain Van De Graff Generator.
+5. Attempt part of the following: 7x1=7
+any one
+(a) Describe the construction and working of a nuclear reactor.
+(b) Explain nuclear fission process by giving examples of Energy released in
+fission of uranium atom is 300 MeV. Calculate the amount of energy released
+by 100 gm of
+Attempt part of the following: 7x1=7
+any one
+(a) Explain transmission probability of incident a-particle.
+(b) Explain neutrino hypothesis regarding B-decay.
+Attempt any one part of the following: 7x1=7
+(a) What do by radioactive tracers? Explain their in material
+science and you agriculture. mean uses
+(b) Describe the working of a cloud chamber with necessary theory and diagram.

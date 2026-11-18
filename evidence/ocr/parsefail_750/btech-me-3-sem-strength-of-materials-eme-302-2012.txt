@@ -1,0 +1,153 @@
+aktuonline.com
+. aktuonline.com
+Printed Pages : 7 EME-302
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0429 Bil
+B. Tech.
+Theory Examination, 2011-12
+STRENGTH OF MATERIALS
+3 Hours] [Total Marks : 100
+Note : Attempt questions from all Sections as per
+directions.
+Section-A
+Attempt all questions. 2x10=20
+Castigliano’s first theorem.
+1. State
+2. Define principal plane and principal stress.
+3. | What do you mean by ‘strength ofa shaft’ ?
+4. State Mohr’s theorems for beams.
+5. What are the limitations of Euler’s formula ?
+Write short winding cylinders.
+6. notes on wire of
+induced in closed
+7. are the various stresses
+coil helical springs ?
+http://www.UPTUonline.com
+iS x &
+aktuonline.com © O fe}
+0429 3. 2. 1. 10. 9. 8.
+other “column Find . method. with Find What by mutually body principal Derive Attempt Why Write What
+a
+end the an an shear the
+when expression Macaulay’s is is ‘down are
+is expression eccentric stress. perpendicular subjected stresses an any shear ?
+hinged. expression three the the
+one centre assumptions
+(2) end point on questions. Section-B expression.
+for for method to is
+of a an called
+the cripping load, simply directions direct oblique for
+column ? the
+using Where stresses major for made
+load supported plane centre Winkler-Bach
+is i Macaulay’s is accompanied and
+fixed for it when 10x3=30 of in
+a used in minor twist Lame’s
+and long beam two
+? the ?
+0429
+15 The evaluate shear N/mm? angles intensities Ata Attempt cross Derive
+kN thick How What
+load
+together stress both to certain section, an compound will do
+ona the ail expression you
+principal the tensile. each of ‘point questions. you mean
+with bolt location of stresses deterinine
+magnitude other Section-C cytinder
+a consists ‘Or They in by
+transverse stresses. are a for thick a
+of on strained neutral ? the
+of principal are 20
+an 10 accompanied hoop’stresses compound
+shear axial N/mm? planes axis 2
+N/mm’. material,
+of planes 10x5=50 of cylinder
+7. pull and at circular
+5 KN. and Find by right
+of a 10 the in
+a ?
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com pa £ oO re)
+S Ke)
+0429 2.
+as stress tensile The moment A the shear shear one A applied. N/mm?, energy (iv) shear (i) Determine
+6, solid shear beam maximum
+determine shaft in force diagonal strain stress
+of stress of circular the of Take theory.
+500 is 3000 distribution square and energy the
+MPa. made cross F, horizontal. p a theory principal
+the of N-m at =0.3. factor Elastic diameter
+700 of shaft section a section theory
+(4) diameter Assuming 45C8 and Or diagram section. stress
+MPa is The of limit of
+a subjected of is safety and the
+of and steel torque for the Find beam used theory
+shaft. a a in (v) bolt
+factor ultimate having of the beam the is as of teusion strain (ii)
+10000 to section. subjected a 3 shear according
+of a and maximum beam is maximum.
+safety ultimate bending to is strain theory”
+shear N-m. draw with 285
+to be to
+3.
+-An
+long In N induced maximum Compute being mean diameter E a=1/1600 and of load long 200 A
+cylindrical a =0.84x10° open =9.4x10* Rankine’s 4. by mm hollow
+is 15°. diameter Calculate and
+subjected in steel coiled Rankine’s is has C.1.
+intensities (i) An N/mm? fixed
+N/mm? the deflection helical in a thickness column
+shell axial of rod critical the formula at
+to section 150 has Or - Rankine’s slenderness both
+(5) an of and of load spring, whose
+0.6 direct mm, 10 loads. ends. of
+internal m =2x10° £ of under of complete using
+diameter and 400 the made Take Calculate 20 outside
+the formula ratio a factor mm.
+pressure shear load N angle out
+wire. is turns of 550 of It diameter
+and stresses, and applied. of 20 N/mm, Euler’s of the is
+0.9 Take helix safety 4.5
+1.2 (ii) at mm, and safe m is
+m a
+aktuonline.com
+i
+aktuonline.com aktuonline.com
+“at _E=200
+20° at 150x10) A Poisson’s surface and the mm mm mm, The change stress Determine
+the beam the shaft, diameter. when
+to ends. and external and
+the is of shaft the the GPa in Thickness
+It 2.5 of shrunk diameter, maximum longitudinal
+vertical carries m T-section the radial Find internal diameter and
+in and
+(6) length tube. hoop the on Or of
+a pressure to diameter length shear the
+and load and (flange Take reduction a solid of stresses, cylinder
+passing stresses a stresses
+of is between increases steel and
+3.2 simply E=210 steel circumferential
+.100x20, at in collor volume.
+through KN the the diameter shaft induced:and
+inclined’ supported GPa by
+inner collar of 0.125 is Take
+the web and of 200
+—
+below. 100 Determine (iv) (iii) Gi) centroid
+kN Position Deflection Maximum Maximum
+of
+punch the the
+maximum of
+press neutral due compressive tensile section.
+OF
+to
+as stress axis. load stress Its
+shown
+. stress
+in
+0429-7-13,000 in the
+the frame
+100 figure of
+kN the
+:
+aktuonline.com http://www.UPTUonline.com

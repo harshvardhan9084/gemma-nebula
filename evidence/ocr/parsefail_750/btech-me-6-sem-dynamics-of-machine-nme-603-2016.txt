@@ -1,0 +1,117 @@
+www.aktuonline.com
+Printed Pages: 4 NME-603
+(Following Paper ID and Roll No. to be filled in your .
+Answer Books)
+Paper LD: 140613
+B.TECH.
+Theory Examination (Semester-VI) 2015-16
+DYNAMICS OF MACHINE
+Time : 3 Hours Max. Marks : 100
+Section-A
+QL Attempt ail questicn (2x10=20)
+(a) Differentiate between static force analysis and dynamic
+force analysis.
+(b) Define crank effort and crank-pin effort.
+www.aktuonline.com
+(c) Define coefficient of fluctuation of speed.
+(d) State the conditions for complete balance of several
+revolving in different planes of shaft.
+masses a
+(e) What are the effects of hammer blow and swaying
+couple?
+1 PTO.
+2005/2'7/653/16325
+www.aktuonline.com
+www.aktuonline.com
+() the cranks of locomotive,
+a with two cylinders,
+placed at 90° to each other?
+(g) What is meant by degrees of freedom in a vibrating
+system?
+(h) Sketch the Time Vs Displacement for under-damped
+and over-damped systems
+() What is meant by isochronous conditions governor?
+(Gj) Write expression for gyroscopic couple.
+Q2. Attempt any five. (5x10=50)
+(a) Deduce
+the expression for the inertia force in the recip-
+rocating force neglecting the weight of the connecting
+rod.
+(b) The radius of gyration of a fly wheel is 1 meter and
+fluctuation of speed is exceed 1% of the
+www.aktuonline.com not to mean
+speed of the flywheel. If the mass of the flywheel is
+3340kg and the steam develops 150KW at 135rpm,
+then find
+i. Maximum fluctuation of energy
+ii. Coefficient of fluctuation
+of energy
+2
+2005/27/653/16325
+.
+www.aktuonline.com
+www.aktuonline.com
+|
+(c) Derive the following expression of effects of partial
+balancing in two cylinder locomotive engine
+i. Variation of tractive force
+i, Swaying couple
+iii Hammer blow
+(d) Deduce the expression for the free longitudinal vibration
+in terms of spring stiffhess, its inertia effect and sus-
+pended mass.
+(e) Acantilever shaft 50mm diameter
+and 300mm long has
+a disc of mass 100kg at its free end. The young’s modu-
+lus for the shaft material is Determine the
+frequency of longitudinal and transverse vibration of the
+shaft.
+(f) Explain an
+the effect of gyroscopic couple on Aeroplane
+www.aktuonline.com on both the tum.
+(g) Calculate the rage of speed of a porter governor which
+has equal arms of each 200mm long and pivoted on
+the axis of rotation. The of each ball is 4kg and
+mass
+the central load of the sleeve is 20kg.The radius of
+rotation of the ball is 100mm when the governor
+being to lift and 130mm when the governor is at
+maximum speed.
+3 P.T.O.
+2005/27/653/16325
+www.aktuonline.com
+www.aktuonline.com
+(h) A porter governor has equal arms each 250mm long 4
+and pivoted on the axis of rotation. Each ball has a .
+mass of Skg and mass of the central load on the
+sleeve is 25kg.The radius of rotation of the ball is
+150mm when governor is at maximum speed. Find
+the maximum and minimum speed and range of speed
+of the governor.
+Attempt (2x15=30)
+any two
+Q3. The total mass of four wheel trolley car is 1800kg. The car
+runs on rail of 1.6m gauge and round a curve of 24m mean
+radius at 36km/hr. The track is banked at 10°. The diam-
+eter of the wheel is 600mm. Each pair of wheel with axle
+has a mass of 180kg and radius of gyration of 240mm. The
+height of the CG of car above the wheel base is 950mm.
+Determine the pressure on each rail.
+Q4. The length of the upper and lower arms of a porter gov-
+emor are 200mm and 250mm respectively. Both the arms
+are pivoted on the axis of rotation. The central load is
+150N, the weight of the each ball is 20N and the friction
+of the sleeve together with the resistance of the operating
+gear is equivalent to a force of 30N at the sleeve. If the
+www.aktuonline.com limiting inclinations of the upper arms to the vertical are
+30° and 40° taking friction in to account. Find the range
+of speed of the governor.
+QS. The barrel of a large gun recoils against a spring on firing.
+At the end of the firing, a dashpot is engaged that allows
+the barrel to return to its original position in minimum
+time without oscillation. Gun barrel mass is 400kg and
+initial velocity of recoils 1m.Determine spring stiffness
+and critical damping coefficient of dashpot.
+4
+2005/2'7/653/16325
+www.aktuonline.com

@@ -1,0 +1,80 @@
+http://www.aktuonline.com
+Printed Pages—3 MCA302
+Following Paper ID and Roll No. to be filled in your Answer Book)
+RollNo. | | | | | [ | | [ [
+M.C.A.
+(SEM. ODD SEMESTER THEORY EXAMINATION
+2010-11
+DESIGN AND ANALYSIS OF ALGORITHMS
+Time : 3 Hours Total Marks : 100
+Note.: (1) Attempt all the questions.
+(2) All questions carry equal marks.
+“~‘ .
+(3) Make suitable assumptions wherever necessary.
+‘1. Attempt any FOUR parts of the following :— (5x4=20)
+(a) Write the essential characteristics of a good algorithm.
+~ classification
+Explain big-oh complexity order in increasing
+order of time.
+(b) the operations of merge sort on the given array
+A= {3,41, 52, 26, 38, 57, 9, 49}.
+(c) Letf(n) and g(n) be asymptotically nonnegative functions.
+Using the basic definition of 6 notation, prove that max
+(f (n), g (n)) = 9 (n) + g(n)).
+(d) Give asymptotic upper bound of the recurrence
+relation T(n) = T(7n/10) + n. Assume that T(n)
+constant for n < 2.
+(e) Analyze the quick algorithm when all elements of
+sort
+array A have the same value.
+MCA302/VEQ-15132 I [Turn Over
+7 http://www.aktuonline.com
+(f) Describe any one sorting algorithm that has linear time
+Attempt any TWO parts of the following : (10x2=20)
+(a) What is the difference between the binary search tree
+property and the min-heap property ? Can the min-heap
+property be used to print the keys of an n-node tree in
+sorted order in O'(n) time.
+(b) Prove that a red black tree with n internal nodes has height
+2 log (n+1).
+at most
+(c) you mean by augmenting a data structure ? Write
+the process of augmenting a data structure.
+TWO parts of the following
+any optimality. : (10x2=20)
+(a) State the principle of Find the two problems for
+which principle of optimality does hold and two problems
+for which the principle optimality does not hold.
+(b) What do you mean by greedy algorithm ? Write greedy
+algorithm for Huffman code. Show that your algorithm
+has greedy choice property.
+Branch and technique.
+(c) Describe Bound How the branch
+and bound technique can be used to solve the 0/1 knapsack
+problem ?
+4. Attempt TWO parts of the following (10x2=29)
+any : -
+(a) Wnite breadth first traversal algorithm for any graph. Derive
+its time complexity. How the time complexity of this is
+different from the time complexity of depth first search
+algorithm ?
+MCA302/VEQ-15132 2
+http://www.aktuonline.com
+(b) Write the Prim’s algorithm for finding the minimum
+spanning tree of a graph. Using the algorithm find the
+minimum spanning tree of the following graph. :
+(c) Write the Floyd-Warshall algorithm to solve the all-pairs
+i shortest-path problem on a directed graph.
+time complexity of the algorithm.
+following
+5. Attempt any TWO parts of the : (10x2=20)
+(a) ‘Define string matching problem and describe any
+matching algorithm with suitable example. ‘
+NP-hard class
+(b) Define the P, NP, NP-complete and
+problems and give the relationship among these classes.
+(c) Write short notes on any two of the following :
+(i) Randomized algorithms
+(ii) Matrix operations
+(iit) Approximation algorithms.
+3 1375

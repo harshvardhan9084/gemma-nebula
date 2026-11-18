@@ -1,0 +1,62 @@
+* 3 08 7 1 * TEC304
+Printed Pages: 3
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+B.Tech
+(SEM III) ODD SEMESTER THEORY EXAMINATION 2009-10
+PULSE & DIGITAL ELECTRONICS
+» Time : 3 Hours] [Total Marks: 100
+Note
+: (1) Attempt all questions.
+(2) All questions carry equal marks.
+1 . Attempt any four questions : 5x4=20
+(a) Draw and explain the operation of J 27, inverter.
+Discuss the characteristics of CMOS and ECL
+family
+(c) Explain the operation of low and medium power
+TTL NAND gate.
+Define the following parameters
+:
+(i) Fan-out
+(ii) Noise Margin
+(ii) Propagation delay
+(iv) power dissipation.
+(e) Simplify the given boolean function (f) using
+don't condition (d) of products
+care in sum to
+product of sum :
+[Contd...
+Attempt two questions 10x2=20
+f=AB'D'+A'CD+A'BC any
+(a) (i) Realize JK flip flop from SR flip flop
+function using Gi) the state diagram of JK flip flop.
+(f) Minimize the following boolean
+tabulation method : (b) Draw and explain the circuit of bidirectional shift
+f = register with parallel load.
+(c) What are ripple counters ? What are the
+disadvantages of ripple counter ? Design a
+Attempt any four questions : 5x4=20 modulo-8 ripple counter.
+(a) Perform the subtraction using is complement and
+2's complement method. -
+Attempt any two questions : 10x2=20
+(11010), —(10000), (a) What is static RAM ? the circuit of
+(b) Perform the following Bipolar cell, explain Draw
+: RAM explain and its operation.
+(i) (756), (b) Draw and “RC circuit as differentiator,
+integrator and compensated attenuator.
+(i) Find x if (193) =(623), (c) What various of A/D converters ?
+magnitude Explain are of types them in detail.
+(c) Design the logic and circuit of 4-bit any one
+comparator.
+(d) Draw the circuit of 4-bit adder-subtractor. Attempt any two questions 10x2=20
+(e) Implement the following boolean function with
+8x1 multiplexer : (a) Draw and explain Schmitt Trigger. What is the
+D) (0,3,5,8,9,10,12,14). difference between an inverting and a non
+= inverting Schmitt trigger. Give applications of
+(f) Implement the following boolean function using Schmitt trigger.
+PLA : (b) Draw and explain the astable to monostable
+configurations of times.
+A(x. y,z}) =
+(c) ‘What are advantages of ideal op-amplifier ?
+Explain the circuit of adjustable voltage IC
+regulators,
+3 ay (Contd... 15-3071) | [ 2025 ]

@@ -1,0 +1,77 @@
+~aktuonline.com aktuonline.com
+;
+* v - 3 0 4 7 * IC 603
+Printed Pages : 3 -
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 3047 ROAD
+B. Tech.
+(SEM. VI) EXAMINATION, 2006-07
+ELECTRONICS MEASUREMENT &
+INSTRUMENTATION
+Time 2 Hours] [Total Marks 50
+; :
+Note : Attempt all questions.
+1 Attempt any four parts of the following : 4x4=16
+(a) Define and explain briefly the static performance
+parameters of instruments.
+(b) <A source having an open circuit voltage of 20V
+and an output impedance of (1.5 j4) Q
+connected through a transmission netork of impedance
+(0.5 + What should be the load impedance
+so that the maximum power will be delivered to it?
+Calculate the maximum deliverable power.
+(c) Derive the equations for capacitance and dissipation
+factor of a low voltage Schering bridge. Draw the
+phasor diagram of the bridge under conditions of
+balance.
+(d) Explaian the function and working of Wagner Earth
+Device.
+(e) Describe the phenomenon of synchronisation of
+vertical input signal in CRO.
+(f) Discuss delayed to sweep in CRO. generator
+pom sweep
+1 {Contd...
+“aktuonline.com aktuonline.com
+Attempt any four parts of the following : 4x4=16
+(a) Write a technical note on loading effects of
+instruments
+(b) Explain with the help of a block diagram, the
+various parts of an electronic multimeter.
+(c) Describe the methods of measurement of voltage
+and at radio frequencies.
+power
+(d) What are the various factors, taken into
+consideration while selecting an electronic type
+analog voltmeter.
+(ce) A saw tooth voltage has a peak value of 40V
+and a time period of 5.0 second as shown in
+figure below.
+Em
+os =
+Fig. 1
+Calculate the when measuring this voltage
+with error reading voltmeter, calibrated
+in an average of value of sinusoidal
+terms rms waves.
+(f) Describe the circuit diagram and operation of
+voltmeter using a direct coupled amplifier.
+3 Attempt any two parts of the following : 4.5x2=9
+(a) Describe the working of an inter modulation
+distortion meter with the help of a block
+diagram.
+2
+-aktuonline.com—
+~~
+(b) What are different types of distortions caused
+by amplifiers?
+(c) Describe the basic circuit of a spectrum analyser.
+4 Attempt any two parts of the following : 4.5x2=9
+Explain frequency using Schmitt
+(a) measurement
+trigger with the help of a diagram.
+(b) Sketch the block diagram for time interval
+measurement mode of operation using DDAs
+and DCAs.
+(c) Explain operation of digital phase with
+the help of block diagram. meters
+3 [865 ]

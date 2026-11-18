@@ -1,0 +1,98 @@
+Printed Pages : 4 TEC-304
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 3071 RollNo.[ | [| |
+B. Tech.
+(SEM. IID EXAMINATION, 2007-08
+PULSE & DIGITAL ELECTRONICS
+Time 3 Hours] [Total Marks
+: : 100
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+(3) Be
+precise in your answer:
+(4) No second answer book will be provided.
+1 Attempt any four parts of the following : §x4=20
+(a) What are the different types of output
+configuration for TTL gates ? Explain any
+one type in detail.
+(b) Describe the operation of basic circuit of
+the ECL gate.
+(c) Explain the operation of a 2-input CMOS
+NAND gate.
+(d) Explain merits and demerits of different
+logic families.
+3070) [Contd...
+(e) Simplify the following expression using
+K-map and implement the result with
+universal gates only
+B, D)=ABC+ACD+AB+ABCD+ ABC
+F(A, C,
+(f) Simplify the following Boolean function
+using tabulation method :
+x, y, (1, 5, 6, 12, 18, 14)+ 4, 7, 9)
+Z Attempt any four parts of the following : 5x4=20 ——
+(a) Represent the decimal numbers '-21' in all four
+methods of negative binary number representation
+using eight bits.
+(b) Perform the following subtraction using 2's
+complement method :
+(1) = 110100-10101
+(2) O011,1001-0001.1110
+(c) Design a combinational circuit that converts a
+3-bit Gray code to 3-bit binary number.
+Implement the circuit with exclusive OR gates
+(d) Show that full subtractor be constructed
+with half a subtractor and can OR
+two an gate.
+Implement the following Boolean function with a
+multiplexer :
+F(A, B, C, 3, 4, 11, 12, 13, 14, 15)
+(f) Explain the function of PLA with suitable
+example.
+3071) 2 [Contd...
+oe
+3 Attempt any two parts of the following : 10x2=20
+a
+(a) Explain the differences among truth table, a
+state table, a characteristic table and an
+excitation table of flip-flop.
+(b) What is shift register ? Explain the operation
+of a 4 bit shift register. The content of a 4 bit
+register is initially 1101. The register is shifted
+six times to the right with the serial input being
+101101. What is the content of the register after
+each shift ?
+(c) Design a synchronous counter using J-K flip
+flops with the following repeated binary
+sequence : "0, 1, 3, 5,7".
+4 Attempt any two parts of the following ; 10x2=20
+(a) Write short notes on the following
+(1) Read only memories
+(2) Sequential memories.
+(b) A current pulse of amplitude I is applied to a
+parallel RC circuit shown in figure below,
+Plot to scale (approximately) as forms of the
+i, for the wave
+current cases
+~ (i) ty <RC
+(ii) ty RC and
+=
+(iii) t,> RC.
+3071} 3 {Contd...
+(c) Describe the successive approximation A/D
+conversion principle. Explain this type of
+A/D converter with the neat diagram.
+—
+5 Attempt any parts of the following : 10x2=20
+(a) What is higher order active filter ? Design
+second order low filter high off a
+pass at a cut
+frequency of | kHz.
+(b) What are the basic modes in which the 555
+timer operates ? Write few applications of 555
+timer and explain any one in detail.
+(c) Describe the fixed voltage IC regulators. Also
+explain the typical performance for
+the voltage parameters
+regulators.
+IN AT [4785]

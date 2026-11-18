@@ -1,0 +1,52 @@
+Printed Pages: 2 Sub Code: RCAE14
+Paper Id: 214429 Roll No.
+MCA
+(SEM IV) THEORY EXAMINATION 2017-18
+ADVANCED COMPUTER ARCHITECTURE
+Time: 3 Hours Total Marks: 70
+Note: Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+1. Attempt all questions in brief. 2x7=14
+What do you mean by parallel computing?
+Define response time and throughput.
+Explain the concept of pipelining.
+What are pipeline hazards?
+What do you mean by vector processors?
+What do you mean by prefix sums?
+Define post synchronization.
+SECTION B
+2. Attempt any three of the following: 7x3=21
+Explain Flynn’s classification of computer architecture and how it is different
+a. from Feng’s classification?
+oF What are the hazards that occurs in pipelining in your opinion? Explain.
+Discuss the functional architecture of SIMD multi-processor systems.
+d. Give the PRAM algorithm for solving a first order linear recurrence :
+xi=aixi-it+di for i=1,2,...n, where the value of xo,a1,a2,....an and di,d2,...dn are
+given. Assume xo=0 and ai=0.
+e. Explain lock mechanisms for pre-synchronization to achieve sole access to a
+critical section associated with fast and efficient synchronization schemes on a
+shared memory multiprocessor.
+SECTION C
+3. Attempt part of the following: 7x1=7
+any one
+(a) Explain the types of system performance factors in a parallel architecture.
+(b) How POSIX threats are creating and exiting? Explain.
+4. Attempt any one part of the following: 7x1=7
+(a) Explain linear and Non-linear pipeline processors.
+(b) Discuss memory hierarchy technology. Explain inclusion, coherence and
+locality properties.
+5. Attempt any one part of the following: 7x1=7
+(a) Explain multi-processing in MIMD mode related to shared variable
+programming on multi-processors.
+(b) What are the properties of vector processors? Explain each component of
+vector-register processors with diagram.
+6. Attempt any one part of the following: 7x1=7
+(a) Explain the Bidirectional Gaussian elimination for solving of linear
+algebraic equation. a set
+(b) Devise a PRAM algorithm to sort a given array of an element using bubble
+sort.
+Attempt any one part of the following: 7x1=7
+(a) Explain parallel execution environment routines.
+(b) Explain and synchronization
+master constructs.

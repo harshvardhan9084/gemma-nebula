@@ -1,0 +1,62 @@
+Printed pages: 02 Sub Code: EEC 035
+Paper Id: 131621 Roll No:
+B TECH
+THEORY EXAMINATION 2017-18
+INTRODUCTION TO RADAR SYSTEMS
+Time: 3 Hours Total Marks: 100
+Note: 1. | Attempt all Sections.
+2. Assume any missing data.
+SECTION A
+1. Attempt all questions in brief. 2 x10 =20
+What do you understand by term RADAR?
+Calculate the range of a target if the time taken by the radar signal to travel to the
+target and back is 100 ps.
+What is Pulse Repetition Frequency?
+Write short note on Blind speed.
+ho What do you radar understand is different by from term Tracking other radar Radar? systems?
+How What MTI do understand by automatic detection?
+What do you by false alarm?
+Tr What is the you clutter mean reduction techniques used in radar?
+Briefly discuss about the sea clutter?
+SECTION B
+2. Attempt any three of the following:
+a. With the help of schematic block diagram, explain radar transreceiver system.
+b. What is Doppler Effect & how it is useful in long distance communication. What are
+the methods of overcoming the problems of blind speed in radar?
+c. Explain with the help of block diagram the Conical Scan Tracking Radar.
+d. What are the different types of detection used in Radar? Explain zero-crossing
+detector with diagram.
+e. What is Ambiguity Function? Discuss the Ambiguity function of a simple pulse.
+SECTION C
+3. Attempt any one parts of the following: 10x1=10
+a. Derive the expression for simple form of radar range equation. Radar is operating at
+10GHz with the peak power of the power gain of antenna is 5000 &
+minimum power of the receiver is Calculate the maximum range of radar if the
+effective area of antenna is 10m? & radar cross-section is 4m”.
+b. Explain various antenna parameters. A typical waveform of radar is shown below in
+figure. Some parameters of radar are shown in figure. Consider t=1 1s. Calculate:
+i.
+il. Average Duty Cycle. Power.
+lil. Maximum Range of Radar.
+Power lms
+1MW
+t
+> Time
+4. Attempt any one parts of the following: 10x1=10
+a) Explain MTI radar with suitable block diagram. Also give its applications. Compare
+b) Explain Pulse Doppler the Radar of delay & MTI line radar cancellers. with block Describe diagram. various of delay line canceller
+used in MTI use radar. Explain with frequency of the types delay line cancellers.
+response
+5. Attempt any one parts of the following: 10x1=10
+a) Explain in detail the Automatic Tracking with Surveillance radars.
+b) How does Radar Servo Tracking system work? Explain sequential lobbing.
+6. Attempt any one parts of the following: 10x1=10
+a) What do you understand by coherent, non coherent and binary integration? Discuss
+non coherent integration of non-fluctuating Targets.
+b) Drive an expression for probability of false alarm. Distinguish from probability of
+miss.
+7. Attempt any one parts of the following: 10x1=10
+a) What do by Radar clutter? Explain various of radar clutters. How they
+affect the you performance mean of radar? type
+b) What do you understand by measurements of radar parameters? Enlist the various
+characteristics of the target that are to be extracted from the radar signals.

@@ -1,0 +1,76 @@
+aktuonline.com
+— —
+Printed Pages : 3 ME 602
+{Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 4050
+:
+B. Tech.
+(SEM. VI) EXAMINATION, 2006-07
+7 I. C. ENGINES
+Time 3 Hours] [Total Marks 100
+: :
+Note : (i) Attempts all the five questions.
+(ii) All questions equal marks.
+carry
+(iii) Assume missing data suitably, if any.
+1 Answer any four of the following 5x4=20
+:
+(a) What is carnot cycle and what is its importance?
+(b) What is meant by pumping loss? Discuss its
+effect on the engine performance.
+(c) How are SI engine fuels rated?
+Explain the various factors that affect the
+process of carburetion.
+(e) What is by ignition? What is the interretion
+meant
+between ignition and combustion?
+(f) What are the requirements of a spark plug?
+2 Answer any two of the following : 10x2=20
+(a) Obtain an expression for mean effective pressure
+of a diese] cycle.
+aktuonlinesgany 1 [Contd...
+aktuonline.com
+-———
+(b) Explain the principle of carburetion and for it
+explains Rich mixture, stochiometric mixture
+and lean mixture.
+(c) Explain with the help of a p-V diagram the loss
+due to variation of specific heats in an otto
+cycle.
+3 following 10x2=20
+Answer any two of the :
+(a) What will be the effect on the efficiency of an
+otto cycle having a compression ratio of 8, if ~
+increases by 1.6%.
+(b) Discuss the variables affecting delay period in
+CI engines.
+(c) Explain pre-ignition. How pre-ignition leads to
+knock and vice versa?
+4 Answer any two of the following : 10x2=20
+(a) A simple jet carburettor is required to supply
+5 kg of air and 0.5 kg of fuel per minute. The
+fuel specific gravity is 0.75. The air is initially
+at | bar and 300 k. Calculate the throat diameter
+of the choke for a flow velocity of 100 m/sec.
+Velocity is 0.8. If the drop
+the fuel metering orifice is pressure 0.80 of that
+across
+of the choke, calculate orifice diameter assuming,
+Cap = 0.60 and y
+(b) Write short notes on the following :
+G) Centrifugal compressor
+(i) Pressure cooling system.
+(c) Describe with a simple sketch the working of
+a dry sump lubrication system.
+0} 2 {Contd..
+aktuonline.com aktuonline.com
+5 Answer any two of the following : 10x2=20
+(a) What is the cause of diesel smoke? What are
+the ways of controlling diesel smoke?
+(b) Describe a magneto ignition system with the
+help of a sketch.
+(c) Write short following
+notes on :
+(i) Alternative fuels for IC engines.
+(i) | Turbo-prop engine.
+aktuoning pam 3 [ 1475 ]

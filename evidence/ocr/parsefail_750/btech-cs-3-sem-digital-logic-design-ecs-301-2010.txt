@@ -1,0 +1,104 @@
+Ua
+Printed Pages: 4 ECS301
+(Following Paper ID and Rol! No. to be filled in your Answer Book)
+B.Tech
+ODD SEMESTER THEORY EXAMINATION 2009-16
+DIGITAL LGGIC DESIGN
+Time: 3 Hours] {Total Marks 100
+:
+Note : all questions. Each question carry equal
+wee marks.
+1 Attempt any four parts of the following: 5x4
+(a) Perform the following operation
+using 1's compieraent method
+.
+G) Add (-19},9 and
+(ii) Add (21),9 and 37)jo
+(b) What is error detecting and correcting codes ?
+Represent in single precision
+floating noint representation.
+~
+The Hamming code 010110110 is received at
+the receiving end. Correct the received data
+if there is any error. There are four parity bits
+and parity is used.
+even
+(d) Convert the given expression in standard 1 POS
+form :
+f(A, B,
+J5-0109] [Contd...
+© Represent the boolean function using NOR-
+NOR implementation
+.
+Y =(A+B)(B+C)(A+C)
+Simplify the following boolean expression
+using k-map
+:
+fla, mG, 3, 5, 7, 9, 11, 18, 14, 15)+ (2, 4)
+2 + Attempt four parts of the following-: 5x4
+any
+(a) Minimize the following boolean function using
+ey. tabular method (Quine Mc-Clusky method)
+f(A, B, C, D, (0, 2, 4, 10, 15, 19, 23, 28, 31)
+explain
+(b) Draw and the function of half-adder
+and full adder with suitable diagram.
+Draw
+and write the expression for a 4-bit
+parallel subtractor using full adder.
+(d) Implement the following boolean function using
+8:1 multiplexer
+: 4,7,
+f(A, B, C, D)= 14, 19)
+(e) Briefly describe the following :
+(i) Decimal adder
+(ii) Encoder.
+.
+(f) What is binary multiplier ? Draw and explain
+a 2 to 4 line decoder.
+JJ-0109] 2 (Contd.
+&
+3 Atiempt any two parts :
+(a) Compare the synchronous sequential circuit
+and asynchronous sequential circuit. Also draw
+a positive edge ttiggered D flip-flop using
+NAND gates and explain its function.
+(i) Discuss the race around condition and
+its solution.
+ss
+(ii) Briefly explain the state reduction
+technique.
+(c) What is shift registers ? Design a 4-bit ripple
+using suitable form.
+counter wave
+4 Attempt any two parts : 10x2
+Explain
+(a) the. static RAM and dynamic RAM.
+Describe the PLA and its application in detail.
+(b) What is ASM chart ? Describe the design with
+multiplexer.
+(c) Write short notes-on the following : -
+(i) Comparison between PROM, PLA
+~ and PAL.
+¥
+Structure of 4-byte diode ROM.
+5 Attempt any two parts : 10x2
+diagram
+(a) Draw and explain the block write of
+sequential circuit. Also
+down the steps for analysis of asynchronous
+sequential circuit.
+35-0109) 3 [Conta..
+(b) Derive the transition table and output map for
+the asynchronous sequential circuit described
+by following function :
+Y = x4Xq +(x, +
+z=y
+Also describe in words the behaviours of the
+Circuit.
+(c); Explain the hazards in combinational and
+sequential circuit. Also explain the remedy for
+eliminating a hazard. What are critical race
+and non critical race ?
+55-0109) 4 [ 23100
+&

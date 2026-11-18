@@ -1,0 +1,55 @@
+Printed Pages: 02 Sub Code: EE401
+Paper Id: 120401 Roll No.
+B.TECH
+(SEM IV) THEORY EXAMINATION 2017-18
+ELECTRO-MECHANICAL ENERGY CONVERSION-I
+Time : 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+Attempt all questions in brief. 2 x10
+Explain Write energy doubly balance excited equation system. and explain it.
+Derive the EMF equation of dc machine.
+Explain the role of interpoles in dc machine.
+Why starters are used in de motors?
+Draw the speed torque characteristics of d.c. shunt, series and compound motors.
+Why the rating of a transformer is in KVA?
+Why open circuit and short circuit test are performed on transformer?
+What are the limitations of V-V connections?
+Give some advantages of three phase transformer over single phase transformer.
+SECTION B
+Attempt any three of the following: 10x3=30
+Derive the expression for energy stored in the magnetic field and show that the same is equal to the
+area 4 between o-F curve and the flux axis.
+b) A of 1500 pole conductors, de shunt generator each of used 2 mQ to resistance. charge a battery The charging of 100 V currents having negligible found to resistance. be 10A and If armature 20A for
+generator speed of 1050 and 1140 rpm respectively. Find the field circuit are resistance and flux per pole
+of the generator. Neglect armature reaction effects.
+c) Explain rehostatic method for speed control of de shunt motor and Ward Leonard system for the
+speed control of de series motor with the help of proper diagram.
+d) Explain Sumpner’s test with the help of connection diagram and give its limitations
+e) Explain with the help of phasor diagram how 2 phase supply can be obtained from 3 phase
+supply using Scott connection.
+SECTION C
+Attempt any one part of the following: 10x1=10
+(a) Explain electromechanical energy conversion with the help of block diagram and Prove that
+for a linear electromagnetic system, the energy and co-energy are numerically equal.
+(b) | Show that the torque developed in a doubly excited magnetic system is equal to the
+rate of increase of field energy with respect to displacement at constant currents.
+Attempt any one part of the following: 10x1=10
+(a) Explain the term Armature Reaction in detail. Discuss its effects on the operation of
+d.c. machines. What methods are used to minimize it?
+(b) — Explain of commutation in dc machines and describe the methods to improve
+it. process
+5. Attempt (a) Explain any one different part of the performs following: de machine in detail. 10x1=10
+and explain the test four point on for DC Why it is preferred three point
+(b) Draw starter? starter motors. over
+6. Attempt any one part of the following: 10x1=10
+(a) the condition of maximum voltage regulation of single-phase transformer.
+(b) |The maximum efficiency of a single phase 200 KVA, 2000/500 V transformer occurs
+at 80% of full load and is equal to the 96 % at 0.8 p.f. Determine the efficiency and
+regulation on full load at 0.8 p.f. lagging if the impedance of the transformer is 9%.
+7. Attempt any one part of the following: 10x1=10
+(a) three phase step down transformer with per phase turns ratio 70: 1.5 connected in
+delta/star and is supplying a load of 400 kW, 0.8 lagging p.f. at 440 volt. Sketch the
+connection diagram and show in it different line voltages.
+(b) Explain various types of 4 phase transformer connections and discuss their vector
+groups.

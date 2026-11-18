@@ -1,0 +1,102 @@
+Printed Pages : 4 EC ~ 602
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID:
+B. Tech.
+(SEM. VI) EXAMINATION, 2006-07
+DIGITAL COMMUNICATION
+Time : 3 Hours] [Total Marks : 106
+Note : Attempt all questions.
+1 Attempt any four parts of the following : §x4=20
+(a) Consider DMS with alphabet A, A {-5,
+-3, -!1, 0, 1, a 3,5} with probabilities = 0.1,
+0.1, 0.15, 0.05, 0.25, 0.3}. Source is
+output
+quantized according to following quantization
+rule :
+q (-5) = q (-3) = 4
+q (3) =q (5) =4
+Find the entropy of the quantizer output.
+(b) Determine the differential entropy H (X) of a
+uniformly distributed random variable X with
+PDF
+1
+(x) .
+Ke = \! . otherwise
+(c) Prove that for a DMS an optimum prefix code
+exists in which two least probabie letters have
+highest and equal length code words.
+V-3039] 1 (Contd...
+(d) Show that | Y) = H (X) + H (Y)
+— H
+(e) State and explain the Shannon’s noisy channel
+coding theorem.
+(f)} Twelve different message signals with
+bandwidth of 10 kHz each, are to be multiplexed
+and transmitted. Determine the minimum
+bandwidth required if multiplexing is TDM and
+modulation is PAM.
+2 Attempt any four parts of the following : 5x4=20—
+(a) A sinusoidal signal is input to a mid-rise type
+uniform quantizer. Draw the quantizer output
+for one cycle of input.
+(b) Prove that the quantization noise power of a
+uniform quantizer is A*/12 where is the
+quantizer step size.
+(c) What is the #-law of companding. Give the
+input — output relationship and draw it.
+(d) Consider a delta modulator with sinusoidal
+input signal of amplitude Am and frequency
+fm. Show that slope over load distortion will
+occur if
+Am > =
+2 T
+where 4 is the modulator step size and Ts is
+the sampling period.
+(e) Explain with the help of block diagram the
+working of a DPCM system.
+(f) What is the signal format for M12 Mux for
+AT&T (Bell) system. Describe it briefly.
+V-3039] 2 [Contd...
+Attempt any two parts of the following : 10x2=20
+(a) Give the expression of raised cosine
+a spectrum
+with roll-off factor a = Draw the spectrum.
+Determine its Bandwidth and derive the pulse
+in time — domain.
+(b) Given a bit sequence of 1100010, draw line
+codes in unipolar and Manchester signaling
+formats. Give expressions for power spectral
+densities of these formats and compare their
+noise performance.
+{c) Derive and show that the maximum output
+SNR of a matched filter is dependent on the
+energy of the signal only and not on the shape.
+Attempt any two parts of the following : 10x2
+Derive
+(a) the expression for probability of bit error
+for coherent binary FSK scheme in AWGN
+channel.
+(b) Explain Gram-Schmidt procedure for orthogonal
+signals.
+(c) Show that the minimum frequency separation
+for orthogonality of binary FSK signals with
+coherent detection is Af = 1/2T where T is
+the duration of FSK signals.
+5 Attempt any two parts of the following : 10x2
+(a) Design a (5, 3) type systematic block coder
+with single bit error correction capability. Obtain
+its generator and parity check matrices.
+V-3039] 3
+(b) (i) What are the conditions on n and k for 4
+(n, k) type cyclic code to exist?
+(ii) Consider a (7, 4) type systematic cyclic
+code with generator polynomial g (x) =
+1 + x? + x*. Find code words
+corresponding to message sequences
+{1011] and
+(c) The block diagram of a binary convolutional
+coder is given below:
+Fig. 1
+Determine the minimum free distance dive ot
+the code.
+V-3039] 4 [ 1510 ]

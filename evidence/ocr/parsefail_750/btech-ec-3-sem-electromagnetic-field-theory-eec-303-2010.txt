@@ -1,0 +1,93 @@
+1 0000
+Printed Pages: 4 EEC303
+(Foilowing Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 0324 —
+B.Tech
+(SEM III) ODD SEMESTER THEORY EXAMINATION 2009-16
+ELECTROMAGNETIC FIELD THEORY
+Time : 3 Hours] [Total Marks : 106
+Note : (1) Attempt all questions.
+(2) All questions equal marks.
+carry
+1 Attempt any four parts of the following :
+(a) Express vector 10 i .
+cartesian coordinates.
+(b) Given point P(-2,6,3) and vector
+A=
+Express P and A in spherical
+system
+(c) Explain the gradient of scalar field.
+a
+(d) State and explain the divergence theorem.
+(e) Given 4 - 2a, +4,, find the expression of
+unit such that BI 4.
+a vector
+(f) State and explain the Stokes theorem.
+JJ-0324] 1 [Contd...
+2 Attempt four of the following
+any parts
+(a) The cable shown in Fig. 1, is 10 km long. If
+4, =10 mm, %=15 mm, 4=20 mm, =2.0,
+=4.0. Find the capacitance of the cable.
+Fig. 1
+(b) If the current density j= + (cosea, +sin@ag),
+A/m?, find the current passing through a sphere radius
+of 1.0 m.
+(c) If a potential 7 = x*yz+ (i) find 4 so that
+Lapace's equation is satisfied (ii) with the value of
+A, determine electric field at (2, 1, -1) ~
+(d) State and explain the poisson's and Laplace's equation.
+(e) State and explain the coulomb's law.
+m?
+(f) A sphere pe/m?. of volume 0.1 has a charge density of
+8.0 Find the electric field at a point (2, 0, 0)
+if the centre of the sphere is at (0, 0, 0).
+2 [Contd...
+3 Attempt any two parts of the following
+(a) State and explain the Biot-Savrat law. What is the
+magnetic field, H in cartesian coordinates due to
+Z-directed current element ? Find J if I 2 A.
+=
+(b) State and explain the Stokes theorem. When vector
+magnetic potential is given by
+1 i
+A= 3 (2.0 cos 8 “a, + sin8 . ag) find the magnetic
+flux density.
+(c) An isotropic myaterial has a magnetic susceptibility
+of and thre
+3 magnetic flux density, B=10ya,
+mwb/m*. Dietermine J, M and H. Define
+LL, Py,
+inductance’ mutual inductance of
+s
+4 Aiffempt any two parts of the following :
+Ga) State and explain the Maxwell's equation in
+-differential and integral form. Also define the
+displacement currrent and depth of penetration.
+(b) Derive the relation between E and # in uniform
+plane wave.
+(c) Derive the expression for « and B in a conducting
+medium.
+JJ-0324] 3 [Contd...
+5 Attempt two parts of the following
+any chart, -
+(a) By using Smith find the input impedance of
+75Q lossless transmission line of length 0.12.
+load
+when the is a. Short.
+(b) The short circuit and circuit impedance of
+open
+10 km long oper! wire transmission line are
+Zoe £26° and at
+frequency of 1 kHz. Calculate the characteristics
+impedance and phase’ velocity.
+yb) Define reflection loss, transmission loss and return |
+loss. The 600 Q lossless line is feeded
+by 50 Q If the lime is 200 meter long and
+generator.
+termintated by load 500-Q. Determine in
+(i) reflection loss (ii) Transmission (iii)
+return
+loss. *
+14700 ]
+13-0324] [

@@ -1,0 +1,94 @@
+A
+Printed Pages: 4 TEC303
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+paper iO: 3075
+B.Tech
+(SEM II) ODD SEMESTER THEORY EXAMINATION 2009-10
+ELECTRONICS MEASUREMENTS & INSTRUMENTATION
+™ Time: 3 Hours] [Total Marks: 100
+Note : (i) Attempt all questions.
+(ti) Each question carries equal marks.
+ya
+1 any four parts of the following :
+(a) Distinguish between the direct and indirect
+method of measurements. Give examples.
+(b)
+Explain the terms :
+(i) Static error
+(ii) Static correction
+a | (iti) Relative
+error.
+(c) Define the terms :
+(i) Accuracy
+(ii) Precision
+(iii) Resolution
+(iv) Linearity,
+33-3075] (ARN 2 [Contd...
+(d) Define :
+(i) value
+mean
+(ii) deviation
+(iii) variance.
+(e) List the advantages of electronic measurement.
+How the performance characteristics of
+an
+instrument are classified ?
+2 Attempt any four parts of the following -
+(a) Differentiate between. the following
+(i) Transducer and inverse transducers
+(ii) Analog and digital transducers.
+working
+(b) Describe the and construction of
+resistance thermometers.
+(c) How is differential output taken from
+a an
+inductive transducers ?
+(d) Describe the different modes of operation of
+piezo-electric transducers.
+(e) Derive the general equation for an a.c. bridges.
+(f) Derive the equation of balance for an Anderson's i wad
+bridge.
+3 Attempt any two parts of the following : 10x2=20
+(a) Explain why PMMC instruments are most
+widely used instruments, also describe the
+working of RMS responding voltmeters.
+JJ-3075] i I 2 [Contd...
+(b) Explain the construction and working of
+electronic-analog ohm meter. Also briefly
+describe the working principle of multimeter.
+(c) Write short
+notes on :
+(i) AC voltmeter and ammeter
+(ii) Application of LCD.
+4 Attempt any two parts of the following :
+(a) Describe the following terms used in conjuction
+with digital to analog conversion :
+(i) Discrete levels
+(ii) Resolution
+(iii) Quantization error
+(iv) Decision levels
+(v) Aparture time.
+Describe in details the dual slope method of
+analog to digital conversion.
+hd (b) Explain the functioning of a 5x7 LED matrix
+display. Also explain the sensitivity of digital
+meters and accuracy specification of digital
+meters.
+(c) Write short note on : Performance characteristics
+of D/A converter and its application
+45-3075) NI [Contd...
+tod
+5 Attempt any two parts of the following
+(a) Draw and explain the block diagram of general
+purpose CRO. How frequency and phase angle
+measured by CRO ?
+are
+Write short notes on :
+(i) Types of probe
+(ii) Digital signal
+generator.
+Describe the basic circuit of spectrum analyzer.
+Also explain the different distortion
+types
+caused by amplifier.
+JJ-3075] TL [2400

@@ -1,0 +1,69 @@
+Printed Pages: 02 Sub Code: RAS401
+Paper Id: | 1} 9| 2] 1 Roll No.
+B. TECH.
+(SEM-IV) THEORY EXAMINATION 2017-18
+MATHEMATICS - ll
+Time: 3 Hours Total Marks: 70
+Note: Attempt all Sections. If require any missing data, then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x7=14
+a) Discuss Singularity and its types.
+b) Write Cauchy-Riemann equation in polar co-ordinates.
+c) The life of army shoes is normally distributed with mean 8 months and standard deviation 2 months. If
+5000 pairs P(z are 2) insured, how many pairs would be expected to need replacement after 12 months? Given
+that >
+d) Determine moment generating function of Binomial distribution.
+e) Prove that: 1 -
+f) Write Newton-Cote’s quadrature formula.
+g) Find Z-transform of f(k) =u(-k).
+SECTION B
+2. Attempt any three of the following: 7x3=21
+a) Determine an analytic function f(z) in terms of z if u+v=2 +e” —2cos 2x.
+b) Find the variance of Poisson distribution.
+mean
+6 x
+c) Find dx using (i) Trapezoidal rule, (ii) Simpson’s 1/3" rule and (iii) Simpson’s 3/8" rule.
+d) A rod is rotating in a plane. The following table gives the angle radians) through which the rod has
+turned for various values of time t (in seconds).
+t: 0 0.2 0.4 0.6 0.8 1.0 1.2
+0: 0 0.12 049 1.12 2.02 3.20 4.67
+Calculate the angular velocity and angular acceleration at t =0.2 and t = 1.2 second.
+e) Find Fourier transform of ee hence find Fourier transform of
+cosine +x , sine +X 2
+SECTION C
+Attempt part of the following: 7x1=7
+any one
+(a) Verify Cauchy theorem by integrating along the boundary of the triangle with the vertices at
+the points 1+7,-1+7 and —1-7.
+(b) Evaluate [ sin mx dx,m>0..
+x
+Attempt of the following: 7x1=7
+(a) The following any one table part represents the height of batch of 100 students. Calculate skewness and
+kurtosis: a
+Height (in cm) | 59 | 61 | 63 | 65 | 67 | 69 | 71 | 73 | 75
+No. of students |0 |2 |6 |2 |2
+fo Vx
+(b) Use the method of least squares to fit the curve y= x +¢ to the following table of values:
+[5]6
+Attempt any one part of the following: 7x1=7
+(a) Find the root of the equation =cosx using Regula-Falsi method correct to four decimal
+places.
+(b) Find Newton’s divided difference polynomial for the following data:
+x: -1 0 3 5
+f(x); -22 -12 330 3458
+Attempt part of the following: 7x1=7
+(a) Solve the any initial one value problem u(0)=1with h=0.2 the interval [0,0.4].
+on Use
+Runge-Kutta fourth order method and compare your result with exact solution.
+(b) Solve 1<i<3. the following system of linear equations by Matrix decomposition method taking /;; =1 for
+3x—y+2z=12; x+2y+3z=11;
+Attempt any one part of the following: 7x1=7
+(a) Using Z-transform, solve the following difference equation:
+=3*, given that y, =0 and y, =1.
+(b) The temperature in the semi-infinite rod 0<x<oo is determined by the differential equation
+Ou pou 2 wu
+_ subject to conditions
+ot Ox
+(i) u=0 when (ii) =—(a constant) when x = 0 and ¢ > 0, (iii) u (x, t) is bounded.
+x
+Determine the temperature u (x, t).

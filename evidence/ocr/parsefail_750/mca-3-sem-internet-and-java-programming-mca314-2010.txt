@@ -1,0 +1,75 @@
+VAM A http://www.aktuonline.com
+Printed Pages: 3 MCA314
+M.C.A
+(SEM II) ODD SEMESTER THEORY EXAMINATION 2009-10
+INTERNET & JAVA PROGRAMMING
+Time : 3 Hours] [Total Marks 100
+: :
+Note : Attempt all questions.
+1 Attempt any four parts : 5x4=20
+(a) What is an internet? What protocols are used
+by computers connected to the internet?
+(b) What is FTP and how does it. works?
+(c) Write the facilities provided by an e-mail
+system.
+(d) What is URL? What the different parts of
+URL? Explain the are of each part in
+brief. a purpose
+(e) Explain CSMA/CD.
+(f) Give the H/W and S/W requirements for
+video-conferencing.
+2 Attempt any four parts 5x4=20
+(a) Why is Java called machine independent
+language? Discuss the functionality of Java virtual
+machine.
+53-7311)
+(b) What is thread? Discuss http://www.aktuonline.com the advantages of
+threading.
+(c) What do you mean by overloading and overriding
+methods in Java? Explain with suitable examples.
+(d) Describe Java Applet and also discuss the
+different stages in the life cycle of an applet.
+(e) Define the following terms in context of AWT
+(i) canvas Cc
+(ii) Event .
+(iii) Frame
+(iv) Dialog
+wae” Button
+(f) Explain inheritance with example.
+3 Attempt any two parts : 10x2=20
+(a) What is JDBC? How JDBC is used to connect
+with data base? Illustrate with example.
+(b) Differentiate between serlets and applets. How
+trees are implanted in Java Swing ? Give
+suitable examples for illustrations. It should be
+able to recognise click it.
+mouse on
+(c) What is the purpose of combo box? Give an ym)
+implementation which creates a combo box and
+add it to a panel.
+4 Attempt two parts
+any :
+(a) What is a Java Bean? What are the advantages
+of Java Bean? Why developer use application
+builder tools with Java Bean?
+[Contd...
+39-7311) 2
+Ea
+ay
+http://www.aktuonline.com
+(b) (i) Give the purpose and syntax of jar commands.
+Further give the command for extracting files
+from a JAR file.
+(ii) Discuss the steps to be followed to create
+new bean.
+(c) (i) What is RMI? Discuss its advantages.
+socket.
+(ii) Define How can we use socket
+programming in Java?
+Write short notes on any two of the
+following -
+(a) JSP
+(b) ‘Cookies
+(c) Strings handling in Java.
+3 [ 6500
+e

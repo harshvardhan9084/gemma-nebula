@@ -1,0 +1,78 @@
+aktuonline.com aktuonliné.com
+Printed Pages 3 TEE 404
+: —
+(Foliowing Paper ID and Roll No. to be filled in your Answer Book)
+PAPER 1D :
+B. Tech.
+(SEM. IV) EXAMINATION. 2006-07
+MICROPROCESSOR
+[Total Marks 100
+Time : 3 Hours] :
+Note : Attempt all questions.
+1 Attempt any two parts of the following : 10x2=20
+(a) Draw the pin-diagram of 8085 micro processor
+and give the name of signals associated with
+timing and control circuit and explain.
+(b) What is bus? What are different types of buses
+supported by 8085? How the processor sends
+and receives information from memory and
+V/O devices? Explain.
+(c) Explain the role and working of latches and
+transceivers (data buffer) in minimum mode of
+8086 system.
+2 Attempt-any four parts of the following : 5x4=20
+(a) Explain the following instructions with suitable
+example. Also indicate the flag condition.
+AAA
+DAA
+aktuonline.co
+V-2054] 1 {Contd...
+aktuonline.com aktuonline.com
+(iii) MUL
+(iv)
+RCR
+(v) MOVSW
+(b) Describe the memory
+addressing capability of organization and
+brief. 8086 microprocessor in
+(C) Explain
+the following directives in brief :
+ASSUME, EXTRN, END P
+Give the name of
+and explain each program control instructions
+(©) “Write one,
+a program in assembly language to sum
+a series of 16 bit numbers using S] register,
+(f) What are the flags in 8086? Discuss,
+3 Attempt any two parts of the following
+(a) Give the signal description : 10x2=20
+mode and max, of 8086 used in min.
+(b) How does mode. Explain.
+Signal between a microprocessor differentiate the
+(©) address and data? Explain.
+Draw ‘Read’ and ‘Write’ cycle timing diagram
+of 8086.
+4 Attempt any two parts of the following
+(a) Explain the various ; 10x2=20
+and classify them types of interrupt of 8086
+lowest priority, on the basis of highest and
+(b) Explain
+PPI. the different mode of operation of 8255
+Draw the architecture of 8253, programmable
+timer/counter, and explain each block.
+V-2054]
+2
+aktuonline.com
+aktuonline.com aktuonline.com
+5 Attempt any two parts of the following : 10x2=20
+(a) Explain the following mode of operation of
+8259
+:
+Command
+(ii) Cascade mode
+(b) Explain the priorities of DMA request. How
+is the request served by DMA controller ?
+(c) What are different types of register associated
+with 32 bit processor?
+aktuonline.com
+3 3825 ]

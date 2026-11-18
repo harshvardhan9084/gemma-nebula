@@ -1,0 +1,91 @@
+aktuonline.com
+Printed Pages : 3 TME-701
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0400 Roll No.
+B. Tech.
+(SEM. VID EXAMINATION, 2007-08
+COMPUTER AIDED DESIGN (CAD)
+Time Hours] Marks
+: 3 [Total : 100
+Note: All questions are compulsory and carry equal marks.
+1 Attempt any four parts :
+(a) table of important design phases. What are the
+required CAD tools to support various design phases?
+(b) Compare the capabilities, advantages and disadvantages
+of any three types of display devices.
+(c) What do you understand by coordinate system of a
+CAD tool? Name the coordinate systems required in
+order to input, store and display model geometry and
+graphics.
+(d) What are the two methods in which an electron beam
+can be bent?
+(e) One C program has been given below :
+main ( )
+{
+int i=3;
+int *j;
+0400]
+1 (Contd...
+aktuonline.com
+3
+also given :
+j variable
+Content
+Address
+6485 3276
+the values of j, &i, &j, *(&i).
+Find out
+(f) Write C program to add first seven terms of the
+following a series using loop control statements -
+2 38
+1 3!
+Compare C 2! and C++ languages.
+(g)
+two parts : .
+2 Attempt (a) For.the any points P, (1,1), P; 3.1), Ps (4,2), Py (2,3)
+that defines a 2-D polygon, develop a single
+concatenated transformation matrix that :
+(i) reflects about line x = 0,
+(ii) trasnslates by - 1 in both x and y direction,
+(iii) rotates about the z-axis by 180 deg.
+Using this matrix, determine the new coordinates. pixel point’ “or
+(b) Explain the steps are required-to algorithm? draw
+line drawing using Bresenham's and explain the working ~ of
+(c) Drawa schematic diagram device. Also explain RGB and
+color monitor display
+CMY color models.
+3 Attempt any two explain parts
+(a) Briefly ()  Superquadric surfaces and
+(ii) Blobby objects.
+[Contd...
+0400) 2
+aktuonline.com
+aktuonline.com
+(b) Find the equation of Hermite cubic spline
+that through points (1,2) a and (3,4) and whose
+tangent passes vectors the lines connecting these two
+points with point are (2,7). two
+(c) Explain the Bezier curves and write its importance and
+properties. Derive a cubic Bezier curve parametric
+equation.
+Attempt any two parts :
+(a) Write formulae and steps for design of a hollow-shaft.
+Also write a computer program in C-language.
+(b) Write 5 drawing commands and 5 editing commands
+in Auto-CAD.
+(c) What do you understand by Boolean operations in CSG
+method of solid modeling? Explain with the help of
+suitable examples. Describe how union of two planes
+is obtained ?
+Attempt
+(a) Describe any two least parts : fitting of straight line
++ to various square data error for and and find the
+y constants and c. x y
+(b) Find the root of the equation cos « =3x-1 correct
+to three decimal places.
+(c) Describe Trapezoidal and Simpson method of numerical
+integration and compare the two.
+(d) Explain general methodology of solving a design problem
+using Finite Element Method. Also write the advantages
+of FEM.
+aktuonline.com [ 3690 }

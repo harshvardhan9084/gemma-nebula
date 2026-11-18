@@ -1,0 +1,140 @@
+www.aktuonline.com
+Printed Pages: 6 NAS-301
+(Following Paper ID and Roll No. to be filled in your
+Answer Book)
+B.Tech.
+(SEM. II) THEORY EXAMINATION, 2015-16
+ENGINEERING MATHEMATICS-UI
+[MaximumMarks:
+[Time:3 hours] 100
+Section-A
+equal marks. Write
+Q.1 Attempt.all parts. All parts carry
+answer of each part in shorts. (10x2=20)
+zy 8 _
+(a) Find inverse Z-transformation of
+4
+www.aktuonline.com (b) If u(x, y)s prove that the u satisfies
+Laplace euqations.
+(c) Evaluate J dz where C is circle |z|=3/2.
+(d) Expand in the regions |z|<1
+(1) P.T.O
+www.aktuonline.com
+NS
+www.aktuonline.com
+(e) Estimate the
+production for 1964 and 1966 from
+the following data :
+Year: 1961 1962 1963 1964 1965 1966 1967
+Production: 200 220 260 - 350 - 430
+(f) State
+Newton - Gregory backward interpolation
+formula.
+(g) Find Z-transformation of f(k)=
+(h) State Cauchy’s integral theorem.
+(i) Prove that Alog f(x)= og Af
+: + f(x)
+Gj) Define regression lines.
+Section-B
+Note: Attempt any five Questions from this section:
+www.aktuonline.com (105-50)
+1, [>|
+Find the Fourier transform of <a
+a
+Q.3 Examine the function
+nature of the
+f(z)= Se & ry)
+#0
+In the region including the origin.
+(2) NAS-301
+www.aktuonline.com
+www.aktuonline.com
+by
+Q.4 Solve the following system of linear equations Crout’s
+Method :
+xt+y+z=3;2x-y+3z=16;3x+y-z=-3
+Q.5 Find the rank correlation coefficient of marks of A and
+B from the following data :
+Marks 20] 27] 13] 45] 60] 20]
+A of families with 4 children shows the
+Q.6 survey 240
+distribution :
+No. of boys 4 3 2 i 0
+No. of families: 10 55 105 58 12
+Test the hypothesis that male and female births are equal
+probable.
+(Given 770.05=9.49 and 11.1 for 4 df af
+8 = respectively)
+o
+following differential equation using Runge-
+Q.7 Solve the
+xX 3 Kutta method :
+3
+3 Given that — with y(0) 1, find y(2).
+3 dx = x+y =
+48500 (3) P.T.O.
+www.aktuonline.com
+www.aktuonline.com
+Q.8 Use the method of least
+squares to obtain the normal
+Co evx
+equations . and fit the curve for to the
+x
+following table of values :
+1 |
+|e 2 |
+Q.9 The tabie given below reveals
+the velocity ‘v’ of a body
+during the time ‘t’ specified. Find its acceleration at
+t=1.1.
+t: 1.0 11 1.2 13 1.4
+Vv: 43.1 47.7 52.1 56.4 60.8
+Section-C
+Attempt any two questions from this section: (152=30)
+Q10 a) Using Lagrange’s interpolation formula, find y(10)
+from the following table.
+www.aktuonline.com
+x! 5 6 9 11
+y: 12 13 14 16
+b) The first four moments about the working mean
+28.5 ofa distribution are 0.294, 7.144, 42.409 and
+454.98. Calculate the about the
+moments mean.
+Also evalute £, and £, and comment upon the
+skewness and kurtosis of the distribution.
+(4) NAS-301
+www.aktuonline.com
+c) Using the Fourier integral transformation, show
+that cossx ds,a>0,x20
+= — HOS ta
+Q.11 a) Evaluate by Cauchy integral formula
+f z—22__. dz where C is the circle |z| =3.
+C (2° +4
+Solve ~—5x+3=0 by using Regula - Falsi
+method.
+c) Using the Z-transform solve the following
+difference equations :
+4 3"
+Vesa + =
+given = 0, =]
+8 =
+o
+Q.12 a) From the data given below, tind the number ofitems n :
+0.5), 90,0, =8
+xX 3 Py = XY = where
+3 x and y are deviations from the arithmetic mean.
+3
+3
+b) If is analytic function and
+u—v=e*(cosy—siny), find f(z) in of z.
+terms
+- 48500 (5) PT.O.
+www.aktuonline.com
+ww com |
+[ 6 e
+c) Find dx approximately using Simpson’s
+l+x
+3/8 rule on integration.
+www.aktuonline.com
+(6) NAS-301
+www.aktuonline.com

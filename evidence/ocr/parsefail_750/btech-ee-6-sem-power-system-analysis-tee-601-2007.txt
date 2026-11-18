@@ -1,0 +1,184 @@
+aktuonline.com aktuonline.com .
+|
+Printed Pages : 7 TEE - 601
+(Following Paper ID and Roll No. to be filled in your Answer Book}
+PAPER 1D : 2059
+B. Tech.
+(SEM. VI) EXAMINATION, 2006-07
+POWER SYSTEM ANALYSIS
+_
+Time : 3 Hours] {Total Marks : 100
+Note : (1) Attempt all questions.
+(2) In case of numerical problems assume data
+wherever not provided.
+(3) Be precise in your answer.
+1 = Attempt any four parts of the following : 5x4
+(a) Explain the per unit (p.u.) system of analyzing
+power system problems. Discuss the advantages
+of this method over the absolute method of analysis.
+(b) What are current limiting reactors? Discuss its
+application and locational aspects.
+(c) The one line diagram of a three phase power
+system is shown in fig. 1 (c). Using per unit
+method of analysis calculate the 3-phase short
+circuit MVA at fault point F. A,
+~ Ay
+pores
+gore
+Go MWA,
+BomMvA,
+Fig. 1
+1 [Contd...
+aktuonline.com aktuonline.com
+understand by symmetrical
+(ay What do you unbalanced phasors? Deduce
+components of symmetrical components.
+the expressions for of
+(e) Write short note on the reactances circuit an
+alternator when sudden 3-phase short
+occurs on its terminals.
+A single phase load of 100 KVA connected
+lines b-c of 3-phase supply of 3.3 kV.
+Determine across the symmetrical components of
+current.
+Fig. 2
+of the following : 10x2=20
+4 Attempt any two parts impedance of a
+(a) Show that the zero sequence through
+generator with neutral grounded an
+impedance if in Z, + where is
+synchronous impedance of the generator. |
+the has positive,
+An 11 kV, 35 MVA. alternator of 0.12,
+negative and zero sequence reactances respectively. The i
+0.12 and 0.08 per unit grounded through a
+generator neutral is Determine the fault
+reactance of 0.03 per unit. ground fault
+current when a single line to calculate the
+occurs at generator terminal. Also was
+line to line fault voltage. Assume generator
+unloaded before the fault.
+[Contd...
+V-2059] 2
+aktuonline.com
+aktuonline.com aktuonline.com
+(b) Draw the zero sequence networks for the
+transformers shown below :
+@® Y-4
+di)
+Determine the fault current when
+(i) L-L-G, (i) L-L fault occurs at point F in
+the figure 2 (b). The per-unit reactances, all
+referred to the same base, are given in the
+table :
+Linez
+Fig. 3
+Both are generating at 1.0 p.u. voltage.
+V-2059] 3 [Contd..
+aktuonline.com
+aktuonline.com aktuonline.com
+for short
+(c) Discuss the assumptions made
+circuit analysis of a power system.
+(ii) Deduce the expression for system
+matrix in bus frame of
+impedance
+reference ) using singular
+transformation.
+representation of 3-phase
+(iii) Discuss the a
+power system for (taking the assumptions
+circuit studies.
+into account) short
+20
+3 Attempt any three parts of the following :
+(a) Discuss the purpose of load flow studies of a 6
+power system. Also classify the buses for the
+same.
+(b) Formulate the mathematical model for load 6
+of system using Gauss-
+flow analysis a power
+Siedal method. Also give detailed steps for
+considering also the voltage
+implementing it
+controlled buses.
+of phase 6
+(c) Develop the mathematical model a -
+shifting transformer to be represented in the
+formation of [Y,yg] for the load flow analysis.
+(Contd..
+V-2059] 4
+aktuonline.com
+aktuonline.com aktuonline.com
+decoupled and fast decoupled
+(d) Discuss the
+method of load flow analysis.
+(e) Discuss the algorithm for load flow analysis 7
+using Newton Raphson method.
+—
+following 10x2=20
+4 Attempt any two parts of the :
+{a) Show that the steady state power which
+could be transmitted over 4 transmission
+V3
+line will be maximum when X = R,
+where X and R have their usual
+meanings.
+(ii) An alternator with negligible damping is
+connected to an infinite bus bar. Write the
+swing equation in usual form and define
+inertia constant (H) here. Deduce
+the condition for stability
+equal area criterion
+analysis.
+For the system given below in figure 4, the
+(b) for different components are
+numerical values Xd 0.2
+E = 1.2 pu, V = 10 pu, = p.u,
+X, 0.4 p.u. Initially the generator was
+delivering power of 1.5 If one of the
+circuit lines is tripped out, using equal
+double whether the system
+area criterion determine If
+would be able to maintain its stability.
+stability is maintained, determine the maximum
+swing (8) attained by generator.
+[Contd..
+V~2059) 5
+aktuonline.com
+aktuonline.com aktuonline.com
+Fig. 4
+method for
+(c) @ Discuss point — by — point. wry
+solving swing equation for transient
+stability analysis of a power system.
+Gi) Define the terms-steady state and transient
+stabilities. Explain the various techniques
+improving transient stability.
+for
+5 Attempt any three parts of the following :
+(a) Starting from first principles show that surges 7
+behave as travelling waves.
+(b) Discuss the behaviour of a travelling wave ‘
+when it reaches (i) short circuited (ii) open
+transmission lines and (iii) line
+circuited
+terminated by an impedance equal to surge
+impendence (Z).
+(c) Why the indoor transformers are usually 6
+connected to the overhead lines through short
+cables? Discuss.
+length of
+6 [Contd..
+aktuonline.com
+aktuonline.com aktuonline.com
+Bewley’s 6
+procedure for drawing
+(d) Explain the with the help of a suitable
+lattice diagram
+example. for 6
+Deduce the general expression travelling waves.
+(e) reflection and refraction of
+[ 2650 J
+7
+aktuonline.com

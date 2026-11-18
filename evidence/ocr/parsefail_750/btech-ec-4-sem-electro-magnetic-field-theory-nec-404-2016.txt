@@ -1,0 +1,81 @@
+www.aktuonline.com
+Printed Pages: 4 NEC-404
+(Following Paper ID and Roll No. to be filled in your
+Answer Books)
+Paper ID: 131407
+B.TECH.
+Theory Examination (Semester-IV) 2015-16
+ELECTROMAGNETIC FIELD THEORY (EMFT)
+Time : 3 Hours Max. Marks : 100
+Section-A
+Q1. Attempt all parts. All carry equal marks. Write answer
+of each part in short. (10x2=20)
+(a) Find shape intersection surface where p=2, z=1
+www.aktuonline.com intersect each other.
+(b) Define and derive divergence theorem for a vector.
+(c) State point form of ohms law & Gauss’s Law.
+(d) Find electric field density for infinite line charge using
+Gauss’s law.
+(e) Explain Biot-Savart’s Law.
+1 P.T.O.
+106/44'7/236/5900
+www.aktuonline.com
+www.aktuonline.com
+(f) Write difference between magnetic and electric
+dipole.
+(g) Define reflection coefficient of a plane wave at
+normal incidence.
+(h) Explain the significance of loss tangent.
+(i) Mention the properties of uniform plane wave.
+Gj) Define Laplace’s equation for electric field.
+Section-B
+Q2. Attempt five
+any questions from this section.
+(10x5=50)
+(a) Transform vector A= ya, it into spheri-
+www.aktuonline.com cal coordinates system. Also evaluate it’s value at
+P(-2, 6, 3).
+(b) Find expression for electric field intensity for an
+infinite sheet charge.
+(c) Define and derive Laplace’s equation for electric field.
+(d) Discuss Polarization in dielectric medium.
+(2)
+106/447/236/5900
+www.aktuonline.com
+www.aktuonline.com
+(e) Three point charges- 1nC, 4nC, 3nC are located at
+(0,0,0), (0,0,1), (1,0,0) find energy in the system. .
+(f) Derive continuity current equation. Also define
+relaxation time. «
+(g) Prove that magneto static energy is given by
+i
+2
+(h) What do you mean by displacement current also
+derive Ampere’s law for time varying field.
+Section-C
+Note: Attempt any two questions from this section.
+(15x2=30)
+www.aktuonline.com Q3. State and prove divergence theorem. Determine the flux
+over the closed surface of cylinder 0<z<1, p=4 if D=p* cos2
+(9) a,+zsin @ G,. Verify the divergence theorem for above
+mentioned case.
+Q4. @ Write down Maxwell’s equation in all forms for static,
+dynamic and time harmonic fields with their signifi-
+cance.
+3 P.T.O.
+106/ /236/5900
+www.aktuonline.com
+www.aktuonline.com
+Calculate electric field intensity due continuous
+(ii) to
+infinitely long sheet charge having line charge density
+p, Clm.
+Q5. State and prove boundary condition at interfaces for mag-
+static fields. Given that =-2 q,+ 6a,+ 4q,A/lm
+neto
+in region y-x-2<0 where calculate
+(a)
+(b) H2 and B2 in region y-x-2>0 where
+www.aktuonline.com
+106/ 7/236/5900
+www.aktuonline.com

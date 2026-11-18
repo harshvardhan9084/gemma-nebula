@@ -1,0 +1,52 @@
+Printed Pages: 2 Sub Code:
+Paper Id: 214418 Roll No.
+MCA
+(SEM IV) THEORY EXAMINATION 2017-18
+ADVANCED COMPUTER ARCHITECTURE
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+a. What do you mean by parallel processing?
+b. Specify CPU performance equation.
+c. Explain the concept behind pipelining.
+d. What is ILP?
+e. What is fine coarse multi-threading?
+f. What do you mean by distributed memory?
+g. What do you mean by prefix sums?
+h. Define preorder traversal.
+i. Define condition compilation.
+What is sleep-wait protocol?
+SECTION B
+2. Attempt any of the following: 10x3=30
+Discuss various classifications of parallel processing mechanisms in
+a. uniprocessor computers.
+b. Elaborate various types of hazards and indicate how each is controlled?
+c. Write down parallel algorithms for SIMD matrix multiplication. Compare time
+complexities of SISD and SIMD matrix multiplication algorithms.
+d. Devise a PRAM algorithm to sort a given array of an element using bubble
+sort.
+e. Explain combined parallel work- sharing constructs.
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+(a) Discuss static and dynamic dataflow architecture models.
+(b) Elaborate Flynn’s classification.
+4. Attempt any one part of the following: 10x1=10
+(a) various advanced pipelined techniques.
+(b) Discuss the superscalar and superpipelined processing. Also estimate the
+performance of superpipelined superscalar processor of degree (m, n).
+5. Attempt any one part of the following: 10x1=10
+(a) Discuss the functional architecture of SIMD multi-processor systems.
+(b) Explain array computers and pipeline computers.
+6. Attempt any one part of the following: 10x1=10
+(a) Explain the Bidirectional Gaussian elimination for solving a set of linear
+algebraic equation.
+(b) Discuss various models of computation in PRAM model. Also explain how
+theoretically parallel algorithms are analysed.
+7. Attempt any one part of the following: 10x1=10
+(a) parallel execution environment routines.
+(b) Explain busy-wait sleep-wait protocols for sole of a critical
+section associated with versus fast and efficient synchronization schemes access shared
+multiprocessor. on a
+memory

@@ -1,0 +1,124 @@
+1 0 7 2 / 1 1 6 7 5
+Printed u Pages - : 4 « TCS — 407
+{Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER 1D: 1072
+B. Tech.
+(SEM. IV) EXAMINATION, 2007-08
+DATA STRUCTURING USING 'C’
+Time 3 Hours] [Total Marks 100
+: :
+Note : Attempt all questions.
+1 Attempt any two parts of the following
+(a) (i) Define an array. - 2
+(ii) Consider the linear array, A (5:50), 2
+whose base address is 300 and the number
+of words per memory cell is 4. Find the
+address of A[15].
+(111) What do you mean by time complexity 2
+of an algorithm?
+(iv) The time complexity of an algorithm 3
+T(n), where n is the input size given by
+T(n)=T(n-1)+n, if n>1 and T(n)=1.
+otherwise is Explain how you
+are getting the result? ___.
+(b) (i) Write an algorithm to evaluate a postfix 5
+expression using a stack.
+(11) Using the algorithm given by you in 3
+question 1(b)(i), evaluate the following
+postfix expression.
+5, 6, 2, +, *, 12, 4, 1, -
+(i11) Define : Stack 2
+[Contd...
+(c) (i) Explain with necessary algorithms the 4
+representation of stack using linked list and
+array.
+(i1) How can a recurssive procedure be 3
+converted to a non-recursive one using
+stack ?
+(i11) Give a procedure to find the average of 3
+the values stored in a linear array, A.
+2 Attempt any two parts of the following :
+(a) (i) Give an algorithms to insert an element 5
+after a given node in a linked list.
+(ii) What is doubly linked list? 2
+(ii) Explain with diagram how a linked list 3
+is represented in memory.
+(b) (1) Give the procedure to delete a node 4
+from a two-way list.
+(11) What is a header linked list? 2
+(111) What is a deque? 2
+(iv) What conditions will indicate that the 2
+circular queue is
+(a) Full
+(b) Empty
+(c) (1) What ts a queue? 2
+Suppose a queue is stored in a circular
+array with N memory cells.
+(a) Find the number of elements in a 3
+queue in terms of FRONT and
+REAR.
+(b) When will the array be filled? ae
+(i111) Write an algorithm to insert ai: element
+into a queue.
+2
+Attempt of following
+3 any four parts the :
+(a) (i) What is a complete binary tree? 2
+(it) A binary tree has 9 nodes: Its inorder 3
+and preorder traversal's node sequence
+are: Inorder: EACK FHDBG
+Preorder’ FA EK C DH GB.
+Draw the tree.
+(b) Give the algorithm for binary search. 3+1+1
+What 1s its time complexity? Compare its time
+complexity with that of linear search.
+(c) Discuss in brief the linear probing collision 3+2
+resolution technique. What is the disadvantage
+of this technique? How could it be overcome?
+(d) (1) What do you mean by collision and 1+1
+overflow in a hash table?
+(11) Discuss in brief the hash functions you 3
+know.
+(e) Discuss the Huffman's algorithm. 5
+(f) What is a heap? Give an algorithm to 1+4
+insert an element into a heap.
+4 Answer any four :
+(a) (1) What is binary search tree? 1
+(11) Give an algorithm for searching in a 4
+binary search tree.
+(i) the expression for time complexity 3
+of heapsort.
+(11) Arrange in increasing order of time 2
+complexity of the following algorithms:
+Bubblesort, Heapsort, Insertion sort,
+Quicksort.
+(c) (1) Give the algorithm for bubble sort 3
+(11) What is its time complexity? 2
+3 [Contd...
+(d) Discuss B trees in brief. Tree
+(e) (i) Which traversal of a Binary Search 1
+result in elements in sorted order?
+(11) Obtain a height balanced tree starting 4
+from an empty tree and then on the
+May, following November, sequence August, of insertions: April, January, March,
+December, July, February, June, October,
+September.
+(f) Give algorithm for insertion into AVL tree. §
+an
+5 Answer any four :
+(a) Give the algorithm for Breadth First Search. 4+1
+What data structure do you use here?
+(b) (i) Define: path between two nodes ina 1+1
+graph; connected graph.
+(ii) Discuss in brief the different 3
+representations of a graph.
+(c) (1) What is the advantage of indexing a file? 2
+(ii) Compare indexing and hashing. 3
+(d) Classify indices and discuss them in brief. 5
+(1) What is a spanning tre? 2
+(i) Find the minimum spanning tree of the 3
+graph below.
+(f) Write short notes on any one: §x1=5
+(i) Sequential Files
+(11) trees.
+U-1072| 4 | 11675 }

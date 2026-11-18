@@ -1,0 +1,123 @@
+Printed Pages : 4
+UN 0 A A
+| EEC-502
+(Following Paper ID and Roll No. to be filled in
+PAPER ID your Answer Book)
+: 131502
+B. Tech.
+(SEM. V) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+PRINCIPLE OF COMMUNICATION
+Hours]
+Time : [Total Marks
+:
+1 Attempt
+any FOUR parts :
+(a) Discuss the basic needs of modulation for the
+communication channel.
+(b) over a
+An amplitude modulated signal is given by
+10°) +5
+¥ 4a (0) = 10 cos(2m.
+cos(27.10° t) Volt
+i) Find various frequency components present and
+the corresponding modulation indices.
+ii) Calculate contained
+power in the signal and
+efficiency of the signal.
+131502] 1
+_ [ Contd...
+modulated signal and
+() Draw the phasor diagram of AM
+also draw the spectrum of AM modulated signals.
+the block diagram of generating SSB signals using
+(d) Draw block.
+balance modulator and explain each
+©) Describe the working principle of ring modulator to
+DSB-SC amplitude modulated signal.
+generate receiver (53 5kHz
+An AM commercial broadcast-band
+1605 kHz), an input filter is used with Q-factor of
+- Determine its bandwith at low and high ends of
+54. received signal quality.
+RF spectrum. Comment on the
+FOUR parts
+2 Attempt any : carrier frequency
+(a) An angle-modulated signal with
+x10° is described by the equation
+10sin
+eng (1) = 10 cos(@et + 5 sin +
+Find the of the modulated signal.
+i) power A
+ii) Find the frequency deviation f. .
+iti) Estimate bandwidth of the FM signals. .
+modulator has phase deviation sensitivity of
+(b) A PM a signal of
+2.5 radians/V, and a modulating
+m(t) 2. cos(27 X 2000r). Determine the peak
+=
+phase deviation and phase-modulation index.
+(c) Explain the working of FM signal modulator using
+(Armstrong’s method) to obtained FM
+indirect method
+signal having carrier frequency 91.2 MHz.
+131502] 2 [ Contd...
+(d) Explain the working of ratio detector used to demodulate
+the FM signal with neat sketch.
+the expression for narrow band frequency
+Derive (NBFM) signal. Draw the phasor diagram
+modulated
+of NBFM signal. modulated signal is given by
+Consider a frequency
+(t) 20cos[2m x10°r Given
+= modulating signal.
+derive the expression for the
+3 Attempt any TWO parts :
+(a) @) different types of non-uniform quantization.
+(i) Calculate the quantization noise power in Pulse
+Code Modulation.
+(b) @) signal is sampled with 8 kHz sampling
+frequency and then quantized with 256 levels.
+Calculate the data rate and bandwidth required
+transmit this signal.
+to signals and are to be multiplexed.
+Gi) Three m, m, 5-KHz m, bandwidth and m,
+m, and have bandwidth. a Design commutator
+has a 10 KHz signal a is sampled
+switching system so that each
+at its Nyquist rate. Explain
+(c) Explain the different types of pulse modulation.
+with the waveforms how PWM and PPM can be
+derived from PAM signal. Compare among them.
+TWO parts :
+4 Attempt any modulation defers
+(a) What is delta modulation? How delta
+from PCM and PAM? Explain the noises introduced
+they be reduced?
+in delta modulation. How can
+3 if Contd...
+131502]
+(b) Draw and explain the block diagram of
+receiver of DPCM system. Write down transmitter and
+of design of vocoders. the objectives
+(c) @ Show that the
+low-pass equivalent noise bandwidth of a
+(i) A filter is 1.57 time of its 3 dB bandwidth f..
+typical satellite microwave communication
+receiver is shown in figure below.
+Mixer and
+Amplifier IF
+Calculate
+the overall noise figure of the receiver,
+neglecting effect of receiving antenna.
+5 Attempt any TWO parts :
+(a) Derive the output SNR of AM envelop detector. Also
+calculate figure of merit.
+(b) Calculate the signal to noise ratio of frequency modulation.
+Also calculate noise figure. Explain the scheme reduce
+the noise in FM system. to
+(©) (i) Write the short
+De-emphasis, note on Pre-emphasis and
+(i) Explain the functional
+(PLL) blocks of phase lock loop
+131502] 4 13600

@@ -1,0 +1,70 @@
+Printed Pages—3 EECS03
+Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 2119
+:
+B. Tech.
+(SEM. V) ODD SEMESTER THEORY EXAMINATION
+2010-11
+MICROPROCESSORS
+|
+Time : 2 Hours Total Marks : 50
+Note :— Attempt ALL questions. All questions carry equal marks.
+1. | Attempt any two parts : (5x2=10)
+(a) Explain the 8085 Bus structure.
+(b) Explain the functions of the AIE and IO/M signals of the
+8085 microprocessor. Also explain the need to demultiplex
+the bus AD,— AD,.
+(c) (1) Calculate the address lines required for an 8K-byte
+chip.
+memory
+(II) Calculate the number of memory chips needed to
+design 8K-byte if the chip size is
+memory memory
+1024 x 1.
+2. Attempt any two parts : (5x2=10)
+(a) (I) Explain why the number of output parts in the
+peripheral-mapped I/O is restricted to 256 ports.
+EEC503/VEQ-15037 1 [Turn Over
+(II) In the peripheral-mapped I/O, can an input port and
+an output port have the same port address ?
+(b) (J) Explain why a latch is used for output port,
+an
+tri-state buffer can be used for an input port.
+(II) What are the control signals necessary in the memory-
+I/O
+mapped ?
+(c) Register B has 65 H and the accumulator has 97 H. Subtract
+the contents of register B from the contents of the
+accumulator. Also give flag status and display the answer
+at PORT 1.
+3. Attempt (5x2=10)
+any two parts :
+(a) “The memory location 2050H holds the data byte F7H. Write
+instructions to transfer the data byte to the accumulator
+using three different opcodes : MOV, LDAX and LDA.
+Also give your
+(b). Sixteen bytes of data stored in locations at
+are memory
+XX50H to XXSFH. Write a program to transfer the entire
+block of data to new memory locations starting at XX70H.
+(c) Explain 8085 interrupts.
+4. Attempt any two parts : (5x2=10)
+(a) Write 8-bit binary number into
+a program to convert an a
+BCD number. Also give flow chart for conversion.
+(b) How an ASCII Hex number is converted into its binary
+equivalent ? Give flow chart and subroutine for it.
+EECS03/VEQ-15037 2
+(c) Write a subroutine to set the zero flag and check whether
+the instruction JZ functions properly, without modifying any
+register other than flag.
+contents
+5. Attempt any two parts : (5x2=10)
+(a) Describe the functional block diagram of 8086
+microprocessor.
+(b) With the help of block diagram, describe 8237 DMA
+controller.
+(c) How keyboard and seven-segment LED is interfaced
+a a
+with 8085 microprocessor ? Explain.
+EECS503/VEQ-15037 3 14300

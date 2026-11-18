@@ -1,0 +1,70 @@
+Printed Pages: 02 Sub Code: NOE048 / EOE048
+Paper Id: | 1} 9) 9) 4) 1) 8 Roll No.
+B.TECH
+(SEM IV) THEORY EXAMINATION 2017-18
+DISCRETE MATHEMATICS
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x 10=20
+Define power set? Also find power set of a set A= { G, { O}}
+Define a relation R which is neither reflexive nor irreflexive but symmetric and
+transitive for a set A= { 1, 2, 3, 4}.
+Define truth table of a statement of two variables which is always true
+d. Find a formula F that uses the variable p, q and r such that F is a contradiction.
+e. Write a recurrence relation of homogeneous and non homogeneous both of
+order 2 and degree 2.
+f. Define generating function with example.
+Define semi-group.
+g.
+h. Define permutation group.
+1. Give an example of graph which is connected, regular and complete.
+j. What is DFA machine?
+SECTION B
+2. Attempt three of the following: =30
+any
+a. Define relations and its different representations. Let S be a binary relation
+defined as S = { (a, b) : a— b < 3 and a, b € R}. Determine whether S is
+reflexive, symmetric, anti-symmetric and transitive
+b. Define proposition and its connectives. Also prove that (pvq) — (p A q) is
+logically equivalent to p <> q.
+Solve the relation
+c. recurrence
+an - + = with ao =0, a; =1
+d. What is abelian group? Also show that the set of rational numbers Q forms a group
+under the binary operation * defined by a* b = at+b-ab, Va,b€Q. is this abelian group?
+e. Define tree and its properties. Also explain preorder, inorder and postorder of
+tree with the help an example.
+SECTION C
+Attempt part of the following: 10x1=10
+any one
+(a) Define function and its type with example.
+(b) Toprove that X-—(YUZ)=(X-Y)N(X-Z)
+Also verify for the X {1,2,3}, Y {2,3,4}, Z {1,2,3}
+set = = =
+Attempt any one part of the following: 10x1=10
+(a) Explain the quantifiers in details. Also write the following English language
+into symbolic statement.
+“Every students of this class is either hosteller or non-hosteller”
+(b) Define inverse and contra-positive Also write
+inverse converse, and contra-positive for the following statements. converse,
+statements statement.
+will secure position in university then I will be awarded by university”
+Attempt part of the following: 10x1=10
+any one
+(a) Define recurrence relation of order. Solve the following recurrence relation
+with ag =
+ay = + > 1
+(b) What is mathematical induction? Also prove that n < 2" for all positive integral
+value of n.
+Attempt any one part of the following: 10x1=10
+(a) What is Ring? Prove that set I of all integers is a ring with respect to addition
+and multiplication of integers as the ring composition.
+(b) Show that the set of all n™ roots of unity forms a group with respect to
+multiplication
+Attempt any one part of the following: 10x1=10
+(a) Make a Binary search tree for the following sequence of numbers:
+76, 45, 36, 23, 89, 115, 98, 39, 41, 56, 69, 48.
+Also find the preorder, inorder and postorder of the resultant tree.
+(b) Define NFA machine. Design a NFA machine for the language ending with ab
+over = { a, b }. Also convert into its equivalent DFA machine.

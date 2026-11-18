@@ -1,0 +1,65 @@
+Printed Pages: 02 Sub Code: NBC602
+Paper Id: | 1| 9} 6} 2 Roll No.
+MCA (DUAL DEGREE)
+(SEM VI) THEORY EXAMINATION 2017-18
+INTERNET & JAVA PROGRAMMING
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+a. What is Internet? Explain different type of Internet connections.
+b. Explain various services of internet.
+c. What is E-mail? Explain advantages of E-mail.
+d. Define JVM. What do you mean by Byte codes?
+What is the “finally” block?
+f. e. What the different to create the thread?
+Discuss are the role of JSP ways in development of website.
+g. a
+h. What do you mean by JAR filters?
+1. What is meant by a property in Java Beans?
+What are the functions of a servlet?
+SECTION B
+2. Attempt any three of the following: =30
+a. What do you mean by classes and objects? Explain with suitable example and
+how objects and classes created in Java.
+are
+b. What is the difference between Application and Applet? Explain how will you
+write a simple applet to display hello world message.
+c. What is the difference between JavaBeans and EJB? Give any five beans
+available in BDK.
+d. If create two threads in How threads actually run?
+you your program. many
+Explain the complete flow of execution of threads inside a program?
+Explain the principles of Method Invocation with the help of block
+Remote a
+diagram.
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+(a) | Write a program to count the number of words and characters in a string.
+(b) Discuss the tools available in JDK? How do they help in application
+development?
+4. Attempt part of the following: 10x1=10
+any one
+(a) What is the main difference between Readers/Writers and Input/Output
+streams? Give a few subclasses of Reader and Writer Class?
+(b) Which is the alternative approach to implement multiple inheritances in Java?
+Explain, with an example?
+Attempt any one part of the following: 10x1=10
+(a) | What do you understand by JDBC? What are the various steps for using JDBC?
+Write a program to demonstrate these steps.
+(b) Write a program to enter five integers through an array and find out the
+smallest number.
+Attempt any one part of the following: 10x1=10
+(a) Write socket:- a program Write in Java to code demonstrate for communication and client using TCP/IP The i.e. using
+should display the a separate contents of the files a server specified in program. to the client. program
+a server on
+(b) What is the difference between process based and thread-based Multitasking?
+Give the two ways by which a thread can be created using Java. Write a short
+program to demonstrate the creation of a new thread by extending the thread
+class.
+Attempt any one part of the following:
+(a) What do you understand by Layout manager? Illustrate three type of layout
+available in Java with the help of suitable syntax.
+(b) | What do you mean by Exception? What is checked and unchecked exception?
+Explain Exception chaining.

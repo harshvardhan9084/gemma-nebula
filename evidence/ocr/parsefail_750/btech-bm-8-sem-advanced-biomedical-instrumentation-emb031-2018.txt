@@ -1,0 +1,56 @@
+Printed Pages:02 Sub Code: EBM 031
+Paper Id: | 1} 0} 1} 6} 3) 1 Roll No.
+B.Tech
+(SEM THEORY EXAMINATION 2017-18
+ADVANCED BIOMEDICAL INSTRUMENTATION
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+a) Describe the Beer-Lambert's Law in spectrometry.
+b) Define automated biochemical analysis systems.
+c) Explain how autoclave is used for sterilization?
+d) Explain where NMR blood flow meter is used?
+e) Explain oximetry and define oxygen saturation.
+f) Explain Respiratory volumes used in measurement of pulmonary functions.
+g) Explain spirometry.
+h) What is phonocardiograph (PCG)
+a
+i) Define Endoscopy.
+j) What are Cystoscopes & Laparoscopes?
+SECTION B
+2. Attempt any three of the following: 10x3=30
+a) Sate the different methods for blood cell counting. Explain the principle of Coulter
+Counters
+b) Explain the impedance technique for the measurement of cardiac output.
+c) What do by pneumotachography? Describe the different types of
+pneumotachometers you mean used to parameters pertaining to pulmonary functions.
+d) Discuss the various of measure endoscopes. State their in various applications.
+types use
+e) Explain how the measurement of blood pressure is executed using a
+sphygmomanometer instrument which is based on the Korotkoff sound.
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+(a) What is a Colorimeter? Explain the principle of its measurement and its applications
+(b) Explain the working of a clinical flame photometer. With the help of a block diagram
+explain the essential parts of a clinical flame photometer.
+4. Attempt any one part of the following: 10x1=10
+(a) Explain the principle of operation for a electromagnetic blood flow meter.
+(b) Explain with the the help principle of block of diagram operation for an ultrasonic Doppler-shift flow velocity meter
+a
+5. Attempt any one part of the following: 10x1=10
+(a) How blood pCO2 is defined? Explain the construction of pCO2 Electrode for the
+measurement of blood pCO2.
+(b) What are pulmonary function analyzers? Describe the block diagram of a pulmonary
+function analyzer.
+Attempt any one part of the following: 10x1=10
+(a) Describe the direct method for the measurement of blood pressure with the help of a
+diagram.
+(b) Discuss the various types of indirect methods for the measurement of blood pressure.
+Explain the automated indirect measurement of blood pressure measurement.
+Attempt any one part of the following: 10x1=10
+(a) Explain in-vitro oximetry and in-vivo oximetry and differentiate between the two
+methods of oxygen saturation measurement.
+(b) Explain the characteristics and differences between fiber optic endoscopes and
+endoscopes with integral TV cameras

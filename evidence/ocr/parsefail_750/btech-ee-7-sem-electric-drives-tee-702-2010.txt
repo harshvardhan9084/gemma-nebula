@@ -1,0 +1,85 @@
+aktuonline.com
+aktuonline.com
+* C6 2 a 1 *
+Printed Pages: 4 TEE702
+(Following Paper 1D and Roll No. to be filled in your Answer Book)
+. [7 TT
+B.Tech
+(SEM VII) ODD SEMESTER THEORY EXAMINATION 2009-10
+ELECTRIC DRIVES
+Time - 3 Hours] [Total Marks: 100
+:
+Note : All five questions are compulsory.
+1 Attempt four parts 5x4=20
+(a) — State any essential : of electrical drives. What
+the functions of parts modulator ? are
+(b) do define a power passive load and
+How active load you ? What the torques differences
+between the torques ? are
+two
+(c) Figure below shows plots of speed vs motor and
+load torques. Comment on the stability of the
+operating points A, B, C and D. -
+33-0201) [Contd..
+aktuonline.com
+aktuonline.com aktuonline.com
+(d) What are the reasons for using load equalization in 3 Attempt any two parts :
+a electrical drive ?
+(e) A motor equipped with a flywheel has to supply (a) Explain the various types of braking as used in a
+a load torque of 600 N-m for 10 seconds followed dc motor. What necessary modifications are required
+by a no load period long enough for the flywheel while. braking a dc series motor ?
+to regain its full speed. It is derived to limit the
+motor torque to 450 N-m. What should be the (b) A230 V, 870 rpm, 100 A separately excited de motor
+moment of inertia of the flywheel ? The no load has an armature resistance of 0.05 Q.. It is coupled
+speed of the motor is 600 rpm and it has a slip
+of 8% at torque 400 N-m. Assume the moto tind to an overhauling load with a torque of 400 N-m.
+speed-torque characteristic to be a straight Determine the speed at which motor can hold the load
+in the range of operation. Motor has an inertia by regenerative braking.
+of 10
+Ga) Explain the four - quadrant operation of an electrical (c) Explain the dynamics during starting of a three phase
+drive. induction What are the methods of reducing
+energy loss during starting ? Explain,
+Attempt any four.
+of smaller rating be-selected for short
+(a) time A motor duty. Why ? can a 4 Attempt
+equivalent any two parts :
+(b) Explain equivalent and power methods for (a) A 220 V, 1500 rpm, 10 A separately excited
+determination of motor rating for cyclic varying dc motor is fed from single phase fully controlled
+loads. a
+(c) A motor has a continuous rating of 100 kW. The rectifier with an ac source voltage of 230 V,
+heating and cooling time constants are 50 and 50 Hz. R, =2Q. Assuming continuous conduction,
+70 mins. respectively. The motor has a maximum
+efficiency at 80% full load and is employed in an ( ( find the firing angles for :
+intermittent periodic load cycle consisting of a load (i) Half the rated
+period of 10 mins. followed by a no load period torque 500 rpm
+of 10 mins. Calculate the value of the load in kW (ii) Rated motor torque and (-1000) rpm.
+during the load period.
+(d) Derive conditions for stability of an electric drive. (b) Explain the two modes in which a dual converter
+Derive expression of torque equation in case of load is used to control the de motor speed. Which of the
+increasing or flywheel releasing energy. two methods is better and why ? Explain. _
+2 wl 3 [Contd..
+aktuonline.com aktuonline.com
+A
+(c) A230 V separately excited dc motor takes 50 at
+a speed of 800 rpm. R, =0.4Q. This motor
+is controlled by chopper with input voltage
+of 230 V and frequency a of 500 an Hz. Assuming
+continuous conduction throughout, calculate and
+:
+plot speed-torque characteristics for
+(i) Motoring operation at duty ratios of 0.6.
+(ii) Regenerative braking operation duty ratios
+at
+, of 0.7.
+5 any two parts :
+(a) Describe self-controlled and load commutated
+inverter controlled synchronous motor drives in
+detail and compare them.
+(b) Explain the slip power recovery scheme of a three
+phase induction mctor control. What are its advantages
+and disadvantages ?
+(c) Describe the construction ad principle of operation
+of switched reluctance motor.
+a
+53-0201 4 [ 800
+aktuonline.com http://www.UPTUonline.com

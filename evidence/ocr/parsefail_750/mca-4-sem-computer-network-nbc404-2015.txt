@@ -1,0 +1,44 @@
+www.aktuonline.com
+Printed Pages : 4
+Q5. Attempt any two questions from the following
+NBC404
+(a) Explain various functions of session layer and (F Paper ID and Roll No. to be filled in Answer Book)
+your
+presentation layer. PAPER ID : 294404
+(b) TCP/IP and OSI model? Compare.
+(c) you mean by internetworking? Discuss the use
+of network layer in the internet. MCA-DUAL DEGREE
+(SEM. IV) THEORY EXAM. 2014-15
+COMPUTER NETWORK
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt the questions as indicated.
+Q1. Attempt four questions from the following: 5x4=20
+any
+(a) Discuss the various performance parameters of data
+communication networks.
+(b) What do you understand by network topology? Explain
+the different network topologies used in LAN.
+(c) the various categories of network? Discuss.
+294404] 4 [ JJ5 ] 294404] 1 [Contd...
+www.aktuonline.com
+interface. Q3. from following:
+(d) Discuss DTE-DCE Attempt any éwo questions the 10x2=20
+(e) What is the difference between interface and modem in (a) Differentiate circuit switching, packet switching and
+among
+terms of digital transmission? message switching.
+Discuss various components of digital communication. (b) Explain working of PPP along with the layers.
+(c) Write short notes on the following :
+Q2. Attempt any four questions from the following: 5x4=20 (i) LCP and NCP
+(a) Discuss various performance parameters of data (ii) Character and bit-oriented protocols
+communication networks.
+(b) What do you understand by multiplexing? Explain TDM. Q4. Attempt any two questions from the following: 10x2=20
+(c) What do by attenuation and noise? Discuss.
+you mean (a) Explain various technologies used to increase the speed
+(d) Discuss flow control and control. of and switches.
+error routers
+(e) What is the difference between guided and unguided (b) Whatis congestion control? Analyze the advantages and
+transmission? Discuss. disadvantages of performing congestion control at the
+Explain synchronous and asynchronous protocols. transport layer rather than at the network layer.
+(c) fixed routing? Discuss the function of bridges,
+routers, and gateways.
+294404] 2 [Contd... 294404] 3 [Contd...

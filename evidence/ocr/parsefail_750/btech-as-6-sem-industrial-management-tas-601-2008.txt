@@ -1,0 +1,180 @@
+Printed Pages : 7 TAS-601
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 3090 | | | |
+B. Tech.
+(SEM. VID) EXAMINATION, 2007-08
+INDUSTRIAL MANAGEMENT
+Time : 3 Hours] [Total Marks : 100
+Note (1) Attempt all questions.
+:
+(2) All questions carry equal marks.
+1 Attempt any four of the following : §x4=20
+(a) What is operations for
+research ? Account the
+growing importance of operations research in
+business decisions.
+(b) | What is simulation ? Enumerate the steps involved
+in simulation process. Mention its application in
+business.
+(c) A company produces three types of parts for
+automatic washing machines. It purchases castings
+of the parts from a local foundry and then finishes
+the parts on drilling, shaping and polishing machines,
+The selling prices of parts A, B.and C respectively
+are Rs. 8, Rs. 10 and Rs. 14. All parts made
+be sold. Castings for A, B and C
+can respectively parts
+cost Rs. 5, Rs. 6 and Rs. 10. The
+company possesses only one of each type of
+U-3090} Mt [Contd...
+machine. Costs per hour to run each of the three
+machines are Rs. 20 for drilling, Rs. 30 for
+shaping and Rs. 30 for polishing. The capacities
+(parts per hour) for each part on each machine
+are shown in the following table :
+25
+"Shaping a0
+Formulate the above problem as a linear
+programming problem with a view to maximizing
+profit.
+(d) Timber Ltd. has two products Sofa and Chair to
+produce one unit of sofa, 2 units of material X
+and 4 units of material Y are required. To produce
+one unit of chair, 3 units of material X and 2 units
+of material Y are required. As the raw material
+is in short supply not more than 16 units of each
+material, can be used. The cost per unit of
+material X and material Y are Rs. 2.50 and
+Rs. 0.25 respectively. At least 2 units of sofa must
+be produced and sold. You are required to find
+out minimum cost graphically.
+Explain the phenomenon of infeasibility
+problem. What the in an LP
+phenomenon ? are indicators of such a
+How can it be handled ?
+(f) | What is the difference between slack, surplus and
+artificial variables ? How do they differ in their
+structure and use ?
+MMMM 2 [Contd...
+2 Answer any four of the following :
+(a) Use Simplex method to solve the following LP
+problem :
+Maximize
+ST. < 6
+12
+<
+Xz = 0
+(b) What do you understand by the problem of
+alternative optima ? With the help of the following
+problem, explain the practical significance of such
+phenomenon :
+Max. Z = 2x, +4x,
+ST <5
+<4
+Xz, X_ 20
+[Contd...
+(c) Find the initial feasible solution to the following
+transportation problem by VAM method :
+WwW, W, W; W, | Supply
+48 60 S56 S58 140
+45 55 53 60 260
+50 65 60 62 360
+F, 64 55 61 220
+[200 320 250 210} |
+(All entries indicate unit costs Factory
+W, Warehouse )
+—
+(d) What do you understand by unbalanced
+transportation problem ? How would convert
+you
+it into balanced transportation problem ? What
+is the indication that the given transportation ~
+problem has multiple optimal solutions ?
+(e) What kind of decision
+making situations may be
+analysed using PERT and CPM techniques ?
+Compare between PERT and CPM.
+U-3090) [Contd...
+(f) Consider the following project :
+Activity | Predecessors | Time (weeks)
+to ty
+tm
+A
+B
+Cc
+D
+E
+F
+G
+Draw the network diagram and find out the
+critical path.
+3 any two of the following : 10x2=20
+(a) Describe the maximin and minimax principles of
+theory.
+game .
+(b) Further give the linear programming equivalent to
+a game theory problem.
+(c) Find the optimal strategies for A and B in the
+following game. Also obtain the value of the
+game :
+B's strategy
+ay
+A's strategy a,
+a3
+[Contd...
+LL
+What is queuing problem ? Analyse the following
+(d) a
+queuing systems by describing their various system
+properties :
+(i) Hospital
+emergency room
+Gi) — Traffic light.
+4 Answer two of the following : 10x2=20
+any
+(a) Write a lucid note on patents and intellectual
+propriety rights with reference to recent
+developments.
+(b) The rate of arrival of customers in a telephone
+booth follows Poisson ‘distribution with an average
+time of ten minutes between one customer and
+the next the duration of the phone call is assumed
+follow exponential distribution with time
+to a mean
+of three minutes :
+(i) What is the probability that a person
+arriving at the booth will have to wait ?
+(ii) | What is the average length of the queue ?
+(c) Why does degeneracy arise in the solution of
+(i) a transportation problem
+(i) an LP problem.
+In case of a transportation problem, why is it
+to resolve degeneracy before testing
+necessary
+any basic feasible solution for optimality ?
+[Contd...
+ee
+following 5x4=20
+5 Answer any four of the :
+(a) What is the need for management in engineering ?
+How engineering management is different from 01
+general management ?
+(b) "For managing today's modern technology, it 1s
+necessary to have a suitable organization structure,
+wherein the people will be able to put in their
+with the help of example.
+best." Discuss an
+(c) Briefly discuss the factors to be taken into
+consideration while deciding about a particular 90
+of technology for organization.
+type an
+(d) How is project management different from
+managing an established organization ? Explain
+with the help of an example.
+What are different forms of organizations for
+managing a project ? Mention any one with the
+help of an example.
+technological
+(f) Briefly discuss the impact of
+development on project management.
+[10075]

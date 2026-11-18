@@ -1,0 +1,202 @@
+aktuonline.com aktuonline.com
+>
+Printed Pages : 7
+Answer Book)
+(Following Paper and Roll No. to be filled aa in your Titi
+PAPER ID : 0150 RollNo. |
+B. Tech.
+(SEM. 2007-08
+CRYPTOGRAPHY & NETWORK SECURITY
+Hours] Marks 100
+Time : 3
+Note (i) all questions.
+(ii) AH questions carry equal
+(iii) Be precise in your answer.
+second book will be provided.
+(iv) No answer
+Symbols and abbreviations used
+question paper have usual meanings.
+1 Answer four parts
+any between active and passive 5
+(a) Distinguish examples of both
+security attacks. Give some
+types of attacks.
+(b) A Hill cipher uses the following key for 5
+enciphering the message.
+Obtain the decryption key to be used for
+deciphering the ciphertext
+a [Contd...
+0150)
+aktuonline.com
+ktuonline.com aktuonline.com
+a Ir
+(c) Draw a block diagram depicting the structure 5
+of a fiestal cipher. List important features
+the of
+structure.
+(d) Explain
+the principle of differential un
+cryptanalysis.
+(e) What is Double DES ? What kind of attack 5
+on double DES makes it almost useless
+?
+(f) (i) Suppose key scheduling
+algorithm of 3+2=5
+DES is modified in such a way that
+16 round keys has following relation :
+Ky = kg, kyg = ky, ky = kg, ky2 = ks,
+= ky, ky4 k3, ks ki¢
+= = = ky.
+How will this modification
+affect the
+strength of DES ? Explain your answer.
+(ii) List various modes of operation of block
+ciphers. Which of these modes are suitable
+for parallel’ processing.
+2 Answer four
+any parts :
+(a) Given
+that 2 is a primitive root of 19. 5
+Determine all other primitive roots of 19.
+0150) 2 [Conid...
+aktuonline.com
+aktuonline.com aktuonline.com
+Chinese remainder theorem to solve the §
+(b) Use
+simultaneous congruences
+=imod p
+x
+for all pe {2,3, 5,7}.
+G 5
+{c) If every element of a group is its own
+inverse then group G is commutative. Prove.
+~ (d) Suppose we have a set of message blocks 5
+encoded with the RSA algorithm and we don't
+the private key. Assume is the
+have n = pq, e
+public key. Some how we come to know that
+one of the plain text block has a common factor
+with n. Does this help us anyway to recover
+plaintext without knowledge of private key ?
+the RSA scheme still works if plain-
+Does even
+text blocks share common factor with n ?
+Defend your answer.
+(e) In RSA cryptosystem, given that 5
+17
+n=
+Obtain the value of d. Here n,e,d have usual
+meanings. Show all the steps of your
+calculation.
+0150) {il 3 [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+(f) State the discrete logarithm problem for §
+elliptic Suggest a protocol for key
+curves. using elliptic analogous to
+exchange protocol curves for key exchange.
+Diffie Hellman
+3 Answer any two parts
+(i) List the security services 3+7=10
+(a) provided by digital signature.
+a g g
+(ii) Write the DSS (digital signature standard)
+of digital signature generation and
+scheme of the
+verification. Prove the correctness
+verifying process.
+of §+5=10
+(b) G) reference io DSS scheme
+digital signature answer the following :
+signed
+(a) Signatures of same message
+twice on different occassions differ.
+Why ?
+(b) During signature generation, one uses
+message directly in place of hash of
+the message. What will be
+implication of this modification ?
+(ii) Give an example of replay attack,
+What are the approaches used to deal with
+replay attacks.
+[Contd...
+150) 4
+aktuonline.com
+aktuonline.com aktuonline.com
+é
+——
+(i) Suppose a cryptographic hash 7+3=10
+function produces digest of n bits.
+a
+Prove that one need to create
+n 7
+2-2 message digests to
+find two having digest
+messages same
+with probability more than
+(ii) In algorithm, what is the number
+of padding bits if the length of original
+is 2590 bits ? Do need
+message we
+padding if the length of the original
+is already multiple of 512 bits.
+message a
+4 Answer two parts
+any :
+(a) What requirements were defined for 10
+Kerberos ? Name various servers of Kerberos
+and explain the duties of each Write the
+server.
+sequence of message exchanges that happens
+when client attempts to obtain service
+a a
+granting ticket in reference to Kerberoes 4.
+Explain the steps clearly.
+0150) 5 (Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+(b) (1) Explain the purpose of Owner 6+4=10
+Trust field, Key Legitimacy field and
+Signature Trust field maintained in the
+Public key ring of PGP. Why Owner Trust
+field is not enough to permit PGP to use
+the corresponding public key ?
+explain how A and B exchange
+(ii) In PGP, session key for encrypting messages.
+the
+general formats of a 44+2+2=10
+(c) (i) Show the and Certificate
+X.509 certificate
+Revocation List (CRL).
+(ii) Why must a CRL be issued periodically
+when new certificates have been
+even no
+revoked ?
+(iii) If there is a revocation mechanism, why
+do certificates need an expiration date ?
+parts
+5 Answer any two
+(a) Define the following terms in 6+4=10
+context of IPSec and explain their
+purpose
+(i) Security Association (SA)
+Database (SAD)
+(ii) Security Association
+Security Policy Database (SPD)
+(iii)
+methods of [PSec.
+(2) Describe the two
+150) mM
+aktuonline.com
+aktuonline.com aktuonline.com
+(b) List
+and briefly define the principal i0
+categories of SET participants. Further briefly
+define the sequence of events that are required
+for a transaction in a SET (Secure Electronic
+Transaction) environment.
+(c) Write short notes on the following : 5x2=10
+(1) detection
+Gi) Firewall.
+NM 7 [ 8295 }
+aktuonline.com

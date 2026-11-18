@@ -1,0 +1,101 @@
+www.aktuonline.com -
+Printed Pages: 3 306 ECS-074
+(Following Paper ID and Roll No. to be filled in your
+Answer Book)
+B.Tech.
+(SEM. VID THEORY EXAMINATION, 2015-16
+PATTERN RECOGNITION
+www.aktuonline.com
+hours]
+Section-A
+Attempt all parts. All parts carry equal marks. Write
+answer of each part in short. (2x10=20)
+(a) Write the difference between classification and
+clustering.
+(b) IfA,B,C are three mutual exclusive and exhaustive
+events and P(B)=1/3 P(A), P(C)=1/2 P(A), find
+P(A), P(B) and P(C).
+(1) ECS-074
+www.aktuonline.com
+www.aktuonline.com -
+Two cards are drawn from a full packet of 52 cards,
+the first card being returned to the packet before
+the second is drawn. Find the probability that these”
+two cards are of the same suit.
+(d) What is the difference between parametic and non
+parametric pattrern recogintion methods?
+(e) What is the probability of obtaining 9, 10, and 11
+points with 3 dice?
+(f) How do evaluate the performance of
+www.aktuonline.com we a
+classifier?
+(g) What do by fuzzy decision making? Also
+you mean
+discuss the fuzzy classificaton using suitable
+example.
+(h) Write difference between learning and adaption?
+Discuss mean and covariance with an example.
+G) Name the differnt methods of non-parameter
+estimation strategies. What the main
+differences them? are
+between
+Section-B
+Note: Attempt five questions from this section.
+any
+(2) ECS-074
+www.aktuonline.com
+www.aktuonline.com -
+10x5=50
+Q2. What is a discriminant function? discuss it in detail. Ina
+two class problem, the likelihood rtio is given as
+follows:p(x/C1)p(x/C2). Write the discriminant function
+in terms of the likelihood ratio.
+Also
+Q3. What do you mean by fuzzy decision making?
+discuss the fuzzy classification using suitable example.
+Q4. Prove that the mean and the standard deviation ot the
+www.aktuonline.com binomial distribution are np and npq respectively.
+Q5. In experiment the immunization of goats from
+an on a
+disease, the following results were obtained:
+Died disease Survived
+or
+Calculated
+with vaccine
+Not
+inoculated
+(3) PT.O.
+www.aktuonline.com
+www.aktuonline.com -
+Q6. What is dimension reduction? Discuss Principal
+Component Analysis (PCA) algorithm for dimension
+reduction.
+Q7. Estimate a density function using a symmetric triangular
+kernel with base width of 2, given that samples
+www.aktuonline.com a your
+are at 2, 3, 3, and 4. Explain with diagram.
+Q8.
+Wow the k-nearest neighbor method works? Explain with
+KNN estimation and KNN rule.
+. Explain the concept of expectation maximization with
+the help of an algorithm.
+Section-C
+Note: Attempt any two questions from this section.
+(15x2=30)
+What is Hidden Markov Model (HMM)? Explain
+following in HMM
+(i) Forward algorithm
+(4) ECS-074
+www.aktuonline.com
+www.aktuonline.com -
+Gi) Backward algorithm
+(b) What is normal distribution? Explain.
+of squared error criterion and related
+sum
+minimum variance criteria for clustering? Discuss what
+kind of clustering problems are suited to sum-of-squared
+criterion.
+www.aktuonline.com Q12. Write short notes on:
+a) Chi-square test
+b) K-means partition algorithm
+c) Clustering

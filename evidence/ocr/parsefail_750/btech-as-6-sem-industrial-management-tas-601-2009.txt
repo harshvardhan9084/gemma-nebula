@@ -1,0 +1,102 @@
+* 3 it) 9 / 4 41 4 2 5 *
+Printed Pages : 4 TAS ~ 661
+ID and Roll No. be filled in Answer Book)
+PAPER (Following ID Paper 3090 to your
+:
+B. Tech.
+(SEM. VI) EXAMINATION, 2008-09
+INDUSTRIAL MANAGEMENT
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+Attempt
+1 any four of the following : 5x4=20
+(a) “Mathematics of OR is mathematics of
+optimization." Discuss.
+(b) What is simulation? Describe the simulation
+process. What are the reasons for using simulation?
+(c) “Model building is the essence of OR approach."
+Discuss.
+(d) manufactures three products A, B and C.
+Time to manufacture product A is twice that for
+B and thrice that for C and if the entire labour
+is engaged in making product A, 1600 units of
+this product can be produced. These products are
+to be produced in the ratio 3:4:5. There is demand
+for atleast 300, 250 and 200 units of products
+A, B and C and profit earned per unit is
+Rs. 90, Rs. 40 and Rs. 30 respectively.
+3090) [Conté..
+Requirement per unit
+of product (kg)
+Formulate the problem as a linear programming problem.
+(e) What is the difference between slack, surplus and
+artificial variables? Also explain their significance
+with examples.
+(f) Discuss the steps involved in two-phase simplex
+method.
+of following 5x4=20
+2 Answer any four the :
+(a) Determine an initial basic feasible solution to the
+following T.P. using Vogel's Approximation method :
+Destination
+in transportation problem?
+(b) Can degeneracy occur
+Justify your answer.
+3090) | 2 [Contd..
+(c) Solve the following problem by simplex method -
+Maximize : Z = 2x, +
+S.T. + 2x, 10
+x; <
+Xy +X, < 6
+< 2
+Xy- 2x, < 1
+Xp < 0
+¢ (d) Solve the following problem by simplex method :
+Minimize
+~ Z = xy - 3x3 + 2xs,
+S.T. x1 + 3x, - x3 + 2xg = 7
+—2x, + 4x3 + x4 = 12,
++ 3x3 + + = 10
+(e) Discuss the
+similarities and differences of CPM
+and PERT. Write short note on assumptions. of
+network techniques.
+(f) Consider the project whose details are given
+below :
+[ Activity: [1-2 [2-5 [8-6
+srs
+~ Find duration of the project and make complete
+allocation table.
+3 Answer of the following
+any two : 10x2=20
+(a) Discuss the basic concept of game theory giving
+examples. Explain: Minimax and maximin principles,
+pure and mixed strategies.
+3090] [Contd..
+ny
+(b) Solve the following game using L.P. method :
+(c) Write short notes on deterministic queues and
+waiting line models. Discuss Monte Carlo technique
+applied queuing problems.
+to
+4 Answer any two of the following : 10x2=20
+(a) "For managing today's modern technology, it is
+necessary to have a suitable organizational
+structure, wherein the people will be able to put
+in their best." Discuss.
+(b) What are the conditions for the application of the
+optimality test in case of transportation problem ?
+Briefly explain as to why these conditions should
+be satisfied.
+(c) @ Explain historical developments of §
+engineering management.
+Gi) Briefly discuss important functions of
+technology management.
+5 Write short notes on any two: 10x2=20
+(a) Process of planning
+(b) Patents and IPR
+(c) Project planning and acquisition
+(d) Techniques of forecasting.
+}
+3090)

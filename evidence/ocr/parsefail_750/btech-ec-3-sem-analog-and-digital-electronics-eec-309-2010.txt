@@ -1,0 +1,95 @@
+Printed Pages: 4 EEC309
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+0321
+B.Tech
+(SEM II) ODD SEMESTER THEORY EXAMINATION 2009-10
+ANALOG & DIGITAL ELECTRONICS
+Time: 3 Hours] [Total Marks: 100
+Note ; Attempt all questions. All questions carry equal
+i Attempt four of the following
+any parts :
+(a) Draw the V-I characteristics of tunnel diode and
+indicate the useful region in the curve.
+(b) Draw the output characteristics of transistor. How ii
+is used switch ?
+as a
+(c) Describe the characteristics and application of photo-
+diode.
+(d) An LED is connected across a voltage source
+}
+of + 10V through a series resistance of 820Q
+Calculate the LED current. Assume the voltage drop
+LED of 15 Volt.
+across an
+{e) Explain the working of tunnel diode. Give its two
+applications.
+(f} Why photodiode is used in reverse bias conditions ?
+Give two applications of it.
+any
+[Contd...
+Attempt four of the following
+2 any parts
+(a) An amplifier has a midband gain of 1500 and
+a bandwidth of 4.0 MHz, the midband gain
+reduces to 150 when a negative feedback is applied.
+Determine the value of feedback factor and Band-
+width.
+(b) Draw the high frequency equivalent circuit for the vA
+typical RC coupled common emitter amplifier.
+(c) Explain the effect of negative feedback various
+on
+characteristics of the amplifier.
+(d) An RC coupled amplifier has a voltage gain of
+1000, f,=50Hz, f, kHz and a
+the
+distortion of 5% without feedback. Find
+amplifier voltage gain, fis and distortion when
+negative feedback is applied with feedback ratio
+of 0.01.
+(e) Calculate the voltage gain, input and output resistances
+of a voltage series feedback amplifier having
+A, =300, R, =1.5kQ,R, =50kQ and i)
+-1
+(f) Describe the properties of series-shunt and shunt-
+shunt feedback amplifier.
+J5-0321) 2 [Contd...
+&
+3 Attempt any two parts of the following
+(a) What is Barkhausen criterion for the Feedback
+phase-shift
+oscillator ? Draw a neat diagram of a
+oscillator using BJT. Derive an expression for its
+frequency of oscillation.
+Se (b) Explain the working of Wein-bridge oscillator. Derive
+formula for the frequency of oscillation.
+(c) A Colpitt's oscillator is designed with C, = 100 pf
+and C, = 7500 pf. The inductance is variable.
+the range of inductance values, if the
+frequency of oscillation is to vary between 950 kHz
+and 2050 kHz ?
+4 Attempt two parts of the following
+any
+@) What do you mean by flip-flops ? Describe the edge
+triggered flip-flops. Convert SR flip-flops into JK
+flip-flops.
+Implement the boolean function using 8:1 multiplexer.
+>
+. F(A, B,C,D)= ABD+ ACD+ BCD+ ACD
+Describe the working of counter.
+©) Draw and explain the working of 4-bit up and down
+synchronous counter. Also describe the working of
+shift register.
+JJ-0321] 3 [Contd...
+&
+5 Attempt any two parts of the following
+(a) Describe the working of 555 timer. How it works
+in A-stable operation ?
+Explain
+(b) A/D converter using voltage to frequency
+converter. Describe any one method of A/D
+converter.
+(c) Explain the organisation of RAM wiih the
+of neat diagram. Also describe the switching a
+regulators.
+55-0321) | TE 4 [ 5600
+tos os = GOS

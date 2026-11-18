@@ -1,0 +1,59 @@
+aktuonline.com
+ll
+Printed Pages: 3 EOE033
+(Following Paper ID and Roll No. to be filied in your Answer Book)
+B.Tech
+(SEM Ill) ODD SEMESTER THEORY EXAMINATION 2009-10
+LASER SYSTEM AND APPLICATIONS
+Time: 3 Hours] [Total Marks: 100
+Note : (1) Attempt all questions.
+(2) All questions equal marks.
+carry
+1 Attempt questions 9x2=20
+any two :
+(a) Discuss on quantum physics briefly. Explain
+i equation and deduce.
+(b) emission and stimulated
+pontaneous
+ssion. Describe coherent absorption. -
+(c) Describe the following terms -
+(1) population inversion
+™ (ii} pumping ‘
+2 Attempt questions 10x2=20
+anv two :
+(a) What are optical cavities and pumping
+techniques ? Explain different types of pumping
+techniques in different types of lasers.
+WANT
+JJ-0929] [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+(b) Explain principle, construction and working of § Write short notes on any four of the 5x4=20
+Fabry-Perot resonator. Derive the relation following
+between Einstein's coefficients. (a) Excimer
+Lasers
+(c) An optical source is selected. from a batch (b) LIDAR
+characterized as having lifetimes which follow a (c) Optical Modulation
+slow internal degradation mode. The -3dB mean
+time to failure of these devices at room (d) Optical gain
+temperature is specified as 5 x 104 h. If the (e) Holography
+device emits ImW at room temperature, what is
+expected optical output power after 1 month of 4 «. (f) Optical Communication
+operation ? After 1 year ? After 5 years ? (g) Medical Applications of Lasers
+(h) Laser application in Materials Processing.
+3 Attempt any two questions : 16x2=20
+(a) Give the principle, construction and working of
+Laser and describe types of lasers.
+(b) Describe the principle and working of CW laser.
+(c) Explain Atomic, ionic and molecular lasers and
+systems.
+4 Attempt any two questions :
+ge
+(a) Explain the working and principle of liquid and
+solid state lasers.
+(b) Describe short pulse generation and measurements
+giving one example of a practical device.
+(c) Explain three level to four level lasers.
+2 [Contd... 44-0929) 3 [ 7600 ]
+aktuonline.com
+http://www.UP

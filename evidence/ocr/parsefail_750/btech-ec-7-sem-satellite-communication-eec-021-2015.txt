@@ -1,0 +1,91 @@
+Printed Pages : 3
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+131751
+PAPER ID :
+Tech.
+(SEM. VII) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+SATELLITE COMMUNICATION
+Time : 3 Hours] oy {Total Marks : 100
+Note : (1) Attempt ALL questions.
+(2) All questions carry equal marks.
+(3) Assume any missing data.
+following 5x4=20
+1 Attempt any four parts of the : communication?
+(a) What are the elements of satellite
+Explain each of them with a suitable block diagram.
+(b) What is meant by look angles? Explain them with
+reference to a GEO satellite and earth station.
+in an elliptical orbit has the orbit semi-major
+axis equal to 18000 km and Satellite-2 has semi-major
+axis equal to 24000 km. Determine the relationship
+between their orbital periods.
+(d) moving in a highly eccentric Molniya orbit
+has the farthest and the closest distance points as
+35000 km and 500 km respectively from the surface
+of the earth. Determine the orbital time period and the
+velocity at the apogee and perigee points.
+131751] 1 [ Contd...
+Explain the different types of antennas used in a satellite
+system.
+® Explain how a satellite is placed into a Geostationary
+orbit.
+5x4=20
+2 any four parts of the following : and
+What are the factors that affect the uplink design
+the downlink design in geostationary satellites?
+(b) Derive the general link equation. Find out the expression
+for C/N and G/T ratio.
+What do you understand by system noise temperature?
+Derive the relation for equivalent system noise
+temperature.
+Determine the power received by a satellite located at
+40000 km from the surface of earth. Satellite is
+operating at a frequency of 11 GHz and has EIRP of
+21 dB W. The gain of the receiving antenna is
+50.5 dB.
+©) Briefly discuss the various satellite subsystems. Explain
+TTC and antenna subsystem in detail.
+carrying a 11.7 GHz continuous wave (CW)
+beacon transmitter is located in geosynchronous orbit
+38000 km from earth station. The beacon’s output
+is 200 mW, an and it feeds an antenna with
+power dB gain towards the earth station. The earth
+18.9 receiving aperture efficiency is 50
+station effective antenna aperture area is 10 sq.mt.
+percent. The
+Calaulate:
+(1) EIRP
+(2)  Path-loss. gain.
+(3) Receiving antenna
+3 Answer any two parts of the following : 10x2=20 .
+(a) Explain rain attenuation and rain depolarization in detail
+with suitable diagrams.
+[ Contd...
+131751] 2
+(b) How atmospheric absorption and depolarization affect
+the propagation satellite-earth path? Explain in detail.
+(©) With the help of on suitable diagram, explain satellite
+communication system a architecture using VSAT. Also
+the applications of VSAT.
+write
+of the following 10x2=20
+4 Answer any two parts the different segments : of GPS. What
+(a) State and explain signal acquisition in GPS?
+is meant by satellite block diagram, explain the
+(b) With the help of a suitable network in detail.
+working of DBS Television principle of GPS.
+(c) Explain the position determination receiver and
+Also draw the block diagram of a GPS
+explain its working.
+5 Answer any two parts of the following : 10x2=20
+(a) Discuss the evolution of satellites for mobile
+communication system (MSB).
+(b) Discuss the various types of antenna used for mobile
+satellite broadcasting. What are ‘their technical
+requirements?
+(c) Write short notes on any two of the following:
+@) Wire Quadrifilar Helical Antenna (WQHA)
+Gi) Phase array antenna
+Gi) | Frequency reuse.
+131751] 3 [ 13125 ]

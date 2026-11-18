@@ -1,0 +1,60 @@
+Printed pages: 02 Sub Code: NCH-033
+Paper Id: 151805 Roll No:
+B TECH
+(SEM VII) THEORY EXAMINATION 2017-18
+ADVANCED SEPARATION TECHNOLOGY
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all sections. If require any missing data; then choose suitably.
+SECTION A
+Attempt all questions in brief. 2x 10=20
+a) Define silt density index.
+b) Define inherent separation factor.
+Define MWCO.
+d) Define osmotic pressure.
+e) What is driving force for RO process?
+What are the practical applications of liquid membranes?
+g) Define Raoult’s law.
+h) Define Give K least value. four examples of the applications of vaporation.
+D i) What at experimental techniques used for characterization per of membranes?
+are
+SECTION-B
+Attempt any three of the following: 10x 3=30
+a) Write requirement for separation
+b) Discuss a note in detail on energy various kinds of cascades used in process. industries.
+Describe the osmosis with neat sketch. Also discuss its
+d) Describe the reverse gas permeation through process polymerized a membranes. Mention the uses. different kinds
+of polymerized membranes.
+e) Which experimental techniques are used for characterization of membranes?
+SECTION C
+Attempt any one part of the following: 10x1=10
+a) Explain the advantages and limitations of the various separation techniques.
+new
+b) Discuss about the different types of molecular sieves giving their uses and working
+principle and operation.
+Attempt any one part of the following: 10x1=10
+Explain the construction and working of following membrane modules a) Spiral wound
+module. b) Tubular module c) Hollow fibre module d) Plate and frame module. —
+b) Write short notes on:
+(a) Thin layer chromatography (b) Liquid-liquid extraction
+(c) Concentration polarization (d) Henry's Law
+Attempt any one part of the following: 10x1=10
+Explain the uses and characteristics of separation processes.
+b) A liquid containing dilute solute A at concentration c1=4x10° kgmol/m? is flowing rapidly
+by a membrane of thickness L=3.5x10°m.The a distribution coefficient k'=1.5 and Das
+m’/s in the membrane .The solute diffuses through the membrane and its
+concentration on the other side is kgmol/m?.The mass transfer coefficient kc1 is
+large and can be considered as infinite and kc2=2.0x10° m/s.
+(i) Derive the equation to calculate the steady-state flux Na.
+(ii) Calculate the flux and the concentration at the membrane interfaces.
+Attempt any one part of the following: 10x1=10
+a) What governed is separation the difference process? between equilibrium governed separation process and rate
+b) A mixture contains 5 in 100 of water at 25°C.Determine the osmotic
+pressure. Molecular weight g sucrose of sucrose is 342.30. g pure
+Attempt any one part of the following: 10x1=10
+a) Differentiate between liquid permeation membrane separation and gaseous permeation
+membranes separation and discuss its limitations and uses.
+b) Write the short notes on the following:
+i. Dialysis
+il. Membrane material
+iii. Electro dialysis
+Gas permeability

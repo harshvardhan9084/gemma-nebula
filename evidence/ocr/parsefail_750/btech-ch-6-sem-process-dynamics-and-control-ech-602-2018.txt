@@ -1,0 +1,64 @@
+ECH-602
+B. TECH.
+(SEM VI) BACKPAPER THEORY EXAMINATION, 2017-2018
+PROCESS DYNAMICS & CONTROL
+Total Marks:
+Time: 3 Hours 100
+Note: Attempt all Sections. If require any missing data; then choose suitably.
+SECTION-A
+1. Attempt all questions in brief. 2 x10
+(a) Explain stability of a control system.
+(b) Define amplitude ratio.
+(c) Define ‘‘Rise time’.
+(d) Differentiate between PI and PD controllers.
+(e) Define ‘characteristic equation’.
+(f) Define non-interacting system.
+(g) What do you mean by ‘over damped’?
+(h) Define interacting system.
+(i) Discuss the transportation lag.
+(j) Discuss the limitations of PI controller.
+SECTION-B
+2. Attempt any three of the following: 10x3 = 30
+(a) Discuss the term ‘feed-forward control’. With the help of a general block diagram,
+describe the feedback control of a process.
+(b) What are Initial Value and Final Value theorem and how are they useful in control
+system analysis? Find the inverse Laplace transform of following
+JS) =
+(c) Validate that by the addition of integral mode in proportional controller, the offset is
+completely removed. a
+(d) Determine the decay ratio of the response, if a step change of magnitude 2 is introduced
+in to a system having transfer function:
+Y(s)/X(s) = 5 / (s? +0.4s +0.5)
+(e) Differentiate between a negative feedback and positive feedback control system with
+suitable example.
+SECTION-C
+3. Attempt any one part of the following: 10x1 =10
+(a) Examine the of ‘interacting and non-interacting systems in series’ with the help
+of suitable examples. response
+(b) Explain Find the these substitution for second rule for order finding amplitude and for PI ratio and PID and controller. Phase difference for a
+system. a system
+4. Attempt any one part of the following: 10x1 =10
+(a) Discuss the various modes of control action and their with their limitations and
+advantage. response
+(b) Discuss the Routh’s test for testing the stability of a control system. What other
+information are obtained by Routh’s theorem about the control system?
+5. Attempt any one part of the following: 10x1 =10
+(a) A thermometer having first order dynamics with a time constant of 3 minutes is at 780C.
+It is placed in a water bath at 980C for 4 minutes and then again placed in a water bath at
+800C. Obtain an expression for thermometer reading with respect to time and find
+temperature shown by the thermometer at (a) 3 minutes and (b) 5 minutes.
+(b) Find the closed loop transfer function c(s)/u(s) for the following control system. Also find
+offset for unit change inu if Kc= 8.
+a step
+u
+| Ke | |
+6. Attempt any one part of the following: 10x1 =10
+(a) Justify this statement that “Thick walled thermometer behaves as a second order over
+damped system”.
+(b) Draw the root locus for a control system having following characteristic equation.
+1+ [{k (16s+1)}/{s(s+4) (s+8)}] =0
+7. Attempt any one part of the following: 10x1 =10
+(a) Explain of simple the block significances diagram. of ‘open-loop and closed-loop’ in control system with the help
+a
+(b) Discuss the terms ‘overshoot’ and ‘decay ratio’ as applied to response of a second order
+system? Obtain the expressions for them in term of t and €.

@@ -1,0 +1,125 @@
+http://www.aktuonline.com
+Printed Pages: 4 MCAS505(1)
+M.C.A
+(SEM V) ODD SEMESTER THEORY EXAMINATION 2009-10
+ADVANCED COMPUTER NETWORKS
+} [Total
+Time: 3 Hours] Marks: 100
+Note : (i) Attempt all the questions.
+(il) Each
+question carries equal marks.
+any
+1° four parts of the following 5x4=20
+(a) Discuss the need or lack of need for a network
+layer (OSI layer 3) in a broadcast network.
+(b) How does CSMA/CD differ from CSMA/CA ?
+Draw a flow chart to depict CSMA/CA
+procedure.
+(c) What are the common fast Ethernet and Gigabit
+Ethernet implementations ? Explain each in
+brief.
+(d) What are the three types of frames used by
+Wireless LAN ? Explain the purpose of NAV.
+(e) Explain the following
+:
+(i) ADSL
+(ii) SDSL
+(iii) VDSL
+(iv) Cable Modem
+(v) HIPPI
+35-1443]
+&
+http://www.aktuonline.com
+2 Attempt four of the following 5x4=20
+any :
+(a) A4480-octet datagram is to be and
+needs to be fragmented because it will pass
+thrcugh an Ethernet with a maximum payload
+of 1590 octets. Show the total length, More
+flag, and fragment offset values in each of the
+resulting
+(b) Compare the individual fields of the
+header with the IPv4
+IPv6 header.
+(c) List key design requirements for IP-based
+internets.
+(d). IPv6 16-byte addresses. If block of 1
+Amillion uses addresses is allocated a picosecond,
+how long will the addresses every last
+?
+(e) Explain the following :
+(i) Address Autoconfiguration
+. (ii) Name to address translation
+(f) Describe some IPv6 APIs available in the
+standard libraries.
+3 Attempt any two parts of the following : 10x2=20
+(a) What are four different forms of IP addressing ?
+Compare and contrast IGMP protocol with PIM
+protocol.
+(b) What are general problems of mobile IP
+regarding security and support of quality of
+service. Explain in detail.
+entities
+(c) List the of mobile IP and describe data
+transfer from a mobile node to a fixed node
+and vice-versa. Why and where is encapsulation
+needed ?
+55-1443) [Contd...
+retransmission http://www.aktuonline.com
+(ii) Persistance
+(iii) Keep alive
+(iv) Time waited
+Explain each in brief.
+of the following
+Attempt any two parts : 10x2
+(a) Using the RSA public key cryptosystem, with
+a= 1, b = 2, etc.
+(i) Ifp=7 and q = 11, list five legal values
+for d.
+Gi) If p = 13, q = 31 and d = 7, find 1.
+(iii) Using p = 5, q = 11 and d = 27, find
+e and encrypt “abcdefghi".
+1443) 3 [Contd...
+a
+http://www.aktuonline.com
+of the following
+4 Attempt any two parts : 10x2
+(a) Explain the following algorithm.
+(i) Jacobson's algorithm for RTT variance
+estimation
+{ii} Dynamic Window sizing on congestion
+credit flow control scheme such
+i>: i) In a as
+TCP's. What provision can be made for
+credit allocations that are lost or
+misordered in transit ?
+{ii} Why is the TCP window scale option
+limited to a maximum value of 14 ?.
+TCP uses the following four timers to perform
+its operation smoothly :
+(i) retransmission
+(ii) Persistance
+(ili) Keep alive
+(iv) Time waited
+Explain each in brief.
+5 Attempt two parts of the following 10x2
+any :
+(a) Using the RSA public key cryptosystem, with
+a = 1, b = 2, ete.
+(i) Ifp=7 and 11, list five legal values
+for d. q =
+(ii) If p = 13, q = 31 and d = 7, find L
+(iii) Using 5, 11 and d 27, find
+p = q = =
+e and encrypt “abcdefghi".
+55-1443) 3 [Contd...
+http://www.aktuonline.com
+(b) The Diffie-Hellman key exchange is being used
+to establish a secret key between Alice and
+Bob. Alice sends Bob (719, 3, 191,). Bob
+responds with (543). Alice's secret number, x,
+is 16. What is the secret key ?
+(c) Write short notes on any two of the following :
+(i) Digital signature
+(ii) Authentication header
+SSL.

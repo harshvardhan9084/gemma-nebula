@@ -1,0 +1,88 @@
+aktuonline.com
+aktuonline.com
+(SEM Vil) ODD SEMESTER THEORY EXAMINATION 2009-10
+CONTROL ENGINEERING
+DIGITAL
+Time: 3 Hours] [Total Marks: 100
+Note Attempt all questions.
+» :
+1 = Attempt four of the following 5x4
+any parts :
+(a) With the help of a neat schematic diagram explain
+the working principle of a dual slope type ADC.
+(b) Find the z-transform of the following sequence in
+closed form :
+sin 2k
+(c) Find the z-transform of the function whose Laplace
+transform is given as
+2(s+1)
+s(s+5)
+(d) Find the inverse z-transform of
+)
+(z- 1}
+33-0315) [Contd..
+aktuonline.com aktuonline.com
+shown below in fig. 1 find (c) For the sampled data control system shown below
+(e) For the system eZ)
+output at the sampling instants c(kt). The determine R(z) if possible. Else determine c(z).
+the
+input is a unit impulse and the sampling period
+is O.1s.
+h( 2
+s(st3) t
+T r(t) Fig. 2
+Q(z)= z°
+Fig. 1 qd) If 45z-2=0 represents a
+characteristic equation and 7’ = 2s, then apply
+the help of suitable diagrams explain the the Routh stability criterion to determine if any
+() With DAC. of the roots of the characteristic equation lie
+principle of operation of a R-2 R type outside the unit circle.
+(e) Map the values into the z-plane
+of the following : 5x4 for T=1s and 0.001s. Give the z-plane
+2 Attempt any four parts
+(a) Solve the following linear difference equation values in both polar and rectangular co-ordinates :
+z-transforms (i) (ii) 5, =-2
+using () Briefly explain the design of w-plane.
+3 Attempt any two parts of the following : 10x2
+r(k)= unit step sequence and c(0)=0 (a) Write the state equations and output equations of
+where the following difference equation
+c(i)=0. c(k+4)+2c(k+2)-c(k-1)c(k)
+and
+(b) By means of Jury's ‘ig s stability an test, determine the (b) Decompose the following transfer function by
+sample control system with parallel decomposition. Also draw the state
+stability of the a diagram and write the discrete state equations
+the following characteristic equation - in vector-matrix form.
+c( z )_ z-0.1 _
+@-0.5)(2-0.8)
+3
+2
+aktuonline.com :
+aktuonline.com aktuonline.com’
+(c) Given the state equation x(k+1)= Ax(k)
+find the transition matrix o(k) when
+state
+0 1
+Az 0.5 1
+4 Attempt two parts of the following 10x2
+any :
+8=[3|
+(a) Let -1 2
+1
+Find the state - feedback G such that the Eigen
+fe) values of A-BG are at 0 and 0.3 a\
+Investigate the controllability and observability
+“of the following system :
+(c) Write short notes on the following :
+@ stability analysis
+(ii) Stochastic optimal state estimation.
+5 Attempt any two parts of the following : 10x2
+(a) Discuss the important specifications of a sample
+and hold circuit. With the help of suitable diagrams
+describe its principle of operation.
+(b) Using the assembly language of 8085 up.
+develop the for digital PID controller.
+(c) Describe digital program quantisation. a How does it affect
+the operation of digital control ?-Discuss.
+a system
+[1725]
+aktuonline.com htty://www.UPTUonline.com

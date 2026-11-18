@@ -1,0 +1,62 @@
+Printed NMCA-213/MCA-213/NBC-202/BC-202
+(Following Paper ID and Roll No. to be filled in your
+Answer Books)
+Paper ID : 214220
+M.C.A.
+Theory Examination 2015-16
+DATA STRUCTURE USING ‘C’
+Time : 3 Hours Max. Marks : 100
+Note: Attempt questions from all Sections as per directions.
+Section-A
+Attempt all parts of this section. Answer in brief. (2x10=20)
+Ql. (a) What are the data structures used to perform recursion?
+(b) State the advantages of using infix/postfix notations.
+(c) Difference between Abstract Data Type, Data Type and
+Data Structure.
+(d) What is the need for Priority queue?
+(e) | What do you mean by structure property in a heap?
+P.T.O.
+2305/67/38/950
+(f) What do you mean by the term “Percolate
+(g) What the objectives of studying data structures?
+are
+(h) State the difference between stacks and linked lists
+What are the advantages of modularity?
+0) State the difference between primitive and non-primitive
+data types.
+Section-B
+Q2. Attempt any five questions from this section. (10x5=50)
+(a) Evaluate the following prefix expression “ ++ 26 + -
+1324”.
+(b) Construct expression tree for the expression A+(B-
+an
+C)*D+(E*F)
+How many null nodes will a binary tree with 20
+nodes have?
+(d) Write and explain weighted and unweighted shortest
+path algorithm.
+(e) Explain the minimum spanning tree algorithms with
+an example.
+(2)
+2305/67/38/950
+(f) | Write a C program to perform Merge sort and analyze
+time complexity of the algorithm.
+|
+(g) Write an algorithm INSERT that takes a pointer to a
+sorted list and a pointer to a node and inserts the
+node into its correct position in the list.
+(h) What do you mean by Base case, Recursive case.
+Binding Time, Run-Time Stack and Tail Recursion?
+Section-C
+Attempt any two questions from this section. (15x2=30)
+Q3. Write a program to allocate memory dynamically for strings,
+and store their addresses in array of pointers to strings.
+Q4. How is freed using Boundary method in the
+memory tag
+context of Dynamic memory management?
+Q5. What are expression trees? Represent the following
+expression using a tree. Comment on the result that you
+get when this tree is traversed in Preorder, Inorder and
+postorder (a-b) / ((c*d)+e).
+(3)
+2305/67/38/950

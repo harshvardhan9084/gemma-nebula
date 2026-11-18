@@ -1,0 +1,59 @@
+Printed Pages: Sub Code: EBM 034
+Paper Id: | 1| 0} 1] 6} 3] 4 Roll No.
+B.Tech
+(SEM THEORY EXAMINATION 2017-18
+DESIGN AND MODELLING OF BIOMEDICAL SYSTEMS
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+a) Describe the criteria for selection of a suitable hardware while designing a system.
+b) Explain Design and modeling of a system.
+c) Explain some advantages of simulation.
+d) Explain the different types of PCB’s.
+e) Explain PCB fabrication techniques.
+f) Explain reliability configuration.
+g) Explain the types of grounding.
+h) Describe safety while using electrical medical devices.
+some measures
+i) Define an electrical shock.
+j) What is leakage current?
+SECTION B
+Attempt any three of the following: =30
+a) Describe the different types of sensors. What are the typical characteristic
+specifications of a sensor? Explain the help of some examples.
+b) Name some simulation software used for the simulation of design. Describe the
+different types of simulation softwares and their applications in specific field
+c) What do by PCB designing? Describe the different types a of PCB design.
+Enlist the you different mean of Designing PCB with the help of Softwares.
+steps
+d) Discuss the various reliability aspects of biomedical equipments.
+e) State the different types of electrical shock hazards. Explain the concept of proper
+grounding and shielding.
+SECTION C
+Attempt any one part of the following: 10x1=10
+(a) What is Data recorder? Explain the principle of its operation and its applications
+a
+(b) Explain the working of a Display device. With the help of a block diagram explain
+the essential parts of a Display device.
+Attempt any one part of the following: 10x1=10
+(a) What do you mean by Simulation? Explain the concept of design Simulation.
+Describe the applications of design simulation.
+(b) Describe the steps for simulating a circuit design in simulation software.
+5. Attempt any one part of the following: 10x1=10
+(a)What the different PCB designing softwares. Explain how these softwares
+useful and are advantageous in the PCB designing compared to manual designing. are
+as
+(b) Describe the various methods of PCB making. Explain each method with example.
+Attempt part of the following: 10x1=10
+any one
+(a) What do you mean by the reliability of biomedical equipments? Describe the need of
+reliability of biomedical equipments.
+(b) Discuss the basic mathematics and reliability concept of medical devices. Describe
+the applications also.
+Attempt any one part of the following: 10x1=10
+(a) What do you mean by Calibrations and Testing of equipments? Explain the various
+methods for Calibrations and Testing of equipments.
+(b) What are the safety codes for the electro medical equipments? Explain the Electrical
+safety analyzer.

@@ -1,0 +1,173 @@
+Printed Pages : 8 EEC-201
+Paper 1) and Roll No. to he filled in your Boak)
+PAPERID:
+B. Tech.
+(Second Semester) Theory Examination, 2010-11
+ELECTRONICS: ENGINEERING
+[Toral :
+Time ; 3 Marks 100
+Note Attempt
+: aif questions. 4
+of the following
+1. Attempt each parts:
+(a} If is peak voltage across secondary of a
+transformer in a bridge full wave rectifier.
+then peak inverse voltage is given by
+:
+Ky
+(ii)
+(iii) 2%,
+OG (iy) None of them.
+(b) The Avalanche breakdown in semiconductor
+when
+diode occurs : exceeds
+(i). current a certain
+(ii) Reverse bias exceeds a certain value
+(iii) exceeds certain value
+Forward bias a
+(iv} The potential barrier is reached lo zero.
+http://www.aktuonline.com
+region,
+A transistor is opérating in active
+under this condition :
+(i) both the junctions ate are reverse’ bias” b
+Gi} both the junctions
+base junction is bias
+Gii) Emitter reverse
+collector base junction is forward bias
+{ivy Emitter base junction is forward bias
+- is bias.
+collector base junction reverse
+(d} An circuit of voltage gain 100, 2V
+voltage the input voltage applied
+output
+ES .
+In énhancement MOSFET
+an
+induces nm type channel can be produced
+and drain if Mg, is
+between the source
+negative . (True/False)
+{f) Inverting amplifier gairt is independent of
+résistance. Na
+source {True/False)
+The voltage in OPAMP differentiator
+output
+with input voltage the output voltage is .
+given by When and C=1pf.
+3302 (2)
+http://www.aktuonline.com
+{h}
+ABC’
++ A'B'C + =........
+(j) The sweep voltage is applied on the ........
+axis of CRO. -
+5 2. Attempt any four parts : 5x4=20
+{a} Draw the circuit diagram of full wave bridge
+rectifier and explain the operation and also
+waveform.
+draw the input and output
+(b) Determine the currents 4, and ‘p, for
+the network shown below (Fig. 1) :
+56kQ
+{c} For the Zener diode network of the Fig. 2,
+determine Vy; fz and
+3302 (3)
+http://www.aktuonline.com 4
+1
+the ietiork 3
+AD | Sketch sown Vi > for of Fig. for the
+et _ input 3
+(4)
+ep
+explain
+©) Draw the voltage Tripler circuit and —
+the operation.
+. ~-.
+© Determine J; Vj, ¥ and Vp for the series of
+in
+de configuration Fig. 4.
+Fig. 4,
+Attempt 4" parts
+3. any {wo : 10x2=20
+and, output characteristics
+(a} Draw the input
+{v-i) of a CE npn transistor configuration
+with proper levels and discuss how you will
+determine : he and Pe hybrid parameters
+from these’
+(b} For the bias configuration
+determine (ii) Voc
+of Fig. 5 (i) {ii} Ve
+tiv) Yor Ry.
+(S$).
+3302
+4
+http://www.aktuonline.com
+(0) ' bias - ¢ireuit
+of
+Fig. 6, detérinine (i) Jp, (ii) te, (iii) Ko, |
+- .
+Laie oF 3
+:
+J
+|
+http://www.aktuonline.com
+Attempt any {we parts : 10x2=20
+(a) What is the significant difference between
+i the construction of an enhancement-type
+.. MOSFET ?
+MOSEET and depletion-type
+Sketch the basic construction of a
+depletion-type MOSFET.
+(b) Draw a neat schematic diagram of a
+cathode ray tube with proper labels. How
+controlled
+is the intensity of the spot/trace
+in a cathode ray oscilloscope ?
+inverting summing
+{c) @) Sketch a three-imput
+circuit and derive an expression for the
+output voltage.
+ii), ‘Design non-inverting amplifier
+that is capable of providing a voltage
+ideal and
+gain of 15. Assume op-amp
+resistances used should not exceed
+|
+bs |
+Attempt any four parts : 5x4=20
+Simplify the following function by using the
+(a)
+Boolean algebra :
+3302 (7)
+http://www.aktuonline.com
+Gi) (48 +AC+ AB).
+lo Perform the following
+operations .
+2 og
+(ABO.
+(ii) +
+“(c) Simplify tie rusing
+|
+f (4, ‘B, ¢, D)=
+| ZnB, 4 3, 4, 9, 13, 14, 15) 1, 8, 10)
+Implement gates,
+the output
+7 Convert ‘the | given expression into
+sop form :
+fz A+ ABC
+ui) | Convert the | given into
+‘POS form :
+“fs (A+ + A).
+What the universal gate
+is ? Name the |
+universal gate ? Give the proof of universal
+gate least for type of gate.
+at one
+Draw the block diagram | “digital
+multimeter. Explain the operation
+of each
+block.
+3302-8-37,000
+http://www.aktuonline.com

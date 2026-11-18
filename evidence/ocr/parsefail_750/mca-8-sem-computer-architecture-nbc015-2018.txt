@@ -1,0 +1,42 @@
+Printed Pages: 01 Sub Code: NBC 015
+Paper Id: | 1| 9} 0} 1] 5 Roll No.
+MCA (DUAL DEGREE)
+(SEM VIII) THEORY EXAMINATION 2017-18
+COMPUTER ARCHITECTURE
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+What do you mean by digital computer?
+What are various types of buses?
+Give infix to postfix conversion by taking an example.
+What do you mean by instruction cycle?
+What is array multiplier?
+Define RAM chips.
+Sore Define cache memory.
+What are magnetic disks?
+What do you mean by interrupts?
+Define synchronous communication.
+SECTION B
+Attempt any three of the following: 10x3=30
+Discuss various generations of computer.
+Explain various functional units and their interconnections.
+Explain execution of complete instruction with example.
+Write short note on semi-conductor RAM memories.
+Explain DMA transfer and DMA controller.
+SECTION C
+Attempt any one part of the following: 10x1=10
+(a) Design and discuss look-ahead carry adder.
+(b) Discuss signed operand multiplication.
+Attempt any one part of the following: 10x1=10
+(a) Discuss register stack and memory stack organizations.
+(b) Explain various types of instruction format with example.
+Attempt any one part of the following: 10x1=10
+(a) Explain micro-instruction with next address field.
+(b) Discuss concept of horizontal and vertical micro-programming.
+Attempt any one part of the following: 10x1=10
+(a) Discuss various types of cache memory mapping techniques.
+Attempt (b) Explain various page of replacement following: policies. 10x1=10
+any one part the
+(a) | Write short note on various peripheral devices.
+(b) Explain I/O channels and I/O processors.

@@ -1,0 +1,81 @@
+Printed Pages: 4 TEC301
+(Following Paper ED and Roll No. be filled in Answer Book)
+3073 to your
+B.Tech
+(SEM Ill) ODD SEMESTER THEORY EXAMINATION 2009-10
+SOLID STATE DEVICES & CIRCUITS
+b
+Time: 3. Hours] [Total Marks: 100
+Note : = all questions.
+PF
+1 Attempt any two parts of the following 10x2=20
+{a) What is photo diode ? With 2+6+2
+a proper
+characteristic curves and relevant diagrams
+explain the operation of the device. What are
+its applications ?
+(b) Draw the hybrid pi model of a BJT 10
+emitter - configuration and
+in common (CE)
+discuss about each component in the model.
+(c) (i) With the help of a neat diagram - 5+5
+explain the voltage divider biasing
+method for BJT.
+(11) With relevant diagram, explain about
+Schottky barrier diodes.
+35-3073] (MIN ULL [Contd...
+2 Attempt any two parts of the following 10x2=20 (b) Discuss the frequency
+(a) (i) Present comparison of performance response characteristics 10
+a 5 of RC coupled amplifiers. Derive the general
+characteristics of the three BJT amplifiers expression for gain at low and high frequency,
+configuration in qualitative terms,
+regarding their input output impedances (c) Sketch common collector and common emitter 10
+cascade amplifier. Show the
+and voltage current gains. frequency small signal high
+(ii) Explain how a BJT can be used as a model for CE Stage.
+.
+switch. 4 Attempt any two of the following
+(b) Sketch the basic structure of an n-channel 10x2=20
+(a) (i) List the four basic negative feedback
+JFET and draw the volt ampere (I/V) Configurations, 3
+characteristics and explain about each region
+of the volt-ampere (I/V) characteristics (ii) Draw a block diagram
+qualitatively. of a single - 7
+loop feedback amplifier. Explain the
+(c) (i) the terms : Depletion mode function of each block. Indicate the
+and enhancement mode. Inbuilt and of feedback
+on input and output
+induced channel. resistance of the four topologies of
+(ii) Compare the three configurations of a negative feedback.
+single stage MOS amplifier. (b) What type of negative feedback takes place 10
+in an emitter follower circuit ?
+Attempt any two parts : analyse the Draw and
+circuit to derive an expression for °
+(a) in detail the physical origin and 10 voltage gain with feedback.
+significance of the two capacitances in the (c)
+hybrid-pi model of BJT. Explain why CB and Explain with relevant information, how 10
+a the negative feedback amplifier improves
+CC amplifiers have a larger band width than Stability, reduces
+that of CE amplifier noise and increases the input
+impedance.
+NM 2 [Contd... | JJ-3073]
+[Contd...
+Attempt any two parts of the following : 10x2=20
+(a) What are the requirement of an oscillator 10
+circuit ? Draw a neat diagram of a phase-shift
+oscillator using BJT. What advantage has the
+phase-shift oscillator in.the audio frequency ?
+(b) Draw a neat circuit diagram of a Colpitt's 10
+oscillator using NPN transistor. Give its
+equivalent circuit. Derive expressions for the
+following :
+(i) The frequency of the oscillations
+Gi) The maximum gain for sustained
+oscillations.
+(c) (i) Draw the circuit of Wien bridge oscillator 6
+and explain how oscillations generated.
+are
+(ii) What are the advantages of using crystal 4
+oscillators ? Mention it's applications.
+[ 3600 ]
+for

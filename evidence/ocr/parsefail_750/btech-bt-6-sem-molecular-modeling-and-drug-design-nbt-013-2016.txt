@@ -1,0 +1,84 @@
+Printed Pages: 4 NBT-013
+(Following Paper ID and Roll No. be filled in
+to your
+Answer Books)
+Paper ID :154663
+B.TECH.
+Theory Examination (Semester- VI) 2015-16
+MOLECULAR MODELING & DRUG DESIGN
+Time : 3 Hours Max. Marks : 100
+Section-A
+Q1. Attempt all sections. All sections carry equal marks.
+Write of each section in short. (10x2=20)
+answer
+(a) the drawbacks of mechanical models with
+graphical models.
+(b) Using examples of simple models introduce the term
+Molecular dynamics.
+(c) Note down the numerous applications to protein
+folding.
+(d) What are linear and non-linear modeled equations?
+(1) PTO.
+2505/138/1/25
+(e) Give some molecular orbital theories with suitable
+examples.
+Describe Ramchandran plot with diagram.
+(g) What is Molecular Modeling and molecular model-
+ing by homology? What is it good for?
+(h) Incorporate additional features into 3-D
+pharmacophore.
+(i) Define the following
+(i) Free energy and salvation.
+(ii) Combinational libraries.
+Draw a simple setup of a MD Simulation model.
+Section-B
+Q2. Attempt any five questions from this section.
+(5x10=50)
+(a) (1) What are the Minimal Input for Molecular Mod-
+eling
+process.
+(ii) Methodology opted for accurate mass measure-
+ment of small molecules (ab-initio method).
+(2)
+2505/138/1/25
+(b) Show the structure based design of templates for
+Zeolite synthesis.
+of different for
+(c) Give an overview the strategies used
+the search of new potential drugs.
+(d) (i) What are pharmacophores. Show' with the help
+of diagram the antihistamine 3D pharmacophore.
+(ii) Elucidate the steps involved in the optimization
+and validation of protein models.
+(e) How Quantitative-structure Activity Relationships
+(QSAR) relates numerical properties of the molecu-
+lar structure to its activity.
+(f) Database “searching is attractive discover
+an way to
+new compounds.” Prove this statement with the struc-
+ture-based De-novo ligand design.
+(g) Derive some postulates of quantum mechanics.
+(h) Define the following terms:-
+() Molecular similarity and Similarity searching.
+(ii) Molecular descriptors.
+3) P.T.O.
+2505/138/1/25
+Section-C
+Attempt any two questions from this section. (2x15=30)
+Q3. (a) What does Molecular docking mean and also score
+functions for molecular docking.
+(b) Applications of 3-d based searching and docking.
+Q4. Questions in this segment are related to QSAR, therefore
+following:-
+answer as per
+(a) How selecting of compounds for QSAR Analysis is
+done?
+(b) Derive the QSAR equation.
+(c) Interpreting a QSAR equation.
+knifing
+(d) Jack process involved
+Q5. Keeping in mind the mechanisms of molecular modeling show
+the number of force field involved in the process of modeling
+with use of its various parameters for force field calculations.
+(4)
+2505/138/1/25

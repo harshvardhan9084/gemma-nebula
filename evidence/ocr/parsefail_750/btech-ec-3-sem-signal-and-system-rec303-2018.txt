@@ -1,0 +1,73 @@
+www.aktuonline.com
+Printed pages: 2 Roll No. Sub Code: REC303
+Paper ID:3 009
+(SEM ITI) THEORY B.TECH EXAMINATION 2017-18
+SIGNAL AND SYSTEM
+Time: 3 Hours Total Marks: 70
+Note: Attempt all Sections. If require any missing data; then choose suitably.
+SECTION - A
+Ql. ATTEMPT ALL QUESTIONS IN BRIEF. 2x7=14
+a). Check the periodicity of the signals given below. Determine the fundamental
+time period if signal is periodic:-
+x(t) = sin(10t — 1) — sin(4t — 1)
+b). Find the DTFT of the causal sequence x(n) = a™u(n); |a] <1
+c). Check whether the given system are Time Variant and Causal y(t) = tx(t)
+www.aktuonline.com d). State the convolution property for continuous and discrete time domain signal
+in z-transform.
+e). Determine the Laplace transform & find out ROC for
+f). Draw the signal x(t)= u(t)- u(t-2).
+g).Using final value theorem find final value of signal corresponding Laplace
+transform to
+X() = DG +B)
+SECTION-B
+Q2. ATTEMPT ANY THREE PARTS OF THE FOLLOWING (3*7=21)
+a). Find and sketch the autocorrelation unction R,,(t) a>0
+b). Find the convolution for given
+x[n]=1 for n=-2,0,1 sequence
+2 for n=-1
+0 else
+and h[n]=6[n] — 6[n-1] + d[n-2] — d[n-3]
+c). Find the Fourier transform of the signals given below:-
+i) . x(t) (A, Tix vat
+= _
+Draw the magnitude and phase response of the transformed signal.
+d)If X(s) 5s—7 ith 2 < R{s} < —1. Find x (t)?
+e). state and prove sampling theorem and discuss the effect of under sampling.
+www.aktuonline.com
+www.aktuonline.com
+Q3. ATTEMPT ANY ONE PART OF THE FOLLOWING 7*1=7
+a). 1). What is signal?Give brief classification of signals.
+ii). Prove that power of energy signal is zero over infinite time.
+b). Plot x(t)=u(t) -r(t-1)+ 2r(t-2)-r(t-3)+u(t-4)-2u(t-5). Find the even and odd parts of this
+signal.
+Q4. ATTEMPT ANY ONE PARTS OF THE FOLLOWING 7T*1=7
+a). Determine whether the following continuous time system
+y(t)= x(t) cos (100zt) is
+1) static or dynamic ii) linear or nonlinear iii) shift variant or shift invariant
+iv) causal or noncausal v) stable or unstable.
+b). Find i). x(t)=cos(t) energy and power of the signal ii)x(t)=Ae u(t),
+a>0
+Q5. ATTEMPT ANY ONE PART OF THE FOLLOWING 7*1=7
+a). An LTI system with impulse response h; (n)
+www.aktuonline.com hy(n) = u(n)
+is connected in parallel with another causal LTI system with impulse response The
+resulting parallel interconnection has the frequency response.
+H(ei™) —12 + 5e
+= 12 +
+find the impulse response
+b). Find the Fourier transform of the signal x(t) =e“ u(t) and plot is magnitude and phase
+spectrum.
+Q6. ATTEMPT ANYONEPART OF THE FOLLOWING 7T*1=7
+a). i)Show that if thenX3(S)=aX |(S)+bX,(S)
+ii) If Laplace transform of x(t) is (s+2)/(s’+4s+5). Determine Laplace transform of
+y(t)=x(2t-1)u(2t-1)
+b). A causal LTI system is described by difference equation.
+y(n) = y(n-1) +y(n-2) + x(n-1)
+Find the system function H(z) for this system. Plot the poles zeros of H(z) and indicate the region
+of convergence.
+Q7. ATTEMPT ANY ONE PART OF THE FOLLOWING 7*1=7
+a). Consider the two continuous-time sinusoidal signals
+x,(t)=cos(20at) and x,(t)=cos(100zt)
+Which sampled at rate Find the corresponding discrete time signals.
+b). Explain are system bandwidth a and rise time for low pass filter and prove that
+www.aktuonline.com

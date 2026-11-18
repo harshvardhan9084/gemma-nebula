@@ -1,0 +1,85 @@
+www.aktuonline.com -
+Printed Pages: 3 305 ECS-073
+(Following Paper ID and Roll No. to be filled in your
+Answer Book)
+Roll No.
+B.Tech.
+(SEM. VID) THEORY EXAMINATION, 2015-16
+PARALLELALGORITHMS
+www.aktuonline.com Marks:
+[Time:3 hours] [Maximum 100
+Section-A
+Q.1 Attempt all parts. All parts carry equal marks. Write
+answer of each part in short. (2x 10=20)
+(a) Describe efficiency and speed-up in parallel
+algorithm.
+(b) What are the methods of sequential data
+communication?
+(1) ECS-073
+www.aktuonline.com
+www.aktuonline.com -
+.
+(c) Explain how theoretically parallel algorithms are
+analyzed.
+(d) What do you mean by cost optimality of an
+algorithm?
+(e) Write two approaches used for dimensionality
+reduction.
+(f) What are the different types of components of
+execution time?
+www.aktuonline.com (g) Detine the sequential model. Discuss the need of
+alternative model.
+an
+(h) What is data parallelism? Is it similar to pipelining?
+(i) Define cost optimal and non-cost optimal
+algorithm.
+Q@) What do you mean by parallelizability and
+scalability of an algorithm?
+Section-B
+Note: Attempt any five questions from this section.
+10x5=50
+Q2. What are the various performance measures of parallel
+(2) ECS-073
+www.aktuonline.com
+www.aktuonline.com -
+.
+algorithm? Discuss with example.
+Q3. Cost optimality is seen to judge the goodness of parallel
+algorithm. With the example of summation illustrate this
+concept.
+Q4. Write down the parallel quick sort algorithm. Also
+analyze its time complexity.
+Q5. Define the selection problem. Show that is) the
+lower bound the cost of parallel algorithm for
+selection. on any
+www.aktuonline.com
+Q6. What do by
+you mean parallel sorting networks? Also
+discuss the enumeration sort algorithm.
+Q7. Describe the
+Amdahl’s law in detail. Explain the linear,
+sub linear, super linear and scaled speedup.
+Q8. Discuss and write parallel matrix multiplication
+algorithm using PRAM model.
+Q9. Using odd-even transposition sort to sort these
+sequences: Let X=(g,h,f,d,e,c.b,a). Assume there are
+foour processors and show each step.
+Section-C
+Note: Attempt any two questions from this section.
+(3) P-T.O.
+www.aktuonline.com
+.www.aktuonline.com -
+Q10.What do mean by cost optimal algorithm? Compute the
+speedup,
+cost and efficiency for addition of n numbers
+by using n/2 processors by parallel reduction (parallel
+sum) algorithm compared to sequential algorithm.
+Qli.Let A= be
+the sequence to be searched. Illustrate the working
+procedure CREW_SERCH for x(index value)= 45,
+Given that p (no. of processors) = 3 and show each step.
+www.aktuonline.com
+Q12. What is Parallel Alpha Beta search? Explain in detail.
+wee XK
+(4) ECS-073
+www.aktuonline.com

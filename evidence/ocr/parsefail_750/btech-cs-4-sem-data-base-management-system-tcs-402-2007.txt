@@ -1,0 +1,110 @@
+* v - 1 a 6 8 *
+Printed Pages : 4 TCS - 402
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 1068 Roll No.
+B. Tech.
+(SEM. IV) EXAMINATION, 2006-07
+DATA BASE MANAGEMENT SYSTEM
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+1 Answer any four of the following : 5x4=20
+(a) Define the following terms :
+(i) Data redundancy and consistency
+(ii) Referential Integrity
+(iii) Data atomicity
+(iv) Domain constraints
+(v) Data models.
+(b) Draw the overall structure of DBMS and
+explain its various components.
+(c) Draw an E-R diagram for a hospital with a set
+of patients and a set of medical doctors, with
+each patient a log of the various conducted tests
+is also associated.
+(d) Differentiate between database system and file
+system.
+(e) Discuss the candidate key, primary key, super
+key, composite key and alternate key.
+V-1068] 1 [Contd...
+(f) What do you mean by the terms aggregation
+and generalisation?
+2 Answer any four of the following : 5x4=20
+(a) Given the relational schema
+ENROLL (S#, C#, Section), : S# is student number.
+TEACH (Prof, C#, Section), C# is number.
+course
+ADVISE (Prof, S#), Prof is Thesis advisor of S#
+PRE-REQ (C#, pre-C#), pre-c# is prerequisite course.
+GRADE (S#, C#, grade, year)
+STUDENT (S#, Sname), Sname is student name.
+Give queries expressed in SQL and tuple calculus.
+(i) List of students taking courses with smith
+or jones.
+(ii) List all students taking at least one course
+that their advisor teaches.
+(iii) List those professors who teach more
+than one section of the same course.
+(iv) List all students number and
+number course
+(v) List the student number and course
+number who got grade A
+(b) What are the various characteristics of SQL?
+Discuss five aggregate functions with a suitable
+example.
+() Discuss the selection, projection and join
+operator of relational algebra with suitable
+example.
+(d) What do you mean by Query and sub-query?
+Discuss cursors in SQL also.
+2 [Contd...
+(e) Discuss the various features of relational data
+model in detail.
+3 Answer of the following 10x2=20
+any two :
+(a) What do you mean by Normalization? Explain
+BCNEF and 3NF with a suitable example.
+(b) Describe the term MVD in the context of
+relational database management system by
+giving an example. Discuss 4NF and 5 NF
+also.
+(c) What do you mean by decomposition of a
+relation?
+Consider the relational scheme
+(A,B,C,D,E,F) and
+R FD,
+A>BC,C> A,D>E,F>A,E> D
+Is the decomposition of R into R, (A, C, D),
+R, (B, C, D) and (E, F, D) lossless?
+Explain the requirements for lossless
+decomposition and dependency preserving.
+4 Answer any two of the following : 10x2=20
+(a) What do you mean by schedule in the context
+of concurrent execution of transactions in
+RDBMS? What is serializable schedule? Discuss
+the various types of serializability with a suitable
+example.
+(b) What do you mean by deadlock? What are
+the various conditions under which deadlock
+occurs? Discuss the wait-die and wound-wait
+in detail.
+V-1068] 3 [Contd..
+(c) Compare and contrast the features of log based
+recovery mechanism versus check pointing
+based recovery. Suggest applications where
+you will prefer log based recovery scheme over
+check pointing. Give an example of check
+pointing based recovery scheme. Discuss the
+recoverable schedule also.
+5 Answer any two of the following : 10x2=20
+(a) What do by time stamping protocols
+for you mean control? Discuss multi-version
+scheme concurrency of control also.
+concurrency
+(b) Discuss the validation based protocol with a
+suitable example. Expain two phase commit
+Protocol (2PC) also.
+(c) What do you mean by Locking techniques of
+concurrency control? Discuss the various locking
+techniques and recovery with concurrent
+transaction also in detail.
+4 [ 11585 }

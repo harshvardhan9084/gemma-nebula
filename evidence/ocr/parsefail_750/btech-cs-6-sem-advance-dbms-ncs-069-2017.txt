@@ -1,0 +1,46 @@
+www.aktuonline.com
+Printed Pages : 1 | | | | | | | J TJ NCS069
+B.TECH.
+THEORY EXAMINATION (SEM-VI) 2016-17
+ADVANCE DBMS
+Time : 3 Hours Max. Marks : 100
+Note : Be precise in your answer. In case of numerical problem assume data wherever not provided.
+SECTION-A
+1 Explain the following : (10x2=20)
+a) Transaction transparency
+b) Concurrency control
+c) System log
+d) Orphan and inconsistent message
+e) Check point
+f) Semi joins and bloom joins
+g) Data Replication
+h) Serializable schedules
+i) Thomas write rule
+j) Active databases
+SECTION-B
+www.aktuonline.com 2 Attempt five of the following (10x5=50)
+a) Discuss MOSS any protocol with : its architecture.
+concurrency
+b) Explain why row level locking is generally seen more desirable than table level locking?
+c) Compare the deferred- modification and immediate-modification version of the log-based recovery
+schemes, in terms of ease of implementation and overhead cost.
+d) What do you understand by Database Replication Techniques? What are the parameters of Eager
+Replication?
+e) What is deadlock? How distributed deadlocks are handled in DDBMS?
+f) What is the of fragmentation in distributed database? Describe the various of
+purpose types
+fragmentation methods.
+g) What do you mean by a lock scheduler? Explain the process of obtaining the lock. Explain the lock
+table.
+h) How is transaction management in distributed database different from transaction management in a
+standalone database? Describe distributed transaction management.
+SECTION-C
+Attempt of following (15x2=30)
+any two the :
+3 Discuss Multiple Granularity in detail using an example. Discuss the significance of Multi
+Granularity in database.
+4 What are protocols? Explain lock based and time stamp based concurrency protocol with
+suitable example.
+5 Differentiate between RDBMS and OODBMS. How does the concept of an object in the object
+oriented model differ from the concept of the entity in the entity-relationship model?
+www.aktuonline.com

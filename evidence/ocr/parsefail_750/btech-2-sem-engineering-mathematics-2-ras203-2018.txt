@@ -1,0 +1,68 @@
+Printed Pages: 02 Sub Code: RAS203
+Paper Id: | 1} 9} 9} 2} 2} 3 Roll No.
+B. TECH
+THEORY EXAMINATION 2017-18
+ENGINEERING MATHEMATICS - II
+Time: 3 Hours Total Marks: 70
+Note: Attempt all Sections. If require any missing data, then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x7=14
+(a) Determine the differential equation whose set of independent solutions is le, xe*, xe" \
+(b) Solve: y =2e™.
+(c) Prove that: = (-1)" P, (x).
+(d) Find Laplace transform of s+8
+inverse =———_. +4545
+-l/s vay}.
+find
+s p=£,
+(f) Solve: (D+ 4D'+5)*z =0, where
+ox oy
+(g) Classify the equation: z,, +2xz,, +(1- y =9.
+SECTION B
+2. Attempt any three of the following: 7x3=21
+(a) Solve (D* -2D+4)y =e" cosx +sin xcos3x.
+a 2 sins
+(b) Prove that:
+= 7X x x
+(c) Draw the graph and find the Laplace transform of the triangular wave function of period 27 given by
+t,
+F= .
+2Qa-t,
+—_ e” f(t) 2t, O<t<l
+(d) Obtain half range cosine series for the function =
+Ou Ou
+(e) Solve by method of separation ; of variables: a = x 2u; u(x,0)=10e*
+x
+SECTION C
+3. Attempt any one part of the following: 7x1=7
+(a) Solve the simultaneous differential equations:
+dx 2 2 44% 25x+16e’.
+dt dt and dt dt +4y =
+(b) variation of parameter method to solve the differential equation x*y” + xy’—y =x7e".
+Attempt any one part of the following: 7x1=7
+and Rodrigue’s formula for Legendre’s polynomial.
+(a) State prove
+(b) Solve in series: 2x(1—x)y"+(1-x)y'+3y =0.
+Attempt any one part of the following: 7x1=7
+(a) State convolution theorem and hence find inverse Laplace transform of 2
+(s° +a’ +b°) .
+3 3“ 2
+(b) Solve the following differential equation using Laplace transform a a +3
+where y(0) =1, y'(0) =0 and y"(0) =-2. t t
+Attempt any one part of the following: 7x1=7
+x,
+(a) Obtain Fourier series for the function and hence show that
+—Xx,
+Oz Oz.
+(b) Solve the linear . partial differential 4: . equation: Ox —2 Oxdy =sinxcos2y.
+(a) Attempt any one part of the following: 7x1=7
+A string is stretched and fastened to two points / apart. Motion is started by displacing the string
+in the form Asin from which it is released at time t =0. Find the displacement of
+y= any
+point at a distance x from one end at any time t.
+(b) A rectangular plate with insulated surfaces is 8 cm wide and so long compared to its width that it
+may be considered infinite in length without introducing an appreciable error. If the temperature
+along one short edge y 0 is given by u(x,0) 0<x<8
+= =
+while the two long edges x = 0 andx =8 as well as the other short edge are kept at Find the
+temperature u(x, y) at any point in steady state.

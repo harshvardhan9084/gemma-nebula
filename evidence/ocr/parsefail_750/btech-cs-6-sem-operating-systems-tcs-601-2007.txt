@@ -1,0 +1,171 @@
+* v - 1 0 7 7 *
+Printed Pages : 7 TCS - 601
+(Following Paper ID and Roll No. to be filled in Answer Book)
+PAPER ID your
+: 1077 Roll No.
+B. Tech.
+(SEM. VI) EXAMINATION, 2006-07
+OPERATING SYSTEMS
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions. All questions carry equal
+marks.
+(2) Use suitable diagram wherever necessary.
+1 Attempt any four of the following : 4x5
+(a) Enumerate the basic functions of Operating
+System and explain each in brief.
+(b) Write short-notes on the following :
+Time Sharing System
+(ii) Real-Time System.
+(c) Explain the microkernel approach to operating
+design. Also its advantages
+system enumerate
+and disadvantages.
+(d) List five services provided by an Operating
+System. Explain how each of them provides
+convenience to the Explain in which
+it would be impossible users. for user-level
+cases
+programs to provide these services.
+V-1077] 1 [Contd...
+What is the purpose of the System Calls or
+Application Programmer Interface (APIs).
+Enumerate five calls used in
+system process
+management or file management.
+(f) Define and explain the need of System
+Protection. Give examples.
+two
+2 Attempt any four of the following : 4x5
+(a) Draw the diagram of and label
+state a process
+various transitions. Explain the need of process
+suspension.
+(b) Define the following
+terms :
+(i) Dispatcher
+(ii) Dispatch Latency
+(iii) Scheduling
+(iv) Swapping
+(v) Context switching.
+(c) Differentiate between user thread and kernel
+thread. What is thread cancellation? Explain its
+type.
+(d) Explain various thread models with their relative
+advantages and disadvantages.
+(e) Define section problem and its solution
+by using Semaphore. Use this approach to
+solve Producer/Consumer problem.
+V-1077] 2 [Contd...
+(f) Explain with respect to IPC.
+@) Synchronous and = Asynchronous
+Communication
+(ii) Need of buffering and its implementation.
+3 Attempt any two of the following : 2x10
+|
+(a) What are necessary conditions to hold a deadlock
+in a system? Explain the Resource allocation
+graph algorithm to deal with deadlock problem.
+What are the limitations of this approach?
+(b) Consider the of the given in table—1
+set processes
+and the following scheduling algorithms:
+(i) First-Served
+(ii) Round Robin(quantum=2)
+Git) Round Robin(quantum=1)
+Process id | Arrival time Execution time
+Table - 1
+V-1077] 3 [Contd..
+If there is tie within the processes, the tie is
+broken in the favour of the oldest process.
+(i) Draw the Gantt chart and find the
+waiting time and time average for the
+algorithms. Comment response result which
+is better and why? on your
+one
+(i) If the scheduler takes 0.2 unit of CPU
+time in context switching for the completed
+job and 0.1 unit of additional CPU time
+for incomplete jobs for saving their context,
+calculate the percentage of CPU time
+wasted in each case.
+(©) Differentiate between : (two differences)
+@) Multiprocessor Scheduling and
+Uniprocessor Scheduling
+(i) Deadlock Prevention and Avoidance
+(iti) bound and CPU bound job
+(av) Preemptive and Nonpreemptive scheduling
+(vy) Multilevel queue and Multilevel feedback
+scheduling.
+queue
+4 Attempt any two of the following : 2x10
+(a) A has four frames allocated it.
+process page to
+The time of the last loading of a page into
+each page frame, the time of last access to the
+page, the virtual page number in each frame
+and the Referenced (R) and Modified (M) bits
+V-1077] 4 [Contd..
+for each page frame are shown in the table
+below. Times in clock ticks from the
+are
+process start-time at time 0.
+Virtual Frame Time
+Page # # Loaded | Referenced
+0 6 0
+1 30
+2 6
+2 0
+A fault to virtual 4 has
+page page
+occurred. Which page frame will have its
+contents replaced under each of the following
+replacement algorithms?
+(i) FIFO
+LRU.
+Give reason in support of your answer.
+Also briefly explain the working of these
+algorithms.
+(b) Differentiate between prepaging and demand
+paging. On a system using demand-paged
+it takes 120 to satisfy
+memory, ns a memory
+request if the page is in memory. If the page
+is not in memory, the request takes on an
+V-1077] 5 [Contd..
+average 5 ms. What would the page fault rate
+need to be achieved an effective access time
+of 1 micro-sec? Assume the system is running
+only a single process and the CPU is idle
+during page swaps.
+() Write short the following
+notes on :
+(i) Temporal and spatial locality of reference
+(iit) Memory protection mechanism
+(ii) Memory allocation algorithms
+5 Attempt of the following 2x10
+any two :
+(a) A disk with 1000 cylinders, numbers 0 to 999,
+the number of tracks the disk
+compute arm must
+move to satisfy all the request in the disk queue.
+Assume the last request serviced was at track
+345 and the head is moving towards track 0.
+The queue in FIFO order contains request for
+the following tracks:
+123, 874, 692, 475, 105, 376.
+Perform the computation for the following
+scheduling algorithms:
+(i) FIFO, (ii) SSTF, (iii) SCAN.
+V-1077] 6 [Contd..
+(b) Discuss the Contiguous, Linked, Index and
+Multilevel Indexing file allocation schemes.
+Which allocation scheme will minimize the
+amount of space required in directory structure
+and why?
+(c) Discuss the following with I/O
+System respect to
+:
+Basic functions
+Gi) Block and character devices
+(iii) Spooling.
+V-1077] 7 [ 8950 ]

@@ -1,0 +1,49 @@
+Printed Pages: 02 Sub Code:
+Paper Id: 214419 Roll No.
+MCA
+(SEM IV) THEORY EXAMINATION 2017-18
+DISTRIBUTED SYSTEM
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+Define fault tolerance
+State the advantages of overlays network.
+What are the rules to abort the nested transaction?
+What are the sub activities involved in process migration?
+What is the basic idea behind task assignment approach?
+Define file accessing models.
+What is clock’s drift rate?
+Write down the goals to achieve an optimal assignment.
+Write down the features of scheduling algorithms.
+Difference between ROI and RPC
+SECTION B
+2. Attempt any of the following: 10x3=30
+a. Explain in detail the concept of parallelism transparency.
+b. Define hardware and software resources that can be shared by distributed
+system with examples in detail.
+c. Explain Bully algorithm.
+d. What are vector clocks? What are the advantages of vector clock.
+e. Construct a solution to reliable, total ordered multicast in synchronous system.
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+(a) | What are Agreement protocols? What are Agreement and validity objectives of
+Byzantine Agreement Problems.
+(b) What is routing? What is destination based routing?
+4. Attempt any one part of the following: 10x1=10
+(a) Discuss deadlock free packet switching in detail.
+(b) What is election algorithm? Discuss it
+5. Attempt any one part of the following: 10x1=10
+(a) Explain how process migration is implemented in heterogeneous system.
+(b) Define fault and failure. What are different approaches to fault-tolerance?
+Explain.
+6. Attempt any one part of the following: 10x1=10
+(a) | What is replication? Describe problems and solutions associated with this issue
+in distributed systems.
+(b) What are the atomic commit protocols? Describe operation of two-phase
+atomic commit protocol.
+Attempt any one part of the following: 10x1=10
+(a) | What the various communication protocols? Explain
+are group any one.
+(b) Discuss in detail Data centric and client centric consistency models.

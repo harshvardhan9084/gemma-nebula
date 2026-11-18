@@ -1,0 +1,46 @@
+Printed Pages: 02 Sub Code: RHUO01A
+Paper Id: | 1| 9| 9} 0} 0] 4 Roll No.
+MBA
+(SEM IV) THEORY EXAMINATION 2017-18
+Time: 3 Hours CYBER SECURITY Total Marks: 70
+Note: Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+1. Attempt all questions in brief. 2x7=14
+a. What is meant by cryptography and cryptanalysis?
+b. — Explain Brute force attack?
+c. What is meant by denial of service attack?
+d. Define Malicious Program?
+e. What is meant by Trojan horse?
+f. What is meant by logic bomb?
+g. What is meant by intrusion detection system?
+SECTION B
+2. Attempt any three of the following: 7x3=21
+a. What are the security threats? Discuss.
+b. What is smart card? Differentiate between Credit and debit card?
+c. What is Cyber security? How to secure your information explain in detail?
+d. What are the decision support systems? Discuss major functional
+requirement of a decision support system.
+e. What are electronic payments System? Compare electronic payment system
+on Internet with conventional payment mechanisms.
+SECTION C
+3. Attempt any one part of the following: 7x1=7
+(a) Differentiate between secret key encryption and public key encryption.
+(b) What is the information security? Explain cyber-crime
+and cyber security in this reference.
+4. Attempt any one part of the following: 7x1=7
+(a) What do understand by electronic cash? Explain it processing.
+(b) Explain security you goals in information security?
+5. Attempt part of the following: 7x1=7
+any one
+(a) What is a digital signature? What are the requirements of digital signature
+system? List the security services provided by digital signature.
+(b) Describe the approaches used for Intrusion Detection in a system.
+6. Attempt any one part of the following: 7x1=7
+(a) are the data security considerations? Explain in this reference Data
+backup security, data archival security and data disposal considerations.
+(b) do you understand by Firewall? Explain its types.
+7. Attempt any one part of the following: 7x1=7
+(a) What is Intellectual property Law?
+(b) What is development of information system? Explain spiral model
+of information system.

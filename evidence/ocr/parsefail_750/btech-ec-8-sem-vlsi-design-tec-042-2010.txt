@@ -1,0 +1,80 @@
+aktuonline.com —
+- a”
+Printed Pages —4 TEC —042
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+| [| | | | | I I |
+RollNo.|_|
+B.Tech.
+(SEM VIII) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+VLSIDESIGN
+Time : 3 Hours: Total Marks 100
+:
+Note: (i) Attempt ALL questions.
+(ii) Assume the missing data if any.
+(iii) All questions equal marks.
+carry
+1. Attempt any four parts of the following : (4x5=20)
+(a) Define the term Pull-up and Pull-down
+network (PUN/PDN) used in an inverter
+circuit. Will NMOS or PMOS alone be used
+for PUN as well as PDN ? Give reasons in
+support of your answer.
+(b) Explain the difference between polycide
+2 and salicide CMOS process. Which would
+be likely to have higher performance and
+why ?
+(c) List the parameters that affect the threshold
+voltage of a MOS transistor. What is the
+effect of high-k dielectric when used instead
+of SiO, in MOSFET ?
+www.UPTUonline.com {Turn Over
+//
+aktuonline.com aktuonline.com
+(d) Which polysilicon gates (n* or are (b) Draw and explain the VTC curve of NMOS
+preferred and why ? Does the present inverter using enhancement load - Also
+technology require palysilicon as show its stick diagram.
+replacement of metal gates ? (i) If input voltage falls from high to low
+which region of I-V characteristics the what changes in the working
+(e) In MOSFET simply acts like resistor ? How of driver and load are seen transistor ?
+does the gate voltage modify a its resistivity ?
+(ii) fall can be improved in such
+(f) Discuss the important features of Lambda types of inverter circuit ?
+based design rules. (iii) Why depletion loads is preferred
+compared to enhancement load ?
+of the following (2x10=20) _
+2. Attempt any two parts : (c) Classify ASICs. Compare their
+(a) Discuss the role of scaling in the performanceses. How a fixed part costs
+development of VLSI. Differentiate between associated calculated with ASIC design can be
+constant voltage scaling and constant field ?
+scaling. In both scaling technique performance what
+effects are seen in the electrical of the following
+of the device. 4. Attempt any two : (2x10=20)
+(b) Implement the function ‘F’ given below by (a) Discuss the strategy for developing
+CMOS gates. Also draw its stick diagram - manufacturable specifications for chip
+processing in terms of required control on
+F= (E + D) . (A .D+B. _ (A +C _ threshold voltages, variations in channel
+lengths and widths, gate oxide thickness,
+(c) Compare the pass-transistor logic circuit and substrata and tub doping profiles.
+with that of transmission gates. Implement CMOS ¢ (b) Explain the merits or demerits ; of the bus
+8 to 1 MUX circuit and explain using its working. structure in relation to testability. How
+transmission gates would the bus structure impact the chip
+overhead ?
+3. two of the following : (2x10=20)
+any (c) Givea logic circuit example in which stuck-
+(a) Explain the operation of BICMOS with inverter that at-1 distinguishable. fault and stuck-at-0 Show a few fault logic are circuit in-
+circuit. Compare its performance (Noise Margin, - examples whose logical fault is
+of a CMOS Speed inverter arid circuit Power Consumption) - dependent on the test vector sequence. coverage
+Response
+&
+TEC —042 2 TEC —042 3 [Turn Over
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+of following: (2x10=20)
+5. Write short tor notes on any two the
+a > Serial-Scan Testneo lesung
+SRAM cell
+C 61
+d} Domino Logic “Circuit”
+-o00-
+aktuonline.comttp://www.UPTUonline.com

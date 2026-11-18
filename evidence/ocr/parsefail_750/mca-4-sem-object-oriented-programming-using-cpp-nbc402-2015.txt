@@ -1,0 +1,46 @@
+www.aktuonline.com
+Printed Pages 4
+| :
+(b) encapsulation? What are its advantages? How can 294402 NBC402
+encapsulation be enforced in C++? (Following Paper ID and Roll No. to be filled in your Answer Book)
+(c) Differentiate and give examples to bring out the difference between PAPER ID : 294402
+i) Function overloading and function overriding
+ii) Default constructor and copy constructor
+MCA-DUAL DEGREE
+(SEM. IV) THEORY EXAM. 2014-15
+OBJECT ORIENTED PROGRAMMING USING C++
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt questions as indicated.
+Attempt any four parts of the following : 5x4=20
+(a) What do you mean by virtual class? When do we declare a class
+as virtual in C++?
+(b) What is objects - oriented approach?
+(c) Whatis an aggregation? Explain with an example and diagram.
+294402] 4 [ JJ5 ] 294402] 1 [Contd...
+www.aktuonline.com
+(d) What are the friend functions? Explain the characteristics with a () Write a program to find the sum of two numbers declared in a
+suitable example. class and display the numbers and sum using friend class.
+(e) Explain why do we need to use constructors. Explain a copy
+constructor with example. Q4. Attempt of the following 10x2=20
+an any two parts :
+(a) What is inherence in object-oriented programming? Explain all
+Q2. Attempt any two parts of the following : 10x2=20 inheritance in C++ with suitable example.
+(a) What is an operator overloading? Write a C++ program to (b) Create a base class basic_info with data members name, roll no,
+overload (for pre-decrement). sex and two member functions getdata and display. Derive a class
+operator physical_fit from basic_info which has data members height and
+(b) Differentiate between static binding and dynamic binding. Explain
+weight and member functions getdata and display. Display all the
+the use of virtual function with the help of suitable example. information using object of derived class.
+(c) What do by static class member? Explain the
+you mean () Write short notes on the following :
+characteristics of static class member with suitable example.
+i) Inline function
+ii) Virtual function.
+Q3. Attempt any two parts of the following : 10x2=20
+(a) What is Standard Template Library? How is it different from the
+Q35. Attempt any two parts of the following : 10x2=20
+C++ Standard Library?
+of Why is destructor function required in class? What are the special
+(b) What is exception handling? Explain the types exception characteristics of destructors? Can a destructor accept argument?
+handling and explain with suitable example.
+294402] 2 [Contd... 294402] 3 [Contd...

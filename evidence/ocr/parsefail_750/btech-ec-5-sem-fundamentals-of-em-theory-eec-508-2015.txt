@@ -1,0 +1,67 @@
+Printed Pages : 3
+| 0
+(Following Paper ID and Roll No. to be filled in Answer Book)
+PAPER your
+ID : 121501
+B. Tech.
+(SEM. V) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+FUNDAMENTALS OF ELECTROMAGNETIC
+FIELD THEORY
+Time : 2 Hours] [Total Marks : 50
+1 any four parts 4x3,5=14
+Explain physical
+a. significance of divergence and curl.
+b. Write all four Maxwell’s equations in point and integral
+form for time varying field.
+c. State Stokes theorem and Divergence Theorem.
+d. Express in A=rsin@a, in Cartesian coordinates
+system
+e. Find gradient of y =2 zcos 2.
+Derive
+f the boundary conditions between conductor-free
+space interfaces.
+121501] 1
+[ Contd...
+2 any two parts : 2x6=12
+Poisson’s and Laplace’s equation hence write
+a.
+Laplace equation on cylindrical and spherical coordinates
+system. |
+b. Coulomb’s law. Derive an expression for electric
+field intensity due to-line charge density py .
+electric potential and derive expression for
+c. an
+spherical capacitor.
+parts
+3 any two : 2x6=12
+a. State Biot Savart’s law and derive an expression for
+magnetic field intensity due infinite straight line current
+carrying conductor.
+b. State and explain Maxwell’s equations. Discuss its
+physical significance.
+along z-axis and
+c.  Acurrent filament of 2.5 Ais placed
+current in the direction of Then calculate the magnetic
+a,.
+flux crossing the portion of plane defined by $=
+and
+121501] 2 [ Contd...
+4 . Attempt two parts 2x6=12
+any :
+a. Derive the expression of reflection and transmission
+relation between
+coefficients. Derive the two.
+Explain phenomenon of polarization and explain its
+types.
+A uniform plane wave propagating in medium has
+Bz)a, V/m If a medium is
+characterized by €, = 2, =10 and o =5 S/m.
+Find :
+i) Attenuation constant
+ii) Phase constant
+iti) Velocity of propagation
+iv) Propagation constant
+v) Intrinsic impedance.
+9475
+121501] 3

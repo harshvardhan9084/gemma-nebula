@@ -1,0 +1,58 @@
+Printed Pages: 02 Sub Code: NEE 405
+Paper Id: | 1| 2} 0| 4} 1) 2 Roll No.
+B.Tech
+(SEM IV) THEORY EXAMINATION 2017-18
+SENSOR AND INSTRUMENTATION
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+Attempt all questions in brief. 2x 10=20
+a) Explain the concept of Smart Sensors.
+b) Define & explain Accelerometers.
+c) Give the definition of Signals and Signal Processing.
+d) Explain the advantages of Digital Telemetry System.
+e) Define Digital Printers and their applications.
+f) Explain PCM Display Devices.
+g) Explain the function of Digital Filtering.
+h) Define DAQ System.
+i) Explain the function of Proximity Sensor and Level Sensor.
+j) List the types of Bridge circuits. Explain the function of bridge circuits.
+SECTION B
+2. Attempt any three of the following: 10x3=30
+a) Explain the working principle of different of Flow Sensors. Differentiate
+between Ultrasonic & Electromagnetic type Flow types Sensors.
+b) Explain the working of Frequency to Voltage Convertor. Design First order high
+filter with cut-off frequency 2 KHz. a
+c) pass Explain the Working of LCD. Describe the working of Magnetic Tape Recorder.
+an a
+d) Differentiate i. Gross between and Systematic the following:
+ii. Absolute errors and Relative errors,
+ii. Accuracy & Precision, errors,
+e) Explain the function of a Telemetry system with the help of a block diagram. Explain
+each block
+SECTION C
+Attempt part of the following: 10x1=10
+any one
+(a) Explain & differentiate between Sensors & Transducers. Give a classification &
+characterization of the transducers.
+(b) A Strain Gauge having a Resistance of 120Q gauge factor of 2 is connected in series
+between with a ballast the resistance voltage of (voltage 120 Q across a strain 12v gauge) supply. with Calculate the applied difference &
+with stress output of 140 MN/m’, Modulus across of elasticity of the member no undergoing stress strain
+is 200GN/ a
+Attempt any one part of the following: 10x1=10
+(a) Derive the expression for Output voltage for Active high filter. Calculate the
+cutoff frequency and draw its frequency an pass
+(b) Explain the concept of modulation and demodulation. response. Describe the working principle
+of a Demodulator (Envelop Detector). State some applications.
+Attempt any one part of the following: 10x1=10
+(a) What Recorders? Describe the working of strip chart recorder. Also write its
+advantages are & disadvantages.
+(b) Differentiate between ADC & DAC. Explain the working of sample and hold circuit.
+Attempt any one part of the following: 10x1=10
+(a) the Differentiate Instrumentation between System Instrumentation for System & Virtual Instrumentation. Explain
+(b) Explain the of Virtual Instrumentation Temperature Measurement. System. Explain software based
+virtual Instruments. concept
+Attempt any one part of the following: 10x1=10
+(a) (b) Explain With the digital help of modulation block diagram, & Pulse explain code modulation frequency techniques. modulation telemetry
+What the disadvantages a of frequency modulation? a system.
+are

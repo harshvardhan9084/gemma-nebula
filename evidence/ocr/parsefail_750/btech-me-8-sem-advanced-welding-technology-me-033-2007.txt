@@ -1,0 +1,84 @@
+aktuonline.com aktuonline.com
+*
+4 6 6 6
+Printed * v Pages - : 3 * ME 033
+-
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER. 4066 [| [ [ [ | | |
+B. Tech.
+(SEM. VIII) EXAMINATION, 2006-07
+ADVANCED WELDING TECHNOLOGY
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all 5 questions, choice(s) are within. Answer
+briefly but illustrate it with figures wherever needed.
+Marks are indicated therein.
+1 Write brief notes on any four of the following: 5x4=20
+(a) Gas welding and cutting
+(b) Arc welding (AC & DC)
+, (c) Forces and modes of metal-transfer in Arc welding.
+(d) Resistance welding.
+(e) MIG versus TIG welding.
+(f) Welding equipments and accessories.
+(g) Soldering and Brazing.
+2 Answer any two of the following : 10x2=20
+(a) Explain the principle behind generation of
+LASER and also write its various applications.
+Describe Laser Beam Welding.
+V-4066] 1 {Contd...
+aktuonline.com
+aktuonline.com
+(b) Describe principle, working and applications of
+Electron Beam Welding. What are the possible
+problems/difficulties in it and how it can be
+dealt with?
+(c) What is ultrasonic waves/vibrations and how it
+is generated, and what are its various
+applications? Describe Ultrasonic Welding.
+3. Answer any two of the following : 10x2=20
+(a) Describe the principle, working and applications
+of Explosive Welding/Cladding. What is the
+importance of re-entrant jet in it?
+(b) What do you mean by Underwater Welding
+and write when and where it is important?
+Describe wet-underwater welding and mention
+how arc-stability could be improved in it?
+(c) Describe how spray-welding/deposition
+(metallizing) techniques are done. Explain how
+metallizing is quite useful for reclamation of
+worn-out components.
+4 Answer any two of the following : 10x2=20
+(a) describe the various defects and distortion
+in welding and its and remedies.
+causes
+(b) Draw symbols and sketches and write the
+design considerations/formulae for Lap-joint
+and Butt-joint. How life prediction/estimation
+can possibly be done?
+(c) Draw characteristic (current-voltage) curve of
+Are and of power-resources. Explain how are
+stability/maintenance could be
+achieved?
+V-4066] 2 [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+5 Answer any two of the following : 10x2=20
+(a) Draw temperature distribution on plate around
+the arc/weld at an instant. Explain what do you
+mean by heating-rate and cooling rate, and that
+how it affects the properties of weld?
+(b) Draw(two) neat sketches of welded butt-joint
+of similar parent-metals showing the micro/
+macro structure of grains of the regions of
+Weld, HAZ and Parent-metal :
+(i) Cold-worked metals and
+pure
+Precipitation-hardened alloys.
+which region is weakest and why? Why railway-
+bridge is not welded joint but rivitted-joint?
+(c) Write the problems and_precautions/steps/
+solutions to be taken
+(i) for welding of cast-irons
+and
+(ii) for welding of stainless-steels.
+V-4066] 3 [ 4550 ]
+aktuonline.com

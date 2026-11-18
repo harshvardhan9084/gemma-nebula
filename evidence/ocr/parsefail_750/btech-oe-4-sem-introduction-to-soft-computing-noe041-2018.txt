@@ -1,0 +1,70 @@
+Printed Pages: 02 Sub Code: NOE041/ EOE041
+Paper Id: | 1} 9} 4 1) 1 Roll No.
+B.TECH
+(IV SEM) THEORY EXAMINATION 2017-18
+INTRODUCTION TO SOFT COMPUTING
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+1. Attempt questions in brief. 2x 10=20
+a. Define activation function.
+b. What is the significance of threshold value in neural network?
+Whether the perceptron learning rule is an example of unsupervised learning or not,
+justify your answer ?
+Draw the block diagram for back propogation training.
+Let A and B be the two fuzzy sets given by: A={(a,0.3), (b,0.4), (c,0.6)}, B={(a,0.2),
+(b,0.5), (c,0.7)}. Find the membership value of c in AUB.
+rh Explain Linguistic Variable in Brief.
+oe What do you mean by fuzzy proposition?
+Write GMP fuzzy inference rule.
+om Briefly explain route-wheel selection in genetic algorithm.
+What do you mean by mutation in genetic algorithm?
+SECTION B
+2. Attempt any three of the following:
+a. Define artificial neural network. Explain model of artificial neuron with the help of
+diagram.
+b. until Implement all the AND calculated function using perceptron equal the network for outputs.(initialize bipolar inputs and all the targets
+weights, bias, threshold outputs to are and take to =1) target
+Differentiate between fuzzy zero logic and crisp a logic. For speed control of DC motor
+the membership functions of series resistance, armature a current and speed are
+given as follows:
+Rse= { 0.4/30, 0.6/60, 1.0/100, 0.1/120}
+Ia= { 0.2/20, 0.3/40, 0.6/60, 0.8/80, 1.0/100, 0.2/120}
+N= {0.35/500, 0.67/1000, 0.97/1500, 0.25/1800}
+Compute relation T for relating series resistance to motor speed that is Rse to N.
+Describe Fuzzy rule based system.
+Let X= Y= {1, 2, 3, 4}
+and A= { (a, 0), (b, 0.8), (c, 0.6), (d, 1)}
+B= { (1, 0.2), (2, 1), (3, 0.8), (4, 0)}
+C= {(1, 9), (2, 0.4), GB, 1, (4, 0.8)
+Determine the implication relations IF is A THEN y is B ELSE y is C.
+x
+Discuss the biological background of genetic algorithms.
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+(a) Differentiate between supervised and unsupervised learning.
+(b) Explain the concept of Linear Separability with the help of suitable
+diagram. Implement the AND function using McCulloch-Pitts neuron.
+Attempt of the following: 10x1=10
+(a) Explain any the one architecture part of Perceptron Neural Network Model.
+(b) Using back-propagation network, find the weights for the network shown in
+figure. Use learning rate 0.25 and binary new sigmoidal activation function.
+a o=
+Figure: Back Propagation network
+Attempt any one part of the following: 10x1=10
+(a) Explain the following fuzzy set operations:
+1) Union ii) Intersection iii) Complement iv) Concentration v) Dilation
+(b) Consider three {(x, fuzzy (y, sets 0.2), given (Z, by: 0.5) }
+Q P= {(a, 0.9), (b, 0.4), (c, 0.9) }
+R= = {(x, 0.1), (y, 0.2), (z, 0.7) }
+i) Find the fuzzy relation for the Cartesian product of P and Q R=P X Q
+ii) Find CoR using max-min composition
+Attempt any one part of the following: 10x1=10
+(a) What are the different methods of fuzzy to crisp conversion process?
+Discuss in detail.
+(b) Discuss some industrial applications of fuzzy system.
+Attempt any one part of the following: 10x1=10
+(a) Discuss the working principle and flowchart of G.A.?
+(b) Write i) the Fitness short Function note on:
+ii) Rank Selection

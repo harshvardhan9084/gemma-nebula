@@ -1,0 +1,72 @@
+Printed Pages : 3 EC 605
+(Following Paper ID and _ Roll! No. to be filled in your Answer Book)
+PAPER ID : 3042.
+Tech.
+B.
+(SEM. VI) EXAMINATION. 2006-07
+VLSI-TECHNOLOGY
+Time : 2 Hours] {Total Marks : 50
+Note : Attempt all questions.
+1 Attempt any four of the following : 2.5x4=10
+(a) By means of a sketch, identify the GaAs atoms
+and their positions and compute the atom
+density for the principal planes of GaAs in
+terms of the cube edge and the bond density
+for these planes.
+(b) Gold is introduced into n-type silicon. Show
+that it will behave as p-type. Repeat for p-
+silicon; Here, show that the gold will behave
+as n-type. In both cases, assume that the gold
+concentration is well below the background
+concentration.
+(c) Describe various factors which must be taken
+into account in order to grow single crystals
+which are relatively free from defects in brief.
+(d) Describe a Cz furnace. What are its advantages?
+Draw the equivalent circuit of a base diffused
+resistor showing ail parasitic elements and
+explain in brief.
+V-3042) 1 (Contd...
+2 Attempt any four of the following : 2.5x4=10
+(a) What is the cosmetic inspection and perfection
+evaluation in wafers?
+(b) Does the thickness of the epitaxial wafer
+problem in epitaxial processing from stress pose
+a view point? Discuss a
+your answer.
+(c) What are plasma deposition reactors? Why and
+how are these used?
+(d) Discuss the salient properties of Silicon Dioxide
+in brief.
+Considering premier impurities, describe
+the respective some effects of impurities and damage
+the for Wet Oxidation
+on oxidation rate both
+and Dry Oxidation.
+3 Attempt any two of the following : 5x2=10
+(a) Differentiate between TTL and ECL with
+reference to fabrication techniques.
+(b) What do you understand by “Device
+Simulation’? Discuss in brief.
+Describe lon Beam lithography in brief.
+4 Attempt two of the following 5x2=10
+any :
+(a) Discuss and describe the basic design rules for
+miniaturizing VLSI circuit in brief.
+(b) With the help of IC process flow diagram,
+describe briefly, the basic considerations for IC
+for an n-channel, polysilicon MOS.
+(c) Discuss various CMOS and describe
+tub, tub and twin structures tub.
+p n
+2 [Contd...
+the 5x2=10
+5 Write short notes on any two of
+following :
+fabrication techni ques for multi-emitter and
+(a) IC transistors.
+mult technique.
+(b) MOSIC fabrication
+CVD process.
+{ 685 ]
+v-3042]

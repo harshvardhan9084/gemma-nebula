@@ -1,0 +1,118 @@
+~~ aktuonline.com
+Printed Pages : 4 TEE - 603
+Paper 1D and Roli No. to be filled in your Answer Book)
+PAPER ID : 206]
+B. Tech.
+(SEM. VI) EXAMINATION. 2007
+~ POWER ELECTRONICS
+Time : 3 Hours] Marks ; 100
+Note : Answer all the five questions. All questions carry
+equal marks.
+1 Answer four parts of the following 5x4=20
+any :
+{a) specifications of a power electronic switch.
+(b} List ac to de and ac to ac power electronic
+and draw their
+converters output.
+(c)} Explain switching characteristics of a power
+transistor.
+(d) Draw V-I characteristics of GTO and explain
+a
+its operation.
+(e) Draw two transistor model of a SCR and
+explain its turn-on mechanism. Why does SCR
+in
+not turn-on reverse biased condition ?
+(f) Compare power transistor, MOSFET and IGBT
+with reference to power switching applications.
+aktuonline.com
+V-2061] j {Contd...
+aktuonline.com aktuonline.com_
+- — __
+2 of following : 10x2
+Answer any two parts the
+(a) For the circuit shown in fig 2(a) the
+operating frequency is 2 KHZ and the required
+dv/dt is sec. If the discharge current
+be Jimited to calculate
+(i) the values of R, and C,
+(ii) the power loss in the snubber.
+Rs Cg
++ ~
+250 V R=102
+Fig. 2(a)
+(b) Why does unequal voltage sharing take place
+among series connected thyristors during steady
+state and dynamic state ? How is equal voltage
+shaving obtained in both the states?
+(c) Discuss control strategies for operation of
+choppers. Why is time ratio control (TRC)
+preferred?
+In a step down chopper feeding a resistive
+load, the average output voltage is 109 V. The
+voltage drop across the chopper switch when
+it is ON is 2 V. If the load resistance be 10
+ohm and frequency of operation be 2kHZ. For
+duty ratio of 0.5, calculate :
+(i) de input voltage to the chopper
+(i) the rms output voltage
+(ii) chopper efficiency
+(iv) input resistance of the chopper.
+2 (Contd...
+aktuonline.com __aktuonline.com.
+ee
+10x2=20
+3 Answer any two parts of the following :
+(a) Explain operation of a single phase fully
+controlled bridge converter feeding a highly
+inductive load. Draw wave forms of output
+voltage, load current and source current. What
+happens when the source has inductance and
+discuss its effect on performance of the converter.
+(b) Explain operation of a 3-phase half wave
+controlled converter feeding a highly inductive
+load making current continuous and draw load
+voltage waveform. Derive an expression for de
+output voltage.
+(c) Draw circuit diagram of a single phase dual
+converter and explain its working in continuous
+current mode of operation. How are the firing
+angles of both converters decided? Discuss the
+need of centre tapped inductor.
+4 Answer any two parts of the following : 10x2=20
+(a) A single phase full wave ac regulator feeds a
+pure resistive load. Derive an expression for
+output voltage.
+A single phase, 220 V, 1 KW electric
+room heater is connected across 220 Vac
+supply through a TRIAC. For a dejay angie
+of 90° calculate the power dissipated by the
+heater element.
+(b) Draw acircuit diagram and explain the working
+of static on ioad tap charger for transformers.
+(c) Explain working of a single phase bridge type
+cycloconverter. Draw output voltage waveform
+for output frequency 50% of the input frequency
+for resistive load.
+aktuonline.cqm2061] 3 [Contd..
+~ aktuonline.com aktuonline.com
+5 Answer any two parts of the following : 10x2=20
+(as Expiain operaton of a single phase full bridge -
+inverter. Draw waveshapes, of Output current
+when :
+4) load is pure resistive
+lead is mductive
+Gi) pure
+(iti) load is R-L-C underdamped. Justify about
+the waveshape.
+Explain operation of a three phase bridge
+inverter employing 120° mode of operation.
+Draw waveforms of phase voltages and any
+one line voltage assuming  star-connected
+resistance load.
+Explain operation of three phase current source
+inverter and mention its advantages over voltage
+inverter. Give its applications.
+source
+aktuonline.com
+V-2061) 4 { 2650 j

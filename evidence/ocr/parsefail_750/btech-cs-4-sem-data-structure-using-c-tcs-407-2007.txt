@@ -1,0 +1,125 @@
+* v - 1 0 7 2 *
+Printed Pages : 4 TCS - 407
+(SEM. IV) EXAMINATION, 2006-07
+DATA STRUCTURE USING 'C'
+Time 3 Hours] [Total Marks 100
+: :
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+1 Answer any two Parts :
+(a) () Define Abstract Data type. Explain 5+5=10
+it briefly.
+(ii) | Obtain an addressing formula for the element
+A| i; | | ig |...-[i, | in n-dimensional
+an array
+declared as A[ uy | [Us |
+Assume a major
+representation of the array with one word
+per element. Given that is the address
+for A[0][0] [0].
+ve
+(b) Write a program in C to sort a set of 100 complex
+numbers into ascending order of their absolute values.
+Real and imaginary part of all the complex numbers
+are integers. Absolute value of a complex number
+x +iy is defined as \/x? + y? Choose suitable data
+complex . numbers.
+(c) ( structure What to do represent understand by Worst 4+6=10
+Case time you complexity of algorithm.
+Explain clearly. an
+V-1072] 1 [Contd...
+(ii) Write a function in C which searches
+string x for the first occurrence of string y.
+If Y does not appear in X, then
+function returns zero. Otherwise function
+returns starting position in x of the first
+occurrence of y.
+2 Answer any two parts :
+(a) Write an algorithm for evaluating 6+4=10
+an expression in postfix form.
+(ii) Consider the following infix expression
+T T
+((atb)+C (d+e)+f) (gth)
+Convert the expression to equivalent
+prefix expresison and postfix expression.
+The operator 7 is defined as «1 y = xy
+The operator + is usual addition operator.
+(b) State the Towers of Hanoi 5+5=10
+problem. Write recursive algorithm
+solve the problem. to
+(ii) Design method for keeping stacks
+within a single linear that two neither
+a array so
+stack overflows until all of the memory
+is used. Write a C function push (x,s) that
+pushes element x onto stack s, where s
+is one or other of these two stacks.
+Include all necessary error checks.
+(c) ( How would you implement a 8+2=10
+circular queue of integers in C using
+array. Write routines to implement the
+appropriate operations for it.
+(ii) Differentiate between dequeue and
+priority queue.
+V-1072] 2 [Contd...
+3 Answer any two parts : 5+5=10
+(a) Let p be a pointer to the first mode in
+a singly linked list and x be an arbitrary
+node in this list. Write an algorithm to
+delete the node x from the list. If x=p
+then p should be reset to point to the new
+first node in the list.
+(ii) Write a C function to concatenate two
+circularly linked lists pointed by list 1 and
+list 2 in such a way that circular list
+pointed by list 2 is appended to the
+circular list pointed by list 1.
+(b) How can a polynomial in two variables be
+represented by a singly linked list? Write an
+algorithm to add two such polynomials.
+(c) @) Show that the maximum number of nodes
+in a binary tree of height h is 25*!
+(ii) Formulate an algorithm to find the number
+of leaf nodes in a binary tree. What is
+the time complexity of your algorithm?
+4 6+4=10
+Answer (i) any Write two parts. algorithm for sorting of integers
+(a) using an Quick procedure. What a set is
+time complexity sort of the procedure? average
+(ii) Following case the inorder and postorder
+traversal of are binary T.
+Inordr: a DKIBAEGHJFC tree
+Post order: KDIEAGBFCJH
+construct the tree T.
+(b) What is an AVL tree? Show at 6+4=10
+each step the AVL tree built from
+following sequence of instertions.
+8, 15, 1, 19, 16, 4, 25, 12, 23, 20, 17
+Start with empty tree. Label the rotations
+according to type.
+V-1072] 3 [Contd..
+(ii) Obtain minimum cost spanning tree for the
+following graph using Krushal algorithm.
+10
+(c) Write shortest Warshall path between algorithm to find vertices of 5+5=10
+graph. Explain the any algorithm two briefly.
+(ii) a Write an algorithm to test whether
+a given graph is connected or not.
+5 Answer 10
+(a) Define any B-tree two parts :
+What do understand by order of B-tree?
+Consider the you following B-tree of order a 3.
+Gn)
+(i018)
+Fig. 2
+Show the B-tree after following sequence of operations.
+Insert 43, insert 50, delete 15
+(b) Differentiate between the following : 6+4=10
+(a)  B-tree and B* tree
+(b) Indexing and Hashing
+(c) Internal sorting and external sorting.
+(ii) Show that all B-trees of order 2 are full binary
+trees.
+(c) Define hash function. What do you mean by
+perfect used for hash resolving function? hash Discuss collisions. various methods
+V-1072] 4 [ 10950 }

@@ -1,0 +1,73 @@
+Printed pages: 02 Sub Code: EEC 066
+Paper Id: 131816 Roll No:
+B TECH
+THEORY EXAMINATION 2017-18
+MICROWAVE & RADAR
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections.
+2. Assume any missing data.
+SECTION A
+1. Attempt all questions in brief. 2 x10 =20
+a. What are microwaves? Write their frequency range? How are they different from RF
+wave?
+b. What are degenerate modes?
+c. What is quality factor in microwave resonator?
+d. Define Write any VSWR two properties in microwave. of E-plane tee microwave device.
+e. f. What is the condition for sustained oscillation in Reflex Klystron?
+Explain V-I characteristics of tunnel diode.
+h. g. Explain basic principle of radar system with suitable diagram.
+i. What is Doppler Effect?
+j. Explain the term Blind speed?
+SECTION B
+2. Attempt any three of the following: 10x3=30
+a. What is a micro strip line? Compare micro strip line with strip lines. Write advantages
+and disadvantages of both. How does the characteristics impedance of micro strip line
+change with change in width to height ratio?
+b. What is directional coupler? What are the different types of directional coupler?
+Explain the working principle of 2-hole directional coupler. Also determine its S-
+matrix.
+c. (i) Discuss the salient features of microwave measurements. Describe a voltage
+standing wave ratio (VSWR) meter.
+(ii) What is meant by insertion loss and attenuation? Discuss any one method for
+measurement of attenuation using microwave test devices.
+d. What the construction is velocity and modulation? working of How reflex is it klystron. achieved in a two cavity klystron? Describe
+Explain MTI radar with suitable a block diagram. Also give its applications. Compare
+e. Pulse Doppler Radar & MTI radar with block diagram.
+SECTION C
+3. Attempt any one parts of the following: 10x1=10
+a. How similarities are waveguides and dissimilarities. different Show from normal that for two TEo1 wire mode, transmission frequency line? of Discuss 6 GHz will the
+through the waveguide of dimension a 1.5 b | a if a dielectric with
+pass 4 is inserted into the waveguide. a = cm, = cm e& =
+Derive all electric and magnetic field components in transverse magnetic mode of
+rectangular waveguides. Show that the TMoi and TMio modes in rectangular
+waveguide do not exist.
+4. Attempt any one parts of the following: 10x1=10
+a) Explain the construction, working and application of microwave isolators. A
+rectangular calculate cut-off cavity resonator number has and dimension phase a = 7.5 cm, b = 4 cm and c = 16 cm
+b) What do wave by microwave cavities? constant. Describe the rectangular cavity resonator.
+Explain you it with mean suitable diagram and equivalent circuit. Where does it find
+applications?
+5. Attempt any one parts of the following: 10x1=10
+a) What are the limitations of conventional active devices at microwave frequencies?
+Explain in detail.
+b) What is travelling tube? Explain the principle of operation and construction of
+T.W.T. Also write its wave limitations.
+6. Attempt any one parts of the following: 10x1=10
+a) With the help of suitable diagram, explain principle of operation of TRAPATT
+diodes. Also write its characteristics and applications.
+b) Explain the working of IMPATT Diode. An IMPATT diode has the following
+parameters:
+Carrier drift velocity : 2107 cm/s
+Drift-region length :L=6um
+Maximum operating voltage : Vomax = 100 V
+Maximum operating current : = 200 mA
+Efficiency
+Breakdown voltage : = 90 V
+Compute: (i) the maximum CW output power in watts: (ii) the resonant frequency in
+gigahertz.
+7. Attempt any one parts of the following: 10x1=10
+a) Derive radar equation. Radar is operating at 10GHz with the peak of
+500KW, the power range gain of antenna is 5000 & minimum power of the receiver power is
+Calculate the maximum range of radar if the effective area of antenna is 10m? & radar
+cross-section is
+b) What affect do the you performance mean by radar of radar? clutter? Explain various types of radar clutters. How they

@@ -1,0 +1,69 @@
+aktuonline.com
+Printed Pages—4
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID:
+B.Tech.
+(SEM gh? IV) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+ENERGY CONVERSION
+Time : 3 Hours ‘Total Marks : 100
+Note: (i) Attempt ALL the questions.
+(ii) All questions carry equal marks.
+1. Attempt any two parts : (2x10=20)
+(a) Explain the constructional features and
+principle of working of rotating electrical
+machine.
+(b) Deduce the expression for torque in round
+rotor machine.
+(c) Determine the breadth and pitch factor for
+a 3-phase winding with 2 slots per Pole per’
+phase. The coil span is 5 slot-pitches. If the
+flux density wave in the air-gap consists of
+the fundamental and 24 % third harmonic,
+calculate the percentage increase in the rms
+value of the phase voltage due to harmonic. .
+aktuonline.com TEE — 406 1 Over
+aktuonline.com aktuonline.com
+2. Attempt two parts (2x10=20) 4. Attempt any four parts : (4x5=20)
+any :
+(a) Explain the concepts field control and (a) The junction capacitance of a thyristor in
+armature control method for DC motors the state of reverse blocking is 25 pF. What
+with their advantages and disadvantages. is the dv/dt capability of the thyristor if the
+(b) A 220 V shunt motor with an armature charging device can be turned of 0.30 on A following ? flow of
+resistance of 0.5 Q is excited to give constant current
+main field. At full load the motor runs at (b) What is role of free wheeling diode in a half
+500 rpm and takes an armature current of wave rectifier feeding an inductive load ?
+30 A. Ifa resistance of 1.0. is placed in the How the firing pulses in cycloconverter
+armature circuit, find the speed at should be arranged to get a low frequency
+full load output voltage nearly sinusoidal a ?
+(i) torque
+(ii) double full load torque. (d) Describe the operation of a DC series motor
+on a single phase semi.converter. Develop
+(c) Draw and explain the different and the governing equations.
+characteristics compound of DC series, shunt (e) The latching current for a thyristor being
+motors. 50mA, the device is inserted between a load
+and a dc voltage source of 50
+(2x10=20) Calculate the minimum width of the gate
+3. Attempt any two parts : pulse required to turn on the thyristor when
+(a) Explain the construction and principle of the load is :
+operation of a synchronous motor with the (i) Purely inductive having
+relevant diagram. inductance of 120 mH and an
+(b) the equivalent circuit diagram for the
+three Draw phase induction Also draw the (ii) Consisting of resistance and
+torque-slip characteristics. motor. a} inductance of 12 ohm and 100mH
+respectively.
+A 200V, 3-phase star connected
+synchronous molor has an effective
+resistance and synchronous reactance of 5. Attempt any two parts : (2x10=20)
+0.2 QO and 2.2 Q respectively. The input is (a) What different methods of speed control
+800 kW al normal voltage the induced line of induction are motor ? Why thyristorised
+emf is 2500 V. Calculate a the line current and method is advantageous ?
+power
+TEE — 406 TEE — 406 3 . [Turn Over
+aktuonline.com http://www.UHTUonline.com
+aktuonline.com aktuonline.com
+(b) Describe the operation of a three-phase 120°
+mode voltage source inverter and draw its
+voltage waveforms.
+(c) control Explain circuit. the term Describe duty cycle the operation in chopper of
+step-down chopper circuit.

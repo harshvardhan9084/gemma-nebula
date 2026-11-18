@@ -1,0 +1,62 @@
+Printed Pages: 3 TECS06
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER 1D: 2058
+B.Tech
+(SEM V) ODD SEMESTER THEORY EXAMINATION 2009-10
+COMMUNICATION ENGG,
+~ * Time: 3 Hours, [Total Marks: 100
+Note; Attemp: all questions.
+1 anv four parts of the following : 5x4=20
+(a) A voltage
+nt)
+f ft
+resistor of 100 ohms. Find the
+by each of the frequency
+nts in the voltage V.
+division multiplexing (FDM).
+cy
+(c) A carrier a frequency of 20 kHz is
+amplitude modulated signal
+Find the
+(d)
+(e)
+18
+(f) Explain and draw block diagram of an SSB
+transmitter using the filter system
+JJ-2058] [Contd..
+the
+2 Attempt any four parts of the following -: 5x4=20 Attempt any two parts of following : 10x2=20
+(a) Determine and draw the instantaneous frequency (a) Describe in detail the main abnormal ionospheric
+of a wave having a total phase angle given by variations, including a brief mention of the
+(é) sin interference that may be caused by the sporadic
+w = 20002 + 10¢ E layer.
+What is the function of the balanced modulator (b) Briefly explain :
+in the Armstrong modulation system ? (i) | Stationary satellite
+Show that the output signal to noise ratio in an system
+FM system is related to the AM system as (ii)
+follows : Explain in brief :
+@) Cellular system
+Gi) Personal communication system.
+m
+Attempt any two parts of the following : 10x2=20
+(d) Show that a low pass filter can be used as a (a) Using circuit diagram, explain how sync pulses
+discriminator. are obtained from the composite video
+(e) Explain spike generation and threshold effect waveform, and how, in turn horizontal sync
+pulses are extracted.
+(f) Explain the effect of random noise the output (b) briefly discuss
+of FM receiver fitted with amplitude on limiter. -
+an an (i) Evanescent field
+(ii) Cross Hanchen shift
+3 Attempt any two parts of the following - 10x2=20 (iii) Mode coupling.
+(a) What is quantization error ? How does it (c) Define normalised frequency for optical
+depend upon the step size ? Suggest some fiber and explain its in determination an of
+methods to overcome the difficulties encountered number of guided modes uses propagating within
+when the modulating signal amplitude swing is step index fiber. a
+large.
+(b) Describe delta modulation What its
+limitations be systems. are
+? How can they overcome ?
+(c) Explain adaptive Delta modulation. And compare
+between PCM ‘and DM.
+[Contd..
+55-2058) 2 44-2058) 3 [ 1200 ]

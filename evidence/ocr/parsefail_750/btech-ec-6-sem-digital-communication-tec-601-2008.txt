@@ -1,0 +1,151 @@
+-
+Printed Pages : 7 TEC 601
+(Following Paper ID and Roll No. to be filled in Answer Book)
+PAPER ID : 3091 your
+B. Tech.
+(SEM. VI) EXAMINATION, 2007-08
+DIGITAL COMMUNICATION
+|
+: 3 Hours] [Total Marks : 100
+_
+Note : (1) Attempt all questions.
+(2) All question equal make.
+carry
+(3) In case of numerical problems assume data
+wherever not provided.
+1. Attempt any four parts of the following : 5x4=20
+(a) What is mutual information? How is it related to
+channel capacity?
+(b) What is 'Prefix Coding’? Explain with the help
+of suitable example. Write the equation of Kraft-
+McMillan In equality and also state the
+application.
+(c) Draw the block diagram of Digital
+communication transmission and receiver system
+and explain the each block.
+©3091) [Contd...
+(d) Asource produces six méssage with probabilities
+AS AS A and A respectively. Obtain
+the information content of each message and the’
+entropy of the source.
+(e) A discrete memoryless source has an alphabet of
+seven symbols whose probabilities of occurrence
+are as follows:
+| | eras | | 018 | | |
+Huffman
+Determine the code for above source.
+(f) Consider 8 alphabet source with probability of
+occurrence as follows:
+[a
+Probability | 0.30 | 0.20 | 0.15 | 0.12
+According to Shannon-Fano techniques, generate
+the binary codes.
+of the following 5x4=20
+2 Attempt any four parts :
+(a) Explain why quantization noise could effect small
+amplitude signals in PCM for
+a system more
+than large signals.
+NUN) 2 [Contd..
+(b) What is companding? Why is it used? Illustrate
+answer with a sketch of companding curves.
+your
+What is Delta modulation? Explain the limitations of
+modulation with suitable diagram.
+Delta
+slope overload distortion and granular
+(d) What is the modulation and how is it removed in
+noise in Delta Modulation?
+Adaptive Delta
+line codes for the
+(e) Define the following types of data.
+electrical representations of binary
+(i) Unipolar NRZ signalling
+(i) Bipolar RZ signalling
+Prove that the output signal of a matched fileter is
+proportional to a shifted version of the
+Autocorrelation function of the input signal to
+which the filter is matched.
+10x2=20
+Attempt any two parts of the following :
+Intersymbol
+(a) (i) | What do you understand by
+Interference (ISI)?
+(ii) Explain the generation and detection of Ask,
+with neat block diagram.
+(b) Draw the block diagram of DPSK transmitter and
+receiver. The binary sequence 11001000 is
+applied to the DPSK transmitter.
+. Sketch the resulting wave form at the
+transmitter output.
+(ii) Applying this wave form to the DPSK
+receiver. Show that, in the absence of
+noise, the original binary is
+reconstructed the sequence
+at receiver output.
+(c) Explain the
+condition of orthogonality of the two
+BFSK signals and the signal space diagram for
+the orthogonal signal. Derive an expression for
+the probability of error in synchronous detection
+of the BFSK signal using matched filter. |
+4 Attempt any two parts of the following : 10x2=20
+(a) Draw the block diagram of FSK system and
+explain the operating principle.
+An FSK system transmits binary data at the rate @
+of 2.5 x 10° bits per second. During the course
+of transmission, white Gaussian noise of zero mean
+and power spectral density 10-29 W/Hz is added
+to the signal. In the absence of noise the amplitude
+of the received sinusoidal for digit 1 0 is
+1 wave or
+mv.
+U-30917 4 [Contd...
+Determine the probability of symbol
+average
+error for the following system configurations.
+Coherent binary FSK
+(i) Non coherent binary FSK
+(b) What is multiplexing? Why is it needed? Explain
+with
+the principle of time Division Multiplexer a
+sketch to show how the interleaving of channels
+takes place.
+the block diagram and explain the working
+(c) Draw
+operation of the T carrier system.
+5 Attempt any two parts of the following : 10x2=20
+(a) Consider the (7,4) Hamming code defined by the
+generator polynomial g(x)=1+x+x°. The code
+noisy channel,
+word 0111001is sent over a
+producing the received word 0101001 that has a
+single error. Determine the syndrome polynomial
+s(x) for this received word and show that it is
+identical to the error polynomial /(x).
+U-3091) [Contd...
+(b) Consider the rate r= y, constraint length
+k =2 conventional encoder of the following
+figure. The code is systematic. Find the
+encoder output produced by the message
+sequence 10111.
+Modulo 2
+adder ,
+Input Output
+Flip Flop
+(ii) | Construct the code tree for the conventional
+encoder of above figure. Trace the path
+through the tree that corresponds to the
+message sequence 10111.
+\
+(c) A (7,4) linear block code is generated according
+to the following parity check matrix.
+1110100
+1010
+1011001
+U-3091) MA 6 [Contd...
+The received denoted codeword Y is 1000011
+for transmitted code Word X. Find the
+a
+corresponding data transmitted.
+[ 8400}

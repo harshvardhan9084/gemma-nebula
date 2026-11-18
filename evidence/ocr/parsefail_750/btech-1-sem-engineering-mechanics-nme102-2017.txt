@@ -1,0 +1,77 @@
+www.aktuonline.com
+Printed pages: 03 Sub Code: NME102/EME102
+Paper Id: 1 Roll No:
+B TECH
+(SEM Il) THEORY EXAMINATION 2017-18
+ENGINEERING MECHANICS
+Time: 3 Hours Total Marks: 100
+Notes: 1. Attempt all Sections. Assume any missing data.
+Q. No. 1- Attempt any four parts. [4x5 =20]
+a) State and prove Varignon’s theorem.
+b) Ifthe force F shown in figure is resolved into components parallel to the bars AB and BC,
+the magnitude of the component parallel to bar BC is 4 kN. What are the magnitudes of F
+and its component parallel to AB?
+4.0m
+The 2225-N block shown in figure is in contact with 45° incline. The coefficient of static
+www.aktuonline.com friction is 0.25. Compute the value of the horizontal force P necessary to just prevent motion
+down the incline.
+d) A 1000 N cylinder supported by horizontal rod AB and smooth uniform rod CD which
+weighs 500 N shown in figure. a Assuming A B C and D to a be pin jointed and weight of AB
+is negligible, Find as reactions at C and D.
+e) Find the least value of P required to the system of blocks shown in given figure to have
+impending motion the left. The coefficient cause of friction under each block is 0.20.
+to
+Q. No. 2- Attempt any two parts. [10x2=20]
+a) Find the force in each member of the in shown in figure.
+truss
+www.aktuonline.com
+www.aktuonline.com
+5 KN/m 5EN 15EN
+c) Find the expression A for 2m Shear Force and Bending 15mD Moment, hence Elm draw F the SFD and BMD for
+the beam shown in figure.
+270 N/m
+Fig 6m 3m 4
+c
+www.aktuonline.com
+Q. No. 3- Attempt any two parts. [10x2=20]
+a) Find the centroid for a triangle and sector of a circle as shown in figure.
+Find the polar of inertia of semicircle about its from which a triangle base
+b) moment a center
+120mm and height 60 mm is removed as shown in the figure.
+120 mm
+c) Find the mass moment of inertia of a sphere about its centroidal axis.
+Q. No. 4- Attempt two parts. [10x2=20]
+any
+a) Find the tension in the string and acceleration of blocks A and B weighing 200 N and 50 N
+respectively, connected by a string and frictionless and weightless pulley as shown in figure.
+www.aktuonline.com
+www.aktuonline.com
+b) Two equal weight of 3000 N are lying on two inclined planes connected by a string passing
+over a frictionless pulley as shown. Using D’Alembarts principle, find the acceleration of the
+weights and tension in the string. 0.2 for wedge.
+u=
+30° 60°
+c) (i) A fly wheel makes 100 rev from a velocity 120 rpm to 160 rpm. Find the acceleration and
+time taken. Also find the total number of revolution if the fly wheel started from rest.
+(ii) Acceleration of a particle is given by a=10-x. Particle starts from rest at x=0 v=0. Find the
+position when velocity is zero and the velocity when acceleration is zero.
+www.aktuonline.com
+Q. No. 5- Attempt any four parts. [4x5 =20]
+a) State assumptions for Bending. Derive expression for bending Equation.
+b) A simply supported beam, 2 wide by an 4 high and 12 long is subjected to concentrated
+load of 2000 N point 3 m from of m the Determine m the maximum a fiber
+c) propeller at shaft a transmitting m one supports. without exceeding shearing stress. of
+450 KW at 300 rpm a stress
+40 kN/mm?. or twisting through more than 1°per meter. Compute the proper diameter if G = 80
+d) Find the elongation for the tapered circular bar with given dimension in figure. Also find the
+total strain energy.
+50 mm
+/ 50 cm
+\ 20 mm /
+\ i
+200 KN
+e) Amember ABCD of uniform diameter 200mm is loaded as shown in figure, find the net change
+in length if
+100 kW 60 Lk 40 LN 80 kN
+A 200 mm E 300 nom Cc £00 mom D
+www.aktuonline.com

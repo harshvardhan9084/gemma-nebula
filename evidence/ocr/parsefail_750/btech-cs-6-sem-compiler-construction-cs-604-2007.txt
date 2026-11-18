@@ -1,0 +1,104 @@
+cS 604
+Printed Pages : 4 -
+_ be filled in your Answer Book) |
+(Following Paper 1038 ID and Roll No. to
+PAPER ID:
+B. Tech.
+EXAMINATION, 2006-07
+(SEM. VI)
+COMPILER CONSTRUCTION
+[Total Marks : 100
+Time : 3 Hours]
+all questions.
+Note : Attempt
+four parts of the following : 5x4=20
+1 Attempt any how YACC can be used to generate
+(a) Discuss Also, explain the format of its input
+a specification parser. file.
+_ that regular sets are closed under
+(b) Prove Present a method for constructing
+DFA with an intersection of two regular sets.
+Construct a finite automata that will accept
+(c) those strings a of a binary number that are
+divisibe by three.
+(d) Find the DFA recognizing the language
+described by the regular expression.
+alabb\a*b* equivalent to
+(ec) Find the reduced that is
+the CFG given below :
+A->bSCa
+B-aSB\|bBC
+C aBC\ad
+V-1038] 1 [Contd...
+(f) What is the language accepted by the finite
+automata whose transition diagram is given
+below : (Fig. 1).
+Fig. 1
+2 of the following 10x2=20
+Attempt Construct any two the parts LALR passing table : for the
+(a) following
+grammar :
+S—> AA
+A>aA|b
+(b) Construct a predictive parsing table for the
+following grammar where S| is a start symbols
+and # is the end marker.
+S#
+S— qABC
+Boatle
+Coble
+V-1038] 2 (Contd...
+(c) Consider the and whether the
+is LL(1) grammar test
+grammar or not.
+S—|ABle
+A->|AC\|OC
+B>OS
+3 Attempt any two parts of the following : 10x2=20
+(a) Generate three address code for the
+following code :
+switch q+b
+{
+1: x=x+1
+case
+case 2:
+case 3: z=2z+3
+default : c=c-1
+Construct
+(b) an SLR(1) parsing table for the
+following grammar :
+S—
+A)
+P)(P,P
+P {num, num}
+into
+(c) Transform the following DFA NFA an
+optimal/minimal state :
+V-1038] [Contd...
+4 Attempt any two parts of the following : 10x2=20
+(a) Write the syntax directed translation to go
+along with the LR parser for the following:
+S—+AE
+A- DS while
+(b) For the grammar having productions :
+Compute FIRST FOLLOW of —
+A relation R and the of integers set defined 4.
+(c) on set
+as
+R ={(a,b)|a—b is even integer}
+Show that R is equivalence.
+5 Attempt any two parts of the following : 10x2=20
+(a) Give three-address code for the following
+code fragment. :
+if a<6 then
+while e¢>qd do
+x=x+y
+else do
+p=p+qd
+while e<=f
+(b) Construct an LALR(1) parsing table for the
+following grammar :
+L-L,id|id
+T — integer
+(c) Write a short note on code optimization.
+V-1038] 4 [ 1195 ]

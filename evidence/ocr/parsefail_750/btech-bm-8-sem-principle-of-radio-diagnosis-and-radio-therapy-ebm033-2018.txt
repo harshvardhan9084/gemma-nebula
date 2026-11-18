@@ -1,0 +1,56 @@
+Printed Pages:02 Sub Code: EBM 033
+Paper Id: | 0} 1] 6} 3) 3 Roll No.
+B.Tech
+(SEM THEORY EXAMINATION 2017-18
+PRINCIPLE OF RADIO DIAGNOSIS AND RADIO THERAPY
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x 10=20
+a) What are X-rays?
+b) Describe filament circuits.
+c) Explain the meaning of bucky grids.
+d) Explain the use of tables and arms.
+e) Explain film exposure time.
+f) Discuss some applications of photo timers.
+g) Explain the types of angiography.
+h) What is digital angiography?
+i) Explain advantages of radio therapy.
+some
+j) What do you mean by ISODOSE charts?
+SECTION B
+Attempt any three of the following: 10x3=30
+a) Describe the various components of a radiographic system with the help of a suitable
+diagram.
+b) What is radiography collimeter? Explain how scattered radiations are controlled in
+radiography collimeter.
+c) What do you mean by photo timers? Describe the different types of by photo timers.
+Describe their limitations.
+d) Discuss the applications of digital angiography. Explain digital subtraction
+angiography.
+e) Explain the principle of linear accelerators for radiation therapy. Explain the physical
+principles of radiation therapy.
+SECTION C
+Attempt any one part of the following: 10x1=10
+(a) Describe the various types of X-ray tubes for medical applications.
+(b) Explain the working of an X-ray unit. With the help of a block diagram explain the
+electrical circuit of an X-ray unit.
+Attempt any one part of the following: 10x1=10
+(a) What do by Flouroscopy systems? Explain the TV chain for Flouroscopy.
+you mean
+(b) Describe the various characteristics of an imaging system. Explain the properties of
+X-ray films and X-ray screens.
+Attempt part of the following: 10x1=10
+any one
+(a) Explain the working of an automatic brightness control system. Describe its
+applications and advantages.
+(b) What are Serial film chargers? Describe the various types of Serial film chargers.
+Attempt of following: 10x1=10
+any one part the
+(a) Describe the architecture of image processor for digital angiography.
+(b) Explain the Temporal integration technique for digital angiography. Describe the
+applications also.
+Attempt any one part of the following: 10x1=10
+(a) Explain the various protection methods and safety protocols.
+(b) Explain the principle of radio therapy. Explain the concept of Radiation therapy
+planning.

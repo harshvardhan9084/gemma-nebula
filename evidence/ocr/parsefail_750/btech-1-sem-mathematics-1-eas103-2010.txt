@@ -1,0 +1,194 @@
+aktuonline.com aktuonline.com
+TT
+Printed Pages; § EAS193
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+9601
+B.Tech
+(SEM I) ODD SEMESTER THEORY EXAMINATION 2009-10
+MATHEMATICS-1
+Time : 3 Hours} [Total Marks : 100
+SECTION - A
+All parts of this question are compulsory. 2x10=20
+2
+1 (a) If f(x) = FO) +k f,0) fy@k), 0<0<1
+then the value of when and
+is given as
+(b) The shortest distance from the point (1, 2, -1) to
+the sphere x 42" =24 shall be
+(c) Uv for =e” sin y,
+y
+“Sy. v=x sin y shall be
+mi [Contd...
+aktuoniin dine. com
+aktuonline.com aktuonline.com
+(d) For the curve ay” =" (a—x), which of the
+following statement(s) is/are Incorrect ?
+@ Curve passes through origin
+(i) Curve is symmetrical about y axis
+(ii) | Curve has two branches
+(iv) Curve has no tangents at origin.
+(e) If P and Q are non-singular matrices, then for
+Matrix which of the following
+statements are _
+correct ?
+(@) Rank (PMQ)> Rank M
+Gi) Rank (PMQ)=Rank M
+Rank (PMQ)< Rank M
+(iv) Rank (PMQ)=Rank M Rank (PQ)
++
+() If 4 is an eigen value of the matrix 'qg' then for the
+matrix (M 21), which of the following statement(s)
+is/are — ?
+correct
+(i) Skew symmetric
+Non singular
+(iii) Singular
+(iv) None of these.
+Indicate True / False for the following statements :
+oO J .
+4g) For f(x y) dx dy, the change of order of
+we 0x
+integration is
+(i) J
+f(x y) dx dy True / False
+00
+JJ-9601] TMI 2 [Contd...
+aktuonline.com aktuonline.com
+(ii) f f(x ») dx dy True / False
+x 0
+(iii) JJ
+f(xy) dx dy True / False
+00
+oo x
+(iv) f J f (x y)dx dy — True / False
+0 0
+(h)
+The value of is given by
+@ Vn True / False
+(ii) avn True / False
+(iii) True / False
+(iv) True / False
+Pick the correct option from the following
+up :
+> [F >
+gy — If F is the velocity of a fluid particle then -dr
+Cc
+represents
+Work done
+(11) Circulation
+(mi) Flux
+(iv) Conservative field.
+33-9601)
+aktuonline.com
+aktuonline.com aktuonline.com
+(Gj) The value of [F -n ds where
+Ss
+4
+F=axi+by “ x a, b, c being . constants
+given by
+is
+(i)
+Z(a+b+e)
+(ii)
+fii)
+n(at+b+e).
+SECTION B
+-
+Attempt any three parts of the following : 10x3=30
+(a) Determine the values of and for which the
+2
+following system of equations has
+x-by+4z=-3,
+it) No solution
+A unique solution
+(iii) Infinite no. of solutions.
+JJ-9601] [Contd...
+aktyonline.com
+aktuonline.com aktuonine.com
+x}, D”
+(b) Find the value of = dx”
++2)
+(c) If (x+y) (y y(x+
+then show that U, w not independent and find
+are
+the relation between them.
+(d) A rigid body is rotating with constant angular velocity
+w about a fixed axis. If 'y' is the linear velocity of
+any point of the body then prove that curl v=2w.
+(e) Assuming 0<n <1, show
+Pl
+f dv=( T
+that l+x sin pt
+0
+SECTION C
+-
+All questions of this section are compulsory. Attempt 10x5=50
+any two parts from each question
+log y }
+3 (a) [If a then evaluate the value
+(1-x") 2 —Qn+)x 2 2 =0
+with usual symbols.
+35-9607) [Contd...
+aktuonline.com aktuonline.com
+Casal
+(b) If -1 xty show that
+1
+x Ox Oy u=0,
+Verify Euler's theorem for 2
+= 1/2 1/2
+4 In a plane A ABC, find the maximum value of
+cos Acos BeosC.
+(b) If then evaluate
+A(x, y)
+ow
+The power required to propel a steamer of length
+at a speed is given by P=2 where
+x is constant. If w is increased by 3% and ] is
+decreased by 1%, find the corresponding increase sya
+int P'
+5 (a) Show that of the matrix
+row vectors
+-2
+1 2
+-1 3 | are linearly independert.
+0 -2 I 2
+35-9601 TA 6 >
+aktuoniine.com
+aktuonline.com aktuonline.com
+(b) Find the rank of the following matrix using the
+1-3 1 2
+ementary transformations|g 4 9 3g
+3. 4 1 -2
+i 2-381 445i
+(c) Express the matrix 0
+as a sum of Hermitian and Skew Hermitian matrix.
++ (a) the physical meaning of curl F and div
+(b) the divergence theorem for the function
+F i- ay
+=Axz yz taken over the cube
+bounded by planes x=0, x=1;
+y=0, y=1; z=0, z=1.
+(c) Ifa vector field is given by
+F=(x" (ae wt +x) Is this field
+—y
+irrotational ? If so, find its scalar potential.
+2 2
+(a) Evaluate ff dx dy over the first
+R a
+2 2
+of the ellipse 1.
+a” 6b
+7
+[Contd...
+aktuonline.com aktuonline.com
+ellipsoid’
+(b) Find the mass of the region bounded by
+x 2 2
+if the density the
+a varies as
+square of the distance from the centre.
+A triangular prism is formed by the planes whose
+equations are ay = bx, y=0 and Find the
+. volume of this prism between the plane Q and the
+z =
+surface Z2=C+xXy.

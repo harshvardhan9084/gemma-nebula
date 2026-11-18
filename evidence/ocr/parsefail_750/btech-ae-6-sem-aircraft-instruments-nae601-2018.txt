@@ -1,0 +1,42 @@
+Printed pages: 02 Sub Code: NAE 601
+Paper Id: 148608 Roll No:
+B TECH
+(SEM-VI) THEORY EXAMINATION 2017-18
+AIRCRAFT INSTRUMENTS
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+2. Any special paper specific instruction.
+SECTION- A
+1. Attempt all Parts. All equal marks. (2x10 20)
+parts carry =
+P Write the basic component of fiber optic cable.
+s What the basic parts of ECAS?
+are
+© Write the function of instruction resister.
+ap Name the instruments used in basic T type layout in cockpit.
+rho Define random access memory.
+Briefly write about glass cockpit in aircraft.
+Name the segments and frequencies used in GPS.
+Write the use of inverter in digital system.
+me Name ARINC used in aircraft digital system.
+a. Briefly write effect of HERF in aircraft.
+SECTION- B
+2. Attempt any five questions from this section. (10x5 = 50)
+a. Name the different types of D/A converter also explain the working of binary
+weighted D/A converter with diagram.
+b. Determine the total number of possible input combination of a 4-input OR gate
+also draw the logic symbol and develop a truth table.
+c. With neat diagram, explain function of EADI.
+d. Define the decoder; explain working principle of 2 to 4 bit decoder with neat
+diagram.
+How is the EMI affecting digital data in aircraft, write the to minimize it.
+o process
+Write the name of display systems used in aircraft also explain function of CRT.
+Explain the internal architecture of basic 8-bit microprocessor with diagram.
+= Write the advantage and disadvantage of fiber optic cable over electrical wire.
+SECTION- C
+Note- Attempt any two questions from this section. (15x2 = 30)
+3. Explain the function of fly by wire system in advance aircraft and its advantage.
+4. Write the principle of operation of GPS with its segments.
+5. Write the name of basic logic gates, draw the logic symbol, truth table and explain
+the used of logic gates in aircraft.

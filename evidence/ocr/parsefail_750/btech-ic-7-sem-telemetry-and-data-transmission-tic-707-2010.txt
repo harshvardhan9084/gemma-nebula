@@ -1,0 +1,70 @@
+aktuonline.com aktuonline.com
+TIC707
+Printed Pages: 3
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+B.Tech
+(SEM VII) ODD SEMESTER THEORY EXAMINATION 2609-10
+TELEMETRY OF DATA TRANSMISSION
+~ -
+~ Time : 3 Hours} [Total Marks: 100
+Note : Attempt all questions.
+1 Attempt any four of the following ; 5x4=20
+(a) State sampling theorem and prove the condition
+that a band pass signal can be received
+sucessfully at receiver.
+(b) Explain with block diagram Differential Pulse
+Code Modulation (DPCM).
+(c) Define ASK, FSK, PSK and draw the block
+diagram of QPSK receiver.
+(d) Define ARQ and FEC. Expiain two
+of error correction codes. any
+(e) Consider (7,4) block code for which parity
+matrix is a given
+as :
+1110 10 01
+Ail 101 01
+001
+1011
+Find all the code words of the above code.
+(f) Draw different line code data formats for
+a (1, 00].
+binary sequence 0,11 01
+33-0301} [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+2 Attempt any four parts of the following : 5x4=20 (b) Draw a typical architecture of programmable
+controller. What are the programable controllers
+(a) a Generalized Data Acquisition system. used for factory automation.
+(b) Explain any two transducers used for telemetry Write short notes the following :
+application. (c) on
+(c) Describe serial interface with RS-232C. (i) Power system control.
+(ii) Multiplexing techniques in tele control.
+(d) Explain with -block diagram. Dual slope
+integrator type A/D converter.
+What is the function of data modem and explain( 5 Attempt any two parts of the following : 10x2=20
+modem functional block. telemetry. Explain the basic
+(a) Define Aerospace
+(f) Explain D.C. signal condition system with principle of satellite system.
+suitable block diagram. (b) G) Explain TDM and T, frame channel
+in TDM.
+3 Attempt two of the following 10x2=20 the structural principle of a tele
+any parts (ii) Draw control installation.
+(a) Define remote control system. Explain automatic
+pipe lines for communication based processing (c) Write short notes on the following :
+control system. (i) Reliability of tele control installations.
+(b) (i) Explain short notes PLL.
+on (ii) Signal formation and conversion.
+(ii) Explain various input-output display system
+used for data handling: system.
+(c) Explain asynchronous and synchronous data
+transmission. Draw a bit synchronizer functional__,
+diagram and PCM data format used for frame ‘
+synchronizer.
+4 Attempt any two parts of the following : 10x2=20
+(a)
+Define the various tone command usage in space
+craft. Explain system. with block diagram of tone based
+command
+& 3 [ 2300 ]
+2 [Contd...
+aktuonline.com http://www.U TUonline.com

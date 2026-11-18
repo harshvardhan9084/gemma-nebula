@@ -1,0 +1,60 @@
+Printed Pages: 02 Sub Code: AUC002
+Paper Id: | 1| 9} 9} 0} 0] 2 Roll No.
+ALL EXCEPT MBA
+(SEM IV) THEORY EXAMINATION 2017-18
+CYBER SECURITY
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+a. What do understand by information system failure?
+b. What are the threats to information system?
+c. What do you mean by disposal of data?
+d. What are security threats?
+e. Define the digital signature.
+f. What is closed circuit television surveillance (CCTV)?
+g. Define IT Asset.
+h. What is the need of WWW policies?
+i. Define Copyright Act.
+j. What do you understand by IP spoofing?
+SECTION
+B
+2. Attempt any three of the following: 10x3=30
+a. What is information assurance? Explain the three dimensional Information
+Assurance Model with help of diagram.
+b. Explain in detail the Waterfall and Spiral Models followed to develop
+Information System.
+c. What is cryptography? Explain Public Key and Private Key Cryptography with
+help of diagram.
+d. What is the security Architecture of information System? Explain the secure
+system design of information system..
+e. What is the cyber crime? Discuss the categories of cyber crime and cyber law.
+SECTION C
+3. Attempt part of the following: 10x1=10
+any one
+(a) the term Access control.What is included in the authorization process
+for (File, Program and Data rights) and explain the all types of controls.
+(b) How Digital ofDigitalsignature. Signature is use for message authentication? Discuss the
+components
+4. Attempt any one part of the following: 10x1=10
+(a) What is the information system? Discuss the various types of information
+system.
+(b) What is cyber security? How to secure the cyber using Security Risk Analysis?
+Also discuss the common terminology that comes out from the process of the
+security risk analysis
+5. Attempt part of the following: 10x1=10
+any one
+(a) Discuss data security with its goal and also discuss the data security
+consideration related to Data Backup, Data Archival and Data Disposal.
+(b) What is the need of security technology? Discuss various types of firewall
+security technologies.
+6. Attempt any one part of the following: 10x1=10
+(a) Discuss the steps of secure information development model and also discuss in
+detail its initial phase and development phase.
+(b) What is the need of Risk Management? What are the processes involve to
+managing the risk during the development of secure information system?
+7. Attempt any one part of the following: 10x1=10
+(a) various of security polices and their review
+types process.
+(b) Intellectual What is the Property Intellectual Right. Property Right? Explain the various types of

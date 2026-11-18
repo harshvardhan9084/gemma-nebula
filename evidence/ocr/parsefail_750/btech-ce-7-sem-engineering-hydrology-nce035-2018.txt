@@ -1,0 +1,85 @@
+www.aktuonline.com
+Printed Pages: 02 Sub Code: NCE035
+Paper ID: Roll No.
+B TECH
+THEORY EXAMINATION, 2017-18
+ENGINEERING HYDROLOGY
+Time: 3Hours Max. Marks: 100
+Note: Attempt all Sections. Assume missing data, if any.
+SECTION A
+1: Attempt all parts of the following: 10x2=20
+a) | What do you understand by precipitation?
+b) is meant by hydrological cycle?
+c) Explain Thiessen polygon method of determining of average rainfall over a basin
+catchment area).
+d) What is the purpose of Water Budget Equation in Hydrology?
+e) | What do you mean by hydrologic reservoir routing?
+f) Distinguish between infiltration capacity and infiltration rate.
+h) g) Explain Write short factor notes affecting about flood runoff routing. hydrograph.
+i) Describe well losses.
+www.aktuonline.com j) Explain specific capacity in tube well.
+SECTION B
+2: Attempt any three parts of the following : 10x3=30
+a) Analysis of a 30 year data at a point on a river of gives mean discharge as 1200
+cumec and standard deviation 650 cumec. For what value of discharge would you
+design a structure at the point so as to provide 95% assurance that the structural
+would not fail in the next 50 years. Assume Yn=0.53625, Sn=1.11238.
+b) A catchment has five rain-gauge stations. In a year, the annual rainfall recorded by
+the gauges is 78.8 cm, 90.2 cm, 98.6 cm, 102.4 cm and 70.4 cm. For a 6% error
+in the estimation of the mean rainfall, determine the additional number of gauges
+needed.
+c) What is meant by hydrological cycle? How can the parameters of the cycle be written
+in an equation form? Draw a neat diagram to illustrate your answer.
+d) What do you mean by design flood? What are the factors affecting the flood
+hydrograph? Explain the procedure of using a unit hydrograph to develop the flood
+Write hydrograph down due to in a storm details in a selection catchment. of suitable site for tube well.
+e) And also explain advantages and disadvantages of well irrigation a canal
+irrigation. over
+1|Page
+www.aktuonline.com
+www.aktuonline.com
+SECTION C
+3: Attempt any one part of the following: 10X1=10
+a) Explain both type of rain gauge:
+A: Automatic rain- gauge.
+B: Non-automatic rain-gauge.
+b) What is an intensity—duration curve and how will you proceed to derive such a curve for
+a given frequency at a Rain gauge station from the available data of worst storms of
+different durations kept for a sufficient number of cycles.
+4: Attempt any one parts of the following: 10X1=10
+a) Explain the the of factors runoff? that A affect 4-hour the runoff in from basin a catchment producing Area. 10 How of runoff will you results estimate the
+following amount flows in the storm a cm
+Time 0 stream: 4 6 8 12 16 20
+(hour)
+0.0 2.44 8.10 13.50 11.34 2.70 (0.0
+(cumec)
+Calculate the peak flow and the time of its occurrence of the flood created by an 8-hour
+storm in the basin which Produces 5 cm of runoff during first 4-hours and 7.5 cm Runoff
+during the second 4-hours. Assume base flow is Negligible.
+www.aktuonline.com b) What is meant by evapo-transpiration? Also explain measurement of evapotranspiration.
+5: Attempt any one parts of the following: 10X1=10
+a) Explain in details of hydrograph with neat sketch. Also explain theory of unit hydrograph
+and limitation of unit hydrograph.
+b) What is run-off? What are the factors that affect the run-off from a catchment area?
+Describe the methods of computing run-off from a catchment area.
+6: Attempt any one parts of the following: 10X1=10
+a) From the analysis of available data on annual flood peaks of a stream for a period of 40
+years, the 50 year and 100 year floods have been estimated to be 878 cumec and 970
+cumec. Using Gumbel’s method, estimate the 200 year flood for the stream.
+b) A one-day rainfall of 100 mm at a station was found to have a return period of 50 years.
+Determine the probability. That a one-day rainfall of this or larger magnitude will occur
+At least once in 20 successive years.
+7: Attempt any one parts of the following: 10X1=10
+a) What are the differences between confined and unconfined Aquifers for the determination
+having of discharge saturated with steady depth of flow 100 Condition? The discharge A well isn250 penetrates liters into an minute unconfined 12 aquifer draw
+down. Assuming a Equilibrium flow m. conditions and homogeneous per aquifer, at Estimate m the
+discharge at 18 draw down. The distance from a the well where the draw down
+influences not m appreciable be taken equal for both
+b) Write short are notes on any four may of the following: cases.
+(i) Well losses
+(ii) Specific capacity and specific yield of an aquifer
+(iii) Rain water harvesting
+(iv) Aquifer and aquiclude
+v) Radius of influence and cone of depression.
+2|Page
+www.aktuonline.com

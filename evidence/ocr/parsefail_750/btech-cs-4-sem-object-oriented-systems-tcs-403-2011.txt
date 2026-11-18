@@ -1,0 +1,110 @@
+Printed Pages—4 TCS403
+Following Paper ID and Roll No. to be filled in your Answer Book
+[| [| [| [ | | [TT
+B. Tech.
+(SEM. IV) THEORY EXAMINATION 2010-11
+OBJECT ORIENTED SYSTEMS
+Time : 3 Hours Total Marks : 100
+Note Attempt ALL questions.
+1. Answer any two parts : (10x2=20)
+{a) (i) What do understand by object oriented
+you
+methodology ? What are the stages of object oriented
+methodology ? Explain.
+(ii) What is difference between link and association ?
+of
+Discuss the significance link and association in
+object modeling with som’ suitable example.
+(b) (i) What is the difference between object diagram and
+class
+_ Class diagram ? Prepare 2 diagram from the
+instance diagram shown in the following figure :
+(Point)
+10
+16
+(Point)
+-10 ~10
+i [Turn Over
+(ii) generalization and inheritance. Whether these
+concepts same ? Discuss. Also give the role of
+generalization and inheritance in object modeling.
+(c) (i) Explain the following terms : Meta data, candidate
+keys with suitable example.
+(ii) What do by workarounds What its
+object you mean ? is
+role in modeling ? Discuss with suitable
+example.
+two parts
+2. Answer any : (10x2=20)
+(a) What is a state diagram ? A simple digital watch has a
+display and two buttons to set it, the A button and the B
+button. The watch has two modes of display
+.
+time and set time. In the display time mode, hours and
+“minutes are displayed, separated by a flashing colon. The
+set time mode has two sub-modes, set hours and set
+minutes. The A button is used select modes. Each time
+to display,
+. itis pressed, the mode advances ir the sequénce :
+set hours, set minutes, display, etc. Within the sub modes,
+the B button is used to advance the hours or minutes once
+‘each time it is pressed. Buttons be released before
+must
+‘they can generate another event. Prepare a siate diagram
+of the watch.
+(b) (i) What do by event ? Describe the
+you event mean an
+scenarios and trace diagram with an example.
+(ii) Write a short note on Nested State diagrarn with some
+example.
+TCS403/RFW-21343 bo
+(c) Discuss the following with suitable example : (i) Aggregation
+concurrency, (ii) Advanced Dynamic modeling concepts :
+Entry and exit actions and Internal actions.
+3. Answer any two parts : - (10x2=20)
+(a) There is clear distinction between ; the definition and
+definition.
+implementation of a function. The describes
+the behaviour of the function while the implementation
+actually computes the function, The definition of the
+function be used to test, the of the
+may accuracy
+implementation. Prepare definitions of each of the
+following using mathematics, diagrams, or pre- and post-
+conditions :.(i) absolute value, (ii) trigonometric sign,
+natural algorithm, (iv) root.
+» square
+-(b) Write short notes on the following : (i) SA/SD, (ii) JSD.
+(c} Describe the following terms in reference to functional
+model : (i) constraint, (ii) control flow, (iii) data store,
+(iv) activity and (v) terminator.
+«
+A, Answer any two parts : (10x2=20)
+What the conventions followed in for
+(a) Gi naming are Java
+identifiers ? Discuss with suitable examples.
+Gi) Describe the Java constants and Java variables in
+a detail.
+(b) (i) What do you mean by multithread programming ?
+is its significance ? Explain with an example.
+_ ii) Write in Java to the digits of
+a program reverse a
+given positive integer of 5 or more digits.
+TCS403/RFW-21343 3 i [Turn Over
+(c) Write short notes on the following : \
+(i) Applet Classes
+(ii) Event Handling Relational
+(iii) Logical and Operators in Java
+(iv) ‘Scope of Variables.
+Answer any two parts :
+(a) What do you understand by. Java Swing ? What is its
+significance in application development ? Describe the
+- Java
+application of Swing using some example.
+(b) (i) Write a short note on Java Beans.
+(ii) Describe Java Database Connectivity (JDBC) with
+example.
+Write short notes on the following with an example :
+(i)
+(ii) Design of an Image based menu.
+TCS403/RFW-21343 4 2025

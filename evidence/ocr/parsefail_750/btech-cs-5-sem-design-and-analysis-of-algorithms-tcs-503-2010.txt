@@ -1,0 +1,75 @@
+Printed Pages: 4 TCSS503
+(Following Paper ID and Roll No. to be filled in Answer Book)
+your
+B.Tech
+(SEM V) ODD SEMESTER THEORY EXAMINATION 2009-10
+DESIGN & ANALYSIS OF ALGORITHMS
+is ~
+Time: 3 Hours] [Total Marks : 100
+Note : (i) Attempt all questions.
+(ii) All parts of a question should be attempted
+at one contiguous place.
+of the following
+1 Attempt any four parts - 5x4=20
+(a) Solve the recurrence relation using master
+method :
+[1%] 1
+T(n)=8T 3”
+(b) What do you understand by ‘stable’ sort ? Name
+two stable sort algorithms. _
+(c) Prove that Heapsort and Mergesort optimal
+are
+comparison sorting algorithms.
+(d) Illustrate the functioning of Heapsort on the’
+following array
+A= (25, 57, 48, 37, 12, 92, 86, 33, )
+[Contd...
+|
+{e) How can you modify quicksort algorithm to (f) What is implied by augmenting a data-structure ?
+search an item in a list of elements ? Explain with an example.
+(f) What is the importance of ‘average-case Attempt two parts of the following : 10x2=20
+of algorithms ? (a) When any and how Dynamic Programming approach
+is applicable ?
+Attempt four parts of the following 5x4=20 Discuss the matrix-chain multiplication with
+any - Dynamic programming technique.
+(a) Two stacks are kept in a single array STK (b) respect What is to "Greedy algorithm" ? Write its pseudo
+[Max] to utilize the array memory optimally : Apply greedy algorithm coloring the
+STK [ ]: code. of the following graph on
+vertices :
+1 2 3 Max-2 Max-1 Max
+Fig. 1
+First stack grows in forward direction from start
+whereas second backwards from end.
+grows
+Write PUSH 1, PUSH 2, POP 1, POP2 Fig. 2
+for the two stacks. (c) Discuss backtracking problem solving approach
+(b) Define Red-black trees and state their applications. with the help of an example.
+(c) Prove that the maximum degree of any node in
+is logn. the following 10x2=20
+a n-node binomial tree Attempt any two of :
+(d) What is a disjoint-set data structure ? How (a) Given a graph G= E ) and let V, and V
+running times of disjoint set data structures is be distinct vertics. Explain how to modify
+analyzed ? two shortest path algorithm to determine the
+(e) Show the results of inserting the keys of distinct shortest paths from U to V.
+: number Also, whether Dijekstra's
+FLS,Q,K,C,L,H,T,V,W,M,R,N path comment algorithm work on correctly if weights
+in order into an Empty B-tree with minimum shortest
+degree 2. are negative.
+&
+JS-1075] ANA, [Contd... 3 [Contd...
+(b) Discuss Travelling salesman Problem and
+various approaches to solve the problem with
+complexity analysis of each.
+(c) Explain the Floyd Warshall algorithm with Example.
+Which design strategy the algorithm uses ?
+5 short notes on any four of the following : 5x4=20
+(a) Approximation of a NP-complete problem.
+4s we
+(b) Randomized sorting algorithm.
+(c) Proving the problem of finding maximum clique
+of a graph to be NPC.
+(d) Problem classes and their implications. ¢
+(e) Maximum Flow Problem.
+9 Knuth-Morris - Pratt algorithm for pattern
+matching.
+JJ-1075] RHE 4 [ 17500 ]

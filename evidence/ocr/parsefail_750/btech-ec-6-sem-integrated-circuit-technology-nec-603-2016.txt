@@ -1,0 +1,86 @@
+www.aktuonline.com
+¢
+.
+Theory Examination (Semester-V}) 2015-16
+INTEGRATED
+CIRCUIT TECHNOLOGY
+Time : 3 Hours Max. Marks
+: 100
+Section-A
+QI. Attempt all parts. All parts carry equal marks. Write
+answer of each part in short. (2x10=20)
+(a) List the basic process for IC fabrication.
+(b) Explain the of oxidation.
+purpose
+(c) Compare proximity printing
+www.aktuonline.com and projection printing.
+(d) What
+are plasma deposition reactors? Why and how
+these are used?
+() What are the widely used materials for film deposi-
+tion.
+(f) Explain photomask and photoresist.
+(1) P.T.O.
+2 005/446/271/6775
+www.aktuonline.com
+www.aktuonline.com
+wth process?
+(j} Why aluminium is preferred for metallization.
+Section-B
+Q2. Attempt any five questions from this section. (10x5=50)
+(a) (i) What is Fick’s law of diffusion? Boron is diffused
+into an n-type single crystal substrate with doping
+conc. of 10" Assume diffusion function to
+Gaussian, if diffusion time is lhr, surface
+be
+and depth of junction is 2um,
+determine diffusivity.
+(ii) Explain ion implantation and mention its advan-
+tages diffusion.
+www.aktuonline.com over
+the chemistry and
+(b) Why oxidation is done? Explain
+kinetics of growth using Deal Groves Model.
+(c) latch up? How latch up is avoided in CMOS
+technology?
+(ii) Describe “Dopant Profiles” in brief.
+2
+2005/446/271/6775
+.
+www.aktuonline.com
+www.aktuonline.com
+fe) What: sitaxial BALL tas What ¥ are the tne advantages
+of epitaxial precess over diffusion and Czochralski
+process.
+Describe method for its
+(i) Define sheet resistance. a
+measurement.
+are
+(f) | Explain molecular beam epitaxy in detail. What its
+advantages over VPE?
+(g) What the effects of nesting tolerance MOSFET
+are on
+layout? Discuss and describe with the help of suit-
+able diagrams.
+(h) Discuss and describe the various process design
+considerations of VLSI devices.
+www.aktuonline.com Section-C
+Attempt any two questions. (2x15=30)
+Q3. (a) What do you mean by Sputtering? Explain Sputter-
+ing Yield. Draw the schematic diagram of signal
+parallel-plate sputtering system and its working.
+6) P.T.O.
+2005/446/271/6775
+www.aktuonline.com
++ www.aktuonline.com
+sion
+(5) Give reasons and explain why NPN transistors are pre-
+ferred over PNP counterparts
+Q5. Write short notes on following :
+(a) MOS IC fabrication technique
+(b) Czochralski
+Process
+(c) CVD process
+www.aktuonline.com
+2005/446/271/6775
+www.aktuonline.com

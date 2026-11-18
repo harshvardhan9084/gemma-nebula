@@ -1,0 +1,60 @@
+http://www.aktuonline.com
+7
+Printed * 7 Pages: 14 2 MBAITO1(N)
+M.B.A
+(SEM III) ODD SEMESTER THEORY EXAMINATION 2009-10
+DATABASE MANAGEMENT SYSTEM
+Time 3 Hours] [Total Marks:
+: 100
+Note Attempt all questions.
+:
+1 Attempt four of the following 5x4
+any parts ;
+(a) What is data redundancy ?
+(b) In what situation are 'nulls' used ?
+(c) What is referential integrity ?
+(d) What are the differences between unary and
+binary arithmetic operations ?
+optimisation ?
+(e) What is static query
+(f) What is security audit ?
+2 any two parts of the following : 10x2
+(a) What database constraints What
+are ? are the
+functions of a DBMS ?
+(b) What are functional dependencies ? What is its
+importance in database design and data
+modelling ?
+(c) Compare and between the different
+database models. contrast
+(MAE [Contd...
+http://www.UPTUonline.com
+http://www.aktuonline.com
+3 Attempt two parts of the following 10x2
+any :
+(a) What is a relational database ? When can we
+say that a database implementation is fully
+relational ?
+(b) What the different types of relations between
+the entities are in relational database ? What is
+normalization ? a
+(c) What is a data warehouse ? What are the
+various phases in the construction of a data
+Sa warehouse ?
+4 Attempt any two parts of the following : 10x2
+fa) Explain with examples, data manipulation
+language (DML) commands. -
+(b) What are the advantages of creating views ?
+How are they updated ?
+(c) Why do we need to join ? What are aliases
+and why they used ?
+are
+5 two parts of the following 10x2
+any :
+(a) Explain the potential threat points in a database .
+system.
+_(b) What is database backup ? Why should database
+backup be planned ?
+(c) What is remote access ? What is the difference
+between private, public and shared data ?
+EM, 2

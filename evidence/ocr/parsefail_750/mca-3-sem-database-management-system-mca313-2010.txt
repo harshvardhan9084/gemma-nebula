@@ -1,0 +1,94 @@
+http://www.aktuonline.com
+Printed Pages: 4 MCA313
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID:
+M.C.A
+(SEM TH) ODD SEMESTER THEORY EXAMINATION 2009-10
+DATA BASE MANAGEMENT SYSTEM
+‘
+Time : 3 Hours] [Total Marks : 100
+Note: (i) All questions are compulsory.
+(ij) All
+questions carry equal marks.
+1 Attempt four parts of the following 5x4=20
+any -
+(a) What is the concept of data independence and
+explain its importance in database environment.
+(b) What do you understand by constraints in
+RDBMS ? Define various kinds of constraints.
+(c) Write and explain the schema based constraints
+in RDBMS.
+(d) What is foreign key ? Explain its characteristics
+5 with example.
+(e) What is database model ? Discuss various types
+of database model in brief.
+(f) Describe the basic feature of the RDBMS.
+Write their merits and demerits to the end user
+and the designer.
+33-7310 [Contd...
+Attempt four of http://www.aktuonline.com the following 5x4=20
+2 any parts :
+(a) What is difference between a specialization and
+generalization ?
+(b) Consider the following relations :
+STUDENT (NAME, ROLL_NUMBER,
+ADDRESS, MAIN)
+ADMISSION (ROLL_NUMBER, COURSE,
+SEMESTER) a”
+FACULTY (COURSE, FACULTY, SEMESTER)
+wig” OFFEREING (BRANCH, COURSE)
+Write the SQL command to find the following
+information :
+(c) The of students admitted in particular
+name in given a
+course a semester.
+(d) Students who have taken all courses offered by a
+given faculty.
+(e) Explain the relational algebra operations from set
+theory.
+(f) What do you understand by assertions ? Explain
+the CREATE ASSERTION statement in DDL.
+3 Attempt any four parts of the following : 5x4=20
+(a) What is BCNF ? How is it stronger normal
+form than 3NF ?
+33-7310} 2
+&
+http://www.aktuonline.com
+(b) Consider the following two sets of FDs
+H}’
+F={A > C, AC D,E- > AD, and
+G={A. AB Check whether they are
+equivalent. > ms
+(c) What is multivalued dependency ? What type of
+constraint does this specify ?
+(d) Define and explain fourth normal form. How is
+it useful ?
+(e) Explain the 52 normal form. Why is it known as
+project join normal form ?
+"RDBMS. What is functional dependency ? Explain its role
+Attempt any two parts of the following : 10x2=20
+(a) What are the ACID properties of a transaction ?
+How are these useful ?
+(b) What is serializability ? Explain the view
+serializability in detail.
+(c) Which of the following schedules are (conflict)
+serializable ? For each _ serializable schedule,
+determine the equivalent serial schedule
+(i) wl(x), 12(x), w3(x);
+(ii) w3(x); wl1(x);
+(iii) w3(x); rl(x); wl(x);
+(iv) 13(x); r2(x); r1(x); w3(x);
+J-7310} [Contd...
+http://www.aktuonline.com
+Attempt two parts of the following 10x2=20
+any -
+(a) Explain the two phase locking technique.
+How does two phase locking techniques
+guarantee serializability ?
+(b) Define and explain the various types of
+transaction failures.
+(c) What do you understand by recovery ?
+- Explain the UNDO/REDO and the UNDO/NO-
+REDO algorithms for recovery.
+|
+33-7310} 4 [ 7300

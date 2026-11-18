@@ -1,0 +1,40 @@
+Printed 01 Sub Code: NEN 043
+Paper Id: pages: 121803 Roll No:
+B TECH
+THEORY EXAMINATION 2017-18
+IMAGE PROCESSING
+Time : 3 Hours Max. Marks: 100
+Note: Be precise in your answer. In case of numerical problem assume data wherever not
+provided. SECTION A
+1. Attempt all of the following uestions: -
+(a) Define pixel or picture element.
+(b) Which are the components involved in image processing?
+(c) What do you mean by pseudo color image?
+(d) What do you mean by image enhancement?
+(e) Write a situation where PNG file format is more preferable than JPEG.
+(f) What do you meant by Gray level?
+(g) What do you mean by 8-neighbors of pixel? How it can be represented?
+(h) What is Dpi? What is the effect on image quality if dpi is increase or decrease?
+(i) How much memory required for storing 500x500 binary images?
+(j) What is spatial resolution?
+SECTION - B
+2. Attempt any five of the following questions: 5x 10=50
+(a) Compare Fourier and Wavelet transform. Mention applications of wavelet.
+Explain image pyramid in detail.
+(b) What are the fidelity criteria to assess the loss during the image compression?
+(c) Explain DCT and DST transform applications in Digital image processing.
+(d) Explain Periodic Noise Reduction by Frequency Domain Filtering.
+(e) Compare effects of Min-Max filter and Adaptive filter on image restoration.
+(f) Why Laplacian mask coefficient sum is zero? Discuss the effects on resultant
+image by applying the Laplacian filter in frequency domain.
+(g) Draw the block diagram of signature verification and explain its working.
+(h) Write short note on:
+(a) Map understanding.
+(b) Bio-logical cell classification.
+SECTION C
+Attempt two of the following questions: - 2x15=30
+any
+What do you mean by various Arithmetic and Logical operations on image?
+4. Explain relationship between image size, intensity resolution and image quality
+with example.
+5. Explain Hough transform, topological and texture analysis.

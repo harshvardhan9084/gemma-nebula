@@ -1,0 +1,62 @@
+in ll
+Printed Pages: 2 TECI3
+(Following Paper ID and Roll No. to bé filled in your Answer Book)
+No. [ |
+Roll |
+B.Tech
+(SEM VII) ODD SEMESTER THEORY EXAMINATION 2009-10
+ARTIFICIAL NEURAL NETWORKS
+lime:
+3 Hours] [Total Marks : 100
+Note : (1) Attempt any two parts from each question.
+(2) All questions equal marks.
+carry
+1 (a) Define Artificial Neural Network (ANN).
+In what
+ways does ANN resemble the brain.
+(b) Classify the nets based on their architecture.
+Differentiate single layer and multi layer networks.
+(c) What the of learning ? Explain the Hebbian
+learning are and Boltzmann types learning.
+ii
+Explain the working of perceptron
+2 (a) differentiate the ‘and .net. Also
+architecture. the feed forward feedback
+‘
+(b) Describe the following :
+(i) Convex sets and Convex hulls
+(ii) Binary for clssification
+neurons pattern
+(ili) Capacity of TLN.
+(c) State the pocket algorithm. Also explain the « LMS
+learning and MSE error surface. —
+|
+J3-0308] [Contd...
+Draw and explain the multilayered architecture.
+Also explain feed for forward network and _ its
+applications.
+(b) Write short notes on the following :
+(i) and application
+(ii) Structure growing algorithms
+(iii) Reinforcement learning
+(c) What is the activation function used in a BPN ? How
+is the error back propagated in a BPN ?
+Explain the Bayesian classification rule is used in
+probatiilistic neural net. Also explain the posterior
+probabilities.
+(b) Discuss the RBF network and activation function
+used in RBF network. Also describe the multilayer
+perceptrons.
+(c) What are stochastic machines ? Describe the
+application algorithm used in Boltzmann machine.
+Briefly explain the ART architecture. Also explain
+the generalized learning laws.
+(b) Explain the following
+(i) Principal Component Analysis on
+-
+(ii) Vector Quantization
+(iii) Maxican hat networks.
+(c) Differentiate fuzzy with traditional Also
+explain the fuzzy logic sets technique using sets. suitable
+diagram. system
+JJ-0308] 2 [ 700]

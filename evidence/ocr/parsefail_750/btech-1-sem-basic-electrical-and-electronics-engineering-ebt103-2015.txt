@@ -1,0 +1,65 @@
+www.aktuonline.com
+Printed pages: 4 EBT103 c. Calculate the current flowing in the 5 of the
+circuit shown, using nodal analysis.
+(Following code and roll No. be filled in book)
+paper to your answer
+Paper code: 154106 Roll No.
+B TECH
+(SEM I) THEORY EXAMINATION 2014-15
+BASIC ELECTRICAL & ELECTRONICS ENGINEERING d. Explain the principle and working of Induction type
+Energy meter.
+Time: 3 Hours Max. Marks: 100 e. For the voltage divider bias configuration determine :
+(i) k Gi) Ve (ili) Gv) Ve (v) Ri
+Section-A Voc
+Q1. Attempt all parts. 2x 10=20
+a. State thevenin theorem, also Discuss its significance on
+What the network is the significance theory. of back emf?
+Discuss the classification of electrical instruments.
+What are the applications of shaded pole motor?
+Convert the following number as indicated:
+(i) (1434). = ( 2 dio
+(i)
+Give the relation between , and .
+Define PIV of pn junction diode.
+Draw the circuit diagram of AND &OR gate using
+NAND Define Pinch gate only. off voltage in JFET.
+What will happen if, during running condition if the Section-C
+starting winding of a split phase induction motor is Attempt all questions 10x5=50
+disconnected?
+Q3. Draw and explain the various characteristic of DC
+Section-B motor, also enlist its applications.
+Q2. Attempt any three parts. 10x3=30 OR
+Draw the block diagram of DVM and DMM and
+a. With the suitable diagram explain the construction and explain
+working of n channel JFET. And also draw its drain and
+Derive transconductance the emf equation curve. of DC Q4. Why single phase Induction motor is not self starting?
+generator. Explain any one method of starting.
+www.aktuonline.com
+OR
+Draw the block diagram of CRO and Explain. How you
+measure the voltage, frequency and phase using CRO? OR
+Explain the principle and construction of attraction and
+QS. (i) Explain the working of p-n junction diode in reverse repulsion type M.I. instruments. Discuss their merits and
+and forward bias with the help of V-I characteristics curve. demerits.
+(ii) Explain the working of Bridge rectifier.
+OR
+(i) Explain the load line and operating point in BJT
+biasing.
+(ii) Explain the input (base) curve and output (collector)
+curve of n-p-n transistor in CE configuration. make all the
+region in output curve.
+Q6. State Thevenin’s Theorem and solve the circuit shown
+below for the current in the branch AB using Thevenin’s
+theorem.
+OR
+Minimize the following function using K-map in SOP &
+POS both, also implement the function using minimum
+number of NAND gate.
+F(A,B,C,D) = m (1,5,6,7,11,12,13,15).
+Q7. ADD & Subtract the following number without
+converting into decimal
+(623)s + (256)s
+Gi) (8A03)i6+
+(iii) - (4A6)i1
+(iv) (603)5 — (281)o
++

@@ -1,0 +1,119 @@
+aktuonline.com- aktuonline.com
+--
+Printed Pages—3 EEE--401 --
+Paper ID and Roll No. to be filled Answer Bo ok)
+ing in your
+B.Tech.
+(SEM IV) EVEN SEMESTER THEORY EXAMINATION, 2009-2019
+Foe ELECTROMECHANICAL ENERGY
+CONVERSION-I |
+Time : 3 Hours Total Marks : 100
+Note: (i) all questions.
+*
+(ii) AU symbols have their usual meanings.
+1. Attempt four of the following
+any parts : (4x5=20)
+(a) Derive the following relation for field energy.
+Wr= fi dh where \= flux linkage
+0
+{b) Derive the following relation for mechanical force developed voitage
+system. ic.
+Wy (A, x)
+F,= where field energy
+. ! Ox ;
+\  (c) relay, the for closed
+# armature linear. If magnetization the curves of the relay open ard positions che
+position at are constant current (i.e. armature infinitely show moves that from the electrical open to a
+input is shared equally between field stored and the mechanical enerz ork
+done. energy w
+(d) Inanelectromagnetic relay, functional relation betweer. ure current iin the
+coil, the position of armature x and the flux linkages « :5 ziven by
++2),
+Find the force on the armature as 2 function cf «.
+http://www.UPTUonline.com
+fan Over
+aktuonline.com aktuonline.com
+-~- -
+.(e) The simple magnetic relay have the following A-i characteristics :
+(i) Open position, \=0.04i Wb-turn for all values of current i
+(ii) Closed position \=0.06i
+=1.2+0.03 (i-20)  i>20
+For an armature movement from open to closed position, find the magnitude of
+average magnetic force. Air gap length is 2 cm and the current during armature
+movement is assumed to remain constant at 40 A.
+(f) The magnetic flux density on the surface of an iron face is 1.6 T which is a typical
+saturation level value for ferromagnetic material. Find the force density on the
+iron face.
+Attempt any four parts of the following : (4x5=20)
+(a) Derive the emf equation of a d.c. generator.
+(b) The terminal voltage of a 8 pole d.c. shunt generator with 780 wave connected
+armature conductors and running at 500 rpm at terminal voltage 240 V. The
+armature resistance is 0.24 Q and the field resistance is 240 ©. Find the armature
+current, the induced emf and the flux per pole if load resistance is 12
+(c) Explain whv the terminal voltage Vs load current characteristic of a d.c. shunt
+generator is more drooping diagram than that of flux of separately density excited show generator. that there the
+(d) By shift drawing in the position the relevant of magnetic nutral axis (MNA) waves in the direction of rotation is
+due to armature reaction in of d.c.
+(e) What do mean by case commutation ? Discuss the for poor
+commutation. vou poor reasons
+(f} A separately excited d.c. generator has terminal voltage 250 V with constant
+Held excitztion. [f the load changes from 200 kW to 225 kW, find the percentage
+WV Neel The armature resistance is 0. 015 © and total contact drop at
+s
+Attempt anv two parts of the following : (2x10=20)
+(a) Expl ain Leonard method to control the speed of d.c. motor.
+1 current and speed of a 4 pole, 250 V d.c. shunt motor are 6A and 500
+Armature
+reaction the flux by 25%.
+selp of circuit diagram, explain Hopkinson test on d.c. motor. Derive
+the expressions for efficiency of the d.c. machine as motor and generator. Write
+its speed over Swinburn’s characteristic test.
+(c) Draw of tr Vs of torque Discuss its of important d.c. series features. motor by deriving the relation
+A 220 — terms series motor torque. takes 40A and 500 while driving fan load.
+The lose 2 varies 2. the of the speed. runs at The resistance rpm between terminal a is
+required as to raise square the speed to 525 rpm by increasing the voltage. Find
+the s Assume that the flux varies directly as the current.
+aktuonline.com aktuonline.com
+4, Attempt any two of the following : (2x10=20)
+(a) Define efficiency, voltage regulation and all day efficiency of the transformer.
+Derive the condition for maximum efficiency.
+Find the all day efficiency of the transformer having maximum efficiency of 98.5%
+at 20 kVA, unity pf and loaded as follows :
+11 Hours : 5 kW, 0.7 pf lagging
+: 8 kW, 0.8 pf lagging
+7 Hours: No load
+The maximum efficiency of the transformer occurs at 80% of full load.
+Draw the phasor diagram of single phase step up transformer feeding lagging
+pf load. a a
+With the help of circuit diagram, explain short circuit test. Why . the core loss is oy
+assumed negligible in this test ?
+(c) Write merit, demerit and applications of autotransformer.
+A 2200/220V transformer is rated as 15 kVA as two winding transformer. It is
+connected as an autotransformer with low voltage a winding connected additively
+in series with high voltage winding to feed a load at 2200V. The autotransformer
+is excited from a 2420V source. The autotransformer is loaded so that rated
+currents of the windings are not exceeded. Find :
+(i) The current distribution in the winding,
+(ii) kVA output.
+(iii) kVA-transferred conductively and inductively
+(iv) Saving in conductor material as compared to a two winding transformer of
+the same VA rating
+5. Attempt any four of the following : (4x5=20)
+(a) Draw the connection and phasor diagram for star/zig star +30 connection.
+(b) Discuss the basic for the generation of harmonics zag in the transformer.
+(c) A three phase transformer cause bank consisting of three Ié transformers is used
+step down the voltage of 3, 6600V transmission line. If the primary line to
+current is 10A, calculate the a secondary line voltage, line current and output kVA
+for Y/A connection. The turn ratio is 12. Neglect losses.
+(d) Write all essential and desirable conditions to connect two 3 transformer in
+parallel.
+(e) Draw the connection diagram for open ,delta system and show that
+4
+SopenA _ 1
+Sclosed A
+(f} Two single phase transformers share a load of 400 kVA at 0.8 pf lagging.
+Their equivalent impedances referred to secondary windings are
+(1+j2.5) O and (1.5+j3) O respectively. Calculate the load shared by each
+transformer.
+-oOo-
+aktyaming,com http://www.UPTUonline.com

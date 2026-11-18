@@ -1,0 +1,219 @@
+aktuonline.com
+aktuonline.com
+Printed Pages 8 EAS 203
+:
+(Following Paper ID and Roil No. to be filled in your Answer Book)
+PAPER ID : 9610 | | [| | |
+B. Tech.
+(SEM. II) EXAMINATION, 2008-09
+MATHEMATICS - I
+Time 3 Hours] [Total Marks 100
+: :
+SECTION
+- A
+Note : Attempt all questions. All questions 2x10=20
+carry equal marks.
+Fill up the appropriate answers in the space provided :
+1 (a) The differential equation
+.
+ay 3 2) 2
++e” =sin xy is of
+dx? dx
+order and degree.
+(b) A solution of the differential equation
+dy _ that satisfies the initial condition
+dt
+= is
+(c) The general solution of the differential equation
+fy 5 Fy 3 7
+=0 is given by
+dx” dx
+9610] MT) [Contd..
+aktuonline.com
+aktuonline.com
+aktuonline.com
+Pick up the Correct Answer
+(d) The Rodrigues from the following :
+formula for Legendre Polynomial
+P,(x) is given by
+1 q”™
+(x? —1)"
+[n 2” dx”
+@) P (x)=
+dx”
+n
+i)
+gn-l dx”
+(iv) P,(x) 1 (x?
+=
+(e)
+The Laplace transform of the function
+1 O<t<2
+f(t) (+1, = ,
+2st<4, f(t +4) = f(t) is given as
+1-e 25
+(tt)
+(iii) 0
+Actuonline.com [Contd..
+aktuonline.com aktuonline.com
+Laplace transform of log 8
+(f) The inverse 3.1)
+given by
+=
+(i) cosht
+“sin
+(ii) ht
+(iii) 2tcost
+(iv) 2tsint
+for the statements made therein
+Indicate True / False -
+(g) (i) A function f(x) is even if f(-x) = —f(x)
+(True / False)
+qi) A function f(x) is odd if f(-x)= f(x).
+(True / False)
+(ii) Most functions are neither even nor odd.
+(True / False)
+(iv) A function f(x) can always be expressed as an
+arithmetic mean of an even and odd function as
+f(x) [f(x)
+= + -
+(True / False)
+(h) @) With usual symbols, the PDE
+2 f(xy) . non-linear .
++U Uy, = _ is in
+and is of second order. (True / False)
+aktontine.com [Contd..
+aktuonline.com aktuonline.com
+(ii) The small transverse vibrations of a string are
+governed by one dimensional heat equation
+a”
+y= (True / False)
+(ii) dimensional steady state heat flow is given
+by Laplace's equation u, = a"
+(True / False)
+(iv) The PDE of all sphere whose centre lie on
+z-axis and given by equations
++ +(z2- a)" a and being
+constants, are governed by * Z y ~ = 0.
+(True / False)
+(i) Applying the method of separation of variables
+techniques, the solution to the P.D.E. 3u,, + 2u 0
+y=
+Ou Ou
+iS ; , where 7 Uy _ au _ ay
+Match the column for the items of the Left side to that
+of right side
+(j) A second order P.D.E. in the function 'u' of two
+independent variables x, yy given with usual symbols
+Au,, + Bu,, +Cu,, + F(u) =9, then
+(i) Hyperbolic (a) B*_4AC=0
+Gi) Parabolic (+) <0
+Elliptic ¢)
+Not classified (d) A=B=C=0
+[Contd..
+aktuonline.com aktuonline.com
+SECTION B
+-
+Note Attempt three questions from
+: any
+section. All questions carry equal marks.
+2 (a) Apply the method of variation of parameters to
+solve the ordinary differential equations
+d” y
+d x 2
+(b) Show that Bessel's function (x) is an even function
+when # is even and is odd function when n is odd.
+Express Jg(x) in terms of and
+(c) Use convolution theorem to find the inverse of
+the function
+3 +a‘)
+( 5 x
+(d) Obtain the Fourier series of f(x) = in
+the interval (0, 27) and hence deduce
+; 4 3.5 7
+(e) A string of Length 'L' is stretched and fastened to
+two fixed points. Find the solution of the wave
+equation when initial displacement is
+‘yy,
+(==)
+w(x, 0)= f(x)=bsin where symbols
+,
+have usual meaning.
+aktuonline.com
+SECTION C aktuonline.com
+-
+Note: Attempt all questions from this section,
+selecting two parts from each question.
+All questions any equal marks.
+carry
+3 (a) The equations of motion of a particle are given by
+Find the of
+aX yy =0, =0, —-wx=0. 2 —wx=0. ind the path path o the™ €
+di ah
+particle and show that it is a circle.
+(b) Integrate the differential equation
+de dt acos pt and and give th the
+physical interpretation of the complete solution.
+Also deduce that the solution takes the form
+2kp
+tan 0= AS
+(w? — —
+(c) Find the complete solution of the differential
+2 a
+equation d d cosx,
+dx dx
+(a) the Bessel's function, that
+4 For prove
+2 ux
+Witt aktwonline. [Contd..
+W com
+aktuonline.com aktuonline.com
+(b) Estimate the recurrence relation for Legendre's
+polynomials
+-
+x P.(x)=n
+(c) Express the polynomial f(x) Ax® 2x7
+= —
+in terms of Legendre polynomials.
+5 (a) Using Laplace transformation, show that
+1
+t dt =— 2°
+0
+(b) A particle moves in a line so that its displacement
+x from a fixed point 0 at any time ¢, is given by
+de 80sin
+de dt = . Using Using Lapl Laplace
+transform, find its displacement time if
+initially particle at any ¢
+is at rest at
+(c) Find the Laplace transform of the function
+t-1, 1<t<2
+2<t<3
+6 (a) Find the half period sine series for f(x) given in
+\ the range (0, 2) by the graph OPQ as shown in
+figure.
+f(x) P(a,d)
+O
+x=a
+colli [Contd..
+aktuonline.com aktuonline.com
+(b) Find the Fourier series expansion for
+2
+(c) Solve the P.D.E.
+az . tz sin
+ay Ox -2 Ox Oy + oy = x.
+7 (a) Find the temperature in a bar of length 2 whose end —-
+are kept at zero and lateral surface is insulated if
+the initial temperature is $10 +3sin 5% 2
+(b) Apply the method of separation of variables to
+a Oz oz
+solve z —2—+ oy =0
+Ox .
+(c) Solve the P.D.E. by separation of variables method,
+=Uy+2u, uO, y)=0,
+Uy,
+2 140,
+Ox
+It }
+con i ww. aktuonline. [ 61700
+com

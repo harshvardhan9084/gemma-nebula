@@ -1,0 +1,63 @@
+aktuonline.com aktuonline.com
+Printed Pages—3 TIC802
+(Following Paper ID and Roll No. be filled in Answer Book)
+to your
+-PAPER ID : 0396
+B. Tech.
+(SEM. VIII) THEORY EXAMINATION 2010-11
+DIGITAL MEASUREMENT TECHNIQUES
+Time : 3 Hours Total Marks : 100
+Note: (1) Attempt all questions.
+(2) Marks are indicated at the end of each Section.
+1. Attempt any two parts of the following : (10x2=20)
+(a) Mention the merits and demerits of digital
+measurement
+over analog measurements. working
+(b) Explain with block diagram the of digital ohmmeter.
+(c) Explain the working of a digital voltmeter. List different
+of DVMs. How DVM be used the
+types can a to measure
+current ?
+2. Attempt two parts of the following (10x2=20)
+any :
+(a) Draw the block diagram of digital frequency meter. Expiain
+its principle of operation.
+(b) Draw the labeled block diagram of :
+(i) Logic analyzer and
+Gi) Dual trace Oscilloscope.
+TIC802/RF W-21906 1 [Turn Over
+aktuontine.com
+aktuonline.com aktuonline.com
+block
+(c) Draw the diagram of standard signal generator. What
+features are essential in converting it into square wave
+and triangular wave generator ?
+3. Attempt two parts of the following (10x2=20)
+any high :
+(a) Explain how frequericy can be measured by digital
+Discuss in brief the working of Digital programmable
+amplifier and filters.
+(c) Explain the working of a digital multimeter and mention its
+use.
+4. Attempt any two of the following: (10x2=20)
+Why Sample and hold circuit is considered as amestential
+component of modern day's instrumentation system ?
+following the
+Explain the terms that are associated with
+problems of sample-hold circuits : (i) finite aperture time,
+(ii) signal feed through and (iii) Droop.
+(b) Describe in detail the successive approximation method of
+ADC.
+(c) What are the types of DAS ? Mention its applications also.
+Explain the generalized diagram of a digital data acquisition
+system.
+TIC802/RFW-21906
+aktuonline.com
+aktuonline.com aktuonline.com
+5. Write short notes on any four of the following : (5*4=20)
+(a) R-2R ladder type DAC.
+(b) Indirect type ADC
+(c) Logarithmic A/D Converter
+(d) Decibel meter
+(e) Time Division Multiplexing.
+TIC802/RFW-21906 3
