@@ -1082,7 +1082,8 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
         except Exception as e:
             log(f'    [!] replace pre-clean failed ({str(e)[:90]}) -> upserting on top')
 
-    qids = []
+    # CROSS-RUN DEDUPE PRE-PASS (cycle68, 2026-11-18): clean + hash every
+    # question FIRST so the existing-row lookup can run ONCE per paper.
     for q in parsed['questions']:
         # 22P05 guard: strip NUL from every LLM-sourced string field before any
         # DB write (covers ai_clean_pass output, occ.q_no, diagram_kind).
@@ -1090,6 +1091,43 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
             _v = q.get(_k)
             if isinstance(_v, str) and '\x00' in _v:
                 q[_k] = _v.replace('\x00', '')
+        txt, marks_from_text = clean_v6(q['text'])
+        txt = clean_question_text(txt)          # v5's proven scrubber on top
+        if marks_from_text and q.get('marks') is None:
+            q['marks'] = marks_from_text
+        norm = re.sub(r'[^\w\s]', '', txt.lower())
+        norm = re.sub(r'\s+', ' ', norm).strip()
+        q['_txt'], q['_norm'] = txt, norm
+        q['_qh'] = hashlib.sha256(norm.encode()).hexdigest()
+    # The DB unique index is (subject_code, question_hash) ONLY, so a re-shot
+    # of a paper whose pre-existing rows carry a stale/wrong subject_code (the
+    # September wrong-code era: 223 papers hold 1,561 duplicate occurrence
+    # rows DB-wide; +222 re-created by the 11-17 batch#2 zero-loss keeps)
+    # upserts a NEW correctly-coded row while the stale occurrence row stays
+    # -> the same question twice in one paper (OVER/DUPLICATE flags in the
+    # completeness scoreboard). Fix: look the hash up ACROSS ALL subjects once
+    # per paper and REUSE the existing row id for the occurrence (the
+    # questions bank is meant to be shared across papers/years; the occurrence
+    # upsert (question_id,paper_id) then merges onto the existing row instead
+    # of adding a second copy - this also collapses the zero-loss keep path's
+    # old+new double set onto single occurrences). A subject mismatch on the
+    # reused row is logged (CODE-MISMATCH, feeds the owner's stale-code
+    # cleanup list) and left untouched here - no silent code rewrite.
+    existing = {}
+    _hashes = sorted({q['_qh'] for q in parsed['questions']})
+    if sb and _hashes:
+        try:
+            for r in sb.get_paginated('questions', 'id,subject_code,question_hash',
+                                      filters={'question_hash': 'in.(' + ','.join(_hashes) + ')'},
+                                      page=1000):
+                existing[r['question_hash']] = r
+        except Exception as e:
+            log(f'    [db] dedupe pre-fetch failed ({type(e).__name__}) -> '
+                f'upsert-only fallback: {str(e)[:80]}')
+            existing = {}
+
+    qids = []
+    for q in parsed['questions']:
         if q.get('diagram_file'):
             local = os.path.join(diagrams_dir, q['diagram_file']) if diagrams_dir else q['diagram_file']
             try:
@@ -1098,13 +1136,7 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
                 q['diagram_url'] = None
         else:
             q.setdefault('diagram_url', None)
-        txt, marks_from_text = clean_v6(q['text'])
-        txt = clean_question_text(txt)          # v5's proven scrubber on top
-        if marks_from_text and q.get('marks') is None:
-            q['marks'] = marks_from_text
-        norm = re.sub(r'[^\w\s]', '', txt.lower())
-        norm = re.sub(r'\s+', ' ', norm).strip()
-        qh = hashlib.sha256(norm.encode()).hexdigest()
+        txt, norm, qh = q['_txt'], q['_norm'], q['_qh']
         row = {'subject_code': code, 'text': txt, 'text_normalized': norm,
                'question_hash': qh, 'language': 'en',
                'question_type': q.get('question_type') or classify_qtype(q['text'], q.get('has_diagram', False)),
@@ -1116,17 +1148,25 @@ def push_paper_v6(sb, fname, fhash, parsed, mark_review, diagrams_dir,
                'diagram_url': q.get('diagram_url'),
                'extraction_confidence': parsed['confidence'],
                'needs_review': mark_review}
-        try:
-            qr = sb.upsert('questions', [row], 'subject_code,question_hash')
-        except Exception as e:
-            body = ''
-            resp = getattr(e, 'response', None)
-            if resp is not None:
-                try: body = resp.text[:280]
-                except Exception: pass
-            log(f'    [db] questions upsert {type(e).__name__}: {str(e)[:90]} | body: {body}')
-            raise
-        qid = qr[0]['id'] if qr else None
+        hit = existing.get(qh)
+        if hit is not None:
+            # cross-run dedupe: reuse the existing question row (any subject)
+            qid = hit['id']
+            if hit.get('subject_code') != code:
+                log(f'    [dedupe] CODE-MISMATCH: reusing question {str(qid)[:8]} '
+                    f'stored under {hit.get("subject_code")} (this paper: {code})')
+        else:
+            try:
+                qr = sb.upsert('questions', [row], 'subject_code,question_hash')
+            except Exception as e:
+                body = ''
+                resp = getattr(e, 'response', None)
+                if resp is not None:
+                    try: body = resp.text[:280]
+                    except Exception: pass
+                log(f'    [db] questions upsert {type(e).__name__}: {str(e)[:90]} | body: {body}')
+                raise
+            qid = qr[0]['id'] if qr else None
         qids.append(qid)
         if qid:
             occ = {'question_id': qid, 'paper_id': paper_id, 'year': yr,
