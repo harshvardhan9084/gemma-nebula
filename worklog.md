@@ -1,4 +1,20 @@
 ---
+Task ID: CRON-V6-20261119-cycle75
+Agent: Super Z (scheduled fire 2026-11-19 07:30Z = 13:00 IST, job 535407; standing order v4)
+Task: resilience check, audit of run #109 (the 119 real-gap fix), verdict-follow, evidence-backed dispatch on already-held PDFs, bookkeeping.
+
+Work Log:
+- RESILIENCE: last observation cycle70 23:32Z (23:30Z fire ran; no missed fires). Run #109 (119-stem PAPERS-FIX) completed success 23:54Z. Sandbox recycled -> reinstalled psycopg2-binary + pynacl; sandbox ALSO rolled repo_b back to 355a890 (pre-cycle74 snapshot) -> ff-pull to b22d466, FLAG cleared (same root cause as cycle69: recycle restore).
+- AUDIT (cycle75): papers 10,883 (+0), questions 246,500 (-22 vs 246,522; paper-scoped REPLACE churn inside #119-band), complete 8,455 / review 2,428, thin_left 60, RETRY active=51 accepted=594 frozen=690, unit-400 0. RPD ledger 127/5,700 (KNOWN CONSERVATIVE ARTIFACT: #109's 127 calls belong to the 11-18 quota day but record_run_calls stamps finished_at=now(); direction safe - overcounts today's spend, never over-dispatches). Cadence 0/3. Verdict FLAG(sync) -> fixed -> CAMPAIGN gate.
+- RUN #109 POST-FIX VERIFICATION (definitive, same verify() semantics, hash-first local PDFs): 59/119 papers now COMPLETE-RULE-OK, 34 improved, 19 unchanged, 7 worse; atomic deficits 731 -> 333 (398 recovered, 54%). Residue needs parser-v2/OCR-grade tools, NOT re-shots (blind re-shots retired).
+- PARSE-FAIL POOL SPENT: merged evidence (runs #1-#3 500 stems + run #4 250 stems, branch ocr-evidence): 291 FIX-NEEDED (dispatched as #108), 445 OCR-UNSTRUCTURED (parser-v2 targets), 14 OK/FILE-NOT-FOUND. No further evidence-backed fix list from this pool.
+- PHASE-2a NEW EVIDENCE (owner go 2026-11-18 'work on already got PDFs'; CPU-only, zero AI, zero DB writes): local tesseract OCR census of ALL 559 newly-found scan-band papers (250dpi, 40p cap, 5 resume-safe batches, ~50 min). Committed to ocr-evidence branch 572d852. Scoring vs DB stored rows (scan559_score.py, verifier semantics + OCR-UNSTRUCTURED guard when text<400 or 0 containers): 99 COMPLETE-RULE-OK, 46 OCR-UNSTRUCTURED, ~340 OVER-N (stored exceeds OCR reference - inflated/dup extraction candidates, weakest evidence class on scans, NOT dispatched), 17 MISSING>=3 (trustworthy direction: both OCR + prior extraction agree questions absent; 121 atomic deficit; 5 review + 12 complete).
+- DISPATCH run #110 id=44489903659 (cadence slot 1/3): PAPERS-FIX fix_pids=17 scan-band stems, reprocess=true status_filter=complete,review, total_calls=1900 route=auto qc_min=10 chunk_pages=2. Completed success 08:50Z, 8 min, 19 Google calls total (1.1/paper - partial-text scans rode Mercury text lane).
+- RUN #110 POST-FIX VERIFICATION: 10/17 fully clean, 5 improved-not-clean, 2 unchanged (nee023 5->5, eme505 10->10 - parked for parser-v2/OCR-grade analysis; attempt 2/2 reserved, no blind re-shot). Deficit 121 -> 34 (72% recovered). DB: questions 246,500 -> 246,571 (+71 net rows; atomic 87 recovered vs +71 rows = row/atomic semantics differ, consistent).
+- MIRRORED to repo_b/tools/: scan559_score.py, postfix_reverify119.py, scan559_scored_20261119.jsonl, postfix_reverify119_20261119.jsonl, fix_list_scan559.json. Laws intact: zero-churn DB (paper-scoped REPLACE with backups only), no new PDFs, no repo A / PROD contact, no secrets printed.
+- NEXT: (a) 15:30Z fire audits #110 ledger entry + continues scan-band OVER-N dedup-candidate analysis (evidence-backed only, backup+repoint pattern); (b) parser-v2 for 445 OCR-UNSTRUCTURED + 119-band residue + 2 unchanged scans; (c) 2nd/3rd fires dispatch remaining evidence-backed lists as they mature.
+---
+---
 Task ID: CRON-V6-20261119-cycle74
 Agent: Super Z (scheduled fire 2026-11-18 23:30Z = 2026-11-19 05:00 IST, job 535407; standing order v4)
 Task: resilience check, audit, verdict-follow, report; deliver the owner's promised self-contained answers (pdf-less mechanism / retraction of 1,262 / report style fix) and dispatch evidence-backed phase-2 work on already-held PDFs.
