@@ -1,0 +1,20 @@
+{
+ "run": "REPEATS-GOLD-20261121",
+ "ts": "2026-11-20T19:07:03.759319+00:00",
+ "gold_papers": 2419,
+ "clusters_kept": 4143,
+ "clusters_dropped_no_gold_evidence": 12730,
+ "verbatim_kept": 2579,
+ "repeats_total": 6722,
+ "csv_meta_hits": 6379,
+ "fallback_meta_hits": 343,
+ "no_meta": 0,
+ "member_rows": 14894,
+ "prod_repeats": 6722,
+ "prod_members": 14894,
+ "prod_facets": 3238,
+ "prod_subjects": 701,
+ "high_importance": 3040,
+ "csv_in_scope": 6379,
+ "prod_db_size": "29 MB"
+}
