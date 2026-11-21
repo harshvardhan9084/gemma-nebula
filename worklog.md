@@ -1,4 +1,18 @@
 ---
+Task ID: CRON-V6-20261121-cycle78
+Agent: Super Z (scheduled fire 2026-11-21 15:30Z = 21:00 IST, job 535407; standing order v4)
+Task: resilience check, audit, verdict-follow, #114 cancelled-run ledger bookkeeping (handed duty from cycle77 NEXT-c).
+
+Work Log:
+- RESILIENCE: no missed fires (last obs 12:04Z = owner-session extra audit; the 07:30Z fire ran as cycle77). Sandbox recycled -> deps rechecked OK; repo_b rolled back to 355a890 again -> ff-pull to b9c86a2 (owner-subjdir commit included).
+- AUDIT (script counter #75): papers 10,883 (+0), questions 248,382 (+0), complete 8,268 / review 2,615, retry ledger active=124 accepted=529 frozen=1,078, thin 110, unit-400 0. RPD 388/5,700 (script still books #113's 388 only), cadence 0/3. VERDICT: CAMPAIGN (owner-rule gate: blind re-shots retired; chunk2 PARKED per cycle77 quality stop) -> report-only fire, no dispatch.
+- #114 LEDGER AUDIT (handed duty, read-only): 42 papers carry extracted_at inside the #114 flight window 07:36-07:43Z (38 review + 4 complete; 38 RETRY-stamped in-window - attempt stamps KEPT per anti-loop law, no ledger surgery); 225 of the +289 mid-flight question rows remain (the -64 pruned by post-job QC churn after cancellation; questions total unchanged since at 248,382); RPD attribution: ~42 papers x ~1.1 calls/paper = ~50 calls spent by #114 NOT booked in the script ledger (conservative under-book; day total <= ~458/5,700 even attributed) - moot: quota day resets 07:05Z, no dispatch today. Touched papers stay quarantined in review (not gold) - consistent with the quality stop; their fate joins the 774-paper cleanup adjudication parked for owner.
+- STATE: stable; chunk2 PARKED until extractor anti-enrichment hardening ships (phase-2 proposal awaits owner go); subject_directory (built 12:08Z, OWNER-SUBJDIR-20261121) live in PROD, unaffected by pipeline state.
+- LAWS INTACT: zero-churn (no writes this fire), anti-loop (ledger untouched), RPD under cap, cadence honestly counted, no blind re-shot, no new PDFs, repo A untouched, PROD untouched, no secrets printed or committed.
+
+NEXT: (a) owner decisions pending: extractor hardening test + 774-paper cleanup adjudication; (b) 05:00 IST fire = fresh quota day, cadence 3/3 available - but dispatches stay gated on the same quality stop until owner go; (c) MISSING-1/2 band (585) + PARSE-FAIL printed=0 (723) remain queued behind hardening.
+
+---
 Task ID: OWNER-SUBJDIR-20261121
 Agent: Super Z (direct owner session, web chat 2026-11-21 17:32 IST)
 Task: owner asks answered with data (repeats trajectory 22k->15k->8k->6,722; what happened to the new CSV; role of legacy subjects table) + BUILD the subject directory table in PROD with ALL codes + subject name + content availability (has repeats / has papers) + subject name embeddings for search.
