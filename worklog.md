@@ -13,6 +13,20 @@ Work Log:
 NEXT: (a) owner decisions pending: extractor hardening test + 774-paper cleanup adjudication; (b) 05:00 IST fire = fresh quota day, cadence 3/3 available - but dispatches stay gated on the same quality stop until owner go; (c) MISSING-1/2 band (585) + PARSE-FAIL printed=0 (723) remain queued behind hardening.
 
 ---
+Task ID: CRON-V6-20261122-cycle79
+Agent: Super Z (scheduled fire 2026-11-21 23:30Z = 2026-11-22 05:00 IST, job 535407; standing order v4)
+Task: resilience check, audit, verdict-follow; legal zero-AI campaign in lieu of gated extraction dispatch.
+
+Work Log:
+- RESILIENCE: no missed fires (last obs 15:31Z cycle78; this fire exactly 8h later). Sandbox recycled -> deps OK; repo_b rolled back to 355a890 -> ff-pull to c7313c0.
+- AUDIT (script counter #76): papers 10,883 (+0), questions 248,382 (+0), complete 8,268 / review 2,615, retry active=124 accepted=529 frozen=1,078, thin 110, unit-400 0. RPD 388/5,700, cadence 0/3. VERDICT: CAMPAIGN -> extraction dispatches stay gated (chunk2 PARKED per cycle77 quality stop; owner go pending on extractor hardening test + 774-paper cleanup adjudication).
+- LEGAL ZERO-AI CAMPAIGN EXECUTED (OCR-evidence, standing owner go 11-18 'work on already got PDFs'; not an extraction run - zero cadence, zero vision calls, evidence-branch commits only): run #5 id=44962310616 dispatched with NEW stems list pipeline/evidence_lists/ocr_scan_batch2.txt = first 550 stems of the committed scan_3530 list (DB-stem universe; verified ZERO overlap with the 559 corpus-universe scan559 batch - two disjoint stem schemes, norm-compare 0/559). Run COMPLETED SUCCESS in ~10 min: 6/6 shards + gather, 550 verdicts committed to branch ocr-evidence (head 88f2677).
+- SCAN-SCORING PROGRESS: 559 (scan559) + 550 (scan_batch2) = 1,109 papers scored; 2,980 remain on scan_3530 (full remaining list committed: ocr_scan_remaining_2980.txt). Continuation is free per fire; after bands complete, the local gold census rerun promotes count-verified clean scans (owner-confirmed 100%-gold execution order step a).
+- LAWS INTACT: no extraction dispatch (quality stop + owner-rule gate honored), zero vision calls, zero DB writes (evidence branch only), zero-churn, anti-loop untouched, repo A untouched, PROD untouched, no secrets printed or committed.
+
+NEXT: (a) owner decisions still pending: extractor anti-enrichment hardening test (phase-2) + 774-paper cleanup adjudication; (b) next fire can dispatch scan_batch3 (550 stems, zero cost) and/or process the 550+559 verdicts into a promotion list for the census; (c) quota day resets 07:05Z - extraction runs stay gated regardless until owner go.
+
+---
 Task ID: OWNER-SUBJDIR-20261121
 Agent: Super Z (direct owner session, web chat 2026-11-21 17:32 IST)
 Task: owner asks answered with data (repeats trajectory 22k->15k->8k->6,722; what happened to the new CSV; role of legacy subjects table) + BUILD the subject directory table in PROD with ALL codes + subject name + content availability (has repeats / has papers) + subject name embeddings for search.
