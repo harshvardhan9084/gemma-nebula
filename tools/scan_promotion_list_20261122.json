@@ -1,0 +1,105 @@
+{
+ "criterion": "printed_atomic==n_questions AND n_questions>=10 AND status=complete (sha256 join)",
+ "joined": 550,
+ "measurable": 308,
+ "clean": [],
+ "batch3": {
+  "rows": 550,
+  "joined": 550,
+  "status": {
+   "review": 526,
+   "complete": 24
+  },
+  "deltas": {
+   "pa<nq": 266,
+   "pa>nq": 49,
+   "pa==nq": 14
+  },
+  "exact_count": [
+   {
+    "stem": "mba-4-sem-working-capital-management-rmb-fm04-2018",
+    "pid": "9278f1d1-b7da-4ab1-b493-11d58f409242",
+    "n_questions": 20,
+    "status": "review"
+   },
+   {
+    "stem": "btech-me-6-sem-mechanical-vibrations-eme-024-2011",
+    "pid": "734c58d1-63f7-49c9-abdd-92573fc10d3c",
+    "n_questions": 12,
+    "status": "review"
+   },
+   {
+    "stem": "mba-1-sem-business-communication-kmbn107-2022",
+    "pid": "de063ea1-4c74-40ea-89fe-aaf1798293d9",
+    "n_questions": 6,
+    "status": "review"
+   },
+   {
+    "stem": "mba-4-sem-corporate-governance-values-and-ethics-mba042-2011",
+    "pid": "16e0c662-aae0-4779-8542-20113561e29e",
+    "n_questions": 17,
+    "status": "review"
+   },
+   {
+    "stem": "btech-ch-3-sem-mechanical-operations-ech-302-2015",
+    "pid": "74af0a3f-ee07-4ddf-8576-d90603b0fbdb",
+    "n_questions": 15,
+    "status": "review"
+   },
+   {
+    "stem": "btech-bt-3-sem-introduction-to-bioinformatics-bt-303-2015",
+    "pid": "0278f6e0-1b74-4c3f-9aff-ac478b692b4c",
+    "n_questions": 19,
+    "status": "review"
+   },
+   {
+    "stem": "btech-cs-8-sem-data-mining-and-warkhousing-cs-031-2005",
+    "pid": "94835354-f00e-482a-a23b-2662a7a930bf",
+    "n_questions": 17,
+    "status": "review"
+   },
+   {
+    "stem": "btech-1-sem-remedial-biology-1-nbt101-2015",
+    "pid": "183f071a-090f-41dd-a1d2-5da58d4592d3",
+    "n_questions": 15,
+    "status": "review"
+   },
+   {
+    "stem": "mca-4-sem-foundation-of-e-commerce-mca-405-2007",
+    "pid": "f9f24a64-ba57-495f-8e21-9f6eed106668",
+    "n_questions": 21,
+    "status": "review"
+   },
+   {
+    "stem": "mba-4-sem-marketing-of-services-mbmk-04-2015",
+    "pid": "09c9d26c-ac39-4db7-ad42-aa150044dc31",
+    "n_questions": 16,
+    "status": "review"
+   },
+   {
+    "stem": "mca-4-sem-web-technology-nmca-412-v2-2015",
+    "pid": "7d148720-7923-4cd0-b0bb-49401c5ac5b1",
+    "n_questions": 14,
+    "status": "review"
+   },
+   {
+    "stem": "btech-me-3-sem-strength-of-materials-me-303-2004",
+    "pid": "36a8e637-1a4c-4e77-add5-c9b5216078fa",
+    "n_questions": 15,
+    "status": "review"
+   },
+   {
+    "stem": "mca-4-sem-mobile-computer-nmca-414-2015",
+    "pid": "c6019230-8294-4073-b0bd-5d513f18a9e2",
+    "n_questions": 16,
+    "status": "review"
+   },
+   {
+    "stem": "mba-5-sem-cost-accounting-kmbi505-1-jan-2024",
+    "pid": "e8cfb74c-677d-458c-96d1-64a95fceadc9",
+    "n_questions": 7,
+    "status": "review"
+   }
+  ]
+ }
+}
