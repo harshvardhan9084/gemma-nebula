@@ -1,7 +1,7 @@
 {
  "criterion": "printed_atomic==n_questions AND n_questions>=10 AND status=complete (sha256 join)",
- "joined": 550,
- "measurable": 308,
+ "joined": 1100,
+ "measurable": 694,
  "clean": [],
  "batch3": {
   "rows": 550,
@@ -99,6 +99,283 @@
     "pid": "e8cfb74c-677d-458c-96d1-64a95fceadc9",
     "n_questions": 7,
     "status": "review"
+   }
+  ]
+ },
+ "batch4": {
+  "rows": 550,
+  "joined": 550,
+  "unjoined": 0,
+  "status": {
+   "complete": 550
+  },
+  "deltas": {
+   "pa<nq": 336,
+   "pa>nq": 37,
+   "pa==nq": 13
+  },
+  "exact_count": [
+   {
+    "stem": "bpharm-8-sem-research-methodology-bop485e-2019",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "7ad641eb-d1a7-4264-ab4d-a6a7d0f74a82",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-ch-8-sem-petroleum-engineering-nch031-2019",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "d187892b-5c3a-4c93-b2af-3819bd740a33",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-bt-4-sem-immunology-bt-405-2014",
+    "printed_atomic": 16,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "b4eedcc7-0514-4f6c-970d-04d5e6e18517",
+    "status": "complete",
+    "n_questions": 16
+   },
+   {
+    "stem": "btech-cs-5-sem-computer-graphics-cs-507-2006",
+    "printed_atomic": 15,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "e0aa4423-f155-4401-ac3d-c5188f6c0643",
+    "status": "complete",
+    "n_questions": 15
+   },
+   {
+    "stem": "btech-2-sem-environment-and-ecology-eas205-2018",
+    "printed_atomic": 14,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "2e8dc100-fd77-49e4-9759-0e5dc3253ffc",
+    "status": "complete",
+    "n_questions": 14
+   },
+   {
+    "stem": "bpharm-8-sem-pharmaceutics-12-bop-484-2019",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "c2ea081d-e3c3-40cb-b698-d15ac2815553",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-me-3-sem-strength-of-materials-eme-302-2014",
+    "printed_atomic": 11,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "fc36a01c-aa94-4da6-ad1d-4c9e00ff4ee0",
+    "status": "complete",
+    "n_questions": 11
+   },
+   {
+    "stem": "btech-ch-4-sem-mass-transfer-1-rch401-2019",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "318952d5-c815-4c48-b088-02f68d57562e",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "bpharm-2-sem-pharmaceutical-chemistry-2-bop-121-2019",
+    "printed_atomic": 29,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "bf0c5251-9680-4fef-823a-9b82f2dcefb1",
+    "status": "complete",
+    "n_questions": 29
+   },
+   {
+    "stem": "btech-ce-5-sem-environmental-engineering-1-ece503-2013",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "014e6169-40e3-4d9d-bc37-f464e130292f",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-bt-4-sem-immunology-nbt404-2019",
+    "printed_atomic": 26,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "27445002-ace5-4887-8ea8-f82b16a88253",
+    "status": "complete",
+    "n_questions": 26
+   },
+   {
+    "stem": "btech-eee-5-sem-elements-of-power-system-en-501-2008",
+    "printed_atomic": 18,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "cd7634f7-e56b-4611-abd5-c52b2583405e",
+    "status": "complete",
+    "n_questions": 18
+   },
+   {
+    "stem": "bpharm-6-sem-pharmaceutical-chemistry-7-rph627-2019",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "831f12a0-8774-4dbc-a9bb-724f5f9e4e81",
+    "status": "complete",
+    "n_questions": 22
+   }
+  ],
+  "clean": [
+   {
+    "stem": "bpharm-8-sem-research-methodology-bop485e-2019",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "7ad641eb-d1a7-4264-ab4d-a6a7d0f74a82",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-ch-8-sem-petroleum-engineering-nch031-2019",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "d187892b-5c3a-4c93-b2af-3819bd740a33",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-bt-4-sem-immunology-bt-405-2014",
+    "printed_atomic": 16,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "b4eedcc7-0514-4f6c-970d-04d5e6e18517",
+    "status": "complete",
+    "n_questions": 16
+   },
+   {
+    "stem": "btech-cs-5-sem-computer-graphics-cs-507-2006",
+    "printed_atomic": 15,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "e0aa4423-f155-4401-ac3d-c5188f6c0643",
+    "status": "complete",
+    "n_questions": 15
+   },
+   {
+    "stem": "btech-2-sem-environment-and-ecology-eas205-2018",
+    "printed_atomic": 14,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "2e8dc100-fd77-49e4-9759-0e5dc3253ffc",
+    "status": "complete",
+    "n_questions": 14
+   },
+   {
+    "stem": "bpharm-8-sem-pharmaceutics-12-bop-484-2019",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "c2ea081d-e3c3-40cb-b698-d15ac2815553",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-me-3-sem-strength-of-materials-eme-302-2014",
+    "printed_atomic": 11,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "fc36a01c-aa94-4da6-ad1d-4c9e00ff4ee0",
+    "status": "complete",
+    "n_questions": 11
+   },
+   {
+    "stem": "btech-ch-4-sem-mass-transfer-1-rch401-2019",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "318952d5-c815-4c48-b088-02f68d57562e",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "bpharm-2-sem-pharmaceutical-chemistry-2-bop-121-2019",
+    "printed_atomic": 29,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "bf0c5251-9680-4fef-823a-9b82f2dcefb1",
+    "status": "complete",
+    "n_questions": 29
+   },
+   {
+    "stem": "btech-ce-5-sem-environmental-engineering-1-ece503-2013",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "014e6169-40e3-4d9d-bc37-f464e130292f",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-bt-4-sem-immunology-nbt404-2019",
+    "printed_atomic": 26,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "27445002-ace5-4887-8ea8-f82b16a88253",
+    "status": "complete",
+    "n_questions": 26
+   },
+   {
+    "stem": "btech-eee-5-sem-elements-of-power-system-en-501-2008",
+    "printed_atomic": 18,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "cd7634f7-e56b-4611-abd5-c52b2583405e",
+    "status": "complete",
+    "n_questions": 18
+   },
+   {
+    "stem": "bpharm-6-sem-pharmaceutical-chemistry-7-rph627-2019",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "831f12a0-8774-4dbc-a9bb-724f5f9e4e81",
+    "status": "complete",
+    "n_questions": 22
    }
   ]
  }
