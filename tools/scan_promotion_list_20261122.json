@@ -1,7 +1,7 @@
 {
  "criterion": "printed_atomic==n_questions AND n_questions>=10 AND status=complete (sha256 join)",
- "joined": 1100,
- "measurable": 694,
+ "joined": 1650,
+ "measurable": 1033,
  "clean": [],
  "batch3": {
   "rows": 550,
@@ -374,6 +374,563 @@
     "n_pages": 1,
     "truncated": false,
     "pid": "831f12a0-8774-4dbc-a9bb-724f5f9e4e81",
+    "status": "complete",
+    "n_questions": 22
+   }
+  ]
+ },
+ "scan_batch5": {
+  "rows": 550,
+  "joined": 550,
+  "unjoined": 0,
+  "status": {
+   "complete": 550
+  },
+  "deltas": {
+   "pa<nq": 280,
+   "pa>nq": 32,
+   "pa==nq": 27
+  },
+  "exact_count": [
+   {
+    "stem": "btech-as-4-sem-engineering-mathematics-4-kas402-aug-2023",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "43c92bcd-aac3-441d-943b-ffba9dc032d4",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-cs-3-sem-data-structures-cs-301-2014",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "ddc09b2c-6aee-450c-8c1f-4151dd785a2a",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-bt-6-sem-plant-biotechnology-ebt-012-2013",
+    "printed_atomic": 28,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "72557111-092a-4d79-bcfe-b54aa6f2a64f",
+    "status": "complete",
+    "n_questions": 28
+   },
+   {
+    "stem": "btech-cs-6-sem-computer-network-cs-602-2004",
+    "printed_atomic": 28,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "3d613ef9-cd73-4285-a38c-ede0ac3e0a22",
+    "status": "complete",
+    "n_questions": 28
+   },
+   {
+    "stem": "btech-bt-3-sem-microbiology-and-cell-biology-bt-305-2015",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "6122fa7b-457e-4ac4-b49f-4959859fe58e",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-ch-3-sem-fluid-flow-operations-ch-302-2015",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "acd44e21-bbb5-4947-bfd7-6fddbd7e7f8f",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-cs-5-sem-data-structure-and-algorithm-ecs-508-2013",
+    "printed_atomic": 28,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "32b0cee9-5062-4cf2-a0d7-fc7f5bf830c1",
+    "status": "complete",
+    "n_questions": 28
+   },
+   {
+    "stem": "bpharm-6-sem-pharmaceutical-technology-2-bop362-2018",
+    "printed_atomic": 24,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "66d48a82-aeba-420c-b514-5a0df46ebe67",
+    "status": "complete",
+    "n_questions": 24
+   },
+   {
+    "stem": "btech-cs-7-sem-computer-architecture-cs-702-2006",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "b067091b-5437-445a-8e92-ff0ece3190f2",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-ch-4-sem-chemical-reaction-engineering-1-ech-403-2015",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "7d182bf3-d034-447b-a955-c87caabe0527",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-bt-7-sem-bioprocess-engineering-2-ebt-042-2015",
+    "printed_atomic": 24,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "b246b984-82c9-4dee-820e-9305b69585cc",
+    "status": "complete",
+    "n_questions": 24
+   },
+   {
+    "stem": "btech-cs-4-sem-data-base-management-systems-ecs-402-2012",
+    "printed_atomic": 29,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "e7249206-a2b6-45f3-83eb-a8b3adda0910",
+    "status": "complete",
+    "n_questions": 29
+   },
+   {
+    "stem": "btech-cs-4-sem-computer-organization-tcs-401-2004",
+    "printed_atomic": 23,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "7738251d-a720-434f-bf2a-df7bf9cad1fb",
+    "status": "complete",
+    "n_questions": 23
+   },
+   {
+    "stem": "btech-ec-4-sem-electromagnetic-field-theory-rec402-2018",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "8159ff2c-e4a2-435d-8750-2146ab61b1bd",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-cs-3-sem-computer-organization-and-architecture-kcs-302-apr-2023",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "16966d97-c060-417a-8cb9-9a22d8246193",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-cs-3-sem-discrete-mathematical-structures-v2-ecs303-2012",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "53b3a60b-6b0e-4b0f-bdad-05f3992ae01a",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "mba-4-sem-financial-derivatives-rmbfm05-2018",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "fba486d7-81af-42c7-8a66-a107d889f93a",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "bpharm-4-sem-physical-pharmacy-bop-242-2018",
+    "printed_atomic": 25,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "0cdac678-8cb0-4c7c-a63c-1b1dcd60a9f4",
+    "status": "complete",
+    "n_questions": 25
+   },
+   {
+    "stem": "btech-4-sem-technical-communication-kas-401-jul-2023",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "f114aa90-0e8f-4d3f-a8f3-c74d45056801",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "bpharm-8-sem-natural-products-pharm-482-2019",
+    "printed_atomic": 25,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "e8a4524b-a8f1-4fad-9534-5476aee3a12b",
+    "status": "complete",
+    "n_questions": 25
+   },
+   {
+    "stem": "btech-bt-4-sem-enzyme-engineering-ebt401-2013",
+    "printed_atomic": 32,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "25e677b2-ad4b-4360-abf1-0be1a9aaf168",
+    "status": "complete",
+    "n_questions": 32
+   },
+   {
+    "stem": "btech-ch-3-sem-fluid-flow-operations-ech-303-2015",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "6b74a17a-3100-4e5a-b04f-1a8c5266f717",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-cs-4-sem-object-oriented-systems-tcs-403-2006",
+    "printed_atomic": 29,
+    "ocr_verdict": "OK",
+    "n_pages": 5,
+    "truncated": false,
+    "pid": "37e78714-5349-4f41-8130-cef33be4a7f4",
+    "status": "complete",
+    "n_questions": 29
+   },
+   {
+    "stem": "btech-ct-3-sem-yarn-manufacture-1-nct302-2020",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "8e83e0c6-3ce7-4c47-a23c-73ba23d4dc7b",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "bpharm-7-sem-instrumental-methods-of-analysis-theory-bp701t-may-2026",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "acb64622-5cf7-473d-bbca-a7da6cd58768",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-ce-4-sem-engineering-geology-ece-404-2010",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "c055ccec-120e-4856-a788-b324502ce688",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-cs-4-sem-theory-of-automata-and-formal-languages-ecs-403-2014",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "e5533c33-864a-48db-999d-87acb48ab075",
+    "status": "complete",
+    "n_questions": 22
+   }
+  ],
+  "clean": [
+   {
+    "stem": "btech-as-4-sem-engineering-mathematics-4-kas402-aug-2023",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "43c92bcd-aac3-441d-943b-ffba9dc032d4",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-cs-3-sem-data-structures-cs-301-2014",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "ddc09b2c-6aee-450c-8c1f-4151dd785a2a",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-bt-6-sem-plant-biotechnology-ebt-012-2013",
+    "printed_atomic": 28,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "72557111-092a-4d79-bcfe-b54aa6f2a64f",
+    "status": "complete",
+    "n_questions": 28
+   },
+   {
+    "stem": "btech-cs-6-sem-computer-network-cs-602-2004",
+    "printed_atomic": 28,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "3d613ef9-cd73-4285-a38c-ede0ac3e0a22",
+    "status": "complete",
+    "n_questions": 28
+   },
+   {
+    "stem": "btech-bt-3-sem-microbiology-and-cell-biology-bt-305-2015",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "6122fa7b-457e-4ac4-b49f-4959859fe58e",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-ch-3-sem-fluid-flow-operations-ch-302-2015",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "acd44e21-bbb5-4947-bfd7-6fddbd7e7f8f",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-cs-5-sem-data-structure-and-algorithm-ecs-508-2013",
+    "printed_atomic": 28,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "32b0cee9-5062-4cf2-a0d7-fc7f5bf830c1",
+    "status": "complete",
+    "n_questions": 28
+   },
+   {
+    "stem": "bpharm-6-sem-pharmaceutical-technology-2-bop362-2018",
+    "printed_atomic": 24,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "66d48a82-aeba-420c-b514-5a0df46ebe67",
+    "status": "complete",
+    "n_questions": 24
+   },
+   {
+    "stem": "btech-cs-7-sem-computer-architecture-cs-702-2006",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "b067091b-5437-445a-8e92-ff0ece3190f2",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-ch-4-sem-chemical-reaction-engineering-1-ech-403-2015",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "7d182bf3-d034-447b-a955-c87caabe0527",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-bt-7-sem-bioprocess-engineering-2-ebt-042-2015",
+    "printed_atomic": 24,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "b246b984-82c9-4dee-820e-9305b69585cc",
+    "status": "complete",
+    "n_questions": 24
+   },
+   {
+    "stem": "btech-cs-4-sem-data-base-management-systems-ecs-402-2012",
+    "printed_atomic": 29,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "e7249206-a2b6-45f3-83eb-a8b3adda0910",
+    "status": "complete",
+    "n_questions": 29
+   },
+   {
+    "stem": "btech-cs-4-sem-computer-organization-tcs-401-2004",
+    "printed_atomic": 23,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "7738251d-a720-434f-bf2a-df7bf9cad1fb",
+    "status": "complete",
+    "n_questions": 23
+   },
+   {
+    "stem": "btech-ec-4-sem-electromagnetic-field-theory-rec402-2018",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "8159ff2c-e4a2-435d-8750-2146ab61b1bd",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-cs-3-sem-computer-organization-and-architecture-kcs-302-apr-2023",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "16966d97-c060-417a-8cb9-9a22d8246193",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-cs-3-sem-discrete-mathematical-structures-v2-ecs303-2012",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "53b3a60b-6b0e-4b0f-bdad-05f3992ae01a",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "mba-4-sem-financial-derivatives-rmbfm05-2018",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "fba486d7-81af-42c7-8a66-a107d889f93a",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "bpharm-4-sem-physical-pharmacy-bop-242-2018",
+    "printed_atomic": 25,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "0cdac678-8cb0-4c7c-a63c-1b1dcd60a9f4",
+    "status": "complete",
+    "n_questions": 25
+   },
+   {
+    "stem": "btech-4-sem-technical-communication-kas-401-jul-2023",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "f114aa90-0e8f-4d3f-a8f3-c74d45056801",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "bpharm-8-sem-natural-products-pharm-482-2019",
+    "printed_atomic": 25,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "e8a4524b-a8f1-4fad-9534-5476aee3a12b",
+    "status": "complete",
+    "n_questions": 25
+   },
+   {
+    "stem": "btech-bt-4-sem-enzyme-engineering-ebt401-2013",
+    "printed_atomic": 32,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "25e677b2-ad4b-4360-abf1-0be1a9aaf168",
+    "status": "complete",
+    "n_questions": 32
+   },
+   {
+    "stem": "btech-ch-3-sem-fluid-flow-operations-ech-303-2015",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "6b74a17a-3100-4e5a-b04f-1a8c5266f717",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-cs-4-sem-object-oriented-systems-tcs-403-2006",
+    "printed_atomic": 29,
+    "ocr_verdict": "OK",
+    "n_pages": 5,
+    "truncated": false,
+    "pid": "37e78714-5349-4f41-8130-cef33be4a7f4",
+    "status": "complete",
+    "n_questions": 29
+   },
+   {
+    "stem": "btech-ct-3-sem-yarn-manufacture-1-nct302-2020",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "8e83e0c6-3ce7-4c47-a23c-73ba23d4dc7b",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "bpharm-7-sem-instrumental-methods-of-analysis-theory-bp701t-may-2026",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "acb64622-5cf7-473d-bbca-a7da6cd58768",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-ce-4-sem-engineering-geology-ece-404-2010",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "c055ccec-120e-4856-a788-b324502ce688",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-cs-4-sem-theory-of-automata-and-formal-languages-ecs-403-2014",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "e5533c33-864a-48db-999d-87acb48ab075",
     "status": "complete",
     "n_questions": 22
    }
