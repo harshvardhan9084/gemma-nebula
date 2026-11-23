@@ -20,6 +20,24 @@
       "date": "2026-11-24",
       "lesson": "BCS301 2024-25 (ea84defe) prints zero-padded marks arithmetic ('2 x 07 = 14', '07 x 3 = 21', '07 x 1 = 07') - section headers carry the marks signal; per-question marks may be absent (-> honest NULL) while section total arithmetic pins {2,7}. Gemini Hydrogen single-call output on the same paper: marks 2/7 on all 22 rows, zero hallucinated marks.",
       "evidence": "download/scraped_text_sample_BCS301_2024-25_ea84defe.txt + owner-pasted Gemini output"
+    },
+    {
+      "date": "2026-11-24",
+      "run": 9,
+      "lesson": "RESOLUTION HIJACK: the code+year glob returned sorted(cands)[0] over the 11k-PDF runner corpus and silently transcribed the WRONG paper (bcs301-2024-25 row -> mar-2024 PDF), hash_ok=False recorded but 9 AI sends still burned. FIXED as law: glob candidates are sha256-verified before acceptance (resolve_paper) and a wrong hash now HARD-FAILS verdict=hash-mismatch with 0 AI calls (wrong-paper gate). Run 10: 10/10 papers hash_ok=True, zero wrong-paper rows.",
+      "evidence": "god-evidence branch shard verdicts run 9 vs run 10"
+    },
+    {
+      "date": "2026-11-24",
+      "run": 10,
+      "lesson": "SECTION-TOTAL MARKS LEAK: models transcribe section-total arithmetic lines as question marks (labels 1/2 carrying marks 20/30 = '2 x 10 = 20' style headers; also a stray 5). Marks law {2,7,10} caught all 6 on 4 papers and flagged +marks-off-law with values KEPT. AMENDMENT PROPOSAL (owner review needed): deterministic demotion to honest NULL when marks not in law AND the label is a section-total instruction line - today they are only flagged, per the keep-never-rewrite rule.",
+      "evidence": "god6_audit run 10 marks_off_law entries (kcs301-2022, ncs301-2022, bcs301-2026, bcs301-2025-26)"
+    },
+    {
+      "date": "2026-11-24",
+      "run": 10,
+      "lesson": "TEXT LEAK + SHAPE POLICY: (a) born-digital ryzenstudy PDFs leak stray Devanagari glyphs (ea84defe row 1.c ends with 'प') - cleaner needs a Devanagari-stray rule; (b) GOD stores container-level rows with sub-parts INLINE (19 rows for ea84defe) while the questions-table shape wants one row per sub-part (Gemini Hydrogen's 22 rows) - the v7 bridge is a deterministic sub-part splitter over verified container rows, NOT a re-extraction call.",
+      "evidence": "god6_questions bcs301-2024-25-ryzen-ea84defe (19 rows) vs owner-pasted Gemini output (22 rows); 22-19 = the 3 merged containers (5/6/7)"
     }
   ]
 }
