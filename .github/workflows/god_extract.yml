@@ -155,7 +155,7 @@ jobs:
           for d in artifacts/god-evidence-shard*/; do
             [ -d "$d" ] && cp -r "$d"/. evidence/god/ 2>/dev/null || true
           done
-          git fetch --depth=1 origin god-evidence 2>/dev/null && \
+          git fetch --depth=1 origin god-evidence:refs/remotes/origin/god-evidence && \
             git checkout -B god-evidence origin/god-evidence || \
             git checkout --orphan god-evidence
           git add evidence/god
