@@ -213,11 +213,22 @@ def norm(s):
 
 
 def label_key(label):
+    """Comparable sort key: numeric labels -> (0, num, sub) sort before any
+    non-numeric label -> (1, 0, s). Run 6 lost 31 papers to a str/int
+    TypeError at the sorted() call when the model printed labels like
+    'Q.2.(c)' - the old 2-tuple mixed int and str types."""
     s = str(label or '').strip().lower()
     m = re.match(r'^(\d{1,2})\s*[\.\)\:]?\s*((?:[a-l])?\d*)$', s)
     if m:
-        return (int(m.group(1)), m.group(2) or '')
-    return (s, '')
+        return (0, int(m.group(1)), m.group(2) or '')
+    return (1, 0, s)
+
+
+def label_str(k):
+    """Human-readable label from a label_key tuple."""
+    if k[0] == 0:
+        return str(k[1]) + (k[2] or '')
+    return str(k[2])
 
 
 # ---------------------------------------------------------------------------
@@ -394,7 +405,13 @@ def god_verify(qs, ref):
     (enrichment) rows, while count mismatch with NO suspect rows means the
     reference itself is undercounting (review-ref, keep data, flag for the
     reference-parser iteration loop)."""
-    containers = ref['ref']['containers']
+    # run-6 lesson: instruction/formula lines create containers with NO text
+    # ("1. Attempt all five questions..." -> phantom label the real
+    # extraction can never match, forcing a permanent review-diff). Only
+    # containers with actual text count as printed questions. parse_printed
+    # itself stays untouched - it is shared with the zero-AI OCR evidence
+    # campaign whose counts must not shift.
+    containers = [c for c in ref['ref']['containers'] if container_text(c)]
     printed = {label_key(str(c['n'])): container_text(c) for c in containers}
     printed_labels = list(printed.keys())
     pool = [t for t in printed.values() if len(norm(t)) >= 18]
@@ -403,8 +420,8 @@ def god_verify(qs, ref):
     db_nq = ref.get('db_nq')
     atomic = ref.get('atomic') or 0
     weakref = len(printed_labels) < 4 or (db_nq and atomic and not (0.5 * db_nq <= atomic <= 1.6 * db_nq + 4))
-    missing = [str(k[0]) + (k[1] or '') for k in printed_labels if k not in ext]
-    extra = [str(k[0]) + (k[1] or '') for k in ext_labels if k not in printed]
+    missing = [label_str(k) for k in printed_labels if k not in ext]
+    extra = [label_str(k) for k in ext_labels if k not in printed]
     scores = {}
     matched = 0
     n_scored = 0
@@ -422,16 +439,16 @@ def god_verify(qs, ref):
                     | set(re.findall(r'(?:^|\s)([a-l])[\.\)]\s', t)))
             miss = [L for L in letters if L not in have]
             if miss:
-                part_gaps[str(k[0]) + (k[1] or '')] = miss
+                part_gaps[label_str(k)] = miss
     for k in ext_labels:
         best_r = max((fuzzy_ratio(ext[k]['text'], t) for t in pool), default=0.0)
         if k in printed and len(norm(printed[k])) >= 18:
-            scores[str(k[0]) + (k[1] or '')] = round(best_r, 2)
+            scores[label_str(k)] = round(best_r, 2)
             n_scored += 1
             if best_r >= 0.45:
                 matched += 1
         elif best_r < 0.30:
-            suspect_extra.append(str(k[0]) + (k[1] or ''))
+            suspect_extra.append(label_str(k))
     score_avg = round(matched / n_scored, 2) if n_scored else None
     trusted = ref.get('trusted', not weakref)
     count_ok = trusted and len(ext_labels) == len(printed_labels)
@@ -455,6 +472,11 @@ def god_verify(qs, ref):
 # ---------------------------------------------------------------------------
 # diagrams
 # ---------------------------------------------------------------------------
+
+def qname_for_file(q):
+    """Filesystem/object-name-safe question tag from a label_key tuple."""
+    return re.sub(r'[^a-z0-9]+', '', label_str(q['key']).lower()) or 'q'
+
 
 def crop_diagrams_god(pdf_path, qs, stem, sb):
     """Crop reported figure regions -> PNG -> god-diagrams bucket -> URLs."""
@@ -488,14 +510,15 @@ def crop_diagrams_god(pdf_path, qs, stem, sb):
                     crop = crop.resize((max(1, crop.width // 2), max(1, crop.height // 2)))
                     buf = io.BytesIO()
                     crop.save(buf, 'PNG')
+                qname = qname_for_file(q)
                 local = os.path.join('evidence', 'god', 'diagrams', stem[:110],
-                                     f'q{q["key"][0]}{q["key"][1] or ""}_p{pno}.png')
+                                     f'q{qname}_p{pno}.png')
                 os.makedirs(os.path.dirname(local), exist_ok=True)
                 with open(local, 'wb') as f:
                     f.write(buf.getvalue())
                 if sb is not None:
                     url = sb.upload_diagram(DIA_BUCKET,
-                                            f'{stem[:110]}/q{q["key"][0]}{q["key"][1] or ""}_p{pno}.png',
+                                            f'{stem[:110]}/q{qname}_p{pno}.png',
                                             local)
                     if url:
                         q['diagram_url'] = url
@@ -582,6 +605,56 @@ def push_audit(sb, row, run_id, shard, attempt, verdict, verify, calls, notes):
 
 
 # ---------------------------------------------------------------------------
+# source fetch (last-resort PDF resolution)
+# ---------------------------------------------------------------------------
+
+UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
+                     '(KHTML, like Gecko) Chrome/120.0 Safari/537.36'}
+MAX_DL = 25_000_000
+
+
+def fetch_source_pdf(row, dst_dir):
+    """Download a paper's PDF from its recorded source (aktuonline /
+    ryzenstudy / Drive) when the corpus index misses the stem.
+    sha256 MUST match the DB file_hash when present - a different file is
+    never transcribed (wrong-paper guard). Returns local path or None."""
+    url = row.get('storage_url') or ''
+    if not url or not HAVE_REQUESTS:
+        return None
+    try:
+        if 'drive.google.com' in url:
+            url = url.replace('uc?export=download&id=',
+                              'uc?export=download&confirm=t&id=')
+        r = requests.get(url, headers=UA, timeout=90, stream=True)
+        if r.status_code != 200:
+            log(f'    [fetch] {url[:60]}: HTTP {r.status_code}')
+            return None
+        buf = b''
+        for chunk in r.iter_content(1 << 16):
+            buf += chunk
+            if len(buf) > MAX_DL:
+                log(f'    [fetch] exceeds {MAX_DL} bytes - refusing')
+                return None
+        if buf[:4] != b'%PDF':
+            log(f'    [fetch] not a PDF ({buf[:20]!r}) - refusing')
+            return None
+        h = hashlib.sha256(buf).hexdigest()
+        fh = (row.get('file_hash') or '').lower()
+        if fh and h != fh:
+            log(f'    [fetch] sha256 MISMATCH {h[:12]} != db {fh[:12]} '
+                f'- refusing wrong paper')
+            return None
+        os.makedirs(dst_dir, exist_ok=True)
+        path = os.path.join(dst_dir, row['stem'] + '.pdf')
+        with open(path, 'wb') as f:
+            f.write(buf)
+        return path
+    except Exception as e:
+        log(f'    [fetch] failed: {type(e).__name__}: {str(e)[:100]}')
+        return None
+
+
+# ---------------------------------------------------------------------------
 # main
 # ---------------------------------------------------------------------------
 
@@ -608,6 +681,15 @@ def main():
     if args.group:
         rows = [r for r in rows if r['group'] == args.group]
     mine = [r for i, r in enumerate(rows) if i % args.shards == args.shard]
+    seen_stems, dedup = set(), []
+    for r in mine:
+        if r['stem'] in seen_stems:
+            continue
+        seen_stems.add(r['stem'])
+        dedup.append(r)
+    if len(dedup) < len(mine):
+        log(f'[god] deduped {len(mine) - len(dedup)} duplicate rows within shard')
+    mine = dedup
     log(f'[god] shard {args.shard}/{args.shards}: {len(mine)}/{len(rows)} papers'
         + (f' group={args.group}' if args.group else ''))
 
@@ -662,6 +744,13 @@ def main():
                 if cands:
                     path = index[sorted(cands)[0]]
                     out['resolved_by'] = 'code+year-glob'
+            if not path:
+                # last resort: fetch from the paper's recorded source
+                # (aktuonline / ryzenstudy / Drive), sha256-guarded
+                path = fetch_source_pdf(row, os.path.join('corpus', '_from_storage'))
+                if path:
+                    out['resolved_by'] = 'source-download'
+                    index[stem] = path
             if not path:
                 out.update({'verdict': 'pdf-missing'})
                 stats['pdf-missing'] += 1
