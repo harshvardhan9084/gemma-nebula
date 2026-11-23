@@ -77,6 +77,49 @@ except ImportError:  # runner runs from repo root with pipeline on sys.path
 
 PROMPT_VERSION = 'god7-printref-verify'
 DIA_BUCKET = 'god-diagrams'
+CODEX_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                          'codex_laws.json')
+
+
+def load_codex():
+    """Living codex (owner 2026-11-24: every PDF teaches the pipeline; laws
+    are not a closed rulebook). Seeded from pipeline/codex_laws.json, which
+    may grow 'learned' amendments as runs produce evidence. A missing or
+    corrupt file falls back to the SEED values so a law never silently
+    disappears - the seed is owner-fixed, not code-invented."""
+    seed = {'version': 'seed-2026-11-24',
+            'laws': {'marks_allowed': {'value': [2, 7, 10]}}}
+    try:
+        with open(CODEX_PATH, encoding='utf-8') as f:
+            cx = json.load(f)
+        allowed = cx['laws']['marks_allowed']['value']
+        if not isinstance(allowed, list) or not allowed:
+            raise ValueError('marks_allowed.value empty')
+        return cx, set(int(v) for v in allowed)
+    except Exception as e:
+        log(f'[codex] fallback to seed laws ({type(e).__name__}: {str(e)[:80]})')
+        return seed, set(seed['laws']['marks_allowed']['value'])
+
+
+def marks_qc(qs, allowed):
+    """Owner marks law (codex law 'marks_allowed'): printed marks OUTSIDE the
+    allowed set are a transcription defect -> the ROW is flagged (verify gets
+    '+marks-off-law'), the extracted value is KEPT (honest, never silently
+    rewritten), and every violation is listed in the god6_audit diff. NULL
+    marks stay honest NULL (schema law) and are only counted as null_rate.
+    Returns (violations, null_rate)."""
+    bad, n_null = [], 0
+    for q in qs:
+        m = q.get('marks')
+        if m is None:
+            n_null += 1
+            q['marks_qc'] = 'null'
+        elif int(m) not in allowed:
+            q['marks_qc'] = 'off-law'
+            bad.append({'label': q['label'], 'marks': int(m)})
+        else:
+            q['marks_qc'] = 'ok'
+    return bad, (n_null / max(1, len(qs)) if qs else 0.0)
 
 # ---------------------------------------------------------------------------
 # GOD schema: transcription + diagram geometry
@@ -573,12 +616,15 @@ def push_god_paper(sb, row, qs, verdict, ref, verify, calls, run_id, header):
     if qs:
         qrows = []
         for i, q in enumerate(qs, 1):
+            vflag = 'printed-matched' if not verify.get('weakref') else 'weak-ref'
+            if q.get('marks_qc') == 'off-law':
+                vflag += '+marks-off-law'
             qrows.append({'paper_id': pid, 'seq': q['label'],
                           'text': q['text'], 'marks': q.get('marks'),
                           'has_diagram': bool(q.get('has_diagram')),
                           'diagram_url': q.get('diagram_url'),
                           'hash': hashlib.sha256(norm(q['text']).encode()).hexdigest()[:32],
-                          'verify': 'printed-matched' if not verify.get('weakref') else 'weak-ref',
+                          'verify': vflag,
                           'updated_at': now})
         for i in range(0, len(qrows), 200):
             rest(sb, 'POST', '/rest/v1/god6_questions',
@@ -703,6 +749,9 @@ def main():
                         index.setdefault(os.path.splitext(f)[0].lower(),
                                          os.path.join(root, f))
     log(f'[god] corpus index: {len(index)} PDFs')
+
+    codex, marks_allowed = load_codex()
+    log(f"[god] codex {codex.get('version', '?')}: marks_allowed={sorted(marks_allowed)}")
 
     keys = load_key_pool().keys
     models = load_models()
@@ -845,10 +894,19 @@ def main():
                     log(f"    [god] attempt {row['attempts']}: degraded below best "
                         f"(count={best[0][0]} score={best[0][1]:.2f}) -> retaining best")
                     qs, verify = best[1], best[2]
+                # owner marks law: annotate rows + record violations in the
+                # audit diff (values kept, never silently rewritten)
+                bad_marks, null_rate = marks_qc(qs, marks_allowed)
+                verify['marks_off_law'] = bad_marks
+                verify['marks_null_rate'] = round(null_rate, 2)
+                if bad_marks:
+                    log(f'    [codex] marks off law: {bad_marks[:6]}'
+                        f' ({len(bad_marks)} rows)')
                 if sb:
                     try:
                         push_audit(sb, row, args.run_id, args.shard, row['attempts'],
-                                   verdict, verify, real_calls(), PROMPT_VERSION)
+                                   verdict, verify, real_calls(),
+                                   f"{PROMPT_VERSION} codex={codex.get('version', '?')}")
                     except Exception as e:
                         log(f'    [db] audit failed: {str(e)[:120]}')
                 if verdict in ('gold', 'review-weakref', 'review-diff', 'review-ref'):
@@ -862,6 +920,8 @@ def main():
                             'printed': verify.get('printed_count'),
                             'extracted': verify.get('extracted_count'),
                             'score': verify.get('score_avg'),
+                            'marks_off_law': len(verify.get('marks_off_law') or []),
+                            'marks_null_rate': verify.get('marks_null_rate'),
                             'suspect_extra': len(verify.get('suspect_extra') or []),
                             'trusted_ref': ref.get('trusted'),
                             'hash_ok': out.get('hash_ok'),

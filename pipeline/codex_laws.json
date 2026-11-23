@@ -1,0 +1,25 @@
+{
+  "codex": "aktu-god",
+  "version": "2026-11-24.1",
+  "note": "LIVING DOCUMENT (owner 2026-11-24: every PDF teaches the pipeline). Laws are seeded from owner directives; each GOD run may APPEND evidence-backed amendments to 'learned' (never silent edits, never deletions). god_extract.py falls back to the seed values below if this file is missing/corrupt, so a law can never silently disappear.",
+  "laws": {
+    "marks_allowed": {
+      "value": [2, 7, 10],
+      "source": "owner directive 2026-11-24 (god pipeline task list item 3: 'Add marks-QC law {2,7,10} to god pipeline')",
+      "semantics": "per-question printed marks on AKTU B.Tech papers: 2 = Section A short-answer format, 7 = Section B/C long-answer format, 10 = long-format papers (2 x 10 = 20 style).",
+      "on_violation": "row annotated verify=+marks-off-law in god6_questions; violation {label, marks} recorded in the god6_audit diff; extracted value is KEPT (never silently rewritten or dropped); 3+ identical off-law values across one run => propose a codex amendment in audit notes for owner review"
+    },
+    "marks_null": {
+      "value": "allowed",
+      "source": "supabase_schema.sql DESIGN NOTES: marks NULL = not printed/inferable on the paper - HONEST, not missing",
+      "on_violation": "never flagged as defect; null_rate reported per paper in the audit diff so a rising NULL rate is visible instead of invisible"
+    }
+  },
+  "learned": [
+    {
+      "date": "2026-11-24",
+      "lesson": "BCS301 2024-25 (ea84defe) prints zero-padded marks arithmetic ('2 x 07 = 14', '07 x 3 = 21', '07 x 1 = 07') - section headers carry the marks signal; per-question marks may be absent (-> honest NULL) while section total arithmetic pins {2,7}. Gemini Hydrogen single-call output on the same paper: marks 2/7 on all 22 rows, zero hallucinated marks.",
+      "evidence": "download/scraped_text_sample_BCS301_2024-25_ea84defe.txt + owner-pasted Gemini output"
+    }
+  ]
+}
