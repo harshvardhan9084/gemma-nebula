@@ -1,0 +1,317 @@
+{
+ "total": [
+  [
+   "248382"
+  ]
+ ],
+ "marks_distribution": [
+  [
+   "10",
+   "86215"
+  ],
+  [
+   "2",
+   "56376"
+  ],
+  [
+   "7",
+   "32353"
+  ],
+  [
+   "5",
+   "25499"
+  ],
+  [
+   "None",
+   "24758"
+  ],
+  [
+   "1",
+   "4500"
+  ],
+  [
+   "20",
+   "3785"
+  ],
+  [
+   "4",
+   "3298"
+  ],
+  [
+   "15",
+   "3204"
+  ],
+  [
+   "3",
+   "2744"
+  ],
+  [
+   "6",
+   "1955"
+  ],
+  [
+   "8",
+   "1403"
+  ],
+  [
+   "0",
+   "852"
+  ],
+  [
+   "12",
+   "613"
+  ],
+  [
+   "14",
+   "392"
+  ],
+  [
+   "16",
+   "151"
+  ],
+  [
+   "9",
+   "74"
+  ],
+  [
+   "50",
+   "36"
+  ],
+  [
+   "72",
+   "27"
+  ],
+  [
+   "52",
+   "20"
+  ],
+  [
+   "17",
+   "16"
+  ],
+  [
+   "13",
+   "15"
+  ],
+  [
+   "47",
+   "15"
+  ],
+  [
+   "57",
+   "11"
+  ],
+  [
+   "75",
+   "11"
+  ],
+  [
+   "22",
+   "9"
+  ],
+  [
+   "30",
+   "7"
+  ],
+  [
+   "74",
+   "5"
+  ],
+  [
+   "77",
+   "5"
+  ],
+  [
+   "32",
+   "4"
+  ]
+ ],
+ "marks_null": [
+  [
+   "24758"
+  ]
+ ],
+ "marks_formula_like": [
+  [
+   "4221"
+  ]
+ ],
+ "marks_subsplit_orphan": [
+  [
+   "20896"
+  ]
+ ],
+ "marks_out_of_plausible": [
+  [
+   "8168"
+  ]
+ ],
+ "text_is_formula": [
+  [
+   "285"
+  ]
+ ],
+ "text_is_instruction": [
+  [
+   "2068"
+  ]
+ ],
+ "text_contains_section": [
+  [
+   "550"
+  ]
+ ],
+ "text_micro_lt15": [
+  [
+   "2698"
+  ]
+ ],
+ "text_numeric_cell": [
+  [
+   "7"
+  ]
+ ],
+ "text_arabic_junk": [
+  [
+   "1"
+  ]
+ ],
+ "text_devanagari_junk": [
+  [
+   "77"
+  ]
+ ],
+ "text_control_chars": [
+  [
+   "18"
+  ]
+ ],
+ "text_table_header_leak": [
+  [
+   "7678"
+  ]
+ ],
+ "text_blob_gt1500": [
+  [
+   "70"
+  ]
+ ],
+ "unit_null": [
+  [
+   "243930"
+  ]
+ ],
+ "unit_topic_missing": [
+  [
+   "86327"
+  ]
+ ],
+ "question_type_dist": [
+  [
+   "theory",
+   "123236"
+  ],
+  [
+   "short",
+   "83123"
+  ],
+  [
+   "numerical",
+   "22207"
+  ],
+  [
+   "diagram",
+   "17530"
+  ],
+  [
+   "mcq",
+   "2286"
+  ]
+ ],
+ "has_parent_rows": [
+  [
+   "51085"
+  ]
+ ],
+ "has_choice_group": [
+  [
+   "19997"
+  ]
+ ],
+ "needs_review_dist": [
+  [
+   "False",
+   "184429"
+  ],
+  [
+   "True",
+   "63953"
+  ]
+ ],
+ "language_dist": [
+  [
+   "en",
+   "248382"
+  ]
+ ],
+ "confidence_null": [
+  [
+   "0"
+  ]
+ ],
+ "confidence_lt_05": [
+  [
+   "25047"
+  ]
+ ],
+ "hash_dup_groups": [
+  [
+   "12798"
+  ]
+ ],
+ "placeholder_ignore": [
+  [
+   "0"
+  ]
+ ],
+ "diagram_flag_no_url": [
+  [
+   "21499"
+  ]
+ ],
+ "figure_ref_no_diagram": [
+  [
+   "920"
+  ]
+ ],
+ "dup_text_groups_in_subject": [
+  [
+   "1578"
+  ]
+ ],
+ "caps_multiply_garble": [
+  [
+   "56"
+  ]
+ ],
+ "apostrophe_loss_prims": [
+  [
+   "11"
+  ]
+ ],
+ "apostrophe_loss_kruskals": [
+  [
+   "0"
+  ]
+ ],
+ "apostrophe_loss_dijkstras": [
+  [
+   "0"
+  ]
+ ],
+ "apostrophe_loss_huffmans": [
+  [
+   "0"
+  ]
+ ]
+}
