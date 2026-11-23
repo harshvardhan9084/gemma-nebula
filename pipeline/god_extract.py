@@ -273,12 +273,12 @@ def extract_chunks(router, pdf_path, ref, args):
         imgs = v6.render_page_jpegs(pdf_path, pages)
         if imgs:
             parts.extend(imgs)
-        ai, err = router.call(parts, GOD_EXTRACT_SCHEMA, kind='enrich',
-                              min_interval=args.min_interval,
-                              budget_s=args.call_budget)
+        ai = router.call(parts, GOD_EXTRACT_SCHEMA, kind='enrich',
+                         min_interval=args.min_interval,
+                         budget_s=args.call_budget)
         calls += 1
         if not ai:
-            log(f'    [ai] pages {pages}: FAILED ({str(err)[:120]})')
+            log(f'    [ai] pages {pages}: FAILED')
             continue
         hdr = dict_or(ai.get('paper_header'))
         for k in ('subject', 'session'):
@@ -327,11 +327,11 @@ def repair_pass(router, pdf_path, ref, missing, extra, cur_qs, args, suspect_pag
     imgs = v6.render_page_jpegs(pdf_path, suspect_pages[:4])
     if imgs:
         parts.extend(imgs)
-    ai, err = router.call(parts, GOD_EXTRACT_SCHEMA, kind='repair',
-                          min_interval=args.min_interval,
-                          budget_s=args.call_budget)
+    ai = router.call(parts, GOD_EXTRACT_SCHEMA, kind='repair',
+                     min_interval=args.min_interval,
+                     budget_s=args.call_budget)
     if not ai:
-        return None, 1, str(err or 'repair failed'), {}
+        return None, 1, 'repair pass returned nothing', {}
     out = []
     for q in ai.get('questions') or []:
         if not isinstance(q, dict):

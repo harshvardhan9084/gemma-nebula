@@ -151,18 +151,13 @@ jobs:
         if: always()
         run: |
           git config user.name "god-bot"; git config user.email "god@bot"
-          git stash -q --include-untracked 2>/dev/null || true
           mkdir -p evidence/god
           for d in artifacts/god-evidence-shard*/; do
             [ -d "$d" ] && cp -r "$d"/. evidence/god/ 2>/dev/null || true
           done
-          git fetch origin god-evidence 2>/dev/null || true
-          if git rev-parse --verify FETCH_HEAD >/dev/null 2>&1; then
-            git checkout -b god-evidence FETCH_HEAD 2>/dev/null || git checkout god-evidence
-          else
+          git fetch --depth=1 origin god-evidence 2>/dev/null && \
+            git checkout -B god-evidence origin/god-evidence || \
             git checkout --orphan god-evidence
-            git rm -rf --cached . -q 2>/dev/null || true
-          fi
-          git add evidence/god 2>/dev/null || true
-          git commit -q -m "god-extract run ${{ github.run_number }} evidence" || echo "nothing to commit"
+          git add evidence/god
+          git commit -m "god-extract run ${{ github.run_number }} evidence" || echo "nothing new"
           git push origin god-evidence
