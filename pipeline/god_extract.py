@@ -262,7 +262,18 @@ def to_bbox(v):
     return None
 
 
-def extract_chunks(router, pdf_path, ref, args):
+LABEL_KEYS = ('label', 'number', 'no', 'n', 'qno', 'q_no', 'id', 'question_number', 'num')
+TEXT_KEYS = ('text', 'question', 'question_text', 'q', 'content', 'body', 'question_body')
+
+
+def pick(d, keys):
+    for k in keys:
+        if d.get(k) is not None and str(d.get(k)).strip():
+            return d[k]
+    return None
+
+
+def extract_chunks(router, pdf_path, ref, args, debug_raw=None):
     """Vision-first chunked transcription. Returns (questions, calls, header)."""
     qmap, calls, header = {}, 0, {}
     for pages in page_pair_chunks(ref['n_pages'], args.max_pages):
@@ -280,6 +291,8 @@ def extract_chunks(router, pdf_path, ref, args):
         if not ai:
             log(f'    [ai] pages {pages}: FAILED')
             continue
+        if debug_raw is not None and not debug_raw:
+            debug_raw.update({'raw_first_chunk': json.dumps(ai, ensure_ascii=False)[:900]})
         hdr = dict_or(ai.get('paper_header'))
         for k in ('subject', 'session'):
             if hdr.get(k) and not header.get(k):
@@ -287,11 +300,13 @@ def extract_chunks(router, pdf_path, ref, args):
         for q in ai.get('questions') or []:
             if not isinstance(q, dict):
                 continue
-            lab = str(q.get('label') or '').strip()
-            if not lab or not (q.get('text') or '').strip():
+            lab_raw = pick(q, LABEL_KEYS)
+            txt_raw = pick(q, TEXT_KEYS)
+            lab = str(lab_raw or '').strip()
+            if not lab or not (txt_raw or '').strip():
                 continue
             key = label_key(lab)
-            t = v6.clean_v6(str(q.get('text') or ''))
+            t = v6.clean_v6(str(txt_raw or ''))
             flags = v6.leak_flags(t) if t else {}
             if t and sum(1 for _k, v in flags.items() if v) >= 2:
                 t = ''                                   # hard garbage drop
@@ -336,8 +351,10 @@ def repair_pass(router, pdf_path, ref, missing, extra, cur_qs, args, suspect_pag
     for q in ai.get('questions') or []:
         if not isinstance(q, dict):
             continue
-        lab = str(q.get('label') or '').strip()
-        t = v6.clean_v6(str(q.get('text') or ''))
+        lab_raw = pick(q, LABEL_KEYS)
+        txt_raw = pick(q, TEXT_KEYS)
+        lab = str(lab_raw or '').strip()
+        t = v6.clean_v6(str(txt_raw or ''))
         if not lab or not t:
             continue
         flags = v6.leak_flags(t)
@@ -669,7 +686,9 @@ def main():
                 for attempt in range(1, max(1, args.attempts) + 1):
                     row['attempts'] = attempt
                     if attempt == 1:
-                        qs, c, header = extract_chunks(router, path, ref, args)
+                        dbg = {}
+                        qs, c, header = extract_chunks(router, path, ref, args, debug_raw=dbg)
+                        out['debug_raw'] = dbg.get('raw_first_chunk')
                     else:
                         fixed, c, err, hdr2 = repair_pass(
                             router, path, ref, verify.get('missing', []),
