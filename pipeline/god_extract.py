@@ -306,14 +306,17 @@ def extract_chunks(router, pdf_path, ref, args, debug_raw=None):
             if not lab or not (txt_raw or '').strip():
                 continue
             key = label_key(lab)
-            t = v6.clean_v6(str(txt_raw or ''))
-            flags = v6.leak_flags(t) if t else {}
-            if t and sum(1 for _k, v in flags.items() if v) >= 2:
+            t, clean_marks = v6.clean_v6(str(txt_raw or ''))
+            flags = v6.leak_flags(t) if t else []
+            if t and len(flags) >= 2:
                 t = ''                                   # hard garbage drop
             if not t:
                 continue
+            m = to_int(q.get('marks'))
+            if m is None:
+                m = to_int(clean_marks)
             qd = {'label': lab, 'key': key, 'text': t,
-                  'marks': to_int(q.get('marks')), 'page': pages[0],
+                  'marks': m, 'page': pages[0],
                   'has_diagram': bool(q.get('has_diagram')),
                   'diagram_page': to_int(q.get('diagram_page')),
                   'diagram_bbox': to_bbox(q.get('diagram_bbox'))}
@@ -354,14 +357,17 @@ def repair_pass(router, pdf_path, ref, missing, extra, cur_qs, args, suspect_pag
         lab_raw = pick(q, LABEL_KEYS)
         txt_raw = pick(q, TEXT_KEYS)
         lab = str(lab_raw or '').strip()
-        t = v6.clean_v6(str(txt_raw or ''))
+        t, clean_marks = v6.clean_v6(str(txt_raw or ''))
         if not lab or not t:
             continue
         flags = v6.leak_flags(t)
-        if sum(1 for _k, v in flags.items() if v) >= 2:
+        if len(flags) >= 2:
             continue
+        m = to_int(q.get('marks'))
+        if m is None:
+            m = to_int(clean_marks)
         out.append({'label': lab, 'key': label_key(lab), 'text': t,
-                    'marks': to_int(q.get('marks')),
+                    'marks': m,
                     'page': (suspect_pages[0] if suspect_pages else 1),
                     'has_diagram': bool(q.get('has_diagram')),
                     'diagram_page': to_int(q.get('diagram_page')),
