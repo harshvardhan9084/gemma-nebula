@@ -1,0 +1,65 @@
+Gi) Similarity transformation Printed Pages—4 TEC044
+Gii) Euclidean transformation
+the (Following Paper ID and Roll No. to be filled in Answer Book)
+(b) Consider function sampling at the argument variables [ [ | your | T [TT]
+T, = 0.5, t, = 0.75, t, = 1.0, and t, = 1.25. where (0) 2, RollNo.
+f(1) 3, £(2) 4 and £(3) Apply the =
+= = = 4. discrete Fourier B. Tech.°
+transform to obtain the Fourier spectrum. (SEM. VIII) THEORY EXAMINATION 2010-11
+(c) Write short notes Stereo imaging.
+on DIGITAL IMAGE PROCESSING ©
+Time 3 Hours
+5. Answer any two of the following : (10x2=20) : Total Marks : 100
+(a) Describe the watershed algorithm for image segmentation.
+_ Note: (1) Attempt all questions.
+Explain, why watershed segmentation tends to over-
+segment images ? (2) All questions carry equal marks.
+: following
+(b) Describe the following with respect to pattern recognition 1. Answer any four of the (5x4=20).
+@) classification (a) What are different models used for colour perception in
+image processing ? Describe each.
+(ii) Syntactic recognition
+search Give the formula for two dimensional Fourier transform
+Tree and its inverse. Why do we need two Dimensional
+(c) Abinary image contains straight lines oriented horizontally, transforms for image
+and analysis ?
+vertically, at 45° — 45°, Give the set of masks that can (c) A 4 by4 input image is defined by the following matrix.
+be used to detect 1 pixel-long breaks in these lines. Assume with gray scale [0-9]
+“that the level of the back ground is 0. :
+gray
+4 4175 TEC044/RFW-21177 1
+. [Turn Over
+Draw the image histogram new
+with and show the output image 3 Answer any two of the following : (10x2=20)
+along its histogram after histogram equalization. (a) What is Mathematical Morphology ? Suppose two discrete
+(d) Explain sampling and quantization. Explain the effects one dimensional functions are represented by the
+of sequence
+reducing sampling and quantization. :
+(e) What do you by image processing ? Distinguish f=(5 711826897 4 3]
+mean h=[1 2 1]
+between image processing and graphics. List Various
+components of image processing system. Compute f f © h, fo h; fh.
+(b) What is zooming ? How can it be performed ?
+Obtain of
+Answer any two of the following : (10x2=20) the digital negative the following 8 bits per pixel
+image :
+(a) What is meant by singularity and ill-condition in relation to
+image restoration ? Derive Expression of restored image ca
+using least square approach. Comment on the singularity
+of this filter. fw for fw
+(b) What is spatial filtering ? What is the difference between or
+linear and nonlinear filters ? examples
+? Give some of linear (c) Acolouri
+and non linear filters. image in CMYK colour space has following values
+© Apply stretching kevel (in percentage)
+contrast technique on 3 bit gray C =85,M=69, K=21
+image of size 4 by 4
+Convert this colour space into CMY and RGB colour
+space.
+4. Answer any two of the following: .
+(a) Define following transformations and List the properties
+that are preserved under each
+one :
+- Affine transformation
+TEC044/RFW-21177 2 TEC044/RFW-21177
+3 . [Turn Over

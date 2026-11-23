@@ -1,0 +1,84 @@
+Printed Pages : 3 EME402
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 3990
+:
+B. Tech.
+(SEMESTER-IV) THEORY EXAMINATION, 2011-12
+MANUFACTURING SCIENCE-I
+Time: 3 Hours ] [ Total Marks : 100
+Note: Attempt questions from all Sections as directed.
+1. Answer
+all the questions : 10x 2=20°
+(a) Name different types of manufacturing process.
+(b). What is gatorizing ?
+(c) Compare ? and
+among cold, warm hot working of metals.
+(d) What is the rolling load when front and back tensions of 120 and 150 MPU are
+applied ? o0 = 13 KN/mm? and « =
+(e) Write about latch stop.
+(f) What shaving ?
+is a
+(g) What-are the parameters controlling the explosive ?
+(h) Explain briefly about plasticizers.
+(i) | Write the basic of the casting
+steps process.
+(j) | What are different pattern allowances ?
+SECTION -B
+the
+2. any three of following: . . 3 x 10 =30
+(a) (i) What are the defects in forging ?
+(ii). Explain about incremental forging.
+(b) Explain briefly the following with neat sketches.
+(i) Roll forming
+‘(ii) Tube making by rotary piercing
+(iii) Stretch forming
+3990 1 | P.T.O.
+(c) (i) | Derive the equation for bending forces generated in sheet metal process.
+(ii) , Calculate the bending forces required for a C50 steel 1.5 mm sheet of width
+1 m to be bent in a wiping die. The die radius used is 3 mm.
+(d) What are the design considerations of powder metallurgy
+(e) An aluminium cube of 12 cm side has to be cast along a cylindrical riser of height
+equal to its diameter. The riser is not insulated on any surface. If the volume
+shrinkage of aluminium during solidification is percent; calculate :
+(i) Shrinkage volume of cube on solidification.
+. ii) Minimum size of the riser so that it can provide the shrinkage.volume.
+SECTION — C
+Answer all the questions with internal choice : 5x 10=50~
+_ What the different of forging machines Explain with
+are types ? any two neat sketches.
+_OR
+(a) Differentiate cold working and hot working process.
+(b) Explain about warm working process.
+Briefly explain about principle and mechanism of rolling process.
+|
+OR
+Explain wire drawing and also explain mechanics of wire drawing.
+any process
+(a) A hole 100 mm diameter is to be punched in a steel plate of 6 mm thick. The
+material is a cold rolled C40 steel for which the maximum shear strength can be
+taken as 550 MPa. With normal clearance on the tools, cutting is complete at 40%
+penetration df the punch. Give suitable diameters for the punch and die, and shear
+angle on the punch in order to bring the work within the capacity of a 200 kN
+press available in the shop.
+(b) Write about air vent solid
+stop.
+OR
+(a) Differentiate between blanking and piercing.
+(b) Explain different of die with the aid of sketches.
+types stops neat
+3990 2
+about
+(a) Explain briefly electromagnetic forming, mention its advantages and its
+applications.
+(b) Distinguish explosive forming and electro-hydraulic forming
+between process.
+OR
+Explain the working principle, advantages and disadvantages of Injection Moulding
+process.
+What is a centrifugal casting ? Explain about different types of centrifugal casting
+methods.
+OR.
+(a) What is a gating system ? Explain its design requirements.
+(b) Discuss briefly the materials which added to moulding sand to improve their
+‘aa moulding properties. are
+3990 3 11,050

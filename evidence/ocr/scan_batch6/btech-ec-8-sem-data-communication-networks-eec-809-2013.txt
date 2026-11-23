@@ -1,0 +1,66 @@
+aktuonline.com
+Printed EEC809
+(Following Paper Roll No. to be filled in Answer Book
+your
+PAPER ID : 2897
+B.Tech.
+(SEM. VII) EVEN THEORY EXAMINATION 2012-13
+DATA COMMUNICATION NETWORKS
+Hours 1
+Time : 3 Total Marks : 00
+Note questions
+:—(1) carry marks.
+(2) Attempt all questions.
+Attempt four of the following: (5x4=20)
+Discuss any _
+(a) salient features of OSI reference model.
+(b) Distinguish between signal element and a data element.
+(c) What do you understand by de jure and de facto standard ?
+(d) What are the limitations of EIA RS-232 C and in which
+configuration i it is removed.
+protocol.
+(e) Why do we use Layered Give at least two reasons.
+(f) What are the various LAN topologies ? Explain in brief
+with figures.
+Attempt
+2. any four ofthe following: = (5x4=20)
+-(a) What is the mechanism of stop-and-wait ARQ control ?
+error
+(b) Define and explain the data link layer in IEEE project 802.
+Why is this layer divided into sub layers ?
+1
+EEC809/DPC-47998 | [Turn Over
+aktuoniine.com
+aktuonline.com aktuonline.com
+() What is the difference between pure ALOHA uud slotted 5. Attempt
+ALOHA ? two of the following: _ (10x2=20)
+(a) What do you understand with TCP and UDP ? Explain.
+Calculate CRC for the 10 bit sequence 1010011110. Where .
+the generator polynomial is x? + x + 1. (b) Describe the operations of DHCP. Also explain the meaning
+Compare byte-stuffing and bit stuffing. Which and the purpose of DNS in detail.
+technique is in byte oriented protocol
+Briefly used ? Compare the salient features of HTTP and FTP.
+(f) describe the services provided by data link layer. (ii) Differentiate between TFTP and SMTP.
+3. Attempt any four of the following : (5x4=20)
+(a) Explain in detail the Dijsktra's algorithm for shortest path
+with the help of suitable diagram.
+Define
+(b) classless inter domain routing.
+(c) Describe the characteristics of a layer 3 switch.
+are
+(d) What the differences between a router and gateway.
+(e) Compare and describe different generations of Ethernet
+used in wired lan.
+(f) What do you understand with congestion ? Explain Leaky
+bucket algorithm.
+4. Attempt any two of the following : (10x2=20)
+(a) What is the difference between networking and
+internetworking connectivity devices ? Explain with example
+in detail.
+(b) Describe ATM protocol layers and. compare them to the
+OSI protocol hierarchy.
+(c) List and describe the five basic data communications
+network topologies.
+http://www.UPTUonline.com
+EEC809/DPC-47998 2 EEC809/DPC-47998
+aktuonline.com http://www.UPTUonline.com 3 $700

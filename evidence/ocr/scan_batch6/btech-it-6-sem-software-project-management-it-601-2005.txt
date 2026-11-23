@@ -1,0 +1,59 @@
+aktuonliriicoml Pages—3
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+| | | [| | I 4
+B.Tech.
+SIXTH SEMESTER EXAMINATION, 2004-2005
+— SOFTWARE PROJECT MANAGEMENT
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt ALL questions.
+(ii) All questions carry equal marks.
+1. Attempt any four parts of the following : (5x4=20)
+(a) Explain various activities covered by Software
+S&S © Project Management in short.
+CO (b) Explain Pp various problems encountered with
+an software projects. p
+(c) Explain requirement specification in detail.
+(d) Write down the outline of stepwise planning
+activities.
+(e) What is project infrastructure ? Explain how
+identify the to
+same.
+(f) What are project characteristics ? Explain how
+to analyse the same.
+IT—601 1 [Turn Over
+aktuonline.com
+aktuonline.com
+Attempt any four parts of the following :
+(a) Differentiate between
+technical strategic assessment and
+assessment.
+(b) Explain cost-benefit analysis.
+(c) What is Pay back period and Return on
+investment ? Explain with suitable example.
+(d) What do you mean by Risk evaluation ? Explain.
+(e) Differentiate between Rapid application
+development and the waterfall model.
+(f) What are the various software prototypes ?
+Explain in detail.
+3. Attempt any two parts of the following : (10x2=20)
+(a). Explain software effort estimation techniques in
+detail.
+(b) Explain COCOMO in short.
+(c) Differentiate between CPM and PERT with
+suitable example.
+~
+4. Attempt two parts of the following (10x2=20)
+any :
+(a) Explain Risk analysis in detail.
+(b) Explain the nature of various resources in detail.
+(c) How to prioritize the monitoring ? Explain.
+IT—601 2
+aktuonline.com
+aktuonline.com aktuonline.com
+5. Attempt any two parts of the following : (10x2=20)
+(a) Explain software quality in detail.
+(b) What is software quality assurance ? Explain in
+detail.
+(c) Explain ISO 9126.
+-o00O0-
+aktuonline.com

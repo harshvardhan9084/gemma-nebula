@@ -1,0 +1,77 @@
+Cade,
+AU AO Subject Code: BECOS? BEC057
+PAPER 10-310336
+Roll No:
+BTECII
+(SEM V) THEORY EXAMINATION 2024-25
+OPTICAL COMMUNICATION
+TIME: 3 HRS M.MARKS: 70
+Note: Attempt all Sections. In case of any missing data; choose suitably.
+1 Attempt a// questions in brief. 2x07=14
+Question
+Why does fiber optics promise to be the technology of choice for
+area network?
+Calculate the velocity of light within glass having refractive index (n)
+windows in modern | 2
+Specify optical fibers. three peak wavelengths for the transparent
+Define the Photoluminescence.
+Suppose term laser diode radiates red light with wavelength of 650 nm.
+Calculate a the energy of a single photon?
+How does photo diode converts light into electrical signal?
+SECTION B
+2. Attempt any tree of the following: 07x3=21
+Draw a block diagram of fiber optic communications system and
+describe the function of each component.
+Define the term dispersion in optical fiber. How much will a light pulse
+spread after travelling along 5 km of a step index fiber 1.487? whose numerical
+aperture is 0.275 and refractive index of the explain core is the mechanisms of
+With suitable energy band and diagram stimulated emission in a compound
+absorption, semiconductor? spontaneous,
+Explain the principle of operation of a quantum well laser diode?
+With suitable block diagram explain Wavelength Division Multiplexing
+technique in optical fiber communication?
+SECTION C
+07x 1=07
+3. Attempt any ove part of the following:
+Question
+Write the significance of total internal reflection in an optical fiber. The
+refractive index of core and cladding of a silica fiber are 1.48 and 1.46
+respectively. Calculate the critical propagation angle? Find the total
+ptance angle of the fiber?
+Write shor notes on:
+i. Dispersion shifted and dispersion flattened fiber
+i Polarization mode dispersion
+https://www.pygonline.com
+of 2
+AT Printed Page: BECOS7 2
+Subject Code:
+PAPER ID-31033 Roll No:
+BTECH
+(SEM V) THEORY EXAMINATION 2024-25
+OPTICAL COMMUNICATION
+HRS M.MARKS: 70
+TIME: 3
+part of the following: 07x1=07
+4. Attempt any one
+Question
+Explain basic techniques used to couple light from an LED into an
+optical fiber? Calculate the power coupled into a step index multimode
+fiber whose 1.48 and whose n2 1.46 if the surface light emitting
+(SLED) m1 radiates = 100 1. W? =
+diode it input-output relationship in laser
+Draw a graph depicting the typical of the graph? a
+diode and explain what mechanisms determine the course
+short
+Write note on:
+i. Dark Current
+ii. Bit Error Rate
+How does responsivity depend on the wavelength of an optical signal?
+The responsivity of a photodiode is 0.85 A/W and the input power
+saturation is 1.5 mW. Calculate the photocurrent if the incident power is
+Question
+do | you ‘mean n by yy mode . coupling? Explain the the irregularities i in
+various
+the fiber of its causes. receiver the
+Draw a functional block diagram of a and briefly explain
+function of each component?
+https://www.pygonline.com

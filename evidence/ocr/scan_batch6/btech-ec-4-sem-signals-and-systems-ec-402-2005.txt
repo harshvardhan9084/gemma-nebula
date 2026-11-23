@@ -1,0 +1,153 @@
+Printed Pages—06 (2) EC —402
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 3037
+B. Tech.
+FOURTH SEMESTER EXAMINATION, 2004-2005
+SIGNALS AND SYSTEMS
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt ALL questions.
+(003449
+(ii) All questions carry equal marks.
+(iii) In case of Numerical Problems assume data
+wherever not provided.
+1. Attempt four parts of the following (5x4=20)
+any :
+(a) examples, define the periodic and
+non-periodic signals. Let (27;t) and
+be the two periodic signals,
+where f; and f, are two arbitary constants.
+Determine the condition for which the signal
+x(t) should also be a periodic
+signal.
+(b) Show that
+0 form#n
+toa J sin (2 Bt—m) sin (2 Bt—n) dt=4 1
+— form=n
+2B
+EC—402 1 [Turn Over
+Determine the Fourier Series representation of
+the signal x(t) = t-t? for-n<t<nx
+elsewhere
+If g(t) is complex signal by
+g(t) (t) + a jgi where g,(t) and given of,
+respectively, of g(t) and G(f) is the Fourier
+transform of g(t), determine the Fourier
+transforms of g,(¢) and in terms of G(f).
+If and
+= 38(n +1) + 58(n) determine
+x(n), where x (1) is the convolution of and
+Determine the Fourier transform of the signal
+x(t) u
+where u(t) is the unit step function and ‘*’
+denotes the convolution operation.
+Attempt any four parts of the following : (5x4=20)
+(a) Determine the magnitude and phase spectra >
+of the signal x(n)=cos 2m). (2nn
+= |
+Determine the impulse response of h(n) for the
+system described by the second order difference
+equation.
+y(n) 4y(n 1) + 4y(n — 2) = x(n) —
+when y
+(c) Two LTI systems with transfer functions
+and are cascaded as shown in the
+following figure.
+Show that the overall transfer function may
+Y(/)
+be given by AN H2(f) where
+X(f) and Y(f) are the Fourier transforms of the
+input x(t) and output y(f) respectively.
+(d) Determine if the systems described by the
+following input-output equations are linear or
+nonlinear
+|
+(i) -y(n)=n x(n)
+(ii) y(n)=x°(n)
+Determine if the systems described by the
+following input-output equations are causal or
+noncausal
+(i)
+(i) y(n)
+(ili) y(n) =x(~n)
+Determine the condition for the stability of a
+causal LTI discrete time system. Find the range
+of values of the parameter a for which the LTI
+stable. system with impulse response h(n) =a"u(n) is
+EC—402
+3. Attempt any two parts of the following : (10x2=20 of
+(a) (i) X bea random variable with Cauchy
+Let density function with given
+parameter a
+by fy(x)= Tt) +00
+If Y is another random variable such that
+XY=1 determine the probability density
+distribution function f,(y). Also find the cumulative
+function (cdf)f,(y)of Y.
+(ii) If X is uniformly distributed random
+variable in the interval (—c,c), determine
+the variance of X.
+(b) The random variables X and Y are independent
+with Rayleigh densities
+x?
+_ x
+u(y)
+and ))
+where and B two constants; and u(x) and
+u(y) are a the unit are step functions. Show that if
+be a random variable, the density
+function of Z may be given by :
+= a2
+Z 2 u(z)
+“|
+EC—402 4 {Turn Over
+——
+) What are the basic differences between
+‘random variables’ and ‘random.
+processes’ ?
+(ii) | Show that if the input to a LTI system is
+a Gaussian random process, the output
+of the system must be also a Gaussian
+process.
+(iii) What do you mean by Wide Sense
+Stationary(WSS) random process ? Verify
+whether is a WSS
+random ® process where f. is a constant
+and is a uniformly distributed random
+variable in the interval (0, 27).
+Attempt any two parts of the following : (10x2=20)
+(a) What do you mean by the band limited
+signals ? State and prove the sampling theorem
+for the low pass band limited signals.
+(b) Find the Nyquist frequency and Nyquist rate
+for each of the following signals.
+(i)
+(ii) x(t)=4 sinc? (1008)
+(iii) x(t)= —10 sin(407 t) cos(3007
+(c) Given a band-limited continuous time signal
+form descrete time
+x(t) =sin t), a
+signal x(n) by sampling x(f) f,=4.
+Determine the continuous-time at a rate Fourier
+transform of x(t) and the discrete-time Fourier
+transform of
+5 [Turn Over
+5. Attempt any two parts of the following : (10x2=20)
+(a) Using the Z-transform method, solve the
+difference equation
+y(n+2)—> 3 +> l y(n) = forn>0
+7
+with initial conditions y(0)=10 and y(1)=4.
+(b) Determine the Z-transforms and their region
+of convergences for the following discrete-time
+signals.
+n 2n Ju
+(i
+x(n) =2" u(n)—3" un)
+(ii)
+(c) A discrete-time system is described by the
+transfer function H @) = Y(2) =
+X(z)
+Draw a system block diagram using delay and
+gain blocks.
+HE
+EC—402 6

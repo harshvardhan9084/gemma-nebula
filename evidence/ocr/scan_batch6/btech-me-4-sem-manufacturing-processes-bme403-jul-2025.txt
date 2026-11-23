@@ -1,0 +1,91 @@
+BOBS. 8
+Subject Code: BME403
+Paper id: 252680 Roll No:
+BTECH
+(SEM IV) THEORY EXAMINATION 2024-25
+MANUFACTURING PROCESSES
+TIME: 3 HRS M.MARKS: 70
+Note: Attempt all Sections. In case of any missing data; choose suitably.
+SECTION A
+1. Attempt all questions in brief. 02x7=14
+Q Question CO | Level
+no. |
+| Why machining allowance is provided in casting?
+Explain the casting defects and residual stresses.
+[c. | Define Rapid prototyping. [2 {Ki |
+| Differentiate between single point and multi point cutting tool.
+fe. Explain friability in grinding,
+Differentiate between brazing and soldering process? |
+| How non-conventional machining differs from conventional machining
+process?
+© A
+Ne
+SECTION ~
+2. __ ‘Attempt any three of the following’) _O7x A <21-
+a. | Differentiate the hot cold working process. Justify K2
+| process is best suitable for rawing’
+What do you understand by-Tool Explain the various al ang
+along with the designation of the given tpol in terms of the ASA or
+system.
+Explain grade in the grinding whe¢!. Outline the
+specification by using the following matking of a 9 eel as per
+Iso: “51-C-30-M-5-V-17”
+d. ,| Explain the working of TIG & MIG welding i ‘ith the help of
+J sketches. in neat
+| Write brief notes the following: (ERY)
+e. on Machining
+ii Electrochemical machining .
+Cc
+3. Attempt any one part oe following:
+Question
+Define extrusion process in detail. Give the advantage, limitations and
+shapes can be produced by extrusion
+| | b. | Explain the solidification phenomena in casting. Discuss the heat transfer _
+| during solidification of a casting of a pure metal with the help of cooling
+curve. |
+467) 2025
+201 91 OME 103 72
+_https:/www,aktuonline.com
+a
+Roll No:
+Paper id: 252686
+BTECH
+(SEM IV) THEORY EXAMINATION 2024-25
+MANUFACTURING PROCESSES
+TIME: 3 HRS M.MARKS: 70
+4. Attempt any one part of the following: 07x 1=07
+a. | In an orthogonal cutting operation, the following data have been observed: | 2 K3
+Uncut chip thickness = 0.127 mm
+Width of cut = 6.35 mm
+Cutting speed = 2 m/s
+Rake angle = 10°
+Cutting force = 567 N
+Thrust force = 227 N
+Chip thickness = 0.228 mm
+Determine the shear angle, the friction angle, shear stress along the shear
+plane, and power of the cutting operation.
+| Poe
+What do you understand by tool wear? Explain wear and flank wear
+with the help of suitable
+5. Attempt any one part of the - 07x1=
+gi A ili
+i no. |
+‘Also
+Explain the Grinding differentiate between dressing
+truing.
+test.
+Resistance we
+Explain the principle of welu. ng how heat
+balance is achieved in resistant spot welding. .
+What is HAZ in arc welding? Discuss the of weld decay in
+HAZ with the help of suitable dia;.ram. N
+7. Attempt any one part of the 07x1=07
+1Q
+no. working principle of “Abrasive
+a. Explain the princigle of JET Machining (AJM) with a
+| neat diagram. Also explain the effect of standoff distance and abrasive grit
+| | size on material removal rate in the AJM.
+|__| b. | What machining does (LBM)with LASER stand for? Explain the Principle of Laser beam aie
+a neat diagram.
+467 2025 2 Te
+https://www.aktuonline.com

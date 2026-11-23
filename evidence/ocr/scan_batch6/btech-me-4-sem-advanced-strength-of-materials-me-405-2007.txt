@@ -1,0 +1,90 @@
+Ra) ee uptuonline.com
+Printed Pages 405
+: -
+{Foliowing Paper !D and Roil No. to be filled in your Answer Book)
+PAPER ID : 4044
+B. Tech.
+(SEM. IV) EXAMINATION, 2006-07
+ADVANCED STRENGTH OF MATERIALS
+Time 2 Hours] [Total Marks 50
+: :
+Note : (1) Answer all questions.
+(2) Missing data, if any, may be suitably assumed.
+1 Answer any two of the following : 6x2=12
+a) Ata point in a body, the displacement field is linear
+and is given by the following expressions. Find all
+the strains.
+U = 0.06x + 0.05y + 0.01z
+= 0.0ly - 0.03 x
+W = 0.02 x + 0.01 z
+b) freely supported beam of span L carries a
+central load W. The sectional area of the beam
+is so designed that the moment of inertia of the
+section increases uniformly from I at ends to
+1.51 at the middle. Calculate the central
+deflection.
+c) Write brief two of the following:-
+notes on any
+i) St. Venant’s principle
+i) stress function
+ii) CLAPEYRON’S Theorem of three
+moments.
+V-4044] 1 (Contd...
+2 Answer any two of the following : 6x2=12
+a) What are assumptions
+Winkler Bach formula for curved beams?
+Derive an expression for stress distribution in
+of large initial curvature.
+case
+b) A curved beam is formed of a tube 80 mm
+outside diameter and S mm thickness. The
+centre line of this beam is a circular arc of
+radius 150mm. Determine the greatest tensile
+and compressive stresses set up by a bending
+moment of 2 kNM tending to increase its
+curvature.
+A ring of mean diameter of 16 cm is made of
+2cm diameter bar and carries an axial pull of
+4.5 kN. Calculate the values of maximum
+tensile and compressive stresses.
+3 Answer any two of the following :
+a) Prove that the maximum circumferential stress
+in a rotating disc with a central pine hole is
+twice the value for a solid disc of the same
+dimension.
+b) A beam of rectangular section, 80 mm wide
+and 120 mm deep is subjected to bending
+moment of 12 kKN-M. The trace of the plane
+of loading is inclined at 45° to the Y-Y axis
+of the section. Locate the neutral axis of the
+section and calculate the maximum bending
+stress induced in the section.
+V-4044] 2 [Contd..
+¢) Write short notes on any two of the following :
+i) Shear centre
+ii) Rotating disks
+ii) Unsymmetrical bending.
+6142-13
+4 Answer any two of the following : a 9
+deflection of coiled
+a) Find the actual a closely
+compression spring having a mean diameter
+of 10cm. Wire diameter of 1 cm and 20 turns
+in total. The total load is 200 N and
+G = 80 GN/M’.
+b) A laminated steel spring simply supported at
+ends with a span of 75 cm is centrally loaded
+with a load of 7500 N. The central deflection
+under the above load is not to exceed 5 cm
+and the maximum stress is to be 400 MN/M?.
+Determine:
+of leaves
+i) Width
+ii) Thickness of leaves
+ili) Number leaves
+iv) Overlap of leaves.
+c) Write short notes on any two of the following :
+i) Torsion of non circular section
+ii) Torsion of hollow section
+iii) Laminated springs.
+3 [ 1440 }

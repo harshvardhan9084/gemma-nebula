@@ -1,0 +1,138 @@
+NME-S501
+Printed Pages: 8 NME-501
+Section - B
+(Following Paper ID and Roll No. to be filled in your 2. Attempt any Five parts (5x 10=50)
+Answer Books)
+a) A bolt is subjected to a tensile load of 25 KN anda
+Paper ID: 2012304 shear load of Determine the diameter of the
+bolt according to
+B.TECH.
+i) principal stress theory.
+Regular Theory Examination (Odd 2016-17 ii) Maximum principal strain theory.
+MACHINE DESIGN -I iii) Maximum stress theory. Assume factor of
+Time 3 Hours Max. Marks 100 safety as 2.5, yield point stress in simple
+: : tension = 300 poison ratio 0.25.
+Section-A
+b) A railway wagon moving ata velocity of 1.5 m/s is
+1. Attempt all of this questions. (10x2=20) brought to rest by a bumper consisting of two helical
+parts springs arranged in parallel. The mass of the wagon
+a) List the factor that influences selection of material is 1500 kg. The springs compressed by 150 mm
+during design. are
+in bringing the wagon to rest. The spring index can
+b) State theory of failure. we taken a 6. The springs are made of oil-hardened
+any one and tampered steel wire with ultimate tensile
+c) What are soderberg & Goodman line? strength of 1250 N/mm’ and modulus of rigidity of
+permissible for
+List types of rivet heads. 81 370 The shear stress
+the spring wire can be taken as 50% of the ultimate
+Comment on factor of safety. tensile strength. The design the spring and calculate
+i) Wire Diameter
+Define : Flat key, Woodruff key.
+Why Wahl correction factor is used in design? ii) diameter
+iii) Number of active coils
+List the main terminology in Power Screw? iv) Total number of coils
+v) Solid length
+List different types of Springs.
+vi)
+What is notch Sensitivity? vii) Pitch of the coil.
+501/12/2016/14240 (1) [P.T.O. 501/12/2016/14240 (2)
+NME-501
+NME-501
+Describe in detail with neat sketches the design
+viii) Required spring rate procedure ofa screw jack.
+ix) Actual spring rate. Describe the standard design procedure in detail.
+Cc) The layout of a transmission shaft carrying two
+and supported bearings A and D What are the different standards in design. Discuss
+pulleys B and C on in detail.
+is shown in fig. 1. Power is supplied to the shaft by OR
+means of a vertical belt on the pulley B, which is a
+then transmitted to the pulley C carrying a horizontal g) A brake band attached to the hinge by means of
+belt. The maximum tension in the belt the pulley riveted joint is shown in fig. Determine the size of
+- on the rivets needed for the load of 10 kN. Also,
+B is 2.5 kN. The angle of wrap for both the pulleys determine the width of the band. This permissible
+is 180° and the coefficient of friction is 0.24. The
+shaft is made of plain carbon steel 30C8 (Syt = 400 stresses for the band and rivets in tension, shear and
+and the factor of safety is 3. Determine compression are 80, 60 and 120
+respectively. Assume, margin (m) = 1.5d, transverse
+the shaft diameter on strength basis. pitch (p,) find the pitch of the rivets.
+= p,
+d) A rigid coupling is used to transmit 50 kW power at
+300 rpm. There are six bolts. The outer diameter of
+the flanges is 200 mm. While the recess diameter
+The coefficient of friction between the
+is 150 mm. h) A cantilever beam made of cold drawn steel 20C8
+flanges is 0.15. The bolts are made of steel 45C8 (S,, 540 N/mm’) is subjected to a completely
+= 380 N/mm’) and the factor of safety is 3. =
+Determine the diameter of the bolts. Assume that reversed load of 1000N as shown in fig. The notch
+the bolts fitted in large clearance holes. sensitivity factor q at the fillet can be taken as 0.85
+are
+§01/12/2016/14240 (3) [P.T.O. 501/12/2016/14240 (4)
+NME-501 NME-S501
+and the expected reliability is 90%. Determine the b) The layout of intermediate
+diameter d of the beam for life of an shaft of a gear box
+a 10000 cycles. supporting two spur gears B and C is shown in fig.
+The shaft is mounted on two bearings A and D. The
+pitch circle diameters of gears B and C are 900 mm
+and 600 respectively. The material of the shaft
+mm
+is steel FeE 580 (S,, = 770 and S| = 580 N/mm’).
+The factors k, and k, of ASME code are 1.5 and 2.0
+respectively. Determine the shaft diameter using the
+ASME code.:
+Assume that the gears are connected to the shaft by
+means of keys.
+5d
+Section - C
+Attempt any two parts of this questions. (2x 15=30)
+a) Acantilever beam made of cold drawn steel 40C8
+(S,, 600 and S_ 380 N/mm”) is shown
+= =
+in fig. The force P acting at the free end varies from
+—SON to +150N. The expected reliability is 90%
+and the factor of safety is 2. The notch sensitivity
+factor at the fillet is 0.9. Determine the diameter
+4. a) A rigid coupling is used to transmit 50 kW powerat
+300 rpm. There are six bolts. The outer diameter of
+the flanges is 200 While the diameter
+is 150 The mm. recess
+mm. coefficient of friction between the
+flanges is 0.15. The bolts are made of steel 45C8
+(S,, = 380 N/mm”) and the factor of safety is 3.
+Determine the diameter of the bolts.
+Assume that the bolts are fitted in large clearance
+holes.
+501/12/2016/14240
+6)
+NME-501 NME-S501
+b) It is required design bushed-pin flexible OR
+to a type
+coupling to connect the output shaft of an electric The differential type screw jack is shown in fig. In this
+motor to the shaft of a centrifugal pump. The motor construction, the two screws do not rotate and the nut is
+delivers 20 KW power at 720 rpm. The starting rotated by the by applying a force of 100N
+torque of the motor be assumed to be 150% of operator at a
+the'rated can mean radius of 500 mm. The coefficient of friction at
+torque. Design the coupling and specified the threads is 0.15. Calculate
+the dimensions of its components. i) The load
+5. a) Itis required design helical that can be raised.
+to a compression spring ii) of the screw jack.
+subjected to a maximum force of 7.5 KN. The mean
+coiled diameter should be 150 mm from space
+consideration. The spring radius 75 N/mm. The
+www.aktuonline.conr spring is made of oil-hardened and tempered steel
+wired with ultimate tensile strength of 1250 N/mm2.
+The permissible shear stress for the spring wire is
+30% of the ultimate tensile strength (G = 81 370
+Calculate
+a) Wire diameter.
+b) Number of active coils.
+b) threaded power screw, with ISO metric
+trapezoidal threads is used to raise a load of 300
+KN. The nominal diameter is 100 mm and the pitch
+is 12 The coefficient friction at the
+threads mm. is screw
+0.15. Neglecting collar friction, calculate
+a) Torque required to raise the load.
+b) Torque required to lower the load.
+.
+c) Efficiency of the screw.
+501/12/2016/14240 (7) [P.T.O. 501/12/2016/14240 (8)

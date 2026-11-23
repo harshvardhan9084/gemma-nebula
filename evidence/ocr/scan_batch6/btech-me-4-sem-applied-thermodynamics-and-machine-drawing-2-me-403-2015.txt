@@ -1,0 +1,135 @@
+www.aktuonline.com
+Printed Pages : 4
+0 0
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 140407
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+APPLIED THERMODYNAMICS &
+MACHINE DRAWING II
+Time : 3 Hours] [Total Marks : 100
+NOTE: Use of ‘Steam Table’ is Permitted.
+SECTION-A
+1 Attempt ALL 2x10=20
+(a) What do you understand by “Heat of formation”?
+(b) What do you understand by inversion curve?
+(c) What is missing quantity of steam?
+(d) What is metastable flow in nozzle?
+(e) What is coefficient of volume expansion?
+(f) Explain effect of nozzle friction.
+(g) What is the polytropic efficiency?
+(h) Explain reheat factor in steam turbine.
+(i) | What is Heat balance sheet for engine?
+steam
+(j) Draw P-V & T-s diagram for Ranine cycle with
+Reheating and write its relation for efficiency.
+140407] 1 [ Contd...
+www.aktuonline.com
+SECTION- B
+2 Attempt any THREE questions : 10x3=30
+(a) Explain Joule Thomson coefficient and show that
+the Joule Thomson coefficient for a perfect gas
+is equal to zero.
+(b) The product of combustion of an unknown
+hydrocarbon CH, have the following composition
+as measured by orsat apparatus, CO,=8%,
+CO=0.9%, and N,=82.3%.
+Determine :
+|
+(i) composition of the fuel,
+—_
+(u) air fuel ratio
+(it) % of excess air used.
+The following result were obtained in a boiler
+trial: feed water per hour = 700 kg at 27°C;
+steam produced at 8 bar, 0.97 dry; coal
+used = 100kg/hr or C.V of 25000 kJ/kg. Ash
+and Unburned coal collected from beneath the
+grate bars = 7.5 kg/hr of C.V of 2000 kJ/kg,
+Mass of flue gases produced per kg of
+fuel= 17.3kg. Flue gas temperature 3270C,
+of air in the specific
+temperature room= 160C,
+heat of flue gases= 1.025 kJ/Kg hr. Draw the
+balance minute basis. What is the boiler
+energy on
+efficiency?
+(d) What is the mass flow rate per unit area through
+nozzle? Find the condition for the Max. Mass flow
+rate.
+140407] 2 | Contd...
+www.aktuonline.com
+(e) Steam at a pressure of 14 bar and dryness fraction
+of 0.9 is discharged through a convergent —
+divergent nozzle up to a back pressure of 0.2 bar.
+The flow rate is 10 kg/kW-hr when the
+mass power
+developed is 250 kW. Determine the throat
+pressure and no. of nozzles required if each nozzle
+has throat of 32 10° m2. If 10% of
+a area x
+overall enthalpy drop occurs in the divergent portion
+due to friction, find the exit area of the nozzle.
+SECTION-C
+3 Attempt any FIVE questions : 10x5=50
+(a) Steam nozzle of bar
+enters a at a pressure 10
+and 200°C. the back pressure is maintained at
+1 bar. The expansion is under metastable conditions
+up to the throat and further it expands under
+thermal equilibrium. For unit mass flow rate find
+(1) throat (2) Exit Area (3) Degree of
+pressure
+under cooling (4) Degree of super saturation.
+(b) Ina regenerative feed heating cycle, the steam
+enters the turbine at 25bar and 250°C. The
+condenser is 0.05 bar. The steam is bled
+pressure
+off for feed water heating for a closed heater at
+3.5bar and for an open heater at 0.7bar. The
+condensate of the closed heater is discharged into
+the low pressure open heater. Calculate the
+thermal efficiency of the cycle. Neglect the pump
+work. Also, determine the corresponding efficiency
+of the Rankine cycle.
+(c) Explain both the combined power cycles with neat
+schematic diagram and T-S diagrams.
+140407] 3 [ Contd...
+www.aktuonline.com
+(d) Ina delaval (impulse) turbine the steam issues
+from the nozzles with a velocity of 800 m/sec at
+the nozzle angle of 20°. The mean blade speed
+is 350 m/sec. the blades equiangular. The
+are
+mass flow rate is 1000 kg/min. the friction factor
+is 0.8. Determine (1) Blade angles (2) Axial thrust
+(3) Power Developed (4) blade efficiency
+(5) Stage efficiency.
+(e) Explain the methods of improving the thermal
+efficiency and work output of Rankine cycle.
+(f) A simple gas turbine admits air at atm pressure
+and 15°C. and air in the
+compresses compressor
+up to 16 bar. Then the air enters the combustion
+chamber and is heated to a max. Temp. of
+1350° C. further it the turbine and expands
+enters
+to atm pressure. The isentropic efficiency of
+compressor and turbine is 0.85. Combustion
+efficiency is Determine flow of
+0.98. mass rate
+air for a net power developed of 200 MW.
+(g) Draw aneat labeled sketch of a Fire-tube boiler,
+and explain its working. Also compare the water
+tube boiler and fire tube boiler.
+(h) With the help of Enthalpy-Entropy and schematic
+diagrams explain the difference between the
+working of a propeller turbine and a jet turbine.
+Derive expressions for specific thrust, thermal
+efficiency, propulsive efficiency for a jet plane.
+(i) the velocity diagram of a compounded
+impulse and 50% reaction turbine stage. Find out
+the expression for tangential force, axial force,
+blade efficiency, and stage efficiency for both the
+impulse and reaction turbines.
+140407] 4

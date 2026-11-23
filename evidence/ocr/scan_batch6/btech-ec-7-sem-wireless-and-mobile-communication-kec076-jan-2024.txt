@@ -1,0 +1,28 @@
+Subject Code:
+PAPER 1D-3 10581 _ |
+Roll No: |
+BTECH
+(SEM VII) THEORY EXAMINATION 2023-24
+WIRELESS & MOBILE COMMUNICATION
+3 HRS M.MARKS: 100
+_
+Note: 1. Attempt all Sections. If require any missing data, then choose suitably.
+SECTION A
+1. Attempt all questions in brief.
+Question
+Explain co-channel reuse ratio. Also derive | the
+reuse ratio and cluster size_-
+Explain GPRS architecture in detail.. Also explain the use of CCU and PCU
+detail. AY ¢ 4
+If a signal to interference ration of 17 dBm is required for s fact ory forward | 10
+channel performance of a cellular system, Calculate the frequ factor and
+cluster size that should be used for maximum capacity if the exponent (n) is
+4, Assume that there are 6 co- -channel cells in fi rst ter are at the same
+Explain various types of vocoders with View of general voice generation |
+mechanism, wireless and |
+Explain various divegsity techniques in mobile communication. |
+various techniques with of proper block diagram. = 10 3
+DMA i i | 10 3
+Explain UMTS architecture in detail. Also briefly explain IMT 2000/- 10
+Compare LEO, MEO, GEO. Also explain the timing diagram of call connection | 10
+between two ISU units in mobile

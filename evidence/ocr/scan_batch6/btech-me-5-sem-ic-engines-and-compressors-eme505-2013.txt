@@ -1,0 +1,85 @@
+EMES505
+Printed Pages : 3
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2106
+B.Tech
+(SEMESTER-V) THEORY EXAMINATION, 2012-13
+I.C. ENGINES & COMPRESSORS
+Time : 2 Hours ] [ Total Marks : 50
+Note: (1) Use illustrations, wherever needed.
+(2) In case of missing data assume missing data, suitably and state the assumption
+made.
+Section — A
+1. Attempt all questions in this section : 5x2=10
+(i) | Which are the alternative fuels that can be used in I.C. engines ?
+(ii) | What is meant by valve timing diagram ?
+(iii) Obtain the expression of air standard efficiency of a diesel cycle.
+(iv) What the objectives of supercharging ?
+are
+(v) What is meant by surging in compressors ?
+Section B
+—
+2. Attempt any three parts : §x3=15
+(a) (i) Describe classification of I.C. engines. 5
+(ii) Discuss the desirable properties of IC engine fuels.
+(b) Describe the phenomenon of knocking in SI engines and the effects of knocking
+on engine performance. 5
+(c) Describe different phases of CI engine combustion and also abnormal combustion. 5
+(d) Describe the operation of water cooling system used in IC engines with schematic
+arrangement. 5
+Describe the conservation and operation of two stage reciprocating air
+a
+compressor with intercooling and also show processes on P-V diagram. 5
+2106 1 P.T.O.
+-Section — C
+Attempt all questions in this section : 5x5=25
+3. .Attempt two parts
+any :
+(a) During a test ofa single cylinder four-stroke oil engine a rope brake dynamometer
+is used to measure the output of the engine. The details of the test are
+Cylinder diameter = 250mm
+Stroke length 400mm
+=
+Gross mep = 7bar
+Pumping 0.5 bar
+mep =
+Engine speed = 250rpm
+Net load on the brake = 1080N
+Effective diameter of the brake = 1.5m
+Fuel used per hour = 10kg
+Calorific value of fuel = 44300 kJ/kg
+Calculate :
+(i) Indicated
+power
+(ii) Brake power
+(iii) Mechanical efficiency
+(iv) Indicated thermal efficiency
+(b) Explain the effect of engine variables on flame propagation in SI engines.
+(c) Describe the
+two basic methods of generating air swirl in CI engine combustion
+chambers.
+4. Attempt any one part :
+(a) An IC engine working on diesel cycle has a bore of 150 mm and stroke of 250
+mm respectively. If the clearance volume is 0.0004 m? and fuel injection takes
+place at constant pressure for 5 percent of the stroke, determine the thermal
+efficiency of the engine.
+(b) Define Octane number and describe the motor method and the research method of
+determining octane number of a fuel.
+2106 2
+Attempt any one part :
+-
+(a) Describe the different constituents which are exhausted from SI engine and the
+different factors which affect the amount of these constituents.
+(b) Describe methods of ignition systems used in IC engine with their
+any two
+Schematic arrangement.
+Describe the operation of any two types of modern fuel injection systems with sketch.
+Also explain working of Pintle nozzle & Pintaux nozzle.
+Attempt any one parts :
+(a) Describe the features of IC engine working sterling cycle.
+an chamber on
+(b) Describe any one type of combustion for SI engine and its merits.
+(c) Describe of supercharging arrangements for IC engine and its
+any one type
+application.
+2106

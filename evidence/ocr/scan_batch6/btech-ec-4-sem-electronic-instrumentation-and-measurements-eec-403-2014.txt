@@ -1,0 +1,63 @@
+Printed Pages—2 EEC403
+PAPER ID : 131403
+B.Tech.
+(SEM. IV) THEORY EXAMINATION 2013-14
+ELECTRONIC INSTRUMENTATION AND
+MEASUREMENT
+Time’: 3 Hours Total Marks : 100
+Note :— Attempt all questions.
+1. Attempt four of the following :
+any (5x4=20)
+(a) Distinguish instrument. between Accuracy and Precision of an
+How is it different from Resolution ?
+(b) Define the dynamic response of a system and distinguish
+between steady state and tansient response.
+(c) What are undamped systems and critically damped systems ?
+(d) Define static error. Distinguish between reproducibility and
+repeatability.
+(e) What is a Bridge ? What are the advantages of Bridge
+Circuit ?
+(f) State the Balance condition for bridge
+form, polar form and rectangular a form. circuit in general
+2. Attempt
+any two of the following : (10x2=20)
+(a) Define “Gross error”, “Systematic error”, “Absolute error”
+and “Relative error”.
+(b) Define sensitivity. A particular ammeter requires a changes
+of 2A in its coil to produce a change in deflection of the
+pointer by 5 mm. Determine its sensitivity and deflection
+factor.
+EEC403/DQJ-21545
+rn Over
+(c) A 0-10A ammeter has a guaranteed accuracy of 1.5% of
+full scale reading. The current measured by the instrument
+is 2.5A. Calculate the limiting values of current and
+percentage limiting error.
+3. Attempt any two of the following : (10x2=20)
+is the coil in PMMC is
+(a) What is damping in PMMC ? How and disadvantages of
+controlled ? Mention the advantage
+PMMC Instruments.
+(b) Explain briefly an electrodynamometer instrument. Mention
+the advantages and disadvantages of Electrodynamometer.
+(c) _ How are digital voltmeters classified ? What are the
+operating and performance characteristics of a digital
+voltmeter ?
+(10x2=20)
+4. Attempt any two of the following :
+(a) Discuss in brief Series type ohmmeter and Shunt type
+ohmmeter.
+(b) Discuss in brief (i) Function generator (ii) Sweep generator.
+(c) Compare Maxwell bridge with Hay’s bridge ? List the
+advantages of using standard capacitor in Maxwell bridge.
+(10x2=20)
+5. Attempt any two of the following :
+(a) How Schering Bridge is used for the measurement of
+unkown capacitor ? Derive its balance equation; state it
+advantages.
+(b) What is the function of (i) delay control circuit, (ii)
+collimating lens, (iii) flood gun and (iv) probes in CRO?
+(c) Discuss in brief the functioning of (i) Q meter (ii) Digital
+Multimeters.
+EEC403/DQJ-21545 10025
+wee

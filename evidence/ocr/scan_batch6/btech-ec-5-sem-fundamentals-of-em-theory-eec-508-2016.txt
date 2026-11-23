@@ -1,0 +1,66 @@
+uptuonline.com
+4 EECS508
+Printed Pages :
+(Following Paper ID and Roll No. to be filled in your
+Book) (f) Explain Electric potential. Write the relation
+Answer between electric potential and electric field
+Paper ID: 131525 uptuonline.com
+B.TECH (g) Define skin depth.
+(SEM. V) THEORY EXAMINATION, 2015-16 (h) Transform
+the point P(2,2,5) in spherical
+FUNDAMETALS OF E.M. THEORY coodinate system.
+:
+[Time : 3 hours] |MaximumMarks 100] (i) Define Surface Integral.
+Note : The Question Paper contains Three Sections. (j) Give the wave equation in terms of electric field
+and magnetic field.
+Section-A
+Section-B
+1. Attempt all parts of the following. All parts carry equal
+Write of each in short. (2*10=20)
+marks. answer part Attempt any five of the following : (5x10=50)
+(a) Write Maxwell’s Equation in a simple, non- Derive expression the expression for @and in
+conducting and source-free region? lossless dielectric medium.
+(b) wave number? State and prove continuity equation. Also explain
+relaxation time.
+Define Divergence theorem.
+(c)
+Explain reflection of plane wave incident normally at
+(d) Whatis unit vector? the dielectric-dielectric interface. Discuss about
+reflection & transmission coefficient.
+(e) Explain the physical interpretation of Gradient.
+uptuonline.com
+10400 (1) 10400
+P.T.O. (2) EECS508
+What the boundary conditions for Section-C
+are static electric
+fields in the general form at the interface between two Attempt any two questions from this section.
+different diclectric media? Explain
+uptuonline.com
+Define displacement and conduction desities and the magnetic flux density
+current 10. Derive a general expression for
+derive Maxwell's equation associated with faraday law B at any point along the axis of a long solenoid. Sketch
+and modified ampere’s circuital law the variation of B from point to point along the axis.
+Discuss the propagation in lowy dielectric also expression for the energy stored in the
+wave ll. Derive an
+determine propagation constant, intrinssc impedance magnetic field of a coil possesing an inductance of L
+Henry when the current in the coil is | amp and
+A positive point charge Q is at the center of a spherical toroidal coil, derive and expression for
+shell of an inner radius & and an outer radeus considering
+energy density.
+R, constant of the shell ts Determine
+Dand of R. What is Vector Helmholtz equation? A 100 MHz
+E.V. P asa functions the radial distance
+uniform plane wave E = XE. propogates in the +z
+= iif vee
+Acoording to WL»
+direction. Suppose €, = 4,4, and it has a
+show that the stored eclectic energy given by maximum value of V/m at t=0 and z=0.125m.
+wed ff H
+(a) Write the instantaneous expressions for E and
+E positive
+(b) Determine the location where is a
+uptuonline.com maximum when sec.
+uptuonline.com
+—x—
+10400 (4) EECS508
+10400 (3)

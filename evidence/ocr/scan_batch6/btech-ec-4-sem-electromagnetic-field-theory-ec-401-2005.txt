@@ -1,0 +1,75 @@
+http://www.uptuonline.com
+Printed Pages—03 EC —401
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+| | | | | | |
+B.Tech.
+FOURTH SEMESTER EXAMINATION, 2004-2005
+ELECTROMAGNETIC FIELD THEORY
+Time : 3 Hours Total Marks ; 100
+Note : Attempt ALL the questions.
+All questions carry equal marks.
+1. Attempt any four of the following : 5x4=20
+(a) What is vector field ? Discuss product and dot
+product in details between two cross vectors in cartesian
+coordinate systems.
+Discuss the physical interpretaition of gradient,
+Divergence and curl operation.
+S (c) What is stoke’s theorem ? State and prove the
+theorem in spherical coordinate system.
+ff (d) What is Gauss’s law ? State and prove ina particular
+coordinate system.
+(e) Discuss the vector representation of surfaces in
+details.
+!
+(f) Compare the scalar and vector fields and show the
+difference between the two.
+EC 1 {Turn Over
+http:/Awww.onlineQP.com
+2. Attempt four of the following 5x4=20
+any :
+(a) Discuss . various ; boundary conditions as applied to
+electric field between two dielectric media.
+(b) Discuss boundary conditions for magnetic fields
+between two media.
+(c) What is difference between Laplace and Poisson’s
+equations ? Discuss Poisson’s equation in one
+dimension taking an example of your own.
+(d) What is method of images as applied to plane
+boundries example. ? Discuss in detail taking a suitable
+(e) What is electrostatic ? Discuss the
+stored in a capacitor energy which is charged energy to
+voltage V. a
+(f) Discuss how you will find the electric field due to
+point charges at a particular point.
+3. Attempt any two of the following : 10x2=20
+(a) What the is Ampere’s relation circuital of force law due ? State and obtain
+conductor. necessary to a current I ina
+(b) What is Faraday’s law ? Give the statement and
+prove it.
+(c) | Disucss the energy stored in magnetic field, where
+the magnetic field internsity is given by H.
+EC—401 2
+http:/Awww.onlineQP.com
+the following
+Attempt any two of : 10x2=20
+(a) Write the maxwell’s equation?
+interpretation of each.
+(b) Derive indicate the how wave the equation for electric field and the
+propagation propagation in medium. constant controls
+wave a
+(c) Discuss the following terms :
+|
+(i) Phase velocity.
+(ii) Group velocity.
+(iii) Impedance of the medium.
+Attempt
+any two of the following: - 10x2=20
+(a) What is Poynting vector ? Discuss the Poynting
+theorem and explain the physical meaning of each
+integral involved therein.
+(b) What do you mean by polarization of a wave ?
+Show that linear polarization is related to circular
+polarization of the wave.
+(c) What is skin effect ? Discuss depth of penetration of
+a wave in a conducting medium.
+-o0O0-

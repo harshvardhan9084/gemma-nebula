@@ -1,0 +1,90 @@
+aktuonline.com aktuonline.com
+Printed Pages—3
+(Following Paper ID and Roll No. to be filied in your Answer Book)
+PAPER ID : 0114
+B. Tech.
+EXAMINATIQN 204068
+(SEM. IV) THEORY
+SOFTWARE
+Time 3 Hours Total Marks : 100
+Note (i) Attempt
+:
+(ui) All questions carry equal marks.
+(ii) Be precise in
+your answer.
+(iv) No second Answer book will be provided.
+1. Attempt four parts of the following (4x5=20)
+any :
+(a) Define software engineering. What are the key challenges
+facing software engineering ?
+(b) Describe various phases of software development life cycle.
+Why there is software crisis in the industry ? Discuss.
+(d) What the various software quality attributes ? Discuss
+are
+any two of them.
+(e) Write short note on Spiral Model. Also discuss its merits
+and demerits of this model.
+model
+(f) Compare evolutionary development and iterative
+enhancement model.
+EIT402/RFW-21340 1 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+2. Attempt any twe parts of the following : (10x2=20)
+(a) Discuss the general format of SRS document and discuss
+a
+its main components in detail.
+(b) Write short note on the following with example:
+(i) Decision Table
+Feasibility Study.
+(c) () Why data flow diagram is used ? Make a data flow
+diagram for issue and return of books from the library.
+(ii) What do you mean by formal technical review ? What
+significance software
+is its in development ?
+3. Attempt any two parts of the following : (10x2=20)
+(a) Write the characteristics of a good design. How the coupling
+and cohesion measures are used to find out strength of
+design ? Explain
+(b) @ Differentiate between function oriented design and
+object oriented design.
+(i) Describe layered software design. What the
+are
+advantages and disadvantages of layered software
+design.
+(c) () Describe various Halstead software science measures
+for size, development effort, and development cost of
+software product.
+(i) Write short note on the importance of software
+architecture.
+EIT402/RFW-21340
+2
+aktuonline.com
+aktuonline.com aktuonline.com
+4. Attempt any two parts of the following : (10x2=20)
+(a) (i) Differentiate between error and failure. Which of the
+two is detected by testing ? Justify your answer.
+(ii) What is by code walk through ? Explain with
+meant a
+example.
+(b) Write short note on the following with examples :
+(i) Unit Testing.
+(ii) Acceptance testing.
+(c) (i) What do you understand by the clean room strategy ?
+Discuss.
+(ii) ‘‘System testing can be considered as a pure black-
+box Justify your answer.
+5. Attempt any two parts of the following : (10x2=20)
+(a) (i) What are the different types of maintenance that a
+software product might need ? Discuss.
+(ii) What is risk ? How to identify risk ?
+model.
+(b) (i) Describe the COCOMO What is its
+significance ?
+(ii) Write short note on reverse engineering.
+(c) (i) What the main advantages of the CASE tools ?
+are
+Discuss.
+(ii) Discuss change control process with suitable example.
+EIT402/RFW-21340 3 14550
+aktuonline.com

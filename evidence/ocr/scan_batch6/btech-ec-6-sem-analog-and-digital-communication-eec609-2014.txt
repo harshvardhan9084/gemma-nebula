@@ -1,0 +1,59 @@
+Printed Pages—3 EEC609 2. Attempt any two parts of the following
+: (10x2=20)
+(Following Paper ID and Roll No. be filled in Answer Book) (a) What is the advantages of frequency modulation ? The
+to your carrier frequency of
+PAPER ID : 121601 an FM broadcast transmitter is
+100 MHz and maximum frequency deviation is 75 kHz,
+B.Tech. If the highest audio frequency modulating
+the carrier is 15
+(SEM. VI) THEORY EXAMINATION 2013-14 kHz, what is the approximate bandwidth of the signal ?
+ANALOG & DIGITAL COMMUNICATION (b) Explain the frequency discriminator
+working of a balanced
+with the help of a circuit diagram.
+Time : 3 Hours Total Marks : 100
+Note :— Attempt all questions. All questions carry equal marks. (c) What is noise ? What are various forms and sources of
+noise ?
+1. Attempt any four parts of the following : (5x4=20)
+(a) What is modulation ? Why the modulation is needed ? Attempt any four parts of the following : (5x4=20)
+(a) What is pulse
+(b) Prove that the Balance modulator removes the carrier and code modulation ? Explain the suitable
+gives the two sidebands only. diagram.
+(b)
+(c) Draw the block diagram of phase shift method for What is quantization ? How quantizing and coding is done.
+generating the SSB signal and explain its working. Explain with suitable waveform.
+(d) What is VSB modulation ? What is the application of VSB (c) What is delta modulation ? Discuss the errors in delta
+modulation ? modulation. https://www.aktuonline.com
+(e) The antenna current of an AM transmitter is 8 amp when (d) Draw the block diagram of generation of PWM and explain
+only the carrier is sent, but it increases to 8.93 amp when the working operation.
+the carrier is modulated by single sine
+a wave. Find the (e) What is differential pulse code modulation ? Explain the
+percentage of modulation. Determine the antenna current of
+when the percentage of modulation changes to 0.8 working differential pulse code modulation ?
+(f) What is adaptive delta modulation ? Explain.
+(f) What is the advantage of quadrature amplitude modulator ?
+Explain with the help of suitable block diagram ?
+EEC609/DQJ-21557
+EEC609/DQJ-21557 1 (Turn Over 2
+4. Attempt any two parts of the following : (10x2=20)
+(a) Draw the block diagram of Aitplitude shift keying
+system
+and explain the working operation.
+(b) Explain with the help of diagram, a method of generating
+and demodulating phase shift keying signals.
+(c) Time Division multiplexing ? Explain with suitable
+diagram.
+5. Attempt any two parts of the following : (10x2=20)
+(a) Write a note on T TDM PCM hierarchy form T, to T,.
+(b) (i) Consider 8 alphabet source with probability of
+smi occurrence Ta as follows :
+|
+oi] om
+_
+__According to Shannon-Fano techniques, generate the
+binary codes.
+(ii) Determine the Huffman Code for the following
+message with probabilities
+their _
+(c) What is information ? How is information measured ? What
+is channel capacity ?
+EEC609/DQJ-21557 3 5800

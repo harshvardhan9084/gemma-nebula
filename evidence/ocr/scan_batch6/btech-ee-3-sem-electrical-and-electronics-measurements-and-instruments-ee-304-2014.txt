@@ -1,0 +1,68 @@
+5. Draw the circuit of a Kelvin's Double bridge used for Printed Pages—4 EE304
+measurement of low resistances. Derive the condition for
+balance. (Following Paper ID and Roll No. to be filled in your Answer Book)
+OR PAPER ID 1255
+:
+Derive the equation of balance for a low voltage Schering bridge.
+Draw the P phasor diagram. B.Tech
+(SEM. IIT) ODD SEMESTER THEORY
+6. The iron loss in a sample is 300 W at 50 Hz with eddy current | EXAMINATION 2013-14
+loss component 5 times as big as the hysteresis loss component.
+At what frequency will the iron loss be double if the flux density _ ELECTRICAL AND ELECTRONICS MEASUREMENTS
+is kept the ? ( AND INSTRUMENTS
+same
+OR Time : 3 Hours Total Marks : 100
+Describe ; by method Note :— Attempt all questions.
+step step for determination of B-H curve SECTION-A
+of a magnetic material.
+7. Attempt any two parts : (5x2=10) 1. Attempt all parts : (2x10=20)
+! | (a) What is the difference between absolute
+(a) Draw and explain the circuit of Digital Frequency Meter. error and relative
+(b) Draw the circuit and describe the working of analyzer error 9 ?
+for audio-frequency wave (b) Differentiate between reproducibility and
+range drift.
+(c) Explain with the help of a block diagram, the working of (c) diagram of current transformer in single-
+Integrating type digital voltmeter. phase system.
+(d) Define meter constant in single-phase induction type energy
+( meter.
+What are sources of error in ac bridge circuits ?
+(f) Classify resistances from the point of view of
+measurements.
+(g) Define standardization of AC Potentiometer.
+EE304/DNG-52509 4 4250 EE304/DNG-52509
+1 [Turn Over
+SECTION-C
+(h) How would 12.98 V and 0.6973 V be displayed on 10 V
+range of a 44 digit display ? Note :— Attempt all questions : (5x10=50)
+(i) Explain analyzer in measurement system.
+wave 3. Three resistors have the following ratings R, = 200 Q + 5%,
+Gj) Enlist difficulties encountered in measurement of high R, = 100 Q 5%, R, = 50 Q + 5%. Determine the magnitude
+resistances. of resultant resistance and limiting errors in percentage and ohms,
+if the above resistances are connected in (i) Series (ii) Parallel.
+SECTION-B
+Attempt any three parts : (10x3=30) OR
+(a) (i) Whatare different types of systematic error ? Discuss. A dynamometer wattmeter is used to measure the power factor
+(ii) Describe the constructional details of single phase of a 20 pF capacitor. The pressure coil of the wattmeter having
+induction type meter. a resistance 1000 Q and an inductive reactance of 15 Q is
+energy connected across a 50 Hz supply. The current coil of the
+(b) Accurrent transformer with a bar primary has 300 turns in wattmeter, variable resistor R and the capac itor are
+its secondary winding. The resistance and reactance of a connected
+circuit 1.5 Q and 1.0 Q respectively including in series across the same supply. The wattmeter deflection is
+secondary are made zero by adjusting the value of R to 1.65 Q. If the current
+the transformer winding with 5 A current flowing in coil resistance is 0.1 Q and its inductance negligible, determine
+secondary winding, the magnetizing mmf is 100 A and the the power factor of the capacitor.
+iron loss is 1.2 W. Determine the ratio and phase angle
+Attempt any two parts : (5x2=10)
+error.
+(c) Derive the equation of balance for modified De Santy (a) Explain the method of turns compensation used in current
+bridge. Draw the phasor diagram for balance condition. transformers to reduce ratio error with the help of a suitable
+example.
+(d) Describe an experiment for obtaining flux density in a
+specimen of magnetic material with the help of a Ballistic (b) Explain the methods for demagnetisation of the core of a
+made for flux in current transformer whose secondary circuit has been
+galvanometer. How is the correction the accidentally opened when the primary winding was
+the air between the specimen and the coil ? energised.
+(e) Draw a suitable block diagram to explain the working of
+(c) Explain the working of mechanical resonance type
+Ramp type digital voltmeter. frequency meter.
+EE304/DNG-52509 2 EE304/DNG-52509 3 [Turn Over

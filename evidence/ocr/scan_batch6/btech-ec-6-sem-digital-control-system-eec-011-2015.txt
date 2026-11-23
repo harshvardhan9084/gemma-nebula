@@ -1,0 +1,114 @@
+www.aktuonline.com
+Printed Pages : 6
+EEEOU
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 121655
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+DIGITAL CONTROL SYSTEM
+Time 3 Hours] [Total Marks 100
+: :
+Note : Attempt all questions.
+1 Attempt any four parts of the following : 5x4=20
+(a) Draw the basic digital control system and explain the
+function of each block. Also discuss the sampling effects.
+(b) Define an ideal sampler. Also explain the relationship
+between Z-transform and Laplace transform.
+(c) Predict the nature of the transient response of a discrete-
+time system whose characteristic equation is given by
+72 1.97 + 0.9307 = 0
+The sampling interval T = 0.02 sec.
+121655] 1 [ Contd...
+www.aktuonline.com
+(d) Obtain the companion first form realizations for the
+transfer function
+47°
+R(z) (z-1) (z-2)
+(e) Explain the suitable method for the stability of a discrete
+time Also explain the bilinear transformation.
+system.
+(f) What do understand by performance ?
+you measure
+Explain in view of optimal control problems.
+2 Attempt any two parts of the following : 10x2=20
+Z|
+@) @ If then prove that
+Z[
+where
+(i) Find z | 32°
+121655] 2 [ Contd...
+www.aktuonline.com
+(b) (i) Determine the pulse transfer function of
+ther system shown in
+Re)
+Fig. 1
+(it) Solve the following difference equation :
+y(k+2)+3y(k+1)+2y(k)=0
+1 3
+(c) Consider the difference equation
++1) +ayy(k) = bor (k +2)
++b,r(k)
+Assuming that the system is initially at rest, and r(k) 0
+=
+Y(z)
+for k <0, obtain the transfer function G(z) = R(z)
+121655] 3 [ Contd...
+www.aktuonline.com
+3 Attempt any two parts of the following : 10x2=20
+(a) Discuss the transient and frequency domain specification
+that describe the performance of feedback control
+in Z-plane.
+system
+(b) A sampled data feedback control system is shown in
+fig. 2. The controlled process of the system is described
+by the transfer function
+G(s)= (s) k _
+The sampling time period T = | sec.
+FY ig 9
+Sketch the root locus plot for the system on the
+Z-plane and from there obtain the value of ‘k’ that
+results in marginal stability.
+(c) Investigate the controllability and observability of the
+following system
+:
+x(k)
+121655] 4 [ Contd...
+www.aktuonline.com
+4 Attempt any two parts of the following : 10x2=20
+(a) Explain various methods available to investigate the
+controllability and observability.
+(b) A discrete - time regulator system has the plant
+0 1 0 0
+X(k+1)=| 0 0 1
+-4 -2 -l 1
+Design a state feedback controller which will place the
+closed loop poles a Also give a block
+diagram of the control configuration.
+(c) State and explain Lyapunov stability criterion in brief.
+For the system
+X =2X, (k)+0.5X, (k)—5
+=0.8 X, (k)+2
+Investigate the stability of the equilibrium state. Use the
+direct method of Lyapunov.
+121655] 5 [ Contd...
+www.aktuonline.com
+5 Attempt any two parts of the following : 10x2=20
+(a) Using the Lyapunov’s direct method, find the stability
+range for the gain ‘K’ of the system shown in Fig.3
+Peay
+Fig. 3
+(b) Determine the optimal control law for the system
+[0 1 0
+X= _ X+ u
+0 1
+[1 0
+Y= xX
+Such that the following performance index is minimized.
+wor (i 2 2 2 Jar
++u
+(c) Write short notes on any two of the following :
+@) Principle of optimality
+(i) — Infinite regulator problem
+(it) Compensator design.
+121655]
+6 [475]

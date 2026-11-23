@@ -1,0 +1,67 @@
+www.aktuonline.com
+Printed Pages : 3
+EITO62
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 113602
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+SOFTWARE TESTING
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt ALL questions.
+1 Attempt four parts of the following: 5x4=20
+any
+(a) What is testing? Differentiate between effective
+and exhaustive software testing.
+(b) Define the following terms:
+Errors, faults and failures.
+(c) Differentiate between testing and debugging.
+(d) Why do bugs occur? How states does
+many a
+bug have?
+(e) What is software testing life cycle?
+(f) metrics and
+a note on test measurements.
+113602] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any two parts of the following: 10x2=20
+(a) Explain white-box testing. What the types of
+are
+errors detected by black-box testing?
+(b) What is the objective of white-box testing? What
+is the significance of cyclomatic complexity?
+(c) Write short notes on the following:
+(i) | Model based testing
+(it) Structural testing
+3 Attempt two parts of the following: 10x2=20
+any
+(a) | What is the need of integration testing? Differentiate
+between top down and bottom up integration.
+(b) Explain acceptance testing. What is the difference
+between system testing and acceptance testing?
+(c) Write short notes the following:
+on
+(i) Beta Testing
+(i) Scalability testing
+4 Attempt two parts of the following: 10x2=20
+any
+(a) How does regression testing help in producing
+quality software?
+(b) Explain the following regression test selection
+techniques:
+(i) Minimization
+(i) Dataflow
+(it) Ad hoc
+113602] 2 [ Contd...
+www.aktuonline.com
+(c) Write short the following:
+notes on
+(i) testing
+(ii) Defect seeding
+_Write short notes on any four of the following: 5x4=20
+(a) Test Planning
+(b) Software Quality
+(c) Test Management System
+(d) Test Automation
+(e) Software Maintenance
+(f) Defect Management.
+113602] 3

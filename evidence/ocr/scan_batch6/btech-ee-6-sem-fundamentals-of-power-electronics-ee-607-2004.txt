@@ -1,0 +1,128 @@
+aktuonline.com Roll | al | | ‘@ktupniirje.com
+No. |
+No. of Printed Pages—4 EE--607
+B. TECH.
+SIXTH SEMESTER EXAMINATION, 2003-2004
+FUNDAMENTALS OF POWER ELECTRONICS
+Time : 3 Hours Total Marks : 100
+Note : Attempt all FIVE questions. All questions carry equal
+marks.
+1. Attempt any FOUR parts of the following :—  (5x4=20)
+(a) Draw circuit symbol static v-i
+characteristic of the following power semi-
+conductor devices :—
+(i) Power diode,
+(ti) Thyristor, and
+(iti) MOSFET.
+(b) With the help of symbol, static emitter
+characteristic and equivalent circuit, explain
+working of an Unijunction Transistor (UJT)
+as relaxation oscillator.
+(c) Draw and explain thyristor voltage and
+current characteristics during turn-off and
+hence define turn-off time of thyristor.
+_~ (d) The latching current of a thyristor in series
+with a pure inductive load of 0:1H anda
+d.c. source voltage of 100 V is 4mA.
+Determine the minimum width of the firing
+pulse required to properly turn-on the
+thyristor.
+(e) Distinguish and compare a Bipolar junction
+141 transistor and a MOSFET.
+(f) Why are the multiple connections of power
+semiconductor devices required ?
+EE-607 1 Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+Calculate the number of thyristors, each with
+a rating of 500 V and 75 A, required in each
+branch of a series-parallel combination for a
+circuit with total voltage and current rating
+of 7-5kV and 1kA respectively. Assume a
+derating factor of 14%.
+2. Attempt FOUR parts of the following (5x4=20)
+any :—
+(a) Distinguish and compare a Cycloconverter
+and an Inverter. Also mention areas of ~
+application for each.
+(b) Discuss basic concept of half-wave diode
+rectifier with the following load combination :—
+(i) Resistive load, and
+(ii) Resistive and inductive load.
+Draw the voltage and current waveforms in
+each case.
+(c) A 220 V, 50 Hz single-phase a.c. voltage
+source supplies a resistive load of 20 ohms
+through a half-wave controlled rectifier
+circuit. If the thyristor delay angle is fixed at
+A , determine :
+(1) the ratio of rectification,
+(ti) the voltage ripple factor, and —
+(iii) the peak inverse voltage of thyristor.
+(d) Define, compare and distinguish between an
+Integral cycle power controller and a phase
+controlled a.c. voltage controller.
+(e) State and supplies. explain Name normal three specification of and of
+power d.c. supplies in each types Also a.c. briefly
+describe power type of case. supply.
+any one power
+EE-607 2
+=
+bri@ktuonline.com
+A rectifier three-phase full-wave ideal controlled thyristors and
+fed from contains ideal six 3-phase of 230 V, is
+50 Hz. The an load resistor of 20 source Q is connected
+in series with large smoothing inductor.
+Calculate the average a load voltage and the
+power dissipation at firing delay angle of 7%.
+3. Attempt any TWO parts of the following :— (10x2=20)
+_. (a) Explain principle of inverter operation with
+square output voltage waveform. Also obtain
+expression for rms value of output voltage.
+(b) Give the design aspects of parallel inverter
+employing feedback diode.
+(c) Discuss basic properties of three-phase
+sinusoidal PWM inverters.
+4. Attempt any TWO parts of following :— (10x2=20)
+(a) Explain functions of Choppers.
+An ideal chopper operating in first quadrant
+is supplied with power from an ideal battery
+source of terminal voltage of 220 V. The load
+voltage waveform consists of rectangular
+pulses of 1 msec duration in overall chopper
+time period of 3msec. The load current is
+constant and ripple free. Calculate : average
+and rms values of load voltage and voltage
+ripple factor.
+(b) Explain working of step up choppers. Obtain
+expression for average value of load voltage.
+Also mention their applications.
+(c) Distinguish between Voltage and Current
+commutated choppers. Briefly explain
+working of current commutated chopper
+with the help a of its circuit.
+EE-607 3 Turn Over
+aktuonline.com
+TWO of the following
+any parts
+(a) Explain speed control of ceiling fans, using
+a triac and a diac.
+(b) separately excited motor is powered
+by an ideal single quadrant d.c. choppers
+from a 600 V d.c. mains. The armature
+resistance is 0:05 Q. The back emf constant of
+motor is V/rad/sec. The average
+armature current is 250 A, continuous and
+ripple free. The field current is 2:5 A. If the
+duty cycle of chopper is 60%, determine :
+(i) the input power from the source,
+(ii) the motor speed, and
+(iii) the developed torque.
+(c) A three-phase, 4-pole, 50 Hz squirrel-cage
+induction motor is developing torque of 1500
+synchronous watts at 1440 rpm. If the motor
+frequency is now increased to 75 Hz and
+motor is operating in constant power mode,
+determine the new value of torque
+developed by the motor at the constant slip.
+aktuonline.com

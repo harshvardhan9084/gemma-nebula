@@ -1,0 +1,97 @@
+12190
+‘Printed Pages—4 TEC —604
+(Following Paper ID and Roll No. be filled in Answer Book)
+to your
+PAPER ID: 3094
+B.Tech.
+(SEM VI) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+MICROWAVE AND RADAR ENGINEERING
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt ALL questions.
+(ii) All questions carry equal marks.
+1. Attempt any four parts of the following : (4x5=20)
+(a) Derive the solutions of TE modes in
+waveguides.
+(b) Prove that TEM mode can not exist in the
+hollow waveguide.
+(c) An air filled rectangular waveguide has
+dimension of a=6.0 cm and b=4.0cm. The
+signal frequency is 3.0 GHz. Compute the
+following for the TE;, modes.
+(i) cut off frequency
+(ii) Wavelength in the waveguide
+(iii) Phase constant and phase velocity in
+the waveguide.
+(iv) Group velocity and wave Impedance
+in the waveguide.
+TEC—604 1 [Turn Over
+(d) A TE,, mode is propagating through a
+circular waveguide. and the guide The radius of the guide
+dielectric, is 5 cm, (X'np=1.841). Determine contains an air
+:
+(i) Cut off frequency
+(ii) Wavelength in the guide for
+operating frequency of 3.0 GHz, an
+(iii) Determine the wave impedance in the
+guide.
+Drive the equation of TM modes in Circular
+Waveguides. -
+(f) Define :
+(i) dominant mode
+(ii) degenerate mode
+(iii) excitations of modes in circular
+waveguides.
+2. Attempt any four parts of the following : (4x5=20)
+(a) What do you mean by microwave cavities ?
+Describe the Rectangular - Cavity
+Resonator.
+Explain the series Tee, and prove that the
+diagonal elements of the S-matrix of a
+Tee junction are not all zeros.
+-
+Explain the characteristics of Directional
+coupler.
+(d) Describe the properties of multiport
+microwave circulator.
+(e) Explain, how isolator is used to isolate one
+component from reflection of other
+components in the transmission line.
+(f) | Describe the characteristics of Hybrid Tees.
+3. Attempt two parts of the following: (2x10=20)
+any
+(a) What are the limitation of conventional
+-~ active devices at microwave frequency ?
+(b) Describe the velocity modulation
+bunching of two Cavity Klystron process,
+amplifiers. process
+(c) A two - cavity Klystron amplifier has the
+following parameters :
+V,,=1000 V, R,=40 KQ
+mA, f=3 GHz.
+Gap spacing in either cavity :d=1mm.
+Spacing between the two cavities : L=4 cm.
+Effective shunt impedance, excluding beam
+loading Rsh=30 KQ.
+~ (i) Find the input gap voltage to give
+maximum voltage V.
+(ii) Find the voltage gain, neglecting the
+beam loading in the output cavity.
+(iii) Find the efficiency of the amplifier,
+neglecting beam loading.
+(iv) Calculate the loading
+conductance.
+TEC — 604 3 [Turn Over
+4. Attempt any two parts of the following: (2x10=20)
+(a) Describe the physical structures and
+principles of operation of TRAPATT diodes.
+(b) Explain the Two - valley model theory and
+Gunn oscillation modes of GUNN diodes.
+(c) Describe the RF structure and principle of
+operation of Magnetrons.
+5. Write short notes on any two of the following :
+(a) M.T.I. Radar and application (2x10=20)
+(b) CW Radar
+(c) Radar Antennas
+-o0Oo-
+TEC—604 4

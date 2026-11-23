@@ -1,0 +1,118 @@
+Printed Pages : 4 TEC-503
+(Foliowing : Paper ID and Rol} No. to be filled in your Answer Book}
+PAPER ID 3087. Lit]
+B, Tech,
+(SEM. V) EXAMENATION, 2008-09
+MICROPROCESSORS AND APPLICATIONS
+Hours}
+3 : 100
+Note Answer all questions. AN
+: equal marks. carry
+Choices are ter vetch question.
+(3) Answers must be fo the petit.
+(4) Assiime missing andor data if
+1 Answer any two parts
+{a) You want to attach | kB ROM with address 10
+OOOGH-O3FFH and 4 kB static RAM with
+address 2000H-2FFFH in a 8085 | based system.
+You have sufficient supphes of kB ROM chips
+and | kB RAM chips. Fach of these niemory
+chips have requisite number of address pins, one
+chip select (C8) pin, 8 data pins, two power
+supply pins and pp pin. trom these the
+a Apart
+RAM chips also have YR pin, Show the
+connection diagram of the memory bank with
+You may use as many decader and
+gate chips as you require
+3087} (Contd...
+(b) With @ neat diagram describe the internal 10
+architecture of 8085. State the function of
+each block shown.
+{c) With reterence 8085, show the timing
+diagram for the instruction to ADD B. The diagram
+must show bath the and
+cleariy demarcated. The instruction parts
+4 T-slates against this instruction. sheet shows
+liming diagram conform Does your
+to this view ? If the
+the Menory is rot where in the timing diagram
+'Wait are inserted ?
+2 Answer any two parts
+{a} ‘Ten integers of length are stored 10
+consecutively in the
+given address (Choose memory beginning from a
+address}. any arbitrary value for the
+Wrile a program for $086 to rearrange
+the infegers so that the largest is now stored
+at the location address. Put meaningful
+comments fo your program so that the logic,’
+algorithm behind your program is clear.
+(b) Wah examples explain the addressing modes 10
+available in the mstruction set of 8086,
+{c) Give very short answers to the following : 5x2
+{) Haw much memory can be attached to
+? - Justify.
+(ii) Apart ftom how
+be accessed memory many 1’O devices
+may by 8088 ?
+(i) Contents ol which register is modified in
+execution of ‘Far Jump' but not ‘Near
+3087] es
+(iv) If you compare the execution of a ‘Call!
+and a ‘Jump’ is there any
+difference in changing the cuntents of any
+memory location ?
+(v) What is the difference berween 8986 and
+8088 7
+3 Answer any two parts
+(a) Explain the keyboard scannmy iechnique of i0
+8279 How keys can be to
+How simulfaneous many depression keys (hike
+many ete.) it ?
+does support
+Explain your opinion
+(b) Explain the facilities available 1p 8259 What is 10
+its main application area ? Explain the fixed and
+rotating priority properly. How does 8250 identity
+its own Status as master or slave ? How does
+it identify its own number while on job ?
+(c} Explain with a neat diagram the operation and 10
+programming of 8253. Where a PC you may
+find it ?
+4 Answer any two paris
+(a) An 8-bit ADC starts converting when a ‘high’ 10
+pulse is obtained through its pin. When it
+completes its conversion, if makes available the
+digital value through its 8 data pins and indicates
+the event by a ‘low’ signal its 'ROC'
+pin. You want to interface tus to an 8086
+board through an 8255.
+Draw a schematic diagram and write a supporting
+program for the imterface.
+3087)
+{b) Explain the following terms with respect to 3
+an ADC = (i) Accuracy {ii} Resolution and
+List the different types of ADC you kaow 2
+about,
+Which of them need a built-in DAC 7 Write
+a short note on methods of Digital to Analog
+conversion.
+(c} What is the maximum clock frequency that can 10
+be input to an 8253 A timer ? Can vou program
+an 8253 A so that gives a short high pulse at
+a reguiar interval of 10 mS ? Explain with a
+neat diagram your method. How you program
+your 8253 A ? Can vou suggest any application
+in this entire question paper that may need such
+type of pulse generation ?
+Answer any two parts 2x5
+(a) Write short
+notes on
+(i) 8051 memory organization
+{ii) 8051 bit manipulation instructions.
+Write a short note on Pentium 10
+(c) Compare the advantages and disadvantages of 10
+RISC and CISC. How their design concept
+and architecture differ ? Give examples.
+3087) MSE 4

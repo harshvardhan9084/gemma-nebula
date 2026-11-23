@@ -1,0 +1,59 @@
+Printed Pages : 2 EIT505
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2170 rotno{ | [| [ [| |
+B. Tech.
+(SEMESTER-V) THEORY EXAMINATION, 2012-13
+INFORMATION SECURITY AND CYBER LAWS
+Time : 2 Hours ] [ Total Marks : 50
+Section — A
+1. all question §x2=10
+Attempt parts :
+(a) Define the terms “Confidentiality” and “Data Integrity”.
+(b) What do you mean by Non-repudiation in which systems ?
+(c) How Digital Signatures are related to Public Key Cryptographic Systems ?
+(d) What are security threats in Mobile Computing ?
+(e) What do by Physical Security for Information Systems?
+you mean
+Section — B
+2. Attempt any three question parts : §x3=15
+(a) List Broad activities involved in settlement of a business transaction in
+E-Commerce ? List issues related to safety of business transaction on web.
+(b) What do you mean by RFID ? How RFID can be used in Mobile Commerce and
+Information Asset Protection ?
+(c) Discuss the security issues in mobile computing environment.
+What do you by Intrusion Detection ? Discuss in detail about Principles and
+Architecture mean
+of Intrusion Detection System (IDS).
+What do by Intellectual property ? Describe various using which
+you mean means
+intellectual property may be protected to an extent. Also explain Digital
+Millennium Copyright Act (DMCA).
+2170 1 P.T.O.
+Section — C
+Attempt all questions :
+3. Attempt any one parts : (5x1=5)
+(a) What do you mean by Information Security ? Distinguish between Information
+level threats and network level threats.
+(b) What security threats in Mobile Computing ? Explain how they dealt ?
+are are
+4. Attempt any one parts :
+(a) Describe requirements, steps and goals of Service Management in service delivery
+process.
+(b) Describe briefly the key security threats in the e-commerce environment.
+5. Attempt (5x1=5)
+any one part :
+(a) What is Biometrics ? How can a Biometric be used for access control ? Discuss
+the criteria for selection of Biometrics.
+(b) What are legal challenges in deployment of Biometric in public domain
+applications ?
+6. Attempt (5x 1=5)
+any one parts :
+(a) What do you mean by Virtual Private Networks ? Discuss authentication
+mechanism used in virtual private Networks ?
+(b) ‘List the Security Services provided by digital signature.
+7. Write short notes on any one parts : (5x1=5)
+(a) Legal Issues in Data Mining Security
+(b) Software Privacy Cyber Crime
+Types
+_(c) IPR & Patent Law
+2170 2

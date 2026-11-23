@@ -1,0 +1,71 @@
+Printed Pages: 02 Sub Code: KEC601
+Paper Id: 236549
+TECH.
+(SEM V1) THEORY B. EXAMINATION 2022-23
+DIGITAL COMMUNICATION
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt
+all Sections. If require any missing data, then choose suitably.
+SECTION A
+1. Attempt al! questions in brief. 2x 10=20
+a. In experiment,
+probability an of a that dice are of thrown twice in succession. Determine the
+Define the term outcome and variance. sum outcome in the dice is 7.
+Sketch the block mean
+diagram of Digital Communication.
+Discuss EYE diagram in brief.
+Explain the advantages of PSK modulation technique over ASK modulation.
+Compare the bandwidth requirement of ASK, PSK and FSK modulation.
+Describe PN sequence.
+Discuss disadvantages of non-coherent FSK. ol
+Describe that the mutual information is in ,
+Explain the properties of cyclic code. nature.
+.
+B
+Attempt three of the folowing:
+any ae
+Explain the properties variable. ~
+Describe the term Gram-Schmidt orthogonalization scheme. \
+With Demonstrate ASK modulation and demodulation technique. ie
+Describe the help of block diagram explain DSSS.
+the term Mutual Information and Entropy. YS
+P
+3. Attempt any one part of the ;
+10x1=10
+bd. a. Demonstrate Random process, it's and properties.
+(i) Describe Power the following terms: cal
+(ii) Autocorrelation spectral density function 9
+(iii) Gaussian Random
+4, Attempt any one Part of the fullowing: 10x1=10
+Illustrate the term ISI. Also explain the method to ISI.
+b. Describe the properties of L ine coding. Also overcome
+polar signaling, derive power spectral density of
+1]Page
+13? | 19.06.2623 YS OO-04 1
+https://www.aktuonline.com
+Attempt any one part of the following:
+10x1=10
+Illustrate
+the modulation and demodulation process of QPSK. Also draw
+constellation Explain diagram of 4-PSK,
+the FSK modulation and demodulation in detail.
+Attempt any one part of the following:
+Derive the relation 10x1=10
+Illustrate the for Signal-to-Noise ratio of a Matched filter.
+system. Also describe main objective behind spreading of the signal in communication
+the principle of DSSS and FHSS communication.
+Attempt any one part of the following: 10x1=10
+A memoryless source emits six with
+0.1 and 0.08. messages probability 0.3, 0.25, 0.15, 0.12,
+(i) Find the binary Huffman code
+(ii) Determine its average word length
+(iii) The efficiency
+(iv) Redundancy
+For a given generator polynomial
+g(x) 14x? +a
+=
+(i) Find the generator matrix G for a system cyclic code.
+(ii) Find the systematic code for message bits }010.
+NY
+132 | 69 00 Ga | 105.78.138
+https://www.aktuonline.com

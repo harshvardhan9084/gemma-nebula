@@ -1,0 +1,114 @@
+Il ll 000
+Sabet Printed ode: HES Page:
+(SEM V1) THEORY BTECH EXAMINATION 2023-24
+3 THEORY MACHINE
+OF 100
+Note: ° At emptall Scetions, Sede If require any missing 6 data; then choose suitably.
+SECTION A
+1, Attempt afl questions in brief, 2x 10=20
+Marks | CO
+What Question
+Ib. | State is constrained motion? Define.
+The is the difference theorem. hy
+~ State law is of between radial ; follower & offset follower?
+State D’Alembert’s gearing.
+f. What is principle? =]
+coefficient of fluctuation of speed? i
+Ih. What are the conditions of secondary balancing?
+li. __| What do you mean by hunting of govemor? 5
+What is a Gyroscope? 5
+What is dynamometer? Lp
+following: 3x 10 =30
+2. Attempt any three of the ‘
+Locate all the lengths.of of the slider crank mechanism are 100 4s |
+shown in Fig. The crank OB and connecting rod AB
+angular“velocity mm and 400 mm respectively. If the crank rotates of the clockwise slider A, with and an 2.
+of 10 rad/s, find: rod 1. AB. Velocity
+Angular velocity of the connecting Bw .
+:
+COMI ‘pote TD — = we
+A pinion having 30 teeth drives a gear having 80 teeth. The profile of the
+gears is involute with 20° pressure angle, 12 mm module and 10 mm
+addendum. Find the length of path .of contact, arc of contact and the
+contact ratio.
+With the help of suitable diagram, derive the expression for velocity &
+acceleration of D the piston of reciprocating engine. 100,
+A, B, C and are four masses carried by a rotating shaft at the radii
+125, 200 and 150 mm respectively. and The planes in which and D masses 10 kg,
+revolve are spaced 600 mm apart Find the the mass of B, C A and the are relative
+angular 5 kg, and settings 4 kg respectively. of the four masscs that required the shaft mass shall be in complete
+balance. So
+With the help of neat sketch _ the working of a block or shoe
+brake, What is meant a by a self-locking and self-energized brake?
+a
+https://www.aktuonline.com
+LE Printed Page: 2 of 3
+Subject Code: KME603
+PAPER ID-410584 Roll No:
+BTECH 2023-24
+(SEM VI) THEORY EXAMINATION
+THEORY OF MACHINE M.MARKS: 100
+TIME: 3 HRS
+SECTION C
+3. Attempt any one part of the following:
+inversion? Discuss one inversion of
+What do you crank understand chain. by any
+double Explain slider Coriolis component of acceleration and derive the expressions -
+for Coriolis component of acceleration.
+following:
+4. Attempt any one part of the pinion
+Derive the expression for minimum number of teeth required on
+to avoid interference. rotating clockwise at a
+A cam, with a minimum radius of give 25 roller mm, follower, at the end of a
+uniform valve rod, speed motion is to described be designed below: to a
+1. To raise the valve through 50 mm during 120%rotation . of the cam ;
+2. To keep the valve fully raised through next 30°;
+3. To lower the valve during next 60°; and *"*
+4. Yo keep the valve closed during rest. aud the Tevolution of i.e. the 150° ;
+The diameter Draw of the fe profile roller of is the 20 camnwhen mm the the diameter line of stroke of the valve
+rod 25 mm. passes through the axis of the cam shaft, The displacement of thé:
+valve, while being raised.‘and lowered, is to take place with simple’
+harmonic motion. Ls &
+5. Attempt any one part of the following: ‘ 1x10=10
+The turing moment diagram for a petrol engine is drawn to the
+following scales: Turning moment, | mm = 5 N-m; crank;angle, 1 mm =
+1°. The turning moment diagram repeats at revolution of
+the engine and the areas above and below the 270‘mim?. moment line
+taken in order are 295, 685, 40, 340, 960, gyration The rotating of parts
+are equivalent to a mass of of fluctuation 36 kg at a of speed when the engine 150 mm. at
+Determine r.p.m. the coefficient oy runs
+1800 four-link mechanism with the following dimensions is acted upon by a
+A force 80 N at 150° on the link DG.as shown in fig. AD = 500 mm, AB =
+400 mm, BC = 1000 mm, DC $-750 mm, DE = 350 mm Determine the
+input torque T on the dink -AB for the static equilibrium of the
+mechanism for the given.configuration.
+https://www.aktuonline.com
+Code: KME603
+Subject
+[|
+BTECH
+(SEM V1) THEORY px AMINATION 2023-24
+TIME: THEORY OF MACHINE 100
+SRS 3 HRS M.MARKS:
+6, Attempt any one part of the following: 1x 10=10
+What de” you understand by effort ‘and power of governor? Find its
+expression,
+The amns of a Porter governor are 250 mm long and pivoted on the
+governor axis. The mass of each ball is 5 kg and the mass of the central
+sleeve is 30 kg. The radius of rotation of the balls is 150 mm when the
+sleeve begins to rise and reaches a value of 200 mm for maximum speed.
+Determine the speed range of the govemor. If the friction at the sleeve is
+equivalent of 20 N of load at the sleeve, determine how the speed range
+is modified.
+1x 10=10
+Attempt any one part of the following:
+What is the difference between absorption and transmission
+dynamometer? Also explain torsion dynamometer.
+Describe the working principle of the help of suitable ae:
+le.
+https://www.aktuonline.com
+Whatsapp @ 9300930012
+Send your old paper & get 10/-
+Torr Tae ss aie 10 oT,
+Paytm or Google Pay 4
+https://www.aktuonline.com

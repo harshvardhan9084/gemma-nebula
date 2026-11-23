@@ -1,0 +1,90 @@
+www.aktuonline.com
+Printed Pages : 3
+UT A A
+NEC-403
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 131403-N
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+ELECTRONIC MEASUREMENTS AND
+INSTRUMENTATION
+Time Hours] [Total Marks
+: 3 : 100
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+Attempt four
+1 any parts : 5x4=20
+(a) Define measurement. Calculate percentage error in
+determination of time period of a pendulum given by
+T=2n
+&
+Where | and g are measured in + 2% and + 3% errors.
+(b) Differentiate between Gross errors and Systematic
+errors. List a few ways of minimizing the effect of errors
+in measurement.
+(c) A batch of resistors that each have nominal resistance
+a
+of 330Q are to be tested and classified as + 10 %
+components at 25 °C. If their temperature coefficient
+is -300ppm/ °C, calculate the maximum and minimum
+resistance for these components at 100 °C.
+131403-N] 1 [ Contd...
+www.aktuonline.com
+(d) A thin wire has a length of 21.7 cm and radius
+0.46 cm. Calculate the volume of the wire correct to
+required significant figures.
+(e) Explain the construction of a PMMC instrument.
+Mathematically prove that the scale of such an instrument
+is linear.
+(f) Explain the concept of Swamping resistance. What
+the materials generally used for manufacturing these are
+resistances.
+Attempt four
+2 any parts : 5x4=20
+(a) What do you mean by Loading Effect? How does
+electronic voltmeter help in minimizing the loading effect?
+(b) Draw and explain the FET input voltmeter circuit with
+range changing.
+(c) Explain the -working of precision rectifier based
+voltmeters.
+(d) A Half wave rectifier Op-Amp based voltage amplifier
+circuit has a feedback resistance of 2.4kQ and a
+resistance between the ground and the inverting terminal
+of 4.9kQ. If the r.m.s. input voltage to be measured
+is 89.40 mV at the FSD of the deflection instrument
+with Rs = 100Q and Rin = Find the FSD
+of the meter.
+(e) Write a short note on multimeter probes.
+(f) Draw and explain the block diagram of a Digital
+Frequency meter system.
+131403-N] 2 [ Contd...
+www.aktuonline.com
+3 Attempt any two parts : 10x2=20
+(a) Give numerical example to explain the sensitivity of a
+Wheatstone bridge. What is the main advantage of using
+Kelvin's bridge Wheatstone bridge?
+(b) Explain how AC over bridges balanced with
+phase diagrams. Derive the are expressions of converting proper
+series inductor circuits into parallel equivalent circuits.
+(c) Write the mathematical expressions for inductor
+Q-factor and capacitor D-factor. Explain the working
+of inductance Comparison Bridge,
+4 Attempt any two parts: 10x2=20
+(a) Draw and explain the block diagram of Oscilloscope
+automatic time base with proper waveforms at the
+output of each block.
+(b) Explain the operation of Sampling Oscilloscopes. Also
+explain individual circuits of staircase generator and
+sampling gate.
+(c) What do by interpolation? Briefly explain the
+you mean
+operation of a DSO storage and display system.
+5 Attempt any two parts: 10x2=20
+(a) On what factors does the frequency of instrumentation
+calibration depend? Explain how A.C. voltmeter
+calibration can be done.
+(b) Discuss how D.C. source and Potentiometer may be
+developed in laboratories for calibration purpose.
+(c) Write a short note on working and applications of
+X-Y plotter.
+131403-N] 3 [9900]

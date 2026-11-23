@@ -1,0 +1,75 @@
+aktuonline.com aktuonline.com
+Printed Pages 2 EME-401
+:
+(Following Paper ID and Roll No. be filled in Answer Book)
+to your a
+B.Tech.
+(SEMESTER-IV) THEORY EXAMINATION, 2011-12
+APPLIED THERMODYNAMICS
+Time 3 Hours ] { Total Marks 100
+: :
+Note: Attempt questions from all Sections as directed.
+Section — 1
+1. Answer all the questions. 10x 2 = 20
+is
+(a) What Isothermal compressibility ?
+(b) Define adiabatic flame temperature.
+(c) How Equivalent evaporation is used for comparison boilers
+of ?
+(d) What are the sources of air leakage in condenser ?
+(e) Explain the significance of Willian’s law in engines.
+steam
+(f) What is super saturated flow in Nozzles ?
+(g) Explain about cogeneration.
+(h) What are the losses in steam turbine ?
+(1) How regeneration in turbine increases thermal efficiency of the plant ?
+gas
+(j) What are the differences between Turbo jet engine and Turbo prop engine ?
+Section — 2
+2. Answer three of the following: 3x 10 =30
+any
+(a) With the help of v-T graphs, explain coefficient of expansion and compressibility.
+(b) With the help of a neat sketch explain Babcock & Wilcox Boiler.
+(c) Explain the differences between Rankine and modified Rankine cycle.
+(d) What are the governing methods of Steam turbine ? Explain.
+(e) Derive the expression for thermal efficiency of a simple gas turbine plant.
+aktuonline.com 1 P.T.O.
+aktuonline.com aktuonline.com
+Section — 3
+Answer all the questions. 5x 10=50
+Explain Clausius Clapeyron equation. Represent p-T diagram..
+3. — on
+OR
+Calculate stoichiometric air/fuel ratio by mass and the percentage composition of the
+products of combustion per kg of Alcohol (C,H;OH).
+4. Explain different types of Condenser with neat sketches.
+OR
+In a boiler the following observations were made: Pressure of steam is 10 bar, steam
+condenser 540 kg/hr, fuel used is 65 kg/hr, moisture in fuel is 2% by mass, mass of dry
+flue gases is 9 kg/kg of fuel, LCV of fuel is 32,000 kj/kg, temperature of flue gases is
+325 °C, temperature of boiler house is 28 °C, feed water temperature is 50 °C, quality
+of steam is 95%. Draw heat balance sheet for the above data.
+5. With the help of a neat sketch explain the working principle of Steam engine.
+OR
+A convergent divergent nozzle is required to discharge 2 kg/sec of steam. The nozzle is
+supplied with steam at 7 bar and 200 °C and discharge takes place against back
+of | bar. The expansion to throat is isentropic and the frictional resistance a
+between pressure throat and exit is equivalent up to 63 kj/kg of steam. Taking approach velocity of
+75 m/sec and throat pressure of 4 bar estimate suitable areas for the throat and exit.
+6. Explain different types of combined cycles. Give the advantages also.
+OR
+In Delaval turbine the issues from the nozzles with velocity of 850 m/sec the
+nozzle a angle is 20° steam blade velocity is 350 m/sec the blades a equiangular. The
+flow is 1000 mean kg/min friction factor is 0.8. Determine are (i) Blade angles
+(ii) mass Axial thrust rate Power (iv) Blade efficiency (v) Stage efficiency if nozzle
+efficiency is 93%.
+7. What are the major differences between air breathing engines and rocket engines ?
+Explain.
+OR
+Find the required air fuel ratio in turbine whose turbine
+a gas and compressor
+efficiencies are 85% and 80% respectively. Max cycle temperature is 875 °C. The
+working fluid can be taken as air which enters the compressor at 1 bar pressure and
+27 °C. The pressure ratio is 4. Calorific Value of fuel is 42,000 kj/kg. There is a loss of
+10% of Calorific Value in the combustion chamber.
+aktuonline.com 3989 2 11,050

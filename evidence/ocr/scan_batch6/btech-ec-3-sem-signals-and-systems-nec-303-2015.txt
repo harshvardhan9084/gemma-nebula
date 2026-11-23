@@ -1,0 +1,76 @@
+uptuonline.com uptuonline.com
+Printed Pages : 4 ©) Determine the output sequence of the system with impulse
+0 8 0 8 0 h(n) () u(n)
+NEC-303 response = when input is complex exponential
+Roll No. be filled in Answer Book) sequence x(n) = ar
+(Following Paper ID and to your f) Find the convolution of x;(n) and x2(n) using Z-transform
+PAPER ID : 131314 i) x(n) (1,3,4,5) ii) (5,1,2,6,3,4,5)
+= =
+2. Attempt any four parts of the following: (5X4=20)
+a) Find Energy and Power of the signal.
+B. Tech. aktuonline.com aktuonline.com
+i) = cos(t)
+(SEM. III) (ODD SEM.) THEORY ii) x(t) = a>0
+EXAMINATION, 2014-15 b) Obtained the convolution of x(t)=u(t) and h(t)=1 for-1 <t < 1
+c) i) Find the Laplace transform of x(t) = e~?*u(t + 1)
+SIGNALS AND SYSTEMS ii) ii) Find the z- transform of x(n) fe OsnsN-1
+wos wos z-
+Time : 3 Hours] [Total Marks : 100 d) Find the Fourier transform of the following function using the
+properties of Fourier transform.
+Note: Attempt all questions. All questions equal marks. Missing y(t) d te~Stu(t)
+data if - any may be suitably assumed and mentioned. carry = i *
+e) (i) Explain group delay and phase delay.
+1. Attempt any four parts of the following: (5X4=20) (ii) A signal, x(t) has a Fourier transform given by X(w) =
+Ye Determine whether or not signal is periodic. find its | uptuonline.com Ye 1 Write down the Fourier transform of uptuonline.com
+a) If periodic Gewsy — 1).
+fundamental period. f) Determine inverse Z-Transform of the following function.
+i) (=) sin (=) 3 +3.6Z-* +
+Determine the system is linear, time invariant, causal and = 0.22-2 +z-3
+b) 3. Attempt any two parts of the following: (10X2=20)
+memory.
+x) a) Evaluate the convolution integral of x(t)*x(2-t), where x(t) is
+c) Find the Laplace and ROC of the following function. shown in figure below-
+x(t)
+x(s) = then find the Laplace of y(t)=tx(t)
+d) Obtained the Discrete time Fourier transform of x(n) =
+a"u(n) + — 1)
+131314] 1 [ Contd... 131314] 2 [ Contd...
+aktuonline.com aktuonline.com
+uptuonline.com uptuonline.com
+b) LTI System, which , is initially at rest is described by differential b) 5 wee + +4y(t)=3x(t) for the given system
+equation. 44 + 2y(t) = Calculate system equation, determine whether
+transfer function and impulse response. described by the above differential
+the system is under damped, over damped or critically damped.
+And find the impulse response of the system.
+c) If X(s) Find x(t) for c) i) Prove Parseval’s theorem for continuous time system.
+System is stable. ii) Explain System bandwidth and rise time for low pass filter
+(ii) System is causal. and that t, 0.35/B.
+(iii) | System is non causal, ‘a prove =
+5 aktuonline.com
+two parts of the US
+4. Attempt any following: (10X2=20) 5
+Determine inverse of the = =
+a) i) Z-transform following signal = =
+3 . 1<2<2 —)
+ii) Obtained DTFT of a Signal 5 ¢
+b) For = r< 1
+a linear shift invariant system h(n) u(n—1)+
+u(n — 2) + u(n — 3). Find the frequency response H(e!”). and
+plot the magnitude and phase response.
+c) An LTI system represented by the following difference equation
+3y(n) =5 y(n-2) -7y(n-3) +4x(n-1) for n > 0, determine-
+Ye i) Impulse response h(n) = uptuonline.com
+ii) Obtain cascade and parallel form realization for discrete time © =
+system. =
+of =
+5. Attempt any two parts the following: (10X2=20)
+=
+a) When the input to an LTI system is x(a) = (1 )* w(a)+ (2)* un)
+1) and the corresponding 5(— 5(2)*u(n),
+-
+i) Find the system function H(z) of the system & its ROC.
+ii) Find the impulse response h(n) of the system.
+iii) Is system Stable & causal?
+131314 | 3
+[ Contd, 4 1175
+aktuonline.com aktuonline.com

@@ -1,0 +1,102 @@
+Printed Pages—4
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+: 2753
+B.Tech.
+(SEM. VII) ODD SEMEST ER THEORY
+EXAMINATION 2012-13
+DISCRETE STRUCTURES
+Time : 3 Hours Total Marks : 100
+Note :—(1) questions.
+(2) Make suitable assumptions wherever
+four parts of necessary.
+1. Attempt any the following : (5*4=20)
+(a) For any non empty sets A and B prove that
+AKB=BxA@A=B.
+(b) Let P be the set of all people. Let R be a binary on
+P such that (a, b) is in R if a is a brother of b. (Disregard
+half brothers and fraternity brothers.) Is R reflexive,
+Symmetric, Antisymmetric, Transitive ?
+(c) Let R be a transitive and reflexive relation A. Let T be
+on
+a relation on A such that (a, b) fs in T if and only if both
+(a, b) and (b, a) are in R. Show that T is an equivalence
+relation.
+What do you mean by inverse of a function ? Find the
+inverse of f(x) 5x 7.
+= -
+(e) Show that 2° > n? for n > 16 by
+(f) Explain the recursively defined functions with a suitable
+example.
+1 [Turn Over
+2. Attempt any four parts of the following : (5x4=20)
+(a) Let (A, *) be semigroup. Show that, for b, in A, if
+a*c=c*aandb*c=c* a b, then (a * b) *c=c a, * c (a * b).
+(b) Let (A, *) be a group. Show that (A, *) is an abelian ifand
+only if a? * b? = (a * by for all a and b in A.
+(c) Let G be Show that each element in G has only
+inverse a group. in a
+one G.
+(d) Define subgroup. When a subgroup is said to be normal
+subgroup ? Explain with suitable example.
+(e) What is permutation ? Give example of
+permutation a of group an a
+group order 6.
+Let G be the group of integers under the operation of addition
+and G' be the group of all even integers under the operation
+of addition. Show that the function f: G-» G' defined by
+f(a) = 2a is an isomorphism.
+Attempt any two parts of the following : (10*2=20)
+(a) Define partial ordering. Show that divisibility
+the a of positive integers is partial
+set a order. Draw the
+Hasse diagram of the divisibility relation on the set
+{2, 12, 15, 18}.
+(b) (i) lattice. Give an example of a poset with five
+that is a lattice and an example of a poset
+with five elements that is lattice.
+notaa
+(ii) Prove that if a and b are elements in a bounded,
+distributive lattice and ifa has a.complementa’, them
+av
+EIT071/DLF-44133 2
+(c) Draw the circuit(gate) diagram of
+= OK, + X,) 4X,
+Simplify the function using basic Boolean algebra laws and
+also draw the logic diagram of the simplified function.
+4. of (10x2=20)
+Attempt any two parts the following:
+(a) (i) Write a compound statement that is true when exactly
+two of the three statements p, q, r is true.
+(ii) Show that ((p > r) A (q--> 1) --> (pv q) >
+tautology.
+(b) Show that and (p > q) (q -> p) logically
+equivalent. Show q by using truth table are well by
+developing series of logical equivalences. as as
+a
+(c) (i) Show that ~Vx (P(x) > Q(x)) is logically equivalent
+to 3x (P(x) A ~Q(x)), where all quantifiers have the
+same nonempty domain.
+(ii) Express the statements "Some students in this class
+has visited Varanasi" and "Every student in this class
+has visited either Allahabad or Varanasi" using
+predicates and quantifiers.
+5. Attempt any two parts of the following : (10x2=20)
+(a) Consider the recurrence relation :
+r r-!
+(i) Solve the recurrence relation, given that a, = 1 and
+(ii) Can you solve the recurrence relation if it is given
+that a, = 0 and 0?
+(iii) Repeat part (ii) if it is given that a, -- ] and a, = 2.
+EIT071/DLT-44133 3 [Turn Over
+(b) Determine if the relation R = {(1, 7), (2. 3), (4, 1), (2, 6),
+(4, 5), (5, 3), (4, 2)} isa tree on the set A= {1, 2.3, 4, 5, 6, 7}.
+If it is tree, what is the root and height ? If it is not a tree,
+make the least number of changes necessary to make it a
+tree and give the root and height.
+of following
+(c) Write short notes on any three the :
+(i) Planar Graphs
+(ii) Generating function
+(iii) Isomorphism of graphs
+(iv) Pigeon hole principle.
+EIT071/DLT-44133 4 7900

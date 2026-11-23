@@ -1,0 +1,149 @@
+Printed Pages 6 CA-102
+:
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+TT TT
+PAPER ID: 1151
+(Semester-I) Theory Examination, 2012-13
+MATHEMATICAL FOUNDATION OF
+COMPUTER SCIENCE
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt questions from each Section as per
+instructions.
+Section-A
+Attempt all parts of this question. Each part
+carries 2 marks. 2x10=20
+1. (a) Compute A(2,1) when A:N*NON,
+where N is the of natural numbers, is
+set
+defined by :
+A(O,
+0) = A(x, 1)
+y+1)=A(x +], y)
+(b) Find the generating function for the number
+of r-combinations of {3.a, 5.5, 2.c}.
+(c) Draw the Hasse diagram for the following
+partial order ({I, 2, 3, 4, 5, 6, s).
+(d) Define a complete lattice and give one
+example.
+(e) How many edges does a graph have if it has
+vertices of degrees 5, 2, 2, 2, 2,1?
+(f) Define homomorphism of a graph. Give
+suitable example to illustrate.
+(g) State pumping lemma for regular language.
+(h) Is [(0+1)—(0b+al)*(a+b)]* a regular
+expression ? Justify your answer.
+(i) Differentiate between context-sensitive and
+context-free grammar using suitable example.
+G) State and explain Halting problem.
+Section-B
+Attempt three parts of this question. Each
+any
+part carries 10 marks. 10x3=30
+(a) Solve :
+S, = 2"
+1151 (2)
+(b) Show that the statement :
+[pv v v p) v ((-9)r)]
+is neither a tautology nor a contradiction,
+where truth and and
+¢ means p, q, r s are
+variables.
+(c) Show that in any simple connected planar graph
+e>3f/2 and e<3n-6.Here n = number of
+vertices, e = number. of edges and f= number
+of regions.
+(d) Let :
+Vy ={S, B}, Vr = {a, b},
+P ={S —aBa, B
+Find L(G).
+(e) Construct a PDA to accept strings
+containing equal number of a’s and b’s.
+Show the moves of the PDA for the input
+string ‘abbaab’.
+Section-C
+Attempt al// questions of this Section. Each
+question carries 10 marks. 10x5=50
+1151 (3)
+3. Attempt two parts 5x2=10
+any :
+(a) In a survey of 85 people it is found that 31 like
+drink milk, 43 like coffee and 39 like
+to tea.
+Also 13 like both milk and tea, 15 like milk
+and coffee, 20 like tea and coffee and 12 like
+none of the three drinks. Find the number of
+people who like all the three drinks. Use Venn
+diagram to show your answer.
+(b) Which of the following sets are equal ?
+S,={1, 2, 2, 3}, Sp ={x|x* -2x+1=0},
+-6x?
+S3={1, 2,3}, +1 1x-6=0}
+(c) Let X is the set of all programs of a given
+programming language. Let R the relation
+on X be defined as ARP, if give
+the output all the inputs for which
+same on
+they terminate. Is R as equivalence relation ?
+Attempt any one part 10x1=10
+:
+(a) Prove the following :
+(i) For any a, b, dina lattice (A, S),
+c,
+if a<b and. e<d then:
+(avc)<(bvd) and
+(where is join and is meet
+vy a
+operation).
+1151 (4)
+(ii) If the meet operation is distributive
+over the join operation in a lattice, then
+the join operation is also distributive
+the operation.
+over meet
+(b) What is an abelian group ? Let (G, 0) bea
+group. Show that (G, o)is an abelian group if
+(aob)”
+and only if S for all a, b in G.
+Attempt any two parts : 5x2=10
+(a) What do you mean by a planar graph ?
+Show that the graph Ks is not planar.
+(b) Which of the following graphs and H;3,
+have an Euler circuit ? Identify the one that is
+not Euler circuit but an Euler path. Justify.
+q
+a b
+St
+c
+g
+c
+e d
+A, A, A,
+(c) Make a Binary Search Tree (BST) for the
+following of numbers
+sequence :
+45, 36, 76, 23, 89, 115, 98, 39, 41,56, 69, 48
+in
+Traverse the tree preorder, inorder and
+postorder.
+1151 (5)
+Attempt any two parts : 5x2=10
+a
+(a) Show that complement of regular set is a
+regular set.
+(b) Design a Mealy machine that prints 1’s
+complement of an input bit string.
+(c) Convert the non-deterministic finite
+automata in the following graph into
+equivalent deterministic machine :
+Attempt any one part : 10x1=10
+(a) Design Turing Machine that recognizes the
+a
+language consisting of all strings of even
+length over alphabet {a, b}.
+(b) Define the following languages. Also show
+pictorially the relationship between them :
+(i) Recursively enumerable
+(ii) Recursive,
+and
+(iii) Non-recursively enumerable.
+1151 (6) 5,300

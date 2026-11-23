@@ -1,0 +1,33 @@
+Printed Pages—2 TEC501 (c) Compare various AM systems. A 400 watt high frequency
+Following Paper ID and Roll No. to be filled in your Answer Book) carrier wave is modulated to a depth of 75%. Determine
+SPER ID : 3088 TI total power in modulated wave.
+3. Attempt TWO parts of the following
+B.Tech. . (a) Compare any AM Wave with :
+Method of generating angle modulated wave. Discuss
+(SEM. V) ODD SEMESTER THEORY EXAMINATION 2012-13 FM Wave.
+PRINCIPLES OF COMMUNICATION (b) Compare Wideband and Narrowband FM signals.
+Time 3 Hours Total Explain PLL-FM demodulator.
+: Marks : 100 (c) What is Multiplexing ? Explain FDM and TDM in
+Note : (i) Attempt all questions. detail.
+(2) All questions carry equal marks. 4. Attempt any TWO parts of the following :
+(3) Notations used have usual meaning. (a) What is Noise ? Explain various types of Noise.
+(4) Assume any relevant data, if missing. (b) Explain the following :
+(i) SNR
+1, Attempt any FOUR parts of the following : (ii) Noise Figure
+(a) Draw a block diagram of communication system. ‘
+Explain various elements. a (iii) Noise Temperature
+(iv) Noise Equivalent Bandwidth.
+(b) Differentiate between Baseband and Passband Signal. (c) A mixer stage has a noise figure of 20dB. This mixer
+(c) What is Modulation ? What is the need of Modulation ? is proceded by an amplifier which has a noise figure
+(d) Compare Analog communication with Digital communi- of 9dB and available power gain of 15dB. Determine
+cation. overall noise figure referred to the input.
+(e) Explain Energy and Power Signals. 5. Attempt any TWO parts of the following :
+(a) Derive an expression for Figure of Merit for DSB-SC
+2. Attempt any TWO parts of the following : system with coherent detection.
+(a) Discuss time-domain as well as frequency-domain (b) Define Entropy. Verify the following expression
+representation of AM Wave. Explain Balanced Modulator 0 < H(X) < :
+for generation of DSB-SC signals. (c) What Capacity
+(b) Discuss generation of VSB signals. What are its is Channel ? Find the channel capacity
+advantages ? Mention its applications. of an ideal AWGN channel with infinite bandwidth.
+TECS501/DLT-44765 1 [Turn Over TECS01/DLT-44765
+2

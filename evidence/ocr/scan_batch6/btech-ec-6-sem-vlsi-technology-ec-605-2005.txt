@@ -1,0 +1,72 @@
+Printed 10x2=20
+(Following Paper ID and Roll No. be filled in Ansded in CMOS
+to il your
+PAPER ID : 3042
+B.Tech. iw
+SIXTH SEMESTER EXAMINATION, 2004-2005
+VLSI TECHNOLOGY
+-
+Time : 2 Hours Total Marks : 50
+_
+Note: Attempt ALL the questions.
+1. Attempt four of the following 5x4=20
+any : the
+(a) GaAs Describe in the atom of cube density edge for ? How principal is the bond planes density of
+calculated terms for these planes ?
+(b) What defects is the Silicon equilibrium 300 concentration and 1500 k ? of Repeat Schottky for
+frenkel defects in and at the numbers.
+compare
+(c) How are single crystals grown ? Describe be one of the
+approaches free surface that ? allow the crystal to grown with
+a
+(d) A small silicon bar is doped with boron and
+antimony. One end of bar is withdrawn. inserted into Sketch a furnace
+and doping melted. profile The that bar results is now from the regrowth the
+and calculate the base width of the resulting process
+transistor ? Assume equilibrium values for k, and
+that the original antimony/boron atom ratio was 33.
+EC 605 “1 [Turn Over
+~
+(e) Discuss the operations performed during wafer
+preparation ? What are the precautions that must
+be taken ?
+(f) Cz furnace. What its advantages ?
+are
+Attempt any‘four of the following 5x4=20
+:
+(a) Describe “Dopant profiles” in brief.
+(b) What is the photo lithography technique ? Discuss
+in brief.
+(c) Describe Doping and Autodoping in the growth
+process ?
+(d) By giving a clear schematic, describe the Molecular
+Beam Epitaxy (MBE) growth system.
+(e) How thickness are epitaxial ? Describe slices brief. evaluated for doping and
+in
+(f) Discuss the salient properties of silicon dioxide, in
+brief.
+Attempt any two of the following : 10x2=20
+(a) What do understand by “Process Simulation” ?
+Discuss in you brief.
+(b) Discuss and describe the Boltzmann Transport
+Equation Approach and Monte Carlo Methods of
+Ion Implementation in brief.
+(c) Write short note on Interfaces, Channeling and
+lateral effects in Boltzmann Transport Equation
+Approach (BTE) and Monte Carlo (MC) models.
+— 605 2
+Attempt any two of the following : 10x2=20
+(a) What is latchup ? How is latchup avoided in CMOS
+mathematical technology ? Support your answer with requisite
+expressions.
+(b) the effects of nesting tolerances on MOSFET
+layout ? Discuss and describe with the help of
+suitable diagrams.
+(c) Discuss and describe the basic design rules for
+miniaturizing VLSI circuits, in brief.
+Write short notes on any two of the following : 10x2=20
+(a) Fabrication technique for poly silicon gate P channel
+devices.
+(b) IIL fabrication
+circuit
+(c) MOSIC fabrication techniques.

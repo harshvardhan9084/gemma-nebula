@@ -1,0 +1,123 @@
+Printed Pages—4 EEC607
+B. Tech.
+(SEM. VI) THEORY EXAMINATION 2011-12
+COMMUNICATION ENGINEERING
+Time 3 Hours Total Marks 100
+: ;
+Note: (1) Attempt a// questions.
+(2) All questions equal marks.
+carry
+1. Attempt any parts of the following : (10x2=20)
+(a) What are the main elements of the communication system ?
+Explain function of each element and sketch the block
+diagram of the communication system.
+(b) A multitone modulation signal m(t) consisting of three / 7
+frequency components is given by : m(t) = A, cos@,t +
+A, where @, > >A,>A,.
+The signal m(t) modulates carrier c(t)
+a =
+(i) Derive an expression for AM wave.
+(it) Drawa signal sided spectrum and find the bandwidth
+of the AM wave.
+(c) Explain the synchronous detection method of SSB-SC
+signals. Prove that the balance modulator produces
+an
+output consisting of sidebands only with the carrier
+removed.
+EEC607/PUR-40167 { [Turn Over
+four of following
+to Attempt any parts the : (5x4=20)
+(a) A single tone FM signal is given by :
+s(t) = 10sin + 20 sin 272(10°)t].
+Find the modulation index, modulating frequency
+deviation, carrier frequency of power of the FM signal.
+(b) What is the need multiplexing ? Compare the Time
+Division and Frequency Division Multiplexing.
+(c) Draw the block diagram of phase cancellation SSB
+generation and explain how the carrier and unwanted
+sideband are suppressed.
+(d) Draw the block diagram of balance frequency
+discriminator and explain it for demodulation of FM
+signal.
+(e) Explain the working of super heterodyne receiver with
+the help of block diagram.
+(f) Explain fiiter method for generation of VSB sigial. Show
+that the sum of the shifted spectrum of the filter by =o,
+should be constant over the frequency range | «| < @,.
+Attempt of the (10*2=20)
+3. (a) Explain any ihe parts noise analysis of DSB-SC : receiver using
+coherent detection and derive the expression of figure of
+merit. Explain how the of pre-emphasis and
+de-emphasis filters improve use the performance of the FM
+system.
+(b) With the help of block diagram explain the working of
+modulation. A linear delta modulator is designed to
+operate on speech signals limited to 3.4 kHz. The
+specifications of the modulator are as follows :
+Sampling rate = 10 f,,,, where f,, is the Nyquist rate
+of the speech signal. jul: st Nyquist y
+Step size A= 100 mV
+The modulator is tested with a 1-kHz sinusoidal signal.
+Determine the maximum amplitude of this test signal
+required to avoid slope overload.
+EEC607/PUR-40167 2
+(c) What are the advantages of pulse modulation over CW
+modulation ? With the help of suitable waveforms explain
+the working of Pulse width modulation.
+Attempt parts of the following (106x2=20)
+(a) Find any the two expression for FM and : define modulation
+index. Draw the and wave explain how modulation
+index affect the spectrum bandwidth. In FM system if B is
+doubled by halving the modulating an frequency what will
+be the effect on the maximum deviation ?
+(b) Discuss the properties of matched filter. Consider the
+signal s(t) shown in figure 1.
+(i) Determine the impulse of filter matched
+to this signal and sketch response it as a function a of time.
+(ii) Plot the match filter output function of time.
+as a
+(iii) What is the peak value of the output ?
+S(t) |
+a2
+Figure 1
+Discuss Tapped Delay line equalization. Let the sequence
+[x(nT)} denote the input applied to a tapped-delay
+equalizer. Show that inter-symbol interference is
+eliminated completely by the equalizer provided that its
+frequency satisfies the condition
+response
+H(f)= . Where T is the symbol
+X(f —k/T)
+k
+duration. As the number of taps in the equalizer approaches
+EEC607/PUR-40167 3 {Turn Over
+infinite, the frequency response of the equalizer becomes
+a Fourier series with real coefficients and can therefore
+approximate function in the interval 4T}.
+any
+}. Attempt any two parts of the following : (10x2=20)
+(a) Explain the cause of [SI and discuss the Nyquist criterion
+for distortion less Baseband Binary transmission. Design
+a binary baseband PAM system to transmit data at a bit
+rate of 3600 bits/sec with a bit error probability less than
+The channel response is given by :
+for| £|<2400
+={0 elsewhere
+The noise power spectral density is = 107!" watt/Hz.
+(b) (i) Define the following terms :
+(1) Mutual Information & Entropy
+(2) Channel capacity and Rate of information.
+(ii) A discrete memoryless source has an alphabet of
+seven symbols whose probabilities of occurrence are
+as describe here :
+{Symbol}
+[so Ss} 53 Sq
+{Probabilities} [0.25 0.25 0.125 0.125 0.125
+{Symbol} $5 S6 $7 ]
+{Probabilities} 0.0625 0.625 0.0625]
+Compute the Huffman code for this source, moving
+“combined” symbol as high as possible.
+(c) Write short notes on the following :
+(i) Digitization of Video
+(ti) OFDM.
+EEC607/PUR-40167 4 2900

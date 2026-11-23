@@ -1,0 +1,96 @@
+Printed Pages—4 EEC303
+(Following Paper ID and Roll No. to be filled in Answer Book)|
+| | vour | | |
+PAPER ID
+B.Tech.
+(SEM. TIT) THEORY EXAMINATION 2011-12
+ELECTROMAGNETIC FIELD THEORY
+3 Hours Total Marks 100
+:
+Note :—(1) — All questions carry equal marks.
+(2) Attempt all questions.
+1. Attempt four of the following (5x4=20)
+any parts :
+(a) Given vector field G = 8 sin @ a, in spherical coordinate
+Transform it into :
+(i) Rectangular Coordinate
+(i) Cylindrical Coordinate
+(b) Find the gradient of the following scalar field
+2x cosh y
+ai) Z cos 20
+(c) Derive expression for electric field due to infinitely Jong
+wire.
+(d) Write down the expression/statement of the
+:
+(i) Maxwell's curl equation for time varying field.
+(ii) Differential form of Ampere's law.
+EEC303/KIH-26662 1 [Turn Over
+(e) vector function :
+A= (3x+4z) a. + (c,x-5z) a, + a,
+Calculate c,. ¢,, ¢,, ¢, if A is irrotational and solenoidal.
+(f) Acharge distribution with spherical symmetry has density
+for Determine
+p= 0 <r < Rand 0 r > R, E
+everywhere.
+2. Attempt any two parts of the following : (10x2=20)
+(a) Derive Energy density in electrostatic field. A sphere of
+volume 0.1 m* has.a charge density of Find the
+electric field at a point (2,0,0) if the centre of the sphere is
+at (0,0,0).
+(b) State and explain the Coulomb's law. Ifthe current density
+(cos 0 a. + sin 6 a,). A/m®, find the current passing
+through a sphere of radius 1.0 m.
+(c) Discuss the relevance of uniqueness theorem. A spherical
+condenser has capacity of 54 pF. It consist of two concentric
+sphere differing in radius by 4 and having air
+cm an as
+dielectric. Find their radil.
+we Attempt any four parts of the following : (5x4=20)
+(a) Write down the boundary condition for current density and
+postulates of Magnetostatics in free space.
+(b) Prove that B = (a,2 cos 0 +a, sin for
+magnetic dipole.
+EEC303/KIH-26662 2
+Given that H.= A/m in region y-x—2<0
+(c)
+where calculate M, and B,.
+(d) Find inductance of coaxial cable.
+(e) Explain the relevance of Magnetic scalar and vector
+potential.
+(f) Ina material for which o=5 S/m and e=l, the electrical
+field intensity is E=250 sin V/m. Find conduction and
+displacement current densities and the frequency at which
+both have equal magnitude.
+4. Attempt any two parts of the following : (10x2=20)
+(a) Derive the expression for and 8 ina conducting medium.
+a
+Explain skin effect and depth of penetration.
+(b) Derive the equation for conducting media. A uniform
+wave
+plane wave is propagating in the +z direction in a good
+conductor having conductivity o S/m. The permittivity and
+permeability In the conductor are the same as in free space
+and the electric field 0. What power is
+dissipated in this medium foe z > 0? Assume o »
+(c) Derive Faraday law of induction. Explain the concept of
+Transformer and motional electromotive force. Discuss the
+relevance of Anisotropic media.
+3 {Turn Over
+5. Attempt any two parts of the following : (10x2=20)
+(a) Discuss the structure of Smith Chart. How it is used for
+measurement of impedances and VSWR ?
+(b) Relate short circuit. circuit and characteristic
+open
+impedance of Transmission line. The short circuit and open
+circuit impedance of 10 km long open wire transmission
+line are Z_=2930 2—32' ata frequency
+of | KHz. Calculate the characteristics impedance and phase
+velocity.
+(c) Define reflection loss. transmission loss and return loss.
+The 600 Q lossless transmission line is fed by 50 Q
+generator. If the line is 200 meter long and terminated by
+Joad 500 Q. Determine in db
+(i) Reflection loss
+(i) Transmission loss
+(iii) Return loss.
+EEC303/KIH-26662 4 14000

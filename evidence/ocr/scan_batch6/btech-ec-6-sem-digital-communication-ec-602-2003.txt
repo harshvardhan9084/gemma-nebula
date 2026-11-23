@@ -1,0 +1,110 @@
+( { \
+Roll No, |
+No. of Printed Pages—4 EC-602
+B. TECH.
+SIXTH SEMESTER EXAMINATION, 2002-2003
+DIGITAL COMMUNICATION
+Time : 3 Hours Total Marks : 100
+Note: Attempt ALL the questions.
+aa 1. Attempt any FOUR parts of the following :— (5 x 4=20)
+(a) An event has six possible outcomes with
+robabilities P iT P 1 P. 1 P 1
+P =—, , 4 16
+Ps and Find the entropy of the
+system. Also find the rate of information if
+there are 16 outcomes per second.
+(b) <A discrete source transmits messages X,, X,
+and x, with probabilities 0.3, 0-4 and 0-3.
+The source is connected to the channel given
+in the fig. 1. Calculate H (x) and H (y).
+08
+0-7
+Fig. 1
+(c) Consider a sequence of letters of the English
+alphabet with their probabilities of
+occurrence as given by
+EC—-602 1 Turn Over
+Compute the Huffman Code for this
+alphabet. Find the average code word length.
+(d) Consider a discrete memoryless source with
+source statistics alphabet { 0-7, 0-15, = 0-15 {S,, }. S,, S,} and source
+(i) Calculate the entropy of the source.
+(ii) Calculate the entropy of second order
+extension of the source.
+(e) State and prove SAMPLING THEOREM ?
+(f) is the limitation of Flat Top Sampling
+and how is it overcome ?
+2. Attempt any FOUR parts of the following :— (5 x 4=20)
+(a) Explain, with the help of neat diagram,
+DELTA Modulator.
+(b) Eight channels, each bandlimited to 5 KHz,
+are to be time division multiplexed. Each
+sample is coded with 6-bit words. Find the
+output rate in bits/second and the required
+bandwidth.
+(c) Prove that for sinusoidal modulating signal,
+the signal quantization noise ratio in dB is
+to
+10 logyg(SNR)=1-8+6R
+where R is the number of bits per sample.
+(d) Explain, with the help of neat diagram, the
+PCM System.
+(e) What is COMPANDING ? Explain A-Law
+compandor.
+(f) A PCM system uses a uniform quantizer
+followed by a 7-bit binary encoder. The bit-
+rate of the system is equal to 5x10° bits per
+second.
+EC—602 2
+What is the maximum message bandwidth
+for which the system operates satisfactorily ?
+3. Attempt any TWO parts of the following :— (10 x 2=20)
+(a) For the binary sequence 011010110, construct
+NRZ, RZ, AMI and Manchester Format.
+(b) A binary PAM wave is to be transmitted
+over a low pass channel with an absolute
+maximum bandwidth of 75 KHz. The bit
+duration is 10 microsecond. Find a raised
+cosine spectrum that satisfies these
+requirements.
+(c) What is MATCHED FILTER ? Explain its
+principle of operation.
+4, Attempt TWO of the following (10 2=20)
+any parts :— x
+(a) Find the probability of error for detecting the
+[2 E (0, 1)
+equally likely signals (r)= TT cos
+(t)= E )
+and in AWGN
+using a correlater receiver.
+(b) Explain, with the help of neat diagram, the
+method for generating and demodulating
+DPSK signals.
+(c) What is the difference between QPSK and
+MSK ? Prove that in MSK
+5. Attempt any TWO of the following :— (10 x 2=20)
+(a) Consider the (7, 4) Hamming code defined
+by the generator polynomial
+EC—602 3 Turn Over
+X
+The code word 0111001 is sent over a noisy
+channel, producing the received word
+01011001. Determine the syndrome
+polynomial S (X) for this received word and
+show that it is identical to the error
+polynomial e (X).
+|
+(b) Fig. 2 shows the encoder for a rate 7 =>
+constraint length k = 2 convolutional code.
+Determine the encoder output produced by
+the message sequence
+Output
+Input
+Flip flop
+Fig. 2
+(c) For a (7, 4) Hamming Code, the generator
+polynomial is
+g(D)=1+ D? + D?.
+Develop the encoder and syndrome
+calculator.
+EC-—602 4

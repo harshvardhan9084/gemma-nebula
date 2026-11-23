@@ -1,0 +1,100 @@
+aktuonline.com aktuonline.com
+Printed Pages—4 EEE — 402
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+| | | | | | [|
+0208
+B.Tech.
+(SEM TV) EVEN SEMESTER THEORY EXAMINATION, 2009-2010
+NETWORK ANALYSIS AND SYNTHESIS
+Time : 3 Hours Total Marks : 100
+Note: Aftempt all questions.
+1. Attempt any four parts :
+(a) Explain the following terms : (5)
+(i) Graph,
+(ii) Tree,
+(iii) Reduced incidence matrix taking a suitable example.
+(b) Draw the graph of the network shown above in fig. 1. Write the fundamental — (5)
+cut-set and fundamental tie-set Matrices and their ranks.
+1 |
+Cc Ry
+Figure - |
+(c) Derive the KVL in terms of the fundamental tie-set Matrix ‘B’, impedance Matrix (5)
+‘Ly, branch input voltage source vector V, and branch input current source vector
+(d) For the network shown in fig. 2, draw the oriented graph. Write the tie-set (5)
+schedule and hence obtain the equilibrium equation on loop basis. Calculate the
+values of branch currents.
+Figure - 2
+aktuonlineiddm- 402 1 [Turn Over
+aktuonline.com aktuonline.com
+(e) Draw the dual of the network shown in fig. 3 below : (5)
+Figure - 3
+(f) Prove that two graphs are said to be dual of each other if the incidence Matrix of — (5)
+any one of them is the circuit Matrix of the other.
+2. Attempt any four parts :
+(a) State and prove the maximum power transfer theorem with complex load and (5)
+source impedances.
+(b) Determine the power delivered to the circuit by the two sources in fig. 4. (5)
+Figure - 4
+Determine the voltage V, for which the current through the voltage (5)
+V, is in fig. 5 below source source
+zero :
+20 j3
+WV 50 40
+60
+Figure - 5
+aktuonline.com aktuonline.com
+11238
+(d) State and prove Tellegen’s theorem. (5)
+(e) Find the thevenin’s equivalent circuit the terminals a-b in the fig. 6 shown (5)
+below : across
+WW
++ 10 Oa
+12 by,
+Ob
+Figure - 6
+(f) Write the loop equations of the circuit shown below in fig. 7 and find the voltage (5)
+Vv
+x
+n
+Figure - 7
+3. Attempt
+any two parts :
+(a) Write the necessary conditions for driving point and transfer functions and explain. (10)
+(b) A current transfer function is given by : (10)
+1(S) 5S
+= (S + 4)(S* 5 + 254 2)
+Obtain the time response through pole - zero plot.
+(i) | Find the number of closed loop poles in the left half S - plane for a system (10)
+whose characteristic equation is :
++35°+45+5=0
+Comment on the stability of the system.
+(ii) | What are poles and zeroes ? How does the location of poles in the s-plane
+affect the system stability ? Explain.
+aktuonline.com EEE — 402 3 [Turn Over
+ktuonline.com aktuonline.com ine.
+any two parts :
+(a) Explain in detail with figures (without proofs) the interconnection of all two-port (10)
+networks.
+(b) Find the circuit and short circuit of the network shown below (10)
+in fig. 8. open parameters
+;
+Figure 8
+-
+Comment on the symmetry and reciprocity of the network.
+(c) Design a symmetrical lattice network for a following Z-parameter Matrix. (10)
+2/5
+_ 6/5
+5. Attepmt any two parts :
+(a) Write the properties of Positive Real function. Test whether the following functions (10)
+are positive real.
+S*+S+6 4
+2
+(ii) S* 2 +9S4 14
+(b) Synthesize the Foster first and second forms of LC driving - point impedance. (10)
+(S*
+Z(S) = S(S* + 1) + 9)
++ 4)
+(c) What is the difference between active and passive filters ? Design constant (10)
+K type bandpass fitter section to be terminated in 600 © resistance having a cut-off
+frequencies of 2KHz and 5KHz.
+com

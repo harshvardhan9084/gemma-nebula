@@ -1,0 +1,77 @@
+Printed Pages: 02 Sub Code: REE402
+Paper Id: 120414 RollNo.[ | | | 7 | 7
+BTECH
+(SEM-IV) THEORY EXAMINATION 2017-18
+ELECTRICAL MACHINES-I
+Time: 3 Hours Total Marks: 70
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+2. Any special paper specific instruction.
+SECTION A
+Attempt all questions in brief. 2x7=14
+a) Explain with the help of an example why in an electrical machine the number of stator
+poles should be equal to the number of rotor poles.
+b) Explain Faraday’s laws of electromagnetic induction and Lenz’s law.
+c) Explain why equalizer connections are used in lap-winding and dummy coils are
+sometimes used in wave-windings.
+d) Explain why a DC motor should not be started direct-on-line.
+e) Describe how a DC machine is to be maintained for a long satisfactory performance.
+Explain the function of a commutator in a DC machine for motoring and generating
+action.
+g) State why the of transformer should be made of magnetic material.
+core a
+SECTION B
+Attempt of the following: 7x3=21
+any
+a) The magnetic flux density on the surface of an iron face is 1.6 T which is a typical
+saturation level value for ferromagnetic material. Find the force density on the iron
+face.
+b) Derive the EMF equation and torque equation for DC machines.
+c) A 250 kW, 400 V, 6-pole DC generator has 720 lap wound conductors. It is given a
+brush lead of 2.5 angular degrees (mech.) from the geometric neutral. Calculate the
+cross and demagnetizing turns per pole. Neglect the shunt field current.
+d) A transformer on no-load has a core loss of 50 W, draws a current of 2 A (rms) and
+has an induced emf of 230 V (rms). Determine the no-load power factor, core-loss
+current and magnetizing current. Also calculate the no-load circuit parameters of the
+transformer. Neglect winding resistance and leakage flux.
+e) A 20 kVA, 50 Hz, 2000/200 V distribution transformer has leakage impedance of
+0.42+j0.52 Q in the HV winding and 0.004+j0.05 Q in the LV a winding. When
+from the LV side, the shunt branch admittance Yo is (0.002-j0.015) © (at rated voltage seen
+and frequency). Draw the equivalent circuit referred to (i) HV side (ii) LV side,
+indicating all impedances the circuit.
+on
+SECTION C
+Attempt any one part of the following: 7x1=7
+a) Find an expression for the force per unit area between the plates of a parallel plate
+condenser in terms of the electric field intensity. Use both the energy and coenergy
+methods. Find the value of the force per unit area when E = 3 x 10° V/m, the
+breakdown strength of air.
+b) Derive an expression for dynamical equations of electromechanical systems.
+Attempt any one part of the following: 7x1=7
+a) The following results obtained while Hopkinson’s performed
+similar test shunt machines: were supply voltage=250V, field test was of on
+two field DC of generator=2.5A, of generator=60A, current motor=2A, taken by
+the current from supply=15A, armature resistance current of each current circuit=0.20,
+Calculate two armatures the efficiency of the and under these armature conditions of load.
+motor generator
+b) Explain the efficiency and testing of DC machines in detail.
+Attempt any one part of the following: 7x1=7
+a wa Explain the plugging, dynamic braking and regenerative braking of DC machines in
+detail.
+b) A 400 V series motor has a total armature resistance of 0.25 QO. When running at 1200
+rpm it draws a current of 25 A. When a regulating resistance of 2.75 Q is included in
+the armature circuit, it draws a current of 15 A. Find the speed and ratio of the two
+mechanical outputs. Assume that the flux with 15 A is 70% of that with 25A.
+Attempt of the following: 7x1=7
+any one part
+a) Explain the potential transformer, current transformer, audio-frequency transformer
+and grounding transformer.
+b) Two 1|-phase furnaces A and B are supplied at 100V by means of a scott-connected
+transformer combination from a 3-phase 6600 V system. The voltage of furnace A is
+leading. Calculate the line currents on the 3-phase side, when the furnace A takes 400
+kW at 0.707 pf lagging and B takes 800 kW at unity pf.
+Attempt any one part of the following: 7x1=7
+a) Explain the parallel operation of transformers in detail.
+b) A 500 kVA transformer has efficiency of 95% full load and also 60% of full
+load; both upf (i) an the losses of the at transformer (ii) at determine the
+efficiency of at the transformer separate % out th full load.
+at

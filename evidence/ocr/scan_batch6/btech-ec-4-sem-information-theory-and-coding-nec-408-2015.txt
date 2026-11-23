@@ -1,0 +1,57 @@
+www.aktuonline.com
+Printed Pages : 2
+NAN
+NEC-408
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 131408
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+INFORMATION THEORY AND CODING
+Time : 3 Hours] [Total Marks : 100
+SECTION-A
+1 Attempt arty four parts : 5x4=20
+a) | What do you mean by measure of information?
+b) Give a review of probability theory.
+c) Explain Average information content of symbol in long
+independent sequence.
+d) Consider a discrete memory less source alphabet
+A={s0,sl,s2} with respective probabilities PO=1/4,
+P1=1/4, P2=1/2 find, the entropy of the source.
+e) Show that if there are 'M' numbers of equally likely
+message then entropy of source is log,M.
+f) Explain Mark-off stastical model for information source
+in brief
+SECTION B
+-
+2 Attempt any four parts : 5x4=20
+a) | What do you mean by data compression and give its
+type ?
+131408] 1 [ Contd...
+www.aktuonline.com
+b) — Give an equation of Kraft-mcmillan equality and explain
+it.
+c) | Write down Shanon's encoding algorithm.
+d) Write an algorithm for Shanon-fang-elias coding.
+e) Explain LZW compression algorithm with example.
+f) What is block code and write its properties.
+SECTION-C
+3 Attempt any two parts : 10x2=20
+a) Differentiate entropy and mutual information for continuous
+ensembles with suitable example.
+b) — Explain discrete communication channels in detail.
+c) | Write down channel capacity theorem.
+SECTION-D
+4 Attempt any two parts : 10x2=20
+a) Explain error correction and detection with examples.
+b) a note on standard arrays and table look up for
+encoding.
+c) What is an error? Give its types with example.
+SECTION-E
+5 Attempt any two parts : 10x2=20
+a) What is burst error correcting code and convolution
+code?
+b) Explain the encoding using an (n-k) bit shift register.
+c) Write short note on
+i) BCH code
+i) GOLAY code.
+131408] 2 [3775]

@@ -1,0 +1,102 @@
+Printed pages: 5 EE-305
+(Following paper code and roll No. to be filled in your answer book)
+Paper code: 131303 Roll No. [|] | | | | |
+B TECH
+(SEM HI) THEORY EXAMINATION 2014-15
+SENSOR & INSTRUMENTATION
+TIME: 3 Hours Total Marks: 100
+Note: Question No | to 5 compulsory for student of all
+Branch - (CS/IT/EC/EV/IC/TT/ENV/CE/AG/CHE/ME). are
+Question No 6 is branch specific and students are advised
+to attempt the part specific to their branch.
+SECTION - A
+1. Attempt all questions. All questions carry equal
+marks. 10X2
+a. Differentiate between a transducer and inverse transducer
+With an example.
+b. Define the working principal of K_ type
+thermocouple.
+f~ Describe the pin diagram of Op-Amp IC-741.
+c. Explain various
+d. test signals used in measurement
+system.
+e. Enlist the Applications of Multiplexer.
+f. Differentiate LED and LCD display.
+g. Define semiconductor strain gauge with its
+application.
+h. What do you understand by Data logger?
+i. Distinguish between accuracy and precision with
+example.
+Draw Sample/Hold
+a (S/H) circuit 4. Attempt any two parts of the following 5X2
+SECTION -B
+Attempt any three parts of the following. All a. Discuss the working principle of LVDT with the
+questions carry equal marks. 10x3 help of neat sketch and characteristic.
+b. Explain the operation of thermocouple sensor
+Explain the different factors on the basis of which for the measurement of temperature.
+transducer can be selected for a particular application. c. Draw the circuit diagram of instrumentation expression
+(i) Draw and explain the main components of operational amplifier. Derive the
+Cathode Ray Tube (CRT). for voltage gain.
+(1i)Explain all the basic components of an analog two parts of the following 5X2
+data acquisition system. 5. Attempt any
+PMMC Type the instruments? working principle and construction of Derive expression of Gauge Factor as applied for
+(ii) Draw the general diagram of Telemetry System a. a resistive strain gauge.
+and explain each block. b. Explain the software feature of Lab VIEW
+Explain the concept of Smart Sensor. Describe any and how it can be used to measure the input
+one type of flow sensor in brief. signal.
+The expected value of the voltage to be measured is c. Write a short note on Digital filters
+220 volts but the measurement gives a value of 200
+volts. Calculate: (i) Absolute Error (ii) Percentage Note: - Question No 6 is branch specific and students are — |
+Error (iil) Relative Accuracy (iv) Percentage advised to attempt the part specific to their branch.
+Accuracy.
+6. Attempt any two parts of the following 10X2
+CS/IT/EL/EC/EV/IC) (Branch Code
+Note:-All SECTION — C (Branch
+equal marks. questions are compulsory. All questions carry 10/13/30/3 1/32/33) |
+10x5 Draw block diagram for Voltmeter and explain each |
+3. Attempt two parts of the following 5X2 a. function a in details.
+any b. Describe the working of De Sauty Bridge
+a. Why active filter are preferred over passive (Capacitive Bridge) for the measurement of
+filters? Design a first order low pass filter with capacitance. Drive the equation for the balance |
+highest cut-off frequency 1 Khz. equation.
+With the help of neat diagram, explain c. For Q meter circuit is in resonance E=100mv,
+operation of voltage to Frequency converter.
+Differentiate between Modulation and Calculate the coil Q and voltmeter indication |
+Modulation Index. Discuss the square—law |
+Modulator for amplitude modulation wave.
+|
+{
+ii Determine m the Q factor and voltmeter d. Discuss why frequency telemetry is considered
+indication for another coil that R=10Q and Superior . to voltage or current telemetry.
+at resonance.
+d. Drive the balance equation for D’Arsonoval Bridge. 6. Attempt any two parts of the following 10X2
+Draw its circuit diagram with phasor diagram. (Branch CHE) (Branch Code 51)
+6. Attempt any two parts of the following 10X2 a. Explain the principle, construction and working of
+(Branch TT) (Branch Code 61) Optical Pyrometers.
+b. Explain the any type of monometers with a neat
+a. Explain the Textile Instrumentation & Colorimeter. sketch.
+b. counting. Write the working principle of stroboscope & nep c. Explain P the thermal dying ying method method of moisture .
+measurement,
+c. Explain the Instrumentation for computer Color d. Write a short note on McLeod Gauge.
+d. Explain matching.
+the functioning of tension meters? 6. Attempt any two parts of the following 10X2
+6. Write short notes on any two of the following 10X2 (Branch ME) (Branch Code 40)
+(Branch ENV) (Branch Code 97)
+a. Nano Sensors a. Explain the principle and use of interferometery,
+b. Infrared absorption Spectroscopy Explain the Taylor’s principle of Gauge Design.
+c. Application and monitoring of Sensor in microscope? Explain the functioning of Tool maker’s
+Environmental Analysis. Write
+d. Tonic chromatography for and a short note on measurement of screw threads
+in analysis of inorganic ions gears.
+water.
+6. Attempt any two parts of the following
+(Branch CE/AG) (Branch Code 00/80) 10X2
+a. Define the term “Time Division Multiplexing” and
+“Frequency Division Multiplexing” in brief. Draw the
+block diagram of a complete telemetry scheme using
+frequency division multiplexing and de-multiplexing.
+b. Write a short note on radio frequency telemetry.
+c. With the help of suitable waveforms
+working Pulse Amplitude explain the
+Pulse Width Modulation (PAM) and
+modulation (PWM).

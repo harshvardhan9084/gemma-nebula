@@ -1,0 +1,74 @@
+Following Paper [ID and Roll No. to be filled in your Answer Book)
+PAPER ID +0205:
+B. Tech.
+(SEM. VII) ODD SEMESTER THEORY EXAMINATION
+2010-11
+ADVANCED CONTRGL SYSTEM
+Time 3 Hours Total Marks 100
+Note Attempt all questions.
+:
+i. Attempt any two of the following :
+(a) Show that the transfer function of the system is invariant
+under linear transformation of state variables. Obtain the
+transfer function of the following system :
+0 | 1
+X=! 4 i -2
+1-1 1
+y=[2 1-1]x.
+(b) A feedback has closed-loop transfer function
+system a :
++4)
++3)
+Construct two different State Model for this system.
+(c) Show that the system given by :
+X= . 0 1 X+ 1 u
+-2
+is not controllable.
+TEEO13/VEQ-15046 i [Turn Over
+aktuonline.com aktuonline.com
+Attempt any two of the following :
+(a) What are sample and hold circuits ? Obtain the transfer
+function and frequency of order hold.
+response zero
+(b) Consider the discrete-time system shown in Fig. 1. Obtain
+pulse transfer function of the system. Choose T = |] sec
+and
+Fig. 1
+in brief stability criterion. Investigate
+(c) the Explain and the sufficient Jury’s condition for stability of the
+following necessary characteristics polynomial!
+2z4+ 723 + 1027+ :
+F(z) = 4z+ 1.
+3. Attempt any four parts of the following :
+(a) Determine the stability of the following system by
+Lyapunov Method :
+X= . AX, where A= ~1 -2
+_
+(b) State and explain Popov’s criterion.
+(c) What do you understand by the term singular points ?
+Also explain the role of eigen values to determine different
+types of singular points.
+(d) Explain the basic concept of Describing Function Method.
+(e) What are the typical optimal contro! problem ? Explain
+each
+one.
+(f} Determine the solution of nonhomogeneous state equation
+X= AX+BU is X(0) = X,.
+TEE013/VEQ-15040 2
+aktuonline.com
+aktuonline.com
+(f) Differentiate between infinite and finite
+for continuous time system.
+5. Attempt any four parts of the following :
+(a) State Fuzzy rules of Mamdani.
+(b) What are the main functions in an adaptive control system ?
+Explain.
+(c) Give the classification of Model-reference adaptive™
+control system. Also explain.
+(d) Draw the general configuration of self-tuning adaptive
+control and explain each block in brief.
+(e) Explain MIT rule in brief with suitable example.
+(f) Explain the advantages and disadvantages of Neural-based
+control system in brief.
+TEE013/VEQ-15040 4 1275
+aktuonline.com

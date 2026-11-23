@@ -1,0 +1,83 @@
+* v - 3 it) 9 3 *
+Printed Pages : 3 TEC - 603
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 3093
+: Roll No.
+B. Tech.
+(SEM. VI) EXAMINATION, 2006-07
+VLSI TECHNOLOGY & DESIGN
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions.
+1 Attempt four of the following 5x4=20
+any parts :
+(a) Discuss different steps in preparing wafers
+from raw silicon.
+(b) Why cleaning of silicon wafers is necessary
+before any processing steps? What are clean
+room standards?
+(c) Why (100) orientation is preferred over (111)
+orientation for starting material in NMOS/
+CMOS ICS fabrication.
+(d) List non-ideal I-V effects in MOS and explain
+them briefly.
+(e) Discuss Gate capacitance model and diffusion
+capacitance model of MOS.
+(f) Compare voltage levels and noise margin for
+bipolar and CMOS logic family.
+V-3093] 1 [Contd...
+2 Attempt any four parts of the following : 5x4=20
+What the requirements of photoresist?
+(a) are a
+Which photoresist is preferred for better
+resolution and why?
+(b) Compare horizontal tube furnace with vertical
+tube furnace for oxidation.
+(c) Why is preferred over
+diffusion for impurity doping? Explain briefly
+ion-implantation technique.
+(d) What is epitaxy? Discuss any one type of
+epitaxy method briefly.
+(e) List and compare different types of lithography
+techniques.
+(f) What are the limitations of pure aluminium
+metallisation for sub-micron level devices ?
+3 Attempt any two parts of the following : 10x2=20
+(a) Explain CMOS Inverter Voltage transfer
+characteristic with a neat diagram. What is the
+criteria for voltage threshold for high level and
+low level in inverter characteristic?
+(b) Explain CMOS inverter layout plan alongwith its
+cross-sectional diagram. What is a stic diagram?
+What do you mean by Lemda based design rule ?
+(c) Explain different levels in device models.
+What is device characterisation and circuit
+characterisation with reference to circuit
+simulation ?
+V-3093] 2 [Contd...
+4 Attempt any two parts of the following : 10x2=20
+Explain read/write operation of SRAM
+(a) memory
+cell. How 1 bit cell is used in bigger memory
+systems?
+(b) Explain basic organisation of nMOS NAND
+ROM and its layout. Compare different types
+of ROM
+structures.
+(c) Explain technology related CAD issues. What
+do you mean by Design Rule Checking (DRC)
+and circuit extraction?
+5 Attempt four of the following 5x4=20
+any :
+(a) Discuss briefly testing and verification of
+VLSI circuits.
+(b) What do you mean by silicon debug principles?
+Explain briefly test benches and hardnesses.
+(c) Compare FPGA with CPLD. How a processor
+chip be designed using FPGA ?
+can
+(d) Explain system-on a-chip concept using
+platform based design.
+(e) Explain briefly structured design techniques.
+(f) What is an Application Specific Integrated
+Circuit? Give examples of ASIC.
+V-3093] 3 [ 6725 ]

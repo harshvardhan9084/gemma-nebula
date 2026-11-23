@@ -1,0 +1,48 @@
+NENO24/EENO21
+Printed Pages:01 Sub Code:NEN024/EEN021
+Paper Id 121212 Roll No.
+B.TECH
+(SEM VI) THEORY EXAMINATION 2018-19
+MECHATRONICS
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing SECTION data; then A choose suitably.
+1. Attempt all questions in brief. 2x 10=20
+a. Derive a mathematical model for spring-mass-damper system.
+b. Draw Ladder Logic for AND &OR logic gates. Give their truth tables also.
+Draw the symbol of 4/2 DCV and 4/3 DCV.
+c. d. Define Data Acquisition.
+e. What is the principle of operation of Eddy current sensors?
+f. Differentiate between Sensor & Transducer. Give one example of each.
+g. Define an actuator.
+h. Differentiate between conventional and mechatronics system design.
+1. Define a stepper motor or stepper servomotor.
+J Why closed-loop controllers are preferred in automating a system?
+SECTION B
+2. Attempt any three of the following: 10x3=30
+a. Discuss the architecture of a microcontroller.
+www.aktuonline.com b. With the help of schematic diagram, explain the data acquisition system. What are the roles of filtering
+Discuss and amplification the architecture of signals of PLC in signal in detail. conditioning? A is switched by pressing springreturn push
+c. button start switch, and the motor remains motor until another spring-return on push a button stop switch is
+pressed. Draw the ladder logic for the same. on
+d. Discuss operating principle of NC Machine in detail.
+Define Vehicle suspension Control systems. Describe the design of a Computer Printer.
+SECTION C
+3. Attempt any one part of the following: 10x1 = 10
+a. Describe the working principle of transducers. Explain the construction and working of a
+Displacement transducers.
+b. What do you understand by Signal conditioning? Describe the process of data acquisition systems.
+4. Attempt any one part of the following: 10x1 = 10
+a. Explain the working principle and operation of an electromechanical disc-control mechatronics
+system.
+b. Explain the functions of directional control valves the applications of bearings.
+5. Attempt any one part of the following: 10x1 = 10
+a. Explain the applications of an Industrial Robot and describe its control features.
+b. Explain the working principle of Micro-mechanical Systems? Explain the design of a
+6. Attempt FAX machine. of the following: 10x1 10
+What any the one three part types of Pressure Control valve? Explain with the help of suitable = diagram.
+b. a. With the are help of neat sketch, explain the working and application of Electric Drive System.
+7. Attempt of the following: 10x1 10
+Describe any what one part Mechanical switches? Describe the function of solenoid operated = solid state
+a. switch. are a
+b. Explain Programmable logic controllers. Describe the Application-specific-, Processors (ASICS)
+http://www.aktuonline.com Page 1 of 1

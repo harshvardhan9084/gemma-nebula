@@ -1,0 +1,54 @@
+Printed Pages : 2
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 2110
+:
+B.Tech
+(SEMESTER-V) THEORY EXAMINATION, 2012-13
+FUNDAMENTALS OF E.M. THEORY
+Time : 2 Hours ] [ Total Marks : 50
+Note: This questions has three sections. Section I is compulsory.
+paper
+Section —I
+Attempt alll parts of the following : 10x 1=10
+|
+(i) Define Coulomb’s law.
+(ii) Define electric field intensity.
+(iii) Write Poisson’s and Laplace’s equations.
+(iv) Write the boundary conditions at the interface between two perfect dielectrics.
+(v) Mention the properties of uniform plane waves.
+(vi) Define Poyntings theorem.
+(vii) State Maxwell’s fourth equation.
+(viii) What will happen when the wave is incident obliquely over dielectric-dielectric
+boundary ?
+(ix) Define imperfect dielectrics.
+(x) | Why water has much greater dielectric constant than mica ?
+Section — II
+2. Attempt three parts from this section : 3x5=15
+(a) Derive an expression for displacement and conduction current densities. Also
+obtain an expression for continuity current relation.
+(b) Briefly explain reflection by perfect dielectric when is incident normally
+a a wave
+on a perfect conductor.
+2110 1 P.T.O.
+(c) State and explain Faraday and Lenz law of induction and derive Maxwells’
+equation.
+(d) Derive an expression for energy and energy density in a magnetic field.
+(e) The electric vector E of electromagnetic in free is given by the
+an wave space
+expression
+(-2)
+. Ex = Ez = 0, Ey = A- cos w using Maxwell’s equations for free space
+conditions determine expressions for the components of the magnetic vector H.
+Section — III
+Note: Attempt all parts of the following : §x5=25
+3. Four positive charges of 10-9 C each are situated in XY plane at points (0, 0), (0, 1), (1, 0)
+( 5)
+and (1, 1). Find electric field intensity and potential at
+4. What do you mean by uniform plane waves ? Derive for intrinsic impedance of free ~
+space is Ny = 12 02 Q.
+0
+5. | What do you mean by displacement current ? Derive.
+6. | What do you mean by plane wave dispersion ? Explain in detail.
+7. Explain the nature and behaviour of magnetic material. Write Laplace’s and Poisson’s
+equations for steady magnetic field.
+2110 2

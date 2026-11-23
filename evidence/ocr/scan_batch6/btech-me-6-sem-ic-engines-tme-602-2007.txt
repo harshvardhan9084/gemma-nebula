@@ -1,0 +1,100 @@
+aktuonline.com aktuonline.com
+Printed Pages : 3 TME - 602
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 4094 Roll No.
+B. Tech.
+(SEM. VI) EXAMINATION, 2006-07
+I. C. ENGINE
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions. All questions carry equal
+marks. Assume suitably, if any missing data.
+1 Answer any four of the following : 5x4=20
+(a) Make comparison between two stroke and four
+stroke engine.
+(b) List the differences in the Air standard cycle
+and Actual cycle of IC engine.
+(c) How are SI engine fuels rated?
+A six cylinder, four stroke, three litre capacity
+ST engine having compression ratio 9.5, develops
+205 N-m torque at 3600 RPM. Find :
+Brake effective
+mean pressure
+(ii) Cylinder Bore if bore is equal to stroke
+length.
+(e) Discuss the suitability of alcohols as a fuel in
+IC engine.
+(f) Discuss the importance of :
+@) Gum content
+(ii) Sulphur content for diesel fuel.
+V-4094] 1 [Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+2 Answer any two of the following : 10x2=20
+(a) Discuss Battery ignition with sketch.
+Also discuss the effect of system Engine speed neat and
+load operation the ignition timing part
+on
+requirements.
+(b) With the help of pressure-crank angle (P-0)
+diagrm, explain the stages of conbustion in SI
+engine. How the flame propogation is affected
+by compression ratio, engine load and engine
+speed ?
+(©) Write short notes on the following:
+Injection
+(i) Multi Point Fuel (MPFD
+(ii) Types of combustion chamber for SI engine.
+3 Answer any two of the following : 10x2=20
+(a) Discuss delay period in CI engine combustion.
+How do the fuel quality, engine load and
+injection advance angle affect the delay period ?
+(b) State the requirements of ideal injection
+Describe with the help an of sketch
+system. injection neat
+common rail system.
+©) What are the major emissions that come out in
+diesel exhaust. How can NO, emissions can
+be reduced by exhaust gas recirculation.
+4 Answer any two of the following : 10x2=20
+(a) (i) | What are the effects of supercharging on
+output, fuel consumption and
+mechanical power efficiency?
+(ii) | Define viscosity index and flash point of
+lubricating oil.
+V-4094] 2 [Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+(b) Explain cranck case ventilation.
+(ii) Make comparison between air and water
+cooling systems of Engine.
+(©) (i) air flow to four cylinder four stroke
+petrol engine is a measured by of
+diameter orifice, Cy 0.6. Following means
+data observed during = test Bore
+11 were stroke 13 a drop -
+across cm, the orifice = cm, 4.1 cm pressure of water,
+engine speed 2250 = rev/min. atmospheric
+temperature = and 15°C and
+1.013 bar. Find the pressure volumetric = efficiency.
+Gi) Find the stoichiometric air fuel ratio for
+an engine operating on mixture of 80%
+gasoline and 20% methanol by
+mass.
+5 Answer any two of the following : 10x2=20
+(a) A single acting two stage compressor with
+complete intercooling delivers 10 kg/min of air
+at 16 bar. The suction occurs at 1 bar and 15°C.
+Assume the index of compression and expression
+(n) = 1.25 and stroke = Bore, speed = 400 rpm.
+Calculate, (1) Power required, (ii) Heat
+transferred in intercooler (iii) Ratio of cylinder
+diameters.
+(b) Make comparison between centrifugal and axial
+compressors. Also plot the performance
+characteristics of rotary compressors.
+(©) Write short notes on any two of the folllowing :
+(i) Singing and choking in compressor
+(ii) Multistage compression
+Roots blowers.
+V-4094] 3 [ 4275 ]
+aktuonline.com http://www.UPTUonline.com

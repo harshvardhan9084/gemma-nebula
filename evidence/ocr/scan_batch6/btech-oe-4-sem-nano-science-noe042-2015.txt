@@ -1,0 +1,67 @@
+www.aktuonline.com
+Printed Pages : 3
+0
+NOE042
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 199432
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+NANO SCIENCE
+Time 3 Hours] [Total Marks 100
+: :
+Note : (1) Attempt all questions.
+(2) Marks of each question are shown against it.
+1 Attempt any four parts of the following : 5x4=20
+(a) What are applications of nano technology in industries ?
+(b) Why bands form in solids ? How these
+are energy
+energy bands depend on intermolecular distances ?
+(c) What is nano-scale ? Why are nano-structures posses
+amazing properties ?
+(d) What are excitons ? Give properties.
+(e) What do you mean by effective mass of an electron
+in solid ?
+(f) Explain concept of fermi surfaces.
+199432] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any two parts of the following : 10x2=20
+(a) A potential function is defined as follows
+0 for x<0
+for 0<x<a
+0 for x>0
+Solve Schrodinger’s wave equation for each
+potential value and show that R+T=1, where
+symbols have usual meaning.
+(b) What is single electron tunneling effect this
+? How
+effect distinguish nano-scale properties to micro-
+scale properties?
+(c) Describe quantum confine effect in nano science.
+3 Attempt any two parts of the following : 10x2=20
+(a) Describe E-beam evaporation technique for synthesis
+of nano materials.
+(b) Describe ion beam deposition technique for
+synthesis of thin film of nano materials.
+(c) What is method of molecular beam epitoxy ? How
+it is superior to other techniques ?
+4 Attempt any two parts of the following : 10x2=20
+(a) How particle size is determine by X-ray
+crystallography ?
+(b) What is principle of atomic force microscopy and
+how it is used in nano-structure analysis ?
+199432] 2 [ Contd...
+www.aktuonline.com
+(c) What is magnetic resonance effect ? How it is
+used in specific atomic level structure analysis ?
+Attempt of the following
+5 (a) What any two parts robots What : applications 10x2=20 of
+are nano ? are
+nano robots ?
+(b) How the electrical and mechanical properties of
+carbon nanotubes depend on structure of nano
+tubes ? Explain in details. What is molecular
+rotor ?
+(c) Write short notes on :
+(i) electron transistors
+(it) | Molecular Machine.
+199432] 3 [825]

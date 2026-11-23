@@ -1,0 +1,51 @@
+Printed Pages : 4 UPTUonline.com
+0 0 0 0 2 any two parts of the following : 6x2=12
+NEE-303 a) Obtain the trigonometric Fourier series for the waveform
+(Following Paper ID and Roll No. to be filled in your Answer Book) shown in figure 1.
+PAPER ID 121314
+:
+B. Tech.
+(SEM. III) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+BASIC SYSTEM ANALYSIS Figure 1
+inverse Z-transform of x(z)
+Time : 2 Hours] [Total Marks : 50 b) the =
+if region of convergence are
+1 Attempt any four parts of the following : 3.5x4=14 @® 1
+a) Sketch the signals c) A system is described by the differential equation
+x00
+4 =
+Define various time
+b) elementary continuous signals. Indicate the initial conditions, dy(0) 2 and y(0) land
+them graphically. For = =
+x(t) u(t), the free and forced
+c) Find the Fourier transform of along with input = find response
+amplitude. of the system.
+d) Define Laplace transform and write its properties.
+e) What do you mean by STM? Also mention its 3 Attempt any two parts of the following : 6x2=12
+properties. a) Define ROC of Z-transform. Determine Z-transform of
+f) x,(t) a®u(n} and x2(n) 1)
+do you understand by analogous systems ? Also = = —
+mention the f-v and f-i analogy in analogous systems. and also indicate their region of convergence.
+121314] 1 [ Contd... 121314] 2 [ Contd...
+b) State convolution property of LT. Also find the inverse
+b) Obtain the f-v and fi analogous system of the mechanical
+Laplace transform of the function using it. system shown in figure 3
+1
+XS) = sap
+¢) Find the response of the system
+#=[%
+u(t}
+where u(t) = u(t) (frictionless)
+Figure 3
+4 any two parts of the following : 6x2=12 Check whether the following properties hold good for
+in figure determine the the system = atx(t) + brx(t-2)
+a) In the circuit shown 2 , current @) = Static or dynamic
+i(t) when the switch is at position 2. The switch S is (i)
+moved from position 1 position 2 at t 0. Initially Linear or non linear
+to = (ai) Causal or non causal
+the switch has been at position 1 for a long time. (iv) Time variant or invariant.
+10V
+UPTUonline.com
+Figure 2
+121314] 3 { Contd... 121314] 4 [ $125 ]

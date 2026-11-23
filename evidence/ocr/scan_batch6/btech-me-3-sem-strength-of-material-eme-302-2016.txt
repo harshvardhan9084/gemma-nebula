@@ -1,0 +1,69 @@
+~ uptuonline.com (f) Define
+Printed the terms spring index and spring constant,
+Pages: 5 EME-302
+Paper ID (g) What do you understand by effective length and
+and Roll No. to be filled in your slenderness ratio
+Answer Book) of column?
+Paper ID : 140322
+(h) Discuss Rankine/ Gordon’ formula forcolumn.
+(i) Write assumptions for
+(SEM. Ill) EXAMINATION, 2015-16 pure torsion equation,
+STRENGTH
+OF MATERIAL (j) Define shear center for section.
+hours]
+Section-B
+SECTION-A
+from
+Attempt all parts. All parts carry equal marks. Write Attempt any five questions this section.
+of (2x10=20)
+answer each part in In an clastic material, at a ceratin point on planes at right
+point
+(a) Define and expalin stress at a angles to one another, direct stresses of 120MPa (T)
+Minor principal and (C) are actiong. The major principal stress
+(b) Define major principal and
+stress-with the help of Mohr’s circle. in the material is to be limited to To What
+shearing stress the material may be subjected on the given
+(c) Wahtdo you undersatnd by pure bending?
+supported planes? Also find the minimum principal stress and the
+(d) Write maximum deflection for simply maximum shearing stress at that point?
+beam having UDL.
+Derive the expression for Three dimensional
+(e) Define springs. Name diffeent types of springs. stress
+equilibrium equation (Generalised Low).
+uptuonline.com
+uptuonline.com
+7000
+A simply supported beam of 6m span is subj ected 8. Derive the expression of for trapezoidal cross-section
+load of 18KN at 4m from left support. Calculate
+©) the
+position and the value of maximum deflection. channel
+(ii) Slope at mid point (iii) Deflectin at the load point. 9. Derive the expression of shear centre for
+(Given Given E=200GPa, section. (Assume suitable dimensions for channel).
+E=
+U ptuonline. com Section-C
+Acircular pipe of external diametr 70mm and
+&mm is used as a simply supported beam over an effective question from this section.
+2.5m. Find the maximum concentrated load that can Attempt any two (15x2=30)
+span
+be placed at the center of the span if permissible stess
+in the tube is 15O0MPa. 10. Two helical springs are nested one eer inside the other to
+load of SOON. Both the springs are made of
+A cantilever leaf spring has a clear span of 800mm and support a modulus of rigidity G=82.7GPa,
+end. The bending stress the same material with
+carries a laod of 10KN at the free the particulars of the springs are tabulated below:
+in strip and deflection at free end not to exceed
+respectively 320MPa and 80mm respectively. Find the
+is 8 times the
+number of plates if width of a plate
+thickness.
+hollow cast iron column whose outside diameter is Free
+A thickness of 20mm is 4.5m long and
+200mm and has a load by Rankine deflection
+is fixed at both ends. Calculate the safe Determine the (i) induced
+ing on f 2.5. Find ei the rati Load carried by each springs (iii) Shear stress
+on E=
+Euler’s to Kank! = and in each springs.
+Rankines constant= 1/1600 for both ends pinned case
+—
+fe=550Mpa.
+(3) BES 7000 (4) EME-302

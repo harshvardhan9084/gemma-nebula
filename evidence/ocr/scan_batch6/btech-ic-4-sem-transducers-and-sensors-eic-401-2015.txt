@@ -1,0 +1,105 @@
+www.aktuonline.com
+Printed Pages : 4
+0
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 132401
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+TRANSDUCERS AND SENSORS
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions. All question carry equal marks
+1 Attempt any four of the following : 5x4=20
+(a) Define the term repeatability, accuracy, precision,
+static sensitivity, and linearity with examples?
+(b) Explain hysteresis and explain its effects?
+(c) A wheatstone bridge requires change of 72
+a
+in unknown arm of bridge to produce a change
+in deflection of 3mm of galvanometer. Determine
+sensitivity, also determine deflection factor?
+(d) Explain static characteristics of the system?
+(e) Describe the input-output configuration of
+measuring input and measurement system?
+(f) | What is defined by instrument .what are the basic
+elements of instrument?
+132401] 1 [ Contd...
+www.aktuonline.com
+2 Attemp any two of the following : 10x2=20
+(a) Describe with help of neat diagram the variable
+inductance pickup. Also describe its advantages
+and disadvantages?
+(b) Show how piezoelectric transducer can be used
+to measure torque, pressure and acceleration?
+(c) Describe the tachometer encoder methods. Explain
+the eddy current drag tachometer with the
+cup
+help of diagram?
+3 Attemp of the following: 10x2=20
+any two
+(a) A strain gauge having a and
+gauge factor 2 is connected in series with a ballast
+resistance of 100 al2v supply. Calculate
+the difference between the output voltage with no
+stress applied and stress of 140 MN/m2.the
+modulus of elasticity is
+(b) Describe the methods used for low pressure
+measurement using
+(i) 1onization gauzes
+(it) pirami gauge
+(c) Explain the working of a dynamometer with
+the help of diagram?
+(1) meter revolves 10 revolutions of
+disc for unit of Find the of
+energy. no.
+revolutions made by it during an hour when
+connected across when connected 20 A at
+and POWER FACTOR
+210v 0.8
+LEADING. if energy meter revolves 350
+revolutions find percentage error?
+132401] 2 [ Contd...
+www.aktuonline.com
+4 Attempt two of the following: 10x2=20
+any
+(a) Describe the working and theory of ultrasonic
+flow meter. Enlist its advantages and
+disadvantages?
+(b) Describe the principle of average pitot tube and
+explain the working of hot film anemometer?
+(c) is calibrated for metering a liquid
+A rotameter
+of density 1000kg/m3 and has a scale ranging
+from 1 to 100 1/min.it is intended to use this
+meter for metering the flow of of density
+gas
+1.25kg/m? with flow range between 20 to 200
+1/min.determine the density of float if original
+new
+one has density 2000kg/m? assume that shape
+and volume of float will be same.
+5 Attempt any four of the following : 4x5=20
+(a) Give the working principle of radiation type
+temperature sensors. What are its disadvantages?
+(b) Explain the working principle of cooled
+thermocouples?
+(c) A resistance wire be constructed of nickel
+to
+wire.thermometer resistance at 200 degree celcius
+is 100 ohms.what length of 0.4mm diameter is
+used?
+(d) Explain the help of diagram bimetallic thermometers
+and describe thermistors?
+132401] 3 [ Contd...
+www.aktuonline.com
+(e) Describe the optical pyrometers with the help of
+neat sketch. Also explain its principle, working
+applications?
+(f) |The emitted radiation energy from piece of metal
+is measured and temperature is found be
+to 1065
+degree celcius assuming a surface emissivity of
+0.82 it was later found that the true emissivity
+is 0.75.Calculate the in
+error temperature
+measurement.
+132401] 4

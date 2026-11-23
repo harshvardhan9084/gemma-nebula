@@ -1,0 +1,39 @@
+www.aktuonline.com
+Printed Pages : 2
+UT
+EEE022
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 120652
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+INTELLIGENT INSTRUMENTATION
+Time : 2 Hours] [Total Marks : 50
+1 Attempt any four questions : 3.5x4=14
+(1) What is the software based instruments?
+(2) What are the different classifications of intelligent
+instrumentation?
+(3) What is by LabVIEW?
+mean
+(4) What is role of DDL in Intelligent instrumentation?
+(5) Describe the block diagram of intelligent
+instrumentation.
+2 Attempt any four questions : 3x4=12
+(1) Describe the block diagram of DAQ system.
+(2) What is flat structure? Explain in details.
+(3) What is formula node? Explain with diagram.
+(4) What is counter? Describe with all types.
+(5) Write in LabVIEW for conversion of
+a program
+temperature in Degree centigrade to Fahrenheit.
+120652] 1 [ Contd...
+www.aktuonline.com
+3 Attempt questions 6x2=12
+any two :
+(1) Describe the block diagram of Timers.
+(2) Explain the interfacing methods of DAQ hardware.
+(3) What is use of simple and intermediate Vis.?
+4 Attempt any two questions : 6x2=12
+(1) Write about the DMA.
+(2) What is operating system, ISA.?
+(3) Describe the PCMCIA Buses.
+120652] 2 [ 200 ]

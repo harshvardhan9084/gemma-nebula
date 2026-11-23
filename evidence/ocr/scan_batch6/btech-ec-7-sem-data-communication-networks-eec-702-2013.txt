@@ -1,0 +1,80 @@
+Printed Pages—3 EEC702
+Following Paper ID and Roll No. to be filled in your Answer Book
+PAPER ID: 2°27
+B.Tech.
+(SEM. VII) ODD SEMESTER THEORY EXAMINATION 2012-13
+DATA COMMUNICATION NETWORKS
+Time : 3 Hours Total Marks : 100
+Note : Attempt all questions.
+1. Attempt any FOUR parts : (5x4=20)
+(a) List the layers in the TCP/IP model, and give a brief
+explanation of each.
+(b) What is packet-switching, and why is packet-switching
+relevant to the Internet ?
+(c) What are the conceptual pieces of a data communications
+system ? Briefly explain.
+(d) What is the difference between guided and unguided
+transmission ? Explain.
+(e) Why is CSMA/CA needed in a wireless network ?
+(f) Can a host have more than one IP address ? Explain.
+2. Attempt any FOUR parts : (5*4=20)
+(a) packet switch receives distance-vector
+a message
+from a neighbour, will the switch’s forwarding table
+always change ? Explain.
+EEC702/DLT-44176 1 [Turn Over
+(b) What is the conceptual difference between IP and end-
+to-end protocols ? Explain.
+(c) List the features of UDP and calculate the size of the
+largest possible UDP message.
+(4) How does TCP handle packet loss ? Explain by giving
+a Suitable example.
+used
+(e) Name two technologies to increase the speed of
+routers and switches.
+0) List the major features of IPv6, and give short
+description of each. a
+Attempt any TWO parts : (10x2=20)
+(a) How long does it take a packet of length 1,000 bytes
+to propagate over a link of distance 2,500 km,
+propagation speed 2.5*10* m/s, and transmission rate
+2 Mbps ? More generally, how does it take a packet of
+length L to propagate over a link of distance d,
+propagation speed and transmission R bps ?
+s rate
+Does this delay depend on packet length ? Does this
+delay depend on transmission rate ? Explain.
+(b) What is silly window syndrome ? If the TCP round-
+trip time, is currently 30 and the following
+RTT, msec
+acknowledgments come in after 26, 32 and 24 msec,
+respectively, what is the new RTT estimate using the
+Jacobson algorithm ? Use a = 0.9.
+(c) What is congestion control ? Analyze the advantages
+and disadvantages of performing congestion control at
+the transport layer, rather than at the network layer.
+EEC702/DLT-44176 2
+4. Write short notes TWO of the following
+on any :
+(10x2=20)
+(a) Routing Algorithms
+(b) IPV, Vs IPV,
+(c) IEEE 802.11
+5. Attempt any FOUR parts : (5x4=20)
+(a) DNS uses UDP instead of TCP. If a DNS packet is
+lost, there is no automatic recovery. Does this cause a
+problem, and if so, how is it solved ?
+(b) Could IP be redesigned to use hardware addresses instead
+of the 32-bit addresses it currently uses ? Why or why
+not ?
+(c) entity opens a connection and uses slow start.
+Approximately how many round-trip times are required
+before TCP can send N segments ?
+(d) A TCP machine is sending full windows of 65,535
+bytes 1-Gbps channel that has 10-msec
+over a a one-
+way delay. What is the maximum throughput achievable ?
+What is the line efficiency ?
+(e) Users view the Internet as a single network. What is
+the reality, and to what does a user’s computer attach ?
+EEC702/DLT-44176 3 15950

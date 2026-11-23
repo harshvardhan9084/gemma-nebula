@@ -1,0 +1,61 @@
+Printed Pages 3
+:
+‘(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 140409
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+-
+MANUFACTURING SCIENCE & TECHNOLOGY I
+Time :.3 Hours] [Total Marks : 100
+_
+Note : Attempt all questions as per instructions.
+1. Attempt any four questions : 5x4=20
+(a) What is manufacturing ? How will classify
+you
+manufacturing processes ? Give suitable example
+of products being made by manufacturing process.
+(b) Describe the importance of manufacturing for
+economic and technological considerations.
+(c) List various types of presses used in forging.
+Explain any one of them with neat sketch.
+(d) Derive the expression for pressure distribution in
+forging of a rectangular block under sliding friction
+condition. °
+140409] 1 [ Contd...
+(e) Explain
+Tresca's and Von Mises yield criteria. 4 Attempt any two questions 10x2=20
+Derive the relation for,shear yield stress and :
+tensile yield stress and for Tresca and Von—Mises (a) What is a centrifugal casting ? Explain different
+types of centrifugal casting methods.
+What is cold working and hot working processes ? (b) What are the common casting defects ? What
+Indicate advantages and disadvantages of each. causes of them and what the
+Also compare cold working and hot working are measures that
+process. can be taken to avoid them ?
+(c) Explain all the type of moulding sand and discuss
+Attempt -
+any two questions : 10x2=20 briefly additives added to moulding sand to
+(a) Obtain in expression (relation between drawing improve its moulding properties.
+Stress and tensile yield stress) for wire drawing
+with friction. S
+any two questions : 10x2=20
+(b) List and explain different defects in rolling (a) How are powder-metallurgy components
+Also list their and remedies, process.
+causes manufactured ? Discuss various steps involved.
+Describe briefly hot and cold extrusion processes. (b) Differentiate between jigs and fixtures.
+List some common defects in extrusion process Discuss the
+and how are they caused ? principle of locating and clamping a work piece
+with neat sketches.
+Attempt
+any two questions : 10x2=20 Explain the process of Electromagnetic forming.
+(a) Describe in detail the classification of presses. What are its advantages ? Indicate some
+Elaborate any one type in detail with neat applications.
+sketches.
+(b) How does compound die differ from |
+die ? Giving neat sketch, describe constructional progressive
+a
+features and working of a compound die..
+What is deep drawing ? Discuss deep drawing
+operation in detail. Also list and explain different
+defects in deep drawing operation.
+140409]
+2 [ Contd... 140409] 3 [20175]

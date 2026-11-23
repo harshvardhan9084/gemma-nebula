@@ -1,0 +1,90 @@
+Printed Page: 1 of 2
+Subject Code: BEC302
+PAPER Roll No: [
+BTECH
+(SEM THEORY EXAMINATION 2024-25
+DIGITAL SYSTEM DESIGN
+M MARKS:
+Note: Attempt all Scetions, In case of any missing data; choose suitably.
+SECTION A
+2x07=14
+1. Attempt a// questions in brief.
+| Whatis around condition in JK flip-flop? | ki |
+Distinguish race between Latch and Flip Flop. co3 | Ki |
+quadratic equation +22=0 x=3|
+The solution to is the are co,
+a x= 6. What the base of the number system?
+a. Differentiate between encoder and decoder. | K2
+What is PLD? | K3 |
+Implement 2- in mut NAND gate by using CMOS inverter. COs
+| Describe > figure of merit ary and noise ; Immunity } of TTL and
+LEMOS.
+SECTION B
+Attempt ¢irce of the 07%3=21
+2. any Question
+Q ne. Convert the following corresponding base
+in their
+= 02
+|| =Os
+| | (iii)(2230)s
+_ | Wiat is r? Design 16:1 multiplexer using 4:1
+| multiplexer. SR, ad D Kp
+on
+¢
+Vrite a short f notes on
+(i)Fan-in
+(ii)Propagation delay
+(iii)Noise margin
+—
+https://www.aktuonline.com
+Printed Page: 2 of 2
+Cade: BECW2
+PAPER ID-311625 [ | | | | | | | | | | |
+Roll No: _| } |
+BTECH EXAMINATION
+(SEM HI) THEORY 2024-25
+DIGITAL SYSTEM DESIGN
+TIME: 3 HRS _M.MARKS: 70
+SECTION C
+Attempt any one part of the following: 07x 1=07
+Level |
+Question Method _
+Minimize the logic function using K-MAP 27,30,31) col! K3
+F(A,B,C, D, E) = 21, ate? 24,25 25, 26,
+What do you mean by Universal logic gate? Imlement XOR col! K3
+gate using minimum number of NAND gate.
+4. Attempt part of the following: 07x1 07
+any one
+Q no. Question | |
+a. | Design 4 bit priority Encoder. CO2 K3 |
+b. is a comparator? Design and implement a 2-bit con! K3
+comparator.
+5. Attempt part of the following: 07x1=07
+any one
+fa Q no. Question
+Explain 3-bit Johnson counter with circuit diagram. Also draw
+| its waveform and show that this counter can be used as
+Multiphase clock generator for’ controlling the specific light
+pattern of LED’s.
+the characteristics equation for the complement
+Prove that
+output of JK Flip Flop is: -
+JO+KO
+6. Attempt part of the following: 07x1=07
+any one
+Question
+Differentiate between asynchronous counter and synchronous
+counter? Explain the working of 4-bit Synchronous counter | C04
+using suitable circuit diagram and timing diagram.
+What do by Hazards? the different method
+| you mean Explain
+by which hazard can be eliminated.
+7. Attempt any one part of the following: 07x 1=07
+ee Question Level
+Explain the working of using suitable
+TTL inverter
+diagram. CMOS Inverter?
+What do you mean by Draw and explain the
+working of CMOS inverter using Vb.
+2 |
+https://www.aktuonline.com

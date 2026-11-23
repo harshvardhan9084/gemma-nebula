@@ -1,0 +1,142 @@
+aktuonline.com aktuonline.com
+ay
+| TE TTT
+No. of Printed Pages—5 ME-402
+B. TECH.
+FOURTH SEMESTER EXAMINATION, 2003-2004
+KINEMATICS OF MACHINES
+Time : 3 Hours Total Marks : 100
+__Note : Attempt ALL questions.
+i. Attempt any FOUR parts of the following :—
+(a) Define Kinematic Pair. What are higher and
+lower pairs ? Draw a neat sketch of slider
+crank of pairs mechanism used in it. and give the classification
+(b) Define Kinematic link, Kinematic pair and
+Kinematic chain. Deduce expression
+relating the number of links an (L) and the
+number of joints (J) for a kinematic chain.
+(c) What is Inversion of Mechanism ? With the
+help of neat sketches, explain the inversions
+of slider crank chain mechanism.
+(d) State and prove the angular velocity ratio
+theorem for direct contact of links.
+(e) Locate all the instantaneous centres for the
+mechanism the ratio of velocities shown in of the fig. 1. D Determine and and
+points C and B. Find the points angular velocity B of
+Link BC. The crank speed is 500 rpm.
+D
+209
+Figure-1
+AB rotates at 500 rpm.
+1 Turn Over
+aktuonline.com
+aktuonline.c ktuonline.com
+Define . Instantaneous Centre of Rotation:
+Give the types of instantaneous centres.
+With the help of neat sketch of a four-bar
+mechanism, show all the types of
+instantaneous centres.
+2. Attempt any FOUR of the following :— (5x4)
+(a) State the Kendy’s Theorem. Using Kendy’s
+theorem, locate all the instantaneous centres
+of mechanism.
+a
+(b) Derive an expression for the acceleration of
+piston for a slider crank mechanism.
+(c) In the mechanism shown in fig. 2, the block
+P reciprocates along the fixed line A B and
+the crank has a uniform speed of 250 rpm.
+For the given configuration, determine the
+velocity and acceleration of point P.
+30cm
+30°”
+[A
+~
+Figure-2
+(d) Fig.3 shows arrangement of copying
+mechanism. A circle an of diameter 9 is to be
+copied to reduced scale. Determine cm the
+positions a of scribing pens and ratio of
+reduction obtained.
+ME-402 2
+aktuonline.com Cc B P aktuonline.com
+OA=ED=OA=10cm
+D EC=DB=6cm OE=AD=2cm
+E BP=4cm
+Oo
+Figure-3 A
+~ (e) Describe Fig.4 shows the path Paucelliers of the mechanism. Q.
+tracing point
+OA=AP=PS=SQ=QR=RP=15cm
+OR=OS=40cm
+Figure-4
+(f)  Fig.5 shows a rotating cylinder engine
+mechanism. Determine for the given
+configuration, the angular acceleration of the
+cylinder uniformly about 200 O. The in clockwise link AP rotates
+at rpm sense.
+ME-402 3 Turn Over
+aktuonline.com
+aktuonline.comempt aktuanline.com
+any TWO of the following :—
+(a) What is a Cam? With the help of neat
+sketches, describe various types of cams.
+(b) Draw a cam profile for a disc cam to give
+uniform motion during out stroke of 25 mm
+to a knife edge follower during the first half
+of the cam rotation. The return of the
+follower also takes place with uniform
+motion during the remaining half of the cam
+rotation. The minimum radius of the cam is
+25mm. The axis of the follower passes
+through the axis of the cam.
+(c) A follower satisfies following requirements :—
+Stroke of the follower 2:5 cm; OUTSTROKE
+S.H.M. for 90°; INSTROKE S.H.M. for 80°;
+Dwell at minimum lift 35°.
+Draw the velocity-time and acceleration-time
+diagram. Determine the maximum velocity
+and maximum acceleration during the out-
+stroke.
+The rotates at 1000
+cam rpm.
+4, Attempt any TWO of the following :—
+(a) Derive an expression for minimum number
+of teeth on a gear wheel.
+(b) A pair of have 14 and 16 teeth and the
+module pitch gears is The addendum is
+also 125 The angle of obliquity is 1 °
+mm. .
+Show that the gears have interference.
+Determine the portion by which the
+addendums of gears must be reduced to
+avoid interference.
+ME-402 4
+aktuonline.com
+aktuonline.com)
+Fig.6 shows an epicyclic gear
+arrangement. Wheel E is fixed and gears C
+and D are integrally cast and mounted on
+one revolution/sec pin. If counted the Arm clockwise, ‘A’ makes determine one
+the speed and the direction of rotation of
+wheels B and F.
+C35 F30
+Figure-6
+5. Attempt any TWO of the following :— (10x2)
+(a) List the different phases in the solution of
+problems of kinematic synthesis. Discuss, in
+detail, the movability of a four-bar linkage
+and outline the conditions for different kinds
+of mechanisms.
+(b) Determine an expression for minimum
+number of binary links in a constrained
+mechanism with simple hinges.
+(c) Design slider crank mechanism that the
+displacement a of the slider is proportional so to
+the square of the crank rotation in the
+interval 45° <9<135°- Use three point
+Chebishev spacing.
+ME-402 5
+aktuonline.com
+aktuonline.com aktuonline.com
+aktuonline.com

@@ -1,0 +1,76 @@
+(b) DFT of
+a sequence is given by 4
+X(k) Determine
+circular 306
+autocorrelation of using DFT and IDFT. EEC-602
+(c) Find (Following Paper ID and Roll No. to be filled in
+the circular convolutions of the two sequences PAPER ID : 131602 your Ans wer Book)
+and x2()=
+graphical using Roll No.
+method.
+(d State and prove that circular convolution property of B.Tech. (Semester-V])
+DFT.
+(e) Differentiate between SPL. THEORY
+(DTFT) and discrete Discrete time Fourier Transform EXAMINATI ON, 2014-15
+sequence. Fourier transform (DFT) of a DIGITAL
+SIGNAL PROCESSING
+(f) Find the linear convolution using circular convolution Time
+of the following sequences: : 3 Hours] [Total Marks : 100
+Note: Attempt questions.
+x()= {1.2.0}, ={1,2} all
+5. Attempt
+any two Parts of the following : 2*10=20 1. Attempt any two parts of the following: 2*10=20
+(a) Compare the computational complexity of FFT
+algorithm with direct computation of DFT. (a) What are linear phase FIR filters? How
+(b) Show that the Symmetry of these filters help to simplify can the
+the DIF algorithm Output data is in bit reversed order for Structure? A linear phase filter has the the network
+for N = 8. sample response: h (0) 0.01,h(1)= following unit
+(c) Derive the radix-2 DIT FFT algorithm for N 8. Also ~ 0.10, h (3) = 0.40, h (4) = =~0:10,h(5)=0.02, — -0.02, h(2) =
+compute the 8 point DFT of = -0.01. Draw the Signal flow h (6) =
+x(17) 0} a sequence requires the minimum number graph for this system that
+= using DIT FFT of Muitiplications.
+Algorithm. (b) Determine MMM
+realizations and draw the cascade and
+for the system described by the function:
+131602] (4)
+1,550 131602] (1)
+[Contd...
+www.uptuonline.com
+(c) Explain frequency warping effect and pre-warping with
+respect to bilinear transformation.
+and cut off
+(d) Derive the parameters i.e. order N
+frequency Qc fora Chebyshev Filter.
+mathematical expression for impulse
+(e) Derive the disadvantage and how
+of the following system invariant technique. Discuss its
+(c) Draw the direct form structures it will be taken care of?
+functions: method to design IIR filters by
+(f) Describe the derivatives.
+1+2z lye ~ approximation of
+(i) parts of the following : 2x10=20
+Attempt any two
+Design FIR low pass filter using rectangular window
++ + (a) with band gain of unity, cutoff frequency of 200
+(ii) sampling pass frequency of 1 KHz. Assume M = 7.
+1.74273 Hz,
+(b) Briefly explain the frequency sampling method of
+Attempt any four parts of the following: 4x5=20 designing FIR filter. An FIR filter has the following in
+specifications: h(M -\- n) f orM
+(a) Design a filter for the following the impulse response: =
+| Monotonic band and stop band odd, Derive its frequency response and show that it
+(i) pass has linear phase.
+| (ii) —3.01 cutoff frequency of 0.57
+(c) Whatdo youmean by Gibb’s phenomenon?
+| (iii) Magnitude down at least 15 dB at 0.757 the cause of Gibb’s phenomenon? How can it be
+minimized?
+H(s Jes 1 4x5=20
+(b) For the transfer function s~+V25+1 Find Attempt any four parts of the following :
+the sequence
+corresponding system function H (z) using (a) Obtain 4-Point DFT for
+the x(n)=u(n)-u(n- N).
+bilinear transformation.
+(3) [Contd...
+131602] (2) 1,550 131602]
+|
+i

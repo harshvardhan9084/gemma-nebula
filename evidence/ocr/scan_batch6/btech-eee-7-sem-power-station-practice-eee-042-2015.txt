@@ -1,0 +1,80 @@
+uptuonline.com uptuonline.com
+Printed Pages : 4 (e) Explain the functions of followings for hydro-electric
+EEE-042 plants -
+i) Reservoir
+(Following Paper ID and Roll No. to be filled in Answer Book) Rack
+your ii) Trash
+PAPER ID : 120757 ii) Surge Tank
+iv) Penstock
+Spillway.
+hydraulic turbines and explain any one of them.
+B.Tech. Classify -
+(10%2=20)E
+(SEM. V4) (ODD SEM.) THEORY Attempt any two parts differents
+= (a) What is a nuclear reactor ? Explain its
+EXAMINATION, 2014-15 = with neat diagram. How it is controlled
+POWER STATION PRACTICE components
+5 nuclear power plant ? wit
+(b) Explain the operating principle of gas turbine plant
+Time _ 3 Hours] [Total Marks 100 the help of neat diagram. How its efficiency can b
+improved ? Explain any one method in detail ?
+working of diesel plant with the help of block
+Note : Attempt all questions. (c) the and
+diagram. Also mention its advantages, disadvantages
+applications.
+A
+— Attempt any four parts : :
+(a) What are the different types of electrical energy > 5 :
+? Explain Attempt any two parts
+resources (a) What are the different types of substations ” ?
+(b) Draw general layout and explain operation of ° 5 Also explain different type of bus-bar
+power plant. (b) Define the following terms related to power pl
+Explain advantages disadvantages thermal
+(c) and of power economics :
+plants. i) Load curve
+(d) Classify hydro-electric plants. i) | Demand factor
+ii) Load factor
+Capacity factor
+iv)
+vy) Diversity factor.
+120757] 1 { Contd... 120757] 2 | Contd...
+aktuonline.com aktuonline.com
+uptuonline.com uptuonline.com
+A generating station has a maximum demand of 25MW, 5 Attempt any four parts : (5x4=20)
+load factor of 60% and plant capacity factor of 50%. (a) Write in brief about the power crisis and its remedial
+a measures in Indian power sector
+Find : (b) Explain thermionic and thermoelectric converters for
+i) Average demand direct conversion of solar heat to electricity.
+i) Plant capacity (c) Explain the principle of MHD generation. Also explain
+ii) Reserve capacity its advantages
+Describe layout of wind generation
+iv) Daily energy produced. (d) power Also derive
+(c) What are the causes and effect of low power factor ? the output power equation of wind turbine.
+What are the advantages of high power factor ? Explain © What is geothermal energy? How it is utilized for power
+method for factor improvement. 5 generation?
+any one power s 6 Define tidal energy and tidal barrage. Name different
+= tidal power schemes.
+Attempt any two parts : (10x2=20) ©
+woo (a) What do you understand by economic load scheduling ? o
+Explain, and derive co-ordination 5
+equation :
+i) neglecting transmission tosses and
+ii) considering transmission losses.
+(b) Assume that the fuel inputs per hour for units 1 & 2
+given
+are by : x
+F,=0.2P,7+ 40P, +1 80Rs./hr —
++ 30P, + 160Rs./hr So
+The maximum and minimum loads the units =
+on are i
+wos 120 MW and 20 MW respectively. Determine the wos
+minimum cost of generation when 180 MW load is —)
+supplied for 24 hrs. Neglect the transmission losses. If 5
+the load is equally shared by both the units, determine
+savings
+the obtained by loading the units as per the equal
+incremental production cost.
+(c) Explain hydrothermal scheduling with various power
+system constraints.
+120757] 3 {| Contd... 120757] 4 [| 2525 |
+aktuonline.com aktuonline.com

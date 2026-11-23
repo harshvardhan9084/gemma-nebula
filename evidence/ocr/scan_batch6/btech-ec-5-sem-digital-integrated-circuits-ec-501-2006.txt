@@ -1,0 +1,101 @@
+02357
+Printed Pages—4 EC—501
+B.Tech.
+FIFTH SEMESTER EXAMINATION, 2005-2006
+DIGITAL INTEGRATED CIRCUITS
+Time 3 Hours Total Marks 100
+: :
+Note: (i) Attempt ALL questions.
+(it) All questions carry equal marks.
+(iii) Be precise in your answer.
+1. Attempt four of the following (5x4=20)
+any parts :
+(a) A current pulse of amplitude I is applied to a
+parallel scale RC (approximately) circuit as shown in figure forms below, of plot
+i. to for the (i) RC wave (ii) t=RC and currents
+(iii) t > RC cases t<
+Lp
+Cc
+(b) A symmetrical square wave of peak-to-peak
+amplitude V and frequency fis applied to a high pass
+RC circuit. Show that percentage tilt is given by
+/RC
+Tre j- * 200%
+= .
+EC—501 [Turn Over
+1
+(c) A ramp as shown in figure is applied to a RC
+differentiates. Draw the output waveform for the
+cases :
+(i) T=RC
+(ii) T=0.2 RC
+(iii) T=5RC
+(d) that for
+Prove the from same both input differentiating and with-circuits circuits at rest, will
+be output if RC=L/R’.
+same
+I I + | I +
+© ‘
+R -4 L
+{e) | Why integrators preferred differentiates
+in analog computer are applications. over
+(f) all? compensation Draw is required of in attenuator compensated at
+and under compensated step responses over and explain.
+attenuators
+2. Attempt any four parts of following : 5x4=20
+(a) Compare the relative merits of N MOS, C MOS,
+TTL and ECL logic families.
+(b) Draw the circuit diagram of a TTL NAND gate
+and explain its operation.
+EC—501 2
+(c) Draw the circuit diagram of a CMOS NOR gate,
+explain its operation and enumerate five desirable
+properties of CMOS gates.
+(d) Draw the circuit diagram of a ECL OR/NOR gate,
+explain its operation and discuss the significance
+of reference voltage.
+(e) For the circuit shown below, find output boolian
+expression for Y and hence deduce the truth table.
+oY
+A Vo
+MN, v,=B
+U=Y
+(f) List and discuss four advantages and four
+disadvantages of a the ECL gate.
+3. Attempt any two parts of following : 10x2=20
+(a) What do you mean by universal shift register ?
+Draw the circuit diagram of a universal shift
+resistor and explain its working with timing
+diagram.
+(b) What is the difference between serial and parallel
+transfer ? Explain how to convert serial date to
+parallel and parallel data to serial. What type of
+register is needed.
+The content of a 4 bit register is initially 1101. The
+register is shifted to six times to the right with
+serial input being 101101. Tabulate the content
+of each register after each shift.
+[Turn
+EC—501 3 Over
+(c) For the figure shown below, derive the flip-flop
+input equations for J and K in terms of L, C and I.
+Explain the working of circuit.
+4. Attempt any two parts of following :
+(a) Differentiate between DRAM and SRAM. Draw
+the logic diagram of a memory cell (RAM) and
+explain its working with read and write timing
+diagram.
+(b) Draw the wiring diagram of 256K byte ROM bank
+using 32KxX8 ROM chip and mention
+(i) Number of address lines (ii) Specify decoder.
+(c) Draw the circuit diagram of Schmitt trigger circuit
+using 555 explain its operation with suitable
+waveforms. Enumerate the application of this
+circuit.
+5. Write short notes on any three of following : 20
+(a) Multiplexer and Demultiplexer
+(b) PLA and PAL
+(c) SPLD and CPLD
+(d) As table and stable multivibrator
+(e) BiCMOS digital mono circuit.
+EC—501 4 11150

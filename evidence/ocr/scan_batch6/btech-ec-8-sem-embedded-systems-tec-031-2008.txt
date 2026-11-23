@@ -1,0 +1,64 @@
+* u - 0 3 8 7 / 1 5 5 0 *
+Printed Pages : 2 TEC-031
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0387 Roll No. |
+B. Tech.
+(SEM. VII) EXAMINATION, 2007-08
+EMBEDDED SYSTEMS
+Time : 3 Hours] [Total Marks : 100
+Notes : (1) Attempt all questions.
+(2) All questions carry equal marks.
+(3) Be precise in your answer.
+(4) No second answer book will be provided.
+1 Attempt four parts of the following
+(a) Write any the benefits of choosing single :
+general-purpose a purpose processor
+(b) Explain over a embedded processor.
+(c) Classify the embedded system into the small scale,
+medium scale and sophisticated system
+(d) Write different applications of embedded systems.
+(e) Explain in brief the software design tools for system.
+embedded
+(f) Explain system. the following:
+(i) Design life
+(u) cycle
+Design parameters of an embedded system
+2 Attempt any four parts of the following:
+(a) Explain Watchdog timer
+(b) Explain hardware digital circuit parameters for embedded
+systems.
+(c) Explain how DSP chips used as embedded system.
+U-0387) M4 [Contd..
+(d) What are CISC and RISC processors?
+(e) Explain the various architectural features of 8051 Micro-
+controllers.
+(f) are Harvard and Von-Neumann architectures?
+Write their merits/demerits.
+3 Attempt two of the following :
+(a) Explain any the parts addressing modes of 8051 with suitable
+examples.
+(b) Explain brief:
+(@) 8051 in serial communication programming
+(i) 8051 Interrupt programming
+(c) Write for the following:
+@) Addition 8051 program
+of two BCD numbers
+(i) Multiplications of two Hex numbers.
+4 Attempt any two parts of the following :
+(a) Differentiate RTOS and typical operating system. Describe
+any three requirements of real time system.
+(b) Explain (RTOS)
+(@) Preemptive scheduling
+(1) Message queues and mail boxes.
+(c) Draw the architecture of 80486 Microprocessor and
+explain the function of each block.
+5 Attempts any two parts of the following :
+(a2) Howwill you interface an ADC and DAC with 8051?
+Explain with suitable example.
+(b) Explain the following :
+(i) DMA
+(i) Keyboard and display interface.
+(c) Write short notes on the following:
+Protocol
+(i) Multilevel bus architecture
+2 [ 1350

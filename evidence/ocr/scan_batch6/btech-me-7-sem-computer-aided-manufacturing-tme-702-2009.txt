@@ -1,0 +1,75 @@
+{e) Discuss the fgjors
+that must be considered in Onmen
+the slection of transfer-device.
+(f) Give a list of some of the typical micro- Printed Pages : 4
+mechanical systems. What are their areas of e filled in
+applications ? your Answer Book)
+Rolo
+Attempt B. ‘Tech.
+any two parts : 10x2=20
+(a) Give atleast 5 applications of robots in each of . (SEM. VI) EXAMINATION, 2068-09
+the following operations : we COMPUTER AIDED MANUFACTURING
+(i) Materials handling and transfer
+(i) 2 Hours] [lotat Marks ; 160
+Note: (i)
+(ui) Assembly and inspection - Ali Guestions carry equal marks.
+(iv) Storage and retrieval Attenipt ail questions.
+Explain the methods of powered lead-through and {iti) Any not gi®en can be assumed suitadbiy.
+manual lead-through programming of robots. What
+problems encountered in powered-lead through
+nny are 9
+prog" am context Gi 5x4=26
+(c) In the of robotic arm joints, explain what ) 7 In factory operations, list the situations where
+is meant by control resolution, accuracy and manual labor is usually preferred over automation.
+repeatability ? (b) Explain the basic differences
+One of the joints of a certain industrial robot CNC machines. between NC and
+has L Type joint with a range of 0.5m. The bit
+storage capaicty of the robot controller is Discuss why CNC machines have better accuracy
+10 bits for the joint. The mechanical and productivity compared to conventional machine
+form normal distribution with errors tools.
+and SD a 0.06 What is mean = 0 (d) List out the advantages and disadvantages of NC
+of this joint = mm. the repeatability systems. Under what circumstances of NC
+? would be nreferred ? use
+(e) With the help of sketch,
+a neat the
+positioning “Bow tool
+control is achieved machine feed
+in such cases ?
+4 [R-1150] i
+(1) Uive isi OF advanced 3 foar
+available in some of the CNC machines. Give (a) Briefly any describe parts the : function
+a brief description of atleast two of the functions. in CNC machine of DC serva-drive
+2 Attempt two tools.
+(a) List any the advantages parts : of computer-aided (b) Discuss the advantages and disadvantages of
+programming. What factors must be considered part in stepper motors. Why seperate motors | are used
+the selection of programming system ? Discuss. for driving different axes ?
+(b) Write a in word-address format, to drill (c) Discuss the basic requirements of feed-drives
+3 holes a ina program plate, 15mm thick shown in Fig. 1, zin CNC machine tools.
+150mm/min, drill speed as 1400 Drill (d) ‘Describe how a precise control of servo-motor
+= 10mm. = rpm. ® speed is achieved through the use of tachometers.
+- Discuss the advantages, disadvaritages and
+possible areas of applications of adaptive
+controls for NC machine.
+(f) In order to machine semi-circular plate,
+Suuter-clockwise a interpolation is
+be performed. Using the following data specify to
+the of the first
+polygon approxitmating 4 vertices of the
+the desired circle.
+Fig. | Center point co-ordinate = 25, 25
+(c) Prepare APT for milling mild steel 4 tolerance
+an program a four arts .
+plate as shown in Fig. 2. Milling cutter size = P
+20 mm dia., Set point Co-ordinates 0, 0, -25. (a) Define what is group-technology. Enumerate its
+Spindle speed = 2000 rpm, feed = 300 mm/min. benefits and disadvantages. .
+(b) Describe the technique of production flow analysis
+¢ @ as employed for past grouping. What are its
+benefits over coding and classification ?
+(c) Differentiate between cellular
+: ~~ flexible manufacturing and
+manufacturing. Indicate their areas of
+application.
+(d) What are the advantages of CAPP ? Describe
+the salient features of variant type of
+system
+0401] 6 toe 2 0401} 3 (Contd...

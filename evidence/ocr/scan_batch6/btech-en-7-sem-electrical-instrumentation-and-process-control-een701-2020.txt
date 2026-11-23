@@ -1,0 +1,46 @@
+Printed Page 1 of 1 Sub Code: EEN701
+Paper Id: 121710 Roll No:
+B.TECH
+ELECTRICAL (SEM-VIT) INSTRUMENTATION THEORY EXAMINATION AND PROCESS 2019-20 CONTROL
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+a. Compare Transducer & Inverse Transducer with example.
+b. Draw characteristics of RTD.
+c. Explain peltier effect in thermocouple?
+d. What are the factors to select the Transducer?
+e. What are different media in telemetry system?
+f. Explain features of modern digital data acquisition system.
+g. Explain the recording mechanism on digital tape recorder.
+h. Compare transducer with sensor.
+1. What is the process control?
+j. Write advantages of Integral Controller.
+SECTION B
+Attempt any three of the following: 10x3=30
+Explain How Piezo -electric crystal used as Transducer & Derive relation between voltage
+sensitivity & charge sensitivity.
+www.aktuonline.com With the help of neat sketch explain different types of Liquid Level Meters also write its
+advantage & disadvantages.
+Draw the block diagram of Telemetry system also explain its types.
+Write short note on Smart Sensor.
+Compare Electronic controller with pneumatic controller.
+SECTION C
+Attempt any one part of the following: 10x1=10
+Write short note on Thermocouple, write temperature range of different material - wire use
+Describe in it. construction and working of L.V.D.T with advantage and disadvantages.
+Attempt any one part of the following: 10x1=10
+Explain different type of strain gauges along with their principle of operation.
+Write short note on Hall Effect based transducer.
+Attempt any one part of the following: 10x1=10
+Draw the block diagram for frequency division multiplexing; what are advantages of
+Explain frequency Analog modulation? & Digital Acquisition with the help of Block Diagram.
+system
+Attempt of the following: 10x1=10
+What is any strip one chart part recorder? Explain its construction and working with its application.
+Explain Analogy of magnetic tape recording & its working principle.
+Attempt any one part of the following: 10x1=10
+What is the Principle of process control, Explain different elements used in process control?
+Compare Proportional, Integral, Derivative controller.
+Page 1 of 1
+http://www.aktuonline.com

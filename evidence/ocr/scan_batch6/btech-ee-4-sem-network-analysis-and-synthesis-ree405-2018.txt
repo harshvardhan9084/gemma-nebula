@@ -1,0 +1,85 @@
+Printed Pages: 02 Sub Code: REE405
+Paper Id: 120415 Roll No.
+B. Tech.
+(SEM. IV) THEORY EXAMINATION 2017-18
+NETWORK ANALYSIS AND SYNTHESIS
+Time: 3 Hours Total Marks: 70
+Note: 1. Attempt all Sections.
+SECTION A
+1. Attempt all questions in brief. 2x7=14
+Write two properties of Complete Incidence matrix.
+Write Hybrid parameters in terms of Z parameters.
+State two properties of the R-L driving point ImpedanceFunction
+Describe the following: Tree, Co-Tree, Twig, Link, Cut-set and Tie set.
+State and describe the properties of RL and RC DPI Network.
+State and describe thevenin theorem with suitable example.
+Describe complex frequency in brief.
+SECTION B
+2. Attempt any of the following: 7x3=21
+a. For the given reduced incidence matrix. Draw thegraph and hence obtain the
+f-cutset matrix
+1 0 -1
+0100-1
+-1010 0 -1 0
+b. For the network shown in Fig below drawthe directed graph. And also find
+number possibletree.
+a
+— AW |
+2 RI R34
+4 i
+Find = through — 50 — resistor using Thevenin's theorem.
+c. current
+102 22 50V
+d. Test whether the polynomial P(s) is Hurwitz or not.
+(i) s5 + 3s2 + 2s
+(ii) s4 + 5s3 +
+e. Find Y and Z parameters of the network.
+4Q 12 I
+1
+SECTION C
+3. Attempt any one/two part of the following: 7x1=7
+(a) the properties of RL driving point impedance function .Also realize the
+given network impedance function using Foster form I
+Z(s)= (s+1)(s+3) / (s+2)(s+4)
+(b) Explain the advantage of active filter in comparison to passive filter in detail.
+4, Attempt any one/two part of the following: 7x1=7
+(a) For the given network function, draw the pole zerodiagram and hence obtain
+the time I(t)
+response
+5s
++45 +8)
+(b) Design constant K low pass T and zsectionfilters to be terminated in 600 O
+having cut-offfrequency 3 kHz.
+5. Attempt any one/two part of the following: 7x1=7
+(a) Determine the in all the of the network shown in fig. using
+node analysis methodof currents the graph theory.
+10
+A
+(b) Explain following terms with reference to network topology
+(i) Tree
+(ii) Co-tree
+(iii) Incidence matrix
+(iv) Oriented graph
+(v) Twig and link
+6. Attempt any one/two part of the following: 7x1=7
+(a) Sketch the following signals:-
+i). t[U(t-1)-U(t-3)]
+ii). (t-4)[U(t-1)-U(t-4)]
+(b) In the circuit shown v(t) =2u(t) and = 2 amps. Find andsketch 12(t).
+1000
+1008
+7. Attempt any one/two part of the following: 7x1=7
+(a) State and prove the maximum power transfertheorem applied to the AC
+circuits.
+(b) Determine the current in capacitor C by the principleof superposition of the
+network shown below
+j
+-j
+[
+j2a
+http:/Avww.aktuonline.com
+2(C)
+CORRECTION IN REE 405 SCETION BQ 23.05.2018
+MORNING SHIFT
+Q2(C) FIND THE CURRENT THROUGH THE 5 (five) OHMS RESISTOR USING
+THEVENIN’S THEOREM?

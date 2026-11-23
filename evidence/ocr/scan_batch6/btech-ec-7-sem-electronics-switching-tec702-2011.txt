@@ -1,0 +1,87 @@
+Printed Pages—-3 TEC702
+Following Paper ID and Roll No. to be filled in your Answer Book)
+B. Tech.
+(SEM. VID) ODD SEMESTER THEORY EXAMINATION
+2010-11
+ELECTRONICS SWITCHING
+Time : 3 Hours Total Marks 100
+Note: (1) Attempt all questions.
+(2) All questions equal marks.
+carry
+(3) In case of numerical problems assume data whenever
+not provided.
+1. | Answer any two parts of the following : (10x2=20)
+(a) Define the basic elements of a switching system with the
+help of diagram. Discuss why digital telephonic is
+neat
+suitable for electronics exchange.
+(b) Discuss the blocking probabilities using Lee Graphs and
+define an expression for the blocking probability of a three-
+stage switch in terms of the inlet utilization P.
+(c) Enlist the various switching techniques in PSTN. Explain
+how packet switching is better than circuit switching for
+data communication system.
+2. Answer any two parts of the following : (10x2=26)
+(a) Explain the STS switching. Calculate the number of trunks
+can be supported on a time multiplexed space switch, given
+that (a) 32 channels are multiplexed in each stream,
+(b) control memory access time is 200 ns, (c) Bus
+switching and transfer time is 200 transfer.
+ns per
+TEC702/VEQ-15062 1 [Turn Over
+(b) Discuss a Digital Memory Switch in Time Division
+Switching. Determine the implementation complexity of
+the TS switch in Time switching matrix, where the
+number of TDM input space line N 80.
+= Assume each input
+line contain a single DS 1 signal (24 channels).
+(c) Write short notes on (1) TSSST Switch, (ii) No. 4 ESS
+Toll Switch.
+3. Answer any four parts of the following : (5x4=20)
+(a) Explain the traffic load and parameter for telephone
+networks.
+(b) A subscriber makes 3 calls of duration of 8, 2, 4 minutes
+a
+during 2 hours of day. Calculate the BHCA and Erlang
+capacity of the exchange if all its 5000 subscribers have
+same traffic per hour and CCR of 80%.
+(c) Discuss the Birth-Death process. Find out the equation
+which governs the dynamic of renewal
+process.
+(d) Explain the Delay line system in telecom traffic.
+(e) A traffic of 10E is offered to a group of trunks. It was
+observed that 5 calls were lost during busy hour and all
+the trunks remained busy for 16 sec. Find grade of service
+(GOS), traffic carried and average holding time.
+(f) It was observed that one call arrives every 8 sec. Find the
+probability that during a period of 8 sec (a) two calls arrive,
+(b) more than two calls arrives, (c) no call arrives.
+four of the following (5x4=20)
+4. Answer any parts :
+(a) Explain the concept of Centralized SPC and Distributed
+SPC with levels of processing.
+(b) What are various types of software used for SPC working ?
+TEC702/VEQ-15062 2
+Discuss the concept of reliability and availability
+conditions of processors in Telecom Exchange.
+(d) Explain the various techniques of providing redundancy
+in SPC exchange.
+(e) Enlist the various signalling techniques used in telecom
+networks. Explain Common Channel Signalling with SS7
+architecture.
+(f) Explain the important features and frame structure of
+HDLC.
+Answer any two parts of the following : (10x2=20)
+(a) Define TCP/IP. Explain the basic techniques used in packet
+switching for routing control.
+(b) Using block diagram discuss the following for LAN
+ways
+interconnect to implement a corporate wide area network :
+(a) Public X-2.5 Packet switching network, (b) Frame relay
+service.
+(c) Write short ATM Memory Switch. Determine the
+memory speed required for an ATM switch fabric using
+shared-memory architecture in of 12 STS-3
+support
+(OC-3) bidirectional ports.
+TEC702/VEQ-15062 3 9100

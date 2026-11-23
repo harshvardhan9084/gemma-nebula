@@ -1,0 +1,78 @@
+aktuonline.com
+Printed Pages—3 EOE—031/EOE—041
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0935
+B.Tech.
+(SEM IV) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+INTRODUCTION TO SOFT COMPUTING
+(NEURAL NETWORKS, FUZZY LOGIC AND
+GENETIC ALGORITHM)
+Time 3 Hours Total Marks 100
+: :
+Note: (i) Attempt all questions.
+(ii) All equal
+questions carries marks.
+1. Attempt any four parts :
+(a) Define Neural Network Architecture.
+(b) Give a comparison between Single layer
+Feed Forward Network, Multi-layer Feed
+Forward Network and Recurrent Network.
+(c) Discuss any three learning methods.
+& What Rosenblatt’s
+is Perceptron ?
+(e) Artificial Intelligence can be used in Neural
+Networks or not. Justify your answer.
+(f) Define Associative Memory and write down
+its applications.
+EOE—031/EOE—041 1 {Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+2. Attempt any four parts :
+(a) Define Single Layer Artificial Neural
+Network.
+(b) What do you understand by the term
+‘training of Neural Network’ ?
+(c) Discuss “Selection of various parameter in
+BPN.
+(d) What is adaptive Back Propagation ?
+(e) How Tuning Parameters affect the Back
+Propagation Neural Network ?
+(f} Define augmented BPN.
+3. Attempt any two parts :
+(a) Discuss What is Time detail. dependent How Crisp Fuzzy Logic Logic ?
+different from in Fuzzy Logic define ? is
+(b) Define the following :
+(i) Fuzzy to crisp conversion
+(ii) Properties of Fuzzy sets
+(iii) Linguistic variables
+(c) Discuss Fuzzy Artificial Neural Network in
+detail. Write down its application.
+4. Attempt any two parts :
+(a) Whatis Fuzzy Quantifiers ? Discuss in detail.
+Differentiate between Absolute and Relative
+Quantifier. Also define Fuzzification.
+(b) Define define Membership role and application. function in detail. Also
+its
+EOE—031/EOE—041 2
+aktuonline.com
+aktuonline.com aktuonline.com
+(c) Explain the following :
+(i) | Fuzzy interface
+(ii) Formation
+of rule based Matrix
+(iii) Yamakawa’s Air Conditioner
+controller.
+5. Attempt any two parts :
+(a) Define creation of offsprings in detail. Also
+and write down the working principle of GA
+application of GA.
+(b) Define the following :
+(i) Fitness function
+(ii) Genetic operator
+(iii) Cross
+over
+{c) Draw and discuss the Flowchart of GA.
+Also write down its importance.
+EOE—031/EOE—041 3
+aktuonline.com

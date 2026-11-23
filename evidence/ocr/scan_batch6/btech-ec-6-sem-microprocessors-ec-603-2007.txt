@@ -1,0 +1,77 @@
+i
+* v - 3 4 0 *
+Printed Pages : 3
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 3040
+:
+B. Tech.
+(SEM. VI) EXAMINATION, 2006-07
+MICROPROCESSORS
+Time 3 Hours] [Total Marks 100
+: :
+Note: (1) Attempt all questions.
+(2) All questions carry equal marks.
+1 Attempt four parts of the following: 5x4
+(a) Illustrate the general bus organization of a
+microprocessor.
+(b) Explain the function of Timing and Control unit
+of a general microprocessor.
+(c) How BIU of 8086 generates 20 bit address to
+access external memory ?
+(d) Describe Flag register of 8086.
+(e) Specify @) Bus cycle (ii) Machine cycle
+(iii) Instruction : cycle.
+(f) How registers of microprocessor different
+than RAM byte ? are
+a
+2 Attempt four parts of following : 5x4
+(a) Write a program in assembly language to
+generate a delay of 50 msec using LOOP
+instruction of 8086.
+V-3040] 1 [Contd...
+(b) Describe string instructions of 8086. How they
+useful ?
+(c) Distinguish are the following
+(i) and CALL instructions :
+Gi} RET and RETI instructions.
+(d) Write down the different of assembler
+directives of 8086. Explain types in details.
+any two
+Specify the location of operands and results
+when
+@) Division type instruction is executed
+(ii) Multiplication type instruction is executed.
+Indicate if any flag is affected in the above
+cases.
+(f) What is parameters and passing parameters ?
+3 Attempt two parts of following : 2x10
+(a) Specify the signals of 8086 used in maximum
+mode only. Explain the function of each of
+them.
+(b) What is demultiplexing ? Why buffers are used
+in microcomputer system ? What is the role of
+ALE pin ?
+(c) Enlist the various steps that 8086 takes to
+following an interrupt. What is interrupt vector
+table ? Specify the priority of various interrupts
+of 8086.
+Discuss the architecture of PIC 8259. What 2x10
+is EOL ?
+Describe serial communication through
+RS 232.
+(c) Explain with the help of timing diagram the
+operation of programmable timer 8253 in mode
+3 and mode 4.
+V-3040} 2 [Contd...
+Attempt four parts of following : 5x4
+(a) How will you interface two 4 K x 8 ROM
+and two 4 K x 8 RAM chips with 8086. Select
+suitable maps.
+(b) Why refresher circuit is required in Dynamic
+RAM ?
+(c) Enlist differences between Static RAM and
+Dynamic RAM.
+(d) Specify the salient features of Pentium processor.
+(e) Draw the architecture of any 8 bit microcontroller
+using block diagram indicating each component.
+(f) Enlist the limitation of microcontrollers.

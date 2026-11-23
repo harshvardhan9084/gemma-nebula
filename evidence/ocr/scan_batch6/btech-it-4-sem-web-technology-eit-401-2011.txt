@@ -1,0 +1,65 @@
+Printed Pages—2
+Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0113
+B.Tech.
+(SEM. IV) THEORY EXAMINATION 20108 ti
+WEB TECHNOLOGY, 3
+pial
+Time : 3 Hours O° Marks : 100
+Note :—Attempt
+parts ofthe
+1. Attempt any four ASS shia ing :— (4x5=20)
+(a) What are the similavitic differences between web
+projects and stand projects ?
+(b) What are the various Web development strategies ?
+Discuss.
+{c) Explain the security issues related to the Websites.
+(d) Discuss the accessibility issues while creating websites
+for individuals.
+(e) Explain the various application protocols for Internet.
+(f) Discuss the various steps to create a website.
+2. Attempt any four parts of the following (4*5=20)
+(a) Compare and HTML and XML showing their
+capabilities, limitations contrast
+etc.
+(b) Describe the mechanism of DOM and SAX parser
+with its architecture.
+(c) Write a program in Java script to build up a clock.
+(d) What is the difference between external and internal
+DTD ? Create a XML file which explains the attributes
+of phones using DTD.
+EIT40U/RFW-21339 i [Turn Over
+http:/Awww.onlineQP.com
+(e) What is style sheet ?
+creating style sheets ?
+(f) What is the difference between ID and class selector ?
+How will you group style rules ?
+3. Attempt any two parts of the following : (10x2=20)
+{a) What Java Beans ? Give its and explain
+what are the different phases in the types development of
+Java Beans. are
+(b) Explain EJB and its architecture. What are its different
+types ? Draw the classification of EJB.
+(c) Explain the mechanism of HTTP request and response
+in details.
+of following
+4. Attempt any two parts the :— (10x2=20)
+(a) What do you mean by JSP processing ? How JSP
+pages are handled ? Explain various JSP directives
+with suitable examples.
+(b) What does a Web Server do ? What is the criteria to
+choose a Web Server ? Explain the working of Apache
+server.
+{c) Explain the error handling and debugging mechanism
+in JSP in details.
+5. Attempt any two parts of the following : (10x2=20)
+(a) Explain the Javax.sql.* package in details.
+(b) Explain JDBC application architecture. What are various
+types of JDBC drivers ? Write steps to connect database
+with the web application using JDBC.
+(c) Design an automated entry of a user profile through a
+form using JSP struts Framework. Draw and explain
+the architecture of the Framework.
+EIT401/RFW-21339 2 14575
+http:/Awww.onlineQP.com
+*

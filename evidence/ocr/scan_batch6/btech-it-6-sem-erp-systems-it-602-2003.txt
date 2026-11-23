@@ -1,0 +1,116 @@
+aktuonline.com cS NY aktuonline.com
+|
+No. of Printed Pages—4 1T-602
+LIBRARY
+B. Rai TEC al of
+SIXTH SEMESTER EXAMINATION, 2002-2003
+ERP SYSTEMS
+Time : 3 Hours Total Marks : 100
+-~ Note: Answer ALL the questions.
+1. Attempt any FOUR parts of the following -— (5x 4=20)
+(a) Compare and contrast ERP systems with
+MIS. Also list important characteristics of
+ERP systems.
+() What are the advantages of ERP systems and
+how do ERP packages differ from
+conventional application packages ?
+What is an integrated information system?
+Why are integrated information systems
+important for the organization’s success ?
+(d) List the limitations of ERP systems. Write
+down three technologies that can help to
+overcome these limitations. Discuss the role
+of OLAP (On-Line Analytical Processing) in
+the successful implementation of ERP system.
+Discuss how supply chain management help
+in increasing the efficiency of ERP systems.
+What is BPR ? How does BPR differ from
+other management techniques and how is it
+connected to ERP ?
+TT-602 1 Turn Over
+aktuonline.com aktuonline.com
+2. Attempt any FOUR parts of the following :— (5x4=20)
+(a) Differentiate between the following :—
+(2) MRP and MRP I
+(it) JIT and Kanban
+(b) Define the following :—
+(7) Lead time
+(ti) BOM (Bill Of Material)
+(iii) DRP (Distribution Required Planning)
+(iv) MTS (Make-To-Stock) _
+(v) ETO (Engineer-To-Order)
+(c) Write down the name of five most common
+modules available in all ERP packages. Write
+down the sub-modules that a finance
+module of ERP system may have.
+(d) What are the factors to be considered when
+selecting an ERP package ?
+(e) Name three giants who provide the ERP
+solutions. any What is configure-to-order ?
+(f) What are the different phases of ERP
+implementation cycle ? the
+importance of pre-selection screening in the
+ERP implementation life cycle.
+3. Attempt TWO of the following ~
+any parts :—
+(a) Why is that a company cannot develop an
+ERP system in-house ?
+(b) What are ERP consultants and what are their
+roles ?
+(c) Why is the cooperation of vendors,
+consultants and end users vital for the
+success of an ERP implementation ?
+IT-602 2
+aktuodline.¢amempt of following
+any TWO parts the :—
+(a) What do you understand by E-commerce ?
+What is the impact of Internet and WWW on
+the ERP products ?
+(b) Which are the new markets and channels
+explored by the ERP vendors ? Why are ERP
+vendors trying faster implementation
+methodologies ?
+~~ (c) What are critical success and failure factors
+of ERP ? Discuss.
+5. Attempt any TWO parts of the following :— (10x 2=20)
+(a2) Enterprise Resource Planning is a dynamic
+‘TT’ management tool. Discuss critically.
+(b) Mercedes-Benz Mexico S.A. de C.V. (MBMex)
+assembles, Mercedes-Benz and Freightner
+trucks and C-and E-class cars and engines
+for the Mexican and South American
+marketplace. A sister plant-Mercedes-Benz
+Omnibuses (MBBus),
+assembles Mercedes municipal buses in
+partnership with Caio of Brazil.
+Mercedes-Benz brought in SAP R/3 to
+meet the most pressing issue in its market-
+place-rapid response to customer requests for
+custom configured products. The companies
+MBMex and MBBus get component parts
+and from Brazil suppliers and in kits Mexico, from the Germany, United which States
+they then custom assemble for their
+distributors and fleet customers. The most
+important issue is to have units available for
+their customers in the configuration in which
+they are required. Associated with that is
+compressing time to their users.
+IT-602 3 Turn Over
+aktuonline.com
+aktuonline.com answeraktyonline.com
+Study the above case and
+following :—
+(i) For what benefits has the company
+opted the SAP R/3 package ?
+(ii) What can be the solution for the above
+case ?
+(iii)
+What for the can solution be the ? hardware requirements
+(iv) What can be the software requirements
+for the solution ?
+(c) In a world where customers are new
+partners, it seems that businesses must put a
+tremendous amount of faith in an entity they
+don’t really control. Is there not an inherent
+danger in all of this partnering ? Discuss.
+aktuonline.com

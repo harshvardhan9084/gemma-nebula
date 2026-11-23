@@ -1,0 +1,101 @@
+aktuonline.com
+I ll ll
+TEES03
+Printed Pages : 3
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 2057.
+B.Tech
+(SEM VY) ODD SEMESTER THEORY EXAMINATION 2009-10
+ELEMENTS OF POWER SYSTEM
+Time : 3 Hours] [Total Marks : 100
+=
+Note : all questions.
+1 Attempt any four of the following : 5x4=20
+(a) What do you understand by single line diagram
+of a power system ? What is the need of this
+diagram ?
+(b) Justify the need of using Isolator in addition
+circuit breaker ? How an they operated
+to a are
+while breaking and while making a circuit ?
+(c) Discuss about the factors affecting choice of
+transmission voltage level.
+(d) Compare HVDC with HVAC transmission on
+at least 5 major grounds.
+Which material is used for overhead line
+(e)
+conductor ? Discuss the reasons for selecting
+that material.
+(f) Explain difference between skin effect and
+proximity effect.
+JJ-2057) [Contd...
+2 Se
+aktuonline.com
+aktuonling.com,
+Attempt any two of the following
+(a) Starting from first principles, derive the expression
+for inductance of a 3 phase unsymmetrical spaced
+transposed transmission line.
+(b) Explain briefly about the following
+(i) GMD
+(ii) Bundled conductors
+(ii) Double circuit lines
+(iv) Transposition
+(c) Derive the expression for sending end voltage and
+in of receiving end voltage and
+current for terms long transmission lines. What do
+current by the you
+understand “Characteristic Impedance"
+and "Propagation Constant" in it ?
+3 Attempt any two of the following 10x2=20
+(a) Write and explain the expression for power
+loss due to corona. What factors affect the
+corona loss ?
+a
+(b) In string insulator having 5 units, the self
+capacitance of insulator units is 6 times to that
+between a unit and earth. Obtain the potential
+distribution across each unit in the string as
+percentage of potential of conductor with respect
+to earth. Also find the string efficiency. ~
+(c) Describe about the following in brief :
+(i) String insulators
+(ii) Pin insulators
+Strain insulators
+(iv) Shackle insulators
+(v) Methods of reducing corona.
+14-2057) 2 [Contd...
+aktuonling.com altugaline.com
+Attempt any four of ‘the following -
+(a) What is the use of a sag template ? Describe
+it in detail.
+(b) Derive the expression for sag when the conductor
+is supported by supports at equal height.
+(c) Why is capacitance grading required in cables ?
+How is it done ?
+(d) Discuss in brief about the types of cables.
+(e) Why do the vibrations get generated in
+conductors ? How are they damped ?
+(f) Derive the formula for insulation resistance of
+cable. Calculate insulation resistance of 5 km a
+length of single cable whose
+5x16!4 core insulation
+resistance is ohm. cm, insulation
+thickness is 1 cm and radius of conductor is
+1.25 em.
+Attempt any two of the following - 10x2=20
+(a) What is the need of grounding the neutral ?
+Describe briefly the various grounding techniques.
+(b) Describe the various conductor configurations
+and choice of number of circuits for EHV
+transmission lines.
+(c) Answer the following :
+(i) Resonant grounding
+(ii) Relative merits and demerits of EHV
+transmission
+system
+}
+3 [5200
+aktuonline.com
+aktuonline.com aktuonline.com
+aktuonline.com

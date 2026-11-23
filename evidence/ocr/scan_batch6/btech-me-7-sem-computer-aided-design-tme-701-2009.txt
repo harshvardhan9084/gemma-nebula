@@ -1,0 +1,103 @@
+ia aktuonline.com
+Printed Pages : 4 TME-701
+B. Tech.
+(SEM. VII) EXAMINATION, 2008-09
+COMPUTER AIDED DESIGN
+Time 3 Hours] [Total Marks 100
+: :
+Note : (1) All questions are compulsory.
+(2) Assume any missing data suitably.
+1 Attempt only four parts §x4=20
+(a) are the various display devices that are used
+for displaying information ? List their merits and
+demerits.
+(b) Explain two of the following terms
+any :
+(a) Screen butter
+(b) Scanning
+(c) Video RAM
+(d) OOP in C++.
+(c) Write the output of the following C-program with
+explanation :
+0400]
+aktuonline.com
+aktuonline.com aktuonline.com
+# <stdio.h>
+main ( )
+{
+int x;
+for (x = 1, x < = 10; x++)
+{
+if (x == 5)
+continue;
+print f ("%d", 'x');
+}
+j
+(d) What are the activities of CAE ? Discuss.
+(e) Discuss various coordinate systems used in a
+CAD system.
+(f) Write a brief note on liquid crystal display.
+Attempt four 5x4=20
+any parts ;
+(a) Digitise the line with end points (18, 8) and
+(2.5,15) using DDA algorithm.
+(b) Explain the midpoint circle algorithm for raster
+display. ~
+(c) Rotate an object defined by A (0,0), B (1,0),
+C (1,1) and D (0,1) by 45° about origin.
+(d) Expiain the composite transformation.
+(e) Briefly discuss the plasma panel display.
+(f) Find the reflection matrix when the axis of
+reflection is line
+y= 2x.
+0400] 2 [Contd...
+ktuonline.com
+aktuonline.com aktuonline.com
+3 Answer any two parts 10x2=20
+(a) What are Bezier curves ? Discuss about the
+properteis of such curves.
+(b) Write short notes on :
+(i) | PHIGS and IGES standards
+(i) Features of a CAD workstation.
+(c) What is Constructive Solid Geometry (CSG) ?
+Discuss its features.
+4 Attempt 10x2=20
+(a) Write any two C/C++ parts : design axle.
+T (b) Briefly a explain how program following to commands an work in
+Auto CAD :
+(i) Rotate
+(i) Array
+(iti) Trim.
+(c) Amild steel shaft is required to transmit 100 kW
+at 500 rpm. The supported length of the shaft
+is 3m. It carries two pulleys each weighing
+1500 N supported at a distance of 1m from the
+ends respectively. Determine the shaft diameter
+if allowable shear stress for shaft material is
+60 N/mm?.
+5 Attempt any two parts ; 10x2=20
+(a) Determine the extension of bar shown in figure
+due to self weight. Given 6, =180mm,
+by =80 mm, t = 20 mm, Material of bar is
+steel with and
+P = 7800 Use the bar as two elements
+of equal length and self weight of each element
+acting of the nodes 2 and 3
+0400]
+3 [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+|
+500 mm
+E 105 N/mm?
+P = 7800 Kg/m3
+13
+(b) From the following data, obtain Y as a linear
+function of X using the method of least square :
+[2a [35
+(c) Find the solution to the equation
+e* = 0 withina tolerance ¢ 0.02
+=
+using Newton's Raphson method.
+[3500
+a ———— —= ——

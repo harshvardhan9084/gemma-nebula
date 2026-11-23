@@ -1,0 +1,55 @@
+2
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 2897
+:
+B. Tech.
+(SEM. THEORY EXAMINATION 2011-12
+DATA COMMUNICATION NETWORKS
+Time : 3 Hours Total Marks : 100
+Note :— Attempt all questions. Ail questions carry equal marks.
+|. Attempt any four parts : (5x4=20)
+(a) Differentiate between circuit switching and packet switching
+using suitable diagram.
+(b) ‘Write short note on Ethernet.
+(c) Explain OSi reference model with suitable diagram.
+(d) Differentiate between FDM and TDM giving suitable’
+examples.
+Write short note transmission media.
+on
+(f) What do you understand by connection oriented services ?
+Compare it with connectionless services giving suitable
+examples.
+to Attempt any four parts : (5x4=20)
+(a) Why do we use layered protocols ? Give at !east two reasons.
+(b) Explain in short IEEE standard 802 for LAN.
+EC809/PUR-40344
+[Turn Over
+uptuonline.com
+uptuonline.com
+(c) Write short notes on error control and flow control.
+(d) Explain framing in detail.
+(e) What are the major problems in allocating the channel ?
+(f) Explain ALOHA in detail.
+3. Attempt any two parts : (2x10=20)
+(a) Explain in detail virtual circuit and datagram subnets.
+(b) What do understand by Routing Algorithms ? Write
+you
+and explain any one of Routing Algorithm.
+(c) Explain in detail different types of Bridges. Write short
+notes on Routers and Gateways.
+4. Attempt any two parts : (2x10=20)
+(a) What are the different elements of transport protocols ?
+Also explain how do we establish a connection.
+| Explain
+(b) with the heip of suitable diagram the TCP Segment
+Header. Also explain TCP Connection Management.
+(c) Discuss design issues for the Transport Layer.
+|
+5. Attempt any two parts : (2x10=20)
+| (a) Explain the relationship between Data Rate and
+Bandwidth. Also explain synchronous data communication
+with relevant examples.
+(b) What is the use of Bit stuffing in data? What do you mean
+by pipe lining ? Explain it with suitable examples.
+{c) Write short notes on DNS and HTTP.
+uptuonline.com 6675

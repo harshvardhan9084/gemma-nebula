@@ -1,0 +1,89 @@
+Printed Pages: 6 EEC-304
+7
+(Following Paper ID and Roll No. to be filled in your
+Answer Book)
+Paper ID: 131324
+(SEM. THEORY EXAMINATION, 2015-16
+FUNDAMENTALS OF NETWORK ANALYSIS AND
+SYNTHESIS
+[Time:3 hours] {Total Marks: 100]
+Section-A
+Attempt all All equal marks. Write
+_ parts. parts carry
+answer of each part in short : (2x10=20)
+(a) Define ‘initial value’ and ‘final value’ theorem.
+(b) Define reciprocal network.
+(c) List three properties of positive real function.
+(d) Enlist the two important properties to recognize
+an R-C impedance in synthesis.
+(e) Explain an exponential function.
+2200 (1)
+(f) Write the condition of symmetry in terms.of Z, Y, 3. Determine the equivalent Norton Network at the
+terminals b
+hand T parameters. a and of the circuit shown in figure-1.
+(g) Differentiate between active and passive filters.
+described
+. (h) Show that the by the transfer function
+H(S) 1 a] is a
+(s? + 1)(s? +1.84776s +1)
+Low Pass Filter.
+(i) Determine the range of constant ‘K’ for the
+polynomial to be Hurwitz Figure.1
+P(s) 3s? + 28+K
+. 4. The switch K shown in figure-2
+(j) Write the properties of transfer functions. is in the Steady state in
+. position a for At t = 0, it is connected to
+Section-B | “position b. Find i,(t), t >0
+Note: Attempt any five questions from this section :
+(10 x 5 = 50)
+Derive
+2. Explain the concept of reciprocity and symmetry.
+the above conditions for h and ABCD parameters.
+_
+EEC-304 2200
+2200 (2) (3) PT.O.
+LC network terminated in 1 given that
+Find 8.  Synthesize an
+2
+(a) Therms. value of the square-wave shown in figure- a(S)
+3. Show that the voltage ratio transfer
+the circuit having 9: function of the ladder
+(b) The average power for network shown in figure-4 is given by
+Zin=1.05-0.67 j Q when the driving-current is 40-
+3jA. 8s?
+_
+V(S)
+2F
+Figure.3
+| |
+34.257 +3541
+whether the function . F (S)=
+6. Determine . Figure.4
+is positive real or not.
+whose driving point Section-C
+7. a ladder network
+25° +16 Note : Attempt any two questions from this section.
+function is given by Z(S)= (15x2=30)
+impedance
+(4) EEC-304 2200 ° (5) PT.O.
+2200
+10. Express the impedance Z(s) for the network shown in
+figure-5 in the form :
+Z(s)=K N(s)
+a
+Plot its poles and zeros. From the pole-zero plot, what
+can you infer about the stability of the system ?
+s* 12
+15
+Figure.5
+11. Consider the system function 2(s)=
+~
+Synthesize
+:
+(a) AnR-Lnetwork
+(b) AnR-C network
+Find the poles of system functions for low pass filter
+with n=3 and n=4 Butterworth characteristics. (Do not
+the tables).
+use
+2200 (6)

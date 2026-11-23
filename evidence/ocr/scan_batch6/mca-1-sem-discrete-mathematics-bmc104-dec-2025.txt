@@ -1,0 +1,87 @@
+Page: | of 2
+| Subject Code: BMC104
+Roll No:
+MCA
+(SEM Il) THEORY EXAMINATION 2025-26
+DISCRETE MATHEMATICS
+Note: Attempt all Sections. M.MARKS: 70
+In case of any missing data; choose suitably.
+SECTION
+questions in brief, A
+Question TCO 02x7=14 Level
+ha
+b. a, {ls | Detine function Multiset f: R > R, detined as f(x) = [x] +x, eee one to one? Reason? _
+Define Lattice with an example,
+_{ and Complete lattice. KA
+taken Use quantifiers Discrete in to express the statement “All also students write its in the class have
++ State the a Lagrange's theorem Mathematics” and
+with reference to Group theory,
+Test whether the permutation mutati ( 12345 14352 is 6); even permutation i or odd
+Tmutation? '
+Use Pigeonhole principle to find the minimum of students in
+class to be sure that four out of them are born in me month, a
+2. Attempt any three of the following: 7
+Let R be a y): relation yis in a set of intege
+equivalence relation X— parle divisible b © Z}. Justify that R is an
+Convert the Boolean or [(xy’ relation in Z, into
+nonnal form and Conjuncti exp n Disjun
+Check the validity of the following argument: ‘
+If 2 is an odd number then 4 does not divide 10. Either 11 j prime
+number or 4 divides 10. But 11 is a prime number, is an even
+number,
+Prove that the set of all positive rational _ numbers orms an abelian
+group under the operation definedas OF
+Solve the following Recurrence relation: Vy ,
+=r+2 given 1 https:!/www.pygonline.com
+=
+s 4 ONC
+3. Attempt any one part of the ng: 07x1=07
+a. is function f:R > R, give (x) = cosx, bijective? Justify. _
+(ii) Leta function: by f(x) = x? then find
+and
+EAB Cus tice wis
+b. ca
+4. Attempt any one part of the following:
+fa. [Let A = 9, 12, 18,24) be any set. The relation ’ < in set
+A is defined as x < y when x divides y.
+Is the set (A, < ) partially ordered set poset)? If yes, draw the Hasse
+1|Page
+384 | 26-Dec-2025 9:01:29 AM |
+https://www.pygonline.com
+4
+A Printed Page: 2 of 2
+- Subject Code: BMC104
+poll No:
+MCA
+(SEM I) THEORY EXAMINATION 2025-26
+DISCRETE MATHEMATICS
+_TIME: 3 HRS _ M.MARKS: 70
+| diagram for this poset and hence list all the maximal, minimal, greatest
+and elements of the poset .
+| b. | Draw a logic gate circuit for the following Boolean expression:
+| (a+
+Also draw a circuit for the minimized form of above expiession.
+5. Attempt any one part of the following: 07x 1=07
+a. | Test whether the statement p=>(~q Vr) _ is a tautology or
+contradiction cr a contingency. |
+| Also, test whether Vr) = >~q)
+Define quantifiers and its types with suitable examples. Translate each of | 3 K2
+predicate the following symbols: statements into symbols using quantifiers, variables and
+(i) There is student who speak Tamil and who knows C + +
+(ii) There is a a student who can can speak Tamil but does nct know C + + |
+(iii) Every student either can speak Tamil or ++
+(iv) No student can speak Tamil or knows C + | ay
+in’ 4
+6. any one part of the follow’ 07 DBS
+a. | If R be a group of real numbers un ition and let be the group of |
+nositive real numbers under mut jon. Let R R* be defined a
+(x) = e* then show that f is mo hism.
+Prove that the set R = {a addition
+ring with unity with respect to usual and multiplication.
+7. Attempt an one part of the following:
+| n*>(2n+1) forn23 by | |
+Find Generating functions of the following numeric ns KB
+a, (ii) b, = (-1)"(n+2) (nt n>0 5 |
+26-Dec-2025 9:01:29 AM | 49.36.208.246
+QP26DP1 384 |
+https://www.pyqonline.com

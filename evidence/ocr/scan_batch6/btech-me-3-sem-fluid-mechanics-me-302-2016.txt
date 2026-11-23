@@ -1,0 +1,70 @@
+Printed Pages : 5 272 ME-302 (f) Define computational fluid dynamics (CFD) and
+(Following Paper ID and Roll No. to be filled in State its applications.
+Answer Book) your
+(g) Whatis the water hammer?
+Paper ID : 140312
+(h) Define the concept of separation of boundary layer
+B.Tech. with help of neat sketch.
+(SEM. THEORY EXAMINATION, 2015-16
+(i) Give some applications based on Bernoulli’s
+FLUID MECHANICS equation.
+Time : 3 hours] [MaximumMarks 100
+: G) Distinguish between
+the laminar and turbulent flow.
+Section-A
+Section-B
+1. Attempt all sections. All sections carry equal marks.
+Write answer of each section in short. 10x2=20 Note: Attempt any five questions from this section.
+10x5=50
+(a) Define cavitation.
+Q2. Ifthe velocity profile over a plate is a parabolic curve
+(b) State Pascal’s Law and give some examples where with the vertex 20 cm from the plate, where the velocity
+it is applied. is 120 cm/see. Calculate the velocity gradients and shear
+stresses at a distance of 0, 10 and 20 cm from the plate,
+(c) the importance of dimensional analysis? if viscosity of the fluid is 8.5 poise.
+(d) List out different losses in flow through pipes. Q3. Define the term surface tension
+expression for surface and derive the
+Howcan we define the term flow half body. tecsion on liquid droplet with the
+overa help of sketch.
+(1)
+P.T.O. (2)
+An inverted U-tube manometer is connected to two Q8. (a) diamter pipe carries water under a head
+horizontal pipes of 20 with velocity of 3.5m/s if the axis of the
+A and B through which water is flowing. m a
+The vertical distance between the axis of these pipes is pipe turns through 45°; find the magnitude and
+30 cm. When an oil of specific gravity 0.8 is used as a direction of the resultant force ar the bend.
+fluid, the vertical
+gauge heights of water columns in the -(b) If fora 2-D potential flow, the velocity potential
+two limbs of the inverted manometer (when measured is givenby =x (2y- 1) Determine the velocity
+from the respective centre lines of the pipes) are found at the point P (4, 5). Determine also the value of
+be and equal 35 Determine stream function _ at the point P.
+to same o cm. the difference
+of pressure between the pipes. Q9. Define the laminar boundary layer, turbulent layer,
+laminar sub-layer, boundary layer thichnes &
+What do you understand by total pressure and center of displacement thickness.
+pressure? Derive an expression for force exerted on a Section-C
+submerged inclined planed plane surface by the static
+liquid and locate the position of center of pressure.
+Note: Attempt any two questions from this section
+2x15=30
+Q6. Describe the governing equation of CFD. Comment on
+computational fluid dynamics as a design tol also discuss Q10.a) Define the term meta- center and meta- centric
+the advantages of CFD. height. Derive the expression for the meta- centric
+geight of a floating body.
+Q7. Determine the form of equation for the discharge Q ‘b) neat sketches, explain the conditions of
+through a sharp edged triangular notch that depends upon equilibrium for floating and sub-merged bodies.
+the notch head H, acceleration due gravity Central
+to g,
+angle @ and velocity of approach V.
+(3) P.T.O (4) ME-302
+Define
+Q11 following terms:
+a) Capillarity
+b) Kinematic viscosity
+c) Compressibility
+d) Vapour pressure
+e) Velocity Potential Function.
+Q12. Derive the expression for the shear stress, velocity
+distribution, pressure drop and head loss for viscous flow
+between two parallel plates.
+(5) ME-302

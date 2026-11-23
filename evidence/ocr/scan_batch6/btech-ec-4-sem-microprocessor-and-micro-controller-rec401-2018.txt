@@ -1,0 +1,38 @@
+Printed Pages: 02 Sub Code:REC401
+Paper Id: 132411 Roll No.
+B. TECH
+(SEM IV) THEORY EXAMINATION 2017-18
+MICROPROCESSOR AND MICRO-CONTROLLER
+Time: 3 Hours Total Marks: 70
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+1. Attempt all questions in brief. 2x7=14
+a. Write a program to add two 16-bit numbers in 8085.
+b. Define Pull-up /Pull -down resistor concept in MSP430 Micro -controller
+c. Explain Write down Immediate four and GPIO Indirect registers Register addressing modes in 8085 microprocessor.
+d. Draw and Explain any Flag Register model in 8085 microprocessor.
+f. e. Define functionality of WDTPW and WDTNMI
+g. Write a program to find 2’s compliment of a 16-bit number in 8085.
+SECTION B
+2. Attempt any three of the following: 7x3=21
+a. Draw and explain the PIN Diagram of 8085 microprocessor.
+b. How WDT (Watch Dog Timer) works in MSP430? Explain.
+c. d. Explain Explain SIM SPI protocol and RIM and instructions communication with their interface control with word MSP430. format.
+Explain 8279 Keyboard and its interfacing with 8085 microprocessors.
+e.
+SECTION C
+3. Attempt any one part of the following: 7Tx1=7
+a. Write a Program in 8085 to sort a series of numbers in Ascending Order.
+b. Explain the Architecture of 8085 microprocessor.
+4, Attempt any one part of the following: 7x1=7
+a. Interface 8085 microprocessor with 4Kb EPROM and 2Kb RAM using 3*8 decoder. Also
+write down the range of addresses for both EPROM and RAM.
+b. Interface 8255 PPI (Programmable Peripheral Interface) with 8085 microprocessor.
+5. Attempt any one part of the following: 7x1=7
+a. Draw and explain functional block diagram of MSP430x5x series
+b. Explain various addressing modes with example of each of MSP 430 series.
+6. Attempt Explain the any working one part of of the following: (Pulse width modulation) with its block diagram.
+a. b. What the various GPIO PWM resistors in MSP430x5xx? Explain each resistor in brief.
+are
+7. Attempt part of the following: 7x1=7
+What any the different one transfer mode in the DMA? Explain in brief
+Explain are the Data frame format in I2C communication

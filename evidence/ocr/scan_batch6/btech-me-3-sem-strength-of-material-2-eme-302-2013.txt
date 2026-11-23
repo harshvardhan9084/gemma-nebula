@@ -1,0 +1,105 @@
+Printed Pages 4 EME-302
+:
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0429
+B. Tech.
+(SEMESTER-III) EXAMINATION, 2012-13
+MECHANICAL ENGINEERING
+STRENGTH OF MATERIAL II
+-
+Time 3 Hours 7 [ Total Marks: 100
+: ;
+Note: Attempt questions from all sections directed.
+as
+1. Attempt all the questions : 10 x 2=20
+(a) Define principle stresses and principle plane.
+(b) Name four theories of failure.
+any
+(c) Define point of contra flexure. In which beam it occurs.
+(d) Define springs. Name the different types of springs ?
+(e) What are the limitations of Euler’s theory of columns ?
+(f) Define hoop stress and longitudinal stress ?
+(g) What is the maximum shear of thin spherical vessel of
+radius R and wall thickness h, under stress internal a ? pressure mean
+pressure p
+(h) Write down the expression for power transmitted by shaft.
+(i) Differentiate between straight and curved beam.
+(j) Define unsymmetrical bending.
+SECTION - B
+2. Attempt three questions 3x 10=30
+any :
+(a) Direct stress of 120 MN/m? in tension and 90 MN/m? in compression are applied
+to an elastic material at a certain point on a plane at 25° with the tensile stress. If
+the maximum principal stress is not to exceed 150 MN/m? in tension to what
+shearing stress can the material be subjected ? What is then the maximum
+resulting shearing stress in the material and also find the magnitude of the other
+principal stress and its inclination to plane of 120 MN/m” stress.
+0429 1 P.T.O.
+(b) A beam having T section is shown in Fig. 1 with its flanges of (180 mm 10 mm)
+and web of (220 10 mm) is subjected to sagging bending moment x 15 kN-m.
+Determine the maximum mm x tensile stress and maximum compressive stress.
+180 mm |
+10mm
+220 mm
+10mm
+Fig. — 1
+Two helical springs are nested one inside the other to support a load of 500 N.
+Both the springs are made of the same material with modulus of rigidity
+G = 82.7 x 103 MPa. the particulars of the springs are tabulated below :
+Spring
+Mean col diameter D)
+Diameter of the spring wire @)
+No of active coll)
+8
+Determine the (i) deflection of each beam, (ii) Load carried by eah spring, and
+(iii) shear stress induced in each spring.
+(d) Derive the expressions for circumferential and radial stress in the wall of thick
+cylinder (Lame’s equation).
+() A ring carrying a load of 30 KN is shown in Fig. 2, Calculate the stress at
+positions 1 and 2.
+0429
+SECTION C
+—
+Answer all the questions with internal choice :
+questions (2x 5=10)
+Attempt any two :
+(a) Explain maximum normal shear stress and shear stress theory.
+(b) Explain Impact load and impact stress.
+(c) Explain in brief Macaulay’s method, equation of equilibrium involves three-
+dimensional stress systems.
+Attempt one question : (1 x 10 = 10)
+any
+(a) Derive deflection equation for cantilever beam carrying a concentrated load at the
+free end.
+(b) A solid shaft rotating at 500 rpm transmits 300 kW. The maximum torque is 20%
+more than mean torque. Material of shaft has the allowable shear stress of 65 MPa
+and modulus of rigidity of 81GPa, the angle of twist in the shaft should not
+exceed 1° in 1 meter length. Determine the diameter of the shaft.
+Attempt question (1 10 10)
+any one : x =
+(a) Define slenderness ratio and derive Euler’s expression for bucking ‘load for
+column with both ends hinged.
+a
+(b) A diameter. 1.5 m The long Cast end Iron of (C.I.) column is fixed has circular cross is section of 5 cm
+factor of safty one 3, find the the safe column load column and by other using; end free. By taking a
+as on
+(i) Rankine-Gordon formula; using yield stress as 560 MN/mm? and
+a= 1/1600 for pinned end.
+(ii) Euler’s formula; assume Young’s modulus for C.I. as 120GN/m?.
+Attempt any one question : (1 x 10 = 10)
+(a) A thin spherical shell one meter in diameter with its wall of 1.2 cm thickness is
+filled with a fluid at atmospheric pressure. What intensity of pressure will be
+developed in it if 175 cm* more fluid is pumped into it ? Also calculate the
+circumferential stress at that pressure and increase in diameter and volume of the
+vessel. Taking E = 200GN/m? and Poisson’s ratio as 0.3.
+(b) MN/m?
+and pressure external of diameter 10 is applied to thick cylinder of internal diameter
+150 mm MN/m?, 300 mm. If the maximum hoop stress permitted on
+applied. the inside wall is 35 calculate the maximum internal pressure that can be
+0429 3 P.T.O.
+Attempt any two questions : (2x 5 =10)
+(a) Explain stress due to unsymmetrical bending.
+(b) Explain deflection of beam due to unsymmetrical bending.
+(c) Achannel section has flanges 12 cm x 2 cm and web 16 cm x I cm. determine the
+shear center of the channel.
+0429

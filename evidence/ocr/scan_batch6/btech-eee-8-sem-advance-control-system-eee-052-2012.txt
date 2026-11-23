@@ -1,0 +1,118 @@
+aktuonline.com aktuonline.com
+Printed Pages—4 EEE052
+Following Paper ID and Roll No. to be filled in your Answer Book
+PAPER ID: 2899
+B. Tech.
+(SEM. VID THEORY EXAMINATION 2011-12
+ADVANCED CONTROL SYSTEM
+Time :3 Hours Total Marks - 100
+Note :— Attempt all questions.
+1. Attempt any four parts of the following
+(a) Double-integrator plant is described by the differential
+equation
+— dt? =u(t)
+(i) Develop State equation for this with
+input, a and @ and @as the variable system u
+as X, respectively. State X, and
+(ii) A Singularity transtormation is derived as
+= |1
+X=PX= X
+the State equation in terms of the State
+express X(t).
+(b) Determine the solution of State equation
+X=AX+Bu, if X(0)=X,
+in the time interval t € [t, t,]
+(c) Consider a Control System with State Model
+X | [0]
+o u.
+~2 -31| X,1 42
+Compute the State transition matrix.
+0502 1 [Turn Over
+aktuonline,com
+State Model for the System with
+50(i
+Y(s)/ U(s) = s(1 + (1+s/50)
+for which the System matrix is diagonal.
+(e) Consider the :
+Investigate the observability properties of the model.
+(f) What do you understand by Observer System ? Explain
+in brief.
+Attempt any two parts of the following :—
+(a) Solve the following difference equation using
+Z-transformation
++7
+y(K42) #1) = + 1) ~
+with input
+r(K) = U(K). U(K) = unit step and initial
+conditions
+y(-1) = 5, y(-2) = 6.
+(b) For Discrete-State Model
+X(K + 1) = AX(K) + BU(K)..., T = 1 sec. Prove
+that the solution can be expressed as
+X(K) = AX X(0) + -
+(c) State and explain Jury’s Stability criterion. For the
+following characteristic polynomial investigate the
+necessary and sufficient condition of stability :
+2z7 +
+F(z) = z* + 1723 + + 2z 2.
+raktuonline.com
+w
+aktuonline.com aktuonline.com
+3. Attempt any twe parts of the following :—  (10x2=20)
+(a) State and explain Lyapunov Stability Criterion.
+Consider the system described by the equations :
+X, =X)
+Investigate the stability of the equilibrium state
+using direct Method of Lyapunov. Assume
+V(X) +5 X3.
+(b) Write short notes on the following :
+(i) Popov’s Stability criterion.
+(ii) Common Nonlinearities.
+(c) What do you understand by singular points ? Also
+derive the expression for describing function for the
+non-linear characteristics as shown in Fig. 1.
+K(S — D/2)
+Fig. 1
+4. Attempt any two parts of the following :—  (10x2=20)
+(a) Explain in brief the principle of optimality. Determine
+the optimal control law for the system described by
+. 0 1 0
+X= -2 -3 X+ ] u
+such that the following performance index is minimized.
+J= foxtx +
+0
+3 {Turn Over
+aktuonline.com aktuonline.com
+(b) Describe the following in brief :
+(i) Increment of functional
+(ii) Maxima and minima of functional.
+Also find the differential of
+f(q)=ai +
+(c) Find an extremal for the functional
+Jat
+W(X) =
+0
+which satisfies the boundary condition
+X(0) = 0, and = 1.
+. Attempt any two parts of the following :-—
+(a) What do you understand by Adaptive control ? Give
+the classification of Model reference adaptive control.
+Also explain its features.
+(b) Consider the first order system with differential equation
+oy bu
+a —ay +
+where a and b are unknown parameters. Assume that
+the system of Reference Model is described as
+dy
+t+ Opt
+and controller, 8,y. Derive, using the Lyapunov
+theory, a parameter u = update — law of an MRAS guaranteeing
+that the errore = y—y_ goes to zero. Assume Lyapunov
+function
+V(e,,0,.0,) = 5 ] fe + + (68, + a—a,y + + (b0, — by}
+y
+where is adaptation gain.
+(c) With neat diagram, explain Model-Reference adaptive
+control. Also explain the MIT rules.
+EEE052/PUR-40502 4 $525
+aktuonline.com

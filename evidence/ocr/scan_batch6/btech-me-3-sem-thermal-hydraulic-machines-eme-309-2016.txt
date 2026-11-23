@@ -1,0 +1,71 @@
+[ 262
+Printed Pages: 4 EME-309
+(Following Paper ID and Roll No. to be filled in your
+Answer Book)
+B.Tech.
+Il) THEORY EXAMINATION
+(SEM.
+HYDRAULIC
+THERMAL & MACHINES
+[Time:3 hours] [Total Marks:100]
+Section-A
+Note: Attempt all parts. All parts carry equal marks. Write
+answer of each part in short. (10x2=20)
+1. (a) Thermodynamic equilibrium?
+.
+(b) State with reasoning whether following system is
+closed, open or isolated? (i) IC Engine (ii)
+Refrigerator (iii) Pressure cooker
+(c) What is reheat factor in turbine? >
+steam
+(d) Whatis Inter-cooling in gas turbine?
+(e)
+Define scavenging in 2 stroke engine.
+(1) EME-309
+(f) Why a reciprocating pump is called a positive A pelton wheel is to be designed for the following
+displacement pump? specifications:
+Shaft power=11,772kW; Head =380m; Speed=750
+(g) Define velocity of the flow and velocity of whirl r.p.m.; Overall efficiency=86%; Jet diameter is not
+with their significance. exceed one-sixth of the wheel diameter. Determine:
+(i) Wheel diameter (ii) the number of jets required,
+(h) What factors does the no. of jets depend in case of ORE (iii) Diameter of the
+Pelton wheel? and jet.
+Take Kv,=0.985 and Ku,=0.45
+(i) Explain
+the principle of: spiral casing for a Explain the working of 4 stroke SI engine.
+centrifugal pump?
+Explain the Priming and Cavitation in
+_G) Write the applications of 2 stroke SI & IC engines. terms pump.
+Section-B Differentiate between centrifugal and reciprocating
+pump.
+Note: Attempt five questions from this section.
+any Define the indicator diagram of a reciprocating pump.
+(5x10=50) Show the effect of acceleration of piston on the indicator
+diagram.
+2. Explain the method of steam turbine governing and =
+control.
+Section-C
+3. Describe I* & 2™ laws of thermodynamics.
+Note: Attempt any two questions from this section.
+(2x15=30)
+4. With the help of graphical representation explain stages
+in generation of steam. 10. _ Explain air standard Otto, Diesel, Brayton cycles by
+drawing diagrams.
+(3)
+(2) EME-309 ° EME-309
+11. Explain how to improve Rankine cycle efficiency by
+(a) Super heating of steam, increase steam, pressure
+inlet to turbine and
+(b). Reheat & regenerative cycles..
+12. In an air standard regenerative turbine cycle the
+gas
+pressure ratio is 5. Air enters the compressor at | bar,
+300 K and leaves at 490 K. The maximum temperature
+in the cycle is 1000 K. Calculate the cycle efficiency,
+given that the efficiency of the regenerator and the
+efficiency of
+adiabatic the turbine are each 80%. Assume
+for air, the ratio of specific heat is 1.4.also, show the
+cycle ona T-s diagram.
+—
+(4). EME-309 / 2700

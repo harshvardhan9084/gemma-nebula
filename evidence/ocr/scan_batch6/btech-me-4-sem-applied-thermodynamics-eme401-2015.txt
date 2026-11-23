@@ -1,0 +1,166 @@
+www.aktuonline.com
+Printed Pages : 7
+EME401
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 140402
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+APPLIED THERMODYNAMICS
+Time 3 Hours] [Total Marks 100
+: :
+Note: (i) Attempt all questions very carefully.
+(i) All questions equal marks.
+carry
+(i) Use of Steam Table/Mollier chart and
+Calculator is allowed.
+(iv) Be precise in
+your answer.
+1 Attempt any two parts of the following: 10x2=20
+(a) What is the physical significance of thermodynamic
+relations? Prove all Maxwell relations using
+equations based on thermodynamics laws.
+(b) Over range of pressures and temperatures,
+the equation of state of certain is prescribed
+by the relation a gas
+v = (RT/p) — (C/ T?) where C is a constant.
+140402] 1 [ Contd...
+www.aktuonline.com
+Set up expressions for a change in enthalpy and
+entropy of the gas. Consider the change to occur
+under isothermal conditions.
+The following data pertains to the test run made
+in the laboratory determine the calorific value
+to
+of a gaseous fuel by Junker's gas calorimeter:
+Gas burnt in the calorimeter = 10 liters
+Gas temperature and pressure at inlet = 20°C and
+50mm of water above atmospheric
+Cooling water passing through the calorimeter 8 liters
+=
+Inlet and outlet temperature of water = 15°C and 25°C
+Steam condensed during test run = 10cc
+Determine the higher and lower calorific value of
+fuel sample. You may take barometric pressure
+as 750mm of mercury and latent heat of
+vaporization of water as 2465KJ/kg.
+2 Attempt any two parts of the following: 10x2=20
+(a) List the differences in between fire tube and water
+tube boiler. Explain working and construction of
+Locomotive boiler with a neat sketch.
+(b) Define equivalent evaporation.
+The following data are obtained in a boiler trial:
+Mass and temperature of feed water: 680 kg/hr
+and 20°C Steam pressure and its temperature:
+15 bar and 300°C
+140402] 2 [ Contd...
+www.aktuonline.com
+Coal used and its calorific value: 98 kg/hr and
+26500 KJ/kg Flue gas formed and its temperature
+at chimney: 18 kg/kg of coal supplied and 300°C
+Ash and unburnt coal in ash-pit: 44 kg/hr with
+2200 KJ/kg calorific value
+Mean specific heat of flue gases and feed water:
+1 KJ/kg K and 4.187 KJ/kg K
+If the ambient temperature in the boiler room is 28°C.
+Determine:
+(i) Boiler efficiency
+(i) Equivalent evaporation from and at 100°C
+(i) Percentage heat unaccounted for
+(tv) Draught produced in mm of water column
+if the height of chimney is 50
+m.
+(c) The following observations are recorded during
+a test on a steam condenser:
+Recorded condenser 71 of Hg, Barometric
+vacuum = cm.
+reading = 76.5 cm of Hg, Mean condenser
+temperature = 34°C, Temperature of hot well = 28.5°C,
+Condensate collected 1800 kg/hour, Flow rate of
+=
+cooling water = 57500 kg/hour, Inlet temperature of
+cooling water = 8.5°C, Outlet temperature of cooling
+water 26°C. Determine:
+=
+140402] 3 [ Contd...
+www.aktuonline.com
+(i) Vacuum efficiency
+(it) | Condenser efficiency
+(i) Dryness fraction of steam entering the
+condenser
+(iv) Mass of air leakage m? of the condenser
+per
+volume.
+3 Attempt any two parts of the following: 10x2=20
+(a) A steam engine of 30 cm diameter and 50 cm
+stroke length is supplied steam at 10 bar and
+300°C. The steam expands adiabatically to 0.7
+bar and then release occurs at constant volume
+to a condenser at 0.3 bar. Represent the cycle
+on P-V and T-S plots and compare it with the
+corresponding diagram for the complete Rankine
+cycle. Determine:
+(i) The modified Rankine cycle efficiency
+(ii) The Rankine efficiency corresponding
+to
+complete expansion.
+140402] 4 [ Contd...
+www.aktuonline.com
+(b) Asupersonic nozzle is to be designed for air flow
+with Mach number 3 at the exit section which
+is 250 mm in diameter. The pressure and
+temperature of air at the nozzle exit are
+8.5 kN/m? and 215 K. Make calculations for:
+(a) Reservoir pressure and temperature
+(b) Throat area.
+(c) Prove expression for mass flow rate per unit area
+of steam in nozzle. Also give condition for
+a
+maximum discharge.
+4 Attempt any two parts of the following: 10x2=20
+(a) () What are effects of pressure and temperature
+Rankine cycle efficiency and output?
+on
+Explain showing in cycle.
+(i) | Compare impulse and reaction turbine.
+(b) In regenerative feed heating cycle, the steam
+a
+enters the turbine at 25 bar and 250°C. The
+condenser is 0.05 bar. The steam is bled
+pressure
+off for feed water heating for a closed heater at
+3.5 bar and for heater at 0.7 bar. The
+an open
+condensate of the closed heater is discharged into
+140402] 5 [ Contd...
+www.aktuonline.com
+the low heater. Calculate the
+pressure open
+thermal efficiency of the cycle. Neglect the pump
+work. Also determine the corresponding Rankine
+cycle efficiency.
+(c) Ina Parson's reaction turbine the rotor of 1
+m
+diameter runs at 3000 rpm. Determine the isentropic
+enthalpy drop in the stage considering stage
+efficiency of 0.80, ratio of linear velocity of blade
+to absolute velocity at inlet of moving blade=0.7,
+blade outlet angle = 20°.
+5 Attempt any two parts of the following: 10x2=20
+(a) Classify Gas turbines. Explain the cycle on which
+Gas turbine works? Also, explain it with reheat
+and regeneration showing its effects when used
+simultaneously in a single cycle.
+(b) Air enters the compressor of a gas turbine plant
+operating Brayton cycle at 1 bar and
+on pressure
+300 K temperature. The pressure ratio is 5 and
+the maximum cycle temperature is limited to
+1075 K. Ifthe compressor and turbine efficiencies
+are 80% and 85% respectively. Make calculations
+for the net work output, cycle efficiency and the
+work ratio.
+140402] 6 [ Contd...
+www.aktuonline.com
+(c) Compare Jet engine and Propeller engine. Explain
+working and construction of turbojet engine.
+140402] 7 [ 3600 ]

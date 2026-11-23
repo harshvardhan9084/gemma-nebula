@@ -1,0 +1,91 @@
+Printed Pages—3 TEC604
+Following Paper ID and Roll No. to be filled in your Answer Book)
+Roll No.
+B. Tech.
+(SEM. VJ) THEORY EXAMINATION 2010-11
+MICROWAVE AND RADAR ENGINEERING
+Time 3 Hours Total Marks 100
+: :
+Note :—Attempt all questions.Each questions carry equal marks.
+1. Attempt four parts of the following
+any :—
+(a) Derive the wave equation for a TM Wave and obtain
+all the field components in rectangular waveguide. Derive
+it for TM,, mode of propagation.
+(b) Define the following
+:
+G) Dominant mode
+Gi) Phase Velocity
+(ili) Group Velocity.
+(c) A TE,, wave is propagating through an air filled circular
+waveguide. If diameter of the guide is 10 cm and
+given the root of the Bessel function is X’np=1.841,
+then find
+:
+(i) Cut-off frequncy
+(ii) Wavelength in the waveguide for a frequency of
+3 GHz.
+(d) What do you mean by microwave cavities ? Describe
+the Rectangular cavity Resonator.
+TEC604/RFW-21164 1 {Turn Over
+(e) Explain micro-strip lines and discuss the various type
+of losses in micro-strip lines.
+(f) What are the various ways in which wave guide can
+be exited. Explain them with figures.
+2. Attempt any four parts of the following :—
+(a) Describe in detail the operation of 2-Hole direction
+coupler. Calculate the coupling factor a if the in
+primary waveguide is 72 and delivered power to
+Coupling port is 8 mw power
+mw.
+(b) What do you understand by Scattering (S) parameters ?
+Write down properties of Scattering matrix.
+(c) Explain the characteristics of Hybrid Tees.
+(d) Explain the working and applications of circulator. Are
+they reciprocal Non reciprocal device ?
+or
+(e) Give methods of measuring impedance of a terminating
+load in microwave system. Explain any one in detail.
+(f) Two identical 30 dB directional coupler are used to
+sample incident and reflected power in a waveguide.
+If VSWR = 2 and output of the coupler sampling incident
+power = 4.5 mw. What is the value of reflected
+power ?
+3. Attempt any four parts of the following : 5x4=20
+(a) Discuss the performance of magnetrons and lists its
+important applications.
+(b) Differentiate between Klystron and TWT.
+(c) A two cavity Klystron is operated at 10 GHz with
+V, = 1200 V, 1, = 30 mA, d= 1 mm, L = 4 cm and
+R,, = 40 kQ. Neglecting beam loading, calculate : input
+RF Voltage V for a maximum output voltage and Voltage
+gain.
+TEC604/RFW-21164 2
+(d) Explain Gunn effect using the two valley theory.
+(e) Explain operation of IMPATT Diode with support of
+figures.
+(f) Explain the principle of operation and working of reflex
+Klystron Oscillator.
+4. Attempt any two parts of the following : (10x2=20)
+(a) What is PIN Diode ? Describe the construction of
+a
+a PIN Diode and also its characteristics.
+(b) Derive the Radar Range equation. Explain the factors
+that affect the maximum range of a radar.
+(c) Explain:
+(i) Maximum Unambiguous Range
+(ii) Pulsed Radar System.
+parts
+5. Attempt any two of the following : (10x2=20)
+(a) How do you distinguish stationary targets and moving
+targets ? Explain the principle and working of a MTI
+Radar.
+(b) Write short notes on :
+G) speed
+(ii) Monopulse tracking
+(iii) Radar Clutter
+(c) Explain following with support of figures
+:
+G) Radar Antennas
+(ii) Radar Displays.
+3 7225

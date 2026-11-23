@@ -1,0 +1,67 @@
+(c) Machine language programs written for one
+computer will generally not run on another computer
+u - ‘ 3 6 2 ° * TIT-201 with different CPU. Why ?
+Printed Pages : 3 a
+(Following Paper ID and Roll No. to be filled in your Answer Book) (d) Differentiate between static RAM and Dynamic
+PAPER ID: 1306 RAM.
+(e) What is an interpreter ? How does it differ from
+B.Tech. a compiler ?
+(f) What is linker ? Why it is required.
+(SEM. If) EXAMINATION, 2007-08 a
+INFORMATION TECHNOLOGY Answer any two parts :
+(a) (i) Draw the logic circuit for the following
+Time : 3 Hours] [Total Marks : 100
+Note Attempt all questions. expressions :
+: A-B-C-D+A-B-C-D+A-B-C-D
+1 Answer any four parts : 4x5=20 |
+(a) Define the term information representation. How (ii) What are registers ? What are used for ?
+it is represented in digital media ? Draw a schematic diagram of 4-bit register.
+(b) What do you mean by quality of information ? (b) (i) the terms "bandwidth" and "band"
+Explain. with suitable example.
+(c) Convert the following binary numbers decimal (ii) | What do understand by modulation and
+numbers to demodulation you ?
+:
+(i) 101011.11 (ii) 111011,10 (c) (i) Define the following terms — Routa and
+(d) Differentiate between Huffman-tree and Shannon- Gateway.
+Fano tree, which is more effective and why ? (ii) Describe the OSI model of network
+(e) Define the term data compression. Why it ts architecture with the functions of each layer.
+required ? fF
+(f) Define the following : 4 Attempt 10x2=2u
+(1) JPEG (ii) MHEG any two parts :
+(a) (i) List out three main characteristics
+2 Answer any four parts : 4x5=20 features of the internet that may be used
+(a) Draw a block diagram to illustrate the basic to define it.
+organization of a computer system and explain the (ui) | What do you mean by TCP / IP ? Explain
+functions of various units. Define following example
+(b) A computer has no intelligence of its own. (b) the with :
+Discuss. Hypertext Make up language.
+U-1306) (Contd... M2 (Contd...
+https://www.aktuonline.com https://www.aktuonline.com
+Private key
+(ii) Public key and
+(ui) ISP
+(iv) Electronic payment system.
+(c) Define E-Commerce. Give in detail the basic
+infrastructure for E-Commerce.
+5 Attempt any two parts ° 10x2=20
+between internal and external
+(a) (i) of MS-DOS, with examples.
+commands
+(ii) | Name any four popular O.S. and describe
+the main feature of any one of them.
+(b) (i) | What do you mean by word processing ?
+List important features, which makes MS-
+Word suitable for word processing
+applications.
+| in the MS-Word ? What
+(ii) What are macros Explain
+does they do ?
+(c) Define the following :
+(i) | Database Management System
+(u)
+education
+(iii) IT application in
+(iv) FoxPro commands to create a datable.
+25000
+U-1306) 3 [ }
+https://www.aktuonline.com

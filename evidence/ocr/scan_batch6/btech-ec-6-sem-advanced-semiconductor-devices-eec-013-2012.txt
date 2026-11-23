@@ -1,0 +1,68 @@
+Printed Pages—3 af KECO13
+Following Paper ID and Roll No. to be filled in Answer
+your Book
+PAPER ID : 2483
+B. Tech.
+(SEM. v) THEORY EXAMINATION 2011-
+ADVANCE SEMICONDUCTOR DEVICES 12
+Time : 2 Hours
+Total Marks : 50
+Note: (1) Attempt all questions.
+= Marks are indicated-for each question.
+(3) Assume the missing data, if any.
+constants
+Boltzmann’ (4) Useful Physical :
+s constant, K = 1.38 x 102
+Electronic Test mass, 9. M1 107! Kg.
+constant, m, 6.63 = x
+h = x 10* J-s
+Electronic charge, q = 1.60 x
+_ Permittivity of free space, € F/m
+Electron effective
+mass, (0.067 oars
+Hole effective mass, m* = (0.56 (0.48 m,),.,,
+1. Attempt two of the following
+any What parts effective : (2x6=12)
+(a) (i) do you mean by mass of carrier ?
+What is the kinetic energy ofa hole at We top of the
+valence band:?
+the relaxation times electrons and ‘holes
+(b) Define and derive the
+time. for minority carrier life
+: : B th «
+EEC013/PUR-40169 4 Over
+(c) photon
+A of monochromatic light of wavelength 5000 A different types ? How do they differ from conventional
+is absorbed in GaAs and excites an electron from the semiconductor ? What are the uses of these materials ?
+valence band into conduction band. Calculate the velocity Explain the device operation with characteristics.
+of electron. (c) What is meant by IMPATT ? Describe briefly the principle
+Attempt any parts of the following (2x6=12) of operation of IMPATT diode.
+:
+(a) Show that the depletion region capacitance of a p-n Attempt any fwo parts of the following : (2x7=14)
+junction for any arbitrary doping on the two sides can (a) Discuss briefly the principle of operation of a GaAs
+always be expressed by MESFET. Also derive an expression for I-V characteristic
+C= 6 A/W of the device. Enumerate special features of MESFETs.
+where, is the permittivity of the semiconductor, (b) Sketch approximate distribution of charge, electric field
+€,
+Aand W are the cross sectional area and depletion width and electrostatic potential in the ideal MOS diode using
+of the junction. n-type Si in inversion condition and explain them.
+(b) A with doping concentration of 10'’ phosphorus (c) Describe briefly the principle of operation of charge
+atoms/cm?’ is optically excited at 300 K such that = 10” coupled devices. With suitable schematics show the input
+EHP/cm?-sec and t, = t, = 10 sec. What is the separation and output arrangements for a CCD and explain charge
+of the quasi-Fermi levels ? Draw the band diagram transfer efficiency of the device.
+energy
+of the sample.
+(c) Assume that an ideal Schottky barrier is formed on n-
+type Si having 10'* As atoms/cm?. The metal work function
+is 4.5 eV and Si electron affinity is 4 eV.
+(i) Draw the equilibrium diagram and describe the
+contact.
+(ii) Draw the forward and reverse biased diagram and
+explain.
+Attempt of the following (2x6=12)
+any ‘wo parts :
+(a) With a suitable diagram describe the working principle
+of a photodiode. Explain how the various quadrants of its
+V-I characteristics are used in different applications ?
+(b) Explain degenerate semiconductors. What are their
+2 EECO013/PUR-40169 3 10450

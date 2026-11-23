@@ -1,0 +1,82 @@
+www.aktuonline.com
+Printed Pages : 3
+A
+EIT-402
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 113402
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+SOFTWARE ENGINEERING
+Time : 3 Hours] [Total Marks : 100
+Note: 1. Attempt all question.
+2. All question carry equal marks.
+1 Attempt any FOUR question 5x4=20
+a. Define software. Give the various application
+areas of the software.
+b. Define the software crisis. What are possible
+solutions to the present software crisis?
+Define the following:
+I. Water fall Model
+II. Spiral Model
+d. What are three essential qualities of software?
+Explain each.
+e. What are the characteristics to be considered
+for the selection of the life cycle model?
+Explain software development life cycle.
+Discuss various activities during SDLC.
+113402 ] 1 [ Contd...
+www.aktuonline.com
+Attempt any FOUR questions 5x4=20
+a. Define functional and non-functional requirements.
+b. Software requirement analysis is unquestionably
+the most communication- intensive step in the
+software engineering process. Why does the
+communication frequently break-down?
+Define DFD. What are the different levels of
+DFD?
+Compare ISO and SEI-CMM models.
+How do define Reliability? Discuss various
+models for you reliability allocation.
+Describe the difference between Verification and
+Validation and explain why validation is
+particularly difficult
+process?
+Attempt any TWO questions, 10x2=20
+a. Define software architecture. Explain why it may
+be necessary to design the system architecture
+before the specifications written with examples.
+What are the main difference between coupling
+and cohesion? Explain various type of cohesion
+and coupling. What are problems likely to arise
+if two modules have high coupling?
+Explain Halestead's software science of software
+measurement and metrices. Calculate Halestead's
+basic measure on factorial code given below:
+int fact (int n)
+{ if (n= =0)
+return 1;
+else
+return n*fact (n-1)
+3
+113402 | 2 [ Contd...
+www.aktuonline.com
+4 Attempt any TWO questiong 10x2=20
+a. Discuss the differences between . black-box and
+structural testing and suggest how they can be
+used together in the defect testing processes.
+b. should be the criteria for designing test
+cases ? Derive a set of test cases for the
+following : A sort routine which sort arrays of
+integers.
+Explain regression and acceptance and acceptance
+c. testing in detail.
+5 Attempt TWO question. 10x2=20
+Write any Constructive Cost Models
+a. notes on
+(COCOMO).
+b. What do you understand by the term CASE
+tools? Discuss the benefits of using CASE tools.
+c. Discuss the following:
+i. Reverse Engineering
+ii Software Risk Analysis
+113402 ] 3 [ 750 ]

@@ -1,0 +1,62 @@
+Printed Pages—3 EEC035
+Paper ID and Roll No. to be filled in Answer Book)}
+PAPER ID 131855 your
+B.Tech.
+(SEM. VIII) THEORY EXAMINATION 2013-14
+. INTRODUCTION TO RADAR SYSTEMS.
+Time : 3 Hours Total Marks : 100
+Note :— questions.
+(2) All questions
+carry equal marks.
+1. Attempt any four of the following : (5x4=20)
+(a) What are the basic functions of Radar ? In indicating the
+position of target, what is the difference between
+and Elevation Azimuth
+?
+(b) A typical waveform of radar is shown below in fig 1. Some
+parameters of radar are shown in fig. Consider t = 1 ps
+Calculate :
+(i) Average
+Power
+(ii) Duty Cycle
+(iit), Maximum Range of Radar.
+Power . Ims
+———
+IMW
+t
+> Time
+Fig 1.
+EEC035/DQJ-21569 .
+1 [Turn Over
+(c) A Radars is operating at 10 GHz with the pack of
+500 kW, the power 4. Attempt any two of the following : (10x2=20)
+power gain of antenna is 5000 and minimum (a) Draw Constant False Alarm Rate (CFAR) Radar receiver.
+power of the receiver is 10-'*. Calculate the maximum Explain its working.
+range of radar if the effective area of antenna is 10 m? (b) Define the Target Recognition. Explain the
+and radar cross-section is 4 m2. term block
+(d) Explain the significance of Radar section fluctuation. diagram of Automatic Target Detection and Recognition
+Also describe pulse repetition frequency. cross (ATR) system.
+(c) Describe the working of Binary Integration for Non-
+(e) What do you understand by Ducting ? Describe the Fluctuating target.
+minimum detectable signal with its expression.
+(f) Explain Receiver Noise and Signal to Noise ratio in Radar Attempt any two of the following : (10x2=20)
+systems. (a) Describe the following :
+(@ Sea Clutter
+any two of the following : (10x2=20)
+(a) Compare Pulse Doppler Radar and MTI radar with block Gi) Land Clutter
+diagram. Also (b) Which is more advantageous between Digital or Analog
+explain the significance of Butterfly effect compression. Explain. How find the
+on A-scope. can one true
+(b) Describe the following for MTI Radar : range and True Doppler frequency shift of a target when
+(i) Blind Speed using Linear-FM pulse compression waveforms ?
+(i) Staggered PRF
+(c) Describe the working of Delay Line Cancellers and explain
+the acoustic delay line.
+_
+Attempt any two of the following : (10x2=20)
+(a) Explain the Block diagram of Amplitude Comparison in
+Mono pulse in one angle co-ordinate.
+(b) Explain the Block diagram of Conical Scan Tracking Radar.
+(c) How does radar Servo Tracking system work ? Explain
+sequential lobbing.
+EEC035/DQJ-21569 2 EEC035/DQJ-21569 3 10075

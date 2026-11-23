@@ -1,0 +1,148 @@
+aktwontin aktuontine.com
+2 0 2 7 2
+Printed * Pages K : 7 / 5 * EE-301
+(Foliowing Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2002
+B. Tech.
+(SEM. If) EXAMINATION, 2007-08
+NETWORKS SYSTEMS
+AND
+Time : 3 Hours] [Total Marks : 100
+~
+Note : (1) Attempt all five questions.
+(2) Attempt all of question together.
+parts a
+1 Answer any four of the following : 5x4
+(a) Define the following terms related to 1x5
+network topology :
+(1) Path
+(2) Planar graph
+(3) Tree
+(4) _ Trial
+(5) Fundamental circuit.
+(b) Develop a tie-set incidence matrix for the 5
+following graph shown in Fig. 1.
+a
+VK-2002] 1 [Contd...
+aktuonline.com aktuonline.com
+(c) Find the current through the 4 ohm resistance 5
+in the following network using mesh current
+method, circuit shown in Fig. 2.
+Fig. 2 ~
+(d) Find the current when the voltage applied is 5
+v(t)
+= ia
+and
+(e) What do you understand by Linear Time 5
+Invariant System ? Explain unit step, ramp
+and impulse functions.
+(f) Obtain tie matrix for the following 5
+set network
+and get the values of loop currents, shown in
+Fig. 4.
+VK-2002] 2 [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+Answer four questions 5x4=20
+any :
+(a) Find the current through resistor R, in the 5
+following network shown in Fig. 5. Assume
+that the capacitor Cg is initially uncharged and
+that the key 'R' is closed at time ¢=Q.
+Ry =F Mo.
++
+_ FSV Tr BRE
+Fig. 5
+(b) Find the Thevnin's equivalent network of the 5
+following network the load terminals A and
+at
+B, shown in Fig. 6.
+t
+&
+Fig. 6
+VK-2002] 3 [Contd...
+aktuonline.com
+aktuonline.com =
+jn the network shown below in Fig.
+determine the value of Z, for maximum
+transfer. Also calculate the maximum
+power. power
+3 “$4 3
++
+LO” 4. 4
+Fig. 7
+(d) State and explain superposition theorem. 5
+Determine the current through branch AB of
+the network shown below in Fig. 8 using
+super—position theorem.
+8
+Fig. 5
+(e) The transfer function of a linear system is
+given by
++2)
+(s +4)
+Determine the impulse response of this system.
+25x2
+(f) Sate and explain :
+(1) Tellegen's Theorem
+(2) Millman Theorem.
+VK-2002] 4
+aktuonline.com
+Answer any two questions :
+(a) What do you understand by the terms ‘Poles’ 10
+and Explain the meaning of poles and
+zeros in terms of driving point immittances.
+(b) (1) Explain the terms with their physical 5x2
+significance in Bode plot : Gain
+Margin, Phase-Margin.
+(2) For a given denominator polynomial of
+a network function, verify the stability
+of the system by Routh criteria
+Q(s) = S* +S? +287 +25 412
+For a given network function draw the 10
+pole-zero diagram and hence obtain the
+time domain response
+5(s +5)
+I(s) =
+(s+2)(s+7)
+4 Answer any two questions : 10x2
+(a) Show that evolution of standard ladder 10
+network into tandem network of 7 section
+and hence obtain the formula for its image
+impedance.
+(b) Obtain the 7 parameters of the following 10
+resistive network, shown in Fig. 9.
+@ | De
+2
+OE
+Fig. 9
+VK-2002] 5 [Contd...
+a
+aktuonline.com aktuonline.com
+(c) Two individual networks have z parameters
+as follows :
+3 6 1 3
+°™ 2
+Find the overall parameters if they
+connected (i) and z (ii) below. are
+as
+Answer any two questions : 10x2
+(a) Synthesise the Ry admittance using second 10
+foster form
+4(s
+¥(s) = 5(s 4)
++
+(b) Synthesise Caver-I form of Re driving point 10
+function
++3) (s+4)
+= _ (6 +2)
+VK-2002] {Contd...
+aktuonline.com aktuonline.com
+(c) (1) Define Final Value theorem and verify 5x2
+the same for function
+(2) Determine
+the Laplace transform of the
+function y(t) represented by the
+following waveform, shown in Fig. 11.
+9)
+aktuonline.com

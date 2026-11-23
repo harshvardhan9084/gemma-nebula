@@ -1,0 +1,110 @@
+Printed Pages : 4 EEN701
+Roll be filled in Book)
+Following Paper ID and No. to kel your Answer
+PAPER ID : 2736
+B.Tech.
+(SEM. VII) THEORY EXAMINATION 2011-12
+ELECTRICALINSTRUMENTATION AND
+PROCESS CONTROL
+EEES04
+Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2114 Roll No.
+(SEM. V) THEORY EXAMINATION 2011-12
+ELECTRICAL INSTRUMENTATION AND
+PROCESS CONTROL
+Time : 3 Hours Total Marks : 100
+Note Attempt all five questions. Each question carries equal
+:—
+marks.
+1. Answer four parts of the following (5x4=20)
+any :
+(a) What is primary sensing element and why is it important ?
+Enlist commonly used primary sensing elements.
+most
+(b) Explain digital transducers. Why are these preferred over
+analog transducers ? Explain.
+(c) What is a load cell ? What for it is used ?
+EEN701/EEES04/KIH-26181 1 [Turn Over
+(d) Why is it necessary to protect transmission channel from
+sources of interferences in voltage telemetry ?
+system
+{e) What are the differences between a closed loop system
+and a open loop system ? Where these used ?
+system are
+(f) Why is scope of hydraulic and pneumatic methods of data
+transmission limited ?
+2. Answer any two parts of the following
+: (10x2=20)
+(a) Discuss the classification of transducers. Why selection
+f a transducer is important ? Explain the points be
+to
+in determining a transducer suitable for a
+specific measurement.
+a
+(b) Define gauge factor of strain gauge. Show that for a
+wire wound resistance strain gauge, the gauge factor, G, is
+given by the expression G, =1+2y + p/P where
+,
+symbols used have usual meanings.
+(c) What is a piezoelectric transducer ? Draw its equivalent
+circuit. Derive an expression for the output voltage by
+making suitable simplifying
+assumptions.
+A piezoelectric crystal has a thickness of 2mm anda
+voltage sensitivity of 0.04 V-m/N. Determine
+the
+output voltage when it is subjected to a pressure of
+N/m?.
+EEN701/EEE504/KIH-26181 2
+3. Answer any two parts of the following : (10x2=20)
+(a) A 25 mm diameter steel shaft is used for transmission of
+power. Determine the maximum power that can be
+transmitted at 1,200 rpm through this shaft if the maximum
+allowable strain in the bounded it is 0.0025 and
+gauges to
+modulus of elasticity of steel in 200 Also determine
+the output voltage and overall, sensitivity of the bridge if
+the strain gauges used for measuring torque are bonded to
+shaft in a pair and connected to an equal arm wheatstone
+bridge. The resistance of each strain gauge is of 160 Q.
+The gauge factor of each gauge is 2 and applied voltage to
+4
+the bridge is 8V. to
+(b) | Describe various electrical methods used for measurement
+of liquid level. Also enlist their merits and Timitations.
+(c) (i) Describe with diagram the moving magnet type
+Ww transducer used for measuring linear velocity. Also
+enlist its merits and demerits.
+(ii) Discuss stroboscopic method of measuring rotational
+speed of a machine with suitable diagram.
+4. Answer any two parts of the following : (10x2=20)
+(a) Draw and explain frequency division multiplexing system
+multiplexing with sketches.
+and time-division system neat
+Also compare their performance.
+EEN701/EEES04/KIH-26181 3 {Turn Over
+(b) What is recorder ? How is it different from x-t and
+x-y
+y-t recorders ? Describe its functioning with a suitable
+bmn diagram. Explain the various techniques employed in digital
+tape recording. Enlist their merits and demerits.
+(c) Explain in detail the following:
+conversion
+(i) Digital to Analog
+(ii) Digital Frequency counter.
+5. Answer any two parts of the following : (10x2=20)
+determined from the
+(a) Explain how the following are trace
+on an oscilloscope :
+of
+(i) the rms value a sine wave and
+(ii) the phase difference between two voltages of the same
+frequency.
+Vo rite short notes on the following :
+On-off control
+) ii) PID control.
+“Draw
+(c) the neat diagram of pneumatic controller used in
+thermal power plant. Also compare the performance of
+pneumatic controller over hydraulic controller.
+EEN701/EEES04/KIH-26181 4 8675

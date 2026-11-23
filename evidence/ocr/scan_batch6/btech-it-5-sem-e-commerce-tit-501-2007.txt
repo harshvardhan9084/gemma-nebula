@@ -1,0 +1,81 @@
+aktuonline.com aktuonline.com
+}
+Printed Pages —3
+PAPER ID
+B.Tech.
+€ of
+FIFTH SEMESTER EXAMINATION, 2006-07 ‘7a,
+>
+E-COMMERCE
+Time : 3 Hours Total Marks : 100
+Note: (i) | Attempt ALL questions. All parts of a question should
+be attempted at single contagious place.
+(ii) All questions carry equal marks.
+(iii) In case of numerical problems assume data wherever ®
+not provided.
+(iv) Be precise in your answer.
+four of the following (5x4=20)
+1. Attempt What any parts organisational : and
+(a) what is intra its potential benefits ? E-commerce
+(b) Which are of transactions under the
+category type of C2B ? come
+= (c) “E-commerce is e-commerce the buying and selling of
+© information, products and services via computer
+wi networks”. Does this . definition ae include . all aspects
+1U that you would consider as part of
+E-commerce ? Of why or why not ?
+(d) What is supplier-centric B2B e-commerce.
+(e) Discuss the role of I-way in development of
+E-commerce.
+(f) | What are Intranet and Extranet ? What are their
+potential advantages ?
+TIT—501 1 [Turn Over
+aktuonline.com
+aktugnline
+cam pt any four parts of the following :
+(a) Why is the internet vulnerable to hackers ?
+Describe various attack types web-server is prone
+to ?
+(b) What threats posed by DNS spoofing
+attack are ? a
+(c) Compare the stateful inspection firewall with the
+application level proxy firewall. ~
+(d) Discuss the main features of WAP Technology.
+(e) How does AMPS differ from GSM ?
+(f) Compare and the of universal
+personal telecommunications contrast concepts and universal
+communications
+access.
+3. Attempt any two parts of the following : (10x2=20)
+(a) Compare Secure Socket Layer (SSL) and Secure
+Electronic Transaction (SET) protocols.
+Why Payment Cards (debit, credit and charge
+cards) much popular for
+payments are than e-cash more and e-wallets.
+(b) Propose a Security Model for an E-Banking
+Application.
+(c) | What is Public Key Infrastructure ? Describe the
+role of the certification authority and registration
+authority.
+TIT—501 2
+aktuonline.com
+any two parts of the following :
+(a) Describe the functioning of fully
+system. What its benefits a integrated Non-EDI EDI
+based system ? are over a
+(b) What are the major components of supply-chain
+management ? How E-commerce can be helpful
+in each of them ?
+(c) Discuss various types of E-payment systems and
+their comparative advantages and disadvantages.
+5. | Write short notes any four (5x4=20)
+on :
+(a) Emerging Financial Instruments.
+(b) Virtual Private Networks (VPN).
+(c) CDMA technology.
+(d) Broad Band Telecommunications.
+(e) Role of multimedia in development of
+E-commerce.
+(f) Digital Signature.
+~
+aktuonline.com

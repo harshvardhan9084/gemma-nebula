@@ -1,0 +1,84 @@
+02261
+Printed Pages—4 CS—501
+(Following Paper [D and Roll No. to be filled in your Answer Book)
+PAPER ID : 1003 ll
+B.Tech.
+FIFTH SEMESTER EXAMINATION, 2005-2006
+OBJECT - ORIENTED PROGRAMMING IN C++
+Time : 2 Hours Total Marks : 50
+Note: (i) Answer ALL questions.
+(ii) All questions equal marks.
+carry
+(iii) In case of numerical problems assume data wherever
+not provided.
+(iv) Be precise in your answer.
+1. Attempt any four of the following questions: (4x4=16)
+(a) Define the term object with an example.
+Differentiate by diagrams. between object instance and object class
+— proper
+(b) Discuss the link and by taking
+suitable example. terms Also define association multiplicity.
+(c) What is meant by multiple inheritance ? How it is
+modeled by using nested generalization Explain
+with proper example.
+CS—501 1 {Turn Over
+(d) Prepare a class diagram from the instance diagram
+multiplicity shown in the decisions. given figure below. Also explain your
+(Point)
+(Point)
+—5
+(e) Define recursive aggregation with a suitable example.
+(f) Prepare a portion of object diagram for library
+checkout system that an shows the date a book a is due
+and the late charges for an overdue book as derived
+objects.
+2. Attempt any two of the following questions: (6x2=12)
+(a) The direction control for some of the first toy electric
+trains was accomplished by interrupting the power
+to the train. Prepare state diagrams for the head
+light and wheels of the train, corresponding to the
+following scenario :
+(1) Power is off, train is not moving.
+(2) Power is turned train forward and
+headlight shines. on, moves
+(3) Power is turned off, train stops and headlight
+goes out.
+(4) Power is turned on, headlight shines and train
+does not move.
+(5) Power is turned off, headlight goes out.
+CS—501 2
+(6) Power is turned on, train runs backward, with
+its headlights shining.
+(7) Power is turned off, train stops, and headlight
+goes out.
+(8) Power is turned on, headlight shines and train
+does not move.
+(9) Power is turned off, headlight goes out.
+(10) Power is turned on, train runs forward with
+its headlight shining.
+(b) Explain state and event generalization with suitable
+examples.
+Prepare DFD for computing the volume and
+surface area a of a cylinder. Inputs are height and
+radius of the cylinder. Output are volume and
+surface area. Discuss several ways of implementing
+the DFD.
+3. Attempt any two of the following questions: (6x2=12)
+(a) Write a class description in C++ for complex
+numbers. Write methods for addition, subtraction,
+and multiplication of complex number.
+(b) Discuss various type of inheritance with
+examples. proper
+(c) Write program in C++ for inserting an element in
+single linked list.
+CS—501 3 [Turn Over
+4. Attempt any two of the following questions: (5x2=10)
+(a) Explain by example in C++ the following :
+(i) Virtual function
+(ii) Polymorphism
+(b) Define the following
+(i) Reusability
+(ii) | Robustness
+(c) Compare between SA/SD and JSD.
+-o0Oo-
+CS—501 4 10450

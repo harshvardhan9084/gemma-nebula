@@ -1,0 +1,56 @@
+Printed Pages:2 Sub Code:NEN-043
+Paper Id: 121213 Roll No.
+B.TECH
+(SEM THEORY EXAMINATION 2018-19
+IMAGE PROCESSING
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief.
+Bos What is parallel image processing?
+Define Sampling and Quantization.
+Define Image Smoothing and Image Sharpening.
+List he properties of Walsh-Hadmard transform.
+moe What is Image enhancement?
+Define Contour coding?
+What is Image Segmentation?
+Tp
+Define text recognistion.
+State Gestalt principle.
+www.aktuonline.com What is edge linking?
+SECTION B
+2. Attempt any three of the following: 10x 3 =30
+Rose Explain Image-geometry and stereo imaging elements of visual perception.
+Explain periodic noise reduction by frequency domain filtering.
+Explain block coding and length coding with suitable examples.
+Explain line and edge detection run approaches in detail.
+e Draw the block diagram of signature verification and explain its working.
+SECTION C
+3. Attempt of the following: 10x1=10
+any one part
+(a) What do you mean by image quantizer? Classify different types of image
+quantizer. What are the advantages of image quantizer?
+(b) What do you mean by Nyquist rate, aliasing and fold over frequency as related to
+Sampling of images? How the image is reconstructed from its samples?
+4. Attempt any one part of the following: 10x1=10
+(a) What is histogram? For what purpose is it used? Explain histogram
+specification with example.
+(b) Find the expression for DFT of an NxN image u(m,n) and the properties of this
+transform.
+5. Attempt any one part of the following: 10x1=10
+(a) What is Image Data Compression and why it is required? Describe Huffman
+compression in detail.
+http://www.aktuonline.com
+(b) Draw and explain the block diagram of digital image restoration system.
+Explain Wiener filter. a
+Attempt any one part of the following: 10x1=10
+(a) Discuss the match based segmentation in detail. What is supervised and
+unsupervised evaluation? Differentiate with some examples.
+(b) Describe how image segmentations done using Thresholding approach.
+Attempt any one part of the following: 10x1=10
+(a) What do you mean by shape analysis? Explain the various steps involved in
+shape analysis.
+(b) List the various practical applications of image processing. Explain Finger print
+classification briefly.
+www.aktuonline.com
+http://www.aktuonline.com

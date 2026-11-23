@@ -1,0 +1,74 @@
+Printed Pages : 4 EOE038 {i) Find the regular expression over {0, 1} that denotes the set of all
+containing 100 as sub string.
+(Following Paper 1D and Roll No. to be filled in your Answer Book) (j) Find the number of possible binary trees with 4 nodes.
+PAPER ID 0934
+;: Section - B
+Attempt any three parts. 10 x 3=30
+B. Tech (a) Ina group of athletic teams in a certain institute, 21 are in the basket ball team, 26
+THEORY EXAMINATION, 2012-13 in the Hockey team, 29 in the Football team. If 14 play Hockey and Basketball, 12
+DISCRETE MATHEMATICS play Football and Basketball, 15 play Hockey and Football, 8 play all the three
+] { Total Marks 100 games.
+Time : 3 Hours : (i) How many players are there in all ?
+(ii) How play only Football ?
+Section - A 10x 2=20 many
+1, all parts. Use Venn diagram to justify your answer.
+(a) Let S = {2, 5, V2, 25, II, 5/2} and T= {4, 25, 6, 3/2} (b) Test the validity of argument :
+Find S 4 T and T x (SAT) “If it rains tomorrow, I will carry umbrella, if its cloth is mended. It will rain
+tomorrow and the cloth will not my be mended. Therefore I will not
+(b) Let A = {0, 1, 2, 3,.....}. Define function f, g and h from A to A by = 2x, umbrella”, https://www.aktuonline.com carry my
+g(x) =x + 1 and
+h(x) [ 0, is odd (c) Find the number of ways in which 5 prizes can be distributed among 5 students
+= _ 1, ifx is even such that
+where x € A. (Treat ‘0’ as an even number). Find (fog)ch. (i) Each student may get a prize.
+(ii) There is no restriction to the number of prizes a student gets.
+(c) Let p be “He is tall” and let q “He is handsome”. Then represent the statement. “It (d) (i)
+is false that he is short or handsome” in predicate logic. Let is abelian, G be any group in which every element is its own inverse. Show that G
+(d) Write contra-positive of statement P : If the flood destroys my house or the fire
+destroys my house, then my insurance company will pay me. (ii) Let (a, *) be a commutative semi-group, show that ifa* a=a and b * b=b,
+(e) How many numbers of diagonals can be drawn by joining the vertices of an then (a * b) * (a* b)=a*b.
+octagon ? (e) Explain Euler graph using suitable example. Prove that a given conngcted graph G
+(f) In how of 7 themselves around circular is an Euler graph if all vertices of G are of even degree.
+table ? many ways can a party persons arrange a
+Section -C
+(g) Let (A, *) be an algebraic system, where * is a binary operation such that for any Attempt all parts, 10x5=50
+b in A, a * b =a. Show that this operation is associative. Attempt any two parts :
+(h) Let f be the permutation defined on the set {1, 2, 3, 4, 5, 6} by (a) Prove that if set A contains n elements, Then P(A) contains 2" elements.
+fas product of cycles (b) Let A= {-2,-1, 0, 1, 2}, B= {0, 1, 4} and f: A -> B is defined {(x) x7 is
+21563 Express a disjoint function. If so find that whether it is one to one or bijection ? as = a
+0934 1 P.T.O. 0934 2
+https://www.aktuonline.com
+https://www.aktuonline.com
+© _ If A and B are two subsets of a universal set then prove that (b) Suppose the characters ‘a’, ‘b’, ‘c’, ‘d’, ‘e’, ‘g’ are stored in a Binary Search
+Tree (BST). Draw a BST that is as tall as possible and contains all these
+A-B=AnB characters. Also draw a BST that is as short as possible and contains all
+characters.
+Attempt any two parts : (c) Let M be a FSM given by following table. Construct an equivalent FSM
+(a) Is the proposition S valid corresponding to the machine M.
+a conclusion from the premises :
+(b) Prove that (p> q)
+(c) Show that ((p v ~ q) a (~ vqisa tautology, where p and q are Boolean
+variables.
+Attempt any two parts :
+(a) In the word ‘MANORAMA’.
+Find the number of
+permutations formed taking all letters.
+(ii) Out of these the number of permutations with all A’s together.
+(b) Prove by induction that for all integers n>
+(c) If Fn
+defined satisfied by the Fibonacci relation for the Fibonacci series (1, 1, 2,
+formula the recurrence relation, Fn = Fn - 1 + Fn ~ 2, FO = FI, then find a
+to find Fibonacci number,
+Attempt any two parts :
+(a) Let ({a, b}, +) be a semigroup where a * a = b, Show that
+(i) a*b=bea
+(ii) b*eb=b
+(b) Let G be the set of all non-zero real numbers and let b ab/2, show that (G,
+is an abelian group. a * = *)
+f +
+{c) In S3, find two permutations and g that do not commute.
+Attempt any two parts :
+(a) Design an automation which accepts only numbers of 0s and
+l’s. even even number of
+3
+https://www.aktuonline.com P.T.O. 0934 4
+https://www.aktuonline.com

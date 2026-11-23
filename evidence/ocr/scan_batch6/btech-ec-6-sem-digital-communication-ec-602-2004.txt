@@ -1,0 +1,95 @@
+| | | tt
+No. of Printed Pages—3 My Ling — EC-602 Ry
+~~ Keizer
+B. TECH. OF
+DIGITAL COMMUNICATION
+Time : 3 Hours Total Marks : 100
+Note : Attempt ALL questions. _
+“~~, Attempt any FOUR parts of the following :— (5x4=20)
+(ay What is Flat Top sampling ? Compare it
+with natural sampling.
+(b) Define Average Mutual Information
+between two discrete random variables and
+show that it is non-negative.
+(c) Design binary Huffman Code for discrete
+of five independent symbols a A,B,C,D
+source and E with probabilities 0-4, 0-2, 0:3, 0-08 and
+0-02 respectively such that the variance of
+code-word lengths is minimum.
+(d) Derive Symmetric channel capacity Channel. expression for a
+Binary
+(e) Show that an n letter Discrete memoryless
+has maximum entropy of log2”.
+(ff Compare the noise performance and
+bandwidth of PWM, PPM and PAM.
+2. Attempt FOUR parts of the following  (5x4=20)
+any :—
+(a) Explain Granularity and Slope-overload
+errors in Delta modulation.
+114 (b) What is Frame Synchronization in digital
+cornmunication ? Explain how it is achieved
+using an example.
+EC-602 1 Turn Over
+(c) Why are non-uniform quantizers needed at
+all ? How are they implemented ?
+(d) What are the functions of a repeater in a
+PCM system ? Is there something analogous
+to repeater in analog communication ?
+(e) A speech signal of duration 15sec. is
+sampled at sampling rate of 10 ks/s and
+encoded with signal to quantization noise
+ratio 50 dB. What is the minimum storage
+needed to store the encoded signal ?
+(f) | What is Tl system ? Describe it briefly.
+3. Attempt any TWO parts of the following :—
+(a) What do you understand by Inter-symbol
+Interference (ISI) ? Derive the Nyquist criteria
+for zero ISI. (10)
+(b) Given a bit sequence of 0110010, draw the
+line codes in polar, bipolar (AMI),
+Manchester and HDB formats. Compare
+these formats on the basis of inbuilt clocking,
+bandwidth and noise performance. (10)
+(c) Consider a finite duration pulse limited
+to time
+(i) What is the impulse response of filter
+matched to the pulse h(t) ?
+(ii) If this filter is used to detect h(t) in
+presence of additive white noise, show
+that Signal-to-Noise Ratio (SNR) at the
+output of the filter will be maximum. (8)
+4. Attempt any TWO parts of the following :—
+(a) Derive the expression for probability of bit
+for coherent BPSK scheme in
+error of additive, white, Gaussian noise. presence (10)
+EC-602 2
+(b) (i) Differentiate
+incoherent receptions. between coherent and (4)
+(ii) Giving modulated waveforms, signal
+space diagrams and probability of bit
+errors, draw the optimum receiver
+structures for DPSK and coherent FSK
+modulation schemes. (6)
+(c) Explain the MSK modulation scheme and its
+optimum receiver structure. How is its noise
+performance related to that of coherent
+BPSK ? (10)
+5. Attempt any TWO parts of the following :—
+(a) Show that for single-bit error correcting block
+code, the columns of its parity check matrix
+must all be non-zero and distinct. (10)
+(b) Consider (7,4)
+a type systematic cyclic code
+with generator polynomial ¢(x)=1+X+X?.-
+(i) Draw the encoder and syndrome
+calculator circuits. (5)
+Determine the first two rows of its
+generator matrix. (5)
+(c) Consider convolutional
+a rate
+code with constraint length L=3 and
+generators being g, = [100], ¢, = [111] and
+g,=[101]. diagram. Draw its trellis and state (5)
+(ii) Explain sequential decoding of
+convolutional code. (5)
+EC-602

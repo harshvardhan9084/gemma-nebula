@@ -1,0 +1,69 @@
+aktuonline.com aktuonline.com
+(f) What the Kepler's law of Planetary Motion ? Explain
+are
+ascending node and descending node of a satellite orbit.
+Printed Pages—3
+EEC069 2, Attempt any four parts : (4*5=20)
+(a) Explain the significance of G/T of an earth station. Write
+(Following Paper ID and Roll No. to be filled in your Answer Book the values of G/T for standard earth stations.
+PAPER ID :121854 (b) Discuss the antenna requirements for large and small earth
+B.Tech.
+{c) What do you mean by station keeping of satellite ? Explain
+(SEM. VIII) THEORY EXAMINATION 2013-14 aktuonline.com its significance and methods to achieve it. aktuonline.com
+SATELLITE COMMUNICATION
+(d) Two amplifiers are connected in cascade having gain of
+Time : 3 Hours Total Marks : 100 20dB each. If the noise temperature of each is 200 K,
+determine the overall noise temperature and gain of the
+Note :- (i) Attempt all questions.
+(ii) All questions carry equal marks.
+1. Attempt four parts (4x5=20) {€) Asatellite TV signal occupies the full 36 MHz transponder
+any : bandwidth and is desired provide C/N ratio of 22 dB
+(a) Draw and explain block diagram of an earth to a at
+are uplink and downlink in a satellite spectrum. What are the earth station. If the downlink frequency is 4GHz and
+ye uplink and downlink frequencies in “C” band ? uptuonline.com ye the other losses amount to 3.4 dB, what must be the G/T of uptuonline.com
+(b) Explain how a satellite is placed into a geostationary orbit the earth station if
+from the earth. GRP is 37dBW. The path length is
+(c) List various advantages and disadvantages 40000 km. (Boltzman's constant K = 1.38 x 1073 J/K)
+of satellite (f) Explain the factors that affect the uplink and the downlink.
+communication. Also mention the applications of satellite How is the uplink design different than the downlink design
+communication. ?
+(d) Explain different types of antennas used in satellite © 3. Attempt any two parts of the following : (2*10=20)
+communication,
+(e) Asatellite is in an elliptical orbit with a perigee of 1000 km (a) Explain pre-emphasis and de-emphasis in detail with the
+and of 4000 km. Using earth radius of help of a neat diagram. Why is it required ? Explain FM
+an apogee find mean improvement.
+6378.14 km, the period of the orbit in hours, minutes
+and seconds and the eccentricity of the orbit. (b) Explain DAMA and demand assignment control methods.
+(c) What is SPADE System ? Briefly describe its operation.
+1 [Turn Over
+EEC069/DO5-21579 2
+for solution visit a2zsubjects.com for solution visit a2zsubjects.com
+aktuonline.com
+4.
+Attempt any two parts : (2*10=20)
+(a) Explain Convolutional Coding. Why do Convolutional codes
+provide better error correction performance ? Explain it.
+(b) Acode word is received (1010110). Find whether it is
+as
+a correct code-word. If not, find the correct code word.
+The generator matrix C, is given below:
+= © SO SO OOo = =
+co o>
+= aktuonline.com
+Q =
+co -
+(c) Explain various cocenter measures against propagation
+5. Attempt any two parts (2x10=20)
+:
+(a) Explain DBS home receiver with the help of neat block
+diagram.
+ye uptuonline.com
+(b) Explain various segments of GPS system.
+(c) Write short notes
+on any two:
+(i) VSAT Systems
+(ii) LEO Satellites for internet
+transmission
+(iii) Non Geo-stationary satellites.
+EEC069/DQ5-21579 3 6975
+for solution visit a2zsubjects.com

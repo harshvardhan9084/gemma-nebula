@@ -1,0 +1,76 @@
+aktuonline.com aktuonline.com
+01162
+Printed ME—702
+Pages—3
+B.Tech.
+SEVENTH SEMESTER EXAMINATION, 2005-2006
+COMPUTER AIDED MANUFACTURING
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt ALL SIX questions. - There may be choices
+within questions.
+(ii) Q.1 carries 10 marks, other questions carry marks as
+indicated therein.
+(iii) Answer neatly and briefly. Assume suitably missing
+data, if any. Symbols/Abbreviations have the usual
+meaning.
+(iv) Be precise in your answer.
+1. Attempt all the following parts as directed : (2x5=10)
+(a) Enlist advantages and limitations of Flexible
+Manufacturing System.
+(b) Why Complete Automation is not acceptable directly
+to Indian Society ?
+(c) Intelligent What do you Manufacturing understand ? by Expert Systems and
+(d) Explain why CNC Lathe-beds are made of CAST
+IRON ?
+1 [Turn Over
+aktuonline.com - — -
+aktuonline.com fofktygnline.com
+(2) Briefly write the purpose for which the
+are used :
+DDA
+(i) DAC
+2. Answer any TWO of the following : (9x2=18)
+(a) Write and explain methods for :
+(i) | improving accuracy, and
+(ii) increasing productivity of CNC machine tools.
+(b) What is Micro ? Explain some of the Micro’s used in
+Automation.
+(c) What is Group Technology ? How it is useful in
+FMS ?
+3. | Answer any TWO of the following : (9x2=18)
+(a) Enlist and explain various statements used in Robot
+programming using VAL.
+(b) Enlist and explain various motion-statements used
+in APT.
+(c) Differentiate between CNC and DNC system. ~
+4. Answer any TWO of the following : (9x2=18)
+(a) Briefly explain and describe with neat sketches, the
+principle and working of :
+(i) encoder and (ii) | Stepper
+an motor.
+ME—702 2
+aktuonline.com _
+aktuonline.com) paaktuenline.com
+Explain, with the help of the
+and working of a Circular Interpolator.
+(c) Describe the automatic speed-control of DC motor
+with closed-loop feedback with tachometer and
+develop the formula for angular speed.
+5. Write short notes on any THREE of the following :
+(6x3=18)
+ne Cellular Manufacturing Cell
+Artificial Intelligence
+~~ CAD
+Direct Numerical Control and
+Robot Configurations in use
+6. Answer any TWO of the following : (9x2=18)
+(a) Compare Robots and CNC machines.
+(b) Write, briefly, about Explain various features methods of VAL for
+robot-programming. robot-programming.
+(c) Define robot and explain the following terms about a
+:
+Accuracy, Work Volume, Resolution, Repeatability,
+Speed of movement and load carrying capacity.
+-o0Oo0-
+ME—702 3 4800
+aktuonline.com

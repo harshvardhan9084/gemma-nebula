@@ -1,0 +1,71 @@
+uptuonline.com aktuonline.com uptuonline.com aktuonline.com
+Printed Pages: 4 NEC-022 (f) What do understand by MOVC A, @ A+DPTR?
+(Following you
+Paper ID and Roll No. to be filled in your (g) Find the timer control frequency and
+Answer Books) the period of 8051
+Paper ID 131667 based system with crystal frequency of 12MHz.
+:
+(h) A given memory block use address 4000h-7FFFh. How
+B.TECH much memory Kbytes in this block?
+Theory
+Examination (Semester-V1) 2015-16 (i) Which of 8051 provide A8-A15?
+MICROCONTROLLER & aktuonline.com port aktuonline.com
+ITS APPLICATIONS
+Time 3 Hours Max. Marks 100 (j) In accessing external stored program code the PSEN is
+: : always activated, explain why?
+Section-A
+Section-B
+1. Attempt all parts. All parts carry equal marks, Write
+of each in (2x10 2. Attempt any five questions from this section.
+answer part sort. = 20) (10x5 = 50)
+ye uptuonline.com ye uptuonline.com
+(a) What is the difference between microprocessor and (a) Write to get value from P1 and send x”
+microcomputer? a program x
+continuously to P2.
+(b) What is CISC? (b) Describe 8051 flag bits and PSW register.
+(c) Give 8 and 16 bit registers of 8051. (c) Find out to which byte each of the following bits belong.
+Give address of RAM byte in hex.
+(d) Give addressing mode of MOV A. #65h.
+(a) SETB 42h,
+(€) Which port of 8051 requires pull-up resistors?
+(b) CLR 47h,
+1 P.T.O.
+2705/ /194/4850 /194/4850
+for solutions visit a2zsubjects.com for solutions visit a2zsubjects.com
+uptuonline.com aktuonline.com uptuonline.com aktuonline.com
+4. (a) Give internal RAM organization specifying working
+(c) CLR OFh, registers, bit addressable register and general
+purpose
+(d) SETB 28h, registers.
+(e) CLR 12 (b) Explain stack and stack pointer. With the help of
+an
+(d) Explain Serial communication procedure in 8051 example explain stack organization,
+through interrupts.
+(c) What do
+(e) Write 8051 C toggle all bits of P1 E = you understand by special function registers aktuonline.com
+an program to 3 (SFR). Give their name, function and RAM address
+continuously, Explain LED connection diagram. =
+(f) Explain the function of ADC0808/0809 with 8 =
+channel. = 5. (a) Show the design of an 8031 based system with 8kbyte
+x of program ROM and 8 kbyte of data ROM.
+(g) With the help of diagram explain Temperature sensor & 5
+with: BOSS
+(b) Incertain application we need 256 kbye of NV-RAM to
+of data collected by 8051 microcontroller.
+ye (h) With the help diagram show LCD connections to 8051 = J store uptuonline.com
+and explain its functioning. =
+= (i) Show the connection of an 8051 to single 256k = 8
+NV-RAM
+Section-C 5 6 chi
+8
+Note : Attempt two questions in this section. 30) = (i) Show how various blocks of this single chip accessed?
+any = 5
+3. (a) Draw the block diagram of 8051 architecture.
+() D the dia to et 1 pro-
+(b) Draw programming model of ROM and 8255.
+8051. gram
+(c) Mention the specific features of 8051. Indicate bit ad-
+dressable registers.
+3 4
+2705/ /194/4850 2705/ /194/4850
+for solutions visit a2zsubjects.com for solutions visit a2zsubjects.com

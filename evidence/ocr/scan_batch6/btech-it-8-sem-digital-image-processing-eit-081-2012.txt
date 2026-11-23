@@ -1,0 +1,58 @@
+Printed Pages—2 EIT081
+and Roll No. be filled in Answer Book
+Following Paper ID to your
+PAPER ID: 2934
+B.Tech.
+(SEM. VIII) THEORY EXAMINATION 2011-12
+DIGITAL IMAGE PROCESSING
+Time 3 Hours Total Marks 100
+: :
+Note :—Attempt all questions.
+1. Attempt four of the following (5x4=20)
+any parts :—
+(a) What is digital image processing ? List the applications
+of digital image processing.
+a
+(b) What is digital image representation ? How digital
+image can be represented using matrices ?
+(c) Describe various components of an image processing
+system.
+(d) Differentiate between binary images and indexed images.
+(e) What is histogram equalization ? Explain briefly.
+(f) What is spatial filtering ? Explain linear spatial filtering
+technique.
+( Attempt any two parts of the following :—
+(a) Describe the basic steps involved in Discrete Fourier
+Transform (DFT) filtering.
+(b) Explain the working of a lowpass frequency domain
+filters.
+EIT081/PUR-40227 [Turn Over
+1
+(c) Explain the following terms :
+(i) Arithmetic mean filters
+(ii) Geometrical mean filters.
+3. Attempt any two parts of the following :— (10x2=20)
+(a) What is the color image processing ? Explain the color
+transformations in detail.
+(b) Explain following in detail
+:
+(i) Color image smoothing
+(ii) Color image sharpening.
+(c) Describe dilation and erosion operations of image
+processing.
+4. Attempt any two parts of the following :— (10x2=20)
+(a) Describe the Laplacian of a Gaussian technique used
+to detect edges from a digital image.
+(b) What is image thresholding ? How does image
+thresholding play central role in applications of image
+segmentation ? a
+(c) Explain Harris-Stephen’s corner detection technique.
+5. Write short notes on any four of the following :—
+(5x4=20)
+(a) Feature extraction techniques
+(b) Classification techniques (
+(c) Linear Descriptor Analysis
+(d) Boundary-based descriptor
+(e) Clustering techniques
+(f) Graph matching.
+EIT081/PUR-40227 2 8075

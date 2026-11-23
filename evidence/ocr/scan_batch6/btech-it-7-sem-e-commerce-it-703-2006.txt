@@ -1,0 +1,129 @@
+aktuonline.com
+00804
+Printed Pages—4 TT—703
+No. tobe
+Following Paper ID and Roll filled in your Answer Book)
+PAPER YF] | |
+S B.Tech.
+SEVENTH SEMESTER EXAMINATION, 2005-2006
+E COMMERCE
+-
+Time 3 Hours Total Marks 100
+: :
+Note : (i) Attempt ALL questions.
+(ii) All questions carry equal marks.
+(iii) In case of numerical problems assume data
+NTH wherever not provided.
+(iv) Be precise in your answer.
+1. Attempt any four of the following questions: (5x4=20)
+(a) (i) What is electronic commerce and how does it
+differ from traditional commerce ?
+(ii) What are the potential benefits of e-commerce ?
+(i) What is the likely impact of e-commerce on
+economic structures like the industry and
+consumers ?
+(ii) What is the supplier-centric B2B electronic
+commerce ?
+(c) (i) Categorize electronic transactions
+based the entities involved. commerce
+on
+(ii) What is intra-organizational e-commerce and
+what are its potential benefits ?
+IT—703 1 {Turn Over
+aktuonline.com eee
+aktuonline.com aktuonline.com
+(d) (i) What is the architectural framework of
+e-commerce ? Explain in detail.
+(ii) | What is the role of on-line payment systems in
+e-commerce ?
+(e) (i) in local the networks various transmission ? media used
+area
+(ii) What is CSMA/CD protocol ?
+(f) Describe the TCP/IP reference model in detail.
+2. Attempt four of the following questions: (5x4=20)
+any
+(a) (i) Briefly describe the purpose of file transfer
+protocol and list five important commands.
+(ii) What is the concept of world wide web and
+what is the role of URL ?
+(b) Define the following terms :
+(i) ASP (Active Server Pages)
+(ii) CGI (Common Gateway Interface)
+(ii) VRML (Virtual Reality Modelling Language)
+(c) What is difference between SMTP and HTTP ?
+Describe salient features of Hypertext Transfer
+protocol.
+(d) Explain the term network security. What are the
+emerging client-server security threats ? Explain
+each of them.
+(e) (i) What is a firewall and how does it protect
+site ? a
+(ii) Briefly describe the of firewalls.
+various types
+(f) (i) What are major threats posed by a sniffing
+attack ?
+(ii) | What are the vulnerabilities of a web server ?
+IT—703 2
+aktuonline.com
+aktuonline.com aktuontine-com—
+3. Attempt any two of the following questions: (10x2=20)
+(a) (i) Describe the symmetric key cryptosystem.
+What are the important issues related to key
+distribution and management ?
+(ii) What is a public key cryptosystem ? Make
+comparative study of symmetric and public key
+encryption systems.
+(b) (i) Describe technique used for the
+non-repudiation a of an e-commerce transaction.
+(ii) What is a low encryption attack on the RSA
+algorithm ?
+(iii) Briefly describe the secure electronic
+transaction (SET) protocol.
+(c) (i) What is the general description of DES
+algorithm ? How much stronger is 128-bit key
+than 56 or 64-bit DES key ?
+(ii) Explain the following
+:
+VPN, SSL, E-mail spoofing.
+4. Attempt any two of the following questions: (10x2=20)
+(a) (i) Discuss the basic requirements of an online
+payment system.
+(ii) What are micro payments ? What are the
+special considerations involved in the design
+of an online micro payment system ?
+(b) (i) Whatare prepaid electronic payment systems?
+Explain transaction flow in e-Cash and Net Bill
+systems.
+(ii) What is meant by debit card and credit cara
+based EPS ?
+IT—703 3 [Turn Over
+aa
+aktuonline.com- aktuonline.com
+(c) Define interoperability in the context of online
+payment system.
+(ii) What are the various security issues in the
+context of online payment systems ?
+(iii) Describe an online payment transaction in the
+Mondex Smart Card System.
+5. Attempt any two of the following questions: (10x2=20)
+(a) (i) Define EDI. Specify four layers EDI ~~
+architecture in detail.
+(ii) Why the relationship between EDI and
+e-mail can be ambiguous e-mail become
+sophisticated ? as systems
+very
+(b) (i) Whyis key element ina JIT (Just-In-Time)
+environment ?
+(ii) What are tangible benefits of EDI ? Explain
+each of them.
+(c) (i) | Whatare security and privacy issues regarding
+EDI ?
+|
+(ii) Explain the following terms :
+1. SCM
+2. CRM
+—™
+3. VANs
+IT—703 4
+4050
+RR COM

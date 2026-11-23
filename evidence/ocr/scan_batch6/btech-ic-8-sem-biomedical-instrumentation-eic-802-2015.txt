@@ -1,0 +1,101 @@
+www.aktuonline.com
+Printed Pages : 4
+A 0000 0
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 132802
+B. Tech.
+(SEM. VIII) THEORY EXAMINATION, 2014-15
+BIOMEDICAL INSTRUMENTATION
+Time : 3 Hours] [Total Marks : 100
+all questions. All questions equal marks.
+Note : Attempt carry
+1 Attempt any four parts of the following. 5x4=20
+(a) Which of the should be
+one components
+determined first in designing an instrumentation
+system for measurement of physiological variables?
+Why? Which would you next determine?
+(b) Differentiate between clinical instruments and
+research instruments? Explain the purpose of
+body surface electrodes and give their advantages
+with applications?
+(c) Draw the block diagram of Man-instrumentation
+system and explain its various system components.
+Enlist the problems encountered in the Man
+132802] instrumentation system.
+1 [ Contd...
+www.aktuonline.com
+(d) How does potential propagate in cell? Explain the
+role of refractory period?
+(e) Explain the piezoelectric transducer, what are their
+limitations ? Give its dynamic model and also its
+equation under steady condition.
+output state
+2 Attempt any four parts of the following : 5x4=20
+(a) the potential in muscle fibers measured
+and what is the record called that is obtained
+thereform? Also draw the nature of the potentials
+recorded.
+(b) What the problems involved in using flat
+are
+electrodes in terms of interference or high
+impedance between electrode and skin? How
+could you help to eliminate this problem?
+(c) What is bio-potential ? Name six types of bio-
+potential Also explain polarization,
+sources.
+depolarization and repolarization.
+(d) Explain term EPSP and IPSP.
+(e) What do you understand by fibrillation? How do
+you correct it? Explain DC defibrillator with neat
+diagram.
+(f) Explain the vector cardiograph? How does it
+differ from electrocardiograph?
+132802] 2 [ Contd...
+www.aktuonline.com
+3 Attempt four parts of the following 5x4=20
+any :
+(a) Draw the ECG waveform and explain important
+points in it. What does 1020 ECG measurement?
+(b) Draw the wave shape of blood pressure on
+time base and explain it? How is the
+a
+blood pressure measurement done by
+sphygmomanometer ?
+(c) What is meant by "plethysonography"? Discuss
+any one method to implement it clinically?
+(d) Explain the working of ultrasonic spirometer?
+(e) Explain the procedure of measurement of neuronal
+firing with the suitable diagram.
+(f) | Write short note on humidifiers and nebulizers.
+4 Attempt two parts of the following 10x2=20
+any :
+(a) Explain the principle of computerized axial
+tomography and its method of visualization
+compare
+with conventional x-ray methods.
+(b) the pacemaker works and explains the
+How
+difference between the artificial pacemakers with
+heart's natural pacemaker.
+(c) With diagram explain tonometer operation for eye
+pressure measurement.
+132802] 3 [ Contd...
+www.aktuonline.com
+5 Attempt any two parts of the following. 10x2=20
+(a) In both X-ray and Radioisotope procedure,
+potentially harmful ionizing radiation is used for
+diagnostic purposes. Why is the safe intensity of
+radiation of X-ray much higher than that for
+isotopes methods? Describe X-ray production
+arrangement.
+(b) Draw a sketch of neuron and level the cell body,
+dendrite, and hillock. Also explain the
+axon axon
+difference between a motor nerve and a sensory
+nerve.
+(c) How is the telemetry used as an emergency
+patient care tool? Explain how four physiological
+parameters can be monitored and telemetered
+simultaneously.
+132802] 4 [ 1450 ]

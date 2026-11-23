@@ -1,0 +1,64 @@
+Printed Pages—3 EME701
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2766
+B.Tech.
+(SEM. VII) ODD SEMESTER THEORY
+EXAMINATION 2013-14
+COMPUTER AIDED
+DESIGN
+Time : 3 Hours Total Marks : 100
+Note :—(1) All five questions are compulsory, attempt as
+instructed therein.
+(2) Assume any missing data suitably.
+1. four parts of the following :
+(a) Make a table of important design phases. What are the
+required CAD tools to support various design phases ?
+(b) What various CAE activities ?
+are
+(c) What do you understand by Object Oriented Programming ?
+(d) Write a program, in either C or C+, to find the radius of a
+circle whose area is equal to a square.
+(e) Discuss various coordinate systems used ina CAD system.
+(f) Compare the capabilities, advantages and disadvantages
+of any three types of display devices.
+2. Attempt four parts of the following (5x4=20)
+any :
+(a) Digitise the line with end points (20, 12) and (4.5, 17) using
+DDA algorithm.
+(b) What do you understand by composite transformation ?
+Explain in detail.
+EME701/DNG-51840
+1 [Turn Over
+(c) With the help ofa diagram explain working ofa color monitor 5. Attempt any two parts of the following : (10x2=20)
+display device. (a) Explain the method of solving design problem using FEM.
+(d) What graphic functions are provided in a general purpose a
+Also write the advantages of FEM.
+graphics package for creating and manipulating images ? (b) Find the root of the function :
+Explain Homogeneous coordinates in detail.
+Rotate object defined by A(0, 0), B(4, 0), C(4, 4), f(x) = 3x? — cos x — e*
+an using Newton-Raphson method.
+D(0, 4) by 70° counter clockwise direction about origin
+and find transformed coordinates. (c) Evaluate the following integral :
+Attempt any two parts of the following : (10x2=20) |
+I= fe + 2x)! dx
+(a) Describe Hrmite Spline curve and its blending function.
+(b) What are Bezier Curves ? Discuss about the properties of
+such using Simpson rule.
+curves.
+(c) Elaborate the following :
+Blobby objects
+(ii) Superquadric surfaces.
+Attempt any two parts of the following : (10x2=20)
+editing commands and 5 drawing commands in
+(a) Write 5
+(b) Elaborate the procedure for designing a Journal bearing.
+Also write algorithm for design of the above.
+an
+OR os
+Write an algorithm for designing a helical spring.
+(c) Describe constructive solid geometry with suitable
+examples. How three dimensional objects having
+translational, rotational, or other symmetry are modeled ?
+Explain with suitable examples.
+EME701/DNG-51840 2
+EME701/DNG-S1840 3 13625

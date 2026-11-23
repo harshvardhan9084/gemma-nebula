@@ -1,0 +1,54 @@
+Printed Page 1 of 1 Sub Code:NBC031
+Paper Id: 910153 Roll No:
+MCA (DUAL DEGREE)
+(SEM-IX) THEORY EXAMINATION 2019-20
+CLOUD COMPUTING
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x 10=20
+a. What is the working principle of Cloud Computing?
+b. Explain Grid Computing.
+c. What is Platform as a Service?
+d. Explain the Host level Security.
+e. What is Service Level Agreements?
+f. Write a short note on virtual machines.
+What is Data Center?
+g.
+h. Write the various popular cloud applications.
+1. List the two versions of VMware Converter.
+j. Compare full and para virtualization.
+SECTION B
+2. Attempt any three of the following: 10 x 3
+www.aktuonline.com a. Explain Web OS and Web 2.0 in detail.
+b. With block diagram, explain cloud computing reference model and services.
+c. Describe the cloud security infrastructure? Differentiate transport level security and
+message level security.
+d. Describe Security as a Service in cloud. What are the security issues in cloud? Discuss
+the ways to enhance security in cloud.
+e. Which Cloud Services are used in Windows Azure? Explain the features of Windows
+Azure.
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+(a) | Differentiate between Grid Computing, Distributed computing and Cluster Computing
+in detail.
+(b) | Describe the Google application engine. List the major features of Google App
+Engine.
+4. Attempt any one part of the following: 10x1=10
+(a) | Write about the scope of cloud computing in business area.
+(b) | What do you mean by multi-tenancy with respect to various cloud environments?
+5. Attempt any one part of the following: 10x1=10
+(a) | What do you mean by Monitoring as a Service (MaaS) and its benefits?
+(b) | Discuss the different cloud security services. List few major challenges in securities
+cloud computing.
+6. Attempt any one part of the following: 10x1=10
+(a) | What do you mean by CRM? Discuss forse.com platform used in salseforce.com
+(b) | What is Cloud Storage? Elaborate on properties of cloud computing as given by
+Google.
+7. Attempt any one part of the following: 10x1=10
+(a) | Name a few companies that are adopting the cloud computing model. Explain basic
+| uses cloud computing in IT field.
+(b) What and are the the objectives skills required of by project. a project manager in order to overcome the challenges
+meet a
+1|Page
+http://www.aktuonline.com

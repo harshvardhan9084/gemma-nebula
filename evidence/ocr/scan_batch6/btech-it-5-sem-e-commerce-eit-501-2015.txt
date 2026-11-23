@@ -1,0 +1,56 @@
+Printed Pages : 3 /
+0 8 8
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 113501
+B. Tech.
+(SEM. V) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+E-COMMERCE
+Time : 3 Hours] [Total Marks : 100
+Note: All questions are mandatory
+1. Attempt any four parts of the following:- 5x4=20
+(a) Define E-Commerce and various issues related to
+E-Commerce.
+(b) Compare E-Commerce over Traditional business and
+draw E-Commerce architecture.
+(c) Explain different types of E-Commerce in detail.
+(d) What is the impact of E-Commerce?
+Explain Network Infrastucture and various
+(e) components
+of Iway.
+(f) What is the role of Broadband Telecommunication in
+E-Commerce?
+113501] 1 { Contd...
+5°
+2. Attempt any four parts of the following:- 5x4=20 Attempt any two parts of the following:- 10x2=20
+(a) Discuss about frame relay and ATM. (a) Explain Virtual Private Network (VPN) in detail, with
+(b) What is Mobile Commerce and its Framework? its types. What the various issues related VPN?
+_ are to
+(c) Write the objectives, benefits, and applications of (b) What is payment gateway? Discuss the various issues
+Wireless Application Protocol (WAP). that involved in Electronic
+are Payment System (EPS).
+(d) Describe the Wireless Application Protocol (WAP) (c) Define the following terms:-
+stack.
+@)
+(e) Write short note on technologies in M-Commerce. Gi) Encryption
+(f) Define any two of the following terms:- (ii) Message Integrity
+@ CDMA
+(v) Digital Public-Key Certificates
+GPRS
+(ii) GSM Attempt any two parts of the following:- 10x2=20
+(a) | the problems with Traditional Payment Systems?
+3. Attempt any two parts of the following:- 10x2=20 Explain how the problems solved in Digital Token
+are
+(a) Discuss the role of firewall, importance and factors based Electronic Payment System.
+considered in firewall design. (b) Explain Secure Electronic Transaction
+(SET). What is
+(b) Write short notes on :- the need for SET? What are the features does SET
+specify?
+(i) Trust based security
+(ii) Security through obscurity (c) Explain the following:-
+(c) Discuss in brief the security issues on the web. What @) Smart Card
+the various network security threats and their Gi)
+are
+remedies? Discuss.
+113601] 2 Contd... 113501] 3
+4675

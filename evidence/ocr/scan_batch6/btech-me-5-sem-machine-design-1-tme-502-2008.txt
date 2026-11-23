@@ -1,0 +1,177 @@
+aktuontine.com
+UD
+Printed Pages : 7 TME-502
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 4075
+B. Tech.
+(SEM. V) EXAMINATION, 2007-08
+MACHINE DESIGN I
+-
+Time : 3 Hours] [Total Marks : 100
+Note : Answer all questions. Use of design data book is
+permitted. Assume any missing data suitably.
+1 Answer four of the following 5x4
+any :
+(a) What are the different stages in the design of a
+machine element, explain.
+(b) Explain the BIS method of specifying cast iron
+and its major types.
+(c) With suitable example, explain the significance
+— a
+of prefered numbers in design.
+(d) What is the importance of standardization in
+design, discuss with suitable examples.
+(e) Briefly discuss the weighted factor method of
+material selection.
+|
+(f) Enumerate advantages and disadvantages of plastic
+materials over metals.
+4075) [Contd...
+aktuonline.com
+aktuonline.com\nswer aktugpline.com
+any two of the following -
+(a) A flat bar shown in figure is subjected
+as to
+an axial load of 50 kN. If the stress in the
+bar is to be limited to 100 N/mm?, determine
+the thickness of the bar.
+25 25
+50 kN 50 kN
+30 k—
+Fig. 1
+(b) A pulley is mounted on a shaft midway between
+two bearings. The bending moment at the pulley
+varies from 200 kN-mm to 600 kN-mm and a
+torsional moment varies from 60 kN-mm to
+180 kN-mm. The shaft material has an ultimate
+strength of 550 MPa and yield strength of
+400 MPa. If factor of saftey is 1.5 and the stress
+~
+concentration factors for the keyway in the
+pulley in bending and torsion is 1.5 and 1.2
+respectively, find the shaft size for infinite life.
+(c) Figure shows hanger with rectangular
+a cross-
+section, with the proportions indicated. A force
+F of magnitude 10 kN acts at 30° to the vertical
+4075) M2 {Contd...
+aktuonline.com hangaktuonline.com
+as shown. The permissible stress in the
+material is 60 MPa. Find the cross section of
+hanger.
+|
+—_
+t
+=]
+N
+30°
+120 ——_»
+Fig. 2
+~ 3 Answer any two of the following : 10x2
+(a) The outline of a drill press is shown in figure. The
+column is secured to the bottom block by 8 bolts
+as shown (two bolts on each side of column on
+each location) of allowable tensile stress for the
+bolt material is 84 MPa and the externa! load
+P=20 KN acting as shown in figure, find the
+suitable size of the bolt.
+4075) MN 3 [Contd..
+aktuonline.com aktuonline.com
+|
+|| 1700 F 20kN
+=
+800 mm Lengths
+b= 150 mm
+c= 150 mm
+A B d= 150 mm ¢
+17 e mm
+17 |
+Fig. 3
+(b) A shaft is required to transmit 15 kW at 200 rpm.
+It is supported on two bearings 600 mm apart
+and two gears are keyed to it. . A 18 teeth, l4— V
+involute, 5 mm module pinion is located at 120
+mm to the right of right bearing and delivers
+power to a gear directly below the shaft.
+1°.
+A 72 tooth, 145 involute, 5 mm module gear
+is located at 150 to the right of the left bearing
+and receive mm from a directly above
+it. Determine power the shaft diameter gear, if permissible
+normal stress is 80 MPa.
+(c) Design a cast iron protected type flage coupling
+to connect two shafts of 36 mm diameter,
+transmitting 15 kN at 720 rpm. The overload
+capacity is 1.25 times the average torque. The
+bolts and key area made of c20 steel and the
+flages are made of cast iron.
+4075) 4 [Contd..
+=e
+aktuonline.com
+ate
+aktugnline
+two of the following : co
+(a) A helical spring is made from a wire of 6 mm
+diameter and has outside diameter of 75 mm. If
+N/mm?
+the permissible shear stress is 350 and
+modulus of rigidity is 84 kKN/mm2, find the axial
+load which the spring can carry and deflection
+per active turn;
+(1) neglecting the effect of
+curvature, and
+(2) considering the effect of
+curvature.
+(b) A semi elliptical laminated vehicle spring is to be
+designed to carry a load of 3 kN and consists
+of two full length leaves and five graduate
+leaves of width 65 The spring is be
+mm. to
+1100 mm in length and attached to the axle by
+two U bolts 80 mm apart. These bolts hold the
+central position of the spring rigidly that they
+so
+may be considered equivalent to a band having
+a width equal to the distance between the bolts.
+If allowable stress is 350 Mpa and modulus
+of electricity is 210 GPa, determine
+(i) thickness of leaves
+(ii) deflection of spring
+(ili) length of leaves.
+O75) A 5 [Contd..
+aktuonline.com 7 8
+aktuonline.com aktuonline.com
+(c) A power screw having double start square
+thread of 32 mm nominal diameter and 5 mm
+pitch, is acted upon by axial load of
+an
+12 kN. The inner and outer diameters of the
+screw collar surface are 20 mm and 50 mm
+respectively. The coefficient of thread friction
+and collar fricition may be assumed as 0.15 >
+and 0.20 respectively. The screw rotates at
+24 rpm. Assume uniform wear condition.
+Permissible thread bearing pressure is
+6 N/mm2. Allowable shear stress in nut and
+screw is 30 MPa. Determine,
+(i) torque required to rotate screw,
+(ii) stress induced in the screw and
+(iii) height of nut.
+5 Answer four of following 5x4
+any :
+(a) What is design by evolution ? Discuss with
+example of an appropriate product.
+(b) Differentiate between old and design
+new
+approaches.
+(c) Discuss in brief the importance of product life
+cycle in product development.
+4075) 7 8 8 8 [Contd..
+aktuonline.com
+various stages in ma
+design.
+(e) What are various components of need analysis ?
+discuss.
+(f) What is brain storming ? What is its significance
+in new product development ?
+aktuonline.com

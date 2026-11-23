@@ -1,0 +1,152 @@
+aktuonline.com
+Printed Pages —4 TME—604
+{Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 4096
+B.Tech.
+(SEM VI) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+FLUID MACHINERY
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt ALL questions.
+(ii) All questions carry equal marks.
+(iti) Assume missing data, suitably, if any.
+1. Attempt any two parts of the following : 2x10=20
+(a) Determine the force exterted and work done
+by a water jet when it strikes :
+(i) A stationary flat plate held normal to
+it ;
+(ii) A flat plate moving at one third the
+velocity of the jet, in the direction of
+jet;
+(b) Derive Euler’s momentum equation.
+(c) A Pelton wheel has following specifications :
+Shaft Power = 12,000 kW ;
+Head = 400 meters,
+Speed = 750 RPM;
+Overall efficiency = 0.85
+and the ratio of jet diameter to the wheel
+diameter is Determine :
+TME—604 1 {Turn Over
+aktuonline.com wheel aktuonline.com
+The diameter
+(ii) Diameter of the jet and number of jet
+required. Take coefficient of
+velocity = 0.98 and speed ratio
+= 0.45.
+2. Attempt any two parts of the following : 2x10=20
+(a) What is specific speed of a turbine ? Derive
+expression for specific speed. How are
+turbines classified according to specific
+speed ?
+(b) What are functions of a draft tube ? Explain
+the theory behind the working of draft tube.
+How is efficiency of a draft defined ?
+(c) The hub diameter of a Kaplan turbine,
+working under a head of 12 m is 0.35 times
+the diameter of the runner. The turbine is
+running at 100 RPM. If the vane angle of
+is the 0.6, runner find at the outlet is 15° and flow ratio
+(i) | Diameter : of the
+(ii) | Diameter of the boss, runner and
+(iii) Discharge through the The
+whirl of velocity runner. the
+outlet is component at
+zero.
+3. Attempt any two parts of the following : 2x10=20
+(a) (i) How doesa centrifugal pump imparts
+pressure energy to the fluid ? Explain
+the mechanism involved.
+(ii) | What is priming of a centrifugal pump ?
+Explain why priming is essential
+before starting a centrifugal pump ?
+(b) characteristics Discuss the of main centrifugal operating
+Explain the importance a of constant pump.
+efficiency curves.
+TME 604 2
+—
+aktuonline.com
+(-) A centrifugal pump with 1.2 m
+runs at 200 second, RPM and the discharges lift 1900 being litres 6m.
+The water angle per which the Vanes average make at exit with
+the tangent to the impeller is 26° and the radial
+velocity of flow is 2.5m/s. The inner diameter
+of the impeller is 0.6 m. Determine :
+(i) the power required to drive the pump,
+(ii) the manometric efficiency and
+(iii) against the minimum head RPM of 6m. to start pumping
+a
+4. Attempt any two parts of the following : 2x10=20
+(a) Sketch explain theoretical
+of pressure-volume reciprocating diagram which for the has cylinder air
+vessel a connected pump, to it show clearly no the
+effects of acceleration and friction in both
+the suction and delivery pipes and explain.
+(b) A single acting reciprocating pump has its
+piston executing a simple harmonic motion.
+Show that the ratio of the work done against
+friction with air vessels fitted to that
+without air vessels is Tv 2
+(c) A double acting reciprocating pump has a
+simple harmonic motion and runs at
+25 RPM. It has a bore of 25 cm and a stroke
+of 40 below cm. The and pump delivers lifts water from tank a placed sump
+4 70 m above the cylinder it axis. to a The suction
+and m delivery pipes are of length 6m and
+am 160 m respectively and the diameter of
+delivery pipe is 10 cm. If an air vessel of
+adequate capacity has been fitted on the
+discharge side, determine :
+(i) | Minimum diameter of suction pipe to
+prevent cavitation, assuming
+minimum head of 2.5 m is needed to
+prevent cavitation .
+3 [Turn
+Over
+aktuonline.com
+aktuonline.com = ~The agaktuonline.com
+{ji) maximum gross head
+which the pump has to work, and
+(iii) Discharge through the pump
+5. Attempt any two parts of the following : 2x10=20
+(a) Explain the working of following with neat
+sketches :
+(i) hydraulic coupling
+(ii) hydraulic torque converter
+(b) Explain the construction and working of a
+hydraulic press with a neat sketch. What is
+mechanical advanjfage, leverage and
+velocity ratio in a h¥draulic press ?
+(c) Explain the working principle of a hydraulic
+ram. What are its advantages over
+conventional pumps ?
+In hydraulic supply head 2.5
+delivery a head ram 15 ; water supply = rate m; is
+1 m? /min. and = waste m; water flow rate is
+Calculate D’Auburisson’s and
+Rankins efficiencies of the ram.
+-o0o0Oo-
+TME—604 4
+aktuonline.com
+aktuonline.com ~The
+(ji) maximum gross head
+which the pump has to work, and
+(iii) Discharge through the pump
+5. Attempt any two parts of the following : 2x10=20
+(a) Explain the working of following with neat
+sketches :
+(i) hydraulic coupling
+(ii) hydraulic torque converter
+(b) Explain the construction and working of a
+hydraulic press with a neat sketch. What is
+mechanical advanjfage, leverage and
+velocity ratio in a h¥draulic press ?
+(c) Explain the working principle of a hydraulic
+ram. What are its advantages over
+conventional pumps ?
+In hydraulic supply head 2.5
+delivery a head ram 15 ; water supply = rate m; is
+1 m? /min. and = waste m; water flow rate is
+Calculate D’Auburisson’s and
+Rankins efficiencies of the ram.
+TME—604 4
+aktuonline.com

@@ -1,0 +1,61 @@
+NEC-702(A)
+Paper No.
+wing ID and Roll Rol to be filled in in your |
+bs a
+Theory Exainination Sem «
+(Odd VID),2016-17
+ANALOG& DIGITAL COMM.
+Hours
+Time : 3 Max, Marks : 100
+SECTION-
+Attempt parts the following
++ all 10 from :(10*2=20)
+(a) Draw the Basic block of
+diagram analog
+communication system.
+Determine the pulse transmission rate in terms of
+transmission bandwidth B,.and the roll off factor
+Assume a scheme using Nyquits First Criteria?
+(¢) Which passband modulation can’t be detected
+ing non coherent technique? What the us-
+this? is reason for
+‘@ Define
+Modulation and explain the need of Modu-
+lation?
+~(e) is the purpose of multiplexing?
+(f) Explain the difference between TDM & FDM.,
+(g) Giving the drawbacks of DSB-SC, explain the need
+of SSB-SC,
+(h) What is Kraft
+Inequality?
+(1)
+(i) Whatis frequency deviation and explain
+tule.
+An analog signal is bandlimited to It is
+pendent having Pi=P2
+and P3=P4 messages =3/8. Find the. information the
+source.
+SECTION -B
+2. Attempt 5 parts from the following 8 :
+any parts
+(5*10=50)
+a) Explain Multiplexing concept and then explain
+carrier multiplexing
+scheme. Draw the TDM
+hierarchy and write down the bit rate at each
+multiplexing stage.’
+Consider 8 alphabet with probability of
+source
+occurrence as follows :
+“Symbol (xi) AB C D F GH
+.30 .20 .15 .12..10 .07
+.
+According to Shannon - Fano generate
+the binary codes,
+c) Differentiate between TRF receiver and Super het-
+erodyne receiver. What the functions. of
+ceiver? are re-
+d) Draw and explain Envelope Detector circuit for de- °
+modulation of AM signal along with the appfopriate
+Time Constant range.
+702(A)/12/201 6/6460 (2) cam

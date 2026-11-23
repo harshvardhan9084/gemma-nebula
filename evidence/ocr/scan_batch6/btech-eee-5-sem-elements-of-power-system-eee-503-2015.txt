@@ -1,0 +1,61 @@
+Printed Pages : 3 WA
+8 8
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 121505
+- B. Tech.
+(SEM. V) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+ELEMENTS OF POWER SYSTEM
+Time : 3 Hours] [Total Marks : 100
+1 Attempt any four parts : 5x4=20
+(a) What is Skin effect?
+(b) State Kelvin’s law for size of transmission
+conductor
+(c) Define Critical disruptive voltage
+(d) What are the types of conductors?
+Brief Proximity effect
+(e)
+(f) What are the different kinds of supply
+system ?
+2 Attempt any two parts : 10x2=20
+(a) Discuss in detail the problem associated with
+Transmission. Also how it is
+EHVAC state
+solved
+121505] Contd...
+1 {
+(b) State what are the types of HVDC links? 5 Attempt 10x2=20
+(c) State what the various grounding any two parts :
+adopted? What is earthing transformer? practices (a) Derive the expression for the inductance of
+an three phase line with conductors
+3 Attempt What is untransposed.
+any two parts : 10x2=20 the significance of imaginary term In
+(a) Derive the expression for insulation resistance, the expression for inductance? Hence derive
+capacitance and electrostatic stress of a single the expression for inductance for a completely
+core cable transposed line
+(b) . ( (
+Write short notes on : (b) Derive the expression for capacitance of
+(1) Ring main distributor, unsymmetrically and symmetrically spaced
+a three phase lines. Compare the results.
+(2) Current distribution in 3-wire de System
+(3) Three phase 4-wire ac distribution and (c) Derive the expression for the regulation and
+efficiency of a short transmission line. Draw
+(4) Balancers the required circuit and phasor diagram.”
+4 Attempt any two parts : 10x2=20
+(a) A transmission line uses hard drawn
+of area of cross-section a of 200mm2 copper
+‘a conductor 61/2.24 with
+line is 160 mm. The span of the
+The m with supports at the level.
+kg/mm? maximum stress for a conductor is
+41 with a factor of safety of 5.
+Calculate : (a) Sag in still air, (6) Sag with (
+a wind pressure of 1.35 kg/m and ice coating
+of 1.25 cm (c) Vertical Sag with conditions
+as in (b) above.
+(b) Derive the calculation
+Shape of Conductor of Sag for Catenary
+(c) Explain Ferranti effect and Surge impedance
+loading in power system lines.
+121505] 2
+[ Contd... 121505] 3 8425

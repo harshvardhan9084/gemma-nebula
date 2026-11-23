@@ -1,0 +1,110 @@
+aktuonline.com
+ll il Ml
+TMES02
+Printed Pages: 4
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 4075
+B.Tech
+(SEM V) ODD SEMESTER THEORY EXAMINATION 2009-10
+MACHINE DESIGN -I
+Time 3 Hours] [Total Marks: 100
+Note : Answer all questions. Assume suitable value for
+missing data. Design data-book be allowed.
+may
+1 Answer part (a) and any two more from the
+remaining questions :
+(a) Arrange the number from 1-to-10 in the basic 6
+series R10 of preferred number.
+(b) State the criteria for the selection of materials 7
+for creep loading.
+(c) Briefly discuss the BIS criteria for specification 7
+of carbon steels and alloy steels.
+(d) With the help of flow chart indicate the 7
+various steps that may be involved in design
+leading to production.
+2 Answer any four parts : 5x4
+(a) Explain the criteria of failure for brittle materials
+subjected to static loading.
+43-4075} | (Conta...
+aktuonline.com
+aktuonline.com apglktudnlige.com
+(b) Explain criteria and state its
+to different types of loading.
+(c) What do by concentration ?
+you mean stress
+Differentiate between form stress factor and stress
+concentration factor.
+(d) The stresses at a point in the body are :
+=21MN/m”,
+6y oy ~
+yield MN/m”.
+stress oy =280 Determine the
+factor of safety using distortion energy theory.
+(e) Determine the maximum stress produced in a
+stepped shaft, stepped down from 40 mm to 30 mm
+with fillet radius of 6 It is subjected
+a mm. to a
+couple of 100 Nm.
+Take : form stress factor k, = 1.23
+The principal stresses at a point consist of
+6, = 200 MPa (tensile) and _
+6, =100 MPa (compressive) and 63 =0.
+Determine the maximum shear stress and factor
+of safety if the material has (yield stress)
+500 MPa.
+=
+topo ob
+aktuonline.com
+—
+aktuonline.com
+any two parts :
+(a) State and explain parallel fillet welded joint and 10
+derive the corresponding expression of strength.
+(b) Mention the use of square, flat and rectangular 10
+keys. Also explain what is advantage claimed
+by making key tapered ?
+(c) Design protected rigid coupling 10
+a type to
+transmit 60 kW at 750 rpm. The allowable
+shear stress for shaft material is 56 MPa. The
+material for the coupling is cast iron with
+allowable of 14 N/mm?.
+stress
+4 Answer two parts
+any :
+(a) A closed coiled helical compression spring has 10
+a mean coil diameter of 60 mm and the
+diameter of the wire is 10 mm. Number of
+active and inactive coil turns is II and 2
+respectively. Free length of the spring is
+210 mm. Decide the maximum load that can
+be applied on the spring if the minimum
+load is one third of the maximum ioad. Take
+F.O.S. = 1.5, stress at endurance = 1360 MPa
+and yield 700 MPa, 1.1025 (spring
+at = =
+constant at mean load), K. = 1.15
+(at variable load)
+(b) Explain the design procedure for design of 16
+leaf spring of automobile. Also state the
+a an
+advantage of full length leaves over graduated
+leaves.
+M3 [Contd...
+aktuonline.com
+aktuonline.com doubl@ktuonlinggom
+(c) Ina hand vice the screw has a
+start square threads of 26 mm diameter. If the
+lever is 0.25 meter and maximum force that can
+be applied at the end of the level is 300 N,
+determine the force with which the job is held
+in the jaws of vice. Take :p=0.14.
+Answer any four of the following :
+(a) Design by evolution
+(b) Brain storming
+(c) Need Based Development
+(d) Consumption life cycle of a product.
+(e) Barrier to creative thinking in new product
+development.
+(f) Difference between old and new design.
+aktuonline.com

@@ -1,0 +1,62 @@
+aktuonline.com aktuonline.com
+(c) Explain about frame format of IEEE 802.5.
+(d) Explain the CRC error detection technique using generator
+Printed Pages—3 polynomial x* + x’ +1 and data 11100011.
+ollowing Paper ID and Roll No. to be filled in your Answer Book (e) Consider the use of 1000 unit frames on a mbps satellite
+| | | | | | [ J J | channel. What is the maximum links utilization for :
+(i) Stop and wait ARQ
+B.Tech. (ii) Continuous ARQ with window size 7
+(SEM. VIII) THEORY EXAMINATION 2013-14 aktuonline.com aktuonline.com
+DATA COMMUNICATION NETWORKS (iii) Continuous ARQ with window size 127.
+Time : 3 Hours Total Marks : 100 (f) Why is the channel throughput double in slotted ALOHA
+Note Attempt all questions. Each question carries equal marks. compared to pure ALOHA.
+:— Attempt of the following (10x2=20)
+1. Attempt any four parts of the following : (5*4=20) any two parts :
+(a) How do the layers of the internet model correlate to the (a) Discuss the design issues of Network Layer with example.
+layers of the OSI model. Explain Bellman Ford routing algorithm.
+(b) What are the three criteria necessary for an effective and
+efficient network. Explain in brief. (b) What is the Dijkstra’s algorithms ? For the network shown
+ye (c) Compare twisted pair, co-axial and optical cables. uptuonline.com ye in fig (1), show the computations at node (A) using the uptuonline.com
+(d) A low transmission tower is used to transmit data using Dijkstra’s algorithms.
+3 kHz bandwidth over the link along with | watt of noise These nos. denote costs
+power. Calculate the rate of data transmission.
+What is Multiplexing ? Explain frequency division
+multiplexing. List advantages and disadvantages of FDM.
+(f) Compare EIA Rs 232 C and EIA Rs 449.
+2. Attempt four of the following (5x4=20)
+any parts :
+(a) Explain the reason for moving from the stop and wait ARQ
+protocol to the 60-Back-N ARQ protocol.
+(b) Compare and contrast byte stuffing and bit stuffing. Which
+technique is used in byte oriented protocol ? Which
+technique is used in bit oriented protocol ?
+1 [Turn Over
+EEC809/DQJ-21574 2
+for solution visit a2zsubjects.com for solution visit a2zsubjects.com
+aktuonline.com
+(c) What is the difference between flow control and congestion
+control. Also discuss the various causes of congestion in
+subnet.
+Attempt any two parts of the following : (10x2=20)
+(a) Discuss the role of Bridge, Routers and Gateways in
+internet connection. List the message types associated with
+Internet Control Message Protocol (ICMP).
+(b) What the basic functions of ATM Adaptation
+are Layer aktuonline.com
+(ALL) ? Explain them. What are the drawbacks of ALL
+3/4 ? How ALL 5 overcomes them. Explain the operation
+of ALL 5 clearly.
+(c) Why do we use subnet mask. Explain with example. Convert
+the IP address whose hexadecimal representation is
+C22F 15B2 to dotted decimal notation.
+5. Attempt any four parts of the following : (5x4=20)
+(a) State and explain various applications of the Internet.
+ye uptuonline.com
+(b) Explain DNS addressing scheme.
+(c) Write a short note on : FTP
+(d) Write a short note on : WWW
+(e) What is the difference between unicasting and multicasting ?
+(f) Compare IPV4 and IPV6.
+EEC809/DQJ-21574 3
+. 6300
+for solution visit a2zsubjects.com

@@ -1,0 +1,108 @@
+aktuentine.com aktuonline.com
+Printed Pages—4 Gee + IT—502
+Bai
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID:
+B.Tech.
+FIFTH SEMESTER EXAMINATION, 2004-2005
+SOFTWARE ENGINEERING
+Time : 3 Hours Total Marks : 100
+Note : Attempt ALL the questions.
+All questions equal marks.
+carry
+Answer any four of the following : [5x4=20]
+=.
+(a) What do people mean by software crisis ?
+Discuss the problems and causes for the
+software crisis.
+LO ro) (b) Explain what is with the notion that
+oO. software engineering wrong is too time consuming
+~O and interferes with programmer’s
+productivity. a
+(c) How do software characteristics differ from
+hardware characteristics? Also illustrate with
+a diagram that the software doesn’t wear out.
+(d) Why evolutionary models are considered by
+many to be the best approach to software
+development in a modern context ?
+IT—502 1 [Turn Over
+aktuonline.com
+,
+aktuonline.com aktuonline.com
+(b) Answer the following questions :
+(i) Distinguish among error, fault and
+failure.
+(ii) Given a software and its requirements
+specification document, how can you
+design black box suits for this software
+.
+(iii) How cyclomatic complexity is useful in
+program testing ?
+(c) Briefly discuss the following
+:
+(i) Reliability assessment models
+(ii) Top-down structure programming
+(iii) Information hiding
+(iv) System testing
+. 4. Answer any two of the following : [10x2=20]
+(a) List out various project estimation techniques
+and discuss any two of them.
+(b) Answer the following questions :
+(i) Enumerate five of important good desirable software
+characteristics a
+engineer.
+(ii) Distinguish between a DFD and a flow
+chart.
+(ii What are the reasons for increased
+productivity when an object oriented
+design is used ?
+3 [Turn Over
+aktuonline.com aktuonline.com
+(e) How does preventive maintenance differ from
+adaptive maintenance? Explain.
+(f) What models are created during the analysis
+What phase of the a software of development each ? process ?
+is purpose
+2. Answer any four of the following : [5x4=20]
+(a) How can the selection of an inappropriate
+software process model be avoided ?
+(b) List the four design models required for a
+complete specification of a design and explain
+how each is created.
+(c) Discuss different type of coupling and cohesion
+measures of modules.
+(d) Write short note 4GL.
+a on
+(e) List document the important address. issues which an SRS
+must
+(f) | Explain some of the causes and remedies for
+high coupling between two software modules.
+3. Answer any two of the following : [10x2=20]
+(a) Explain how size - oriented metrics differ from
+function oriented metrics. Discuss the pros and
+cons of each.
+IT—502 2
+aktuonline.com
+aktuonline.com aktuonline.com
+(c) Write short notes the following
+on :
+(i) | Extending DFD to real time systems
+(ii) Risk management
+(iii) Project monitoring
+Answer any two of the following : [10x2=20]
+(a) Answer the following questions :
+(i) Can a program be correct and still not
+be reliable ? Explain.
+(ii) | What is ISO 9000 certification ?
+(iii) What are the salient features of ISO 9001
+requirements ?
+(iv) What is software reliability ? Explain.
+(b) What is CASE ? What are the main advantages
+of using CASE tools ? Describe some of the
+important features that a future generation
+CASE tools should support.
+(c) Draw a schematic diagram of the architecture
+of a CASE environment and explain how the
+different tools are integrated. ~.
+-o00O0-
+aktuonline.com

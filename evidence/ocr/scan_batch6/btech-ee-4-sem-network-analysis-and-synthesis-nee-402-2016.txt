@@ -1,0 +1,91 @@
+1
+Printed Pages: 7 NEE-402/EEE-402 (f) An admittance is given by Y(s) = ae find the Pole-
+(Following Paper ID and Roll No. be filled
+to in your zero plot.
+Answer Books)
+Paper ID : 121410 (g) Define transfer admittance and impedance of two port
+network.
+B.TECH.
+(h) Write the Z-parameters in terms of ABCD parameters.
+Theory Examination (Semester-IV) 2015-16
+NETWORK ANALYSIS @) Draw the reactance frequency characteristies of low pass
+AND SYNTHESIS filter.
+Time : 3 Hours Max. Marks : 100
+List-out the characteristics of filter.
+Section-A
+Section-B
+Ql. Attempt all parts. All parts carry equal marks. Write Q2. Attempt any five question from this section. (10x2=30)
+answer of each part in short. (2x10=20)
+(a) Find Thevenin’s equivalent circuit a-b and find
+(a) Write the relation between Twigs and Links. across
+current through 10Q resistor.
+(b) List out the properties of a Tree in a Graph.
+(c) State tellegen’s theorem.
+20/10°V CY
+(d) What is the condition for maximum power transfer in an
+network? Also mention any two applications of maxi-
+(2442)
+mum power transfer theorem.
+(e) Write the time contants of RC and RL networks.
+1 P.T.O.
+2805/ /215/5375 2805/
+(b) What should be the value of R, so the maximum (d) In figure the initial voltage in the capacitor is 1V with
+power can be transferred from the source to R, for the polarity shown, find the voltage appearing
+the given figure. as
+across the capacitor using Laplace method with ap-
+plication of step voltage 3.
+50/30° V
+K
+(e) A network has been shown in figure, the switch is
+(c) The reduced incidence matrix is closed at t=0. Find the current in R, using. The venins
+theorem. Assume steady state condition before switch-
+ing. Use the following values :(r, 10; L,
+= r, =r, = =
+Do the following. L, = 1H; V=10V)
+.
+K
+(i) Draw the graph
+(ii) How many trees are possible and
+(iii) Write Tiest and Cutset matrix
+(3) P.T.O. (4
+2805/ /215/5375
+2805/ /215/5375
+(f) In figure with switch open, steady state is reached Section-C
+with v=100sin314t volts. The switch is closed at t=0. Note: Attempt two questions from this section.
+The circuit is allowed to come to steady state again. any
+Determine the steady state current and complete so- (15x2=30)
+lution of transient
+current. Q3. (a) The currents I, and I, at input and output port
+1000Q -~j60002Q respectively of a two-port network can be expressed
+as: 1
++
+(i) Find the equivalent
+() On short circuit test, the currents and voltages were (i) Find the input impedance when a load of
+determined experimentally for unknown is connected across the output port.
+an two port
+network as (b)
+A network has two input terminals a, b and output
+terminals c,d. The input impedance with c-d open
+circuited is (250+j 100)Q and with c-d short cireuited
+I= 1 mA; mA; L= is (400+j3000)Q. The impedance c-d with a-b
+mA; V, = 25V -10 mA; V, = 50V acrosss
+open circuited is 200Q. Determine equivalent T
+network parameters.
+Determine the Y-parameters and draw the Y-parameter
+model.
+Q4. Find the first order and second order Foster form of the driv-
+(h) Synthesize the following network function in cuer-2 form: ing point impedance function
+85° +10s + Ds +9)
+(s) Z(s)= +4)
+5+6s°+5*
+5 P.T.O. 6
+1215/5375
+2805/, /215/5375
+QS. Design a constant k-low pass filter having cut-off frequency
+2.5kHz and desgn resistance R, = 7002. Also find the fre-
+at which this filter produces attenuation of 19.1 dB.
+quency
+Find its characteristic impedances and phases constant at pass
+band and stop or attenuation band.
+(7) P.T.O.
+2805/

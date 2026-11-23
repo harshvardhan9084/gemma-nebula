@@ -1,0 +1,186 @@
+uptuonline.com
+uptuonline.com
+01322
+Printed ME—503
+(Following Paper ID and Roll No. be filled Book)
+to in your Answer
+PAPER ID : 401 6
+B.Tech
+FIFTH SEMESTER EXAMINATION, 2005-2006
+DYNAMICS OF MACHINES
+ao
+Time : 3 Hours Total Marks : 100
+| Note: (i) Attempt ALL the questions.
+(ii) All questions carry equal marks.
+(iii) In of numerical problems assume data wherever
+not case provided.
+(iv) Be precise in
+your answer.
+1. Attempt any two of the following : (10x2=20)
+(a) For the reciprocating engine mechanism in
+figure 1 the following data is given Length of
+crank is 7.5 cm, Length of connecting : rod is
+28 cm, Distance of centre of gravity (C.G.) of
+link 2 from main bearing is 5 cm, Distance of
+— C.G. of link 3 from crank pin is 12 cm, Crank
+angle from line of stroke is 60°, Crank speed is
+2000 rpm counter clockwise, Mass of link 2 is
+2.5 kg, Mass of link 3 is 4 kg, Mass of link 4 is
+3 kg, Mass moment of intertia of link 2 is 60 kg
+cm* and mass moment of intertia of link 3 is
+500 kg Make a complete inertia force
+analysis.
+ME—503 1 [Turn Over
+uptuonline.com
+uptuonline.com uptuonline.com
+(b) The equation of a turning moment curve of an
+IC engine running at 300 rpm is given by
+T=25000 +8500 sin 30 Nm. A flywheel
+coupled to the crankshaft has a mass moment
+of inertia 452 kg m? about its axis of rotation.
+Determine the horse power of the engine, total
+fluctuation of speed and maximum angle by
+which the flywheel leads or lags an imaginary
+flywheel running at a constant speed.
+Distinguish clearly between the terms ‘Crank
+pin effort’ and ‘Crank effort’. Derive
+expression for these. State how the size of a
+flywheel is calculated.
+2. any two of the following : (10x2=20)
+(a) (i) | Compare the functions of a flywheel and —
+a governor.
+(ii) Describe the effect of friction on the
+sensitiveness of a governor.
+(iii) Define the terms : stability, effort and
+power of a governor.
+ME—503
+uptuonline.com uptuonline.com
+P (b) Ina porter governor the arms and links are P
+each 20 cm long and are hinged on the main
+axis. Each ball weighs 2.5 kg and the central
+weight is 2.5 kg. The force of friction of
+mechanism at the sleeve is 25 N. The
+inclination of the arms to the vertical is 30° and
+45° in the lowest and highest position
+respectively. Calculate :
+(i) the travel of the sleeve
+(ii) the speeds at the bottom, middle and the
+top of the travel of the sleeve, neglecting
+friction
+(iii) same as (ii) but during upward travel
+taking friction into account
+(iii) but during downward travel.
+(iv)
+(c) Ina Hartnell type governor, the length of ball
+and sleeve arms of a bell crank lever are
+150 mm and 130 mm respectively. The
+distance from the of the fulcrum of the bell The crank lever of
+each governor ball axis is 5 kg. is 14. The cm. mass
+at governor speed 310 with governor the ball runs
+vertical a mean and sleeve rpm horizontal. For arms
+increase of speed of arms 4%, the sleeve moves an
+10 mm upwards. Assume sleeve mass to be
+50 kg. Find :
+(i) the minimum equilibrium speed if the
+total sleeve increment is limited to 20
+mm
+(ii) the spring stiffness and sensitivity of the
+governor
+(iii) when the governor is isochronous at
+300 rpm what is the stiffness of the
+spring.
+ME—503 3 [Turn Over
+-
+uptuonline.com 3 ’
+Attempt any two of the following :
+(a) What are in-line engines ? State, clearly how
+in-line four stroke and two stroke engines are
+balanced.
+Determine the bearing reactions for a system
+of four unbalance masses, shown in figure 2.
+The rotor speed is 600 rpm.
+figure 2
+The firing order in a six cylinder vertical four
+stroke in-line engine is 1-4-2-6-3-5. The piston
+stroke is 100 mm and the length of each
+connecting rod is 200 mm. The pitch distances
+between the cylinder centre lines are 100 mm,
+100 respectively. mm, 150 The mm, 100 mm and 100 mm
+cylinder is 1 kg and reciprocating the engine mass per
+2500 Determine the out-of-balance runs at
+primary rpm. and secondary forces and couples on
+this engine, taking a plane midway between
+cylinders 3 and 4 as the reference plane.
+ME—503
+uptuonline.com
+uptuonline.com uptuonline.com
+Attempt two of the following (10x2=20)
+any :
+(a) How the dynamometers classified ? What
+is the are difference between absorption and
+transmission type of dynamometers ? Explain,
+with the help of diagram, any one absorption
+type of dynamometer.
+An internal expanding shoe brake actuated
+mechanically by cam and lever arrangement,
+has the following dimensions : Diameter of
+drum = 27 cm, distance between the fulcrum
+centres =7.5 cm, distance of fulcrum centres
+and that of cam axis, both from the drum
+centre =11.5 cm distance of the line of action
+of braking force from the cam axis=10 cm,
+distance between the points where the cam acts
+on the two brake shoes=3.2 cm. Each shoe
+subtends an angle of 90° at the drum centre. If
+friction the braking 0.3, force find is the 500 braking N and co-efficient the of
+drum. Assume is that the reactions torque between on the
+brake shoes and the drum through the
+point bisecting the contact angle. pass Also assume
+that forces exerted by the cam ends on the two
+shoes are equal.
+Determine for an open belt drive the width of
+a 9.5 mm thick leather belt required to transmit
+15 HP from a motor running at 750 rpm.
+Diameter of the driving pulley of the motor is
+30cm. The driven pulley runs at 250 rpm and
+the distance between the centres of the two
+pulleys is 3m. Negiect the sag of the belt and
+assume no slip.
+uptudhline.com 5 {Turn Over
+uptugniine
+ot any two of the following :
+(a) How is the stability of moving vehicles, which
+is taking a turn, ascertained ? What are the
+various factors affecting the stability ?
+(b) A motor cycle along with the rider has
+310 kg and the system centre of gravity a mass is
+60 cm above the ground level. Each wheel of
+the machine has a mass 10 kg, radius 30 cm
+and radius of gyration 25 cm. The rotating
+parts of the engine have equivalent mass 15 kg
+and radius of gyration 8 cm and they rotate in
+the same direction as the road wheels. The
+gear ratio from wheel to engine is 1:8.
+Calculate the angle of banking necessary for
+the machine to ride normal to the banked track
+on a bend of 80 m radius at a speed 150 kmph.
+(c) (i) Explain with the help of graphs, the
+variation in amplitude of forced
+undamped vibrations, with change in
+angular velocity when periodic force is
+constant in magnitude.
+(ii) The static deflection of an automobile on
+its springs is 10 cm. Find the critical
+speed when the automobile is travelling
+on Figure 3, which can be
+approximated by a sine wave & cm
+amplitude and wave length 15 m.
+Assume the damping ratio to be 0.05.
+Also 75 determine kmph. the amplitude of vibration
+at
+uptudfline dm 6
+uptuonline.com uptuonline.com
+8cm
+5 mJ
+figure 3
+uptuonline.com

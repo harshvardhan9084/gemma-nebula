@@ -1,0 +1,120 @@
+1g
+Printed Pages 4 TEC-702
+:
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0305 Roll No.
+B. Tech.
+(SEM. VID EXAMINATION, 2007-08
+ELECTRONICS SWITCHING
+lime 3 Hours] [lotal Marks 100
+:
+Note Attempt all questions.
+:
+(2) All questions carry equal marks.
+(3) Be precise in your answer:
+(4) No second answer book will be provided.
+1 Attempt any four parts of the following 5x4=20
+questions
+(a) Draw the elements of a switching system and
+trunking diagram and explain its function.
+(b) Why is Electronic Exchange alone suitable for
+digital telephony? Explain.
+(c) With the help of suitable diagram describe the
+working of Crossbar exchange.
+a
+(d) Give the classification of switching system
+Compare the switching technique used in PSTN.
+What do you understand by blocking and
+nonblocking model of a telephone traffic ? Draw
+NXN three stage switching network.
+0305) EE a [Contd...
+(f) Find the delay in sending an X bit message over
+a K hop path in a circuit switched network. The
+circuit setup is 'S' second, the propagation delay
+is D sec. per hop, the packet size is P bits and
+the data rate is B bps.
+Attempt any four parts of the following 5x4=20
+questions :
+(a) With the help of diagram explain the
+operation of TSI. neat Compare TSI with
+switching. space
+(b) Consider a 3 stage crossbar switch system with
+1000 input and 1000 output lines. It is
+nonblocking. For an optimum design, what is the
+total number of cross points required? How many
+arrays are needed for each stage?
+(c) For a TST switch with a single stage space
+switch determine the number of crosspoints and
+the total number’ of memory bits required if the
+number of lines is 32, number of channel per
+frame is 30 and time expansion is 2.
+(d) How times slot interchange modules
+needed many for STS switch with 128 primary are
+TDM signals an of 30 voice channels input?
+Assume blocking be less than .002 per and the
+loading is Erlang to channel and determine
+the complexity 0.2 of the per switch.
+(e) Can you built a switch with a single TS! which
+can handle 120000 calls with a DRAM access
+time of around 80 ns? Explain.
+(f) Explain the necessity of combination switch.
+0305) 2 [Contd...
+3 Attempt any four parts of the following 5x4=20
+questions :
+(a) Explain the modelling of a telephone traffic
+system as birth-death process.
+(b) What is by call congestion and time
+congestion meant in telephone network ? During
+busy hour, 1400 a calls offered to a
+of trunks and 14 calls were Jost. The a group
+call duration has 3 minutes. were Find (1) average GOS
+(ii) the total duration of period of congestion.
+(c) Compare appropriate loss example. system and limit delay all system delay with
+behaves like loss In How? system
+system.
+(d) Using Lee's graph for a three stage networks
+define switching elements advantage ratio 4
+and find out the no. of switching elements S
+for N + 128.
+(e) Explain the difference between Micro
+programmed control and Hard-wired control
+schemes for Electronics Control.
+(f) What are the various sub system in a telephone
+network? What is BORSHT?
+4 Attempt of the following
+questions any two parts 102=20
+:
+(a) Explain Centralized SPC with the concept of
+dual processor architecture modes and distributed
+SPC with levels processing used in dual chain
+distributed control.
+(b) (i) Explain the X-25 interface with neat
+diagram.
+(ii) Explain the important features and frame
+structure of HDLC.
+3 [Contd...
+(c) Discuss the various signalling techniques used in
+telephonic networks. Explain Common Channel
+Signalling with SS7 architecture.
+Attempt four of the following 5x4=20
+questions any parts
+(a) Explain the call establishment/release process in
+ATM using Virtual channel and Virtual paths.
+(b) Draw TCP/IP reference model. How IP
+addressing is achieved? With reference to IP,
+explain the address Resolution Protocol.
+(c) Draw a 16 x 16 Banyan Switching fabric. Where
+is headerTranslation done in a multicast ATM
+switch ?
+(d) What do you mean by baud rates and bit rates?
+What is the maximum data rate achievable, if a
+binary signal is sent over a 3 kHz channel
+whose S/N ratio is 40 dB.
+(e) How is constant bit rate achieved in ATM? Why
+is cell-delay variation due to network, minimum
+in ATM?
+(f) Explain how the data can be transmitted over
+Public Switched Telephone Networks. Why
+Frame relay a better solution for connecting
+LAN's than TI lines?
+0305). 4 [ 5800 |

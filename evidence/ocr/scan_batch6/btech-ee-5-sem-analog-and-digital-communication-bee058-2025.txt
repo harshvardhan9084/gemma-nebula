@@ -1,0 +1,81 @@
+Printed Page: 1 of 2
+Subject Code:
+PAPER !D-310332 Roll No:
+BTECH EXAMINATION 2024-25
+(SEM V) THEORY COMMUNICATION
+ANALOG & DIGITAL M.MARKS: 70
+TIME: 3 HRS
+Sections. In of missing data, choose suitably.
+Note: Attempt all case any
+SECTION A
+questions in brief.
+Question |
+Detine modulation, Amplitude modulation and angle modulation.
+fc. Explain frequency deviation of FM s ignal?
+Explain Nyquist criteria for sampling.
+Why FSK is preterred over ASK?
+What do understand by Shannon Hartley Theorem?
+is Electronic you Commutator in TDM System?
+g. What
+SECTION B 3=07
+2. Attempt anv three of the following: 07x
+wideband F M with théir Ki
+Differentiate between Narrowband mathematical FM and: expressions. |.
+frequency spectrum method and suitable of generation and detection of PAM signal
+Explain suitable coherent mathematical expressions.
+What with is quantization? How is quantization and codi ng done? Explain
+with suitable diagram.
+Give brief introduction..about time division multiplexing? Explain } 4
+svnchronous and asynchronous TDM. balanced ring | 5 K5
+Draw the block diagram of BPSK transmitter. Explain
+modulator of BPSK
+SECTION C
+of the following: 07x 1=07
+3 Attempt any one part
+Qno. | heterodyne receiver is better than the TRF receiver? What
+| a. | Why Super functions of receivers?
+| are the the help of diagram explain genera
+t ib. | | With _
+wave.
+4. Attempt any one part of the following: 07x 1=07
+Qno Question
+| | arr What is noise? Noise is difficult eee. to eliminate but its effect can be
+| minimizing justify
+An FM modulator _ operates at carrier-
+having peak amplitude of 1OV A modulating frequency (fm) of 10 KHz the
+| modulates it with a peak frequency deviation (8) of modulation 10 KHz. From index of
+| | | Bessel function table, it is observed that of a frequency sidebands. Compare actual
+one yield three sets of obtained significant Bessel function and the
+minimum bandwidth bandwidth as using Carson's rule
+l nunimum using
+https://www.aktuonline.com
+Mi DULY DED
+a Subject Printed Code: Page: BEE0S8 2 of 2
+PAPER |D-310332
+BTECH
+(SEM V) THEORY EXAMINATION 2024-25
+ANALOG & DIGITAL COMMUNICATION
+TIME: 3HRS M.MARKS: 70
+_
+5. Attempt any one part of the following:
+| Qno Question CO | Level
+| Explain the working of delta modulation How adaptive Delta | | 3
+[® improves the performance of Delta modulation _
+Explain the generation and demodulation of pulse width modulation 3
+| PWM)?
+6. |
+Attempt any one part of the following: 1 = 07
+Qno | Question _ CO } Level
+A Discrete Memory less Source X has five symbols (so. $1, $2, $1, $s) and | 4
+their probabilities of occurrence are given as 0 40,0 10,
+b Giving respectively Construct Hutfman Code and calculate efficiency _
+le | draw modulated wavefoms, single space diagrams and probability of
+| | modulation Trors schemes the opumum receiver structures for DPSK and coherent FSK
+7. Attempt any one part of the following: 07
+Question CO x | 1 Level
+a | Define information and cawopy Find an for the channel KS >
+of a continuous :
+b | What should be the desirable of a Tl carner system? Explain | § KS
+PCM-TDM system 0
+»
+https://www.aktuonline.com

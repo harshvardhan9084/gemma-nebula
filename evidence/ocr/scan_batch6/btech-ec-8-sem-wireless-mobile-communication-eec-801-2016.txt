@@ -1,0 +1,92 @@
+Printed Pages: 6 EEC-801
+(Following Paper ID and Roll No. to be filled in your
+Answer Books)
+Paper ID:
+B.TECH.
+Theory Examination (Semester-VIII) 2015-16
+WIRELESS & MOBILE COMMUNICATION
+Time : 3 Hours Max. Marks : 100
+Section-A
+Q1. Attempt all parts. All parts carry equal marks. Write
+answer of each part in short. (2x10=20)
+(a) Find the number of duplex channels, if 20MHz of total
+spectrum is allocated for a duplex wireless cellular
+and each simplex channel has 25 KHz RF
+system
+bandwidth.
+(b) What is fading?
+(c) Compare the different second generation mobile
+communication systems, particularly in terms of multiple
+access technology, modulation technique and channel
+Bandwidth.
+1 P.T.O.
+2605/
+(d) How equalization, channel coding and diversity are Section-B
+different in link performance improvement? Q2. Attempt any FIVE questions from this section.
+How call termination can be avoided during handoff? (10x5=50)
+(a) (i) Name the techniques used to increase the capacity
+(f) How scattering is different from reflection with re- of a cellular system and compare them.
+spect to surface?
+(i) Calculate the total available channels for a cellular
+system having total bandwidth ‘of 6(0MHz which
+(g) What is slow fading channel, fast fading channel and a
+frequency selective channel? uses two 50 KHz simplex channel to provide full
+duplex voice and control channels. Assume that the
+system uses nine cell reuse pattern and 1MHz of
+() How IMT-2000 is useful for node to node communica- the total bandwidth is allocated for control chan-
+tion? nels. Also calculate the number of control channels
+and voice channels per cell.
+Consider a GSM system, which is a TDMA/FDD sys-
+tem that uses 20 MHz for forward link which is broken (b) (@) Show that an equalizer is an inverse filter of the
+into radio channels of 200kHz and if no guard band is channel.
+that
+assumed, find the number of simultaneous users can (ii) Draw the Block diagram of LPC system and
+be accommodated in GSM. explain it.
+for forward and link
+@) Write range of frequency reverse (c) Derive an expression for selection diversity improve-
+operation for IS-95. ment in terms of probability of receiving signal using
+single branch or using M branches.
+(2) 3 P.T.O.
+2605/ /398/9950 2605/ /398/9950
+(d) A cellular service provider decides to use a digital TDMA space propagation is assumed, G= 1, and G, =
+scheme which can tolerate a signal to interference ratio 2, find (a) the power at the receiver, (b) the
+of 15dB in the worst case. Find the optimal value of N magnitude of the E-field at the receiver antenna.
+for 1) omnidirectional antennas, 2) 120° Sectoring, and
+Sectoring. Should sectoring be used? If which (h) architecture is configured with regular hexago-
+3) 60° so, nal cell The total service is divided into
+case should be used? Assume a path loss exponent of geometry. area
+n=4 and consider trunking efficiency. cell clusters with frequency reuse. Prove that the dis-
+tance (D) between the centers of two closest channel
+(e) (i) What is small scale multipath propagation? Discuss cells is given by D =R V {3 (2 + j2 + i x j)}; where
+the factors influencing small scale fading. R is the cell radius, having same units as D; and i, j are
+non-negative integers which describe the rela-
+geometry
+(ii) Prove that in the two ray ground reflection model, tion between adjacent cells.
+A=d!! — d' =2 ht*hr / d. Show when this holds
+as a good approximation. Section-C
+(f) (i) What is basic concept of Add-hoc network? Why Attempt any two questions from this section.
+and how route is required to discuss in (15x2=30)
+proper
+addhoc network?
+Q3. (a) How priortizing Handoffs technique is used to decrease
+(i) Explain in brief 4G technologies and also compare the probability of forced termination of a call due to lack
+with 1G, 2G and 3G technology. of available channels?
+@) (i) Explain various important parameters of power de- (b) Discuss Umbrella cell approach with diagram to en-
+lay profile of multipath channel. hance the connectivity in mobile communication.
+a
+(i) Assume receiver is located 10 km from a 50 W Q4. (a) Explain signal processing and GSM operations from
+transmitter. The carrier frequency is 900 MHz, free speech input to speech output with diagram.
+5 P.T.O.
+/398/9950 2605/ /398/9950
+(b) Consider a GSM system, which is a TDMA/FDD
+system that uses 20 MHz for forward link which is broken
+into radio channels and if no guard band is assumed,
+find the number of simultaneous that be
+users can ac-
+commodated in GSM.
+QS. (a) Explain various applications and service of Next Gen-
+eration Network (NGN).
+Draw and explain the component of mobile network
+of IMT-2000.
+structure
+2605/ /398/9950

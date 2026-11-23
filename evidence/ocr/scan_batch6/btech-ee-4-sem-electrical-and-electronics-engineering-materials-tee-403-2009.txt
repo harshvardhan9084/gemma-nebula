@@ -1,0 +1,93 @@
+Printed Pages : 4 TEE 403
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2053. ml
+B. Tech.
+(SEM. IV) EXAMINATION, 2008-09
+ELECTRICALS &
+ELECTRONICS ENGINEERING MATERIALS
+[Total
+Time : 3 Hours] Marks : 100
+Note : (1) Attempt all questions
+(2) All questions carry equal marks.
+I Attempt any four parts of the following 5x4
+(a) Explain briefly the following ;
+(i) Body centered cubic structure (BCC)
+(ii) Face centered cubic (FCC)
+structure
+(b) Explain with suitable examples the ionic,
+covalent and metallic bonding in crystals
+(c) Describe edge and screw dislocations.
+(d) A beam of X-rays of wavelength 0 842A° is
+incident on a crystal at a grazing angle 8°-35'
+when the first order Bragg's reflection occurs.
+Calculate the angle of incidence for third order
+reflection.
+2053] [Contd..
+http:/Awww.onlineQP.com
+(e) What is Millar Indices? Describe the procedure
+for finding it with an
+(f) Show that for a simple cubic system :
+digg V6: VB: V2.
+2
+2 Attempt any four parts of the following 5x4
+™
+(a) Explain zone theory of solids
+(b) Explain superconductivity. Describe briefly the
+properties of superconductors.
+(c) What is electrical conductivity? Enlist the
+factors affecting the electrical conductivity of
+metals.
+(d) Derive an expression for heat developed in a
+current carrying conductor.
+(e) Aresistance wire of | metre length and diameter
+0.08 mm has a resistance of 95.5 ohm. Calculate
+the resistivity of the wire material.
+(f) Explain thermal conductivity and obtain an -_
+expression . for coefficient . of thermal
+conductivity.
+3 Attempt any two parts of the following
+.
+(a) What do you understand by the term dielectric
+loss and loss angle? How do loss factor and
+dielectric constant vary with temperature and
+frequency of alternating field? Explain.
+an
+2053] [Contd..
+(b) (i) Explain the phenomenon of Polarisation
+in . dielectric . . materials. ttp://www.uptuonline.com P P
+(ii) Discuss Electronic polarization and [onic
+polarisation.
+(c) Explain with examples:
+(i) and
+~ (11) Piezoelectricity
+4 Attempt any two parts of the following 10x2
+(a) (i) Differentiate between intrinsic and
+extrinsic semiconductors.
+What is semiconductor? Differentiate
+between N-type P-type
+they
+semiconductors and how are
+produced?
+(b) What is Hall Effect? Derive the relation between
+Hall Coefficient and carrier density.
+(c) What the advantages of FET
+are over
+conventional bipolar junction transistor? Give
+the constructional details of JFET.
+5 Attempt two parts of the following 10x2
+any :
+(a) Distinguish between soft and hard magnetic
+material. Draw B-H curve for a soft magnetic
+material and explain the significance of the
+nature of the curve.
+2053) 3 [Contd..
+http:/Awww.onlineQP.com
+(b) (i) Describe hysterisis loop of a magnetic
+material and com
+and coercive force.
+(ii) Explain the phenomenon of magnetostriction
+(c) (1) State the relative advantages and
+disadvantages of aluminium as compared
+to copper as a conductor of electricity.
+(ii) How do you classify the materials as dia,
+para or ferromagnetic?

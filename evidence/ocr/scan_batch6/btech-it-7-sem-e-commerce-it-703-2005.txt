@@ -1,0 +1,77 @@
+aktuonline.com aktuonline.com
+ae on
+PAPER ID: 1304 ll
+B.Tech.
+SEVENTH Wa SEMESTER EXAMINATION, 2004-2005
+~ E-COMMERCE
+Time : 3 Hours Total Marks : 100
+Note: Attempt ALL questions.
+1. Attempt any two parts of the following : (10x2=20)
+(a) Describe Intra organizational Commerce and
+its applications in the of Business to
+Employee (B2E) services. area
+(b) What is the likely impact of electronic
+commerce on economic structures like
+Manufacturers, dealers and consumers ?
+(c) Define B2B and illutstrate the
+advantages e-commerce offered by B2B e-commerce to
+existing businesses.
+2. Attempt any two parts of the following : (10x2=20)
+> (a) What do understand by protocol and
+briefly describe you the role of TCP/IP in
+Internet ?
+(b) Describe the Radio-based Local Area Networks
+and their limitations.
+IT—703 1 [Turn Over
+aktuonline.com aktuonline.com
+(c) What is a Domain Name System ? Show that
+it is an example of global distributed
+information management system.
+3. Attempt four of the following (5x4=20)
+any parts :
+Why are the machines on Internet vulnerable
+to hackers ? Describe various sources of
+vulnerabilities.
+Describe Application-level proxy firewall.
+Describe important factors in arriving at an
+appropriate firewall configuration.
+What is meant by Integrity of a message ?
+Describe a technique to ensure integrity of an
+email message.
+What are important issues related to key
+distribution and management in symmetric
+key cryptosystems ?
+(f) What is a public key cryptosystem ? How can
+it be used for providing authentication in
+e-commerce
+4. Attempt any four parts of the following : (5x4=20)
+Discuss the basic requirements of an online
+payment system.
+What is digital token based electronic
+payment system, a Illustrate with example ?
+an
+What do you understand by micro
+payments ? What are special considerations
+involved in design of online micro payment
+_systems ?
+aktuonline.com
+aktuonline.com aktuonline.com
+(d) Describe and differentiate among Credit card
+and Debit card based payment systems.
+understand by online banking
+(e) What also write do you the advantages and limitations ?
+(f) Describe an online credit card payment
+transaction electronic commerce
+environment.
+3. Attempt any two parts of the following : (10x2=20)
+(a) Describe impact of the network based
+e-commerce transactions on the traditional
+supply chain management.
+(b) Describe the likely impact of e-commerce on
+consumers, businesses, industries and
+inter-relationship amongst them.
+(c) What is the role of certification authorities in
+e-commerce environment ? How can two
+parties enter a non-repudiable legal contract
+in electronic commerce environment ?
+aktuonline.com

@@ -1,0 +1,51 @@
+Printed Pages—2 EECO014
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2620
+B. Tech.
+V1)
+(SEM. THEORY EXAMINATION 2010-11
+MICROCONTROLLER AND EMBEDDED SYSTEM
+Time » 2 Hours Total Marks : 50
+Note: (1) Attempt all questions. Ali questions carry equal marks.
+(2) Be precise in No. second book
+your answer. answer
+will be provided.
+1. Attempt any two parts of the following : (5x2=10)
+(a) How does a microcontroller differ from a microprocessor ?
+Why microcontrollers are preferred over microprocessors
+in control applications ?
+(b) Discuss the different power-saving modes of 8051.
+(c) Explain pin diagram of 8051.
+2. Attempt any two parts of the following :- (5x2=10)
+(a) List five assembler directives and explain their meaning
+for the assembler of 8051.
+(b) Show the code te push R5, R6 and A onto the stack and
+then pop them back into R3, R4 and B, where register B =
+register A, R3 = R6, and R4=RS5.
+EECO14/RFW-22079 {Turn Over
+(c) Write program to send 44 H to ports Pi and P2, using (a)
+their addresses (b) their names.
+3. Attempt two parts of the following (5x2=10)
+any :
+(a) With the aid of a block diagram explain the operation of an
+8051 UART device. Initialize the serial port to transmit an
+8-bit data.
+(b) With the oscillator frequency 11.0592 MHz, find the TH1
+value needed have the following band 9600, 2400
+to rates
+and 1200.
+(c) Explain the interrupt handling mechanism of 8051.
+4. Attempt any two parts of the following : (5x2=10)
+(a) Withaschematic diagram explain how an 8051 is interfaced
+with external RAM ?
+(b) Write interface ADC 8051.
+a program to to
+(c) Write a program to interface an LCD to 8051.
+5. Attempt any two parts of the following :
+(a) Describe 8096 microcontroller with the help of block
+diagram.
+(b) Give the main features of 68HC11A8 microcontroller. Also
+explain analog digital of 68 HC11.
+to converter
+(c) Write a program for stepper motor control using 8255.
+EEC014/RFW-22079 17795

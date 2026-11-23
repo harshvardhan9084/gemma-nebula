@@ -1,0 +1,124 @@
+Printed Pages—7
+EEES01
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2111
+B.Tech.
+(SEM. V) THEORY EXAMINATION 2011-12
+ELECTROMECHANICAL ENERGY CONVERSION-II |
+Time : 3 Hours Total Marks : 100
+Note :—All questions carry equal marks.
+1. Answer four
+any parts of the following : (5x4=20)
+(a) Explain why 3- synchronous machines always
+are run at
+synchronous speed 120 f
+= ? The symbols having
+their usual meanings.
+(b) Explain why 3-¢ synchronous machines are not self starting
+? What are the methods for starting of the
+3 synchronous machines ?
+(c) Define the v-curves and inverted v-curves at different
+loading conditions of synchronous motors.
+(d) Discuss the
+constructional details and working principles
+of synchronous machines. Also mention its applications.
+(e) Explain why in case of 3 synchronous machines, the
+armature windings put on stator and field windings
+put on
+1 [Turn Over
+(c) A500 KVA, IIKV, 3-6 star-connected alternators has
+rotor whereas in case of D.C. machines, the armature ,
+windings put on rotor and field windings put on stator poles ? the following data :
+Explain in brief. Friction and windage loss 1500W
+=
+(f) Write short notes on any two of the following : Open-circuit core loss = 2500W
+(i) Mode of operations of synchronous Effective
+motors. armature resistance/phase
+(ii) Hunting Phenomena in 3 Synchronous motors. Field copper loss = 1000W
+(iii) Power Flow Equations of Cylindrical and Salient Pole Find the following parts in regarding with above
+Machines.
+synchronous alternators :
+(i) Alternator efficiency of half-full load
+and at 0.85
+2. Answer any two parts of the following : (10x2=20) power factor lagging.
+(a) For a cylindrical rotor alternator working at lagging power (ii) Maximum efficiency of the alternator.
+factor, show that
+1, (X, — r, sin) Answer two parts of the following (10x2=20)
+tand = V, +1, (X, sin@ + 1, any :
+(a) Whatare the similarities and dissimilarities between “Three
+The symbols having their usual meanings.
+Phase Transformers” and “Three Phase Induction
+(b) A5 MVA, |1 kV, 50 Hz, 4-pole, star-connected synchronous Machines” ?
+generator with synchronous reactance of 0.7 p.u. is Explain why a IM can't runs at
+connected to an infinite bus. Find synchronizing power and synchronous speed = 120 f symbols having their
+the corresponding torque per unit of mechanical angle P
+displacement — usual meanings ? Also explain the phenomena such as
+(i) at no load and "Cogging" and "Crawling" associated with a 3 IM.
+(ii) at full load of 0.8. p.f. lagging.
+2 EEESO1/KIH-26183 3 [Turn Over
+(b) A3 squirrel cage IM (SCIM) has maximum torque equal 4. Answer any two parts of the following : (10x2=20)
+to twice the full-load torque. Determine the ratio of motor (a) What the methods for speed control of squirrel
+are cage
+torque to its full load torque, if it is started by : IM and wound type IM ? Also mention its advantages and
+(i) D.O.L. Starter disadvantages. Discuss the field of applications of speed
+control methods of IMs.
+(ii) Auto-transformer starter with 70% tapping.
+(b) Consider the equivalent circuit diagram of 3 ,Y-connected,
+(ii) Star-delta Starter. 440 V, 50 Hz, 4-pole, IM shown in Fig.1
+:
+The per phase rotor resistance and per phase standstill
+reactance referred to stator 0.2 Q and 2 respectively.
+are
+Neglect stator impedance.
+(c) A10kW, 400 V, 50 Hz, 4-pole, Y-connected squirrel cage.
+IM gave the following test results :
+No-load Test 400 V 250 Watts
+where r,= 0.294 Q; x,= 0.503 Q; X=13.25 Q;
+Blocked rotor Test | 90 V 35A 1350 watts. r= 0.209 Q; x= 0.144 Q.
+The d.c. resistance of the stator winding per phase Fig.1. Equivalent circuit diagram of [M.
+measured immediately after the blocked rotor test is (i) Determine the stator and factor
+0.6 current power (motor
+runs at N= 1460 RPM)
+Calculate the following ( (it) Determine the air gap and rotor losses
+: power copper
+(i) Equivalent circuit parameters of 3 ¢ SCIM. (motor runs at N=1450 RPM).
+(iii) What is the value of motor speed at which it takes 30
+(ii) Rotational losses. Ampere 0.8 p.f.
+current at lagging from supply mains ?
+(iv) What is the value of slip when motor runs at
+N_= 1480 RPM ?
+EEES501/KIH-26183 4 EEES501/KIH-26183
+’ [Turn Over
+standstill of the inner and outer
+(c) The impedances at (c) Discuss the constructional details and working principle of
+cages of a double cage rotor are (0.01 + J 0.5) Q and any two of the following :
+Q respectively. The stator impedance may
+(0.05 + j 0.1) (i) Stepper Motors
+be assumed to be negligible.
+the two cages— (ii) Universal Motor
+Calculate the ratio of the torques due to
+(iii) Single phase AC series compensated motors.
+(i) at starting, and
+running with a slip of 5%. ( ¢ Also mention their industrial applications.
+(ii) when
+two parts of the following : (10x2=20)
+5. Answer any
+(a) Explain why 1-d IMs are not self starting ? What do you
+“FORWARD FIEL and “BACKWARD
+understand by
+FIELD” in conjunction with IM ? Draw and explain
+equivalent circuit diagram of 1- IM at no-load and
+the resolving field
+blocked rotor tests. Also explain the double
+theory associated with 1- IM. What are the methods of
+working principle of 1-
+starting of 1-¢ IM ? Explain the
+shaded pole type IM and its domestic applications.
+(b) Explain the constructional details and working principle of
+motors. Also mention its domestic
+1- reluctance
+applications. What are the advantages and disadvantages
+of this motors ? Compare their performance from 1-
+hysteresis motors.
+EEES01/KIH-26183 6 EEESO1/ KIH-26183
+8775

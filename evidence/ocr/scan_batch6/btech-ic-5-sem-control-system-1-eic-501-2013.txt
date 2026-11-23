@@ -1,0 +1,91 @@
+Printed Pages—4 EICS01
+Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 2121
+B.Tech.
+(SEM. V) ODD SEMESTER THEORY EXAMINATION 2012-13
+CONTROL SYSTEMS—I
+~ Time : 3 Hours Total Marks : 100
+Note : Attempt ALL questions.
+1. Attempt any four parts : (4x5=20)
+(a) Obtain the transfer functions of the mechanical systems
+shown in Figure 1.
+x(output)
+applied
+FQ) force
+1 f,
+Figure 1
+(b) Discuss the effect of feedback on the following :
+(i) Sensitivity
+(ii) Stability
+(iii) Error.
+EICS501/DLT-44166 1 [Turn Over
+(c) Find the transfer function of the system shown in the
+Figure 2 using Mason’s gain formula.
+(d) Compare the open loop control system and closed loop
+control system.
+(e) Determine the sensitivity of the system given in the
+Figure 3 with respect to feedback path transfer function
+at @ = 2.0 rad/s.
+Figure 3
+(f) What is the role of sensors and encoders in control
+system ? Explain the construction and principle of
+operation of potentiometer.
+a
+EICS501/DLT-44166 2
+2. Attempt any two parts : (2*10=20)
+(a) State equation of a control system is given by :
+x, 0 iif}
+| |} x,
+x, |-2 -3 x,
+find the state transition matrix.
+(b) Fora given transfer function :
+~ b
++a,s+a,
+Obtain the signal flow graph and hence deduce the state
+model.
+(c) Define the following terminology :
+(i) State Variables, (ii) State Space.
+3. Attempt any two parts : (2x10=20)
+(a) Derive the formula for Peak under shoot, Rise time and
+Peak time.
+(b) feedback system is characterized by the open loop
+transfer function
+:
+G(S) 1
+~~ S(0.5S +1) (0.28 +1) °
+Determine the steady state errors for unit step and unit
+ramp input. Also determine the damping ratio and natural
+frequency of the dominant roots.
+(c) For general second order systems find the c(t), when
+a
+input is unit step.
+3 Over
+4. Attempt any two parts : (2x10=20)
+(a) Determine the values of K > 0 and > 0, that system
+a so
+having G(s) K(S+1) H(s) = I, so that system
+= s? +aS? +2S+1 .
+oscillates at a frequency 2 rad/s and find the stability
+of the following polynomial by Hurwitz criterion
+S + 2S4 + 3S? + 6S? + 2S + 1.
+(b) Discuss the following (i) Stability, (ii) Relative stability,
+(iii) R-H Criterion.
+(c) The characteristic equation of a servo system is given by :
+Determine the conditions which must be satisfied by the
+coefficients of the characteristic equation for the system
+to be stable.
+5. Attempt any two parts : (2x10=20)
+(a) Establish the correlation between time response and
+frequency response analysis and suitably explain with
+diagrams.
+(b) Draw the Bode plot of the given function :
+4(1+ jo/2)
+G(jo)= 2
+jo . ~
+10 \10
+(c) Sketch the Nyquist plot for the following transfer function :
+K
+G(S) H(S)
+S*(1+ tS)
+for K>0,1>0.
+EIC501/DLT-44166 4 8075

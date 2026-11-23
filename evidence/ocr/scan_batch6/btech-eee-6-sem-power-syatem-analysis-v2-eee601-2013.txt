@@ -1,0 +1,89 @@
+“aN
+Printed Pages—4 EEE601
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 2498
+:
+B.Tech.
+(SEM. VI) EVEN THEORY EXAMINATION 2012-13
+POWER SYSTEMANALYSIS
+Time : 3 Hours _ Total Marks : 100
+Note :— Attempt all questions. Each question carries equal marks.
+any
+1. Answer two parts of the following : (10*2=20)
+(a) What do you understand by “Per Unit System” in power
+system analysis ? What are the importance and limitations
+of per unit system ?
+(b) The line currents in a3 p supply to an unbalanced load are
+respectively :
+I, = 10+j 20 Amp
+I, = 12 10 Amp.and
+I,=-3
+The phase is abc. Determine the
+_ sequence of sequence
+components currents.
+(c) A 50 Hz, 50 mVA, 13.2 kV star-grounded alternator is
+connected to a line through a A/Y transformer as shown in
+figure-1.
+AY
+Figure-1
+EEE601/DPC-48155 1 [Turn Over
+}
+zero Voltage Controlled Bus Generator Bus.
+The positive, negative and sequence impedances of (ii) or
+the alternator are j 0.1, j 0.1 and j 0.05 p.u. respectively. (iii) Load Bus.
+The transformer rated at 13.2 kV 4/120 kVY, 50
+impedances Also mention their importance.
+with star solidly grounded has the sequence (b) Consider the system network as shown in
+of X" = X, = X, =J 0.1 p.u. each. The line impedances power
+between Q and R are X" = J 0.03, X, = J 0.03 and
+X, J 0.09 p.u. respectively. Assuming the fault to take
+= determine the subtransient fault current for
+place at P, :
+(i) 3-p fault
+(ii) aline-to-ground fault
+|
+(iii) a line-to-line fault
+(iv) adouble line to grounded fault.
+Also express fault currents as a % of 3-p fault current as
+calculated in (i).
+2. Answer two parts of the following : (10x2=20)
+any
+(a) What do you mean by “Unsymmetrical Fault” inP.S.A? .
+What are the drawbacks of unsymmetrical fault in power
+_ system analysis ? Figure-2
+Determine matrix for above system network
+(b) Explain the line-to-line fault on an unloaded generator and power
+power system network with and without fault impedances. shown in figure-2.
+short-circuit calculations (t) Explain the algorithms of Newton-Raphson method. What
+(c) computer methods for of Newton-Raphson
+3-p unsymmetrical faults. What are the advantages and are the advantages and disadvantages
+disadvantages of this method ? method over Gauss Siedal method ?
+4. Answer of the following (10x2=20)
+3. Answer any two parts of the following : (10x2=20) any two parts :
+(a) Explain the following: (a) Explain the following :
+(i) Reference Bus or Slack Bus. (i) Voltage Stability
+EEE601/DPC-48155, 2 EEE601/DPC-48155 3 [Turn Over
+a
+(ii) Rotor Angle Stability.
+Also mention their importance in power system networks.
+(b) What do you mean by “Swing Equation” in power system
+networks ? What is the importance swing equations in
+system networks ? Also mention its drawbacks.
+power factors
+What are the affecting steady state and transient
+stability and methods of improvement ?
+(c) Discuss the transient stability studies by equal criterion
+area
+and step-by-step method.
+5. Answer any two parts of the following : (10x2=20)
+(a) Explain the Bewlag's Lattice Diagram. What is the
+importance of Bewlag's Lattice Diagram in power system
+analysis ? Also mention its limitations.
+(b) Show that a travelling wave moves with a velocity of light
+1
+on the overhead line and its speed is proportional to
+on acable with dielectric material of permittivity er.
+(c) Explain with neat sketches the mechanism of lighting
+discharge. Differentiate between a hot lighting stroke and
+acold lighting stroke.
+EEE601/DPC-48155 4 4000

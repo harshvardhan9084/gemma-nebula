@@ -1,0 +1,56 @@
+EEC-309
+Printed Pages: 3 (2) Implement using 2x1 MUX,
+(Following Paper ID and Roll No. to be filled in your
+Book) (h) What are shift registers.
+Answer
+Roll No. (1) Define Bark-Husen criteria for sustain
+oscillations.
+B.Tech
+(j) What are data converters
+(SEM. IIT) THEORY EXAMINATION, 2015-16
+DIGITALELECTRONICS SECTION-B
+ANALOG &
+Attempt any five questions from this sections. (10*5=50)
+[Time:3 hours] 5 of
+SECTION-A the working reverse recovery diode with a
+neat characteristics diagram
+all All parts carry equal marks. Write
+1. Attempt parts, (10x2=20) Define the term negative feedback. Explain in detail
+answer of each part in short the properties of negative feedback.
+materials used for the fabrication of
+(a) Enlist the What is the difference between combinational and
+LEDs. sequential circuit
+(b) What is varactor diode? (a) 4-bil encoder.
+(c) Define the term tunneling. (b) 4-bit parallel-in-serial-out shift register.
+by efficiency?
+(d) What do you mean quantum ‘a plain the working of wein bridge oscillator. Also
+small signal model of voltage amplifier calculate culate the frequency af
+(ec) Draw the the of oscillation and loop * gain for
+and current amplifier. same
+Fx plain
+(f) List the capacitances which are responsible for the at the working of op-amp based astable and
+gain reduction at low frequency. Monostable
+(1) PT.O. (2)
+What materials are popular for designing crystal
+oscillators. Explain the working of crystal oscillator,
+also calculate tts resonance frequency
+(a) Comment on the statement “MUX is a universal
+circuit” Implement the Boolean function
+using 4x1 multiplexer
+(b) Explain the working of Asynchronous Decade
+counter
+Exptain the following
+Non-inverting Schmitt trigger
+(4) Switching regulator
+SECTION-C
+this —
+Attempt any two questions from section,
+tunnel diode with the help of
+10 Explain the working of
+neat energy band diagram
+Draw the high frequency equivalent circuit or the RC
+coupled common emitter amplifier.
+Design 4-bit universal shift register. Also explain its
+a
+working for all the possible cases.
+(3)

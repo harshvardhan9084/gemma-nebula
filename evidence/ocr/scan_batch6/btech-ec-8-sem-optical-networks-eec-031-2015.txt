@@ -1,0 +1,59 @@
+www.aktuonline.com
+Printed Pages : 3
+ON A
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 131851
+B. Tech.
+(SEM. VIII) THEORY EXAMINATION, 2014-15
+OPTICAL NETWORKS
+Time : 3 Hours] [Total Marks : 100
+NOTE: ATTEMPT All PROBLEMS.
+1 Answer FOUR parts of the following 5x4
+any :
+(a) How signal use to flow in optical fibre
+(b) Discuss optical packet switching.
+(c) Discuss optical fibre communication other
+over
+communication.
+(d) What is WDM technique ? Explain with example.
+(e) Discuss use of optical network use in routers.
+(f) Discuss the challenges IN optical networks.
+2 Answer two parts of the following 10x2
+any :
+(A) Discuss the operation of tunable laser in detail with its
+advantages and disadvantages.
+131851] 1 [ Contd...
+www.aktuonline.com
+(B) Discuss-
+(1) Wavelength converters
+(2) Spectral efficiency.
+(3) Cross Talk
+(4) Sub carrier modulation
+(C) Discuss various optical switches in detail.
+3 Answer any two parts of the following- 10x2=20
+(A) Write short note on SONET. How optical layer is
+protected.
+(B) What is framing techniques ? Discuss IP routing and
+forwarding and QOS.
+(C) Discuss optical amplifiers in detail. Prove that S/N ratio
+is independent of used modulation techniques.
+4 Answer any two parts of the following- 10x2=20
+(A) | Differentiate-
+(1) FTTC and FTTH
+(2) Header and burst swichting
+(B) Design routing and wavelength assignment problems
+with some examples in detail.
+(C) Write short network survivability with protection
+note on
+of client layer. Discuss the operation of interworking
+between layers.
+131851] 2 [ Contd...
+www.aktuonline.com
+Write short notes on any four of the following : 5x4=20
+(1) Buffering
+(2) Kerr effect
+GB) PON
+(4) QOS
+(5) SDH
+(6) Acess network
+131851] 3 [ 5750 ]

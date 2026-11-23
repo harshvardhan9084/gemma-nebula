@@ -1,0 +1,94 @@
+www.aktuonline.com
+Printed Pages : 4
+0
+EAS203
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 199208
+B. Tech.
+(SEM. II) THEORY EXAMINATION, 2014-15
+MATHEMATICS - II
+Time 3 Hours] [Total Marks 100
+: :
+Note Attempt all questions.
+:
+SECTION A
+1 Attempt all parts of this question : 10x2=20
+(a) Solve (2D- 1) y=0 where D= <
+: t
+(b) Find the PL. of p?y= x7 42x41.
+(c) Write the generating function for P, (x).
+(d) Determine the expressin for 7} /2 (x ).
+(e) Find the Laplace transform of
+199208] 1 [ Contd...
+www.aktuonline.com
+(f) Find the function whose Laplace transform is
+/s?
+ors
+(g) Find the constant term if f (x) = x’ is expanded
+in Fourier series in (=x, T).
+(h) Solve (p 2 ~2DD ' +D '2
+2 2 2
+Oz Oz +2 Oz =0
+(i) Classify ‘fy axdy ay?
+(j) | Write one dimensional wave equation and its
+solution.
+SECTION B
+2 Attempt any three parts of the following : 3x10=30
+(a) Solve the following sysem of simultaneous
+differential equations
+dx dy
+—+x-2y=0, —+x+4y=0;
+ao
+x(0)=y(0)=1.
+(b) Solve in series : (x+l)y=0
+(c) Using Laplace transform solve :
+y 2 +9y =6cos3r; y(0)=2, y'(0)=0
+dx
+199208] 2 [ Contd...
+www.aktuonline.com
+(d) Obtain the Fourier series for the function
+x
+1 1
+hence show that Pp =—
+(e) Find the temperature in a bar of length 2 whose
+ends are kept at zero temperature and the initial
+temperature is Sin 3
+SECTION C
+Note : Attempt any two parts from each question
+of this section.
+3 (a) Solve;
+(b) Solve by method of variation of parameters
+2
+d
+dx
+2
+(c) Solve : Py dy ae x secx
+4 (a) Prove that P, (x)
+(b) that d
+Prove
+(c) Solve in terms of Bessel functions 4y"+9xy =0.
+199208] 3 [ Contd...
+www.aktuonline.com
+5 (a) Find . the Laplace transform of fe 2.
+(b) State and prove second shitting property.
+(c) Find the inverse Laplace transform of
+15
+448413
+6 (a) Find the half Fourier sine series of
+range
+in O<x<3.
+: x
+(b) Solve
+(c) Solve 43DD
+: =
+7 (a) Solve by the method of separation of variables
+(b) Find the temperature distribution in a bar of
+length whose ends kept at temperature
+¢ are zero
+and initial temperature is Ho.
+(c) Find the distribution in rod of length
+temperature a
+x which is totally insulated including the ends
+and the initial temperature distribution is
+100 cosx.
+199208] 4 [50]

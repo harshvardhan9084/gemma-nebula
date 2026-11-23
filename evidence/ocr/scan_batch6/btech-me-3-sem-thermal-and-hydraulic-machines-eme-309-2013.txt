@@ -1,0 +1,118 @@
+Printed Pages 4 EME309
+:
+(Following Paper ID and Roll No. be filled in Answer Book)
+to your
+PAPER ID : 0207
+B. Tech.
+THEORY EXAMINATION, 2012-13
+THERMAL AND HYDRAULIC MACHINES
+Time 3 Hours ] [ Total Marks 100
+: :
+SECTION-A
+1. Attempt all parts 2x 10=20
+:
+(a) What is Thermodynamic equilibrium ?
+(b) Define reheat factor.
+(c) What is isothermal efficiency of a Compressor ?
+(d) Draw PV & TS diagram of Diesel & dual cycle.
+(e) Write the classification of Hydraulic turbine.
+(f) compression ratio of an engine.
+(g) Write difference between impulse and reaction turbine.
+(h) What is cavitation ?
+(i) Define Priming.
+(j) | What is Slip in Reciprocating ?
+pump
+SECTION
+Attempt all the questions : 3 x 10=30
+2. Do any two parts :
+(a) Air enter into an evacuated cylinder from the atmosphere when the valve is opened.
+Calculate the work done if atmoshpheric pressure is 1 bar and 2 m? of air at
+atmospheric pressure enters the cylinder.
+_(b) Derive the expression for steady flow energy equation ?
+(c) 5 kg of steam at 200 kPa occupies a volume of (i) 2.50m? and (ii) 5.00
+Determine the temperature in each case and quality of steam.
+0207 1 P.T.O.
+Do any two parts : (5 +5)
+(a) Prove that for steam Turbine :
+2P (cos a, —P)
+Blade efficiency n,= 1 +2P cos a, —P2
+i-
+(b) Derive the for maximum work
+express output
+2
+Maximum work output (W,,..) = Cp} [Tax [Trin]
+(c) Define the terms
+:
+(i) Mean effective of I.C engine
+pressure an
+(ii) between 2 stroke S.I. engine & 4 stroke C.I. engine.
+compare
+Do any two parts :
+(a) Prove that for moving flat plate,
+workdone W = PA (V-U)?U
+jet of having velocity of 50 m/sec impinges shock a series of
+(b) A water a on vanes
+moving at 15 m/s. The direction of motion of the vane is inclined at 20° to that of
+jet. The relative velocity at outlet is 0.9 of that at inlet. The absolute velocity of
+water at exit is to be normal to the motion of Determine
+vanes.
+(i) | Vane angles at inlet & outlet
+(ii) Hydraulic efficiency
+A single acting reciprocating pump running at 50rpm delivers 0.00736 of
+water. The diameter of the piston is 200 mm and stroke length 300 mm. If suction
+& delivery head 3.5 and 11.5 respectively. Calculate
+are m m
+(i) | Theoritical discharge
+(ii) % of the
+pump
+0207
+SECTION
+questions 5 10=50
+Do all the : x
+5. (a) A system containing 0.25 m? of air at a pressure of 4 bar and 150 °C expands
+isentropically to a pressure of 1 bar and after this the gas is heated at constant
+till the enthalpy increases by 60 kJ. Calculate the workdone if these
+pressure
+processes are replaced by a single reversible polytropic process producing the
+same work between initial and final states, find the index of expansion. Take
+C, = 1.005 kJ/kg °K of air.
+OR
+A refrigerator absorbs heat at 5 °C and rejects to the surrounding at 40 °C. It’s
+is driven by a 3.5 kW motor and 45 are absorbed at the low
+compressor Calculate the heat rejected hour and the irreversibility in kJ/h.
+temperature. per
+bar is compressed in cylinder
+(b) 1 kg of steam 0.85 dry at a pressure of 1 a to a
+pressure of 2 bar according to PV!-25 = constant. Determine the final condition of
+steam and the heat transfer through the cylinder wall.
+OR
+A regenerative cycle with three blade heating works between 30 bar, 45 °C and
+0.04 bar. The bleed temperature are choosen at equal temperature range.
+Determine the efficiency of the cycle. Neglect the pump work.
+(c) Explain the working of Pearson’s reaction turbine by giving velocity diagram.
+OR
+Prove that the efficiency corresponding to the maximum work done in a Brayton
+1
+cycle is given =1 where a = T,/T,
+a
+m>
+(d) A double acting compressor with a piston displacement of 0.05 per stroke
+operates at 50 rpm. The clearance is 5 percent and it releaves air at 100 kPa,
+discharge it at 600 kPa. The compression is polytropic = C. Determine the
+power required and the air discharged in m? /s.
+OR
+In an engine working on diesel cycle, inlet pressure and temperature are 1 bar and
+20 °C. Pressure at the end of adiabatic compression is 40 bar. The ratio of
+expansion after constant pressure heat addition is 5. Calculate the heat supplied,
+heat rejected and the efficiency of the cycle. Assume Cp = 1.004 kJ /kg K and
+Cy kJ /kg K.
+0207 3 P.T.O.
+(e) Discuss the main components of Fancis Turbine with reference to working of
+Turbine.
+OR
+A double acting reciprocating running 40 is discharge 1.0 m3 / min
+pump, at rpm,
+of water. The pump has a stroke of 400 mm and piston rod diameter is 200 mm.
+The delivery and section heads are 20 m and 5 m respectively. Find the slip of the
+pump required to drive the pump.
+0207 4

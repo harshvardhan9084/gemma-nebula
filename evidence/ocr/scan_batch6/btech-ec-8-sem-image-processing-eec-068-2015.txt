@@ -1,0 +1,62 @@
+www.aktuonline.com
+Printed Pages : 3
+OU
+FECO68
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 121853
+B. Tech.
+(SEM. VII) THEORY EXAMINATION, 2014-15
+IMAGE PROCESSING
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all the problems.
+1 Justify the validity of following statements with reasons :
+(a) In image processing dirac delta impulse helps to
+express image digitization in an elegant way.
+(b) Image is a stochastic process.
+(c) M pyramid and T pyramid provides data structures
+to describe multiple image resolution.
+(d) Grey level quantization governs the appearance of
+shading and false counter.
+(ec) Kalman is used for path detection.
+(f) "Log Sigmoid" function is most eminently used
+function in Neural Networks.
+2 Answer any two parts of the following : 10x2=20
+(a) Discuss Fourier wavelet principal components,
+analysis in image analysis in detail.
+121853]
+1 [ Contd...
+www.aktuonline.com
+(b) Differentiate in between
+(i) Linear and Bicubic interpolation
+(i) Winer and Inverse filtration
+(c) Discuss in detail how curve detection is done using
+Hough transform.
+3 Answer any two parts of the following : 10x2=20
+(a) Discuss matched based segmentation in detail. What
+is supervised and unsupervised evaluation ?
+Differentiate with some examples.
+(b) Discuss various of boundaries with its
+types
+boundaries in detail.
+(c) Discuss neural network model in detail. What is
+Boltzman, Hopfield and Koherien model ? How
+they are useful for the recognition ?
+4 Answer any two parts of the following : 10x2=20
+(a) Discuss use of Fuzzy logic in image recognition
+with examples.
+(b) How pattern recognition method is done for rapid
+object recognition. Explain in detail.
+(c) Discuss ADA BOOST feature selection and
+Learning Algorithm in detail.
+121853] 2 [ Contd...
+www.aktuonline.com
+5 Write short notes on : (any four) 5x4=20
+(a)  Vignelting
+(b) Kalman theorem
+(c) Marr's theorem
+(d) algorithm
+Isomorphism
+(f) Estimation and Detection
+(g) 3D-Image processing.
+]
+121853] 3 [ 200

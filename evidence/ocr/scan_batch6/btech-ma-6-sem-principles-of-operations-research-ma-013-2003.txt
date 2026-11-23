@@ -1,0 +1,203 @@
+uptuonline.com uptuonline.com
+C
+pages
+No. of Printed of
+B.
+SIXTH SEMESTER EXAMINATION, 2002-2003
+PRINCIPLES OF OPERATIONS RESEARCH
+—Time 3 Hours Total Marks 100
+: :
+Note :(1) Attempt ALL the questions.
+(2) All questions carry equal marks.
+(3) The choice of questions is internal as
+indicated in each question.
+1. Attempt any FOUR of the following :-— (5x4=20)
+(a) An automobile industry is producing two
+models, M, and M, of two-wheelers. The
+profits of the two models are Rs. 1000 and
+Rs. 1200 respectively. Both the models require
+processing in three types of machine-groups.
+The following table indicates the machine
+group hours per week and the time required
+on each machine-group for each number of
+_ problem two models in the i.e. linear M, and programming M,. Formulate form the
+:—
+Machine-Group Hours required by Total Available
+Machine Group
+Model M, Model M, | Hour Per Week
+Machine-group-1 Machine-group-2
+Machine-group-3
+MA—013 1 Turn Over
+uptuonline.com
+uptuoniine.com
+Solve the following LPP by
+method :—
+Maximize =3x,+4x,,
+subject to 4x, + 2x, <80,
+2x, +5x, <180, and
+X,,X, 2 0
+(c) Express the following LPP in the standard
+form :—
+Maximize Z=3x,+2x,+5x,,
+subject to 2x,-3x, < 3; x,+ 2x,+ 3x,>5,
+< 2; and x,, x,>0.
+(d) Explain clearly the following terms used in
+LPP :-—
+(i) objective function and _ decision
+variables,
+(fi) slack and surplus variables,
+(iii) redundant constraints,
+(iv) outgoing and incoming variables, and
+(v) non-degenerate and degenerate basic
+feasible solutions.
+(e) Prove that the dual of the dual of given
+primal is the primal. a
+(p Solve the following LPP by simplex method :—
+Maximise Z=3x,+2x,+5x,;
+subject to $430;
+3x, $460;
+MA—013 2
+uptuonline.com and
+x, +4x, $420,
+X,,X,,X, 20
+2. Attempt any FOUR of the following :— (5x4=20)
+(a) Solve the following transportation problem
+:—
+Source Destination Availability
+pA [|B [DI
+(b) What is an assignment problem ? Give the
+mathematical formulation of it.
+(c) What is a trans-shipment problem ? What
+are the main characteristics of it ?
+The computer centre has got three expert
+programmers. The centre needs three
+application programmes to be developed.
+The Head of the computer centre, after
+studying carefully the programmes to be
+developed, estimates the computer time in
+minutes required by the experts to the
+application programmes as follows :—
+Programmer Programmes
+MA—013 3 Turn Over
+uptuonline.com
+Assign the programmers to the
+in such a way that the total computer time is
+least.
+(e) Solve the following problem by branch and
+bound method :—
+Maximize Z=xXx,
+subject to 3x, 2x, $12,
++
+x, $2,
+X,,X, 20 and
+both integers.
+are
+() Formulate the following capital budgeting
+problem as zero—one integer programming
+problem ——
+There are four projects under consideration.
+Assume that the project is run into three
+years. Total available funds are Rs. 75,000
+(to be used at the rate of Rs. 25,000 each
+year). The expected profit and cost break-up
+are as follows :—
+Project
+90,000 10,000 12,000
+60,000 5,000 8,000
+180,000 10,000 5,000
+100,000 5,000 | | 5,000
+3. Attempt TWO of the following (10x2=20)
+any -—
+(a) There are seven jobs, each of which must go
+through the two machines, A and B in the
+MA—013
+uptuonline.com
+uptuonline.com
+uptuonline.com
+order AB. Processing times are given in the
+table below :—
+Processing time (in hours) for Job
+[aa [is | [a
+Determine of these jobs that will
+i minimize the a sequence total elapsed time.
+(b) Consider PERT network shown in the
+following figure :
+Determine the float of each activity and
+identify the critical path if the scheduled
+completion time for the project is 20 weeks.
+Also, identify the path.
+(c) (i) What do you understand by the following
+terms used in CPM technique :—
+Earliest Start Time, Latest Completion
+Time, Latest Start Time, Earliest
+Completion Time.
+(ii) What is travelling salesman problem ?
+Give the mathematical formulation of it.
+MA—013 5 Turn Over
+uptuonline.com
+any TWO of the following :-—
+(a) A machine costs Rs. 500. Operation and
+maintenance costs are zero for the first year
+and increase by Rs. 100 every year. If money
+is worth 5% less every year, determine the
+best age at which the machine should be
+replaced. The resale value of the machine is
+negligibly small. What is the weighted
+average cost of owning and operating the
+machine ?
+(b) A stockist has to supply 400 units of
+product Monday to his customers. He a
+gets the every product at Rs. 50 unit from the
+manufacturer. The cost of per ordering and
+transportation from the manufacturer is
+Rs. 75 order. The cost of carrying
+inventory per is 7:5% of the cost of the
+product. Find (7) the per economic year lot size and
+(i7) the total optimal cost (including the
+capital cost).
+(c) There bulbs and
+are replace 1000 individual in use bulb it which costs
+Rs. has 10 burnt to If an all bulbs replaced
+simultaneously, out. would were Rs. 4 bulb.
+It is proposed it replace cost all bulbs per fixed
+intervals of time, to whether they at have
+burnt and continue or replacing not burnt
+bulbs out, and to when they fail. At what
+out intervals, should as all the bulbs be replaced ?
+At what replacement price bulb
+would group policy of strictly individual per
+replacement a become preferable to the
+adopted policy ?
+MA—013
+6
+——
+uptyoniing
+come any TWO of the following
+(a) Use dynamic programming to solve the
+LPP:
+Maximize Z=xX,+ 9X,
+subject to 2x, + xX, $25,
+S11,
+x,
+oN X,, X, 20
+2 ?
+(b) What What is a the dynamic essential programming characteristics problem of
+are it ?
+(c) A firm is engaged in buying and selling of
+an item. It operates from a warehouse of
+capacity 1000 items. The units of item
+purchased during the month (i.e. at the end
+of the month) can be sold in the next month
+or stock in the be future 100 months. and the stocks Assuming at the the end initial of
+month to 6 to be determine optimal
+purchasing-selling zero, policy. The selling an and
+purchasing prices of the commodity vary
+from month to month and the same is given
+below :—
+Month
+:
+Purchase Price
+(Rs. in hundred)
+Selling Price
+(Rs. in hundred)
+MA—013 N

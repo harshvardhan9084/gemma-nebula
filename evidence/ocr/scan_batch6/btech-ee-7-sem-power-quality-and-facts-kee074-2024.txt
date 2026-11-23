@@ -1,0 +1,47 @@
+PAPER ID-310592 Code: KEE074
+Roll No:
+BTECH
+(SEM VII) THEORY EXAMINATION 2023-24
+TIME: 3 HRS POWER QUALITY AND FACTS
+M.MARKS: 100
+Note: 1. Attempt all
+Sections. If require any missing data; then choose suitably.
+1. Attempt ali questions brief. SECTION A
+Qno. | Question in
+What aA
+a b. | is the meaning Notching of the term “Power Quality”?
+Define the terms and DC Offset.
+c What are the Sources of Electrical Transients in the Power system?
+d Difference between Voltage sag and voltage swell.
+€. | Define the effect of capacitor-switching transients the network.
+What are the types of transient overvoltages? on im)
+g. Define the need of FACTS a o w
+h Draw controllers in the power system.
+Vi characteristics of SVC. a i
+Explain the term Interharmonics. cos |
+What is the main cause of Harmonic distortion?
+SECTION B cos
+2. Attempt any three of the following:
+What are the objectives . * of standardization . of the p i uality phenomenon? State and
+explain important standards used to define and classify power quality disturbances.
+What is Voltage Sag? Explain Motor Starting
+What is a static VAR system? Explain i
+Explain Harmonic Mitigation Tec ntages and applications.
+; (> in detail. 4
+3. Attempt SECTION C Oy
+What any the one part of the follo i
+Explain are major power quality issues? Explain in detail. \ cO1
+Long-duration Voltage variation with a suitable example.
+4. Attempt any one part of the following:
+Explain estimating voltage sag performance.
+Explain the fundamental principle of protection to reduce
+5. Attempt any one part of the following:
+What are the devices for overvoltage protection?
+diagram.
+part of the following:
+| Explain the operation of DSTATCOM wae
+SVC, sag mitigation. Compare STATCOM and 10
+7. Attempt part of the following:
+|a.__| What Is any the one harmonic filter? Write short
+What are the effects of harmonics a note on the benefits of active harmonic filters.
+on the working of transformers? Explain in detail.

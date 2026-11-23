@@ -1,0 +1,61 @@
+Printed Pages—3 ae
+B. Tech. We YS
+(SEM. III) ODD SEMESTER THEORY EXAMINATION
+2010-11
+FUNDAMENTAL OF ELECTRONIC DEVICES
+Time 3 Hours Total Marks : 100
+Note : Attempt all questions. All questions carry equal marks.
+1. Attempt any four parts of the following : (4x5=20)
+(a) Witha suitable sketch describe briefly the lattice structure
+of GaAs.
+(b) What is Miller Indices ? Show the (643) plane and the
+[643] direction in a cubic crystal lattice.
+(c) Classify semiconductor according to band structure.
+Explain with examples.
+(d) What do by effective of carriers ? How
+it you mean mass
+does depend on energy bands ?
+(e) Explain briefly why. the temperature coefficient of the
+resistivity of a doped semiconductor is negative at low
+and high temperature but positive at intermediate
+temperature.
+(f) Calculate the Fermi level position in Si containing 10!°
+Phosphorus atoms/cm? at 100 K assuming 50% of the
+impurities are ionized at this temperature. Also calculate
+the equilibrium electrons and holes concentrations.
+EEC301/VEQ-15068 I [Turn Over
+2. Attempt any two parts of the following : (2x10=20) how a Bipolar
+(a) What the direct and indirect (c) Explain Junction Transistor can be used as
+expression are for minority recombination ? Derive a switch. Explain the factor which determine the switching
+an carrier life time. speed of BJT.
+(b) What is the physical significance of diffusion length 7
+How is it related with mobility of the carrier ? Explain. Attempt any two parts of the following : (2*10=20)
+(c) What is quasi-fermi levels ? Explain. (a) What is transferred electron effect ? Describe a device
+A Ge sample with 10'” Phosphorus atoms/cm? is optically based on this effect with suitable diagram in detail. Also
+excited at 300 K such that 10? EHP/cm?-sec draw its characteristics.
+T, = t, 10 What is gop the = separation and
+Fermi levels = psec. ? Draw band diagram of the quasi- (b) What is photo-detector ? Explain the operation of a p-i-n
+Given that intrinsic a showing the result. photodetector. What are the suitable material for it ? How
+carrier concentration for Ge at room can it be made more sensitive to low level intensity of
+temperature is 2-5 x 10" per light ?
+Attempt any two parts of the following : (2x10=20) (c) With a suitable diagram describe the operation and
+(a) What is diffusion potential ? Assuming equilibrium characteristics of four-layer
+condition at junction, derive a diode. Explain the various
+diffusion potential. a step an expression for triggering mechanism of this diode.
+(b) What do you mean by minority carrier injection and
+minority carrier extraction ? Derive an expression for total
+current through the diode for either forward or reverse
+bias.
+(c) Describe the physical mechanism for p-n junction
+breakdown. Draw a circuit which uses a breakdown diode
+to regulate the voltage across a load. Explain its operation.
+Attempt any two parts of the following : (2x10=20)
+(a) Enumerate the special features of MESFET. Explain its
+working and state the difference between normally-on and
+normally-off MESFETs.
+(b) What the advantages and disadvantages
+are of FET over
+BJT ? Describe the construction and operation of
+MOSFET with suitable diagram.
+EEC301/VEQ-15068
+2 EEC301/VEQ-15068 3 18250

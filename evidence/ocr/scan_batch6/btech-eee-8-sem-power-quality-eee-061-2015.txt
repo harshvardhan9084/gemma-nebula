@@ -1,0 +1,81 @@
+www.aktuonline.com
+Printed Pages : 3
+A)
+EEE061
+(Following Paper ID and Roll No. be filled in Answer Book)
+to your
+PAPER ID : 120852
+B. Tech.
+(SEM. VII) THEORY EXAMINATION, 2014-15
+POWER QUALITY
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions.
+1 Attempt any four parts of the following : 5x4=20
+(a) What is Power Quality ? Discuss the parameters that
+define the quality of electrical Explain the
+power. term
+"Good Power Quality".
+(b) What would be the impact of "poor power quality" on
+system efficiency, reliability and operation ?
+(c) What the objectives of standardization of Power
+are
+Quality phenomena ? State and explain important
+standard used to define and classify power quality
+disturbances.
+(d) How voltage sags are caused by large motor starting ?
+(e) Distinguish between voltage flicker and voltage
+fluctuations. What are the main reasons of these
+problems ?
+120852] 1 [ Contd...
+www.aktuonline.com
+(f) | What do you understand by linear and nonlinear loads ?
+Compare them with suitable examples.
+2 Attempt any four parts of the following : 5x4=20
+(a) What is transient disturbance ? How many types of
+transients are present ? Discuss each type by giving
+suitable examples.
+(b) Explain the phenomena of voltage magnification at
+customer side due to energizing capacitor on utility
+system and discuss the remedy.
+(c) What are the advantages and disadvantages of using
+capacitor bank in a power system ? With neat diagram
+explain the capacitor switching operation.
+(d) How ferro-resonant transformer can be used to handle
+voltage sag conditions ? Explain in detail.
+(e) What types of instruments are used for monitoring
+power quality ? Describe the applications of oscilloscope
+and spectrum analyzer for quality monitoring.
+power
+(f) | Explain the various strategies for utilities to decrease the
+impact of lighting.
+3 Attempt of the following 10x2=20
+any two parts :
+(a) Discuss the working principle of DSTATCOM. How
+load compensation can be done using DSTATCOM.
+(b) Explain the working of an on-line UPS with a detailed
+diagram. Also point out its superiority over off-line UPS.
+(c) What are series and shunt compensator ? Compare their
+role for power quality improvement.
+120852] 2 [ Contd...
+www.aktuonline.com
+4 Attempt any two parts of the following : 10x2=20
+(a) What are the passive filters ? Explain the factors to be
+considered for designing a passive filters. Also explain
+their limitations.
+(b) Explain the different types of hybrid filter connections.
+What are the reasons of their popularity ?
+(c) What do you understand by harmonics ? What are
+different types of harmonics ? Explain the different
+detrimental effects of harmonics with suitable examples.
+5 Attempt any two parts of the following : 10x2=20
+(a) Discuss the problems and their solutions
+common
+related to power quality in wiring and grounding of
+electrical systems.
+(b) What are Power Conditioners ? Explain working
+principle of Unified Power Quality Conditioner (UPQC) ?
+(c) Distinguish between voltage and undervoltage ?
+sag
+Briefly discuss the techniques used for sag or dip
+mitigation.
+120852] 3 [ 1450 |

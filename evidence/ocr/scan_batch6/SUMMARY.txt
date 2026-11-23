@@ -1,0 +1,1 @@
+ocr-evidence scan_batch6: 550 papers | OK=550 | measurable (printed_atomic>0): 379

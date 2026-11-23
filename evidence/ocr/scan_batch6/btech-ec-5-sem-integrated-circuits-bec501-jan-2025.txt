@@ -1,0 +1,72 @@
+2
+Printed Page: 1 of
+LAT Wa Subject Code:
+P APER ID- Rolt No:
+BTECH
+(SEM Vv) THEORY EXAMINATION 2024-25
+INTEGRATED CIRCUITS
+TIME: 3 HRS M.MARKS: 70
+Note: Attempt all Sections. In case of any missing data; choose suitably.
+SECTION A
+Se Attempt all questions in brief. 2x07=14
+1. pe
+he of
+with volage gain [1 _
+of V to converter and 10 V convener |2_[2 |
+applications and held
+re}
+A
+| Define lock-in & capture range of PLL. fl
+SECTION B
+07x3=21
+2. Attempt any of the following:
+Calculate the overall voltage gain provided by IC 741 after drawing the
+small signal models of each stage.
+Derive the expression of voltage gain in KHN Biquad Filter. Draw the 2 K3
+KHN Biquad filter and derive the transfer function of the BPF and LPF
+from KHN Biquad filter.
+Explain in detail about the methods of frequency compensation used in 3 K2
+operational amplifiers.
+Sketch the CMOS logic circuit implementation of the given expression: |4 | K3
+Y=(A+B)C + DE
+Draw and explain the working principle of op-amp based voltage | 5 K2
+controlled oscillator circuit.
+SECTION C
+J. Attempt any one part of the following: 07x1=07
+Question
+How the short circuit protection is achieved in the output stage of 741
+-amp? Draw and explain the frequency response of IC 741.
+Explain Wilson current mirror and Widlar current source with circuit
+diagram. Also discuss advantages of Widlar current source.
+4, Attempt any one part of the following: 07 x 1=07
+Question
+Explain the principle of Instrumentation amplifier and derive the gain for K2
+that circuit. Give its applications.
+Explain the operation of a triangular wave generator by drawing the | 2
+capacitor and output voltage waveforms.
+fn
+https://www.pygonline.com
+|
+2
+does Printed Page: 2 of
+PAPER Roll No:
+BTECH
+(SEM V) THEORY EXAMINATION 2024-25
+INTEGRATED CIRCUITS
+TIME: 3 HRS M.MARKS: 70
+le Attempt any one part of the following:
+Question
+a Explain in detail about the methods of frequency compensation used in
+operational amplifiers.
+Sketch CMOS implementation of J-K Flip-flop and explain its operation.
+Also discuss the limitations of J-K flip flop.
+7. Attempt any one part of the following:
+Question
+Draw the circuit of monostable multivibrator using
+(i) multivibrator using IC 555 timer.
+(ii)Design an astable 2 555 timer to provide an output
+signal frequency of KHz and 75% duly cycie with block
+diagram.(Consider C=0.1 uF
+Explain with a schematic how a PLL can be used as (i) Frequency
+multiplier (ii) Frequency translator. https://www.pygonline.com
+https://www.pygonline.com

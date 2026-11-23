@@ -1,0 +1,121 @@
+ONT AYN I A
+Printed Pages : 4 MCA - 204
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 1469 Roll No.
+M. C. A.
+(SEM. II) EXAMINATION, 2006-07
+PARADIGMS OF PROGRAMMING
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions.
+1 Answer any four parts : 5x4=20
+a. Programming languages can be implemented 5
+via compilation or via interpretation. The output
+produced by a program should be the same
+regardless of which of these approaches is used.
+Why then might one prefer compilation over
+interpretation or vice-versa.
+b. For the following statement of a programming 5
+language discuss various types of bindings and
+the time when these bindings are done.
+X:=X+ 10
+c. What are the various phases in the structure 5
+of a compiler. Define semantic analysis in brief.
+d. Describe the four basic computational models 5
+that describe most programming languages.
+e. What is extended BNF notation? Illustrate 5
+through an example?
+f. Discuss the pros and cons of virtual 5
+computer approach.
+V-1469] 1 [Contd...
+http://www.UPTUonline.com
+2 Answer any four parts of the following : 5x4=20
+a. Why use structuring concepts such as 5
+Cartesian product and power sets to define a
+language composite types? Explain the
+relationship between types and sets.
+b. Consider void multiply the following Gnt int code n) fragment 5
+m,
+m=m*n;
+cout <<m<<”,,”<<n;
+}
+Suppose the function is called with actual
+parameters i, j when I = 2, j = 3, what is printed
+when called with
+(i) (i, j) Gi) multiply (i, i) by using
+call by value transmission and call-by-value-result scheme.
+State parameter the visibility, lifetime initialized value 5
+c. and purpose of local, global and static variables
+in programming languages.
+d. Show the lifetimes of the variables in the 5
+following
+C programme and indicate which are statically
+vs. dynamically allocated
+Int m;
+Void {
+Float Z=1.0; z;
+}
+Void R (int n) {
+If (n>0)
+R (vl)
+SC);
+Int main ( ) {
+M = 3;
+R (1);
+} Return 1 ;
+V-1469] 2 [Contd...
+http://www.UPTUonline.com
+e. What is an activation record? Describe the 5
+role of current instruction pointer (CIP) and
+current environment pointer (CEP) in the
+implementation of recessive sub-programs.
+f. In many programming languages strings are 5
+defined be of characters. Compare the
+to arrays of this when a string variable is
+consequences :
+1. a static array
+2. a dynamic array
+3. a flexible array.
+3 Attempt any two parts of the following : 10x2=20
+a. Define the following terms : 10
+i) object
+ii) class
+ii) polymorphism
+iv) inheritance
+v)
+10
+b. Why virtual functions are required?
+the use through an example in any object
+oriented language.
+c. Define a polymorphic function “reverse” in 10
+M/L that takes a list of objects of some type
+and reverses the order.
+4 Attempt any two parts of the following : 10x2=20
+a. What are eager, normal-order and lazy 10
+evaluation? Consider the following ML
+functions.
+Fun ser (n ; int ) = n * n ; and function call
+Sqr (p + q) with p=2 & q=5 show the binding
+and evaluation of the function in case of eager,
+normal order and lazy evaluation.
+V-1469] — 3 [Contd..
+http://www.UPTUonline.com
+b. What are curried functions in functional 10
+programming? Write a procedure to merge two
+sorted lists (with arbitrary lengths) producing a
+third list.
+c. Discuss the advantages and disadvantages of 10
+functional programming.
+5. Attempt any two parts of the following : 10x2=20
+a. Given that : 10
+i) Vx [physician) (x) knows surgery (x)]
+ii) physician (Bhaskar) —»
+Prove that knows_surgery (Bhaskar)
+b. | What is first order predicate logic? Convert 10
+the following formula into clause form.
+Vx| Vy P(x, > > R(x, ¥))]
+is the unification algorithm? Find the 10
+c. general unifer (MQU) of
+most
+A(x, fig 9) and y, 2)
+V-1469] 4 [ 6510 ]
+http://www.UPTUonline.com

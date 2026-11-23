@@ -1,0 +1,116 @@
+aktuonline.com aktuonline.com
+Printed Pages—4 TEE603
+Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2061
+B. Tech.
+(SEM. VI) THEORY EXAMINATION 2010-11
+POWER ELECTRONICS
+Time : 3 Hours Total Marks : 100
+Note :—Attempt ALL questions.
+1. Solve any four parts of the following :— (5x4=20)
+(a) Describe with diagram the working of a depletion
+neat
+type n-channel MOSFET. Also draw its transfer
+characteristics.
+(b) Explain turn off characteristics of a thyristor and explain
+why a reverse voltage is developed across a thyristor
+during turn-off.
+(c) Calculate the number of SCRs, each with rating of
+500 V, 75 A required in each branch of a series and
+parallel combination of a circuit with the total voltage
+and current rating of 7.5 kV and 1000 A. Assume
+derating factor of 12%.
+(d) Explain with neat circuit diagram the UJT trigger circuit
+for thyristor.
+a
+(e) Discuss the turn-off process in a GTO with the help
+of appropriate voltage and current waveforms.
+(f) Discuss with circuit diagram the operation of BJT
+a as
+a switch. Also explain the secondary breakdown
+phenomena of the transistor.
+TEE603/RFW-21211 I (Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+2. Solve any two parts of the following :— (10x2=20)
+(a) For a given SCR the gate cathode characteristics has
+spread given by the equations
+a :
+I, = mV? and I, = where I, is in mA, V in
+volts, m = 2.
+The gate source voltage is 15 V, and the load line
+has a slope of V/amp, calculate :
+(i) Series resistance to be connected in the gate circuit.
+(ii) Trigger voltage V,, and trigger current I, given
+that dissipation is 0.5 Watt.
+average gate power
+(b) In an ideal type A chopper circuit, the supply voltage
+is 250 V, chopping frequency is 300 Hz, duty cycle =
+0.5, load resistance is 5 Q and load inductance is 5
+mH. If the load has a back emf of 100 V, find the
+average output current of the chopper. Also find the
+maximum and minimum values of steady state output
+current, and the average value of source current.
+(c) Explain the requirement of commutation circuit for
+thyristor and describe impulse commutation circuit with
+appropriate waveforms.
+3. Solve any two parts of the following : (10x2=20)
+(a) Justify the with relevant waveforms and
+statement
+expressions “the effect of source inductance is to reduce
+the average output voltage from its normal value if
+single phase full converter is supplying power to R-L
+load.”
+TEE6O3/RFW-21211 2
+aktuonline.com
+aktuonline.com aktuonline.com
+(b) A single phase half-wave controlled rectifier with
+freewheeling diode is used to supply heavily inductive
+load from a 220 V ac supply. Assuming the load current
+to be 10 A, find the average load voltage for a firing
+If
+angle of 45°. What is the load resistance ? the firing
+angle is made 120°, does the load voltage become
+negative ?
+(c) Describe three phase half controlled bridge rectifier
+with highly inductive load. Also draw the relevant output
+waveforms.
+4. Solve of the following (10x2=20)
+any two parts :
+(a) Discuss the operation of single phase ac regulator with
+R-L load when firing angle o is less than or equal to,
+load phase angle 6. Hence show that for a less than
+, the output voltage of ac regulator cannot be regulated.
+(b) A single phase full-wave ac regulator has a resistive
+load of 5 Q while the input voltage is 220 V, 50 Hz.
+If the required load power be 7.5 kW, find the fire
+angle of the thyristors. What is the rms output
+voltage ? Find also the input factor.
+power
+(c) Dicuss with neat circuit diagram and relevant waveforms
+of single single phase
+the working phase to bridge type
+cycloconverter with R-L load.
+TEE603/RFW-21211 3 {Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+5. Solve any two parts of the following : (10x2=20)
+(a) Discuss with circuit diagram the working of three
+neat
+phase bridge inverter for 180° conduction of a thyristor
+with three phase balanced star connected resistive load.
+Also state its merits and demerits.
+(b) Describe with neat circuit diagram and relevant
+waveforms basic single phase resonant inverter. Also
+derive the expressions for capacitor voltage under
+different modes of operation.
+(c) What is pulse width modulation ? How this technique
+control the output voltage of the inverters ?
+single full bridge has value
+A phase inverter rms
+of fundamental component of output voltage, with single-
+pulse modulation, equal to 110 V. Compute the pulse
+width required and the value of output voltage in
+rms
+case de source voltage is 220 V.
+4 5275

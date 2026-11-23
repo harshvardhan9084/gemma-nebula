@@ -1,0 +1,60 @@
+Printed Pages: 4 EPL-032/EME-032
+(Following Paper ID and Roll No. to be filled in your
+Answer Book)
+Paper ID
+(SEM. VID THEORY EXAMINATION, 2015-16
+PROJECT MANAGEMENT
+100]
+[Time:3 hours] [MaximumMarks:
+Section-A
+parts.
+1. Attempt all All parts carry equal marks. Write
+answer of each part in short. (10x2=20)
+(a) Define the term ‘Project’.
+(b) What is feasibility study? Name the different
+stages.
+(c) What is earnest money deposit (EMD)?
+(d) How functional organization works?
+(e) Name the different components. of cost in an
+industrial project.
+What
+(f) are various aspects of technical appraisal?
+(g) What do you understand by dangling?
+(h) Write Fulkerson’s rule for numbering.
+16400 (1) P.T.O
+(i) Draw a CPM network diagram for the following 6. What is organization structure? How organization
+project. is being slected?
+structure
+7. What is meant by ‘Project appraisal”? Discuss.
+of project
+Activit Preceding Activity |Duration (Week What are the essential requirements
+management software? List some of packages availabe.
+9. Discuss precedence diagramming method with example.
+Section-C
+Attempt any two questions from this section: (2 15=30)
+10. i)  Forthetable given draw the network diagram. Find
+out critical path and also find out project duration.
+[Activity | Normal |__| Cost Slope|
+(j) Discuss the complexity of project scheduling with |_| Time (C) (a)| Time (d) | Cost (b) | (b-a(c-d) |
+limited resources. | | Weeks | | Weeks | |
+Section-B | 1-2 | 3 {| 300 | 2 | 400 | |
+Attempt any five parts from this section: | 23 | 3 | 30 | 3 | 30 | o |
+| 2-4 | 7 | 420 | 5 | 80 |
+2. Explain taxonomy of projects. | 2-5 | 9 | 720 | 7 | | 45 |
+3. Explain the different from which projects | 3-5 | 5s | 250 | 4 | 300 | 50 |
+sources new [as fo [ o | o | 0 |
+can be formed? | 5-6 | 6 | 320 | 4 | 410 | 45 |
+4. What are techniques of effective project control?
+| 67 | 4 | 400 | 3 | 470 | 70 |
+How do the ideas of the ‘seamless enterprise’ differ from | 6-8 | 13 | 780 | 10 | 900 |
+those functional and matrix management? | 7-8 | 10 | 1000} 9 | 1200 | 200 __ |
+16400 (2) EPL-032/EME-032 16400 (3) PT.O.
+ii) Ifthe indirect cost per week is Rs.50, then crash
+the project for minimum time duration at minimum
+cost.
+11. Discuss atypical tender document, keeping the interest
+mind.
+of the firm issuing the tender in
+12. What are techniques of effective project control?
+Discuss in detail.
+16400 (4) EPL-032/EME-032

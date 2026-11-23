@@ -1,0 +1,82 @@
+aktuonline.com aktuonline.com
+Printed Pages—3 IT—602
+(Following Paper ID and Roll No. be filled in Answer Book)
+to your
+PAPER ID : 1041
+B.Tech.
+SIXTH SEMESTER EXAMINATION, 2005-2006
+ERP SYSTEM
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt ALL questions.
+(ii) All questions equal marks.
+S carry
+(iti) In case of numerical problems assume data wherever
+not provided.
+ol (iv) Be
+—~J precise in your answer.
+1. Attempt any four parts of the following : (5x4=20)
+(a) What is ERP ? What are the advantages of ERP ?
+(b) Why are ERP system said to be flexible ? What
+are the reasons for the growth of ERP market ?
+(c) What is BPR ? How does BPR differ from other
+management techniques ?
+(d) What is a data warehouse ? Why do companies
+need it ?
+(e) is the need of automated and computerized
+data mining tools ?
+(f) Explain the terms :
+(i) OLAP
+(ii) SCM
+IT—602 1 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+2. Attempt any four parts of the following : (5x4=20)
+(a) ,What factors be considered when selecting
+ERP package are to ?
+an
+(b) Write a short note on the following :
+(i) | Assemble-to-order
+(ii) | Engineer-to-order
+(iii) Configure-to-order
+(c) Can ERP software package fit the business needs
+of organizations well ?
+(d) What is the difference between MRP/MRP-II,
+ERP and Extended ERP ?
+(e) Name manufacturers. seme of the ERP products and their
+employees decrease Will the after workload the of ERP the
+implementation ?
+(f) | Whatare the different modules of ERP? Describe
+any one.
+3. Attempt any two parts of the following : (10x2=20)
+(a) Why is it not a good idea to implement the ERP
+integrated system using data an model inhouse team ? What is an
+?
+(b) Is ERP implementation costly ? Will there be an
+increase in productivity after ERP
+implementation ? Will ERP systems eliminate
+clerical jobs ? If yes, what should those employees
+do?
+(c) What are the different approaches of ERP
+implementation ? Who are ERP vendors and ERP
+consultants ?
+IT —602 2
+aktuonliné.comAttempt of the following
+any two parts
+(a) Explain the different phases of ERP
+implementation.
+(b) Why are ERP vendors trying faster
+implementation methodologies explanations of
+data movement ?
+(c) What is the impact of internet on ERP products ?
+What is convergence ?
+5. Attempt two of the following (10x2=20)
+any parts :
+(a) ERP products often result in negative return on
+investment for five or more years. Critically
+comment on this statement ?
+(b) ERP is the backbone of E-business. Justify this
+statement ?
+(c) Explain the cross functional approach of ERP
+systems.
+-o0O0-
+aktuonline.com

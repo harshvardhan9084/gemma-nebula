@@ -1,0 +1,77 @@
+uptuonline.com uptuonline.com
+Printed Pages : 4 (e) Explain the outdoor models given below
+:
+EECS801 Gi) Durkin’s Model
+(i) Okumura Model.
+(Following Paper ID and Roll No, to be filled in your Answer Book)
+PAPER ID 131801
+: 2 Attempt any four parts : 5x4=20
+(a) Draw the block diagram of survey of
+equalization and explain it.
+B. Tech. (b) Derive the impulse response model of multipath
+channel.
+(SEM. VIII) THEORY EXAMINATION, 2014-15 (c) What is the basic mechanism of vocoder and
+WIRELESS & MOBILE COMMUNICATION
+explain any two types of vocoders.
+(d) Explain the different type of equalization
+Time : 3 Hours] {Total Marks : 100 techniques used in wireless communication
+Note : Attempt all questions. with support of mathematics and block
+1 Attempt four parts 5x4=20 diagram.
+Explain any the Evolution : of mobile radio (e) Explain the different of diversity
+(a) term type
+ye communication fundamentals. ye techniques used in wireless communication
+(b) A transmitter has a power output of 150 watt system.
+at carrier frequency of 32.5 MHz. It is
+a with of dBi.
+connected to an antenna gain 12 3 Attempt any two parts 10x2=20
+The receiving antenna is 10 km away and has (a) What are the different methods used for
+gain of 5 dBi. Calculate the power delivered improving and capacity in cellular
+to the receiver, assuming free space coverage
+also that there system ? Describe all the method in detail with
+propagation. Assume are no support of figures.
+losses or mismatches in the system. (b) Define frequency And explain
+(c) Define the Brewster angle. Calculate the reuse concept.
+Brewster angle for a sine wave imping on the the different type of channel assignment
+strategies and hand-off strategies in
+ground having a permittivity of er =4. communication
+(d) Explain the term multipath measurement system.
+using relevant diagram.
+131801] 2 [ Contd...
+131801] i { Contd...
+uptuonline.com uptuonline.com
+(c) Given cellular system with total bandwidth 5 Attempt any two parts 10x2=20
+of 30 MHz a a (a) Why Next Generation :
+which uses two 25 kHz simplex Networks are
+channels to provide full duplex voice channels important ? Explain the Next Generation
+and control channels. Assuming that system Network in detail.
+uses a nine cell reuse pattern and i MHz of (b) Explain Mobile Adhoc Network in wireless
+the total bandwidth is allocated for control communication and discuss
+applications, any two
+channel :
+@) Calculate the total available channel (c) Write the short note on following :
+Gi) Determine the number of control channels @) Wireless standard IMT 2000
+Gii) Determine the number of voice channels @) RAKE receiver.
+per cells.
+(iv) Discuss the strategies for distribution of
+control and voice channels in each cell.
+4 Attempt
+any two parts of the 10x2=20
+following :
+(a) Describe the Forward CDMA channel and
+reverse CDMA channel using proper block
+diagram. ye
+(b) Explain the GSM architecture and frame
+structure in mobile radio communiction using
+system in detail.
+(c) A FDD cellular communication system
+total of uses a
+945 radio channels available for
+handling traffic. The total area of entire system
+is 2450 sqkm with the 7 sqkm as the area of
+a cell :
+@) Calculate the if the
+system capacity
+cluster size is 7.
+Calculate the system capacity if the
+cluster size is 4.
+131801] 3 { Contd... 131801] 4 [14450]

@@ -1,0 +1,119 @@
+aktuonling,com cpm
+3 Pages—4
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+| | | | | [
+B.Tech.
+SIXTH SEMESTER EXAMINATION, 2005-2006
+FUNDAMENTALS OF POWER ELECTRONICS
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt ALL questions.
+(ii) All questions carry equal marks.
+(iti) In case of numerical problems assume data
+wherever not provided.
+(iv) Be precise in your answer.
+1. Attempt any four parts of the following : (5x4=20)
+(a) State and explain desirable characteristics of
+power electronic controllable devices.
+di
+- (b) Explain dv/dt and ratings of thyristor and
+discuss their significance.
+(c) 20 thyristors, each of 500V, 500A ratings are used
+in a power circuit to supply a load at 1.6 kV and
+2.25 kA. Four and thyristors parallel are connected in used. series
+in Calculate a string the 5 voltage and strings are derating
+factors. percent current
+EE—607 1 [Turn Over
+aktuonline.com (d) Draw and explain off
+thyristor and hence turn define and explain off
+time of thyristors. turn
+(e) Draw symbol, control characteristics and static
+V-I characteristics of Triac. Compare it with SCR.
+(f) A transistor is supplying a resistive load.
+V, power and I, are the off-state voltage and on-state
+current respectively and T is the switching time.
+Assuming negligible on-state voltage drop and
+on-state leakage current, show that the switching —\
+energy loss during transistor switch on is given
+|~s Io
+by
+6
+2. Attempt any two parts of the following : (10x2=20)
+(a) With the help of circuit connection, load voltage
+and current waveforms and source current
+waveform, explain the operation of single phase
+half wave thyristor converter with resistive load.
+(b) What will be the average and rms values of
+current, load voltage average power across the
+load for the circuit shown in Fig. 1 when the
+vm" 7
+thyristor is fired at an angle in every positive
+half cycle of ac voltage. ~
+TH
+230 V, R=1002
+50 Hz
+Fig. 1
+EE—607 2
+aktuonline.com
+aktuonline.com(c)
+Draw and explain employing the simple series class
+commutation. inverter circuit Draw and discuss important A type
+waveforms. Also state the limitations of this series
+inverter.
+(d) Load voltage in a single phase, 10 1 resistive
+circuit is controlled by a symmetrical phase angle
+triggering of inverse parallel connected thyristors.
+a The supply voltage is v =170 Sin (314 t) and firing
+delay angle is 90°. Calculate the rms value of load
+voltage and current and input power factor.
+3. Attempt any two parts of the following : (10x2=20)
+(a) Give performance comparison of pulse with
+modulated inverters (PWMI), Adjustable voltage
+source inverters (VSI) and current source inverters
+(CSI).
+(b) Explain principle of operation of a three phase
+bridge forms inverter. for 120° Draw mode phase of operation. and line voltage
+wave
+(c) Asingle phase full bridge inverter is used control
+“— in resistance load and is supplied to from
+220V power de a A uniform pulse width a
+modulation source. with 5 pulses per half cycle is used
+and width of each pulse 30°.
+Determine : (i) the rms voltage of the load and
+(ii) the pulse width to maintain the same load
+power if the input dc voltage source increases by
+10%.
+EE— 607 3 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+4. Attempt any two parts of the following : (10x2=20)
+(a) Explain and compare step - up and step - down
+chopper circuits and also mention their
+applications. Also obtain expression for average
+load voltage for both the chopper circuits.
+(b) A step down chopper is supplying a back emf
+load and - is operating in continuous current
+conduction mode with rectangular load voltage
+waveform. Explain the chopper operation and
+obtain expressions for minimum and maximum
+instantaneous values of load current. State
+assumptions made, if any.
+(c) Explain and compare forced commutation
+methods used with thyristorised choppers.
+5. Attempt any two parts of the following : (10x2=20)
+(a) Compare and distinguish between phase
+controlled and chopper controlled de drives.
+(b) small separately excited dc supplied
+A via half controlled single phase motor bridge is rectifier.
+The a input supply is 1d, 240 V, 50 Hz and the
+thyristors are triggerred at 110°. Armature
+current continues for 50° beyond the voltage zero.
+Determine the motor speed at a torque of 1.8 Nm.
+The motor torque constant is 1.0 Nm/A and its
+armature resistance is 69: Neglect converter
+losses.
+(c) Briefly describe VSI and CSI fed induction
+drives and them. motor
+compare
+-o0O0-
+EE— 607 4
+aktuonline.com

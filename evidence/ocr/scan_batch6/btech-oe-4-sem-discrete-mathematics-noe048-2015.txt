@@ -1,0 +1,102 @@
+www.aktuonline.com
+Printed Pages : 4
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 199438
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+DISCRETE MATHEMATICS
+Time 3 Hours] [Total Marks 100
+: :
+Note Attempt all questions. Each question carries equal
+: marks.
+four of the following
+1 Attempt any parts : 4x5=20
+(a) Ina survey of 80 people, it was observed that
+40 people read Hindustan Times, 45 people read
+Times of India and 15 read both newspapers.
+Find the number of people who read at least one
+of the newspapers. Also find the number of
+people who read no newspaper at all.
+a
+(b) Let Z be set of all integers. Then show that
+R={(a, b):aeZ,beZ,(a—b) is an even
+integer} is an equivalence relation.
+(c) Let f,g:R—R denote the functions defined
+g(x)=x"
+by f(x) =2x+3, for every
+Then show that ( fog )(x) # (gof )(x).
+199438]
+1 [ Contd...
+www.aktuonline.com
+(d) Show that the set Z of all integers is countable.
+(ec) What is Venn Diagram ? Use Venn Diagram to
+show that (4 UBY =A°
+(f) Define partial order relation. Is the relation < (less
+than) a partial order on the set of positive integers.
+2 Attempt any two parts of the following : 2x10=20
+(a) Construct a truth table for the statement
+(paq)v~r.
+Using truth table show that negation of the
+negation of a statement is equal to the statement.
+(b) Give the inverse and contra-positive of
+the implications. converse,
+(i) If today is Sunday, then Yesterday
+Saturday. was
+(i) If it is cold, then take coffee.
+I
+(c) Test the validity of the following argument. If I
+study, then I will not fail in maths. If I do not
+play basketball, then I will study, but I failed in
+Maths, therefore I must have played basketball.
+3 Attempt any four parts of the following : 4x5=20
+how the letters in the word
+(a) In many ways can
+MATHEMATICS be arranged ?
+(b) Inhow many ways can we constitute a committee
+of three teachers and two students from a group
+of five distinct teachers and eight students ?
+(c) Find explicit formula for the relation
+an recurrence
+a4,=1
+199438] 2 [ Contd...
+www.aktuonline.com
+(d) Solve the recurrence relation
+d, =2d,
+with initial conditions d, =1-5 and d,=3.
+(e) Find the generating function of the numeric function
+a, =5-2",
+(f) Let c=a*b, where
+2”.
+b,=4",
+Determine the generating function c(z).
+4 Attempt any four parts of the following : 4x5=20
+(a) Let Q* be the set of all positive rational numbers
+and * a binary operation on Q* defined by
+a*b= ab Determine the identity element and
+>
+inverse : of +
+(b) How many generators are there of the cyclic
+group of order 10 ?
+(c) Find the inverse of the permutation
+123 4 5
+23 15 4
+199438] 3 [ Contd...
+www.aktuonline.com
+(d) IfH and K are subgroups of group G, then show
+that is also a subgroup of G.
+(ec) Let R be a ring such that R, prove
+that R is commutative.
+(f) Prove that every field is a ring.
+5 Attempt two parts of the following 2x10=20
+any :
+(a) Define and explain the following with suitable
+example.
+(i)  Bipartite graph and complete bipartite graph.
+(it) Hamiltonian path and circuit
+(i) Chromatic number of a graph and graph
+colouring.
+(b) Write a binary search algorithm and trace it to
+search element 91 in the following list :
+13, 30, 62, 73, 81, 88, 91.
+(c) Convert the following Mealy to Moore machine
+199438] 4 [ 2200 ]

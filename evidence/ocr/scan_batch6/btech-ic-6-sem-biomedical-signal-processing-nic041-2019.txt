@@ -1,0 +1,56 @@
+Printed Pages:2 Sub Code:NIC041
+Paper Id: 131304 Roll No.
+B.TECH
+(SEM VI) THEORY EXAMINATION 2018-19
+BIOMEDICAL SIGNAL PROCESSING
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION-A
+1. Attempt all of the following questions: 2x10=20
+Define action potential and resting potential.
+(a)
+(b) What is the role of digital computers in biomedical application?
+(c) Explain the difficulties in the acquisition of biomedical signals.
+(d) Why EEG is more difficult to recognize than ECG?
+(e) What is matched filtering??
+(f) What are the different types of biomedical signals?
+(g) Discuss discrete wavelet series and discrete wavelet transform.
+www.aktuonline.com (h) What are the different patterns of brain wave?
+(i) What is the need of data reduction in biomedical signal processing?
+(j) What do you mean by sleep EEG?
+SECTION-B
+2. Attempt any three of the following questions: 10x3=30
+(a) With neat block diagram, explain the objectives of biomedical signal analysis.
+a
+(b) Explain briefly the QRS detection algorithm.
+(c) Discuss about the Periodogram and Moving average method of EEG analysis.
+(d) What is adaptive wavelet detection? Explain the detection of overlapping wavelets.
+(e) Mention the characteristics of noise and signal in signal averaging technique. Explain with
+block diagram the typical signal averager. Draw the flow chart of a program for averaging an
+ECG signal.
+SECTION C
+—
+3. Attempt any one of following questions: 1x10=10
+(a) Describe the basics of Electromyography and Electro-retinography.
+(b) Explain briefly how action potentials are generated and propagated in a human body?
+4. Attempt any one of following questions: 1x10=10
+(a) Explain the removal of baseline wander and power line interference from ECG.
+(b) Explain briefly about portable arrhythmia monitor with sketch.
+a neat
+http://www.aktuonline.com
+Printed Pages:2 Sub Code:NIC041
+5. Attempt any one of following questions: 1x10=10
+(a) Explain AZTEC algorithm and Fan algorithm used for the ECG data reduction.
+(b) Classify the different data reduction techniques. Explain the turning point algorithm used for
+the ECG data reduction.
+6. Attempt any one of following questions: 1x10=10
+(a) Describe transition, detection and estimation of Epilepsy in detail.
+(b) With suitable figures describe the AR modeling of seizure EEG. Explain the steps involved in
+sleep stage analysis.
+of following questions: 1x10=10
+7. Attempt any one
+(a) What are the advantages of adaptive filters? Design an adaptive filter using LMS algorithm.
+(b) What are the different elements of digital filter? Mention the advantages of digital filters over
+analog filters.
+www.aktuonline.com
+http://www.aktuonline.com

@@ -1,0 +1,88 @@
+Printed Pages: 4 http://www.uptuonline.com NIC 501
+-
+(Following Paper ID and Roll No. to be filled in your
+Answer Books)
+Paper ID:
+B.TECH.
+Regular Theory Examination (Odd Sem-V) 2016-17
+CONTROL SYSTEMS - I
+Time : 3 Hours Max. Marks: 100
+Section -A
+Write
+1. Attempt all parts. All parts carry equal marks.
+answer of each part in short. (10x2=20)
+a) Distinguish between open loop and closed loop
+control system.
+b) Write the analogous electrical elements in force
+voltage analogy for the elements of mechanical
+translational system.
+response
+c) Derive the step of a first order system.
+d) Why negative feedback is invariably preferred in
+closed loop system?
+signal
+e) Whatare the basic properties of flow graph?
+f) | Whatisa polar plot?
+g) What do you understand by type and order of a
+system?
+h) | What is servomechanism?
+501/12/2016/6700
+[P.T.O.
+http:/Awww.uptuonline.com
+http://www.uptuonline.com
+NIC - 501 NIC 501
+i) State angle and magnitude criteria in root locus. -
+Determine the system gain K, so that the system
+Define state, State Variable State Space State Vector. will have a damping ratio of 0.5. For this value of K,
+Section - B find the rise time, peak time, settling time and peak
+overshoot.
+Attempt any five parts from this section. (5x10=50)
+a) Determine the transfer function C(s)/R(s) for the d) i) Explain the correlation between Transfer
+block diagram shown in figure given below by using function and state space equations.
+Block Diagram Reduction Method.
+ii) Derive the transfer function for Armature
+controlled DC Servo motor.
+e) Obtain the time response of the following system:
+X,| fl ox, 1
+= +] lu
+X,| (1
+where u(t) is unit occurring
+a step at t = 0 and
+9
+b) i) response of second order system for
+Construct the state model for a system characterized critically damped case and when input is unit
+by differential equation:- step.
+FY 3 2 ii) Derive the expressions
+poy au for Rise time, Peak
+dt dt dt time, and peak overshoot.
+Give block diagram and signal flow graph g) The open loop transfer function of a system is
+representation of the state model. Determine the
+c) A unity feedback control is characterized values of ‘k’ & ‘b’ that system will oscillate
+by system frequency of 2rad/sec so by using criteria. at
+an open-loop transfer function R-H
+Gay h) What is the role of sensors and encoders in control
+= system? Explain the construction and principle of
+potentiometer.
+501/12/2016/6700 (2)
+http:/Awww.uptuonline.com 501/12/2016/6700 (3) [P.T.O.
+Section - C
+Note: Attempt any two questions from this section.
+(2x15=30)
+3. Sketch the root loci for the open loop transfer function
+given below (The gain K is assumed to be positive) and
+determine is stable
+whether a system or not:
+k
+OS) = ye? a5 4 13)
+4. Sketch the bode plot of the system given by:
+k
+G (s)H(s) H = +0.6s +10) and determine 1 the
+stability of the system.
+5. State Nyquist stability criterion. Investigate the stability
+of aclosed loop with open loop transfer function
+system
+given by:
+K(s+3
+G(s)H(s) (s)H(s)
+by using Nyquist plot. Also find the value of Gain margin.
+4)

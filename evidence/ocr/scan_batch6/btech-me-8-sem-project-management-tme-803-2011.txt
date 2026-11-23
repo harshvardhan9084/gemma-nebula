@@ -1,0 +1,67 @@
+(c) Briefly describe the following Printed Pages—4 TME803
+used
+(i) Time estimates in PERT network
+(i) Fulkerson's Rule (Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0482
+@ii) PERT and CPM
+(iv) Updating the network. B. Tech.
+(SEM. VIII) THEORY EXAMINATION 2010-11
+PROJECT MANAGEMENT
+5. Attempt any two of the following ( 10x2=20)
+“With :
+(a) the information given below, construct a network, Time : 3 Hours Total Marks 100
+establish critical path. If the number of available is Note: :
+men (1): Attempt all questions.
+not to exceed 3, what is the project duration time and week (2) All questions carry equal marks.
+to week allocation of the manpower ? (3) Be your answer.
+1. Attempt following:
+any four of the . . (5*4=20)
+(a) Describe various stages of a project cycle.
+(b) What is project formulation
+? Discuss main elements of
+bb ble project formulation.
+eras (c) What do you mean by project identification ? Explain
+reviving a sick unit can be a good opportunity launch
+(b) What do you by computerized project ( project. to a
+mean management consider
+system ? Explain the features of PRISM. (d) Discuss the factors you would like to in selection
+(c) Write short notes on: of a food processing industry.
+‘(e) Proj ect management is process.
+(i) _ Use of spread sheets for financial projections. highlighting various a conversion Discuss
+the constraints and mechanisms.
+(ii) Role of computers in project management. (f) Explain the importance of organizing human resources ina
+project.
+TMES03/RFW-20865 4 7350 1 [Turn Over
+2. Attempt any four of the following : 4. Attempt any two of the following:
+optimum - (10x2=20)
+(a) Project organization structure shows the authority, (a) cost schedule to the following problem,
+responsibility and accountability of the various positions as if indirect cost associated is Rs.450.00/day.
+well relationships of the various departments. Briefly Crash time Cost of
+as crashing
+discuss. (Rs./day)
+(b) Discuss functional organization giving their advantages and ~
+(c) Discuss pure matrix organization and show that its
+can be overcome by modified matrix
+organization. <i
+(d) Discuss work breakdown with suitable example. (b) Aproject has these activities, precedence and
+structure activity duration in days
+(e) What do you mean by a tender ? What are contained in a Activity Immediate predecessor activities Duration
+tender document ? 3
+a
+(f) Discuss the procedure of payments made to the contractor. b - 9
+c - 7
+d a 12
+Attempt any two of the following : (10x2=20)
+e a,b 10
+(a) What do you mean by project risk ? List some important f c ll
+project risks. How Break even analysis technique helps in g d 10
+analyzing the project risk ? h e,f 7
+What i
+(b) do you mean by SWOT analysis ? How it helps in gh 14
+. project appraisal ? j 15
+. k fj 9
+(c) Explain the objectives of social cost/benefit analysis.
+Explain the basic steps in the operation of social cost/benefit Construct a CPM Network for the project; find the critical
+analysis. path and compute total float, free float and independent
+a float for each activity.
+TME803/RFW-20865 2 TMES803/RFW-20865 3 [Turn Over

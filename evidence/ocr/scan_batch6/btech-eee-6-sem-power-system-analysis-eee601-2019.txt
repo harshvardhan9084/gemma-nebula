@@ -1,0 +1,91 @@
+EEE601/NEE601
+Printed Pages: 03 Sub Code: EEE601/NEE601
+Paper Id: 120225 Roll No.
+B TECH
+(SEM VI) THEORY EXAMINATION 2018-19
+POWER SYSTEM ANALYSIS
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+Attempt all questions in brief. 2 x10 =20
+What do you mean by phase sequence?
+Draw the single line diagram of a power system showing its voltage level.
+What do you mean by symmetrical faults?
+What do you mean by short circuit capacity of a bus in a network?
+Explain Load bus and generator bus in a power system network for load flow studies.
+What What do you factors mean affecting by acceleration transient factors? and steady Why it is stability? used?
+What are do by transient limit? state
+What do you mean by the velocity of travelling waves?
+What is the you effect mean of cable surge?
+on
+SECTION B
+www.aktuonline.com of following: 10x 3 =30
+Attempt any three the
+a wa Draw a per unit reactance diagram for the three phase system shown in figure. Choose
+20MVA and 66 KV as base values.
+b wm Develop equivalent network showing the interconnection of networks
+simulate an double line to ground fault. sequence to
+Explain the a computational procedure for the load flow solution using Gauss Seidel
+Cc method, when the system contains all three buses.
+d wa Explain the equal criterion and how it be used to study the stability of two
+machine system. area may a
+Derive the equation for two wire transmission line.
+e wave a
+SECTION C
+Attempt any one part of the following: 10x1=10
+(a) of unbalanced line currents ina three phase four wire system is as follows
+-j6 A, Ib = (-84j5) A and Ic=7 A.
+Determine the positive, negative and zero sequence components of the current.
+(b) Determine the sequence impedance of a transmission line and then draw the
+sequence networks of transmission line.
+Page 1 of 3
+http://www.aktuonline.com
+EEE601/NEE601
+4. Attempt any one part of the following: 10x1=10
+(a) Three 60 MVA ac generator, each having 15% reactance are connected via
+three 36 MVA reactors each of 10% reactance to a common bus bar. The
+feeders are each connected o the junction of each alternator and its reactor.
+(b) What must the be the minimum network rating for the of each feeder shown circuit in figure. breaker? determine the fault
+Draw when sequence (a) and (b) system fault point The unit
+current all referred LLG the base LL occurs follows. at F. per
+reactances to same are as Xi(p.u.)
+Xo (p.u.) X2(p.u.)
+Generator Gl 0.05 0.3 0.2
+Generator G2 0.03 0.25 0.15
+Line 1 0.70 0.3 0.3
+Line 2 0.70 0.3 0.3
+Transformer T1 0.12 0.12 0.12
+Transformer T2 0.1 0.1 0.1
+Both the generator are generating |p.u voltage.
+if
+www.aktuonline.com te
+I,
+Attempt any one part of the following: 10x1=10
+(a) Compare the performance of Gauss Seidel and Newton Raphson methods for
+load flow solution. Explain the method of formation of Y bus.
+(b) Determine Y bus for the 3 bus system shown in figure. The line series
+impedance is follows.
+Line (Bus to as bus) Impedance (p.u.)
+1-2 0.06
+1-3 0.03+ j0.09
+2-3 0.08 j0.24
+Each line has shunt admittance of —j5.0. +
+a
+Page 2 of 3
+http://www.aktuonline.com
+EEE601/NEE601
+6. Attempt any one part of the following: 10x1=10
+(a) A generator supplies a large power system via a dual circuit line. With one
+circuit in service and maximum power transfer is 150 MW. Find approximate
+magnitude of the minimum angle between terminal voltage phasors occurring
+after switching in one circuit while 50 MW is being delivered by the other.
+(b) Derive the swing equation for the synchronous machine and draw the swing
+curve.
+Attempt any one part of the following: 10x1=10
+(a) Derive the relation between the reflection factor for voltage and
+junction of two dissimilar lines. current at a
+(b) Explain what is by the impedance of transmission line and derive
+its value in terms meant of the line constants. surge a
+www.aktuonline.com
+Page 3 of 3
+http://www.aktuonline.com

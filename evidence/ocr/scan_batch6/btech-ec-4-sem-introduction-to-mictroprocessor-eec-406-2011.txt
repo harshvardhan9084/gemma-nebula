@@ -1,0 +1,71 @@
+Write the program show that each light repeat in a fixed Printed Pages—4 EEC406
+given below
+. sequence as :
+Light On time
+GREEN seconds
+YELLOW 05 seconds B. Tech.
+RED _20 seconds (SEM. IV ) THEORY EXAMINATION 2010-11
+between INTRODUCTION
+(b) What are basic difference 8253 and 8254 timer/ TO MICROPROCESSOR
+counters ? Setup the 8254 as square wave generator with Time 3 Hours Total Marks
+1 period, if the input frequency to 8254 is 1 MHz. _ : : 100
+a ms Note : (i) Questions.
+(c) 8259 can be interconnected in cascaded mode? (ii) All questions equal marks.
+Show their cascading structure. carry
+(ii) Make and state appropriate assumptions where
+necessary.
+1. Attempt any four parts of the following : (4x5=20)
+(a) Explain the evolution of microprocessors in brief.
+essentially
+(b) What building blocks are required for any
+microprocessor ?
+(c) What are the advantages of
+an assembly language in
+comparison with high level languages ?
+(d) What determines whether a microprocessor is considered
+as 8-bit, 16-bit 32 bit device ? What
+a a or a are the
+advantages of using a CPU register for temporary data
+storage over using mentory locations ?
+Howdoesa microprocessor differentiate signal between
+address and data a
+? Explain.
+(f) How instruction cycle, machine cycle and clock cycle are
+related ? Explain them with proper sketches.
+EEC406/RFW-21387 ~ 4
+EEC406/RFW-21387 1 [Turn Over
+2. Attempt any four parts of the following : (4x5=20) (b) Draw and discuss the write cycle timing diagram of 8086
+_ in maximum mode.
+(a) Explain the need to demultiplex the bus AD,-AD, with
+neat diagram. (c) Explain the interrupt response sequence of 8086 ? How do
+(b) Describe the various addressing modes of 8085. you set or clear the interrupt flag IF ? What is its important
+in interrupt of
+(c) Give the format of flag register of 8085. Explain each flag. sequence 8086 ?
+(d) Draw and explain the time diagram for execution of
+the
+instruction MVI A, 32H. Attempt any two parts of following : (2x10=20)
+Why the (PC) and stack pointer (SP) (a) Write an assembly language program based on 8085 to
+(e) are program counter sort 10 numbers from memory location 2500 H in the
+16 bits registers ? If the PC is always one count ahead of
+the memory location from which the machine code is being ascending order.
+fetched, how does the microprocessor change the sequence (b) Write an assembly language program based on 8085 to
+count from 0 to 9 with second delay between each
+of program execution with a jump instruction ? a one
+(f) Identify the register contents and flag status as the following count. At the count of 9, the counter should reset itself to 0
+instructions executed and repeat the sequence continuously. Use register pair
+are : -HL to set up the delay and display each count at of the
+A Z CY one
+LXIH, 2070H © output ports. Assume the clock frequency of microprocessor
+IMHz.
+MVIM, 64H (c) Write an assembly language program based on 8086 to
+8FH find the number odd
+MVI A, out of even and number from a series
+CMP M of six 16-bit hexadecimal numbers.
+two parts
+3. Attempt any two parts of the following : (2x10=20) Attempt any of the following : (2x10=20)
+Draw the internal architecture of 8086 and discuss each (a) An8255 PPIis attached to 8085 with port A address 04H.
+(a) Three traffic lights RED, YELLOW and GREEN
+block of its architecture. are
+connected to port C pins PC,, PC, and PC, respectively.
+a
+EEC406/RFW-21387 2 EEC406/RFW-21387 3 [Turn Over

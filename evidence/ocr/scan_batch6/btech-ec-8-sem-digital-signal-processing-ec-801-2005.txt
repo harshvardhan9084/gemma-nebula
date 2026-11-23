@@ -1,0 +1,109 @@
+Printed
+Pages —04 EC —801
+(Following Paper ID and Roll No. to be filled in Answer Book)
+your
+PAPER ID: 3048
+B.Tech.
+EXAMINATION,
+EIGHTH SEMESTER 2004-2005
+DIGITAL SIGNAL PROCESSING
+oN
+~ Time : 3 Hours Total Marks : 100
+Note: (i) | Answer all the FIVE questions.
+(ii) In of numerical problems data wherever
+not case provided. assume
+Oo 1. Attempt any four of the following :
+(a) the advantages of Digital Signal Processing
+po over Analog Signal Processing ?
+= (b) What the role of Analog-to-digital
+Digital is Signal Processing System ? converter in a
+(c) Consider the analogy signal
+xa(t) = 2000 mt + 5 sin 6000 mt + 10 cos 12,000 rt
+a= What is the discrete-time signal obtained after
+sampling the above continuous signal using a
+~ sampling rate f(,)=5000. Samples/second.
+(d) The accumulator described by y (n)= x,
+is excited by the sequence x(n) Determine
+its output when accumulator is initially relaxed.
+EC—801 1 [Turn Over
+(e) What do you understand by a causal recursive
+system ? Give the general input-output equation for
+this type of system. How it is different from a causal
+non-recursive system ?
+(f) |Whatis an “Inverse System” ? Determine the inverse
+of the system with impulse response
+n
+1 wee.
+2
+2. Attempt any four of the following : 5x4=20
+(a) State and explain the Paley-Wiener Theorem.
+(b) Comment on the characteristics of the practical
+frequency selective filters.
+(c) What do you understand by symmetric FIR filters ?
+(d) What do understand by “Rectangular Window” ?
+Why it is you necessary to use windows in the design of
+FIR filters ?
+(e) What do you understand by effect of finite-Register
+length in the FIR filter design ? Explain how this
+efect affects the filter performance ?
+(f) What is the effect of coefficient quantization on the
+(i) | Phase characteristic and
+(ii) Magnitude characteristic of the linear phase
+FIR filters ? Show that high order filter should
+be reducid to cascade a realization to minimize
+the effect of a quantization errors in the
+coefficients.
+EC—801 2
+3. Attempt two of the following 10x2=20
+any :
+(a) Explain the method of frequency transformation to
+design an IIR filter. What type of frequency selective
+filter are designed using this method ?
+(b) Explain the bilinear transformation method to design
+an IIR filter from an analog prototype. Show that
+bilinear transformation maps the left-half s-plane
+inside the unit circle and maps the -axis in a one-
+to-one manner onto the unit circle.
+Define the Chekyshev filters in terms of the
+chekyshev polynomials. Give the recursive formula
+to generate the Chekyshev formula. Explain the
+difference between type I and type II Chekyshev
+filters.
+4. Attempt any two of the following : 10x2=20
+(a) What do understand by “decimation factor”
+and “interpolation you factor” in sampling-rate
+conversion, used in the field of multirate digital signal
+processing ?
+(b) Differentiate among following nonparametric
+methods of power spectrum estimation.
+(i) |The Barlett Method
+(ii) | The Welch Method
+(iii) The Blackman and Tukey method
+(c) Briefly describe the following methods for the AR
+model parameters :
+(i) The Yule-Walker Method, and
+(ii) The Burg Method
+EC—801 3 [Turn Over
+5. Answer any two of the following : 10x2=20
+(a) Why DSP hardware/algorithms are becoming
+popular in speech and radar signal processing ?
+Explain how DSP hardware/algorithm can improve
+speech processing.
+(b) the working of following
+Briefly of digital explain signal used in radar subsystems
+a generators a system.
+(i) | Memory and recursive generator
+Memory for table lookup ~
+(ii)
+(iii) D/A converter (DAC)
+(iv) Analog filter
+(v) Mixer
+How DSP can be applied in this digital signal
+generator ?
+(c) (i) What is a “Chirp Signal” ? and why it is called
+so?
+(ii) What are clutter signals and how these can be
+alleviated ?
+~
+~
+EC— 801

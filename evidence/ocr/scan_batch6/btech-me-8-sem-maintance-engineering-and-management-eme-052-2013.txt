@@ -1,0 +1,67 @@
+—
+Printed Pages—3 ; EME652
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 2985
+:
+B.Tech.
+(SEM. VII) EVEN THEORY EXAMINATION 2012-13
+MAINTENANCE ENGINEERING AND
+MANAGEMENT
+Time : 3 Hours Total Marks : 100
+Note :-(1) Attempt all questions.
+(2) Be precise in your answers.
+Attempt any four parts of the following : (5*4=20)
+(a) What is maintenance ? What its benefits ?
+are
+(b) Write a short note on operating life cycle with suitable
+example.
+(c) What is maintainability ? Discuss the principle of
+(d) An aircraft has four independent, active and identical |
+engines. least of the enginés
+successfully At two must operate
+for the aircraft to fly successfully. The constant
+failure rate of each engine is 0.009 failures/h. Compute the
+reliability of the aircraft for a seven-hour flying mission.
+(e) Explain reliability bath tub curve with suitable example.
+(f) following terms :
+(i) MTBF
+@)
+Gil) MTTR.
+EME052/DPC-47948
+1 [Turn Over
+)
+2. Attempt any four parts of the following : (5x4=20) 4. Attempt any two parts of the following : (10x2=20)
+policy from Method (HAM) find
+(a) Explain, how preventive maintenance differs (a) Explain the Hungarian Assignment to
+repair policy. out optimal solution to an assignment problem.
+(b) What is predictive ? Discuss its various (b) In factory the machines breakdown on an average rate of
+techniques. 10 machines per hour. The idle time cost of machine is
+estimated be Rs. 20 hour. The factory works for
+Oo Explain planned lubrication. Discuss various methods for to per
+planned lubrication. -8 hours a day. The factory manager is considering
+carrying out 2 mechanics for repairing the machine. The mechanic A
+@ What do you understand by ‘Total Productive takes 5 min. to repair a machine and demands Rs. 10 per
+What implementation hour. The second mechanic B takes 4 min. in repairing the
+? are the basic steps machine and demands Rs. 15 per hour. Which of the two
+to achieve it ? mechanics will be preferred ?
+©)
+(c) Elaborate the following :
+© What is designed out maintenance ? Explain. (ij) Hungarian Assignment Method
+Attempt any two parts of the following : (10x2=20) ~ (ii) PERT and its relevance in network analysis.
+5. Attempt four parts of the following : (5x4=20)
+(a) Explain replacement policy for equipment which any
+deteriorates gradually considering time value of money. (a) What are the objectives and function of maintenance
+and management ?
+The cost of a machine is Rs. 6,100 scrap value is. (b) How the cost analysis of maintenance department
+Rs. 100. The maintenance cost found from experience is ? a
+as follows : is carried out
+() Explain. objective criteria of evolution of maintenance
+Year 3.4 5 6 7 8. management.
+' Maintenance
+Write short note on maintenance policies
+cost 250 400 600 900 1200 1600 2000. (e) Discuss the importance of manpower planning in
+(Rs.) 100 maintenance.
+When should the machine be replaced ?
+non-repairable items. (f) Discuss the method and importance of spare parts planning
+(c) Explain group replacement policy for in maintenance.
+EME052/DPC-47948 2 EME052/DPC-47948 3 4950

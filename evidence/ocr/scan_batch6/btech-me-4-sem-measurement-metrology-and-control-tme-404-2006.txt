@@ -1,0 +1,105 @@
+aktuonline.com aktuonline.com
+Printed Pages—4 TME — 404
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+B.Tech.
+FOURTH SEMESTER EXAMINATION, 2005-2006
+MEASUREMENT, METROLOGY AND CONTROL
+Time 3 Hours Total Marks 100
+: :
+|
+Note: (i) Answer ALL questions.
+(ti) All questions carry equal marks.
+(iii) In case of numerical problems assume data
+wherever not provided.
+(iv) Be precise in your answer.
+1. Attempt any four parts of the following : (5x4=20)
+(a) How does active transducer differ from passive
+transducer. Give the suitable example of each
+type of transducer.
+(b) Explain the following terms
+sensitivity :
+_ (i) Zero drift and drift.
+(ii) Precision and Accuracy.
+(c) Discuss the dynamic performance characteristics
+of first order instrument in case of step input.
+(d) Define measurand. true value and indicated value of for a
+propagation of Derive a general expression
+errors.
+TME—404 1 {Turn Over
+—aktuonline.com
+aktuonlinggomDiscuss teaktuonline.com
+the primary, secondary and
+measurement system.
+(f) | Write short note on recording devices.
+2. Attempt any four parts of the following : (5x4=20)
+(a) Describe the resistance characteristics of
+thermistor.
+(b) Describe the basic of the
+instrument. concept seismic
+(c) What are strain rosettes, discuss. +
+(d) Distinguish between the principle of operation of
+Hydraulic and Pneumatic load cells. Sketch a
+typical pneumatic load cell.
+(e) Explain with the help of suitable sketches the
+difference between the Bourdon tube and
+Diaphragm gauge used for _ pressure
+measurement.
+(f) | Describe the working principle of linear variable
+differential transformer. Mention its advantages
+and limitations.
+3. Attempt four parts of the following (5x4=20)
+any :
+(a) Discuss the characteristics of live and end
+standards.
+(b) Explain the following terms with suitable >)
+sketches :
+(i) Clearance (ii) Interference
+(c) For what purpose, slip gauge is used ? Discuss
+the different grades of slip gauges.
+(d) State the working principle of Mechanical and
+Optical comparator.
+TME — 404 2
+aktuonline.com
+aktuonline.cofa) Desakiiuonline.com
+For the construction what purpose, of limit limit gauge plug is used ?
+gauge.
+(f) State the uses of :
+(i) | Universal surface gauge
+(ii) | Combination set
+(iii)
+Wire gauge
+(iv) Radius gauge
+(v) Feeler gauge
+4. Attempt any two parts of the following : (10x2=20)
+(a) What is meant by ‘Lay’ ? Enumerate the various
+- types of lay and give the symbol of each. Define
+the following terms related to the surface texture
+assessment :
+(i) Roughness width (ii)
+(iii) Profile (iv) Flaws
+(v) Sampling length.
+(b) Describe the construction and working principle
+of optical flat. Mention the precautions taken in
+using the optical flat.
+(c) List the uses of Toolmaker’s microscope. Sketch
+the Toolmaker’s microscope and write the
+function of its various parts.
+5. Attempt any two parts of the following (10x2=20)
+:
+(a) Distinguish between open loop and closed loop
+control the examples system. of each Illustrate of your control answer by giving Point
+out the advantages of type closed loop control system.
+over open loop control system. system
+TME— 404 3 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+Draw the schematics of a hydraulic control system
+and describe the functions of its various
+components in brief. In what way the constant
+flow arrangement differ from the constant
+pressure arrangement.
+(c) Write short note an any one :
+(i) Transfer function.
+(ii) | Pneumatic controller.
+-o0Oo-
+aktuonline.com

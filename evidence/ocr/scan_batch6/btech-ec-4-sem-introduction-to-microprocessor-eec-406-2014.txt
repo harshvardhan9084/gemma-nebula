@@ -1,0 +1,77 @@
+Printed Pages—4 EEC406
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID:
+B.Tech.
+(SEM. IV) THEORY EXAMINATION 2013-14
+INTRODUCTION TO MICROPROCESSOR
+|
+Time : 3 Hours Total Marks : 100
+Note :— Attempt all questions.
+1. Attempt any four parts of the following : (4x5=20)
+(a) What is a Microprocessor ? Differentiate between
+Microprocessor and Microcontroller.
+(b) ‘Explain the evolution of microprocessors.
+(c) Explain bus structure of the microprocessor.
+(d) Explain data transfer schemes of microprocessor.
+(e) Explain the address
+explain the changes memory in the address range if of 1k hardware memory and
+CS line is modified. The total available the address lines of the for
+the addressing 16.
+(f) are in
+How does the microprocessor work ? Explain (4x5=20) detail.
+2. Attempt any four parts of the following :
+(a) Explain the pin configuration of 8085 MPU with neat
+diagram.
+(b) Explain the Arithmetic Logical Unit (ALU) .
+and register
+array of 8085 microprocessor.
+(c) Specify the register contents and flag status as the following
+instructions are executed :
+EEC406/DQJ-21547 1 [Turn Over
+initial A B S§ Z CY
+(e) given Explain below the action performed by each of the instructions
+MOV B,A contents XX XX X X xX :
+DCR B of register SBBaX, [5678H]
+INR B SBB (3598H], di
+SUI 10H SBB [658EH], [bx]
+HLT SBB dx, si
+Give the example of Loop and String instruction of
+(d) Write an instruction to display the content of accumlator to ( microprocessor and its addressing mode. 8086
+3500 H memory location. Draw the timing diagram as the
+instruction is executed. 4. Attempt any two parts of the following : (2x10=20)
+(a) Write down the assembly language program for the
+(e) Explain the operation of each instruction with example : subtraction of two 16 bit numbers in 8085 MPU.
+(i) POP (b) In the following explain the of bytes
+will displayed at best program, 2. range that
+(ii) DAA
+(iii) DAD MVIA, bytel
+(iv) SBI MOV B, A
+SUI 50 H
+(v) RET
+(f) Write an 8085 assembly language for, JC DELETE
+multiplication program the MOV A,B
+of two 8 bit numbers. SUI 80 H
+Attempt any four parts of the following : (4x5=20)
+(a) Explain the interrupts of 8086 MPU ? JC GO
+DELETE: XRAA
+(b) Define the addressing modes of 8086 microprocessor.
+Explain each addressing mode with example. OUT
+HLT
+(c) Define the segmentation and pipelines in 8086 GO: MOV A,B
+microprocessor.
+(d) Draw the timing OUT Port2
+diagram of read machine cycle in maximum HLT
+mode.
+EEC406/DQJ-21547 2
+EEC406/DQJ-21547 3 [Turn Over
+(c) Write down a program for BCD to seven segment code
+conversion in 8086 microprocessor.
+5. Attempt any two parts of the following : (2x10=20)
+(a) Describe 8255 (PPI) architecture ? Explain: its different
+modes ?
+(b) Describe the organization and modes of operations of 8237
+DMA controller.
+(c) Explain 8259 (programmable interrupt controller) in detail ? 4
+Explain the different priority modes 8259 (PIC) ?
+on
+EEC406/DQJ-21547 4 11000

@@ -1,0 +1,61 @@
+Printed Pages—3 EOE041
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 199407
+B.Tech.
+(SEM. IV) THEORY EXAMINATION 2013-14
+INTRODUCTION TO SOFT COMPUTING (NEURAL
+NETWORKS, FUZZY LOGIC & GENETIC ALGORITH)
+Time : 3 Hours _ Total Marks : 100
+Attempt
+Note: (1) all questions.
+(2) Make suitable assumptions wherever necessary.
+1. Attempt any four parts of the following : (5x4=20)
+(a) Define an artificial neural network. State the properties of
+the processing element of an artificial neural network.
+(b) Compare and contrast biological neuron and artificial
+neuron.
+(c) What is meant by learning ? How is supervised learning
+different from unsupervised learning ?
+(d) Construct a recurrent network with four input nodes, three
+hidden nodes and four output nodes that has lateral inhibition
+structure in the output layer.
+(e) What is the necessity of activation function ? List the
+commonly used
+activation functions.
+(f) What is hetero-associative memory network ? Explain.
+EQE041/DQJ-21928 1 [Turn Over
+2. Attempt any four parts of the following : (5x4=20) (c) Write short notes on the following :
+‘(a) Discuss the different features of single layer perception. (i) Fuzzy relations
+(b) Howhidden layer computation is done in back propagation
+learning ? Explain. (ii) Fuzzy to crisp conversion.
+(c) Write down the advantages and disadvantages of back 4. Attempt any two parts of the following : (10x2=20)
+propagation networks.
+(d) What is the significance of error signal in perceptron (a) of values of variables X and Y be X = {x,, X,, X,}
+network ? Explain. and Y = {y,, y,}, respectively. Assume that a proposition
+(e) State the importance "if X is a, then Y is B" is given, where
+of back propagation algorithm. A= .5/x, + I/x, + .6/x, and B= 1/y, .4/y,.
+(f) Discuss some application areas of back propagation + Then, given a
+networks. fact expressed by the proposition "x is A' ", where
+A'=.6/x,+ 91x, + .7/x,, use the generalized modus ponens
+3. Attempt any two parts of the following : (10x2=20) to derive a conclusion in the form "Y is B".
+(a) Define fuzzy sets. Explain why the law of contradiction membership
+and the law of exclusive middle violated in fuzzy (b) Define the function and state its importance
+theory are set in fuzzy logic. Also discuss the features of membership —
+under the standard fuzzy sets operations. What is functions.
+the significance of this ?
+(b) The task is to recognize English alphabetical characters (c) Define the defuzzification. What are the different methods
+(FE, X, Y, I, T) in image processing Two fuzzy of defuzzification process ? Discuss one method in detail.
+an system.
+sets I and F are defined to represent the identification of Write short notes on any four of the following : (5x4=20)
+characters I and F. (a) Procedures of GA.
+0.4), (E, 0.3), (X, 0.1), CY, 0.1), (1, 0.9), (T, 0.8)}
+(b) Genetic representations.
+F = 0.99), (E, 0.8), (X, 0.1), (Y, 0.2), (I, 0.5), (T, 0.5)} (c) Mutation and Mutation
+Find the following : rate
+(d) Convergence of genetic algorithm.
+.IUF
+(ii) (1- F) (e) Applications of GA.
+(ii) FUF
+(iv) Verify de Morgan's Law.
+EOE041/DQJ-21928
+2 E E041/DQJ-21928 3 8600

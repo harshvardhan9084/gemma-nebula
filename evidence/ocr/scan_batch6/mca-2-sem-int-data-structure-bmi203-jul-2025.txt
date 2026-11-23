@@ -1,0 +1,85 @@
+Printed 2
+Subject Code: Page: BM[203 1 of
+Zan i L LEI |
+paper id: 252172 Roll No: | |
+_
+MCAINT
+(SEM II) THEORY DATA STRUCTURE EXAMINATION 2024-25
+TIME: 3 HRS __M.MARKS: 70
+Attempt all Scctions. In of missing data: choose suitably
+Note: case any
+SECTION A
+1. Attempt a// questions in brief. 02x7=14
+a Question at [Level | |
+la
+| | Define. stack and mention its applications. yt
+b. Write a postfix expression for the infix expression (A: ( Kl
+4 Write advanta c of using a linked list over an array. H t-
+_
+2. SECTION B
+Attempt any three of the following:
+SSS Level
+| no. ti . ah
+Da Define data data structures. | Explain the « classification ¢ of data structures with K2
+| examples. operations _ “of “using
+| | b. | | Explain the circular queue Enqueue(30), arrays. Simulate the operations: _
+|.on | Enqueue(10), circular Enqueue(20), Dequeuc(), Dequeue(); 2 !
+Construct a a binary queue. search tree using: : 60, 20, 80, “10, 30, 70, Show ino: 37
+analysis
+Explain the the complexity of quick sort and merge sort. Which one is T 4
+better for large data and why? |
+What is hashing in the context of file organization? E xplain prit primary and
+secondary has hashing with examples. a
+3. Attempt SECTION C
+any one part of the following: 07x 1=07
+| evel]
+ne, j i
+explain ‘recursion. Describe Tower of Hanoi problem | using : recursion. Solve 1
+_the Convert Tower the of infix Hanoi for 3 disks and trace D) the postfix, moves. | 1 | K2 |
+b A=2, expression: (A + B) * lo and evaluate it Poy Po) |
+| ka
+4. Attempt part of the following:
+Question any one 07.1=07
+Level *]
+no. Write and program to create | |
+a. insertion algorithm and at middle, a singly linked | list and K2
+Construct expression tree the beginning, for the postfix and end. § 3+82-* 4/a1 and |
+! evaluate the an result: expression
+https://www.aktuonline.com
+Paper id: 252172
+Roll No:
+MCAINT
+(SEM II) THEORY EXAMINATION 2024-25
+DATA STRUCTURE
+TIME: 3 HRS __ M.M ARKS:
+79
+5. Attempt any one part of the following:
+07x1=97
+Create rebalancing an AVL tree by inserting the values: 10, 20, 30, 40, 50. Show the
+at each stcp.
+| Define binary
+tree. Explain different types of binary trees and their
+Propcttics,
+6 Attempt
+any one part of the following:
+Question
+What
+is a heap? How is it used fin in heap hean sort? an Explain mun-heap and heap. -
+max-
+Sort the following « me
+3.9, 8, S, 2, 7, array 1, 6] using Quick Almay:
+What is its best, worst, and average
+acm
+Question
+Rep resent the graph with vertices A, By BD,
+and edges A-B, A-C,
+© Adjacency Adjacency matrix
+© list
+Explain Strategies depth-first using search and breadih-first search, thelr
+suitable cxample. https://www.aktuonline.com
+mam ie
+an
+a
+2|Page
+OOF)
+https://www.aktuonline.com

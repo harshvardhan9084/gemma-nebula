@@ -1,0 +1,53 @@
+Printed Pages : 3 /
+08
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 121752
+B. Tech.
+(SEM. VII) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+TELEMETRY AND DATA TRANSMISSION
+Time : 3 Hours] [Total Marks : 100
+1 - Attempt any FOUR parts : 5x4=20
+(a) What is sampling theorem? List the important
+components of telemetry system.
+a
+(b) Define Aliasing. How can you overcome it?
+(c) Describe different types of formats. Explain
+Frame format.
+(d) Write short notes on PLL.
+(e) Give the block diagram of aerospace telemetry
+system.
+(f) Comment on Multiplexing techniques in Tele
+control.
+121752] 1 [ Contd...
+2 Attempt TWO 10x2=20 any. TWO
+any parts : 5 Attempt parts : 10x2=20
+(a) Compare low level and high level multiplexing (a) Explain the functioning of Data reception
+techniques for data handling systems. systems.
+(b) With a neat block diagram compare FSK, PSK (b) Comment in detail about DM code converters.
+and d Q QPSK.
+(c) Explain the for installation of telecontrol (c) Write short notes on:
+steps (i) sampling theorem
+systems.
+( ( (ii) sampling process
+3 Attempt any TWO parts : 10x2=20 -
+Gii) convolution
+(a) List the different types of interfaces. Compare
+RS423 with RS232C interface.
+(b) (i) Give basic block diagram of telemetry
+system and explain each component
+(ii) What are the different types of telemetry
+? Explain.
+system
+(c) Mention the different command systems.
+Explain any two command systems.
+4 Attempt any TWO parts : 10x2=20
+on:
+(a) Write short notes
+(i) Frame synchronizer codes ( (
+(ii) R. F. links
+(b) Explain in detail about Programmable
+controllers for factory automation.
+(c) State error detection and error correction.
+Explain error detection code with an example.
+121752] 2 Contd... 121752] $025

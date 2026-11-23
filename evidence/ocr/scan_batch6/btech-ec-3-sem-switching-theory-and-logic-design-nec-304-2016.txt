@@ -1,0 +1,63 @@
+uptuonline.com
+Printed Pages: 5 NEC-304 5
+(Following the required no. of flip . flops : in a MOD,
+Paper ID and Roll No. to be filled in your (g) What are Counter, MOD- 16 ¢
+Answer Book) 16 Asynchronous Counter. MOD-16
+Paper LD TT [| |] Counter, MOD-16 Ring
+Rol No[ | J 7 74 Johnson Counter?
+B.Tech. Multiplexer.
+(h) Design a Half Adder using
+(SEM. 111) THEORY EXAMINATION, 2015-16 (i) Convert the decimal number 32.75 in Octal,
+Gray.
+SWITCHING THEORY & LOGIC DESIGN Binary, Hexadecimal,
+Draw Master Flip-Flop.
+[Time:3 hours} [Total Marks: 100] (j) Slave
+Section-B
+Section-A questions from this section. (10«5=50)
+1. Attempt all parts. All parts carry equal marks. Write Attempt any five
+of each in short. a4-bit magnitude using bit
+answer part (10«2=20) 2. Design comparator one
+(a) Write the difference between Decoder and comparator modules.
+Demultiplexer. 3. Prepare hamming Code for the message
+Also explain detection and
+(b) Perform the subtraction using 2’s complement 46- assuming even parity. error
+23 correction capabilities at the receiver by assumping an
+(c) Realize an EX-OR gate using NAND only. error in any of the received bits.
+gates decoder and external gates, design the
+(d) How many address lines and data I/O lines are Using a
+required for a 16K X 12 memory? combinational circuit defined by the following three
+(e) Simplify the following Boolean efpression boolean functions:
+to a x"yz’+xz
+minimum number of literals:
++2 + xy + wz F, xy’z'+x'y
++xy
+(f) Differentiate between Asynchronous and F, =
+Synchronous Sequential Circuits. uptuonline.com
+9600 (1) 9600 (2) NEC-304
+using PLA.
+Design a 3-bit binary to Gray Code converter and State Diagram the
+Draw register 9. Derive the State Table fo,
+and explain 4-bit Univers sequential Circuit shown in figure 2:
+How these
+Describe the hazards in digital Circuits. are
+removed?
+What do you understand by state reduction? Reduce the
+following state diagram
+Section-C
+Attempt any two questions from this section.
+10. Minimize the following using Quine McCluskey method:
+F (2,9,15)
+Il. (a) Design a 3-bit Asynchronous UP-Down Counter
+using
+(b) Design a Full Adder Half Adders
+using two
+P.T.O. 9600
+(3) (4) NEC-304
+12 Desing the clocked sequential circuit for the following
+diagram Flip-Flops
+state using JK
+8
+i “4
+Figure 3
+uptuonline.com
+9600 (5)

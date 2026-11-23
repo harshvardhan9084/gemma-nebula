@@ -1,0 +1,152 @@
+Printed Pages—6 TME—402
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 408 0
+B.Tech.
+FOURTH SEMESTER EXAMINATION, 2005-2006
+KINEMATICS OF MACHINES
+Time 3 Hours Total Marks 100
+a : :
+(i) Attempt ALL questions.
+001418
+(ii) All questions carry equal marks.
+(tii) In case of numerical problems assume data wherever
+not provided.
+(iv) Be precise in answer.
+your
+1. Attempt any four parts of the following : (5x4=20)
+(a) Distinguish between complete, incomplete and
+successfully constraint relative motion between
+two elements links.
+or
+(b) What is the difference between the single slider
+crank chain and double slider crank chain ?
+Discuss three important inversions of single slider
+crank chain and state the purpose for which they
+are used.
+(c) Distinguish between a kinematic chain, a
+mechanism and a machine. What are the most
+commonly used kinematic chains consisting of
+lower pairs ?
+TME — 402 1 {Turn Over
+(d) Derive an equation for the degree of freedom of a
+mechanism. Prove that the mechanisms shown
+in figure 1 is a constrained kinematic chain.
+(a) (b)
+Figure 1
+(e) Determine all the centros of the slider crank
+mechanism shown in figure 2 and find the angular
+velocity of connecting rod and the velocity of
+piston. Angular speed of link OA is w, rad/sec.
+(clockwise).
+TME 402 2
+—
+(f) | Determine the linear velocity of the slider D shown
+in the mechanism (figure 3). The slider moves
+along the horizontal path and OC is vertical.
+OA AB=44 =28 mm mm
+BD BC=49 =46 mm
+mm
+Figure 3
+2. Attempt any four parts of the following : (5x4=20)
+(a) Determine the velocity and acceleration of point
+bar mechanism shown in figure 4. Assume
+that link OA rotates with uniform angular velocity
+of 10 rad/sec counter clockwise as seen by the
+observer with uniform angular velocity.
+B OA=15 cm
+AB=20cm
+& OC=22 BC=18 cm
+cm
+Cc
+402 3
+(b) Assume suitable space diagram of crank and ofa
+and slotted draw lever the type velocity quick and return acceleration motion mechanism diagram. awn
+Also indicate various velocity and acceleration
+components of links in the velocity and
+acceleration polygons.
+(c) Explain Klein’s construction for the calculation
+of acceleration of various links in 4 bar mechanism
+for any given configuration.
+(d) Name different mechanism which gives
+approximate straight line motions. Describe
+working of them with neat sketch.
+(e) Describe the working of Hooke’s joint with neat
+sketch. Also prove that, a
+«tan
+Where « =angle of inclination of the driven shaft
+with driving shaft and ¢ and 6 are angles turned
+by driven and driving shafts at any instant.
+(f) | What do understand by coriolis acceleration ?
+Prove that you this component of acceleration is equal
+to 28w. How do you decide the direction of this
+acceleration ?
+3. Attempt any two parts of the following : (10x2=20)
+(a) What kinematic synthesis ? What the
+different is phases of kinematic synthesis are in the
+solution of given problem ? How do find
+out precision a points spacing ? you
+TME — 402 4 [Turn Over
+ithesize four-bar mechanism
+action =sin a for 0sx<90°. The to generate of the a
+atput crank y may x be chosen as 60° while range that of
+nput crank be 120°. Assume three precision
+points obtained from cheybystev spacing. Assume
+fixed link to be 50 mm long and and
+, =60°. Where 6; and are the angle made by
+input link and output link at j' position.
+Synthesize a slider crank mechanism with an
+eccentricity of 9 mm for the two input positions
+of input link 8,,=60° and output displacement
+of slider is 16 mm.
+Attempt any two parts of the following : (10x2=20)
+(a) Sketch and describe the different types of followers
+which are used with radial or disc cams. Discuss
+the advantages and disadvantages of each type.
+(b) Draw profile of a cam operating an oscillating
+roller follower from the following data.
+Diameter of roller =4 cm
+Distance =10 of follower fulcrum from cam centre
+Length cm of follower from of fulcrum
+=8 to roller centre. arm centre
+Distance cm of roller centre from centre 6
+at the begining of ascent. cam = cm
+Angle moved by cam during ascent of = 60°
+follower.
+Angle moved by cam during which follower
+remains stationary in the highest position = 45°.
+Angle moved by cam during descent = 90° of
+follower
+Angle of oscillation . of follower arm during ascent
+or descent =15°.
+Ascent and descent both take place with SHM.
+TME — 402 5 [Turn Over
+(c) Derive the expression for the displacement,
+velocity and flat-faced acceleration follower for a circular arc cam
+operating a :
+(i) | When the contact is on the circular flank
+and
+(ii) | When the contact is on the circular nose
+5. Attempt any two parts of the following : (10x2=20)
+(a) State and the law of gearing and show how
+the involute prove teeth profile satisfies the condition.
+Derive an expression for the velocity of sliding
+between a pair of involute teeth.
+(b) Two mating involute of 20° angle
+have ratio of 2. gears The number pressure of teeth
+pinion a is gear 20 and speed is 250 Take module on
+as 12 mm. rpm.
+If the addendum each wheel is such that the
+path of approach and on path of each side
+half of the maximum possible recess length on each.
+Find are :
+(i) | Addendum for pinion and
+gear
+(ii) Length of arc of contact
+(iii) Maximum velocity of sliding during
+approach and recess.
+(c) What are the limitations in design of gear trains ?
+Discuss different types of gear trains. What are
+the advantages of epicyclic gear trains over the
+trains with fixed axes position ?
+TME 402 6
+—

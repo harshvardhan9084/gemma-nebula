@@ -1,0 +1,80 @@
+www.aktuonline.com
+Printed Pages : 4
+FECO12
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 131652
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+DATA STRUCTURE
+Time : 2 Hours] [Total Marks : 50
+Note (1) Attempt all questions.
+: (2) All questions equal marks.
+carry
+Attempt
+1 any two parts : 5x2=10
+(a) Explain the time and space trade-off of algorithm
+with an example. What do you understand by the
+efficiency of an algorithm?
+(b) The preorder and inorder traversal of binary
+tree is given below, construct the tree
+preorder AB F CODE BF ADCE
+: inorder:
+(c) Draw a graph with five vertices each of
+degree 4.
+Define the terms :
+(i) Complete graph
+(it) Leaf and non-leaf nodes
+(it) matrix.
+131652] 1 [ Contd...
+www.aktuonline.com
+2 Attempt 5x2=10
+any two parts :
+(a) What the various tree traversal techniques?
+are
+Write the recursive C function/algorithm for any
+two traversal techniques.
+(b) Define Digraph. Draw the weighted directed
+graph which is represented by the adjacency
+matrix below.
+(c) Construct AVL with the following keys:
+an tree
+35, 36, 80, 85, 67, 89, 25, 16, 10, 14, 14.
+3 Attempt any two parts : 5x2=10
+(a) Sort the following numbers using HEAP SORT
+the given
+on array
+A=<9, 17, 4, 26, 3, 12, 22, 8, 15>
+131652] 2 [ Contd...
+www.aktuonline.com
+(b) For the given tree, find the following :
+(i) Name the ancestors of node J
+(i) | Name the descendants of node C
+(ii) Height of the entire
+tree
+(iv) Inorder of the tree
+(v) Make tree for algebraic expression
+a*b/(ct+d)*e+f-g/ht+x-k
+(c) Define minimum spanning Differentiate
+between Prim's algorithm cost and Kruskal's tree. Algorithm.
+4 Attempt any two parts : 5x2=10
+(a) Write an algorithm/C function for sorting a set of
+integers using quick sort. What is its best case
+complexity?
+(b) Construct the BST for following insertion in order:
+13,25,16,78,56,67,45,44,22, 13,50,20, 18,7,90.
+Show the
+steps.
+(c) Write short notes on any two :
+(i) Expression Trees.
+(i) Trees.
+(ii) Activity Network.
+131652] 3 [ Contd...
+www.aktuonline.com
+5 Attempt any two parts : 5x2=10
+(a) Compare the advantages and disadvantages of
+using array and linked list.
+(b) Define a queue. How does it differ from a stack?
+Write two applications of a queue.
+(c) Write the steps of Warshall's Shortest path
+algorithm.
+131652] 4 [ 1650 ]

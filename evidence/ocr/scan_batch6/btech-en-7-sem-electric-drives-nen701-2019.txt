@@ -1,0 +1,73 @@
+http://www.aktuonline.com
+Printed Pages: 02 Subject Code:NEN701
+BTECH
+(SEM THEORY EXAMINATION 2618-19
+ELECTRIC DRIVES
+Time: 3 Hours : Tota!
+Notes; Asstune any Missing Data.
+SECTION-A
+1. Attempt all parts of the following, (10*2=20)
+{a) What is meant by the nature of Joad torque?
+(b) What are the disadvantages of de drives?
+(c) Classify various mechanical loads on the basis of their torque-speed characteristics.
+(d) Explain why the characteristics of a de serifs are suitable for traction applications?
+of - MMM
+(e) What are the advantages and disadvantages electrical braking?
+48) Whar are the problems faced m of wrong is Chosen? ye
+(g) On what factors does rate ofrist
+the of temperature depend?
+(b) Why the thyristor contro} is preferred over Ward Leonard system af speed control?
+(i) Suggest suitable for textile and pa mill drive applications:
+motors rotating per
+(j) Why the cooling time constant of a machine is larger than its heating
+time constant? .
+SECTION -B
+2. Attempt any three parts of the (3*10=30)
+Draw the block diagram of an electric the function of Power modulator in detail.
+Givedome apptications with
+(b) State the advantages of drive suitable drive system,
+(7) Explain the squatization in
+Ulustrate the Dynamics of motor toad system. | give comparison between DC and AC Drive.
+(d) ot tecttic drive
+As) Elucidate the multi-quadnunt system.
+http://www.aktuonline.com
+http://www.aktuonline.com
+SECTION -C
+Note: - All questions are compolsory. (5*10=50)
+3. Attempt of the follawing:
+any one parts
+(a) Describe in desail the various components of load
+(4) A 6-pole, 3-phase wound rotor indostion motor has flywhee} coupled to its shaft. The total
+moment of incttis of motor -flywluct is 1000kg-m? of 10sec duration followed by + ne
+load period which is long enough for the drive to reach its no load specd. Motor has 2 stip of 3%
+at torque of Calculate (J) torque developed by the motor (il) spe ed at the
+end of declaration period. Assume mutor torque curve tw be straight line in the operating
+range.
+4. Attempt any onc parts of the following:
+(a)
+Explain chopper controlled DC motor drive.
+(b) A J-phase, 3.3kV, SOHz, power factor ,4 pole, star connected synchronous ()
+motor bas follawing parameters: R-O, Rated field current is 1A. Calculate
+and power factor at half the rated and rated field current (ii) Field current
+to get unity power factor at the rated torque.
+$. Attempt any one parts of the fullowing: ‘
+(a) A 220 volts, 1500 rpm, 10 Amps dc motor has an armature resistance MMM
+of 10 £2, It is fed from a single phase bridge rectifice with an ac
+voltage af 230 volts, at SO Hz. dontinuous load current, compute ye
+£ The motor spccd at firing and torque of $ NM
+ff. Developed torque at the firjng of 45 degrees and speed of 1000 REM>
+(b) Explain the various methods can be applied to induction mo@y‘And also state
+what kind of braking is more effective, justify, it
+# 6. Attempt any one parts of the following:
+(c) Explain how the Static Scherbius drive is used in slip power scheme.
+(4) in detail about speed convo! of seff controlled motor drives.
+Atiempt
+7. any one parts of the following:
+(a) Elucidate the operation of Brushless de motor i dewail.
+volts, 875 150 A separately DC has resistance of
+(b) A 200 rpm, motor an armature
+0.06 It is fed from a single phase conuolled rectificr with an ac source of 220
+Volts, SOHz. Assuming continuoug OY and Conduction calculate
+_L Firing angle for rated motor t 750 rpm
+fi. Motor speed for a =160 and rated torque
+http://www.aktuonline.com

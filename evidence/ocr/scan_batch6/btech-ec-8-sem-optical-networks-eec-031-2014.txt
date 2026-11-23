@@ -1,0 +1,59 @@
+aktuonline.com aktuonline.com
+‘Printed
+Pages—3 EECO031 (b) Explain in brief the various types of switches used in Optical
+(Following Paper ID and Roll No. to be filled in your Answer Book Networks on the basis of response to incoming signals.
+(c) With relevant figure discuss the working and principle of
+PAPER ID : 131851
+operation of Isolator.
+B.Tech. (d) Give account of the various architectures used for
+an
+(SEM. THEORY EXAMINATION 2013-14 building Large Optical Switches.
+OPTICAL NETWORKS Explain principle of operation and working of Fiber Grating.
+aktuonline.com (e) aktuonline.com
+Time 3 Hours Total Marks 100 Mention its two applications.
+: :
+Note :—(1) Attemptall questions. (f) Write short notes on :
+question (i) Spectral efficiency
+(2) Each carries equal marks.
+(3) Assume data wherever missing. (ii) Crosstalk
+1. Attempt any four of the following : (5*4=20) Attempt any two of the following : (10x2=20)
+(a) short Timing and Synchronization in Optical (a) Discuss Voice Over IP method of implementation in Optical
+note on
+ye Networks. uptuonline.com ye Communication System. uptuonline.com
+(b) Explain various Non-linear effects in Optical Fiber. Network performs the Multiplexing
+(b) Which WDM element
+(c) Explain Layered Hierarchy of the Optical Layer. and Demultiplexing operation in Optical Networks ? Explain
+_ it with the help of diagram.
+(d) Howis Multiplexing done in Optical Networks ? a
+(e) Discuss in brief any three Nonlinear effects present in (c) What is Multiplexing inreference to SONET/SDH ? Give
+diagram.
+optical fiber. a brief account of SONET/SDH Layers with
+(f) Discuss wavelength standards used in optical networks. Attempt any two of the following : (10x2=20)
+Relate Wavelength, Frequencies, and Channel Spacing. (a) Write a short note on cast trade off in WDM network.
+Attempt four of the following (5x4=20) Give of routing and wavelength assignment
+any : an account
+(a) How directional couplers are realized using optical fiber. problem in optical networks.
+Calculate its coupling coefficient.
+21 1 [Turn Over
+for solution visit a2zsubjects.com solution a visit a2zsubjects.com F
+or
+aktuonline.com
+(b) Identify different
+possible strategies for implementation
+of an access network and outline the functional blocks
+for an optical fiber access network to provide FTTC
+and FTTH.
+(c) Explain the different of protection
+types mechanisms
+used for point to points links. Compare Self Healing
+Rings and Unidirectional Path-Switched Rings.
+5. Attempt any two of the following : (10x2=20) aktuonline.com
+(a) What is photonic packet switched network. Discuss its
+salient features.
+(b) Write notes on :
+(i) OTDM
+Gi) Burst switching.
+(c) Discuss in detail, the deployment considerations for
+ye SONET/SDH core network. uptuonline.com
+EEC031/DOJ-21566 3 6975
+for solution visit a2zsubjects.com

@@ -1,0 +1,102 @@
+aktuonline.com aktuonline.com
+A
+Printed Pages : 4 KE-507
+(Following Paper ID and Roll No. to be filled In Answer Book)
+PAPER ID 2008 Roll No. your
+:
+B. Tech.
+(SEM. V) EXAMINATION, 2007-08
+AUTOMATIC CONTROL SYSTEM
+Time : 3 Hours] [Total Marks : 106
+Note : Attempt all the questions.
+1 Attempt any four parts of the following : 5x4 = 20
+(a) Discuss the effects of feedback on performance
+of control system.
+(b) Determine the unit input of
+aunity feedback response control to a having step forward
+system
+path transfer function . 10
+as
+(c) Describe the rules of block diagram algebra. Obtain
+Cc of the block diagram shown in Fig. 1
+( s)
+a
+Fig. 1
+VK-2008] 1 {Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+(d) What are the test signals for transient response
+analysis of control systems ? Give their Laplace
+transform.
+(e) Draw the block diagram of the circuit shown in Fig. 2
+R\ R No
+an a
+Fig. 2
+(f) Describe the various performance criterion for
+time domain analysis of control systems.
+2 Answer any four parts of the following : 5x4 = 20
+(a) The following transfer function the
+foreword path of position control represents
+Draw polar plot a system.
+:
+(b) Sketch the asymptotic gain plot (Bode plot) for
+the following transfer function :
+G(s)=
+(s+ 10)
+(c) State the rules for sketching gain and phase
+plots. What information is obtained from these
+plots ?
+Som [Contd...
+2
+aktuonline.com aktuonline.com
+(d) What are open-loop and closed-loop frequency
+domain specifications ?
+(e) Explain the importance of M and N circles.
+(f) What are static and dynamic error coefficients ?
+3. of the following 10x2 20
+any two parts : =
+(a) Sketch the root loci for the system shown in
+Fig. 3. The gain K is assumed to the positive :
+Fig. 3.
+(b) (i) Explain the term conditional stability.
+(ii) Consider the characteristic equation
+D(s)=s° + s* + +38" +68+4
+Comment the stability by R-H criterion.
+on
+(c) Determine the stability of the system. Use Nyquist
+criterion :
+G(s) 10
+s(s+1)(s+4)
+VK-2008] 3 [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+4 Attempt any two parts of the following : 10x2=20
+(a) Describe any one standard method of compensation.
+(b) Obtain the transfer function and frequency
+response of a lead network.
+(c) Design a network for the system
+Ga
+G(s)= ) the specifications are :
+(i) Steady state error should be less than 0.1 for
+velocity input.
+(ii) Phase margin should be greater than 49°.
+Attempt any two parts of the following : 10x2 = 20
+(a) (@ Define state transition matrix and controllability.
+(ii) Obtain the solution of the state equation
+wu
+given x(0)=[0 1] and wis a unit step input.
+(b) Obtain the transfer function of the following
+system :
+0 1 0 0
+x=|0 0 y=[1 0 O]x
+-2 -3 -4 1
+(ii) Describe the various canonical forms of state_
+space representative.
+(e) Consider the system
+0 4 1 0
+Show that the system is
+unstable. By using feedback, it is desired have
+state to
+closed loop poles at —1.8 + j2.4 and at -1.8 — j2.4.
+Determine the state feedback gain matrix.
+4 [ 275 J

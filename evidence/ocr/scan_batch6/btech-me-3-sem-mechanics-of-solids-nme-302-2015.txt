@@ -1,0 +1,117 @@
+uptuonline.com
+Printed Pages : 7 (D) steel hollow cylinder has diameter to thickness
+| NME-302 ratio of 25. Find the internal pressure to which the
+3 1 «
+(Following Paper ID and Roll No. to be filled in your Answer Book) cylinder should be subjected so that its volume
+is increased by 5 x 10 of its original volume.
+PAPER ID : 100314 10°
+Take E = 2 x and p = 0.3.
+(E) Under what conditions unsymmetrical bending occurs in
+beam. Also the position of neutral axis.
+B. Tech. aktuonline.com = a state aktuonline.com
+(F) Derive the expression of the value of constant (h?) in
+(SEM. Ill) (ODD SEM.) THEORY = curved beam for Rectangular cross section area beam
+EXAMINATION, 2014-15
+MECHANICS OF SOLIDS
+© Attempt any two questions : 2x10=20
+5
+Time : 3 Hours] (Total Marks : 100 (A) Ata point in a strained material, stresses are applied
+as shown in figure 1, find out the normal and shear
+the oblique plane, principal and
+Note (1) Attempt all the questions stress on stresses
+: principal strain.
+(2) Notations used have ususal meaning.
+uptuonline.com ~ 20MPa uptuonline.com
+= ~ ISMPa
+Attempt any four questions : 4x5=20 °
+(A) Prove that the maximum Shear Stress in the body is
+the half of the difference between maximum principal = 30MPa 30MPA
+and minimum principal stress. °
+(B) Derive the expression for extension in the vertically 5
+suspended bar due to self weight.
+(C) Find the free end deflection in cantilever beam with Figure |
+uniformly distributed load by Macaulay’s method.
+100314] 1 | Contd...
+100314] 2 {| Contd...
+aktuonline.com
+uptuonline.com uptuonline.com
+A rigidly and
+(B) The load on a bolt consists of an axial pull of (B) solid steel shaft 60 mm diameter is fixed
+external diameter.
+20 kN together with a transverse shear of 10 kN coaxially inside a bronze sleeve 90 mm
+length of 2 of the
+calculate the diameter of bolt according to Calculate the angle of twist in a m
+of 1kN-m.
+(1) composite shaft due to action of a torque
+Maximum total strain energy theory (bronze) 42 GPa.
+Take G (steel) = 80 GPa, G =
+(2) Maximum shear strain energy theory (if u= 0.3) aktuonline.com T-section shown aktuonline.com
+(C) Ashearing force of 180 kN acts over a
+(Take elastic limit in tension 280 MPa and Factor distribution
+in figure 3. Draw the shear stress curve.
+of safety 3) 108 mm‘)
+= (Take 1 = 1.134
+wos wos
+(C) Write the assumptions for pure bending and also derive 200mm
+the equation for bending. 50
+200
+uptuonline.com uptuonline.com
+Attempt any two questions : 2x10=20
+(A) Determine the deflection at the mid and slope at the 50 mm
+Figure 3
+end of the beam in terms of El for a beam as shown
+4 Attempt two questions 2x10=20
+in figure 2. any
+the expression for
+(A) From the first principles derive
+Ud) W = 2kN/m buckling for column having both end
+Ta the critical a
+A hm fixed.
+Figure 2
+100314] 100314] 4 | Contd...
+3 [ Contd...
+aktuonline.com aktuonline.com
+uptuonline.com uptuonline.com
+() A Closed coil helical spring made of 8 mm diameter 5 Attempt any two questions : 2x10=20
+has 12 coils of 150 mm mean dia. Calculate the (A) A crane hook having trapezoidal horizontal cross
+elongation, torsional stress and strain energy per unit section is 50 mm wide inside and 30 mm wide
+volume when the spring is subjected to an axial load outside. Thickness of the section is 60 mm.
+aktuonline.com aktuonline.com
+of 120 kN. Take modulus of rigidity as 80 GPa. If The crane hook carries a vertical load of 20kN
+a torque of 9 kN-m is applied in place of axial load, whose line of action is 50 mm from the inside
+wos find axial twist, bending stress and strain energy per unit wos edge of the section. The center of curvature
+volume. Take modulus of elasticity as 200 GPa. is 60 mm from the inside edge. Determine the
+composed of tube 200 maximum tensile and compressive in
+(C) A compound steel tube is a mm stresses
+Pye uptuonline.com Pye uptuonline.com
+internal diameter and 30 mm thickness, shrunk on a tube the section.
+diameter and 25 thickness. The
+of 200 mm external mm If principal moments of inertia of section are and
+radial pressure of the junction is 12 The Y inclined angle
+and X and axes to an @ to
+composed tube is subjected internal fluid pressure
+to an U-V axis, then prove that
+of 80 N/mm”. Find the variation of the hoop stress over
++ ly = Tuy ty
+the wall of the compound tube.
+100314] 5 | Contd... 100314] 6 [ Contd...
+aktuonline.com aktuonline.com
+uptuonline.com
+(C) Asimply supported I section beam of 1.5 carries
+span m
+concentrated load of 8 kN angle of 20° from
+a at an
+vertical shown in figure 4. Load through the
+as passes
+centroid of the section. Determine the maximum bending
+in the beam.
+stress
+aktuonline.com
++ 10mm
+|
+180
+mm
+Figure 4
+Pye uptuonline.com
+100314] 7 31150
+aktuonline.com

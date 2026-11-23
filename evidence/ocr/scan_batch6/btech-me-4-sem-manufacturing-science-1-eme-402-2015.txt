@@ -1,0 +1,82 @@
+www.aktuonline.com
+Printed Pages : 3
+0 00
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 140403
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+MANUFACTURING SCIENCE - I
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all the questions. Assume missing data suitably.
+Attempt two of the following questions- 10x2=20
+any
+1 (a) What is manufacturing? How will you classify
+manufacturing process? Give suitable example of
+products being made by manufacturing process.
+(b) Enlist the various (different). cold and hot working
+Compare hot working and cold working
+processes. Indicating advantages and disadvantages
+process.
+of each.
+(c) A metal work piece has size
+150mm (bxhxw). Assuming plain strain forging
+under sticking friction condition, calculate the
+peak pressure. The material has a yield stress in
+uniaxial tension of 160 MPa.
+140403] 1 [ Contd...
+www.aktuonline.com
+Attempt any two of the following questions : 10x2=20
+2 @ Write short note
+on :
+(i) Extrusion
+(i) Backward Extrusion
+(b) Derive the expression for drawing stress for
+wire drawing through a conical die with 2 dies
+angle and coefficient of friction q
+as -
+2B
+/Dy) where B= a
+(c) What do you mean by friction hill rolling . Drive
+a relation to determine roll separating forces.
+of the following questions
+Attempt any two : 10x2=20
+3 (a) Describe the process for washer making with the
+help of progressive die. How does compound die
+differ from progressive die ?
+(b) What. is the rate of clearance in blanking and
+piercing operations? How clearances provided
+are
+in punch and die? On what factors die and punch
+clearance depends. Discuss them in detail.
+() Describe following type of bending :
+(i) bending
+(i) U- bending
+(iit) Edge bending
+140403] 2 [ Contd...
+www.aktuonline.com
+Attempt any two of the following questions- 10x2=20
+4 (a) Explain the "pattern" and "
+terms pattern
+allowances". What are different types of
+allowances provided when making a pattern?
+Explain each in brief.
+(b) Write short note on :
+(i) Centrifugal casting
+(i) Casting defects
+(c) Explain the design consideration of open and
+closed riser.
+Attempt any four of the following questions- 5x4=20
+5 (a) Enlist unconventional metal forming processes and
+briefly describe with neat sketch, working and
+applications of explosive forming.
+(b) Mention the advantages, limitations & applications
+of powder metallurgy. Describe each step involved
+in powder metallurgy.
+(c) Describe the 3-2-1 principle of location.
+(d) Differentiate between thermosetting and
+thermoplastic.
+(e) Explain briefly the principle of jig and fixture
+design.
+(f) Write short note on "Electro hydraulic forming
+process".
+140403] 3 [ 2500 ]

@@ -1,0 +1,92 @@
+Printed Pages—4
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2753
+B.Tech.
+(SEM. VI) ODD SEMESTER THEORY
+EXAMINATION 2013-14
+DISCRETE STRUCTURES
+Time
+: 3 Hours Total Marks : 100
+Note :—(i) | Attempt all questions.
+(ii) Make suitable assumptions wherever necessary.
+1. Attempt any four parts of the following :
+(a) Let A, B and C be show that (A B) VC
+nonempty sets;
+=AN(BOC).
+(b) Let R be the binary relation defined as R = {(a, b) € R’
+|a~—b <3}. Determine whether R is reflexive, symmetric,
+antisymmetric or transitive.
+(c) Let I be the set of all integers. Let R be a relation on I,
+defined by R = {(x, y)|x—y is divisible by 6}.
+Show that R is equivalence relation.
+an
+(d) Define the inverse of a function. Does the function
+f(n) = 10 —n from the set of integers to the set of integers
+have an inverse ? If so, what is it ?
+of 3° identical
+Show by induction that any integer digits is
+divisible by 3°. (For example, 222 and 777 are divisible by
+3; 222, 222, 222 and 555, 555, 555 are divisible by 9.)
+EIT071/DNG-520. 1 [Turn Over
+(f) Differentiate between proof by counter example and proof (c) What is the relationship between Boolean functions and
+by cases methods. Boolean Expressions ? Use the Karnaugh map method to
+Attempt four of the following (5x4=20) find Boolean expression for the function f whose truth
+any parts : a
+(a) Let (A, *) be a commutative semigroup. Show that if table is as follows.
+a * a=aand b * b=b, then (a * b) * (a * b) =a * b.
+(b) (S, be
+Let 0) monoid such that for every x in S, x
+where e is the identity element. Show that (S, 0) is an
+abelian group.
+(c) Prove that if a and b are elements of group G the
+(a* Fat,
+(d) Define the subgroup. Explain the cyclic subgroup with an
+example.
+(e) What is Symmetric Group ? Give example of
+a an
+symmetric group of order 6 and degree 3.
+(f) Define an integral domain. Is (A, +, *) an integral domain,
+where A is the set of all integers, and + and * be the ordinary Attempt any two parts of the following : (10x2=20)
+addition and multiplication operations integers ? (a) What does it mean for two propositions to be logically
+on equivalent ? Describe the different ways to show that two
+Attempt any two parts of the following : (10x2=20) compound propositions logically equivalent. Show in
+(a) (i) Prove that if (A, <) and (B, <) are posets, then are at
+(A B, Ss) is poset, with partial order < defined by least two different ways that the compound propositions
+(a, x (a’, b’)) a in Aand b <b' ~pv (r->~q) and~p v ~q v ~r are equivalent.
+b) < ifa<a' in B. (b) What do you mean by valid argument ? Are the following
+(ii) Let (P(A), <) and (P(B), <) be posets, when arguments valid ? If valid, construct a formal proof; if not
+A= {a, b}, B= {a}, and < is the set inclusion operation. explain why.
+Draw the Hasse diagram of (P(A) < P(B), <).
+“Doug, a student in this class, knows how to write programs
+(b) How does a partial order differ from a lattice ? Define the in JAVA. Everyone who knows how to write programs in
+distributive lattice. Show that a linearly ordered poset is a JAVA can get a high paying job. Therefore, someone in
+distributive lattice.
+this class can get a high paying job.”
+EIT071/DNG-52038 2
+EIT071/DNG-52038 3 [Turn Over
+following
+(c) Express the statements using quantifiers. Then
+form the negation of the statement, so that no negation is
+to the left of quantifier.
+a —
+(i) Some old dogs can learn new tricks.
+(ii) No rabbit knows calculus.
+ii) Every bird can fly.
+(iv) There is no dog that can talk.
+an
+(v) There is no one in this class who knows French
+Russian.
+5. Attempt any two parts of the following : (10x2=20)
+(a) Define the generating function. Solve the difference
+equation : a? =1 given that a, = 2.
+(b) Define the Binary Search Tree. Prove that the maximum
+number of vertices at level k of a binary tree is and that
+& tree with that many vertices at level k must have at least
+1 vertices.
+Write short notes any three of the following
+on :
+(i) Representation of Graphs. ~
+Gi) Euler graph.
+Recursive algorithms.
+(iv). Pigeon hole principle.
+iG: 4 4725

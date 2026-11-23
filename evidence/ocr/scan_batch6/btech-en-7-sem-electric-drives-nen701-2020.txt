@@ -1,0 +1,69 @@
+Printed Page 1 of 2 Sub Code: NEN701
+Paper Id: 100712 Roll No:
+B.TECH.
+(SEM VIT) THEORY EXAMINATION 2019-20
+ELECTRIC DRIVES
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+Draw the torque-speed characteristics of a separately excited DC motor during dynamic
+braking.
+What are the conditions to be satisfied for the regenerative braking operation to take
+place?
+Why the cooling time of rotating machine is usually larger than its heating
+constant a
+time constant?
+Derive the equations governing motor load dynamics from the basic principles
+Give the classifications of load torques.
+www.aktuonline.com What are the selection criteria of motor for particular application?
+What the modifications required while braking dc series motor?
+Mention are the necessary of electric braking employed are for electric drives. a
+types
+What are the reasons for using load equalization in an electrical drive?
+SECTION B
+2. Attempt any three of the following: 10x3=30
+Explain the operation of chopper controlled dc series motor.
+Explain the operation of Brushless DC motor drives. What kind of braking is more
+effective in induction motor? Justify, it
+Compare voltage source and current source inverter fed drives with neat sketch.
+Derive the expression to calculate the energy loss during starting of Induction motor.
+Classify the electric drives. State their advantages and disadvantages.
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+Explain the operation of a single phase fully controlled converter fed separately
+excited DC motor with neat waveforms and derive the speed torque characteristic.
+A 220 V, 17.6 KW dec shunt motor at its rated speed of 1200 is to be braked by
+plugging. The resistance is 0.1 Q and the rated efficiency rpm of is 80%.
+armature motor
+Calculate the resistance to be connected in series with the armature to limit the initial
+braking current to twice the rated current.
+Page 1 of 2
+http://www.aktuonline.com
+Printed Page 2 of 2 Sub Code: NEN701
+Paper Id: 100712 Roll No:
+4. Attempt part of the following: 10x1=10
+any one
+a. A 200V 875 rpm, 150 A separately excited de motor has an. armature resistance of 0.(
+ohms. It is fed from a single phase fully controlled rectifier with an ac source voltage ¢
+220 V, 50 Hz assuming continuous conduction. Calculate
+1) Firing angle for rated motor torque and 750 rpm.
+il) Firing angle for rated motor torque and (-500 rpm).
+b. Draw the circuit diagram and briefly explain the dynamic braking of a three phase
+induction motor.
+5. Attempt any one part of the following: 10x1=10
+a. Classify mechanical loads based on their speed torque characteristics and develop a
+criterion for evaluating the steady state stability of an electrical drive.
+b. Explain in brief the working of a multi quadrant control of chopper fed DC series
+motor.
+6. Attempt any one part of the following: 10x1=10
+www.aktuonline.com a. Draw the block diagram of an electric drive. Explain the function of power
+modulator in detail.
+b.
+intermittent duty.
+7. Attempt any one part of the following: 10x1=10
+a. Explain the operation of a single phase fully controlled converter fed separately excited
+motor with neat waveforms for continuous current mode and discontinuous modes.
+b. Explain how the static scherbius drive is used in slip power recovery scheme?
+Page 2 of 2
+http://www.aktuonline.com

@@ -1,0 +1,94 @@
+www.aktuonline.com
+Printed Pages : 4
+A A
+EEC608
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 120602
+B Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+COMMUNICATION ENGINEERING
+Time : 3 Hours] [Total Marks : 100
+Note: Attempt all the questions. Each question carries equal marks.
+1 Attempt any four parts of the following: (5x4=20)
+(a) What is AM? What are different types of AM?
+Why modulation is needed?
+(b) What is Superheterodyne Receiver? Also mention
+its advantages.
+(c) Draw the block diagram of phase shifter method
+of generation of SSB and explain how carrier and
+unwanted sidebands are suppressed.
+(d) Explain VSB modulation method with its waveform.
+(e) The efficiency of ordinary AM is defined
+the of the n total carried by the as
+percentage power
+sidebands, that is 7 Where P, is the
+=
+power carried by the sidebands and P, is the total
+power of the AM signal.
+120602] 1 [ Contd...
+www.aktuonline.com
+(i) Find n for m, =0.5 (50% modulation)
+(i) Show that for a single tone AM max is
+33% at m,=1
+(f) | What is Radio transmitter? What are different blocks
+used in the transmission of radio signal?
+2 Attempt any four parts of the following: (5x4=20)
+(a) What is Angle modulation? What are its
+classifications? Also define modulation index for
+FM.
+(b) What is pre-emphasis and de-emphasis and how
+SNR improves by using pre-emphasis and
+de-emphasis? Find out the figure of merit in
+SSB-SC.
+(c) Given a angle modulated
+signa
+Find the maximum phase deviation and the
+maximum frequency deviation.
+(d) What is difference between AM and FM ?
+(e) Explain the working of Stereophonic FM broadcast
+receiver.
+(f) | What do you mean by indirect method? Explain
+one of the indirect method of FM generation.
+120602] 2 [ Contd...
+www.aktuonline.com
+3 Attempt any two parts of the following: (10x2=20)
+(a) (i) the method of Sampling. Also prove
+the method with relevant waveform.
+(ii) Fora given sequence 1011001011 construct
+Unipolar NRZ, Unipolar RZ, bipolar NRZ,
+bipolar RZ, Alternate Mark Inversion (AMI),
+and Manchester format.
+(b) Explain modulation and demodulation of PWM
+system using suitable waveform. Also discuss how
+is PPM generated using PWM.
+(c) Why is Quantization needed? What can be done
+for the removal of Quantization Support
+error
+your point with suitable example.
+4 Attempt any two parts of the following: (10x2=20)
+(a) Explain in brief:
+(i) Delta Modulation
+(i) Adaptive Delta Modulation
+(b) Using Kepler's formulations explain the basis of
+Geosynchronous orbit for satellite communication.
+Illustrate different low and medium earth orbits
+for satellite communication.
+(c) Discuss the classification, working, advantages
+and application of each type of Vocoder.
+120602] 3 [ Contd...
+www.aktuonline.com
+5 Attempt two parts of the following: (10x2=20)
+any
+(a) Explain the terms KELL FACTOR and ASPECT
+RATIO. Hence, calculate horizontal and vertical
+resolution.
+(b) Draw the block diagram of television, transmitter
+and explain function of each block in brief.
+(c) Explain following terms in connection with camera
+tube.
+(i) Spectral response
+(i) Image lag
+(ii) Dark current
+(iv) _ light transfer characteristics.
+120602]
+4 [3500]

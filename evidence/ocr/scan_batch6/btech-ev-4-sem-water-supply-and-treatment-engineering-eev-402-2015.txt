@@ -1,0 +1,94 @@
+www.aktuonline.com
+Printed Pages : 4
+EEV402/EV402
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 197402
+B. Tech. (Environmental Engineering)
+(SEM. IV) THEORY EXAMINATION, 2014-15
+WATER SUPPLY & TREATMENT ENGINEERING
+Time : 3 Hours] [Total Marks : 100
+NOTE: Attempt all questions, suitably assume the missing data.
+Q.1 Attempt any four parts of the following: = 5x4=20
+Discuss the biological characteristics of
+(a) water.
+(b) A 200 ml sample of water has initial pH of 10. The 30 ml
+an
+of 0.02N. H2S04 is required to titrate the sample to pH 4.5.
+What is the total alkalinity of water in mg/l as CaCo3?
+(c) Determine the Threshold Odor Number (TON) of an
+odorous water sample volume of 50 ml mixed with
+197402] 1 [ Contd...
+www.aktuonline.com
+odor free water by volume 150 ml. Is this water sample
+fit for drinking?
+(d) Determining the concentration of suspended solids, a
+filterable residue analysis is sample of water
+run on a as
+follows. Prior to filtering, the crucible and filter pad are
+kept overnight in the drying oven. Cooled and dry mass
+(tare mass) of the pair determined to be 54.352 gm. 250
+a
+ml of sample is drawn through filter pad contained in
+the bottom crucible. The crucible and filter pad
+porous
+are then placed in a drying oven at 104°C and dried
+until a constant mass 54.389 9m is reached. Determine
+the SS concentration of the sample.
+(e) Explain Break point chlorination with neat sketch.
+(f) Derive an expression for settling velocity of a spherical
+particle in type-I settling.
+Q.2. Attempt four parts of the following: 5x4=20
+any
+(a) Discuss the construction and working of a_ slow
+sand filter.
+(b) A filter unit is 4.5x9 After filtering 10,000 in 24
+hours period, the filter is backwashed @ 10 L/m’.sec
+for 15 minutes. Compute filtration rate, quantity and
+of treated used in washing and the
+percentage water rate
+of wash water flow in each trough. Assume 4 troughs.
+197402] 2 [ Contd...
+www.aktuonline.com
+(c) It is required to supply water to a population of
+50,000at per capita demand of 185 liters per day. The
+disinfectant used for chlorine is bleaching powder
+containing 35% of chlorine available. Determine how
+much of bleaching powder is required annually at water
+works, if 0.3 ppm chlorine dose is required for
+disinfection.
+(d) Chlorine usage in the treatment of 24,000 cubic meter
+per day is 10 kg per day. The residual after 10 min.
+contract is 0.20 mg/l. Calculate dosages in milligrams
+per liter and chlorine demand of water.
+(c) Explain a suitable method to remove dissolved metals and
+from ground water.
+gases
+(f) Explain various methods of defluoridation of water.
+Q.3. Attempt any two parts of the following: 10x2=20
+(a) With a neat sketch explain geolite process of removing
+hardness of
+water.
+(b) Explain Membrane for desalination.
+process
+(c) Discuss various operation and maintenance works for a rapid
+sand filter.
+197402] 3 [ Contd...
+www.aktuonline.com
+Q. 4. Attempt two parts of the following: 10x2=20
+any
+(a) Using Logistic Curve Method predict the population of a
+town for 2021 and 2031 with the following census records
+Year 1991 2001 2011
+Population 1,00,000 1, 30,000 1,48,000
+(b) Discuss various sources of water along with their
+characteristics.
+(c) Explain various types of aqueducts in ground water.
+Q.5. Attempt any two parts of the following: 10x2=20
+(a) Expalin various of distribution networks in
+types water
+supply systems.
+(b) Explain the Hardy Cross method for the design of complex
+pipe network.
+(c) With neat sketch explain the working of a reciprocating type
+displacement pump.
+197402] 4

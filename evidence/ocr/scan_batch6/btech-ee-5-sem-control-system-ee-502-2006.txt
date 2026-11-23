@@ -1,0 +1,90 @@
+aktuonline.com aktuonline.com
+01153
+J
+Printed Pages—4 EE—-502
+(Following Paper [D and Roll No. to be filled ‘Answer Book)
+in LITT your
+PAPERAD : 200 7 BRONTE
+B.Tech.
+FIFTH SEMESTER EXAMINATION, 2005-2006
+_ CONTROL SYSTEM
+Time 3 Hours Total Marks 100
+: :
+Note: (i) Aftempt ALL the questions.
+(ii) Be precise in your answer.
+1. Attempt any four of the following : (5x4=20)
+,
+Efd
+Take Ks=1, Tp=0, Ke=1,
+(a) Find Efd (s) / Vref (s) at Vp=0.
+(b) Find Efd (s) / (s) at Vyep =0.
+(c) Draw signal flow diagram for both (a) and (b)
+(d) Explain masion’s gain formula with an
+example
+EE—502 1 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+;
+{e) | Why isclosed loop control system prefered
+open loop ? over
+(f) Explain difference between positive feedback
+and negative feedback.
+2. Attempt any two of the following : (10x2=20)
+(a) Explain the effect of adding a pole to a second
+order system. When is it useful to add a zero
+to the system ?
+(b) With respect to transient response of a second
+order system for step input, define the
+following :
+(i) Time delay
+(ii) Rise time
+(iii) Settling time
+(iv) Relative peak overshoot
+(v) Peak time
+(c) Calculate Kp, Kv, Ka for :
+S?
+S(S° 21S?
++ + 147 + 343)
+write clearly what are the inputs used for
+calculating each of these error constants.
+Calculate steady state error for each of these
+inputs.
+3. Attempt any two of the following : (10x2=20)
+(a) In connection with Bode plot :
+(i) Define band width
+(ii) | Define cut-off frequency
+(iii) Define corner frequency
+aktuonline.com aktuonline.com
+(iv) explain corrections be made
+frequency and discuss to importance at corner of
+band width.
+(b) Draw circuit diagram of lag network, draw
+its Bode plot (both magnitude a and phase)
+(c) examples. Explain polar plot and inverse polar plots with
+4. Attempt any two of the following : (10x2=20)
+(a) For the following characteristics equation of
+criterion. systems find out their stability using Rouths .
+(i) f(s) = 13s? + 5s°+ 85> + 483 + 20s? + 15s +1.
+(ii) f(s) + 10s? +2.
+=3s4+ 10s?
+(iii) f(s) + 20s + 10(1 +k).
+(b) Explain step by step procedure for ploting root
+locus. Give also expression for the angle at
+which assymptots leave real axis, point of
+intersection of assymptots, angle of departure
+and angle of arrival.
+(c) Explain Nyquist criterion with an example.
+5. Attempt any two of the following : (10x2=20)
+(a) How can the limit cycle and its stability found
+using describing function method for a
+non-linear system ?
+EE—502 3 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+(b) Explain feedback compensation with PID
+controller.
+Linearize the following non-linear system.
+yrz
+2y3
+EE—502
+aktuonline.com

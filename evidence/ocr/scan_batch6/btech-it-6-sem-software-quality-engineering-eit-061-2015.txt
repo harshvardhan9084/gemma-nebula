@@ -1,0 +1,68 @@
+www.aktuonline.com
+Printed Pages : 3
+EITO61
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 113601
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+SOFTWARE QUALITY ENGINEERING
+Time : 3 Hours] [Total Marks : 100
+Note Attempt All questions.
+:
+1 Attempt any four parts of the following: 5x4=20
+(a) Explain following terms:
+(1)
+(2) Failures.
+(3) Defects Rate.
+(4) Defect preventions
+(b) What is cost of software quality?
+(c) What is net satisfaction index (NSI).Describe with
+example?
+(d) What is defect prevention? Explain defect
+prevention techniques and practices.
+.
+(e) What is software review?Explain various types of
+software reviews.
+(f) Explain various types of software errors and
+cause of software error?
+113601] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any four parts of the following: 5x4=20
+(a) Howto measure Customer Satisfaction Metrics?
+Explain with examples.
+(b) What are various quality planning goal and quality
+plan benefits?
+(c) Software Reliability is important issue of measuring
+quality comments?
+(d) Define quality management and what is cost of
+poor software management?
+(e) What is software measurement? Explain with
+example.
+(f) | Explain various software maintenance metrics with
+examples?
+3 Attempt any two parts of the following: 10x2=20
+(a) Explain Reliability Growth Model and types of
+Growth model?
+(b) Explain with proper graph Delayed S and Inflection
+S Models?
+(c) Explain Boehm’s Quality Model and its
+characteristics ?
+113601] 2 [ Contd...
+www.aktuonline.com
+4 Attempt two parts of the following: 10x2=20
+any
+(a) Explain various SQA activities with examples?
+(b) Explain is six sigma concepts in detail with
+example.
+(c) What is benchmarking? Explain benchmarking
+methodology in detail.
+5 Attempt any two parts of the following: 10x2=20
+(a) Explain in detail process of software configuration
+Give detail of various software
+management.
+configuration items.
+(b) What are various CASE tools ? Explain advantages
+of CASE tools.
+(c) What is testing tool?Describe the characteristics
+of modern testing tool?
+113601] 3

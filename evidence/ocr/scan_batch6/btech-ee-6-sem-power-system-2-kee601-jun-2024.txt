@@ -1,0 +1,85 @@
+Printed Page: 1 of 2
+HA Subject Coe:
+Roll No:
+BTECH
+(SEM VI) THEORY EXAMINATION 2023-24
+POWER SYSTEM-II
+TIME; 3 HRS M.MARKS: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably
+1. Attempt all questions in brief.
+la. | What is the need of components?
+lb. | What the advantages sequence of unit system? 02 02
+are per
+ld. What do you understand by load flow analysis? 02
+Outline the need for slack bus? 02
+What is meant by voltage surge? 02
+What do you mean by characteristic impedance loading? 02
+Discuss steady state and transient stability? 02
+What do you mean by stability limit? 02
+Explain various types of faults. 02
+Discuss the need system protection? 02
+power SECTION B
+2. Attempt any three of the following:
+Draw the unit impedance & reactance diagram for the system shown
+below. Neglect per resistance and base of 50 MVA, 220 power kV in 100 Q line.
+The rating of generator, transformers use a and motor are shown in Fig.
+Motor
+IE Bus 1 Bus 2
+ry | |
+j100Q rs
+Generator 500 MVA | 25kV
+Motor 200 MVA |
+Transformer (Y-Y)| 300 MVA_ | 33Y/220Y kV
+Transformer (Y-A) | 300 MVA | 11A /220Y kV
+Explain the Bewley’s Lattice diagram. Write a note on surge phenomenon.
+Define the protection against over voltages.
+Explain equal area criterion for stability by taking a suitable example of power
+ystem.
+condition Explain the with working suitable principle diagram. of differential Why restraining relay coil and is derive used its in operational differential
+relay? a
+1|Page
+https://www.aktuonline.com
+Printed Page: 2 of 2
+UI UN Subject Code:
+Roll No:
+BTECH
+(SEM VI) THEORY EXAMINATION 2023-24
+POWER SYSTEM-II
+TIME; 3 HRS M.MARKS: 100
+SECTION C
+3. Attempt any one part of the following:
+Two generators rated at 10 MVA, 13.2KV and ISMVA, 13.2KV, respectively
+connected in parallel to bus. The bus feeds two motors rated at 8MVA and
+are 12MVA respectively. The rated a voltage of motors is 12.5 KV. The reactance of
+each generator is 15% and that of each motor 20% on its own rating. Assume
+SOMVA, 13.8KV base and draw reactance diagram.
+Derive the relationship to determine the fault current for a single line to ground
+fault. Draw and equivalent network showing the interconnection of sequence
+network to stimulate LG fault.
+4. Attempt any one part of the following:
+What is Newton-Raphson method? How it is applied for the solution of power
+flow equation?
+Define different types of buses in a power system. Find the bus admittance
+matrix for the given network in Fig
+2
+3
+5. Attempt any one part of the following:
+A 300 KV, 5 Sec rectangular travels along the line terminated by
+capacitor of 1500pF. Determine the surge voltage the capacitance and reflected a
+voltage if the impedance loading across line is 300 ohm.
+b Deduce wave the general surge equations for of loss less transmission line for | 10
+propagation of voltage wave and current a
+6. Attempt part of the following: wave.
+any one
+Explain the swing equation for a machine connected to an infinite bus. If a
+synchronous generator is of 1OOMVA have inertia constant of 20MJ/MVA.
+Find the angular momentum.
+Explain step by step method of system stability with suitable diagrams.
+7. Attempt any one part of the following:
+Explain in detail the operation of an Overcurrent Relay and Distance Protection,
+accompanied by a neat diagram?
+Define following:
+(i) Recovery Voltage (ii) Active recovery Voltage
+(iil Restriking Voltage (iv) RRRV
+2|Page
+https://www.aktuonline.com

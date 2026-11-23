@@ -1,0 +1,71 @@
+Process?
+(i) Whatare the causes of irreversibility of a
+Printed Pages : 4 ME-301 function and path function: Indicate
+(j) Define pomt belong
+(Following Paper ID and Roll No. to be filled in your to which function the following cases to
+Answer Book) Internal Energy (ut) Work
+Paper 1D: 140311 (1)
+(iw) Pressure (iv) Heat
+B.Tech.
+(SEM. Hl) THEORY EXAMINATION, 2015-16 SECTION -B
+THERMODYNAMICS
+[Time : 3 hours] {Total Marks : 100} Attempt any five questions from tis section.
+SECTION -A of Ske undergoes
+A system comprising ef a gas mass
+1. Attempt all parts. All parts carry equal mark. Write expansion process from }MPu and 0.4m!‘ to 0.5 MPa.
+answer of each parts in short. 10=20) Xpansion Is governed hy constant. The
+Whatis critical point and triple point”? internal of the given by, u
+(a) energy gis is the
+(b) What is concept of continuum ? kg. uis the specitic internal energy. pts pressure in
+inequality. kPa. isthe specitic volume in Sketch the P-V
+(c) Discuss the significance of Clausius diagram for the process. Determine heat and work
+(d) State two limitations of First Law of interaction and change in internal energy
+thermodynamics.
+Establish the equivalence of Kelvin Planck & Claustus
+(e) Why does free expansion has zero work transfer? Statement. Show that of reversible heat
+a limits
+(f) State Zeroth Law of thermodynamics. engine operating between the same temperature
+(g) Draw P-T diagram of pure substance. is same.
+T,&1,
+(h) has food article with its door closed. A Camot engine operating between temperatires
+In one hour, the internal energy of food articles with efficiency #7, and other Carnot engine operates
+decreases by 4000kJ while the refrigerator between temperatures and T, with efficiency 1), Show
+that the Camot engine between temperatures
+consumed |.2kWh of electrical energy. Find the 1, operating
+net heat transfer during the process. & will have efficieney (77,
+1800
+(1) [PT.0.] 1800
+Define irreversibility of the system. Derive an
+expression for irreversibility of a closed system. Attempt quenstion from this section. ( 15*2=30)
+any two
+Define Clausius Inequality, Prove that entropy of an 10. Define thermal efficiency. mechanical efficiency,
+isolated system always increases. volumetric efficiency, Brake power, Indicated power of
+Explain the working of two stroke $1
+A nozzle is a device for increasing the velocity of a an IC engine and between stroke
+steadily flowing stream Atthe inlet to a certain nozzle. engine with sketch and differentiate two
+the enthalpy of the fluid passing ts 2000k) kg and the and four stroke SI engine
+velocity is 60m Atthe discharge end. the enthalpy is
+5 horizontal and there is Derive an expression for maximum work output possible
+2762 The noszle 1s from a heat engine operating between two reservoirs at
+negligible heat loss from it T and T,. The heat source ts formed by a body of mass
+(a) Find the velocity at exists from the nozzle m and specific heat C_A block of iron weighing 100 kg
+specific Volume and having of 100°C is immersed in 50 kg
+inlet area is 0 | m? and the a temperature 20 What will be the
+at inlet is 0 187 m! kg. find the mass flow rat of water at a temperature of °C.
+specific volume at the exit is 0.498 change of entropy of the combined system of iron and
+(c) Ifthe nozzle water’ Specific heats of tron and water are 0.48 and 4.18
+m'kg. find exit area of the kJ/kg K respectivels
+process? Write the steady flow
+What is steady flow entering and single Show Rankine cycle on P-V. and H-S plane. Describe
+energy equation for single stream any one method of drynesss fraction measurement. Ina
+stream leaving a control volume. Show that enthalpy of plant of 10 MW capacity, steam at 88 bar
+fluid before equal to that after throttling. steam power
+and 480°C expands isentropically in a turbine. If the
+composed of 2 kg of the above fluid expands condenser pressure is (0.04 bar, find heat added in the
+A system a and cylinder machine trom an boiler
+in frictionless piston 100°C final temperature of
+intial state of Im Pa. to a work for
+30 °C. If there ts no heat transfer find the net
+the process.
+(PTO)
+1800 (3) 1800 (4) MP-301

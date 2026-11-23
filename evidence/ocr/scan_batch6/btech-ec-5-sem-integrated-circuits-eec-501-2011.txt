@@ -1,0 +1,61 @@
+Printed Pages—3
+(SEM. V )ODD SEMESTER THEORY EXA
+2010-11
+INTEGRATED CIRCUITS
+Time 3.Hours Total Marks : 100
+: Note Attempt all questions.
+four of :
+1. Answer any the following : (5x4=20)
+(a) Explain the circuit of Wilson MOS current mirror. Also,
+discuss how it can be improved.
+(b) What do you understand by base current compensated
+current mirror ?
+(c) Discuss the DC analysis of Second Stage of 741 Op-Amp.
+(d) How the short circuit protection is achieved in the output
+stage of 741 Op-Amp ? Also, find the output resistance of
+741 Op-Amp.
+(e) Figure 1 shows two circuits for generating a constant current
+pA. Determine the values of the required resistors
+assuming that V,. is 0.7 V at current of 1 mA and
+a
+neglecting the effect of finite B.
+iov 10v
+1 if L i
+gi =
+Qi Q2
+Q1 Q2
+R3
+Figure |!
+EECS01/VEQ-15322 1 [Turn Over
+(f) Discuss the Frequency Response of 741 Op-Amp. Relate 4. Answer two of the following
+unity-gain bandwidth (f,) and Slew Rate (SR). any ; (2*10=20)
+(a) Draw and explain Anti-Log Amplifier, How temperature
+Compensation is achieved in anti-log amplifier ?
+N Answer any four of the following : (5x4=20) (b) What Precision rectifiers
+are ? Explain full wave Precision
+(a) Draw and explain the most commonly used three Op-Amp rectifier with necessary waveforms.
+Instrumentation Amplifier. Also, derive the expression of (c) Explain:
+voltage gain.
+(i) Schmitt Trigger
+(b) Design the high-pass filter at a cutoff frequency of 1 kHz (ii) Triangular Wave Generator.
+with a passband gain of 2.
+(c) Draw and explain Narrow band Reject Filter. Also, find its
+5. Write short notes on any two of the following (2*10=20)
+transfer function. (a) (@) R-2R Ladder -
+(d) Design a wide band pass filter with lower cutoff frequency D/A Converter
+f,= 200 Hz, higher cutoff frequency f,=1 kHz and (ii) Dual-Slope A/D Converter
+a (b) $55 Timer as Monostable Multivibrator
+passband Gain=4. in (c) Phase Locked Loop and its applications.
+(e) Derive the expression of voltage gain KHN Biquad Filter.
+(f) Derive the expression for RC Phase Shift Oscillator.
+Attempt any two of the following : (2x10=20)
+(a) Sketch the Logic gate symbolic representation of clocked
+SR Flip Flop using nand gates. Also sketch its CMOS circuit
+implementation and explain its operation.
+(b) Draw the D-Flip Flop using CMOS. Also draw and explain
+its Master slave configuration.
+(c) Give the CMOS Logic Circuit that realizes the function of
+three inputs ODD Parity Checker specifically the Output.
+be (1
+is to high when an odd number or 3) of the input is high.
+EECS01/VEQ-15322 2 EEC501/VEQ-15322 3 17986

@@ -1,0 +1,80 @@
+aktuonline;cam. (\)
+4 Pages—3
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+| | |
+B.Tech.
+SIXTH SEMESTER EXAMINATION, 2005-2006
+SOFTWARE PROJECT MANAGEMENT
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt ALL questions.
+Oo (ii) All questions carry equal marks.
+Ss (iii) In case of numerical problems assume data wherever
+not provided.
+(iv) Be precise in your answer.
+op)
+“1. Attempt any four parts of the following : (5x4=20)
+(a) In reference to project planning define the term
+milestones and deliverables.
+(b) Discuss the graphical notations which are used
+to illustrate the project schedule.
+(c) Describe how adding personnel to a project that
+is behind schedule might make the project
+completion date even later.
+(d) Explain the term project scope with suitable
+example. a
+(e) Discuss the various types of software projects.
+(f) Explain special why the problems intangibility for of software software systems
+poses projects
+management.
+IT—601 1 [Turn Over
+aktuonline.com
+akttonline.com aktuonline.com
+2. Attempt any four parts of the following : (5x4=20)
+(a) Write short note on Rapid application
+development.
+(b) Discuss the project feasibility with an example.
+(c) What do you mean by case flow forecasting ?
+Explain with an example.
+(d) Does advancement in information technology
+have any impact on software project planing,
+design or implementation ? If it is, then in what
+way ? and if not then why ?
+(e) What is prototyping process model ? When it is
+used ?
+(f) | Define risk ? What are the various categories of
+risks ?
+3. Attempt any two parts of the following : (10x2=20)
+(a) Discuss the COCOMO software estimation model
+in detail with proper examples.
+(b) For the following activity graph find the critical
+path -
+c 5 E 2H
+Finish
+#XK
+(c) What are various software measurement —\
+metrics ? Explain any of them in detail with
+example.
+4. Attempt any two parts of the following : (10x2=20)
+(a) (i) Describe difference between Known risk
+and Predictable risks.
+(ii) Differentiate between the risk component
+and risk drivers.
+2
+IT—601
+aktuonline.com a&tygnline.com
+(b) Discuss the risk management process in
+(c) Describe the following :
+(i) Contract Management
+(ii) Human Resource Management
+5. Attempt two parts of the following (10x2=20)
+any :
+(a) | What do you mean by software quality assurance ?
+Explain. Also discuss the various software quality
+assurance activities.
+(b) Define the following :
+(i) ISO 9126 standard.
+(ii) Product quality management.
+(c) Discuss SEI process Capability Maturity Model in
+detail.
+- -o00Oo0-
+aktuonline.com

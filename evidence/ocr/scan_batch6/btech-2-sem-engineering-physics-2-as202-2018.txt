@@ -1,0 +1,90 @@
+Printed Pages: 02 Sub Code: AS202
+Paper Id: 199992 Roll No.
+B TECH
+(SEM I) THEORY EXAMINATION 2017-18
+ENGINEERING PHYSICS II
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. Assume any missing data suitably.
+2. Section A, Section B and Q3, Q4, Q5 are common to all. In Section C, Q6 andQ7
+attempt only the questions relevant to your group.
+SECTION A
+1. Attempt all questions in brief. 2x10=20
+a. What do you mean by tunneling effect?
+b. Explain Meissner effect in superconductors.
+c. What are de-Broglie matter waves?
+d. Explain super conductivity.
+e. List any four applications of nano-materials.
+f. What are the use dielectric properties of materials?
+Describe polarizability.
+h. g. Write the of ClaussiusMossotti equation.
+statement
+1. What is the use of bulky balls?
+List the uses of carbon nanotubes.
+SECTION B
+2. Attempt any three of the following: 10x3=30
+Prove that the phase velocity of de-Broglie is v/2 when particle velocity
+a. is small compared with thevelocity of light waves and c?/v when particle velocity is
+v comparablewith velocity of light.
+b. Describe the type I and type 2 superconductivity. Also discuss the effect of
+magnetic field conductivity.
+c. Discuss the structure on super and properties of carbon tubes.
+d. What is the meaning of polarization of dielectric? nano Describe different of
+polarization. types
+Explain the Langevin’s theory for diamagnetic and paramagnetic materials.
+e.
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+Calculate the uncertainty in the velocity of electron, which is, confined in
+(a) 10° box. an a
+(b) A material has critical of 3.7 K in magnetic
+field of 0.306 Tesla 0 K. Find a thecritical temperature field 2 K. zero
+at at
+4. Attempt part of the following: 10x1=10
+any one
+(a) Calculate the electronic polarizability of Argon atom. At N.T.P. the dielectric
+constant of Argon is 1.0024 and its atomic density is 2.7
+(b) What buckyballs? How the buckyballs be created? x Where these
+buckyballs are used? can are
+Attempt any one part of the followimg: 10x1=10
+(a) Derive Schrondinger time independent and time dependent equations for matter
+waves.
+(b) Describe the phenomenon of hysteresis and its applications.
+Attempt any one part of the followimg: 10x1=10
+For students of CS/IT group:
+(a) Describe the Fermi-Dirac probability distribution function and Fermi energy
+level and their significance.
+(b) What is a solar cell? Discuss its construction and working on the basis of
+energy band diagram.
+For students of EE/EC group
+(a) What do you understand by photovoltaic effect? Describe the working of a
+solar cell with suitable diagram. Also give applications of solar cells.
+(b) Discuss the theory of Joule-Thomson expansion. Describe the adiabatic
+demagnetization.
+For students of ME/AU/MT/CH/CE/EV/ TT/TE/TC/FT ete.
+(a) Define atomic radius. Calculate atomic radius in case of SC, BCC and FCC
+structures.
+(b) Differentiate between enthalpy and entropy. What is physical significance of
+entropy?
+Attempt any one part of the 10x1=10
+For students of CS/IT group:
+(a) What is 4-f coherent imaging system? Discuss its function.
+(b) Explain the liquid crystal spatial light modulator (SLM) principle and its
+working mechanism.
+For students of EE/EC group
+(a) Describe the working of diffusion pump for producing low pressures. How are
+these low pressures measured?
+(b) Explain the construction and working of pin photodiode and avalanche
+photodiode with neat diagrams.
+For students of ME/AU/MT/CH/CE/EV/TT/TE/TC/FT ete.
+(a) Describe the generation of high pressure using hydraulic system and using
+Diamond Anvil system.
+(b) What are ultrasonic waves? Explain how ultrasonic waves are produced using
+magnetostriction method.
+Physical Constants:
+Mass of electron 9. 1x107! kg
+Speed of Light m/s
+Planck’s constant 6.63x1074J-s
+Mass of Proton
+Permeability of free space 4nx107H/m
+Permittivity of free space
+Avogadro’s number mole

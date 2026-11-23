@@ -1,0 +1,97 @@
+aktuonline.com aktuonline.com
+A
+Printed Pages : 3 TME - 404
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 4082 Roll No.
+B. Tech.
+(SEM. IV) EXAMINATION, 2006-07
+MEASUREMENT, METROLOGY & CONTROL
+Time 3 Hours] [Total Marks 100
+: :
+Note : Attempt all questions.
+1. Attempt four of the following 4x5 20
+Explain any the following parts related : the =
+(a) instruments terms to
+(i) Sensitivity :- (ii) Linearity
+(b) Discuss the dynamic performance characteristics
+of first order instrument in of input
+Distinguish between the active case instruments ramp and
+(c) passive instruments giving suitable examples.
+(d) Discuss the methods of calibration of
+instrument. an
+Describe the data transmission, signal
+(e) conditioning and data presentation elements.
+(f) Distinguish between
+Observational and : chaotic
+(ii) Modifying and interfering inputs. errors.
+2. Attempt four of the following 4x5 20
+(a) Discuss any unbalanced parts wheatstone bridge : circuit =
+used in an strain Mention
+backing and measurement. bending material used one in
+electrical resistance are strain
+gauge.
+V-4082] 1 [Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+(b) Describe the principle of operation of a
+McLeod
+gauge
+(©) State the law of intermediate temperature
+and intermediate metal for thermocouple.
+(d) Write short note on accelerometer.
+(©) What does mean by elastic transducer ?
+Describe an elastic transducer used for force
+measurement.
+(f) Describe the construction of linear variable
+a
+differential transformer. Sketch its typical input-
+output graph.
+3. Attempt any four parts of the following :- 4x5 = 20
+(a) What are ‘Line Standard’ and ‘End Standard; ?
+How do they differ?
+(b) What does mean by ‘Fits’ ? Discuss clearance,
+transition and interference fits, giving suitable
+sketches.
+(©) What does understand by the term ‘Inter
+changeability’ ? State its significance with
+regard to the production of identical parts.
+mass
+(d) Sketch ‘Sigma Comparator’. Mention its salient
+features.
+©) Discuss the Taylor’s principle of gauge design.
+f) State the applications:
+Slip gauges
+(i) Angle plote
+@ii) V-block
+(iv) Straight edges
+(vy) Universal surface gauge
+V-4082] 2 [Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+Attempt any two parts of the following :- 2x10 = 20
+(a) Define the terms “Primary texture” and
+“Secondary texture”. Describe construction
+and working principle of an instrument used for
+measurement of surface texture.
+(b) What are interferometers? What are their
+advantages over optical flats? Describe the
+working principle of Michalson Interferometer.
+©) List the uses of ‘Auto-collimator. Sketch and
+describe the working principle optical system
+of auto-collimator.
+Attempt any two parts of the following :- 2x 10
+(a) Discuss the basic components of a control
+system. Distinguish between the manual and
+automatic control system and list some of
+engineering situation where the automatic control
+becomes necessary.
+(b) Draw the schematics of a general pneumatic
+control system and describe the function of its
+various elements in brief. How does the force
+balance controller differ from the mention
+balance controller?
+©) Write short
+Servomechanism note on any one :-
+(i) Electrical Controller.
+V-4082] 3 [ 5650 ]
+aktuonline.com http://www.UPTUonline.com

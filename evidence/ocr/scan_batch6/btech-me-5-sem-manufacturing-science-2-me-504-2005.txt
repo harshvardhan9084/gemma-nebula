@@ -1,0 +1,123 @@
+aktuonline.com aktuonliné.com
+Printed Pages—4 ME—504
+B.Tech.
+FIFTH SEMESTER EXAMINATION, 2004-2005
+MANUFACTURING SCIENCE - IT
+Time 3 Hours Total Marks 100
+: :
+Note: (i) Attempt ALL the questions.
+(ii) All questions carry equal marks.
+three of the following [5x3=15]
+1. Answer any :—
+(i) | How is metal removed in metal cutting ?
+Explain explain the the process metal by removal giving any simple model
+to process.
+(ii) What is meant by Built-Up-Edge (BUE) ?
+With a neat sketch explain the formation of a
+BUE. the growth Explain of BUE the along conditions with its which promote
+consequences.
+(iii) How do you define tool life ? Explain the
+parameters that control the tool life of a single
+point cutting tool.
+(iv) What are basic requirements of cutting fluids
+in metal machining ? Explain with their main
+applications.
+(v) What are the factors that control surface finish
+in turning ? How do you select the cutting
+process parameters for finish turning ?
+ME—504 1 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+) A 600mm long job of diameter 150mm of AISI
+4140 steel is to be turned with a depth of cut of
+1.5mm and feed rate 0.25mm per revolution.
+The other data are as following : [5]
+Labour hour =Rs.12.00
+cost per
+Machine overhead per hour = Rs.40.00
+Grinding cost hour Rs.15.00
+per =
+Grinding Machine overhead per
+Rs.50.00
+Idle time =5 minutes
+Taylor’s tool life equation is given by
+Tee operation is carried out using tungsten
+carbide brazed tools with following details.
+Initial cost = Rs.60.00
+Grinding time=5 minutes per edge
+Tool change time =2 minutes and there 9
+grinds tool before salvage. are
+per
+Find the optimum cutting speed, tool life and
+the cost of operation using the criteria of
+minimum production cost. Assume any
+missing data, if needed.
+Answer any three of the following : [5x3=15, ‘a >)
+(i) are the differences between an
+automobile example lathe of and a capstan lathe ?
+Give for an lathe with a component dimensions. suitable
+a capstan
+(ii) What are the types of lathes you are
+familiar with ? State their applications.
+aktuonline.com
+aktuonline.com aktuonline.com
+(iii) Compare a shaper and planer in terms
+of their operation and type of work
+pieces.
+work Define holding milling. devices What used are the milling various
+Explain their relative applications in and ?
+disadvantages.
+(v) Explain the different types of holes
+commonly used in engineering
+components and the processes used to
+produce them.
+{b) A 100 mm diameter cutter having 8 teeth , [5]
+cuts steel at 30 m/min.
+The depth of cut is taken 4mm and the table
+feed rate is Find as the length of the
+chip in up and down milling operations.
+Answer any two of the following : {10x2=20]
+(i) | What are the important factors which need to
+be wheel considered Explain with for specifying suitable examples. a grinding
+?
+(ii) What is the classification method that could
+be used for grinding machines ? Give the
+applications of each variety of grinding
+machines.
+(iii) Discuss briefly :
+(a)
+Automation.
+(b) Dressing and Turning of grinding wheels.
+3 [Turn Over
+aktuonline.com
+Answer any two of the following: [10x2=20]
+(i) Distinguish between the following
+;
+(a) Spot & Seam Welding,
+(b) Gas Welding & Gas Cutting
+(ii) (a) Why is it normally necessary to use filler
+material in welding with tungsten arc ?
+Give reasons.
+(b) How is an arc obtained in arc welding ?
+How do you specify an electric arc
+welding power source ? Explain.
+(ii) | Write short the following
+notes on ;
+(a) Friction welding
+(b) Welding defects
+Answer any two of the following : [10x2=20]
+(i) (a) Explain the application of the following
+electrode materials in EDM: Copper &
+Graphite.
+(b) Briefly explain the working of an USM
+machine showing important elements.
+(ii) (a) What are the important parameters that
+control the material removal rate in AJM?
+Briefly explain about any two factors.
+(b) Explain the advantages and
+disadvantages of USM. ™
+(iii) Write short notes on the following ;
+(a) Plasma welding
+arc
+(b) Explosive welding.
+aktuonline.com

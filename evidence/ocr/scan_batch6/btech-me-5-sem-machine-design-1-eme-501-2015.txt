@@ -1,0 +1,71 @@
+uptuonline.com uptuonline.com
+Printed Pages 4
+: b) The stress state in a machine member is given as follows
+EME-S501 20MPa 4MPa. Find
+bd o 5 9 t o, = , = =
+(Following Paper ID and Roll No. to be filled in your Answer Book) the principal normal and shear stresses. Locate the angle
+PAPER ID : 140501 of and G2 from x-axis
+Write short notes on factors influencing machine design.
+B. Tech. = 4) A bolt with a square threaded screw has mean diameter =
+a 3 carries axial thrust a} =
+(SEM. V) (ODD SEM.) THEORY of 25 mm and pitch of mm. It an 0
+EXAMINATION, 2014-15 = of 10 kN the bolt head of 25 radius. =
+= on mm mean oul]
+MACHINE DESIGN-I If u = 0.12, find the force required at the end of
+tuo © oO
+Time : 2 Hours] [Total Marks : spanner 450 mm long in tightening up the bolt.
+Note : All questions carry equal marks.
+1 Attempt any four parts - 3 Attempt any two parts
+a) Write short notes on the design process. Design a lap joint load of 350kKN. The rivets
+b) Explain theories of failure. to carry a go
+5
+c) How will you select the material for shaft? Justify,
+= Define woodruff key. o, = 1SOMN/m? ; t = 100MN/m? ;
+Define the law of solid friction and fluid friction. S
+8 f) Write the design procedure for helical springs. Ler) o 6. = 246 MN/m?.
+5, Attempt any two parts : =  b) A transmission shaft is subjected to a fluctuating torque
+a) A bolt is subjected tensile load of 25KN and from -120N-m 500 N-m. Let the
+to a a that varies to stress
+shear load of 1OKN. Determine the diameter of the bolt concentration factor be 1.5 and factor of safety be 2.
+according to (i) Maximum principal stress theory
+(ii) Maximum principal strain theory (iii) Maximum stress Determine the required diameter of shaft. Shaft material
+theory. Assume factor of safety 2.5, yield point
+as stress is C45 steel.
+in simple tension = 300N/mm? , Poisson’s ratio = 0.25 [ Contd...
+140501] 1 [ Contd... 140501] 2
+aktuonline.com aktuonline.com
+uptuonline.com uptuonline.com
+c) A rigid of coupling is used
+c) A spherical pressure vessel with 400 num inner diameter type to connect two shafts
+transmitting 15kW at 200rpm. The shaft keys and bolts
+is welded from steel plates. The vessel is subjected to
+internal varying from Assuming are made of C45 steel and the coupling is of cast iron.
+pressure 0 to 50 bar.
+the ultimate tensile strength 440 MPa, yield strength Design the coupling.
+as
+240MPa and factor of safety 3, calculate the plate d) A helical spring made of C50 steel has an outside
+diameter of 80mm and wire diameter
+thickness. dn a of 12mm. The dn
+= = uon} spring has to support maximum axial load of 1KN.
+4) A spring made from a wire of 1.25mm diameter and& a
+= =: Determine the maximum stress and total deflection. If
+= as its yield strength has a mean diameter
+o of 12.5mm and 14 active coils. Find (i) spring the springs have 10.Scoils with ends ground flat.
+oC
+= (ii) Solid height assuming that the ends are squared Determine also the factor of safety.
+Take G 0.89 10? kN/mm?.
+ground. Take modulus of rigidity as 0.85 10° =
+Attempt any two parts : rye YR
+A 465
+Se 4) solid shaft is subjected to a bending moment of shat 3
+= kN-m and torsional of 11.5 kN-m. The =
+a moment Find’
+o is made of C45 steel and factor of safety is 6. wos
+= the diameter of shaft. 5
+b) Design a taper key for a shaft of diameter 100 mm
+transmitting 60kW at 300 rpm. The allowable
+compressive
+stress may be taken as 175
+140501] 3 | Contd...
+140501] 4 19300
+aktuonline.com aktuonline.com

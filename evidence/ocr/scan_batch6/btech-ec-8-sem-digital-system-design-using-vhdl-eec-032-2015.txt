@@ -1,0 +1,50 @@
+www.aktuonline.com
+Printed Pages : 2
+AT
+EEC032
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 131852
+B. Tech.
+(SEM. VIII) THEORY EXAMINATION, 2014-15
+DIGITAL SYSTEM DESIGN USING VHDL
+Time : 3 Hours] [Total Marks : 100
+Note: All questions are compulsory
+1 Attempt any four parts: 5x4=20
+(i) Define Lexical elements, signals, variables and
+constant with reference to VHDL.
+(i) | Explain compilation and simulation in VHDL code
+(ii) | Write structural VHDL description of 4-bit adder.
+(iv) Write VHDL statement for Synchronous and
+Asynchronous D-Flip-flop.
+(v) Explain Nine-Valued logic System for IEEE-1164
+standard logic.
+(vi) Differentiate between transport and Inertial delay
+model with examples.
+131852] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any two parts: 10x2=20
+|
+(i) Design the serial adder by accumulator with state
+diagram representation.
+(ii) | Design a behavioral model for 4x4 binary multiplier
+using state machine chart.
+(ii) | Write short notes on linked state machine.
+3 Attempt two parts: 10x2=20
+any
+(i) | Draw the state graph of Floating-point Multiplier
+with VHDL code using behavioral modelling.
+(ii) | Explain the logic behind floating point Multiplication.
+(ii) Write short notes on XILINX-4000 FPGA.
+4 Attempt any two parts: 10x2=20
+(i) Drawthe block diagram of RAM with state
+machine diagram.
+(i) | Draw the SM chart of Intel 486 bus interface
+and explain its bus cycle.
+(ii) Write behavioural VHDL code for RAM.
+5 Attempt two parts: 10x2=20
+any
+(i) | Explain generic BIST scheme.
+(i) | How fault can be detected using path sensitization
+method. Explain with example.
+(ii) Explain Boundary Scan Testing.
+131852] 2 [550]

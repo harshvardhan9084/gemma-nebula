@@ -1,0 +1,91 @@
+Printed Page: 1 oft
+Subject Code: BME30\
+Roll No: oe
+BTECH 2024-25
+(SEM ll) THEORY EXAMINATION
+THERMODYNAMICS M.MARKS: 70
+TIME: 3 HRS
+suitably.
+Note: Attempt all Sections. In case of any missing data, choose
+SECTION A OT
+1. Attempt a// questions in brief. Question Level
+| Qno. 4 | | 2
+Differentiate between open and closed system.
+b. | Define intensive and extensive properties. 2 | K2
+Define specific heat at constant volume. Thermodynamics? :
+What are the limitations of the First law of
+What is entropy generation?
+Define Joule — Thomson Coefficient
+Define saturation pressure and saturation temperature. | 5 } K3
+SECTION B
+2. . Attempt any of the following: | 07x3=21 |
+a. Explain reversible and irreversible process im detail. Also discuss the 1 K2
+~ | thermodynamic state, process, cycle and internal energy. ___—_—____ flowing
+b. A nozzle is a device for increasing the velocity of a steady Enthalpy | 2 K3 |
+| steam. At inlet to a certain nozzle,<the fluid parameters specific are: |
+| area=0.1m? and and the specific |
+| At the discharge end the enthalpy is 2650kJ/kg for the velocity of fluid at | —
+| volume is 0.49 m*/kg. Make flow the calculations of the fluid and exit area of the
+exit from the nozzle, horizontal mass and rate there is neglig ible heat loss from it.
+| nozzle. The nozzle is Planck and Clausius statements of 2nd Jaw of
+| c. State thermodynamics the Kelvin and also show the equivalence between~these two
+| | |
+ld. ™ | statements. Discuss Availability and Irreversibility in detail with suitable examples. ,
+| A steam turbine working on Rankine cycle is supplied with dry saturated |
+steam at 25bar and exhaust takes place at 0.2bar-. For a steam flow rate
+| | of 10 kg/s, determine: (a) quality of steam end of expansion, (b)
+| turbine shaft work, (c) power required to drive the pump (d) work ratio |
+| (e) Rankine efficiency and (f) heat flow in the condenser. — |
+SECTION C
+_3.___ Attempt any one part of the following:
+a. Discuss Zeroth Law of Dernve an expression for work 1 | K2
+_~__ done in adiabatic process for.an ideal gas. |
+b. A spherical balloon of Im diameter contains a gas at 200kPa and 1 x2
+During The gas the inside the balloon is heated until the of pressure reaches 500kPa. |
+Proportiona! Process diameter of heating, balloon. the pressure Find the gas Work inside the balloon is |
+inside the dalloen to of the Done by the gas
+|
+1|
+https://www.pyqonline.com
+Printed Code: Page: 2 of 2
+Subject BME301
+ER Roll No: | T T T
+BTECH
+(SEM HI) THEORY EXAMINATION 2024-25
+THERMODYNAMICS
+TIME: 3 HRS M.MARKS: MARKS: 70 70
+4. Attempt any one part of the following: 07x 1=07_
+[a _ When a system is taken from state a to state b, in Fig. along a path acb,| _ 2 | K2
+| 84 kJ of heat flow into the system, and the system does 32 kJ of work. |
+(a) How much will the heat that flows into the system along path adb, if |
+the work done is 10.5 kJ? (b) When the system is returned from ‘b’ to ‘a’
+along the curved path, the wor’ done on the system is 21 kJ. Does the
+system absorb or liberate heat, and how much of the heat is absorbed or
+liberated? (c) If Ua = 0 and Ud = 42 kJ, find the heat absorbed in the
+processes ad and db.
+| | | |
+Derive Steady Flow Energy Equation By considering suitable | 2 i K?
+| assumptions write the steady equation for nozzle and |
+‘ compressor.
+Attempt any one part of the.following:
+a Which is the more effective way to increase the thermal efficiency of a
+Carnot engine: To increase the temperature of source (Tu) while the sink
+temperature the (TL) is held constant or to decrease the sink temperature by
+result same would amount be affected while the source temperature is held constant. How the
+A heat engine is in case of a Camot heat pump?
+heat engine and used from to the drive a heat pump. The heat transfers from the
+circulating through the radiators heat of pump are used. td; heat the water
+engine is 27% and the COP of the a heat building. pump‘s.4. Thé efficiency of the heat
+| | the heat transfer to the circulating ‘heat Evaluate transfer the ratio of
+engine. water to the heat
+6. Attempt any one part of the following:
+a. Derive Maxwells equations.
+b. | Discuss in detail available and unavailable energy. What is the available
+“ _ energy referred to
+7. Attempt any one part of the following: 07 x1=07
+a. Explain working of Rankine cycle with T-s diagram and also derive the
+| thermal efficiency of the cycle.
+ib. Steam at 1000 kPa and 300 °C enters an engine and expands to 20 kPa. If
+{ | the exhaust steam has a dryness fraction of 0.9, make calculations for the
+|__| drop in enthalpy and change in entropy.
+https://www.pyqonline.com

@@ -1,0 +1,108 @@
+Printed Pages : 7
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 140307
+B.Tech.
+(SEM. Ill) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+STRENGTH OF MATERIALS & MACHINE DRAWING-I
+Time : 3 Hours] {Total Marks : 100
+Note : (1) This question paper consists of 3 sections.
+Section—A carries 20 marks, Section—B carries
+30 marks and Section-C carries 50 marks.
+(2) Attempt all questions. Marks are indicated against
+each question.
+(3) Assume missing data suitably if any.
+(4) Notations used have usual meanings.
+SECTION - A
+1 Answer all the following parts : =20)
+(a) If the ratio G/K = 0.3, then what is the value of
+Poisson’s ratio? Where E is the Modulus of Elasticity?
+G is the Modulus of Rigidity and K is bulk Modulus.
+140307] 1 { Contd...
+(b) Permissible bending moment in circular shaft under pure SECTION - B
+Principal
+bending is M, according to the Maximum
+What will be the value of Permissible Attempt Three parts of the following : (3x10=30)
+Stress Theory. any
+bending moment in the same shaft, according to the
+Theory (1) Prove that the ratio of depth to width of the strongest
+Maximum Shear Stress ? be from a circular log of diameter‘d’
+beam that can cut
+() For a General two dimensional stress system, what are is 1. 414, the depth and width of the strongest
+beain that be cut. from wood
+the coordinates of the centre of Mohr’s circle? can a circu whose
+(d) What do you mean by pure bending of a beam ? diameter is 300 mm.
+Define Slenderness Ratio of a column. 2) Derive the ratio of maximum and minimum values of
+What do you mean by Torsion of a shaft ? stresses for a curved bar of rectangular section in pure
+@) Sketch the convention of round section. bending. Radius of curvature is 8 cm and depth of beam
+(h) Name four head forms of rivets. is 6 cm. Locate the Neutral Axis.
+hand sketch of hexagonal bolt. (3) A rod consists of two parts that are made of steel and
+@ Draw the free a
+pitch and lead ? Give copper as shown in figure below. The elastic modulus
+What is difference between an expansion for steel
+example. and coefficient of thermal are
+200 GPa and 11.7x10® °C respectively and
+per
+for copper 70 GPa and 21.6x10° per °C respectively.
+If the temperature of the rod is raised by 50°C,
+2 { Contd... 140307] 3 {
+determine the forces and stresses acting on the steel 30 mm side, one diagonal of the square being along
+rod and
+copper rod. the middle line of the polished side. If E = 200 GPa
+le 0.5m re 0.75 m >| mm and Poisson's ratio is 0.25 .Calculate the change in the
+angles and sides of the
+square.
+75 mm
+SECTION - C
+Attempt all questions : (5x10=50)
+1. A thin cylinder with closed ends has an internal diameter of
+50 mm and a wall thickness of 2.5 mm. It is subjected to
+(4) Draw the Mohr’s circle for a 2-dimensional stress field axial pull of 10 KN and of
+an a torque 500 Nm while under
+subjected to : an internal pressure of 6MN/m2.
+(a) Pure Shear () Determine the principal stresses in the tube and the
+(b) Pure bi-axial tension maximum shear stress.
+(©) Pure uni-axial tension ( (I) Represent the stress configuration on a square element
+taken in the load direction
+@ d) Pure uni axial compression. P with direction and the
+magnitude indicated (schematic).
+(5) A flat bar of section 50 mm x 10 mm is subjected
+to an axial pull of 130 KN. One side of the bar is 2. Derive “Winkler —Bach formula” for bending of bars having
+polished and lines ruled it form of
+are on to a square initial curvature.
+140307]
+4 [ Contd... 140307] 5 [ Contd...
+A of circular section having A cylinder 60mm diameter and 80mm long stands with its
+closed coil helical spring cross
+mean diameter of 60 mm is subjected to an axial load of circular base on HP. A section plane perpendicular to VP and
+a inclined at 60 degree to HP cuts the axis at point 28mm
+80 KN applied at the end of spring producing a shear stress a
+N/mm? and deflection of 50 Find the diameter, below its top end. Draw sectional top and right views and
+of 100 a mm. true shape of the section.
+the number of coils, the length of the spring wire, and strain
+kN/imm?. | OR
+energy stored in the spring. Take G = 80
+Draw the following views of SOCKET and SPIGOT
+OR a
+COTTER JOINT used for Joining two rods of diameter
+In an experimental determination of the buckling load for 20mm :
+pin ended of various lengths,
+1.2 cm diameter mild steel struts Sectional front view
+two of the values obtained were:
+(I) A view looking from socket end.
+(1) When Length = 50 cm and load = 10 kN and
+Length 20 and load 30 kN and
+(11) When = cm =
+Make the necessary calculations, and then state whether either
+formula
+of the above values of loads conforms with the Euler’s
+critical load. Take E= 200 GPa.
+for the (
+of single riveted
+Draw the top view and sectional front view
+butt-joint with double cover plates. The thickness of the plate is
+Omm. Show at least three rivets. Indicate all the dimensions. Use
+calculation the sheet.
+snap headed rivets and show all on answer
+[ Contd... 140307] 7 2100
+140307] 6

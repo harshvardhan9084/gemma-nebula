@@ -1,0 +1,83 @@
+|
+Printed Pa 02 Sub Code: KOE-068
+Paper fd: Rall No. [
+B, Tech.
+(SKM V1) THEORY EXAMINATION 2022-23
+SOFTWARE PROJECT MANAGEMENT
+Time: 3 Hours Totai Marks: 100
+all Sections. If require missing data; then choose suitably.
+Note: Attempt any
+SECTION A
+=20
+1. aif questions in brief. 2x 10
+a. Explain how a B, Tech program is a project.
+b, Discuss Technical Risk in software project management.
+Discuss Function Point and comparc it with Lines of Code.
+of estimation technique,
+d. List out different types cost —
+c. Explain why Risk Planning is
+f Discuss the structure of activity node in aclivity network.
+Discuss advantages of software configuration management.
+g. Project if CPI>1.1 and
+h Explain cffcet on
+t. Explain the best method of staff selection. ...,
+J. Discuss role of leadership in project
+a
+en ° B hee
+i three of the 2, ‘
+Attempt any management _
+a! Discuss project portfolio with examples.
+COSMIC full function points for software cost estimation.»
+b Outline software project
+c. Work Breakdown Structure (WHS) in context to and product
+Discuss Framework for management & contrat in context,of cdst and schedule.
+e. Diseuss The Oldham —-Hackman job
+SECTION
+Attempt part of the faliowing: 10x1=10
+any one
+a characteristics of an objective of a project.
+tii)Explain management principles for controlling and monitoring a project.
+b. The status of cash flow for four projects is given in the following table. (Negative
+Project 2
+-1,000,000
+30 |
+200,
+000 30,000 30,000
+200,000 30,000 30,006
+https://www.aktuonline.com
+an 8 30700
+Calculate Net Profit (NP). Payback Period (PP). Return You on Investment discount (ROI) and Net be
+Present Value (NPV) on the basis of abuve table. may assume raic to
+as 10%.
+Attempt any one part of the following: 10x1=10
+Discuss Rapid Application Model for software development.
+software development
+Discuss Agile methodologies for
+10x1=10
+Attempt any one part of the follawing:
+Using CPM (i) Construct the project network. (ii)Perform Project Time
+Formulate following using forward and backward pass Gii ) Identify the critical contasns the label,
+respective estimation duration (in weeks) and its precedents.
+[Activity _| Duration (in weeks)
+Design an activity network diagram by taking a suitable example using PERT
+Technique. Find project schedule time and Critical path.
+Attempt one part of the 10x1=10
+any (EAC)
+Discuss Earned Value & Compute Estimate At Completion and
+Variance At Completion (WAC) if both SPI and CPI influence the project work when
+given variables are
+Budget At Completion (BAC) = $22,000
+Eamed Value (EV) (PV) = $13,000 $14,000
+Actuat Planned Cast Value (AC) $15,000 =
+=
+six months of its execution, You are now
+You are fnanaging a project and which have ts ascertained that the project is behind schedule.
+The reviewing actual the cost project of Activity A is you 2 88, that of Activity B is 1,00,000. The
+planned value of these activities is 2 1,80, % 80.000 respectively. Activity A is
+100% complctc. However, Activity B 75% Calculate the schedule
+performance index and cost of the project on the review date.
+Attempt any one part of the following: a 10x1=10
+Discuss the factors that influence staffing decisions in SPM and evaluate the of
+poor staffing decisions in project outcomes.
+Explain Professional and ethical concerns in Software project management.
+https://www.aktuonline.com

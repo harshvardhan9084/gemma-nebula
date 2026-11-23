@@ -1,0 +1,103 @@
+Printed Pages : 4 EEC302
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0323 | TT []
+rotnol |
+B. Tech.
+(SEM. THEORY EXAMINATION, 2012-13
+DIGITAL ELECTRONICS
+Time : 3 Hours | | Total Marks : 100
+1. Attempt all parts : 10x 2=20
+(a) What is the largest binary number that can be expressed with (1) 14 bits and (ii) 10
+bits ?
+(b) Convert (247.36). = (2)r6
+(c) If the number of states of a counter is 8, then find the number of flip-flops
+required for it.
+(d) Simplify the following Boolean expression.
+F =(AB + AB + AB)
+(e) What do you mean by Edge-triggering & Level-triggering in flip-flops ?
+() A 3-bit synchronous counter uses flip-flops with propagation delay time 20 ns
+each. Determine the maximum possible time required for change of state.
+(g) What is the maximum number of product terms in a minimal sum of products
+form of a function of n Boolean variables ?
+(h) What problem could when the counter circuit is powered-up ? Give two
+occur
+possible general methods for overcoming the problem.
+(i) address lines input-output data lines needed in
+many and are 2M x 8
+memory unit ?
+(j) Define Primitive Flow Table ?
+(k) What is the difference between an internal state and a total state ?
+0323 1 P.T.O.
+SECTION B
+-
+2. Attempt any three parts. 3x 10=30
+(a) Given :
+F=A-B-C-D+A-C+BC-D+B-C+A-C-D+A-B-C-D
+(i) Show using a K-map that F can be simplified to
+(ii) Show that there are a total of four possible expressions for F.
+(ili) Show F, can be implemented using NAND gates and draw the circuit
+diagram.
+(b) Using four half-adders :
+(i) Design a two-bit binary magnitude comparator.
+(ii) Realize expression F using 8-to-1 multiplexer.
+F = f(x, y, (A, 2, 4, 5, 7)
+(c) Explain the working of a Master — Slave JK flip-flop with functional table and
+timing diagram. Show how race around condition of master-slave SR flip-flop is
+over come.
+(d) Draw the Block Diagram, Data path and ASMD chart for a binary multiplier.
+(e) Obtain a primitive flow table for a circuit with two inputs, x, and and two
+outputs, z, and z, that satisfy the following four conditions.
+(i) When x,x,= 00, the output is z,z, = 00
+(ii) 1, andx, changes from 0 to 1, the output is z,z, = 01
+(iii) changes from 0 to 1, the output is 10
+z,z, =
+(iv) Otherwise, the output does not change.
+SECTION —C
+Attempt all 5 10=50
+parts : x
+3. Attempt any one part :
+(a) The state of 9 bit register is 111011010. What is its content if it represents
+(i) Three decimal digits in BCD ?
+(il) Three decimal digits in the excess-3 code ?
+(iii) Three decimal digits in the code
+8-4-2-1 ?
+(iv) A binary number ?
+0323
+(b) Simplify the Boolean function F = A’B’C’ + BC’D’ + A’BCD’ + using
+four-variable k-map. Explain briefly Prime Implicants.
+Attempt any one part :
+(a) (i) Design BCD Excess-3 Code Converter.
+a to
+(ii) Explain different types of RAM & ROM.
+(b) Implement the following Boolean function with a PLA
+(i) F(A,B,C,D)= > (0, 2, 5, 7, 11, 14)
+(ii) (0,3, 5, 7)
+Attempt any one part :
+(a) Design a Mealy and Moore state machines for the detection of sequence 0101.
+flip-flops A
+(b) A sequential circuit has two JK and B and input x. The circuit is
+described by the following flip-flop input equations.
+J,=Bx+B’y’ K,=B’xy’
+(i) Derive the state equations A (t + 1) and B(t + 1) by substituting the input
+equations for the J and K variables.
+(ii) Draw the state diagram of the circuit.
+6. Attempt any one part :
+(a) It is to formulate the Hamming Code for four data bits D3, DS, D6 and
+necessary
+D7, together with three parity bits P1, P2 and P4.
+(i) Evaluate the 7-bit composite code word for the data word 0010.
+(ii) Evaluate three check bits C4, C2 and Cl assuming no error.
+(iii) Assuming an error in bit DS during writing into memory. Show how the
+in the bit is detected and corrected.
+error
+(b) (i) Derive the ROM programming table for the combinational circuit that
+four-bit number.
+squares a
+(ii) Minimize the number of product terms of part (i).
+0323 3 P.T.O.
+7. Attempt any one part :
+(a) Design a sequential 8-bit multiplier. You can assume that a 16-bit adder has been
+provided. The finite state control be described by state diagram.
+can a
+(b) Explain Hazards in Combinational & Sequential Circuits.
+0323 4

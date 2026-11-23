@@ -1,0 +1,65 @@
+subject Printed Page: 1 of 2
+000 Cade:
+—
+Roll No:
+BTECH
+(SEM IV) THEORY EXAMINATION 2023-24
+COMMUNICATION ENGINEERING
+TIME: 3 HRS M.MARKS: 70
+Note: 1. Attempt all Sections. Ifrequire any missing data; then choose suitably.
+SECTION A
+1. Attempt al/ questions in brief. 2x7=14
+la. State the need of modulation in communication system.
+If modulation percentage of an amplitude modulated system is 100 %, then determine
+its efficiency.
+What is the effect of modulating signal’s amplitude on bandwidth of FM system?
+| Define the term figure of merit.
+le. | State two disadvantages of delta modulation.
+Find the Nyquist rate and Nyquist interval for the signal
+x(t) = 20sin(100xt) cos(200nt)
+State difference between conventional phase shift keying and differential phase shift
+keying. ~
+2. Attempt three of the following: VY 7x3=21 SY
+any
+a. unication system. The antenna “nega current wv:
+ded to a depth of 30 % by an audio is 1O A. It
+wave. What
+b.
+|__| d. system. With help of _ block _ diagram, discuss _ _<
+a neat
+e.
+3. Attempt any one part of the following: 7xl=7
+(a) | An Audio frequency signal 40 Mahal 500 t) is used to amplitude modulate a carrier
+of 200 Sin (6 x * 10° t).
+(j)Amplitude of message
+of each side Ran
+(ii)Total power deliverg ie load of 5 KQ
+(iv) Carrier Power x
+v) Transmission
+(b) | With help of iagram, illustrate the working of ring modulator as DSB-SC
+Modulator.
+4. Attempt any one part of the following:
+Why Pre-emphasis and De-emphasis is done in frequency modulation. Discuss in detail.
+With help of neat block diagram, discuss how FM wave is generated using AM wave
+and its vice-versa.
+5. Attempt any one part of the following: 7x1=7
+With help of a block diagram, discuss time division multiplexing.
+QP24EP2_290 | 23-Aug-2024 1:34:38 PM |
+https://www.aktuonline.com
+Printed Page: 2 of 2
+00 Cade: BECAD
+Roll No:
+BTECH
+(SEM IV) THEORY EXAMINATION 2023-24
+COMMUNICATION ENGINEERING
+TIME: 3 HRS M.MARKS: 70
+With help of neat diagram, explain the working of delta modulator.
+6. Attempt part of the following: 7x1=7
+any one
+State various types of noises that are encountered in a communication system.
+Prove that for a PCM signal, Signal to Quantization Noise Ratio (SQNR) in dB is given
+as |.8+6R, where R represents no. of bits per sample.
+7, Attempt any one part of the following:
+(a) | With help of wave forms, explain amplitude shift keying. Also draw the block diagram
+of its modulator and demodulator.
+https://www.aktuonline.com

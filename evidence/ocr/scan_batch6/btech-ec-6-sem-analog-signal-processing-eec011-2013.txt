@@ -1,0 +1,63 @@
+Printed Pages : 2 EEC011
+.
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 2481
+B.Tech.
+(SEMESTER-VI) THEORY EXAMINATION, 2012-13
+ANALOG SIGNAL PROCESSING
+Time:2Hours] [ Total Marks : 50
+|,
+SECTION-A
+1. Attempt all parts. 5x2=10
+(a) How do you compensate input error sources in op-amp ?
+(b) Draw the circuit of op-amp as zero crossing detectors.
+(c) Give differences between active and passive filters.
+(d) Draw the circuit diagram and write the transfer function of first order all
+filter. a pass
+(e) Give principal difference ‘between Operational amplifier and Operational
+Transconductance Amplifier.
+SECTION B
+-
+2. Attempt any three parts. §x3=15
+(a) A first order active high pass filter has-a pass band gain of two and a cut-off
+comer frequency of 1 kHz. If the input capacitor has a value of 10 nF, calculate
+the value of the cut-off frequency determining resistor and the gain resistors in the
+feedback network. Also plot its frequency
+(b) Explain the working of based Schmitt response trigger curve. and explain it provides
+op-amp how
+noise immunity. Also explain how Schmitt triggers can be used for eliminating
+comparator chatter. obtain
+(c) Explain the working of log amplifier in transdiode and the
+expression for output voltage.
+(d) Draw the circuit of passive second order High Pass filter using Resistance,
+a OTA.
+_ Inductance and Capacitance. Convert the same to an active filter using
+(e) Give the draw backs of zener based clamping amplifier. Explain the circuit
+techniques to‘overcome these drawbacks.
+2481 24811
+SECTION
+Attempt all questions in this section. §x§=25
+3. Draw the circuit diagram of an ideal integrator using op-amp, list the drawbacks of the
+same and suggest solution to overcome the same.
+OR
+Draw the circuit diagram of KHN-biquad. Find the transfer function of band reject,
+band and all pass functions. Also draw the phase plot of all pass function.
+pass
+4. Explain the working of op-amp as an amplitude demodulator:
+‘OR
+Pxplain the of peak detector.
+5. Draw the circuit of capacitance multiplier and find the equivalent circuit of the
+impedance you obtain.
+OR
+Draw and find the transfer function of basic voltage amplifier using OTA.
+_6. Explain the working of op-amp based NIC with proper circuit diagram and equations.
+OR
+Explain the concept of gyrator. Simulate an inductor using OTA (single ended). Draw
+its differential realization.
+7. the circuit diagram of full wave precision rectifier using op-amps also plot its V-I
+‘characteristic.
+OR
+Synthesize the circuit given below using OTA.
+C2
+Vin
+2

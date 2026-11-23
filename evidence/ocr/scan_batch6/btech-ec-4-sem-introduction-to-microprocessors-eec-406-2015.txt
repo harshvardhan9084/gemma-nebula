@@ -1,0 +1,79 @@
+www.aktuonline.com
+Printed Pages : 3
+0
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 110408
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+INTRODUCTION TO MICROPROCESSORS
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions
+(2) All questions equal . marks.
+carry
+1 Attempt any four questions. 5x4=20
+(a) Explain the various functions performed by
+microprocessor.
+(b) Draw and explain the architecture of 8085
+Microprocessor.
+(c) Explain the addressing modes of 8085.
+(d) Draw the timing diagram for OUT instruction.
+(e) Differentiate between Memory Mapped and 1/0
+Mapped.
+(f) Explain the generation of control signal in 8085
+microprocessor.
+110408] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any four questions. 5x4=20
+(a) Explain all stack related. instructions.
+(b) Describe the function of following pins:
+(@) | RESETIN
+(i) READY
+(ii) CLK OUT
+HOLD
+(c) Specify the register contents and the flag status
+the following instructions executed.
+as are
+A B S Z CY
+XX XX X X X
+SUB A
+MOV B, A
+INR B
+SUI 01H.
+HLT
+(d) What is subroutine? How is it useful? Explain the
+of stack in CALL and RETURN instruction.
+use
+(e) Give the difference between CALL-RETURN
+and PUSH-POP.
+(f) Write divide 17 by 4.
+a program to
+3 Attempt any two questions : 10x2=20
+(a) Classify the Interrupts of 8085 and explain all
+interrupts in detail.
+(b) Explain the concept of Pipelining in 8086. Also
+describe the register organization of 8086.
+(c) Explain the concept of segmented memory in
+8086. Also list its advantages.
+110408] 2 [ Contd...
+www.aktuonline.com
+4 Attempt two questions 10x2=20
+any :
+(a) A Binary number is stored location
+at memory
+2000H.Write a program to convert this Binary
+number to its-BCD equivalent.
+(b) Write a program using 8085 to multiply two
+2-Digit BCD numbers.
+(d) Write continuous
+a program to generate a square
+wave with the period of Assume the
+system clock period is 325 ns, and use bit D,
+the
+to output square wave.
+5 Attempt any two questions : 10x2=20
+(a) Briefly describe the command words of 8259 and
+also draw a neat interfacing diagram.
+(b) Give different modes of operation of 8253.
+(c) Explain various Handshaking signals in 8255. Also
+Describe its operating modes.
+110408] 3

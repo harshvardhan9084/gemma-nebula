@@ -1,0 +1,64 @@
+aktuonline.com aktuonline.com
+AU
+Printed Pages : 2 TIC - 603
+be filled in Answer Book)
+(Following Paper ID and Roll No. to your
+PAPER ID : 3099
+B. Tech.
+(SEM. VI EXAMINATION, 2008-09
+i PROCESS CONTROL ENGG.
+Time : 3 Hours] [Toial Marks : 100
+Note : Attempt ail questions. following:
+1 Attempt any four parts of the 5x4=20
+(a) Explain the operation of a silicon controlled
+rectifier.
+(b) What are the different types of analog signal
+conditioning?
+(c) Explain the basic linearization procedure.
+(d) What is integrator? Determine the equation of
+integrator for output voltage.
+(e) What are the different types of digital to analog
+convertors?
+Be (f) What is data acquisition system? Draw the block
+diagram of it.
+Attempt four parts of the following: 5x4=20
+any of final control operation.
+(a) Define the different parts
+(b) Explain the operating principles of ac and de
+motors.
+(c) Explain the principle of signal conversions.
+3099) [Conta..
+aktuonline.com
+aktuonline.com aktuonline.com
+(d) Describe the hydraulic activators.
+(e) Explain control valve
+(f) | sizing.
+of temperature using a sensor that
+outputs 6.5 mV/°C must measure to 100°C. A
+6-bit ADC with 10 volt reference is used. Find
+the temperature resolution.
+3 Attempt any two parts of the following: 10x2=20
+(a) Describe the different composite control modes.
+(b) Explain in detail process load, process lag and
+self regulation.
+(c) Explain two position and floating control mode.
+4 Attempt any two parts of the following: 10x2=20
+(a) Explain the cascade process control system
+with suitable block diagram.
+(b) Explain the three standard measures of quality in
+a control system.
+(c) Describe the control loop stability criteria with
+respect to a bode plot.
+5 Attempt any four parts of the following: 5x4=20
+(a) Explain how controller modes are implemented in
+DDC.
+(b) Define the sampling rate and sampling frequency.
+(c) Define the effecfts of aliasing in data sampling
+systems.
+(d) Explain the data logging.
+(e) What the elements of analog controller?
+(f) Describe are the implementation an of proportional
+controller using operational integral
+amplifier.
+}
+— 2 [2100

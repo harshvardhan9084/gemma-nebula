@@ -1,0 +1,108 @@
+Printed Pages—4 TMESOS
+Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 4078
+B.Tech.
+(SEM. V) ODD SEMESTER THEORY EXAMINATION 2012-13
+HEAT AND MASS TRANSFER
+ie 3 Hours Total Marks : 100
+Note Attempt all problems. Each problem equal marks.
+: carry
+1. Attempt any TWO: (10x2=20)
+(a) pipe of bore wall thickness,
+100 mm and 7 mm
+carrying steam of 260 C, is insulated with 40 mm of
+glass wool covering, this covering is turn insulated
+with 60 mm of asbestos felt. The atmospheric temperature
+is 30 C. The heat transfer coefficients for the inside
+and outside surfaces are 550 and 15 W/mK respectively,
+and the thermal conductivities of steel, glass wool and
+asbestos felt are 50, 0.09 and 0.07 W/mk respectively.
+Calculate :
+(i) Rate of heat loss per unit length of pipe.
+(ii) Temperatures at each X-section of the pipe.
+(b) Derive the expression for distribution in
+straight fin of temperature profile a
+rectangular assuming insulated
+end and the heat loss from the edge of the fin. Mention
+the advantages of using fin.
+(c) Derive 3-dimensional heat transfer equation in Cartesian
+coordinate system.
+TMES0S/DLT-44762 1 [Turn Over
+2. Attempt any TWO : (10x2=20)
+(a) (i) Explain the significance of fin effectiveness and
+fin efficiency.
+(ii) What are Fourier and Biot numbers ? What is the
+physical significance of these numbers ?
+(b) A fin of circular x-section, diameter 2.5 cm is placed
+in a furnace with large portion of it projecting in
+10 cm apart are found to be 110 C and 85 C. The
+convective heat transfer coefficient between the re
+surface and the surrounding air is 28.4 W/sq.mK.
+Determine the thermal conductivity of fin material.
+(c) A cylindrical stainless steel ingot 15 in diameter
+cm
+and 40 cm long passes through a heat treatment furnace
+which is 6 m in length. The temperature of the furnace
+gas is 1280 C. The initial ingot temperature is 100 C.
+The combined radiant and convective heat transfer
+coefficient is 100 W/sq.mK. Calculate the maximum
+speed with which the ingot moves through the furnace if
+it must attain 850 C temperature. Take K,,_, = 45 W/mK,
+a = 0.46 x 10°.
+3. Attempt TWO (10x2=20)
+any :
+(a) Discuss the analogy of heat and mass transfer. Define
+and explain Nusselt number, Prandtl number and Reync**
+number.
+(b) Explain the physical mechanism of free convection
+with the help of example and neat sketch. Discuss the
+significance of various dimensionless number to natural
+convection.
+TMES035/DLT-44762 2
+(c) Air at 34 C is flowing over a flat plate maintained at
+120 C with a free stream velocity of 5 m /s. The plate
+is 10 m long and | m wide. Calculate the local heat
+transfer coefficient at 0.5 m and 5 m from the leading
+edge of the plate. Also determine the heat transferred
+from the first 50 cm of the plate to air.
+For air take :
+Pr = 0.697, y = 20.76 x 10% sq.m/s, K = 0.3 W/m.K.
+4. Attempt any TWO : (10x2=20)
+(a) Explain the following :
+(i) Gray body
+(ii) Diffuse emitter
+(iii) Emissivity
+(iv) The greenhouse effect.
+(b) Two concentric spheres of diameter 0.8 m and 1.2 m
+are separated by an air space and have surface
+temperatures of 227 C and 127 C. Find the net rate of
+radiation exchange between the spheres.
+(i) If the surfaces black.
+are
+(ii) If the surfaces are diffuse and gray with € = 0.5
+and € = 0.05.
+(c) A 20cm diameter spherical ball at 800 K is suspended
+in the air. Assuming that the ball closely approximates
+a black body, determine :
+(i) The total blackbody emissive power
+(ii) The total amount of radiation emitted by the ball
+in 5 min.
+3 [Turn Over
+5. Attempt any TWO : (10x2=20)
+(a) tube heat exchanger uses water, which is
+available at 15 C, to cool ethylene glycol from 100 C
+to 60 C. The water and glycol flow rates are same at
+5 kg/s. Determine the effectiveness of heat exchanger.
+Take :
+C,(water) = 4178 J/kg.K
+C,(ethylene glycol) = 2650 J/kg.K.
+Can whether the heat exchanger ~
+working you in comment, parallel flow flow modes of ..
+or counter
+operation ?
+(b) Explain physical mechanism of condensation. Also
+discuss convective boiling inside a tube.
+(c) Write short notes on the following :
+(i) Filmwise condensation
+(ii) Flick’s law of diffusion.
+4

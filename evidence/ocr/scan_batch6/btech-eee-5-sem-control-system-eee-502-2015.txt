@@ -1,0 +1,88 @@
+Printed
+EEESO2
+(Following Paper Roll No. to be filled in your Answer Book)
+PAPER ID: 121504
+Roll No.
+B. Tech
+(SEM V)CARRY OVER EXAMINATION, 2014-15
+CONTROL SYSTEM
+Time: [Total Marks : 100
+Note: (1) Attémpt all Questions.
+(2).All question carry equal marks.
+1) Attempt ANY FOUR of the following: (5x4) 20
+=
+(a) Compare Open Loop and Closed loop System with
+example.
+(b) A-system is represented by differential equation.
+Where xis i/p and y is o/p. Derive the Transfer function
+of the system.
+MMM
+dy 2dy + dx
++ 5 = + 4x
+dt= dt dt
+121504) (Contd...
+(1)
+www.uptuonline.com
+shown
+(c) Write the Gain of following Signal flow graph
+in fig 1, by using mason’s gain Formula.
+Fig 1
+(d) Using block diagram reduction techniques obtain C/
+R by reducing the block diagram shown below in figure
+Fig. 2
+Explain the effect of feedback Gain, Band Width.
+(e) on
+121504] (2) [Contd...
+(f) Definesand write mathematical expression for
+Standard input signals used in Control System.
+Attempt ANY FOUR of the following: (5x4) = 20
+(a). Forasystem having closed loop transfer function for
+unit step i/p determine Wn, Mp, Wd, damping factor.
+64
+In=
+(b) Derive steady state error expression of open
+loop transfer function G(s):having unity feedback
+system. Obtain ess for unit ramp input.
+(c) Derive Kp, Kv and Ka for second order control system.
+(d) The open loop transfer function is given G(s) = 40 /
+s*(0.2s+1), H(s) =1, find Dynamic error using error
+series where r(t)= 0.1 (rad)
+(e) State the principle of proportional control.action with
+mathematical expression and its characteristics.
+(f) Write short note on —(i) ISE (ii) IAE
+of the following: (10X2) 20
+3) Attempt ANY TWO =
+(a) (i) Whatdo you mean bystability? Define stable control
+system.
+MMM
+[Contd...
+121504] (6) 421504] (3)
+www.uptuonline.com
+(ii) Determine the stability of the system whose 5) Attempt ANY TWO of the following: (10X2) = 20
+characteristic equation is given as-
+(a) Design a lag compensator for a system whose open
+(b) Sketch the root locus of the system whose open loop loop transfer function is
+transfer function is 1/ s(s+1)(0.5s+1)
+G(s) H(s) =
+G(s) H(s) = K / s(s+5)(s+10) it will fulfill following requirement-
+(ii)
+Write Short note on (i) Stepper Motor Servo Motor (i) Static velocity error constant (ii)
+Attempt ANY TWO of the following: (10X2) = 20 P.M=402(iii)G.M.=10db
+(a) Sketch Bode plot for the following transfer function (b) Discuss Integral, Derivative controller with their
+and determine the gain margin, phase margin. application, write their advantage & disadvantages
+also. ‘
+G(s) H(s) = 80 / s (20+s)(2+s)
+the (c) Define following terms-
+(b) Sketch Nyquist plot & decide the stability for
+G(s)H(s)= 20/ (s+3)(s?+2s+2) (i) State
+the following frequency (ii) State Variable
+(c) Define response
+specifications. (iii) State vector
+i) | Resonance peak
+(iv) State space
+ii) Bandwidth
+(v) State equation
+iii) Cutoff frequency
+iv) gain margin
+1225
+121504] (4) 121504] (5)

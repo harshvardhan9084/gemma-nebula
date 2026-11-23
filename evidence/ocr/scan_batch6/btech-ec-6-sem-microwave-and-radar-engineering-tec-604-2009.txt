@@ -1,0 +1,94 @@
+Printed Pages : 4 TEC - 604
+(Foliowing Paper ID and Roll No. to be filled in Answer Book)
+PAPER ID: 3094 your
+B. Tech.
+(SEM. VID EXAMINATION, 2008-09
+MICROWAVE AND RADAR ENGG.
+Time 3 Hours] [Total Marks
+: : 100
+Note : Attempt all questions.
+1 Attempt any four of the following 5x4=20
+:
+(a) Derive the field component present in TM11
+mode of propagation in rectangular waveguide
+and draw its field pattern.
+(b) A rectangular air filled copper waveguide
+with dimension 2.28 cm and 1.01 cm is
+operated at 9.2 GHz with dominant mode.
+Find cut-off frequency, guide a wavelength, phase
+shift, phase velocity and characteristic
+impedance.
+(c) air-filled circular
+An cylinderical cavity has a
+radius of 3.5 cm.. The cavity is tuned by a
+plunger that allows the length to be varied from
+5.2 to 6.8 cm. Determine the range of resonating
+frequency.
+3094] [Contd..
+(d) What are the various ways the electro magnetic
+waves can be coupled to wave guide. How
+TE10 mode can be excitod in Rectangular
+waveguide.
+(e) With figure discuss the working of Mateched
+and short terminations.
+(f) How VSWR of an unknown load can be
+measured by using reflecto meter tachnique.
+Attempt FOUR of the following 5x4=20
+any :
+(a) What are scattering parameters. How they one
+important at microwave frequencies. Discuss
+its properties.
+(b) With the help of diagram. Explain the working
+of Magic Tee. Discuss any of its two
+applications.
+(c) Give two examples of reciprocal devices and
+explain the working of any of them.
+(d) A three port circulator has an ensertion loss
+of 1 dB, isolation 30 dB and VSWR = 1.5 Find
+the S malux.
+(e) Explain the working of crystal debctor and
+discuss its relevance in the measurement of
+microwave power.
+(f) Explain the methods of measurement of ferquency
+using Microwave bench setup.
+3094] [Conta..
+3 Attempt any two of the following : 10x2=20
+(a) (i) A reflex Klystron is operated at 9 GHz 6
+with dc beam voltage of 600 V for 13
+mode, repeller space length Imm, dc
+beam current 10 mA. The beam coupling
+coefficient is assumed be 1. Calculate,
+to
+the repeller voltage, electronic efficiency
+and output power.
+(ii) How bunch formation takes place in 4
+duft region in two cavity Klystron ?
+Explain.
+(b) With support of diagram explain 8 Cavity 10
+Magndron. Discuss the role of slow wave
+in
+strcture TWT.
+(c) (1) What is the operating principle of
+5
+GUNN diode Explain its working.
+(ii) With support of diagram, explain the 5
+working of I M P A T T diodes.
+4 Attempt any two of the following 10x2=20
+(a) With schematic diagram, explain the working 10
+of travelling wave tube and compare it with
+multi cavity klystroi.
+3094) [Conta.
+ry
+(b) What is Varactor diode? Discuss its two 10
+application How TRAPATT can be designed
+using IMPATT and how it is important.
+(c) With block diagram explain the working of 10
+any ADAR.
+Attempt two of the following 10x2=20
+any :
+(a) Describe the operating principle and application 10
+of Radars.
+importance
+(b) Discuss the of Radar clutters. 10
+(c) Explain the working of Radar Receiver for 10
+pulse Radar.

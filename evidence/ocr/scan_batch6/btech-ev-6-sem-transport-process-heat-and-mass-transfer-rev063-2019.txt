@@ -1,0 +1,42 @@
+Printed pages: 01 Sub Code: REV063
+Paper Id 900061 Roll No.
+BTECH
+(SEM VI) THEORY EXAMINATION 2018-19
+TRANSPORT PROCESS: HEAT AND MASS TRANSFER
+Time: 3 Hours Total Marks: 70
+Note: Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+Attempt all questions in brief. 2x7=14
+Explain the terms steady flow.
+State the Difference between heat and temperature
+What are the three levels at which transport phenomena can be studied?
+Is the law of conservation of mass always valid? What are the limitations?
+Discuss the concept of mass diffusivity.
+What is meant by rheological properties?
+How does transient heat transfer differ from steady state heat transfer?
+SECTION B
+Attempt three of the following: 7x3=21
+www.aktuonline.com a) Explain different any models for turbulent flux?
+Discuss the quantitative relations for turbulent boundary layers.
+c) Explain about unsteady state one dimensional momentum & heat transfer? Give
+examples?
+d) What is the science of “rheology”?
+e) Define effectiveness factor for porous catalysts.
+SECTION C
+Attempt any one part of the following: 7x1=7
+What are Analogies in different transport processes?
+Derive the equation of continuity of a component in multi component mixture?
+Attempt part of the following: 7x1=7
+Write short any notes one on flow turbulence and boundary layer theory.
+Obtain the shell balance equation for laminar flow of liquid in an annulus. Also derive the
+expression for velocity profile in it.
+Attempt any one part of the following: 7x1=7
+What Why do limitations we deal only have with be differences placed in normal of the stresses generalized for incompressible Newtonian models liquids. and the
+linear visco elastic models? to on use
+Attempt any one part of the following: 7x1=7
+What is meant by Newtonian fluid and Non- Newtonian fluid? Explain with an examples.
+Explain the types of Non-Newtonian fluids in details.
+Attempt any one part of the following: 7x1=7
+What are the differential driving forces for heat and mass transports?
+What is diffusion? Explain the temperature & pressure dependence of mass diffusivity?
+http://www.aktuonline.com

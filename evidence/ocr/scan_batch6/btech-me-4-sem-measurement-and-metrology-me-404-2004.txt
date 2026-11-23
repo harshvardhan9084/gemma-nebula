@@ -1,0 +1,94 @@
+aktuonline.com en aktuonline.com
+[| [| i ttt td
+No. of Printed Pages—3 ME-404
+B. TECH.
+FOURTH SEMESTER EXAMINATION, 2003-2004
+MEASUREMENT AND METROLOGY
+Time : 2 Hours Total Marks : 50
+_~Note : (1) Attempt ALL questions.
+(2) Marks are shown against each question.
+1. Attempt any FOUR of the following :— (3-5x4=14)
+(a) Enumerate desirable static performance
+characteristics of measuring instruments.
+Explain the terms, DEAD ZONE and
+HYSTERESIS.
+(b) The of furnace
+the temperature of 240°C a hour. is increased at
+rate used should per The measuring of
+instrument than 8°C. What not show an error
+more permissible, if the maximum time
+constant first order is ? instrument has
+a type response
+(c) Explain the principle of operation of a
+L.V.D.T.
+(a) Explain how a compound gear-train can be
+used to achieve amplification of a mechanical
+signal.
+(e) The resistance R of a circuit is found by
+measuring the current and the power fed
+into the circuit. Find the limiting error in
+211 measurement of R, if the limiting errors in
+the measurement of power and current are
+and respectively.
+ME-404 1 Turn Over
+aktuonline.com
+aktuonline.co aktuonline.com
+(8 the construction and operation o
+a D’ARSONVAL galvanometer.
+2. Attempt any FOUR of the following :— (3x4=12)
+(a) Describe the principle and operation of a
+stroboscopic tachometer.
+(b) Sketch the basic functional form of a seismic
+instrument. How is the same instrument
+used for measurement of displacement as
+well as acceleration ?
+What is a ring balance and how is it used
+for measurement of pressure ?
+(d) A strain having electrical resistance
+of 120 ohms gauge and an factor of 2-1 is
+used to test steel a specimen gauge subjected to
+axial tensile a load. Calculate the induced an
+strain if the increase in resistance is
+shown to be 0-134 ohms. gauge
+(e) Describe, with the help of a sketch, a
+hydraulic load cell for force measurement.
+(f) What does IPTS stand for ? Describe the
+functioning of a disappearing filament type
+optical pyrometer.
+3. Attempt TWO of the following (6x2=12)
+any :—
+(a) Why are comparators used in metrology ?
+Describe, features with the of help SIGMA of a sketch, the
+essential a comparator.
+(0) What are the devices commonly used for
+precision a measurement of angles ? Explain
+how this precision spirit level can be used for
+purpose.
+(c) Write short notes on :
+(i) Slip gauges
+ME-404
+aktuonline.com aktuonline.com
+(ii) Combination angle gauges
+(iii) Unilateral and bilateral system of
+tolerances
+(iv) The meaning of 50 H, in the context of
+limit and fits.
+4. Attempt any TWO of the following :— (6x2=12)
+(2) What are the important parameters which
+should be checked while inspecting a
+precision screw thread ? Describe, briefly, the
+three-wire method for ascertaining the
+effective diameter of a screw thread.
+(b) Explain the meaning of the following terms
+with reference to surface finish and its
+measurement :-—
+(i) Roughness
+(ii) Waviness
+(iii) LAY
+(iv) Sampling Length
+(v) Ra Value
+(vi) Ten point height of irregularities (R,)
+(c) What do understand by the term,
+“flatness” you ? What methods are used for
+checking flatness ?
+aktuonline.com

@@ -1,0 +1,95 @@
+Printed Page: 1 of 2
+Subject Code: BMES01
+PAPER Roll | | | | | | a | |
+No:
+BTECH
+(SEM V) THEORY EXAMINATION 2025-26
+HEAT & MASS TRANSFER
+TIME: 3 HRS
+Note: Attempt all Sections. In of missing data; choose suitably. M.MARKS: 70
+Steam table is allowed. case any
+NTU-Effectiveness graph is allowed if required.
+SECTION A
+Attempt ai// questions in brief.
+Question
+Define conduction,
+| Thermal conductivity convection and radiation with one example each. iam
+5mm thickness of copper is 400 W/mK. What heat flux
+a A across composite wall has thermal when AT=30°C? —
+overall heat transfer coefficient. resistances and R2. Write expression
+| Define the Lumped Capacitance
+Give expression Method ~~ vane
+D=40mm, v=1. for Reynolds number and calculate for air flow
+What the Stefan-Boltzmann law,
+power is of a blac body? and how do,
+Using transient conduction relations and Heisler chart, ore ¢ center
+temperature of a steel plate (20mm) initially 25°C placed 4 E furnace
+for 5 min (given | a). ms
+Air at | atm and 25°C flows over surface at 50°C. Ubi . analogy
+determine heat transfer coefficient if friction
+“heat emitted at 800K
+3. radius
+Derive expression of critical in for cylinder and compute the
+radius for insulation k=0.12W; air film h=10W/m?K.
+A Calculate cylinder critical of diameter radius is insulated with material (k=0. 08W/mK).
+120°C, ambient 30°C. heat transfer rate for surface temperature
+Derive temperature distribution in uniform
+efficiency for L=120mm, k=200W/mK, a h=25, fin and calculate fin
+b. | A pin fin of diameter 10mm, 100mm loses t=4mm. to
+arr oe K=(s0 heat air at 25°C, base
+At [20°C , h= 22 wimkK find het
+,
+https://www. aktuonline.
+com
+Subject Code:
+PAPER ID-310540 | | |
+Roll No:
+BTECH | a
+(SEM V) THEORY EXAMINATION 2025-26
+HEAT & MASS TRANSFER
+Section C
+4 (a) Derive temperature distribution in a Straight (Rectangular) uniform fin
+and calculate fin efficiency for L=120mm, k=200W/mK, h=25, t=4mm.
+5(b) A vertical plate 100°C exposed air 25°C. Using Churchill—Chu rx
+at to at \
+correlation, estimate heat transfer given). ni .
+\
+¢ Thermal conductivity (k): 0.026 W/m-K
+® Kinematic viscosity (v): 1.57 x 10°
+© Prandti number (Pr): 0.71
+roy >
+(assume length of plate as
+NS }
+we
+:
+Sv
+PA
+%
+QPZ6DP1_467 | 31-Dec-2025 AM | 182.72.114.114
+https://www.aktuonline.com
+Printed Page: 2 of 2
+Subject Code: BMES01
+PAPER 1D-310540
+Roll No:
+BTECH
+(SEM V) THEORY
+HEAT EXAMINATION 2025-26
+TIME: 3 HRS & MASS TRANSFER
+M.MARKS: 70
+5. Attempt
+Derive laminar any one part of the following: 07x1=
+for air 25°C flowing flat plate heat transfer expression and using it calculate h
+A vertical at at 2m/s, x=0,4m. What is average coefficient?
+correlation, plate estimate at 100°C exposed to air at 25°C.
+heat transfer coefficient
+Explain shape
+plates of area factor sepz and dhe amine
+1m? a
+7. Attempt
+A flow any one part of the following: fom 07x1=07
+30-+60°C. counter Calculate heat exchanger cools water 80—+40°C using oil from
+area=20m?. NTU and effectiveness x and
+|b. | Draw the heat flux
+curve for various aa boiling. |
+aktuonline.
+com

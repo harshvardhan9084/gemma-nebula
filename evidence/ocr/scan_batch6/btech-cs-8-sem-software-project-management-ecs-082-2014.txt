@@ -1,0 +1,58 @@
+Printed Pages—3 ECS082
+(Following
+Paper ID and Roll No. to be filled in your Answer Book
+PAPER ID >
+B.Tech.
+(SEM. VIII) THEORY EXAMINATION 2013-14
+SOFTWARE PROJECT MANAGEMENT
+Time : 3 Hours Marks 100
+Note Attempt alll questions. :
+:~
+1. Answer any two parts : (2x10=20)
+(a) What do by
+you mean the software project estimation ?
+Give various estimation models. Describe any one of the
+estimation models using suitable examples.
+(b) Explain Need and Identification of Software Project
+Management. Also write vision and document
+a scope
+according to the IEEE standard in respect of SPM.
+(c) Write short notes on :
+@ Decision Process.
+(i) Software Project Planning and its scope.
+2. Answer
+any two parts : (2x10=20)
+(a) Differentiate between :
+PERT and CPM
+Gi) Gantt chart and Milestone chart
+ECS082/DQJ-21757 1 [Turn Over
+(b) Describe Project schedule with | (b) What do by Testing ?
+you mean Describe Type and Levels
+(i) Scheduling Objectives of Testing in brief. Also discuss all Testing strategies with
+(ii) Scheduling Terminology suitable example and diagram.
+(itil) Scheduling Techniques (c) Describe
+the following terms :
+in detail with suitable example. (i) Clearoom process.
+(c) Write short notes
+on : (i) SEI - CMM.
+(i) Work breakdown structure with its type. 5. Write notes on any two parts : (2x10=20)
+cycle.
+(i) Project life cycle and Product life ( (a) Software Configuration Management
+3. Answer any two parts : (2x10=20) (b) Risk Management Process
+(a) What do you mean by 'Code ? Also discuss the (c)_
+difference between Code Inspection and Code Walkthrough.
+(b) What do you understand by ‘Earned Value
+? Discuss the following indicators :
+(i) Cost Variance (CV)
+(ii) Schedule Performance Index (SPI)
+(iii) Cost Performance Index (CPI)
+(c) Describe the characteristics of a good software metric.
+Also discuss various software metrics for Project
+Monitoring. (
+4. Answer two
+any parts : (2*10=20)
+(a) How would you define Quality’ ? What do you
+by Software Quality Assurance ? Also discuss the
+mean Quality
+various Software Activities.
+ECS082/DQJ-21757 2 i ECS082/DQJ-21757 3 10050

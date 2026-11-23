@@ -1,0 +1,105 @@
+aktuonline.com aktuonline.com
+{D and Roll No. to be filled in your Answer Book)
+{
+B. Tech.
+oa VHD EXAMINATION, 2008-09
+COMMUNICATION SYSTEMS
+fine 2 3 [Total Marks : [0
+Neto all questions.
+i four of the following sn
+any a
+each of the BORSCHT functions of
+suoseriber line interface circuit.
+the Touch Tone Signaling Frequency.
+fc) is the main advantage of the crossbar
+system over the step-by-step switching
+|
+the term nonblocking as applied to a cross
+switch matrix.
+fei digital signal contains 24 eight bit PCM
+channels TDM ona cable. One synchronizing bit
+per frame is supplied and the sampling rate is
+Determine the bit rate on the cable.
+me the Via net loss ofa trunk circuit that involves
+Xpi of microwave relay circuits with an
+velocity of propagation of 299 Mm/s. What
+is the round trip delay on the circuit ?
+aktuonline.com x
+aktuonline.com
+3 Attempt any four of the
+(a) Explain one form of and
+explain how the 0)
+(b) Explain the term es applied to
+fascimile.
+(c) The index of cooperaiio: machine
+is 352. Its speed of is OO and the
+scanning pitch is the rpm theoretical
+bandwidth required my channel.
+for the
+(d) In the US NTSC aspect ratio is
+4/3, the total number of bne tne periods per frame
+is 525, and the number ©! lines is
+40 per frame. Find the motu
+in number of pixels.
+pixels periods in line .
+a
+(e) Draw a block diagram cfs TV receiver
+sharing all the important finerens irom the tuner
+to the picture tube. _,
+(f)} Write short
+a note on High Dectinition Television.
+Attempt anv two of the
+(a) Draw a functional block ofa pulse radar
+and describe the zach block
+(b) (i) Calculate the maximum range of a radar
+system which operate ai 3 cm with a peak
+pulse power of Tf its minimum
+receivable power is W. the capture
+area of its antenna is 3 m° and the radar
+cross sectional area G! the target is 20 m2,
+0295] 2 [Contd.,
+aktuonline.com
+(ii) An ic operates at 5 GHz
+a pulse repetition frequency of 800 PPS.
+Calculate vic lowest three blind speeds of
+this races
+(c) Write short or the following :
+(i) Multiple access techniques
+(ii) Mobile co: standards as GSM,
+UMTS.
+Attempt any two of the following : 10x2
+(a) State and expiain Kepler's laws in relation to
+artificial orbiting the earth. What the
+satellites are
+important system necessary in a geosynchronous
+satellite ?
+G) An earth station at latitude 20° S and
+longitude 30° W is working into a
+geostationary satellite situated at longitude
+30° E. Determine the look angles and the
+range.
+(ii) The coordinates for an earth station are 43
+South, 30° east. Calculate limits of visibility.
+Satellite Communication Channel, the
+fc) Fora
+uplink Cys, ratio is 88 dBHz and the
+overall
+(ii) The recuired ratio for digital
+a
+satellite link is 9.6 dB and the bit rate
+is 1542 \Nibps Calculate the required
+C/N, ratio.
+0295} 3
+aktuonline.com aktuonline.com
+5 any ave parts of the follow...
+the difference betwee
+ang a graded index fiber
+can occur Wilh ~
+vie dispersion as tO
+s and a wave guide of
+Find the maximum
+fer the fiber with a pulse width of 2 5
+(c} Write short notes on the following
+Photo detectors
+fiber optic communication in! ]
+aktuonline.com

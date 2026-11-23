@@ -1,0 +1,164 @@
+Printed Pages : 7 TEC-504
+(Following Paper iD and Rol! No. to be filied in your Answer Book)
+PAPER ID : 3088
+B. Tech.
+(SEM. VY) EXAMINATION. 2008-09
+AUTOMATIC CONTROL SYSTEM
+Time : 3 Hours| [Total : 100
+Note : fi) Answer all questions, All questions carry
+equal marks.
+(2) Choices are internal io each question.
+be the
+(3) Answers must to point.
+(4) Assume practicable data in case any are
+(3) May assume names of missing variables
+and if
+constanis, necessary.
+(6) Throughout this paper ©, represents
+angular frequency of natural resonance,
+C is damping factor.
+1 Answer any four paris
+(a) Reduce the block diagram shown in Fig. Ifa) 5
+using block diagram algebra and obtain the
+transfer function C/R
+system :
+Fig. 1 (a}
+My,My ky, ky
+(b) In Fig. 1 (b) are mass. are §
+spring fy. fg coefficient of solid
+constant, are
+friction, displacement and F is
+are
+force. Is the system linear ? Justify your
+answer, Assume that static and dynamic frichon
+coellicients are equal
+Fig. 1 (b)
+sf,
+(c) If now in Fig, 1(b), are viscous drag 5
+constants instead of coefficient of solid Mction,
+the linearity of the system, With
+comment upon
+F as input and x, as output, what will be the
+order of the system and why ?
+3088] | 2 (Contd...
+In context of Signal Flow Graph, define 5
+(i) Input Node
+(ii) Output Node
+(iii) Path
+(iv) Loop
+(tv)
+(e) Form the Signal Flow Graph for the system §
+described in question no. | (c)
+(f) Classify the following control systems used at 5
+home loop closed loop
+as open or :
+Electronic fan reguiator and
+(i) Electric Iron {to press clothes). Why are
+closed loop considered better ?
+systems
+Why certain open loop systems are still
+used ?
+2 Answer any four parts |
+(a) In a contro! system represented in Fig. 2 (a), 5
+deduce the expression for unit step response
+Fig. 2 (a)
+EE
+3088] 3 (Contd...
+With respect to unit step response of a system 5
+define the following
+(i) Peak overshoot
+(41) Rise time
+Delay time
+(iv) Settling time
+{v) Steady state error,
+(c} The transfer function of single
+a order system $5
+is given as ~
+T(s) - ——
+Find the settling time for step response.
+Tolerance band is +10%.
+(d)} Explain dynamic error constants and their utility.
+fe) What purpose may derivative error compensation §
+serve ? How does it affect important transient
+specifications like peak overshoot and settling
+time ?
+(f) Compute the Integral Square Error of an under- §
+damped standard second order for its
+system
+unit given (with C in
+step response as os
+first quadrant) :
+—Ca,,t
+C(t) = 1- Trey Sin} (1 + Cos |
+3088)
+3 Answer two parts
+any
+{a) In the control system shown in figure-3(a), 10
+first and plot the asymptotic
+assume
+magnitude and phase Bode Plots for the
+forward path gain G(s) semilog
+on a
+graph paper. Assuming these asymptotic
+plots be accurate, find the Gain Margin
+to
+and Phase Margin. From the plot also
+compute the value of K where the system
+just becomes unstable.
+K(s + 30}
+Gts) x) = sis ——————_ + 3)(s +7)
+Fig. 3 (a)
+(b) a note to explain Nyquist plot with 10
+examples. How it helps in stability analysis ?
+What happens to the Nyquist contour when
+there are open loop poles on the imaginary
+axis ?
+OR
+Write a note on Root Locus, its construction
+and utility
+Although practically only the time of 16
+response
+a control system matters, the frequency response
+is still studied in detail. Why is it so ?
+frequency
+Explain the correlation between the
+response and the unit step response of a simple
+second order system. Emphasize how can
+on
+one find out the time domain specifications
+from the frequency response.
+4 Answer any two parts :
+(a) Under what circumstances lag 10
+compensators
+are used in cascade ? Explain the use of cascade
+lag compensator to improve the performance of
+a system by root locus method. Why under most
+circumstances, the pole and the zero of the lag
+placed close each other and
+compensator are to
+also to the origin ?
+(b) Bode plot of a control system shows insufficient 10
+phase margin. To improve upon it, you want to
+place a compensator in cascade. What type of
+compensator will you use ? Explain the design
+process with an example.
+(c) Write short circuit implementation of 10
+a note on
+simple compensators
+3088) 6 Conta...
+Answer two parts
+any
+(a) For the system described in question no. 10
+choose suitable state variables and form the state
+equations. Is your state transition matrix in any
+canonical form ?
+(b) Define the exponential of a matrix. Explain why 10
+- Jordan canonical form matrices are important for
+easy of state equations.
+(c) Write note (any one) 10
+a on -
+Fuzzy Control
+OR
+Application of Neural Networks in Control
+Engineering.
+3088] EMMY 7 {9900 |

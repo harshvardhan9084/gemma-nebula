@@ -1,0 +1,142 @@
+aktuonline.com aktuonline.com
+No. of Printed Pages<4 EE-402
+B. TECH.
+FOURTH SEMESTER EXAMINATION, 2002-2003
+ELECTRICAL MACHINES
+Time Total Marks 100
+: 3 Hours :
+Note ALL the Five questions.
+-~1. FOUR of the following (5x4=20)
+any :—
+(a) Explain the process of voltage build-up in a
+critical d.c. shunt resistance generator. ? What is the field circuit
+(0) Draw external characteristics of d.c.
+separately and excited explain drooping shunt-excited
+generators in other with more reasoning. nature
+one over proper
+A 10-hp, 230 V shunt motor has an armature
+resistance of 0-5 Q and field circuit resistance
+of 115 Q. At no-load and rated (full) voltage
+the speed is 1200 r.p.m. and armature current
+is 2 A. If load is applied, the speed drops to
+1100 r.p.m. Determine the armature current
+and the line current.
+(4) Explain, with suitable diagram, the armature
+reaction in d.c. machines. Give methods of
+compensating the armature reaction.
+(¢) Which of the following three motors has the
+poorest speed regulation : shunt motor, series
+motor, or cumulative compound motor ?
+Explain.
+(f) Why is the electric braking of electric motors
+superior to mechanical braking ? How is
+dynamic braking of d.c. shunt motor done ?
+Explain.
+EE—402 1 Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+2. Answer any TWO parts of the following :— (10x2=20)
+(a) What are the different methods of speed
+control of a d.c. motor ? Give advantages
+and disadvantages of each in brief. Why is it
+dangerous to uncouple the mechanical load
+of a d.c. series motor ?
+(b) With the help of Speed-Torque characteristics,
+describe the operation of an electric motor in
+all the four-quadrants. Which of the
+quadrants which for are braking reserved Explain. for motoring and
+are ?
+(c) Define voltage regulation of a transformer.
+The following 2400/240 test data were taken on 25
+KVA, low voltage V, winding 50 Hz transformer shorted = with and
+measurement made h.v. side
+on :—
+V=415V, J=21:7 A, W.
+Calculate the voltage regulation of this
+transformer when it supplies full load at 0-8
+p-f. lagging. Neglect the magnetising current.
+FOUR of the following (5x4=20)
+Answer any parts :—
+(a) Describe various losses in a transformer.
+Explain how each loss varies with load
+current, supply voltage and frequency.
+(b) Discuss relative advantages and disadvantages
+of employing three, 1-phase transformers for
+use in 3-phase operation over employing a
+single unit 3-phase transformer.
+(c) Show that the magnetic field produced in
+the air gap of a three-phase Induction motor
+is of rotating nature. Give the expression of
+this speed in terms of poles and frequency of
+supply.
+EE—402 2
+aktuonline.com
+aktuonline.cpm caktuonline.com
+The power input to the rotor of a 400 V, 5
+Hz, 6-pole, 3-phase. Induction motor is 80
+KW. The rotor e.m.f. is observed to make 100
+complete alternations per minute. Calculate
+slip, mechanical power developed and rotor
+copper loss.
+(e) (i) Explain, why a 3-phase induction motor
+is self-starting motor.
+(ii) The magnetising current in a
+transformer is 2 to 5% whereas in
+3-phase induction motor, it is about
+25-40% of rated current. Mention the
+reason.
+(f) A voltage v=200sin 3147 is applied to the
+transformer winding in a no-load test. The
+resulting current is found to be
+i=3sin
+Determine the core loss and the parameters
+of no-load approximate equivalent circuit.
+TWO of the following (10x2=20)
+4. Answer any :—
+(2) By means of a power-flow diagram, show
+from the flow of elecrical power in a 3-ph induction motor
+load the the source shaft. to Based the mechanical above,
+_ show at that motor on
+Poi Pay cu m
+where P,, P.,, P,, are air gap power, rotor
+copper loss and mechanical power developed
+respectively and s is the per unit slip.
+(b) Draw and explain the  torque-slip
+characteristic of a typical 3-phase induction
+EE—402 3 Turn Over
+aktuonine.com
+aktuonline.com 4ktyenline.com
+motor. Mark the starting torque
+maximum torque and explain how the
+starting torque and maximum torque vary
+with rotor circuit resistance.
+(c) A 3-phase squirrel cage type induction
+motor, when started by means of a star-delta
+starter, takes 200% of full-load current (line)
+and develops 44% of full-load torque at
+starting. Calculate the starting torque and
+current if an autotransformer with 75 per
+cent tapping was employed.
+TWO of the following (10x2=20)
+5. Attempt any :—
+@ Derive the e.m.f. equation of an alternator
+incorporating the distribution effects of and pitch factors factors
+in it. Discuss and performance. these on
+output
+Determine the voltage regulation of a 2000 V,
+1-phase p.f. alternator lagging. giving the current data of 100 A at
+below Use test given
+:
+Full-load short circuit current by field of 100 excitation A is produced of 2-5 on
+e.m.f. of 500 V is generated circuit A; an
+by excitation. The armature on open resistance
+same
+is 0-8 Q. ~
+Explain effects of varying excitation on the
+armature current and power factor in a
+3-phase synchronous motor. Draw the curves
+for armature current and power factor
+variation with excitation for two loads P,
+and with P,<P,.
+EE—402
+aktuonline.com

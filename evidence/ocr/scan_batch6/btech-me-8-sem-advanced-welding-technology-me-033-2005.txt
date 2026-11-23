@@ -1,0 +1,99 @@
+aktuonline.com aktuonline.com
+Printed Pages—4 ME—033
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 4066
+B.Tech.
+EIGHTH SEMESTER EXAMINATION, 2004-2005
+ADVANCED WELDING TECHNOLOGY
+3 Hours Total Marks ; 100
+Note: (i) Answer ALL questions.
+(ii) | There are internal choices in the questions
+\
+1. Attempt any two of the :
+689200 (a) Define welding metallurgically. Name some joining
+processes other than welding. List the criterion for
+selection of welding process. Justify the use of
+following welding processes. |
+(i) Spot welding for automobile body
+| Laser beam welding in electronics industry
+(b) Explain the difference between constant and
+constant voltage characteristics of welding current
+sources for arc welding. List the different types power of
+commercially available arc welding power sources.
+(c) Explain the process of electroslag welding (with the
+help of a neat sketch). What are the properties of
+the flux used in the process ? When would this process
+be most useful (give example) ? |
+ME—033 1 [Turn Over
+aktuonline.com
+aktygalingycom
+Attempt any two of the following :
+(a) Explain the keyhole technique of welding used in
+LBW and E.B.W. What are the advantages,
+disadvantages and typical application of AND
+E.B.W. ?
+Name some of the common lasing material used for
+laser production. What safety precautions need to
+be taken against laser beam hazards during L.B.W ?
+Explain what is the effect of vacuum (in the work
+space) on the weld produced by Electron Beam
+Welding. ~
+Draw the setup for ultrasonic welding (USW) and
+explain the use of various components of the setup.
+What are the advantages and limitations of
+US.W. ?
+3. Attempt any two of the following : (10x2=20)
+(a) Explain the following terms in context to Explosive
+welding.
+(i) Buffer plate
+(ii) Flyer plate
+(iii) Standoff distance
+(iv) Surface jetting
+(v) Critical velocity
+(vi) Impact velocity
+(b) List the various steps involved in metal surfacing. “
+What are the various methods of depositing metal ?
+Explain any one in detail.
+What surface preparation is needed for
+welding ? With the help of a neat sketch explain spray the
+process of electric arc wire spray process. List the
+other processes of spray welding.
+ME—033
+aktuonline.com
+Attempt any four of the following :
+(a) Describe the following defects commonly found in
+welding (giving details of how they look like, causes
+and remedy for avoiding them)
+(i) Porosity
+(ii) Under cut
+(fii) Hot tears
+(b) Explain the differences between non-destructive and
+destructive testing ~f welds. What are the /‘j)
+advantages of each ?
+(c) perform Magnetic Particle
+Describe Inspection how (MPI) will you weld. the What its
+limitations ? on a are
+(d) Describe the various types of welded joints used in
+weld design. List some of the types of edge
+preparation for Butt welds.
+(e) Explain brief how residual life of
+welded in is done. assessment
+structures
+(f) | Explain with the help of a neat sketch, the various
+regions of heat affected zone in a weld.
+of following (10x2=20)
+5. Attempt any two the :
+(a) What is the effect of cooling rate on the formation j i { 1
+Heat Affected Zone (HAZ). Predict the mechanic} ‘
+properties in different regions of the heat affected
+zone on the basis of their microstructure.
+ME—033 3 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+(b) Explain the metal effect of the alloying weld elements (S, P & Mn)
+weldability in parent of steel on be increased. and explain how the
+can
+(c) Explain how dendritic structure is formed in the weld
+metal. What structure will result if the cooling rate
+is slow.
+aktuonline.com

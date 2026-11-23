@@ -1,0 +1,129 @@
+| | | | | | |
+Roll No.
+No. of Printed Pages—5
+B. TECH.
+FOURTH SEMESTER EXAMINATION, 2003-2004
+SIGNALS AND SYSTEMS
+Time : 3 Hours Total Marks : 100
+Note : Attempt ALL questions.
+~1. Attempt any FOUR of the following :— (5x4)
+(a) Find the fundamental period T, the
+fundamental frequency @, and the Fourier
+series coefficient a, of the following periodic
+signal x(t)
+x(t)
+>t
+(b) Compute the DFT of the four-point sequence :
+x(n) = (0; 1;2; 3).
+(c) Show that if discrete LTI is
+subjected to input a system x(n), then its
+y(n) is represented sequence as
+response :
+y(n) = x(n) * h(n).
+(d) Show that
+5(n)=U(n)—U(n-1)
+(i)
+112 Ms
+5(n-k)
+k=0
+EC-402 1 Turn Over
+(iii) Any signal can be decomposed into
+even and odd components. Explain with
+an example.
+(e) Explain the Shift property and Duality
+property of Fourier series.
+(f) Discuss the significance of :
+(i) Impulse function,
+(ii) Unit step function,
+(iii) Sine function. ~
+2. Attempt any FOUR of the following :— (5x4)
+(a) A low pass digital filter with a sampling
+T=50 us has a cut off frequency 10 kHz. If
+the value of T in this filter changed to 25 ks,
+determine the new cut off frequency of the
+filter. Repeat the problem if T is changed to
+100 ps.
+(b) Consider a non-recursive filter with the
+impulse response shown in the figure. What
+is the group delay as a function of frequency
+for this filter ?
+2 2
+1
+L..
+0 12 3 4 ~
+(c) is understood by :
+(i) Natural Response,
+(ii) Forced response of a LTI system ?
+Explain with one appropriate example.
+EC—402
+2
+(d) Differentiate between :
+(i) Ideal and Non-ideal filters,
+(ii) IIR and FIR filters.
+(e) Write the S domain transfer function of a
+first order system. Sketch and interpret its
+magnitude and phase response as a function
+of frequency.
+(f) Find the convolution of the sequences :
+? 2]
+3. Attempt any TWO of the following :— (10x2)
+(a) The random processes x(t) and y(t) are defined
+as :
+x(t)=V,(t)+3V>(t-z)
+V,(t) V>(r)
+where and are independent white
+noise processes each with variance equal to
+0:5. What are the autocorrelation functions of
+x and y? Are these processes wide-sense
+stationary ?
+(b) The independent random variables x and y
+have the probability densities :
+f(xj=e*;
+Os
+Find and plot the probability density of the
+variable z = x+y.
+EC—402 3 Turn Over
+(c) Explain the following terms :—
+(i) Probability
+(ii) Ergodic Process
+(iii) Power spectral density of a random
+process
+4. Attempt any TWO of the following :— (102)
+(a) (I) Determine the Nyquist sampling rate
+and the Nyquist sampling interval for
+the following :—
+(i) Sinc + Sinc
+(5O0ar)
+(ii) Sine Sine
+(I) Explain Aliasing. What can be done to
+reduce aliasing ?
+(b) What is understood by reconstruction of
+continuous time signal from its samples a
+known interpolation ? How is this
+reconstruction as accomplished and what are
+the practical difficulties ?
+(c) Explain the following with reference to
+discrete time system :—
+(i) Decimation or Down sampling
+(ii) Interpolation or Up sampling
+(iii) Time Shifting
+5. Attempt any TWO of the following (10x2)
+:-—
+(a) Sh
+K
+EC-402 4
+For the discrete time signal shown above,
+show that
+1 _ zZ”
+1-Z
+(b) (i) Find the transfer function of
+Delay. a Unit
+(ii) Determine the system function for the
+causal LTI system with difference
+equation
+y
+(c) Explain the following with reference to
+z-transform :—
+(i) Scaling property
+(ti) Convolution property
+(iii) Region of convergence of F (Z)

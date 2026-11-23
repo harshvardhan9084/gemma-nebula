@@ -1,0 +1,83 @@
+Printed Page: 1
+Subject Code:
+PAPER ID-310355 Roll No:
+‘BTECH
+(SEM V) THEORY EXAMINATION 2024-25
+MECHATRONICS SYSTEMS
+TIME: 3 HRS M.MARKS: 70
+Note: Attempt all Sections. In case of any missing data; choose suitably.
+SECTION A
+1. Attempt ail questions in brief.
+Qno. Question 2x07=14
+| What is the principle of relay? SS CO | Level
+Define
+a programmable logic controller. _
+List down the types of buses required inaPLC.
+id | What are the instruments used to measure linear velocity?
+List down the different types of timers.
+Define the electromechanical
+term systems
+Define transfer function.
+SECTION B
+2. Attem t any three of the.followins:
+Question
+Sketch the basic architecture of a PLC afd explain the funct
+element.
+Explain ratchet and pawl _
+\c. _| Explain the specification of stepper
+Identify the various elements a motor. In detail +
+water level controller and describe-their of a closed loop control systcm in an automatic
+Explain the function of air filter with functions.
+a neat sketch.
+SECTION
+3. Attempt any part of the following: C
+one Question 07 x 1 =07
+| Derive aS
+a electric a mathematical differential equation for governing a system of | 3. | K3
+|b. } motor. control a and digital logic controller.”
+Describe adaptive 7 7 mre
+Attempt any one part of the following: 07x 1=07
+1 | | CO | Level
+a ’~| Discuss the following actuation system |K2
+(1) Self excited wound field shunt configuration dc
+(11) Self excited wound field de motor |
+| | (111) Stepper motor motor
+t (iv) Induction motor |
+b. short notes on
+vw (i) Thermocouple 1 K2
+| Piezoelectric transducer
+(11) {ncremental encoder
+Photovoltaic transducer |
+https://www.aktuonline.com
+Printed Page: 2 of 2
+Subject Code: BME054
+I}
+PAPER ID-310355 Roll No:
+BTECH
+THEORY EXAMINATION 2024-25
+(SEM V) MECHATRONICS SYSTEMS
+M.MARKS: 70
+Discuss the following actuation system
+(i) Self excited wound field shunt configuration dc motor
+(ii) Self excited wound field series CO nfiguration de motor
+| (iii) Stepper motor
+(iv) Induction motor
+Explain the function of a capacitive
+one part of the following: te | CO | Level
+6. Attempt any Question | 4 K2
+L Qno. | | can be used to an analog input. |
+a. no | Explain how a PL design solutions fora pick and place place rot robot.
+|b. Discuss the possible 1=907
+following: 07 x Level
+7. Attempt any part of the Question re | co |
+automatic Car Park Systems. | 5
+fa. _| Explain the design a mechatronics system for an
+| Draw the ladder diagram to represent bath have to be closed for a motor to |
+| G) Two switches ar e nonnally open and ao
+| I | operate. switches h as to be closed for a coil to be
+| (it) Either 0 f two, normally open, “https://www. aktuonline.com Ci, we
+| energized and cperate an actuator, by pressing a spring -retum push button start stop ic
+| | A motor is switched remains on until another spnng push button
+| ' switch and the motor on
+switch is pressed.__- ie
+https://www.aktuonline.com

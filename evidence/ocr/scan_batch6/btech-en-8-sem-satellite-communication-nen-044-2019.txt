@@ -1,0 +1,71 @@
+Printed Pages: 2 Sub Code:NEN-044
+Paper Id: 121214 Roll No.
+B.TECH
+(SEM THEORY EXAMINATION 2018-19
+SATELLITE COMMUNICATION
+Time: 3 Hours Total Marks: 100
+1. all Sections. If require missing data; then choose suitably.
+Note: Attempt any
+SECTION A
+1. Attempt all questions in brief.
+Define Apogee and Perigee.
+a.
+b. List the disadvantages of Satellite Communication.
+c. What is noise temperature?
+d. Give the uplink frequency and downlink frequency in “C” band.
+e. Explain pre-emphasis and de-emphasis.
+f. FDMA and TDMA.
+g. Define Channel Capacity.
+h. What are Rain and Cloud effects in Satellite Communication?
+i. Differentiate GEO and LEO satellites.
+www.aktuonline.com j. explain GPS.
+SECTION B
+2. Attempt three of the following: 10x 3 =30
+any
+a. Write the advantages and disadvantages of geostationary orbit. A satellite
+moving in a highly eccentric Molniya orbit having the farthest and the closest
+points as 35000km and 500km respectively from the surface of the earth.
+Determine the orbital time period and the velocity at the apogee and perigee
+points.
+b. Discuss in detail the factors that affect the uplink design and the downlink
+design in geostationary satellites? How the uplink design different than the
+downlink design?
+c. Explain the working of a basic CDMA system. How does it employ spread
+spectrum technique during the multiple accesses of the signals? Also determine
+the throughput efficiency for this system.
+d. Explain in detail the various measures that are taken against propagation
+impairment.
+e. Explain DBS home receiver with the help of neat block diagram.
+SECTION C
+3. Attempt of the following: 10x1=10
+any one part
+(a) What are the Kepler’s laws of Planetary Motion? Explain ascending node and
+descending node of a satellite.
+(b) Explain various types of satellite launcher? Describe the satellite launch
+sequence in detail.
+http://www.aktuonline.com
+4. Attempt any one part of the following: 10x1=10
+(a) Describe the various antennas used in satellite communication. Also discuss
+the antenna requirements for large and small earth stations.
+(b) Derive the expression for C/N ratio. A satellite TV signal occupies the full 36
+MHz transponder bandwidth and is desired to provide a C/N ratio of 22dB at
+the earth station. If the downlink frequency is 4GHz and the other losses
+amount to 3.4dB, what must be the G/T of the earth station if GRP is 37dBW.
+The path length is 40000km. (Boltzman’s constant J/K).
+Attempt any one part of the following: 10x1=10
+(a) Explain DAMA and demand assignment control methods.
+(b) What do understand by ‘threshold’ in detector? Explain
+improvement you and derive the S/N ratio. 1KHz FM is used produce FM
+peak deviation of 5KHz in FM A Calculate test the tone FM improvement to and a
+Post-detector S/N ratio, if the an received system. C/N ratio is 30dB.
+Attempt any one part of the following: 10x1=10
+(a) Explain Convolutional Coding. Explain why do convolutional codes provide
+better error correction performance?
+(b) A message 101101 is to be transmitted in cyclic code with a generator
+www.aktuonline.com polynomial G(p)=1+p?+p*. Obtain the systematic cyclic code
+transmitted. List the advantages of Cyclic codes.
+Attempt any one part of the following: 10x1=10
+(a) Discuss Low earth orbit and non-geostationary systems in detail.
+(b) Write sort notes on (i) direct broadcast satellite television and (ii) Satellite
+navigation.
+http://www.aktuonline.com

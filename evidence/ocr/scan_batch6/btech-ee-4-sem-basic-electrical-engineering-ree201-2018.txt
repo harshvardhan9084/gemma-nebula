@@ -1,0 +1,62 @@
+Printed Pages: 02 Sub Code: REE201
+Paper Id: RollNo.[ | | | 7 | 7
+BTECH
+(SEM-IV) THEORY EXAMINATION 2017-18
+BASIC ELECTRICAL ENGINEERING
+Time: 3 Hours Total Marks: 70
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x7=14
+a) Define active and passive elements.
+b) Define unilateral and bilateral elements.
+c) Write a note on: Amplitude, mechanical degrees and angular velocity.
+d) Explain the form factor and peak factor.
+e) Differentiate between star and delta connections.
+f) What information is obtained from the loop?
+What is by the speed regulation?
+g) meant term
+SECTION B
+2. Attempt of the following: 7x3=21
+any
+2 ) Using nodal analysis, find the current through 8 resistor.
+52
+3Q 10V 82
+25 V
+b) Calculate the in the 6 Q resistance by using Norton’s theorem.
+current
+42 22
+c) A balanced star-connected load of (8+)6) © per phase is connected to a balanced 3-
+phase, 400 V supply. Find the line current, power factor, power and total volt-
+amperes.
+d) single phase, transformer has of side,
+A permissible maximum 50Hz, flux core density type is 1 Wb/m?. Calculate square the cores number 20 of cm
+limb the high and low voltage sides for 300/220 V ratio. turns per
+on a
+A 12-pole, 3-phase alternator is coupled to an engine running at 500 rpm. This
+alternator supplies an induction motor running at 1450 rpm. Find slip and number of
+poles of the induction motor.
+SECTION C
+Attempt any one part of the following: 7x1=7
+a) The equation of an alternating current i = 42.42 sin 628 t. Determine (i) maximum
+value (ii) frequency (iii) rms value (iv) average value (v) form factor.
+b) Derive expressions for value and value of sinusoidally varying AC
+voltage. average rms a
+Attempt any one part of the following: 7x1=7
+a) Derive expressions for impedance, current and factor for R-L-C series
+circuit when applied with AC voltage. Draw also the power vector diagram. an
+b) Derive an expression for parallel resonance and mention its salient features.
+Attempt any one part of the following: 7Tx1=7
+a) Derive the relationship between line current and phase current for delta connected 3-
+phase load when supplied from 3-phase balanced supply.
+b) Explain the working of a moving iron type instrument. Derive the expression for
+torque produced.
+Attempt any one part of the following:
+a wa Define self-inductance and mutual-inductance. What are hysteresis loss and eddy
+current losses?
+b) Discuss the principle of operation of a single-phase transformer. Derive emf equation
+for a single-phase transformer.
+Attempt any one part of the following: 7x1=7
+wa Explain the principle of operation of 3-phase synchronous motor.
+a a
+b) Explain principle of operation of 1-phase induction motor using two revolving field
+theory. List various methods of starting.

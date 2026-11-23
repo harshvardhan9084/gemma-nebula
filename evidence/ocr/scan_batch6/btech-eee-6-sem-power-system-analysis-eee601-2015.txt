@@ -1,0 +1,94 @@
+Printed Pages 4
+:
+EEE601
+.(Foliowing Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 121602
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+POWER SYSTEM ANALYSIS
+100
+Time : 3 Hours] [Total Marks :
+Questions Compulsory
+All are
+1 Attempt any four parts of the following: (4x5=20)
+(A) What do you understand by Single line diagram and
+reactance diagram of a power system? Explain per unit
+system and its advantage.
+(B) A500 MVA, 20 kV, 3@ generator has sub transient
+reactance of 10%,.The generator supplies 2 synchronous
+motors through a transmission line having transformers
+at both ends shown in fig. In this, Tl is 3@
+transformer 250 as MVA, 20/230 kV, 15% reactance a &
+T2 is made of 3 single phase transformer of rating 500
+MVA, 13.2/127 kV, 20% Series
+reactance. reactance
+of the transmission line is 100. The ratings of 2
+motors are: M1=150 MVA, 13.2 kV, 15% & M2=200
+MVA, 13.2 kV, 20%. Draw the reactance diagram with
+all the reactance's marked in p.u. Select the generator
+rating as base values (fig. on next page.)
+121602] 1 [ Contd...
+| asa (B) Derive and explain the algorithm of Z,,,, formation by
+singular transform method
+AY YA =e .
+5 (C) Determine the fault current in case of L-L-G fault when
+(C) What are current limiting reactors? Discuss their locational fault occurs at point shown in figure. Both the generator
+aspects and advantages. are generating power at 1.0 p.u. voltage. reactance on
+(D) The line to ground voltage on the. high voltage side of base given in the table.
+a transformer are Va 100kv, Vb = 30 kv and Vc = same are
+38kv on phase a,b,c .voltage of phase a leads phase Barna (
+b by 100° and lags that of phase c by 176.5° ,determine
+the symmetrical components of V,
+Asingle phase load of 100 KVA connected across line
+b-c of three phase 3.3 kv .Determine the symmetrical
+component of current.
+a
+b
+c
+(F) Explain the symmetrical component and why it is used
+in power system.
+Attempt parts of the following: (10*2=20)
+Attempt any two parts of the following: 10x2=20 any two
+(A) Show that impedance of a generator with (A) Explain the computational procedure for load flow
+neutral grounded zero sequence impedance Zn is (Zs + 3Zn) where solution using Newton Raphson iterative method when
+is the impedance a of synchronous generator. , An 11 the system contains all types of buses.
+Zs have positive ,negative and
+ky, 25 MVA generator and zero unit (B) Discuss the load flow equations and also formulate the
+sequence impedance of 0.12, 0.12 0.08 impedance per equations using Gauss seidal method.
+resp. The generator is grounded through a (C) What is the purpose of Load flow study? Also classify
+of 0.03 per unit.. Determine the fault current of a single and the different load
+line to ground fault occurs at generator terminal. Also the buses for the same compare
+calculate line to line fault voltage. Assume generator was flow techniques.
+unloaded before fauit.
+121602] 2 { Contd... 121602] 3 [ Contd...
+4 Attempt any two parts of the following: 10x2=20
+(A) Discuss point by point method for solving swing
+equation for transient stability analysis of
+Also explain the method of improving transient power stability. system.
+(B) A 150 MVA generator unit having an
+overall reactance of 0.3 p.u. is delivering 150 MW to
+infinite bus bar over a double circuit 220 kV line having
+reactance per phase per circuit of 100 ohms. A3 phase
+fault occurs midway along one of the transmission lines.
+Calculate the maximum angle of swing that the generator
+may achieve the fault is cleared without loss of stability.
+(C) For the system shown in figure the numerical values of
+different components X'd= 0.2 p.u. and X1=X2=
+0:4 Initially the generator are delivering the
+of 1.5 p.u. If of the double was circuit lines is tripped power
+off, determine p.u. one whether the will remain stable
+If stability is maintained, system determine the maximum or
+not. attained
+angle of swing by generator.
+5 Attempt any two parts of the following: 10x2=20
+(A) Starting from the first principles show that the surge
+behaves travelling
+as wave.
+(B) Discuss the behaviour of travelling waves when it
+reaches (i) Open circuited (ii) Short circuited transmission
+line and (iii) when line is terminating with a impedance
+equal to surge impedance (Zp).
+(C) Discuss the reflection and refraction of travelling wave
+drawing the Bewely's lattice diagram. Take a suitable
+example of explanation.
+121602] 4 [ 8900 ]

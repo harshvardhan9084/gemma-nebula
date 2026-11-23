@@ -1,0 +1,38 @@
+(e) Describe five classes of internet addresses.
+* - 1 4 6 5 * (f) How m-commerce different from
+Printed Pages : 2 MBA - 442 E-commerce.
+(Following Paper ID and Roll No. to be filled in your Answer Book) 3 Attempt any two parts of the following : 10x2=20
+PAPER ID : 1465 (a) What various attacks E-commerce
+website? are What preventions on should an be taken
+M. B. A. to
+counteract these attacks?
+(SEM. IV) EXAMINATION, 2006-07 (b) What is SSL? How does it work? Explain the
+FUNDAMENTALS OF E-COMMERCE method of credit and transaction.
+(c) Explain the public key encryption technique in
+Time : 3 Hours] [Total Marks : 100 details.
+Note : Attempt all questions. All question carry equal marks
+1 Attempt four of the following 5x4=20 4 Attempt any two parts of the following : 10x2=20
+any parts : (a) Explain the method of transaction processing.
+(a) What is E-commerce? How it is different from merchant minimize the incident of
+traditional commerce? How can a
+(b) List few business processes that are well suited internet frauds?
+to E-commerce. (b) What do you understand by the term ‘Hack-
+(c) Discuss role of multimedia in development of ing’? How it can be prevented in an business
+E-commerce. organization?
+(d) Give some examples of C2C E-commerce. (c) Discuss various security issues in online
+(e) List three most important advantages of banking.
+E-commerce.
+(f) Explain the role of intranet in organization’s 5 Attempt of the following 10x2=20
+development. an any two parts :
+(a) Explain the functioning of an EDI based system
+and contrast it with manual transaction system.
+2 Attempt any four parts of the following 5x4=20 (b) What are the basic components of supply-chain
+(a) What are the main features of I-way? How it management? How Internet can be useful for
+grows? each of them?
+(b) What are Network infrastructure for (c) Write short notes on :
+E-commerce? (i) Legal issues in E-commerce
+(c) What is intranet? What are its potential benefits (ii) Customer Relation Management.
+to an organization?
+(d) Explain internet addressing scheme in brief.
+V-1465]
+1 [Contd... V-1465] [25]

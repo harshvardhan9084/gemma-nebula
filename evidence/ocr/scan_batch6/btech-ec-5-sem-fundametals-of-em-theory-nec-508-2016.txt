@@ -1,0 +1,60 @@
+NEC-508
+Printed Pages:
+(Following Paper ID and Roll No. to be filled in your
+Answer Book).
+Paper ID:
+(SEM. V) THEORY EXAMINATION, 2015-16'
+FUNDAMENTALS OF E.M. THEORY
+[Time:3 hours] [Total Marks: 100]
+Section-A
+Note: All questions are
+1. Attempt alll All parts equal marks. Write
+of parts . carry (10x2=20)
+answers all part in short .
+theorem.
+(a) State Stokes
+(b) Give the application of cross product.
+(c) Find gradient of W .
+(d) What is Lorentz force?
+(e) What is an equipotential surface?
+8800 (4) P.T.O.
+(f) Define Scalar magnetic potential.
+Explain the pehnomenon of polarization and explain its
+(g) State Poynting Theorem. types.
+(h) Define Convection current. State Coulomb’s law. Derive an expression for elecric
+(i) Write the Maxwell equation differential
+in and integral field intensity due to line charge density p;.
+form for static magnetic fields.
+Give the relation between Derive the expression of reflection and transmission
+Magnetic field and coefficients
+flux density? for normal incidence. Derive the relation
+between the two.
+Section-B
+Find the magnetic field intensity due to infinitely long
+Attempt any five questions from this section. (5x10=50) charged wire as an application of Ampere circuital law.
+Find the for
+2. Given the potential V= Ocos ¢ Find the electric value of q@ (attenuation), (Phase Constant)
+. goad conductors. Find out the angle of characteristic
+(24.0) impedence for good conductors.
+flux density . D at a
+. Section-C
+State and explain Maxwell’s equations for electrostatics Attempt
+and magnetostatics. Discuss its physical any two questions from this section. (2x15=30)
+significance.
+10. Discuss the solution of plane wave equation in conducting
+Prove the vector triple product identiy media (Lossy Dielectric). Derive the above up to
+AXBXC = B(A.C)-C(A.B). Evaluate div (curlA) if propagation constant, attenuation constant and phase
+constant.
+A= sin ¢ cos¢
+r 7 a,.
+8800 (2)
+NEC-508 8800 (3) NEC-508
+11. Define propagation constant and characteristic impedace.
+Derive the boundary conditions for electric field between
+‘two dielectrics having different permittivity interfaces.
+12. Find the expression for for lossless or perfect
+dielectric medium. A 10 GHz plane wave travelling in free
+and the
+space has an amplitude of E =10V/m. find V,
+amplitude of H. .
+8800 (4) NEC-508

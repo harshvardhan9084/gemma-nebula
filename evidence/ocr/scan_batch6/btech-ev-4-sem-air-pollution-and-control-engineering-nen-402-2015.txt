@@ -1,0 +1,63 @@
+www.aktuonline.com
+Printed Pages : 2
+A
+NEN402
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 197405
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+AIR POLLUTION AND CONTROL ENGINEERING
+Time : 3 Hours] [Total Marks : 100
+Note (i) Attempt ALL questions.
+:
+(i) All questions carry EQUAL marks.
+1 Attempt any TWO of the following : (2x10=20)
+(a) Explain composition and structure of atmosphere
+with the help of diagram.
+(b) Discuss major episodes of air pollution.
+(c) Give sources and effects of gaseous air pollutants.
+2 Attempt any TWO of the following : (2x10=20)
+(a) Discuss meteorological aspects of air pollution.
+(b) Discuss various types of temperature lapse rate and
+atmospheric stability.
+(c) Estimate concentration of sulphur dioxide in g/m?
+<P SO,> (1000, 0, 0,200) by given data.
+(i) Amount of coal burnt = 8 ton per hour with sulphur
+content = 0.4%; (ii) x =1000 m; (iii) A = 0.295;
+(iv) B = 0.119; (v) p = 0.986; (vi) Average wind
+velocity, u = 6 m/s; (vii) H = 200m.
+197405]
+1 [ Contd...
+www.aktuonline.com
+3 Attempt any FOUR of the following: (4x5=20)
+(a) Give note on national ambient air quality standards.
+(b) Discuss any four methods for collection of gaseous
+air pollutants during ambient air sampling.
+(c) Explain any two methods for collection of particulate
+air pollutant during ambient air sampling.
+(d) Explain isokinetic sampling.
+(e) Discuss sampling train used during stack sampling.
+(f) Determine settling velocity of particle by given
+data-Density of Particle, = 2 x 1.03 kg/m3,
+Particle Dia. d, =1.2u, Viscosity of Air,
+uw 185 x 10° k /ms, density of air
+=
+P, = 1.2 kg/m’,
+4 Attempt any TWO of the following : (2x10=20)
+(a) Explain working of wet cyclone with the help of
+diagram. What are its merits and demerits ?
+(b) Discuss working of Spray Tower with the help of
+diagram along with merits and demerits.
+(c) Determine total number of filter bags required from
+following data- (1) Filter bags dia = 0.5 m,
+(ii) Length of filter bags = 6 m, (iii) Air flow to
+be received =10 m?/s, (iv) filtering velocity to be
+maintained =1.8 m/min
+5 Attempt any TWO of the following : (2x10=20)
+(a) Discuss Absorption and Adsorption for control of
+gaseous contaminants.
+(b) Explain various strategies for control of sulphur
+dioxide.
+(c) Give a note on various automotive emission control
+technologies.
+197405] 2 [50]

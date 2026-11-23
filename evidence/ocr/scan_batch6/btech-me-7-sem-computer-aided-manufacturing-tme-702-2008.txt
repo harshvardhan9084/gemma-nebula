@@ -1,0 +1,135 @@
+aktuonline.com iG
+Printed Pages : 4 TME-762
+(Following Paper and Roll No. to be filled in your Answer Book)
+0401 Roll No.
+B. Tech.
+(SEM. VID EXAMINATION, 2007-08
+COMPUTER AIDED MANUFACTURING (CAM)
+lime 3 Hours] [Total Marks : 100
+Note : All questions carry equal marks. Attempt all questions.
+1 Attempt any two parts : 10x2=20
+(a) (i) fixed, programmable and flexible
+type of automation in industry using suitable
+examples.
+(i) Explain concept of control resolution,
+accuracy and repeatability for a feed axes
+in CNC machine tools.
+(b) Describe disadvantages the of NC-Manufacturing. different advantages and
+conditions of NC/CNC machines Under what be
+justified? Also use explain how non-productive can time
+is minimized in NC-manufacturing.
+(c) () Explain the function of MCU in NC machine
+tools. What is the role of PLC in CNC
+system?
+(i) | What is an automatic tool changer? Write
+a note on the necessity and advantages of
+an ATC.
+0401] 1
+{Contd...
+aktuonline.com
+aktuonlinecom aktuonline.com
+any two parts :
+(a) Explain logical block of information in a
+CNC Part Program. Which of the modes,
+cutting
+constant RPM or constant speed do
+you use for the machining of tapered
+surfaces? Explain the effects of the two
+modes the surface finish.
+on
+(ii) | Explain, Point-to-Point, Straight-Cut and
+Contouring, with reference to NC motion
+control. Also write their advantages,
+limitations and applications.
+(b) What is the difference between fixed/canned
+cycles and subroutine/subprogram? Discuss
+how canned cycles reduce programming
+can
+efforts.
+(ii) | What is tool nose radius compensation?
+Discuss when it is used and how it ts
+included in the program?
+part
+(c) Write a part program in word address format or
+in APT for the part shown below. Clearly mention
+whether diameter radius programming has been i
+or
+used. Show datum/program reference. Prepare
+process plan and show tool path. Also write
+comments explaining each block of part program.
+Assume suitable billet size,
+process parameters
+and any dimension if missing :
+0401) 2 (Contd...
+"rr
+aktuonline.com aktuonline.com
+70.432
+a
+84.574
+= 420
+Riis 7
+39.571 25.60 } 225
+4393.
+53.743 124.853 ——-__ +]
+134.799 ———
+i
+T
+All dimensions are in mm.
+3 Attempt any four parts : 5x4=20
+(a) By means of a block diagram, explain the operation
+of CNC system. Write about feedback control loops
+and mention their specific importance in the CNC
+system.
+(b) What are the main advantages of adaptive control?
+Distinguish between ACC and ACO types of adaptive
+controls.
+(c) Which feed back devices are used in CNC machine
+tools? Explain briefly working of rotary encoder. An NC
+machine uses a 200-pulse/rev encoder and a 10-teeth/
+inch of lead screw for its axis control. What is the BLU
+(d) What the machine? is principle? Which characteristics of
+servo make it suitable for feed drives of CNC
+machines? servomotors
+(e) An NC machine has a resolution (BLU) 0.01 mm. To
+move the cutter from coordinates (1,1) to (3,4) (both
+coordinates in mm) at 18 mm/min, how many pulses
+and at what rate would the controller send to the X
+and Y servo motors?
+0401) 3
+aktuonline.com
+aktuonline.com (f) The worktable in NC positioning
+by a lead screw with an a 4.0 mm pitch. The lead screw
+is powered by a stepping motor that has 250 step
+angles. The worktable is programmed to move a
+distance of 100 mm from its present position at a travel
+speed of 300 mm/min.
+(i) | How many pulses are required to move the table
+the specified distance?
+(ii) (ui) What pulse are the achieve required the motor desired speed table and speed?
+rate to
+Attempt any two parts : 10x2=20
+(a) Briefly explain the guidelines for implementing group
+technology. Explain the advantage achieved by group
+technology and its limitations.
+(b) What are the advantages and disadvantages of using
+backward planning? Discuss the potential difficulties of
+implementing a generative process planning system.
+(c) Define features/components FMS clearly by that showing required the various for desirable
+functioning with reference to are current day manufacturing proper
+scene.
+Attempt any two parts : 10x2=20
+(a) What do you understand by robot joints, degree of
+freedom, pay load and work volume. What are the
+reasons for the successful application of robots in
+manufacturing industry? a
+(b) (i} Compile robotic list of sensors For each that might be give used in
+application. systems. sensor an
+(i) Explain why homogeneous transformations are
+required in modelling of robotic manipulators.
+What do you understand by screw transformation?
+Write short notes on any two:
+(i) versus Circular Interpolator
+(i) Programming methods of robots
+(ai) intelligence.
+0401) 4 [ 3690 J
+aktuonline.com

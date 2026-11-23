@@ -1,0 +1,123 @@
+aktuonline.com MVE
+Roll No. | | / | | | |
+2) al
+No. of Printed Pages—5 be 301
+2
+B.TECH. 2008
+THIRD SEMESTER EXAMINATION, 2002-
+Time : 3 Hours Total Marks : 100
+Nate :(1) Attempt ALL questions.
+(2) All questions carry equal marks.
+1. Attempt any TWO of the following :-— (10x2)
+(a) Solve, in series the differential equation
+:
+dy
+x dx* +2—+xy=0. dx
+(b) Use Z-transform to solve the difference
+equation :
+Yn+2 7 t yn
+(c) A body by executes the damped forced vibrations
+given equation —
+-kt .
+Solve the equation for both the cases, when
+FOUR of the following (5x4)
+2. Attempt any :—
+(a) Show that
+2
+2 (x) dy =— 1 x7 (x)+J, (x)
+MA—301 Tur Over
+=
+aktuonline.com aktuonline.com
+lf
+=x, O<x<l,
+show that
+—
+wy bog 1 5 (x) 3
+5 6 > 30
+(c) Find the Fourier transform of where
+(d) Obtain Fourier cosine transform of —
+f(x)=x,for0<x<1
+=2-x,forl<x<2
+=0,forx>2.
+fe) Show that —
+} 2m T, (x) ~ Uns (x) (x).
+()) Prove that the Hilbert transform of x
+cosx-1
+Attempt TWO of the following :— (10x2)
+any
+(2) Solve the partial differential equation —
+a°z az
+6—> = ycos x.
+> Oxdy +7
+aktuonline.com
+aktuonline.qom aktuonline.com
+Show that the equation —
+is hyperbolic. Transform the equation to its
+normal form using the transformation
+and hence solve it.
+~ (c) Use separation of variables method to- solve
+the equation —
++
+ax2 ay?
+subject to the boundary conditions
+u(0, y)= u(l, y)= u(x, 0)= 0
+and u(x,a)=sin Xx
+4, Attempt any FOUR of the following :— (5x4}
+(a) Show that the function
+(2 y?]
+u 2 +
+~ is harmonic. Find its harmonic conjugate.
+(b) Discuss the analyticity of the function
+f(z)=2z2.
+(c) If f(z) is regular function of Zz, show that :
+[S35 dz az |
+2 =41
+MA—301 3 Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+Evaluate ¢ n dz, where ¢ is the circle
+wiih centre a and radius r. Discuss the case
+1.
+when 7} =~
+5 ! circle,
+(e) Evaluate =5 dz where c 1s
+‘ —
+| 3
+U1) =
+Gi) |z-1|=!
+(ii)
+that 1-z
+Show .
+real axis of the z-plane into the
+maps the half-plane into
+| w | =1 and the
+interior of the unit circle in the
+the
+(10x2)
+TWO of the following
+5. Attempt any
+f(z) (z+3)
+(a) (a) Expana - \Z)= (z+1) in
+valid for
+serics
+(i)
+Mz
+4
+aktuonline.com aktuonline.com
+| z|> 3
+(iii)
+(iv)
+(b) Explain pole and residue of analytic
+f(z). an
+function Determine poles and residue
+at each pole of the function
+fel= 2
+Further, state Residue Theorem and hence
+evaluate :
+or
+where c is the circle | z
+Cc
+(c) Using integration,
+contour evaiuate
+J co dx
+aktuonline.com

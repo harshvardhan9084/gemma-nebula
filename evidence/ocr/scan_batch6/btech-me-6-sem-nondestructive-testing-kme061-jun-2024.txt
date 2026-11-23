@@ -1,0 +1,76 @@
+Printed Page: |
+Roll No: | | | | |
+i | |
+BTECH
+(SEM V1) THEORY EXAMINATION 2023-24
+NONDESTRUCTIVE TESTING
+_TIME: M.MARKS:
+Note: Attempt all Sections. If require anv missing data, then choose suitably
+Attempt all questions in brief.
+1.
+ja. What do you mean by ‘material toughness and hardness” | M2
+b Name the important properties that can be checked in destructive
+| testing 02
+: What is penetrant? {
+d | Define the use of developers and their types.
+LE xplain the term radiography testing. |
+Tw hat do you mean by decay in radiography testing? 02
+Ww hat is Immersion testing? 2
+he LE xplain the characteristics of an ultrasonic beam. | 02
+ih iw hat is the phenomenon of eddy y current? 02
+if "Gwe some applications of Eddy’s current testing. 02
+SECTION B
+30
+2. Attempt any three of the following: 3x10=
+a. Describe the visual inspection technique and write down the different types | ry
+visual inspection inspection with _
+b. What is glo test? Explain the steps involved in this 10
+neat diagram by aerystal at
+c. "X-rays of F wavelength 1.4498 A are deflected (111) plane Calculage in 10
+an angle 29° with assumption of Ist order reflection.
+and limitations. fions. Explain principle of 10
+Explain CRO Testing technique advantages in NDT
+io 7 | the Briefly Ultrasonic technique less sensitive to small flaws than | (0
+explain why Explain eddy with current suitable tests are
+L | magnetic testing ». SECTION Cc i
+1x 10= 10
+3. Attempt one part of the following:
+“a. Differentiate “between destructive and testing with a 10
+suitable example. Explain the ringing test for the detection of surface cracks
+with the help of a neat sketch a 10
+T | Discuss the effectiveness gf ol that in detection of NDT surface flaws of | j
+casting’ Write the variug Udlects following can be in 10
+4. Attempt any \ one ¢ : |
+Ta. | Explain the working principle and test procedure of liquid penetrant 10
+Inspection. For detecting surface defects and also write the limitations and
+advantages. |
+What | do you understand by magnetic hysteresis? ditterent | 10
+magnetization techniques used in magnetic particle testing & their
+| sensitivity. following:
+“Ss. ‘Attempt any one part of the ty =
+https://www.aktuonline.com
+Printed Page: KME061 2 of 2
+ees e: I I
+Roll No: | 1
+| |
+BTECH
+(SEM V1) THEORY EXAMINATION 2023-24
+NONDESTRUCTIVE TESTING
+_TIME: 3 M.MARKS: 100
+a. Explain Law and What doyou mean by attenuation of | 10
+\ electromagnetic radiation? the { 10
+b. Describe the differences between X-ray and gamma-ray. body X-ray |
+criteria Explain for choosing one. Explain a case study of the human
+6. precautions against of radiation hazards. i 1x 10=10
+any one part the following: | 10
+a. Briefly describe the transducers used in Ul testing. What is the purpose of
+_couplants and how they are used in the inspection process? piezoclectric 4 10 |
+hb, crystal | What do is you used understand in UL? by Piezoelectricity? Explain it. How
+7. Attempt part of the following: 1x 10= 10
+| any once Eddy Testing. |
+a. Explain the types of probes used in Current What are the 10
+|__|, factors affecting probe selection? What is fill factor? i 10
+b. Write Short Notes on Emjsgion Testing.
+a. Thermography and b.Acoustic
+21
+https://www.aktuonline.com

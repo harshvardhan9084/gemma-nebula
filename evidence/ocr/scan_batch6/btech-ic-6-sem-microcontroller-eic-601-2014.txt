@@ -1,0 +1,55 @@
+Pages—3 EIC601 (c) Find a number that, when XORed to the A register, results
+in the number 3 Fh in A.
+(Following Paper
+ID and Roll No. to be filled in your Answer Book) (d) Give the internal RAM organization of 8051. How different
+PAPER ID : 132602 register banks are selected ?
+(e) Aswitch is
+B.Tech. connected to port 0.1. Write a program to check
+the status of the switch and perform the following :
+(SEM. VI) THEORY EXAMINATION 2013-14 (i) If switch=1, send a high-to-low pulse to activate
+MICROCONTROLLER a siren connected to pin 1.7. (ii) Continue monitoring
+the pin
+Time : 3 Hours Total Marks 100 status.
+; (f) Explain any five assemblers directives. Why are the ORG
+and END directives also called pseudocode ?
+Note: (1) questions. All questions carry equal marks. of
+(2) Be precise in your answer. No second answer book Attempt any four parts the following : (5x4=20)
+will be provided. (a) Write a program to count 20,000 events and to generate an
+interrupt following the 20,000 events and then set bit P1.5.
+of Assuming crystal frequency
+1. Attempt any four parts the following : 11.0592 MHz.
+(a) How does a microcontroller differ from a (b) Explain the various SFRs required while programming the
+microprocessors microprocessor ? Why are microcontrollers preferred over serial port.
+in control applications ? Find
+(b) What is the difference between an embedded and external (c) the time a timer in mode 1 takes to overflow if initially
+memory microcontroller ? set to 03 Ach with a 12 MHz crystal.
+(c) Explain the control signals of 8051. (d) Explain the following SFR's : Interrupt priority (IP) register
+. (d) Draw the generalized functional block diagram of a and Interrupt Enable (IE)
+microcontroller specifying each block. register.
+(e) Compare 8051 family of microcontrollers. (e) Write a program to initialize the serial port of 8051 in model
+(f) Explain different addressing modes supported by 8051 with at baud rate 2400.
+the example of each.
+2. Attempt any four parts of the following : (5x4=20) (f) Write a program to generate a square wave of 50 Hz
+(a) With the help of circuit explain port 2 pin configuration. frequency as output. Assuming crystal frequency
+(b) Give the instructions the byte in 11.0592 MHz.
+R2 using at least four to different copy methods. TCON to register
+EIC601/DQJ-21553 1 Turn Over EIC601/DQJ-21553 2
+https://www.aktuonline.com https://www.aktuonline.com
+4. Attempt any two parts of the following : (10x2=20)
+(a) How is external data memory accessed ? Also show the
+bus expansion for external memory access.
+(b) With schematic diagram and related interface
+a program,
+a DC motor to 8051.
+(c) With diagram and related interface
+program,
+a Keyboard to 8051.
+5. Attempt two parts of the following (10x2=20)
+any :
+(a) Describe 8096 microcontroller with the help of block
+diagram. Why the ALU of the 8096 is called RALU ?
+(b) Explain the function of 8255 using block diagram. How
+8051 is connected to the 8255.
+(c) Compare M68HC1] family of microcontrollers.
+EIC6O1/DQJ-21553 3 8475
+https://www.aktuonline.com

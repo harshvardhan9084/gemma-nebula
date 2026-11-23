@@ -1,0 +1,110 @@
+Printed Pages—4 TME302
+B.Tech.
+(SEM. IIT) ODD SEMESTER THEORY EXAMINATION 2012-13
+APPLIED THERMODYNAMICS
+Time : 3 Hours Total Marks : 100
+Note : (/) Answer all questions.
+(2) All questions carry equal marks.
+1. Answer FOUR questions
+any :
+(a) Discuss briefly about the concept of thermodynamic
+equilibrium and its importance in engineering
+thermodynamics. (5)
+(b) Define the terms ‘system’, ‘boundary’, ‘surroundings’
+and ‘universe’. Discuss about closed and open system
+giving examples of each. (5)
+(c) A constant volume helium thermometer registers
+1000 of Hg of gas ice point and 1366
+of pressures Hg at steam mm point. mm
+(i) Find the relation between pressure and temperature
+if it follows linear relationship as
+T=A+ Bp.
+where T is in °C and p is in of Hg.
+mm
+(ii) The thermometer shows the reading 1060 mm of
+Hg when left standing in atmosphere. Determine
+the atmospheric temperature. (5)
+TME302/DLT-44739 . 1 [Turn Over
+(d) State and explain Gibb’s function. (5)
+Prove the Maxwell relations. (5)
+(f) The pressure on a copper block of 1 kg is increased
+from 10 bar to 1000 bar in a reversible process
+maintaining the temperature constant at 15°C.
+Determine :
+(i) Work done on the copper during the process
+(ii) Change in entropy. (5)
+Answer FOUR questions
+any :
+(a) Describe the construction of temperature-entropy and
+Mollier diagrams. (5)
+(b) A vessel contains steam of 10 bar having dryness fraction
+of 0.95. The volume of the vessel is 0.03
+pressure
+Due to loss of heat by radiation, the pressure of steam
+falls to 3 bar. Determine the quality of steam in the
+final stage and the loss of heat. (5)
+(c) Describe with neat sketch the working of Cochran boiler.
+(5)
+(d) Explain why safety valves are needed in a boiler ?
+Draw a neat sketch of spring loaded safety valve and
+explain its working. (5)
+(e) Explain the function of superheater. With neat sketch
+explain its working. (5)
+(f) What is the purpose of steam stop valve ? Explain its
+working. (5)
+TME302/DLT-44739 2
+3. Answer any TWO questions :
+(a) What do you understand by theoretical indicator
+diagram ? How and why it differs from the actual
+indicator diagram ? (10)
+(b) A single cylinder double acting steam engine receives
+steam at | MPa and exhausts at 55 kPa. The dryness
+of inlet steam is 96%. The power developed by the
+engine when running at 210 is 45 kW, with
+rpm steam
+consumption of 460 kg/hr. The engine bore is 25 cm
+and the stroke is 37.5 cm. The expansion ratio is 6.
+Calculate the diagram factor and the indicated thermal
+efficiency of the engine. (10)
+(c) Steam at a pressure of 10.5 bar and 0.95 dry is expanded
+through convergent divergent nozzle. The
+of a leaving the is Find pressure the
+steam nozzle 0.85 bar.
+velocity of steam at throat for maximum discharge.
+Take n = 1.135. Also find the area at the exit and the
+steam discharge if the throat area is 1.2 cm?. Assume
+flow is isentropic and there are no friction losses.
+(10)
+4. Answer TWO questions
+any :
+(a) The mean diameter of the blades of an impulse turbine
+with a single row wheel is 105 cm and the speed is
+3000 rpm. The nozzle angle is 18° and the ratio of
+blade speed to steam speed is 0.42 and the ratio of the
+relative velocity at the outlet from the blade to that of
+the inlet is 0.84. The outlet angle of the blade is 3°
+TME302/DLT-44739 3 [Turn Over
+less than the inlet angle of the blade. The steam flow
+is 8 kg/sec. Determine :
+(i) Resultant thrust on the blades,
+(ii) Power developed in the blades, and
+(iii) Blade efficiency. (10)
+(b) Prove that the diagram or blade efficiency of a single
+stage reaction turbine is given by
+=2 _ (1+ 2pcosa, —p”) where R, = 50%
+and Vp = Vi. (10)
+(c) Prove that the Rankine efficiency of a modified Rankine
+cycle considering pump work is given by
+J = hy + W,)
+The notations carry the usual meaning. (10)
+5. Answer any TWO questions :
+(a) Describe with neat sketches the working of simple
+cycle turbine. How a does
+constant pressure open the gas cycle
+the actual cycle differ from theoretical ?
+(10)
+(b) What is ram-jet ? Explain the working of ram-jet with
+neat sketch. (10)
+(c) Explain the working difference between propeller jet,
+turbo jet and turbo prop. (10)
+TME302/DLT-44739 4

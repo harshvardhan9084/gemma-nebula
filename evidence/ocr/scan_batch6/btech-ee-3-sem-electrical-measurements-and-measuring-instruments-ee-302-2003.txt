@@ -1,0 +1,150 @@
+aktuonline.com aktuonline.com
+Y 10)
+ist
+Roll No.| T
+Printed Pages—5 EE-302
+B. TECH i
+‘THIRD SEMESTER EXAMINATION, 2002-2003 |
+-ECTRICAL MEASUREMENTS & MEASURIN
+INSTRUMENTS 1908
+3 Hours Total Marks :
+: av’
+ALL questions. po
+(2) .arts of a question must be attempted together.
+Attempt any FOUR of the following :—
+(a) clearly between : or
+(i) Direct and Indirect methods of
+measurement.
+(ii) Primary and Secondary standards.
+(iii) Systematic and Random error in
+measurements.
+(b) Show the constructional features of both
+types of Moving Iron instruments.
+Derive the torque equation for any one
+type. (5)
+(c) Calculate the values of resistors to
+— be provided necessary using Aryton’s multiranging
+method so that a d.c. m-Ammeter having a
+with R,, =40Q and full-
+basic movement
+scale current of 1mA can be used for
+measuring currents in the range of 10 mA, (5)
+50 mA.
+(d) Derive the equation for average power over
+a cycle. Prove that it can be measured by a
+electrodynamometer type of wattmeter. (5)
+1 Turn Over
+aktuonline.com
+aktuonline.com akt aktuonline.com i
+Draw connection diagram and v
+diagram for power measurement in a3@ >
+2-wattmeter method.
+load using
+A 3@ 400 volt load has p-f. of 0-6 lagging.
+The two wattmeters read a total input of
+20 kW. Find the reading of each watt-
+meter. (5)
+(f) How is the torque produced in a single
+phase induction type energymeter ?
+An energymeter with constant of 100 makes
+365 revolutions when connected to a load
+carrying 40A at 230 volts and 0:5 p-f.
+(lagging) for an hour. Find the error in
+measurement. (5)
+Attempt FOUR of the following :—
+2. any transformation ratio in
+(a) Derive the relation for (C.T.).
+4 Current Transformer characteristics of C.T.? (5)
+What are the
+(b) A C.T. with turn ratio of 1:201 is rated the as
+1000/5 A, 25 VA. The core loss and 3A
+magnetising components of primary Find are the
+and 7A under rated conditions. full burden at 0°5
+ratio and phase errors for
+p.f. leading. resistance and leakage
+Secondary neglected. winding (5)
+may be
+Derive the expression for ratio error P.T.s in
+wd Potential Transformers (P.T.). How are (5)
+? Describe.
+(a } With the help of neat labelled diagram,
+explain the principle of operation of single
+phase electrodynamometer type of power- (5)
+factor meters.
+EE--302
+aktuonline.com
+aktuonline.com aktuonline.com
+(e) Explain the arrangement and operation of
+saturable core type of frequency meter. (5)
+(f) What is the principle of operation and
+application of :
+(1) Synchoscope,
+(ii) Phase sequence indicator ?
+i Attempt any TWO of the following :-—
+(a) What is the principle of using loss of charge
+technique for measurement of high
+resistance ? Derive necessary relation.
+A length of cable tested for insulation
+resistance using loss was of charge method. A
+capacitance formed by sheath of cable of
+300 pF is found to have a drop in voltage
+from 300 V to 100 V in 120 seconds. Calculate
+the insulation resistance of the cable.
+(0) (i) In a Wheatstone bridge, for the
+measurement of resistance, derive the
+relation for sensitivity of bridge, with
+detecting galvanometer in operation.
+(ii) For a bridge, as above, the ratio arms are
+each 100 Q and bridge is balanced with
+standard arm adjusted to 230 Q. If each
+of the ratio arms have an accuracy of
++0-02% and standard has +0-01%
+accuracy guaranteed, what are the
+limiting values of unknown resistance ?
+For Anderson’s bridge, derive the relation for
+unknown impedance.
+What are the advantages and limitations of
+this bridge ? (10)
+EE—302 3 Turn Over
+aktuonline.com
+aktuonline.com 4d. Attempt TWO of the following aktuonline.com
+any :—
+(a) What is the procedure of
+standardisation of d.c. potentiometers ?
+(ii) How can it be used for calibration of
+ammeters and voltmeters?
+(b) (7) Explain the standardisation
+and operation arrangement, of coordinate type of
+potentiometer. a.c.
+(i?) How can these be used for calibration
+of voltmeters ?
+Write technical notes on any TWO of the
+following -—
+(i) Principle and application of self-
+balancing potentiometers.
+(ii) Calibration of Wattmeters by
+potentiometer.
+(li) Direct reading potentiometers
+Attempt any TWO of the following :—
+(a) Derive the relation, for measurement of flux
+by fluxmeter, from first principle.
+How is it modified for measurement of large
+flux ? Explain. (10)
+Detail the following two methods of
+obtaining B-H curve of given ring specimen :
+(i) using Ballistic galvanometer,
+(i) using C.R.O. (5+5)
+difference between
+Explain clearly principles the of integrating
+and operating successive approximation type type of
+digital voltmeters. (5)
+4
+aktuonline.com
+aktuonline.com
+voltage of 10 volts is to be
+measured digitally. Find the minimum
+number of bits and actual than resolution to
+conversion have an accuracy time for better clock frequency 0-01% and of
+10 kHz assuming a successive
+type of DVM. approx (5)
+aktuonline.com e

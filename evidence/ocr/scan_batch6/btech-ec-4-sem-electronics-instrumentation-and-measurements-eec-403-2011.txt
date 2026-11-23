@@ -1,0 +1,58 @@
+Printed Pages—3 EEC403
+(Following your Answer
+Paper ID and Roll No. to be filled in Book
+PAPER
+B. Tech.
+(SEM. THEORY
+IV) EXAMINATION 2010-11
+ELECTRONICS INSTRUMENTATION AND
+MEASUREMENTS
+Time : 3 Hours Total Marks : 100
+Note : Attempt all questions. All questions carry equal marks.
+1. Attempt any four parts of the following : (5x4=20)
+accuracy,
+(a) Explain the terms sensitivity and resolution as
+used for indicating instruments.
+(b) Explain different types of errors that
+measurements. may occur in
+(c) Describe the principle of operation and application of
+PMMC instruments.
+(d) Describe
+the of operation and use.
+Galvanometer.
+An ammeter reads 6.7 A and the true value of is
+6.5 A. Determine the and the current
+instrument. error correction for this
+(f) What is meant by mean, average deviation and
+standard deviation ? .
+1 [Turn Over
+2. Attempt any four parts of the following : (5x4=20) 4. Attempt of the
+any two parts following : (10x2=20)
+(a) Describe the working of binary weighted resistance D/A (a). Explain with neat sketches, the working principle of CRO.
+converter.
+(b) Draw the block diagram of D.S.O.P. and explain the
+(b) Explain the difference between 3% digit and 4 digit function of each block.
+displays. (c) Describe CRO Probe and Sampling Oscilloscope. ©
+(c)
+Explain the working of integrating type DVM.
+(d) Describe the principle of operation of Electronic
+Write short notes on any two of the following: (10x2=20)
+Multimeters. Strip chart recorder
+(e) Explain the operation
+principle of of electronic voltmeter. (b) Plotter
+(f) Explain how an electronic analog voltmeter can be used to (c) X-Y recorder.
+measure alternating current.
+any of
+Attempt two parts the following : (10x2=20)
+(a) Define
+the Q-factor ofa coil. Explain with a circuit diagram
+‘the construction and principle of operation of a basic
+Q-meter ? :
+State various methods of measurement of low resistance.
+_ Why ammeter-voltmeter
+methods not suitable for the
+precise measurement of low resistance ?
+Kelvin
+(c) Describe the operation of double bridge and
+Schering bridge. -
+2 EEC403/RFW-21156 3 23975

@@ -1,0 +1,44 @@
+Printed Page: | of 1
+a { Subject Code: BMBAI206 :
+Paper id: 252833 oll No:
+MBAINT
+(SEM ID ‘THEORY EXAMINATION 2024-25
+IT APPLICATION -2
+TIME: 3 HRS M.MARKS: 70
+Note: Attempt all Sections. In of missing data; choose suitably.
+case any SECTION A
+1. Attempt all questions in brief. 02x7=14
+Question
+What are the five basic functions of Excel?
+What are the 10 functions in Excel?
+What is spreadsheet?
+What is a the difference between formula and function?
+color data a visualization? a
+What is the role. of in media etiquette?
+Write the Key aspects of social communication
+SECTION B 07x3
+Attempt any three of the following:
+Define data visualization. Also write the 5 C's of data visualization?
+Explain in detail about MS POWERPOINT and its uses?
+What is the social media communication process? Explain.
+What is VLOOKUP and hlookup in Excel with an example?
+|e. | Write a short note on: (i) Search Engine, (ii) TELNET
+SECTION C
+Attempt any one part of the following:
+What is the role of social cyber crime? How can social media exposure
+and the threat by ¢ ber.
+pt an) one part of the following: traditional marketing?
+and how does it differ from
+Interpret the Following:-
+MS word
+Macro. part of the following;. -
+Attempt Explain the any Key one Features and Functionality of f pivot pivot chart? Also write the 4 fields
+of PivotTable?
+Illustrate a the term Mail Merge and what are its steps and explain that it is
+important Application in MS word.
+Attempt any one part of the following: |
+Explain the various steps involved in E-mail and define “cc” and “Bcc” field of
+address part of your E-mail?
+| is the difference between ggplot2 and Matplotlib?
+1|Page
+https://www.aktuonline.com

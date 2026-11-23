@@ -1,0 +1,86 @@
+aktuonline.com aktuonline.com
+Printed pages: 3 EEE 035
+(Following paper code and roll No. to be filled in your answer book)
+Paper | | LL [ |
+B Tech
+(SEM VID Theory Examination 2011-12
+ELECTRIC DRIVE
+Time : 3 hours Maximum Marks: 100
+Note: Attempt all questions.
+Answer any four parts of the following: (S5x4=20)
+a) What are the different functions of power
+moduiation? Explain in detail.
+b) Enlist the classification of electric drive and explain
+in detail.
+c) What are the reasons for using load equalization in
+electric drive?
+d) Explain the four quadrant operation of an electric
+drive.
+e) Differentiate individual, and multi motor drive
+with applications. group
+f) A drive has following equations for motor and load
+torque:
+T = (1 + and T; =
+obtain the equilibrium points and determine their
+steady state stability.
+Q2. Answer any two parts of the following: (10x2=20)
+a) Derive the necessary relationship between the
+variation of electromagnetic torque and load torque
+with respect to speed for a stable operation of
+aktuonline.com
+aktuonline.com aktuonline.com
+electric drive. Comment whether the points of
+equilibrium P; and shown in figure below are
+stable or not. Explain with reasons.
+wt T
+Motor & Load Torque Curves
+b) Show that the torque to inertia ratio referred to motor
+shaft and to the load shaft differ from each other by a
+factor of N, where N is the gear ratio. Show that the
+torque required to inertia referred to motor shaft or
+load shaft are the same.
+c) Explain the thermal model of electric motor for
+heating and cooling. What continuous, an short time
+intermittent duties in are of drives?
+and terms
+Q3. Answer any two parts of the following: (10x2=20)
+a) Explain the types of braking of motor. Which one is
+usually employed and why?
+b) Explain the dynamics during braking of three-
+phase induction What the methods a of
+motor. are
+reducing energy loss during starting? Explain.
+A 230 volt, 870 rpm. 100 A separately excited de
+motor has an armature resistance of 0.05Q. It is
+coupled to an overhauling load with a torque of 400
+N-m. Determine the speed at which motor can hold
+the load by regenerative braking.
+aktuonline.com
+aktuonline.com aktuonline.com
+Q4. Answer any fwe parts of the following: (10x2=20)
+a) Discuss the principle of working of a single phase
+semi-converter fed d.c. motor drive. Explain the
+advantages and disadvantages of semi-converter fed
+de motor drive.
+Explain slip scheme of three-
+b) the power recovery a
+phase induction motor control. What are its
+advantages and disadvantages?
+c) Describe the principle of operation of a switched
+resistance motor. What are the advantages of S.R.
+motor drive over other existing a.c. and d.c. motor
+drives?
+QS. Answer any two parts of the following: (10x2=20)
+a) Explain the self controlled scheme for the
+synchronous motor control.
+b) Compare the operation of USI and CSI based drives.
+Which will be preferred for control of speed of
+induction motor driving load having constant load
+torque?
+c) Write short notes on any two of the following:
+i. Brushless d.c. motor drive
+ii. control
+iii. drive using line controller
+Pump a.c.
+iv. Synchronous motor drive applications.
+aktuonline.com

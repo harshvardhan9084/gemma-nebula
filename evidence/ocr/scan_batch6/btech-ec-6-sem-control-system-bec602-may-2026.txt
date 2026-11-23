@@ -1,0 +1,75 @@
+Subject Code: BEC602
+Paper ID : 261765
+(SEM. VI) THEORY BTECH
+CONTROL EXAMINATION 2025-26
+SYSTEM
+TIME: 3 HRS M.MARKS: 70
+Note: all Sections. chge
+Attempt In of any missing data; choose suitably.
+SECTION
+A
+1. Attempt all questions in brief. 02x7=14
+What type of feedback is preferred in control system and why? [1
+State the Kalman’s test for controllability. [2 |K2 |
+For the transfer function
+1 2 +4)(1+ 2.55)
+2 (s° +2)(1+0.5s)
+Plot the poles and zeros in s-plane.
+Comment on the effect of addition of poles
+system.
+Draw the block diagram and derive the
+controlled de motor.
+0
+The overall transfer function of A\ a bis given by
+C(s) 20
+_ s?+6s+25
+the system, — >
+Determine the character technique for stability. of , Mo.
+Explain construction root of focus root loci with suitable Enumerate the v
+example.
+1|Page
+QP26E_467 |
+21-May-2026 1:29:54 PM | 125.23.225.186
+https://www.aktuonline.com
+Printed Cale Page: 2 of
+sujet
+P aper I D : 261765
+Roll No:
+BTECH
+(SEM. VI) THEORY EXAMINATION 2025-26
+CONTROL SYSTEM
+. M.MARKS: 70
+SECTION C
+3. Attempt any one part of the following: 07x1=07
+Question
+a] Solve by block diagram reduction technique
+f
+| whose block
+b. Obtain the signal below. flow graph Find the C(s)/R(s) a system ratio using the
+diagram Gain is given formula corre: 4
+Masons res
+Derive the expression for the s
+transform method.
+Determine K to limit the error of a system for input 1+ 8t + = t? to 0.8
+having G(s)H(s) = k https://www.aktuonline.com
+z .
+“2 |Page
+467 | 21-May-2026 1:29:54 PM | 125.23.225.186
+https://www.aktuonline.com
+rine
+Subject
+Paper ID : 261765
+BTECH
+(SEM. VI) THEORY EXAMINATION 2025-26
+CONTROL SYSTEM
+M.MARKS: 70
+TIME: 3 HRS
+Attempt any one part of the following: 07x 1=07
+PDetermine the stability of a system having following characteristic
+equation:
+5° +2s* +245° -25s-50=0
+the
+For phase the margin following transfer function draw
+3|Page
+QP26E_ 467 | 21-May-2026 1:29:54 PM | 125.23.225.186
+https://www.aktuonline.com

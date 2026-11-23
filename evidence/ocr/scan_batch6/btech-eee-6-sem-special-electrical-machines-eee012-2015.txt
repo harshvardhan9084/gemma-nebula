@@ -1,0 +1,93 @@
+Printed Pages : 41:
+0 0
+(Following Paper ID and Roll No. be filled in Answer Book)
+to your
+PAPER ID : 121656
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+SPECIAL ELECTRICAL MACHINES
+Time : 3 Hours] [Total Marks : 100
+1 = Attempt four parts of the following 5x4=20
+any :
+(a) Explain the e.m.f. injection in rotor circuit of slip ring
+induction motor by means of suitable phasor diagram.
+(b) A three phase 400 V double-cage induction has
+motor
+per-phase standstill leakage impedance of 2+j2.5 ¢
+and 0.5+j10¢ for its two cages. Find the relative values
+of torques given by each cage.
+@) starting
+= At 5% slip
+(c) Explain the Leblanc constant power drive system with
+suitable diagram.
+(d) Explain the principle of operation of double-cage
+induction and also draw the equivalent circuit.
+motor
+121656] | [ Contd...
+(e) A 20 kW, three-phase 400V, 4-pole, 50 Hz squirrel @) current
+cage induction motor when working at rated voltage and Gi) Power factor
+frequency develops a full load torque rpm. If
+the motor is fed from 40 Hz source with its voltage (ii) Power output’
+adjusted to give the same air flux as at 50 Hz, then (iv) Torque
+calculate the magnitude of the 40 Hz voltage source. (v) . with its auxiliary winding open.
+A three-phase 500 kW, 50 Hz, induction has
+full load slip of 2.1%. The circuit has motor standstill
+a rotor If external 3 Attempt any two parts of the following : 10x2=20
+- impedance of 0.3 Q + j1.8 Q per phase. an each (a) Explain the principle of operation of 6/4 pole variable
+resistance of 1.5 per phase is inserted in of reluctance motor. What is the motor torque
+_ rotor circuit, determine the slip and power output when . stepper the of from
+the stator current has its full load value. Neglect stator required to accelerate initial load
+impedance and rotational losses. © = 200 and @ = 300 rad/sec. Frictional load torque
+is 0.06 N-m.
+Attempt of the following 10x2=20 (b) Explain the principle of operation and operating modes
+any two parts : of switched reluctance motor.
+(@) Explain the working principle of capacitor start capacitor
+run induction motor with suitable phasor diagram. The (c) Write the short notes on the following :
+. following data is obtained from a 230 V, 50. Hz, @ Split power supply converter.
+capacitor start single phase induction motor at standstill. (i) Clamic converter
+Main winding : 100V, 2A 40W
+Auxiliary winding: 80V 10A 50W
+attaining the value 4 Attempt any two parts of the following : 10x2=20
+Determine the value of capacitor for (a) Explain the principle of operation and torque production
+of maximum torque. of three-phase three-pulse brushless DC motor. Also
+(b) Explain the principle of operation, of two phase servo the
+motor with the help of neat illustrations. Also mention mention the advantages of brushless DC motor over
+its advantages. conventional DC motor.
+(c) A 230 V, 4-pole 50 Hz, sihgle-phase induction motor (b) A three-phase four pole brushless DC motor has 36
+has the following data stator slots, each phase winding is made up of three
+: coils pole with 20 turns per coil. The coil span is
+tT) = 2.3 Q,% 2, %1 = 3.2 0, %) =3.2 0, 7 slots. per If the fundamental component of magnetic flux
+Xn = 74 Q, core loss = 98 watts, friction and windage circuit phase
+loss = 30 watts. If the motor is running with a slip 0.05 is 1.8 m Wb. Calculate the open
+at rated voltage and frequency, compute the following : (E,) of 3000 rpm.
+121656] 2 [ Contd... 121656] 3 Contd...
+(c) Write the short notes on any two of the following :
+(i) and Dynamic characteristic of stepper
+motor.
+(i) Hysteresis motor
+(ai) Single phase reluctance motor.
+5 Attempt any two parts of the following : 10x2=20
+(a) Explain the operation of DC series motor when
+connected to an AC source and also draw the
+phasor diagram of a single-phase seriés motor.
+A series has a total resistance of 25
+a motor motor
+and total inductance of 0.2 H. The runs
+at 1000 rpm when it draws 1A from 220 V DC
+source. Calculate the speed and power factor
+when it draws the same current from 220V,
+50 Hz source.
+(b) Four pole lap connected armature has 450 turns
+and rotates at 1200 rpm in a sine distributed
+pulsating flux of frequency of 50 Hz and of
+amplitude 0.018 Wb per pole. Calculate the
+voltage and frequeney of the e.m.f. at the brushes
+if the brush axes are
+@)
+90° away from the field axes.
+(i) aligned along the field axis and
+(ti) 30° away from the field axes.
+(c) Write the short notes on the following :
+@) Linear induction motor
+Improving commutation method.
+121656] 4 [ 7100 ]

@@ -1,0 +1,69 @@
+aktuonline.com
+aktuonline.com
+40
+Printed Pages : 3 TIT - 602
+(Following Paper [ID and Roll No. to be filed in your Answer Book)
+PAPER ID : 1311
+B. Tech.
+(SEM. VI) EXAMINATION. 2007-08
+ERP SYSTEM
+Time :- 3 Hours] [Total Marks :; 100
+1 Attempt four of the following 5x4=20
+any parts :
+(a) How Data Warehousing proves to be advantageous
+for companies ?
+(b) Discuss the evolution of ERP systems.
+(c) Whatare the limitations of ERP?
+(d) the reasons for the growth of ERP market ?
+(e) Write in brief the technologies required for ERP.
+(f) What are the barriers to the success of BPR ?
+Suggest suitable solutions it.
+to
+2 Attempt four of the following
+any parts :
+(a) | Whatare the advantages and disadvantages of using
+ERP in Manufacturing Management System ?
+(b) How ERP work in BaaN IV Model ?
+system
+http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+(c) What is Gap analysis ? Howare the 'gaps' found
+during Gap analysis filled ?
+(d) Discuss the ERP implementation life cycle.
+tools used make project refresh
+(e) Which ERP are to
+and compelling ?
+(f) Explain the following methods of object oriented
+architecture
+:
+| Booch Method
+(it) Hirorchical Method.
+3 Attempt any two parts of the following : 10x2=20
+(a) | What is implementation methodology ? Discuss the
+implementation.
+issues for defining a successful ERP
+(b) different types of hidden costs in ERP ?
+Elaborate each one of them.
+(c) Explain the term 'knowledge management
+integration’. How ERP can be useful in this regards ?
+4 Attempt of the following 10x2=20
+any two parts :
+(a) What do you understand by the term MRP Ill ?
+List the five reasons for poor ERP results.
+(b) Explain in detail the guidelines used for ERP
+implementation.
+(c) Discuss the integration of SCM and CRM to ERP
+system.
+INE HM 2
+aktuonline.com
+aktuonline.com aktuonline.com
+5 Attempt any two parts of the following : 10x2=20
+(a) Explain the architecture of SAP R/3.
+(b) ERP software packages jit the business
+need of the organization well ? Explain.
+(c) Write short notes on any two:
+(1) replication
+ra (ii) Oracle RDBMS
+(ii) Management System.
+8 [3800]
+aktuonline.com http://www.UPTUonline.com

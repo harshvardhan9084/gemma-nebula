@@ -1,0 +1,67 @@
+Printed Pages 3
+: (d) Draw suitable diagram
+A 0 AG NEC-309 of full adder.
+(e) Design and explain the logic and circuit of 4 bit
+(Following Paper ID and Roll No. to be filled in your Answer Book) magnitude comparator.
+(f) | What is race around condition ? Explain in brief.
+PAPER ID : 110310
+2 Attempt any four parts (4x5=20)
+(a) Differentiate between :
+(b) A EPROM and EEPROM.
+B.Tech. certain memory has a capacity of 8K x 16. How
+(SEM. (ODD SEM.) THEORY many bits are there in each word ? How many words
+III) are being stored ?
+EXAMINATION, 2014-15 (c) Differentiate between truth table, excitation table, state
+DIGITAL LOGIC DESIGN table. Design D flipflop using SR flipflop.
+(d) (i) The Hamming code 101101101 is
+Time 3 Hours] [Total Marks 100 received with
+: : even parity. Correct errors (if any).
+Gi) Simplify + BCD’ +
+Note : (1) Attempt all questions (e) Design 16:1 multiplexer using 4:1 multiplexer.
+(2) Allocated marks are indicated against each (f) Explain priority
+question. encoder.
+(3) Assume any missing data suitably.
+3 Attempt any Two parts : (10x2=20)
+(a) Minimize the given Boolean function using K map and
+implement the simplified function using NAND gates
+only.
+1 Attempt any Four parts :
+(a) Explain weighted and unweighted code with example. F(A.B,C,D) = ¥ m (0,1,2,9,11,15)
+(b) Minimize the following functions by tabular method
+(b) Convert the following numbers as indicated : F(w,x,y,z) => m ( 0,2,3,6,7,8, 10,12,13).
+() () =O);
+@i) (111011), = () (c) Design a 4 bit combinational circuit which converts
+(c) Draw a NAND logic , diagram that implements the BCD to Excess-3 code.
+complement of the following function
+4 Attempt any Two parts : (10x2=20)
+F(A,B,C,D) = ¥ (0,1,2,3,4,8,9, (a) Designa 3 bit combinational circuit which produce logic
+output when than 1
+110310] 1 [| Contd... more one input variables are at logic 1.
+110310] 2 [ Contd...
+(b) Implement the following functions using 3 input,
+4 product term and 2 output using PLA
+F2=(AC+BC)*
+(c) A sequential circuit with two D flip-flops A and B and
+an input X and output Y. The circuit is described by
+the following next state and output equations.
+A(t+1)=AX+BX
+¥ =(A+B)X’
+(i) Derive the state table.
+(i) Draw the logic diagram of the circuit.
+(it) Derive the diagram.
+state
+Attempt any Two parts : (10x2=20)
+(a) What do you understand by fundamental mode of
+operation ? Explain different types of Hazards in
+Asynchronous sequential circuit by giving suitable
+example.
+(b) Draw and explain the working of universal
+(c) An asynchronous shift register.
+sequential circuit has two internal
+states and output. The excitation and Output functions
+describing the circuit are as follows.
+and
+@) Draw the logic diagram.
+(ii) Derive the transition table and output map.
+(ii) Obtain the flow table of circuit.
+110310} 3 [ 15475 ]

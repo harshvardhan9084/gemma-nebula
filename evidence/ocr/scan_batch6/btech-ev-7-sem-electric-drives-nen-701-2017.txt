@@ -1,0 +1,95 @@
+Printed
+Pages: 4 NEN 701/NEE 701
+(Following Paper ID and Roll No. to be filled in
+Answer Books) your
+aper LD: 2012376
+B.TECH.
+Regular Theory Examination(Odd Sem-VID), 2016-17
+ELECTRIC DRIVES
+Time : 3 Hours Max. Marks : 100
+Section -A
+1 ~=Attempt all parts of the following : (10x2=20)
+a) meant by the nature of load torque?
+b) What are the disadvantages of dc drives?
+c) Classify various mechanical loads on the basis of
+their torque-speed characteristics.
+d) Explain why the characteristics of a de series motor
+is suitable for traction applications?
+e) What the advantages
+are and disadvantages of
+electrical braking?
+f) | What are the problems faced in case a motor of
+wrong rating is chosen?
+g) Onwhat factors does the rate of rise of temperature
+depend?
+h) Why the thyristor control is preferred Ward
+Leonard over
+system of speed control?
+701/12/2016/2940 (1) [P.T.O.
+NEN 701/NEE 701
+i) Suggest suitable motors for textile and paper mill
+drive applications.
+j) Why the cooling time constant of a rotating machine
+is usually larger than its heating time constant?
+Section - B
+Attempt any five questions from this section.
+(5x10=50)
+2. Derive the relationship between the variation of
+electromagnetic torque and load torque with respect to
+speed for stable operation of electric drive. What
+the drawbacks a of steady an stability transient
+are state over
+stability?
+3. A drive has following equations for motor and load
+torques: T & T, =3Ja,,
+Obtain the equilibrium points and determine their steady-
+stability.
+state
+4, A230 V.870 rpm, 100 A separately excited de motor has
+an armature resistance of 0.05 ohm. It is coupled to an
+overhauling load with a torque of 400 N-m. Determine
+the speed at which motor hold the load by regenerative
+can
+braking.
+701/12/2016/2940 (2)
+NEN 701/NEE 701
+5. A30kW,400V, 3 — ¢, 4-Pole, 50 Hz induction motor has
+full-load slip of 5%. Ifthe ratio of standstill reactance to
+resistance per rotor phase is 4, estimate the plugging
+torque at full speed.
+6. Discuss Static Rotor Resistance Contro! of Induction
+motor with suitable circuit diagram.
+7. Describe the construction and principle of operation of
+switched reluctance (SRM).
+a motor
+8. Explain the chopper control techniques for separately
+_ excited dc motor under different modes of operation.
+9. Explain the operation of 1 - half controlled rectifier
+fed separately excited de motor under continuous and
+discontinuous modes of operation. Write the
+mathematical expression and draw speed characteristics
+for different delay angles.
+Section - C
+Attempt any two questions from this section
+10. Draw the torque-speed characteristics of an induction
+motor with constant V/f control for speed variation from
+very low up to the base speed. Also describe an open loop
+scheme for Induction motor with V/f control.
+701/12/2016/2940 (3) [P.T.O.
+NEN 701/NEE 701
+A440V, 50 Hz, 6-pole, Y-connected wound rotor motor
+has the following parameters
+:
+R,=0.5Q. =500
+Stator to rotor turn ratio is 3.5.
+Motor is controlled by static rotor resistance control.
+External resistance is chosen such that the breakdown
+torque is produced at standstill for a duty ratio of zero.
+Calculate the value of external resistance. How duty ratio
+should be varied with speed so that the motor accelerates
+at maximum torque.
+12. Discuss static Scherbius scheme for speed contrcl of
+slip ring induction motor. Draw a neat circuit diagram of
+the complete scheme. Mention one main advantages of
+this scheme compared to rotor resistance control.
+701/12/2016/2940 (4)

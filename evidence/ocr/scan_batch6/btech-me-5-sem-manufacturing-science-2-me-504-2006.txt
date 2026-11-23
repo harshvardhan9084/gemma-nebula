@@ -1,0 +1,100 @@
+aktuonline.com aktuonline.com
+01324
+Printed Pages—4 ME—504
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 401 7
+B.Tech.
+FIFTH SEMESTER EXAMINATION, 2005-2006
+MANUFACTURING SCIENCE - II
+Time : 3 Hours Total Marks : 100
+Note : Answer ALL questions.
+All questions carry equal marks.
+(iii) Be precise in
+your answer.
+1. Attempt any two of the following : (10x2=20)
+(a) What the of cutting fluids ? Discuss
+of the cutting are fluids uses used during machining and some their
+method of application.
+(b) Draw a neat and labelled sketch of right hand single
+point cutting tool, showing various tool angles. What
+are effects of various tool angles on machining ?
+Explain what is built up edge.
+Using the modified formula of tool life =C,
+calculate the change in tool life if the depth of
+cut (d) is reduced 1.5 times, feed is reduced 2.5 times
+and the cutting speed is made double. Assume the
+exponent have following values n= 0.15, x=0.15
+and y=0.6.
+aktuonline.com
+AAU COA
+Attempt any two of the following :
+(a) List salient the features different of each. types What of lathes the available of (i) giving lead
+(ii) feed rod (iii) tail stock are (iv) uses half nut (v)
+compound screw slide in a lathe.
+(b) What is a Universal milling machine ? Draw atleast
+one part which cannot be machined on a horizontal
+milling machine. List various types of milling cutters
+available and draw any two.
+(c) Classify the different types of milling machines.
+Explain what are the following operations.
+(i) Boring (ii) Reaming
+(iii) Tapping (iv) Counter boring
+(v) Sinking (vi) Counter sinking
+3. Attempt four of the following (5x4=20)
+any :
+(a) Explain the differences between capstan and Turret
+- Lathe. How is automation achieved using them.
+(b) Explain three different ways in which the wear of
+grinding them wheel ? can take place. What can be done to
+prevent
+(c) Describe any four types of bond for bonded abrasives
+on a grinding wheel.
+(d) How are grinding wheels specified ? Take a suitable
+example and explain what the different terms in
+specification stand for. of a wheel by international standard,
+ME—504 2
+aktuonline ere
+aktuonliae.complain of the following finishing
+any two
+(i) Lapping
+(ii) Buffing
+(iii) Electro-polishing
+|
+(f) With honing. the help of a neat sketch explain the process of
+What are the limitations of this process ?
+4. Attempt any four of the following : (5x4=20)
+(a) Draw the different types of flames used in gas
+welding. How would you identify these flames ?
+What are the specific uses of each of these flames ?
+(b) What in are welding the different ? What types of the power advantages sources used and
+limitations arc of each ? are
+(c) With the help of a neat sketch explain the process of
+resistance spot welding. How heat balance is obtained
+on spot welding process.
+(d) What are the advantages and limitations of friction
+welding process ? Explain the effect of various
+process parameters on friction welding ?
+(e) Why larger is than the current for resistance used on resistance welding spot ? What welding
+the advantages of projection seam welding ? are
+(f) What is Heat Affected Zone (HAZ) ? How it affects
+the weldment ?
+aktuonline.com
+aktuonline.com aktuonline.com
+of the following (10x2=20)
+Attempt any two :
+(a) How are non conventional machining process
+different from conventional machining processes.
+Clarify the different types non-conventional
+machining processes. In what situation would you
+use the following processes ?
+(i) Laser Beam welding.
+(ii) Ultrasonic welding.
+(iii) Plasma welding. \
+arc
+(b) With the help of a neat sketch, explain the principle
+and working of Abrasive Jet Machining (AJM). List
+the variables and limitations of AJM process.
+(c) Explain with the help of neat sketch how explosive
+welding takes place. a What are the variables,
+limitations and uses of explosive welding process ?
+aktuonline.com . -o0Oo-

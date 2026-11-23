@@ -1,0 +1,105 @@
+EME-502
+Printed Pages: 6
+(Following Paper ID and Roll No. to be filled in your
+Answer Book)
+Paper 1D :140522
+(SEM. V) THEORY EXAMINATION, 2015-16
+THEORY OF MACHINES-I
+[Time:3 hours] [Total Marks: 1900]
+Section-A
+1. Attempt all parts. All parts equal marks. Write
+carry
+answer of each part in short. (10x2=20)
+(a) In a crank and slotted lever quick return
+mechanism, the distance between the fixed centres
+is 300 mm and the driving crank is 150 mm long.
+Determine the ratio of the time taken the cutting
+on
+and return strokes.
+(b) Write the difference between a machine and a
+mechanism.
+(c) Write the relation between the number of
+instantaneous centres and the number of links in a
+mechanism.
+7000 (1) P.T.O.
+Section-B
+(d) What do you understand by ‘centrifugal tension in
+belt. Attempt any five questions from this section. (10x5=50)
+a
+2. Explain the term kinematic pair. How are the kinematic
+(e) How does the velocity ratio of a belt drive effect, pairs classified? Explain with examples.
+when some slip is taking place between the belt
+and the two pulleys? Discuss the inversion of double slider
+crank mechanism.
+(f) What understand
+do you by the term ‘undercutting’ What do you understand by the term Coriolis component
+as applied to gears? of acceleration? How is the sense and direction of this
+acceleratiion determined?
+(g). What are different types of gear trains?
+Explain Hart’s mechanism for exact straight line motion.
+(h) State law of gearing.
+(i) whether the A shaft which rotates at a constant speed of 160 r.p.m. is
+case is a kinematic chain
+or not? connected by belting to a parallel shaft 720 mm apart,
+which has to run at 60,80 and 100 r.p.m. The smallest
+pulley the driving
+i on shaft is 40 mm in radius. Determine
+1 oe & ™ D the remaining radius of the two stepped pulleys for a
+E | Se crossed belt and belt. Neglect belt thickness
+an open ans
+Link 2 slip.
+A
+Fig: 1
+Two involute gears of 20° pressure angle are in mesh.
+The munber of teeth on pinion is 20 and the gear ratio is
+(j) ‘What do by degree of freedom? Also If
+you mean 2. the pitch expressed in module is 5 mm and the pitch
+write kutz-bach equation. line speed is 1.2 m/s, assuming addendum as standard
+7000 (3)
+P.T.O.
+7000 (2) EME-502
+and equal
+to one module, find: Section-C
+(i) The angle turned through by pinion when one pair Attempt any two questions from this section. (2x15=30)
+of teeth is in
+mesh and 10. Derive the expression for the length of path
+of contact,
+(ii) The maximum velocity of sliding. length of arc of contact and contact ratio for a gear
+system. In an epicyclic gear train, carries
+an arm two
+The speed ratio of the reverted gear train, as shown in gears A and B having 36 and 45 teeth respectively. Ifthe
+Figure, is to be 12. The module pitch of gears A and B is arm rotates at 150 r.p.m. in the anticlockwise direction
+mm. about the A
+3.125mm and of gears C and D is 2.5 Calculate the center of the gear which is fixed, determine
+suitable numbers of teeth for th gears. No gear is to have A. the speed of gear B. If the gear A instead of being
+fixed, makes 300 in
+less than 24 teeth. r.p.m. the clockwise direction, what
+will be the speed of gear B?
+11. A cam is to be designed for a knige edge follower with
+the following
+data: 1. Cam lift=40 mm during 90° of
+cam rotation with simple harmonic motion. 2. Dwell for
+the next for the
+next 30°.3. During the next 60° of cam
+rotation, the follower returns to its original position with
+simple harmonic motion. 4. Dwell
+during the remaining
+180°. Draw the profile of the cam when the line of stroke
+Explain Klein’s construction for determining the velocity of the follower passes through the axis of the
+and acceleration of the piston cam shaft.
+in a slider crank mechanism The radius of the base circle of the cam is 40 mm.
+with a neat sketch. Determine the maximum velocity and acceleration of
+7000 (4) EME-502 7000 (5)
+P.T.O.
+the follower during its ascent and descent, if the cam
+rotates at
+12. An engine mechanism has.the crank CB=100 mm and
+the
+connecting rod BA=300 mm with centre of gravity
+G, 100 mm from B. In the position shown, the crankshaft
+has a speed of 75 rad/s and an angular acceleration of
+1200 rad/s2. Find:1. Velocity of G and angular velocity.
+of Acceleration of G angular acceleration of
+AB, 2. and
+AB.
+7000 (6) EME-502

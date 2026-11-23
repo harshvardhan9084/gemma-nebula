@@ -1,0 +1,105 @@
+01996
+Printed Pages—4 EC—504
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+| | | | | | | I I |
+B.Tech.
+FIFTH SEMESTER EXAMINATION, 2005-2006
+ANTENNA AND WAVE PROPAGATION
+Time : 2 Hours Total Marks : 50
+Note: (i) | Answer ALL questions.
+(ii) All questions equal marks.
+carry
+(iii) In case of numerical problems assume data wherever
+not provided.
+(iv) Be precise in your asnwer.
+1. Attempt any four of the following questions : 6x2
+(a) If the far field component E, for an oscillating electric
+FE, Widisiné
+divole 1pole i = prove that hat for for the the above ab
+mentioned dipole _ 90
+(b) Derive an expression for the vector potential Az at a
+point P located at a large distance r from a half wave
+dipole placed along the Z-axis.
+(c) What is end effect with reference to an antenna ?
+Due to this end effect what will be the nature of the
+input impedance (Real, inductive or capacitive) of a
+quarter wave monopole if its physical length is taken
+to be A/4 and why ?
+EC—504 1 {Turn
+Over
+(d) The power delivered to an isotropic radiator is 1kW
+and the antenna efficiency is 90%. Find the electric
+field intensity at a distance of 100 km.
+(e) Show that the effective area and effective length of
+30710 eft
+an antenna are related by Agg = Rrad
+A directional antenna has an effective radiated power
+of 1.1kW, when it is fed with a terminal input power
+of 90 watts. The radiation resistance is 740 at
+resonance and the measured antenna current is
+1.088 amperes r.m.s. Find -
+(i) The antenna efficiency
+(ii) The antenna power loss
+The directive gain in decibels isotropic
+radiator over an
+Attempt any four of the following questions : 6x2
+(a) Plot the array factor as a function of @ for a four
+element end fire array with \/4 spacing.
+(b) Specify the diameter of a parabolic reflector required
+to provide a gain of 55 dB at a frequency of 15 GHz.
+The area factor of the feed is 0.65. Also calculate the
+capture area of the antenna.
+(c) Explain the antenna top loading and tuning.
+~<,
+(d) Explain a the working of a resonant V antenna. Show
+how reduced bidirectional unidirectional pattern in V antenna can be
+to pattern.
+(e) What is beam mode of radiation in a helical
+antenna ? Calculate in dB the directivity of a helix
+antenna with 15 turns, having a=10° and
+circumference equal to one wavelength.
+How a horn produces a uniform phase front with a
+larger aperture in comparison to wave guide.
+Mention one antenna system when a horn is used as
+a feed system.
+Attempt any two of the following questions : 6x2
+(a) Explain how earth magnetic field affects the
+Discuss propagation effects of radio polarization waves in of the radio ionosphere.
+its on waves.
+(b) Give reasons for the following :
+(i) Why are AM broadcast stations often
+received at greater distances during the night
+than during the day ? Is this always an
+advantage ?
+(ii) Sometimes an HF radio station can be heard
+at a distance of 1000 kms from the transmitter
+but can’t be heard 100 km away, why?
+(iii) station can transmit from New York
+city to Miami at a frequency of 25MHz but not
+at 5MHz At mid might the situation is
+reversed. Why ?
+State the undesirable effects that be caused by
+reflection in line of sight communications. can A
+microwave signal at 1.9GHz arrives at an antenna
+via two paths differing in length by 19m. Calculate :
+(i) The difference in arrival time for the two paths.
+Calculate the phase difference between
+(ii) signals. the two
+3 [Turn Over
+4. Attempt any two of the following questions : 7x2
+(a) Define and explain with reference it ionospheric
+propagation.
+(i) Critical frequency
+( ii) Critical angle
+(iii) Maximum usable frequency
+( iv) Optimum working frequency If the critical
+frequency for a layer is 12MHz, what is the
+critical angle at 15MHz.
+(b) Explain the following fading phenomena
+:
+(i) Selective fading
+(ii) Interference fading
+(iii) Polarization fading
+(c) be Explain utilised the phenomenon LORAN-C of propagation beacons that that will
+operated in 100KHz. navigation are
+at

@@ -1,0 +1,80 @@
+Printed Pages:4 [ EEF-042
+(Following Paper ID and Roll No. to be filled in your
+Answer Book) '
+Paper ID :120756
+-(SEM. THEORY EXAMINATION, 2015-16
+POWER STATION PRACTICE
+[Time:3 hours} [Total Marks:100]
+SECTION-A
+1. Attempt all parts. All parts carry equal marks. Write
+of each part in short.
+answer
+(a) Write the advantages of using pulverised coal in
+thermal plant.
+(b) Why does the value of load factor is always less
+than one?
+(c) Name the main parts of Diesel power plant.
+(d) Whatis the function of moderator in Nuclear power
+plant?
+(e) Define load factor related to power plant
+economics.
+(f) What are the components of operating cost?
+(g) Define penalty factor.
+2400 (1) EEE-042
+(h) What do by economic load scheduling? supply system has maximum load of 70 MW.
+you mean
+(i) the advantages of MHD generation? The annual expenses of the system are:
+Generation Rs. 8,50,000
+(j) the different sources of non- conventional Fuel Cost Rs. 28, 00, 000
+energy? Transmission Rs. 3,45,000
+SECTION-B Distribution Rs. 27,50,000
+Repairs etc Rs. 3,00,000
+Attempt any five parts of the following. (10x5=50) 10°
+The number of units generated per year is 600 x
+2. (a) A thermal power plant spends Rs.25 lakhs in one kWh. The consumers have an aggregate maximum demand
+year on coal consumption. The coal has heating of 75 MW. Evaluate a two part tariff to be charged from
+value of 5000 kcal/kg and Rs.500/ton. If the the Assume that the fixed charges for
+costs consumers.
+thermal efficiency is 35% and electrical efficiency generation, fuel transmission distribution repairs etc are
+is 90%, find the average load on the power plant. 90%, 15%, 85%, 95% and 50% respectively. Losses in
+transmission and distribution are 20%.
+(b) Whatare the factors which determine the location What do you mean by economic load scheduling? Explain
+& site of hydro power plant? economic scheduling of
+load thermal plants considering
+What are the different types of hydroturbine? List their transmission losses.
+applications and discuss their construction features. (a) Explain thermionic and thermoelectric converters
+for direct conversion of solar heat to electricity.
+Discuss in detail cycle and closed cycle turbine
+open gas (b) What is Geothermal energy? How it is utilized for
+‘plants along with the methods to improve thermal power generation?
+efficiency of gas turbine plant. Explain
+generation of electricity by wind mills. What
+Explain the working of diesel plant with the help of block are different types of generators used in wind energy
+diagram. Also mention its advantages, disadvantages & generation? Compare them with their advantages and
+applications. disadvantages.
+2400 (2) EEE-042 (3) EEE-042
+SECTION-C
+Attempt any two parts of the following. (15x2=30)
+factor
+10. (a) How can the most economical power be
+determined for a consumer installation?
+(b) What are the advantages and disadvantages of using
+synchronous condensers compared static
+as to
+capacitor?
+Write short notes on the following for hydroelectric
+plants.
+(a) Reservoir
+(b) Trashrack
+(c) Surge tank
+(d) Penstock
+Spillway
+(e)
+(a) What are different types of substations? Also
+Explain different types of bus-bar arrangements at
+sub-stations.
+(b) Define tidal energy and tidal barrage. Name
+different tidal schemes.
+power
+a
+2400 (4) EEE-042

@@ -1,0 +1,44 @@
+Printed Pages: 01 Subject Code:NIC042
+Paper Id: | 131305 Roll No:
+B. TECH.
+(SEM. ANALYTICAL THEORY INSTRUMENTATION EXAMINATION 2018-19
+Time: 3 Total Marks:100
+Notes: Assume Hours Missing Data.
+any
+SECTION A
+Attempt all questions in brief. 2x 10=20
+oe What is spectrometer.
+Define photometers.
+ae What is meter scale?
+Explain NMR.
+What is flame photometer?
+Explain Emission of electron in spectrograph.
+Explain what is resonance
+How can the need for an array of narrow-band filters and detectors be eliminated?
+What is the x-y resolution of ISS?
+What is Sputtering
+SECTION B
+www.aktuonline.com 2. Attempt any three of the following: 10x3=30
+a. Describe with the help of diagram, the constructional details of interference filter and explain
+its working
+b. Discuss the block diagram of a flame Emission spectrograph and explain its working
+c. Explain Inductively coupled plasma mass spectrometer.
+d. Explain Constructional details of NMR Spectrometers. Also explain Principle of operation.
+e. Write and explain expression for concentration of flame photometery
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+a. Explain Double Beam Spectrophotometer with optical diagram and block diagram.
+b. Explain Microprocessor based spectrophotometer with a proper block diagram
+4. Attempt any one part of the following: 10x1=10
+a. Discuss the basic components of IR Spectrophotometers? Explain sampling handling technique also
+b. What are various application of mass spectrography? Explain where this technique is used
+5. Attempt part of the following: 10x1=10
+Explain any ION one Cyclotron Resonance (ICR) Spectrometer.
+b. a. Explain Principle of operation of Basic mass Mass Spectrometer.
+6. Attempt part of the following: 10x1=10
+a. What are any sources one of interference? Explain Absorption Instrumentation
+b. What are Flame photometers explain with block diagram its constructional details
+7. Attempt any one part of the following: 10x1=10
+a. What is T-60A NMR Spectrometer? Discuss with Diagram in support of your answer
+b. What is tandem Mass Spectrometry (MS/MS)? Discuss in brief
+http://www.aktuonline.com

@@ -1,0 +1,60 @@
+UA
+Printed Pages : 2 TIT - 602
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID.: 1311
+B. Tech.
+(SEM. VI) EXAMINATION, 2008-09
+ERP SYSTEM
+Time : 3 Hours] {Total Marks : 100
+1 Attempt any four parts of the followings : 5x4=20
+(a) | What is ERP? Discuss the reasons for the growth
+of ERP market.
+(b) How the following benefits are achieved by
+using ERP:
+(i) Improved quality
+resources
+(ii) Increased flexibility
+(c) Discuss the technologies existing BPR.
+(d) Name and explain components of data
+warehousing system.
+(e) Describe verification model of data mining.
+(f) Define supply chain management. How does it
+benefit an organization?
+2 Attempt any four parts of the followings : 5x4=20
+(a) What is GAP analysis. How is it performed.
+(b) Explain the followings with examples :
+(i) | Engineer-to-order
+(ii) Configure-to-order.
+(AML
+aktuonline.cOmmcuss aktuonline.com
+profit centre accounting.
+(d) How the vendor evaluation is incorporated in
+materials management module?
+(e) Explain master data management sub-system of
+sales and distribution module.
+(f) Explain object oriented architecture.
+3 Attempt of the following 10x2=20
+any two parts :
+(a) Discuss various steps in ERP inplementation.
+Explain with examples.
+(b) What is the role of vendors in ERP atmosphere?
+Describe with examples.
+(c) Name and explain hidden costs associated with
+ERP implementation.
+Attempt any two parts of the following : 10x2=20
+(a) Explain the of enterprise integration
+application products use in successful ERP
+implementation.
+(b) is the role of Internet in promoting ERP?
+(c) Is ERP inplementation economical? Put
+views ERP inplementation through economic your
+analysis. on
+5 Attempt any two parts of the following : 10x2=20
+(a) Discuss the important features of Oracle. How
+will it with SAP.
+you compare
+(b) What do you mean by cross functional approach?
+Explain with examples.
+(c) Project the future of ERP in India. Support with
+some cases.
+= 2 [ 4425 ]

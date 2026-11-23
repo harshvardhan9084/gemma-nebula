@@ -1,0 +1,61 @@
+Printed Pages—3
+EEC309
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+RollNo. | [ [| | [| | | | TT |
+B.Tech.
+(SEM. lI) THEORY EXAMINATION 2011-12
+ANALOG AND DIGITAL ELECTRONICS
+Time : 3 Total Marks : 100
+Note :—(1) | Answer all questions.
+(2) All questions carry equal marks.
+of
+1. Attempt any four parts the following : (5x4=20)
+(a) Explain the working of tunnel diode. Enlist its applications.
+(b) Discuss
+how the variable capacitance is achieved in
+varactor diode. Enlist the application of varactor diode.
+(c) Define "Dark in
+current" photodiode. Why photodiode is
+always used in reverse bias conditions ?
+(d) Explain the principle and working of light emitting
+diode
+(LED) with V-I characteristic.
+(e€) How the construction of the Schottky barrier diode is
+different from conventional semiconductor diode
+significantly and describe its mode of operation.
+(f) Explain the working of transistor as switch.
+EEC309/KIH-26664 1 [Turn Over
+of the following (10x2=20)
+Attempt any two parts of the following : (10x2=20) Attempt any two parts :
+circuit of BJT at high frequency and (a) Sketch the circuit diagram for universal shift register and
+(a) Draw the equivalent explain its working.
+derive the expression for upper cut-off frequency.
+(b) Discuss the higher and lower frequency response of RC (b) (i) Implement the following Boolean function using 8*1
+of coupling and bypass multiplexer :
+coupled amplifier. Explain the effect
+capacitor on the bandwidth of an amplifier. F(A,B,C,D) = = m(2,4,5,7, 10,14).
+List five characteristics of an amplifier, which are modified (ii) Design a four bit synchronous up counter using J-K
+(c)
+by negative feedback. Derive expression for the effective flip flop.
+input and output resistance of current series feedback (c) (Explain the working of SR flip flop using NAND
+topologies. gates.
+(ii) Discuss Race around condition of J-K flip flop. Show
+parts of the following : (10x2=20) condition be removed.
+Attempt any two how this can
+(a) What are the Barkhausen conditions required for sustained
+sinusoidal oscillation ? Sketch the circuit of a Wein bridge of the following (10x2=20)
+for frequency of Attempt any two parts :
+oscillator and derive the expression (a) Design andexplain a circuit diagram for astable multivibrator
+oscillation. having 50% duty cycle using IC 555.
+working ofa transistor
+(b) Explain with the circuit diagram the (b) Enlist the various types of analog to digital (A/D) converter.
+RC phase shift oscillator and derive the condition for Explain the operation of R-2R ladder type digital to analog
+oscillations.
+sustained (D/A) converter with a neat sketch.
+(c) (i) Discuss how does the circuit of a Clapp oscillator (c) Write short notes on the following :
+differ from that of Colpitt oscillator.
+a (i) Series type voltage regulator
+(ii) Explain the properties of a quartz crystal which are (ii) Sequential memory.
+responsible for its use in an oscillator.
+EEC309/KIH-26664, 3 5850
+EEC309/KIH-26664 2

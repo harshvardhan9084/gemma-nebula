@@ -1,0 +1,78 @@
+Printed Pages—4 EEE404
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID
+B.Tech.
+(SEM. IV) THEORY EXAMINATION 2013-14
+MICROPROCESSORS
+( Time : 3 Hours _ Total Marks : 100
+Note :— Attempt all questions. Each question carries equal marks.
+following
+1.. Answer any two parts of the : (2x10=20)
+(a) Indicate the source and destination of data for each of the
+following cycles :
+| Memory Write
+(i) | Memory Read
+(iii) V/O Write
+(iv) YO Read.
+(b) What do you mean by “Instruction Pipe Line” and
+“Arithmetic Pipeline” ? Explain with a suitable example.
+(c) Discuss the following sections of CPU 8085A :
+(i) Interrupt control
+( (ii) Serial Input/Output control
+2. Answer any two parts of the following : (2x10=20)
+(a) Explain the following addressing modes of 8085 :
+G) Immediate Addressing
+EEE404/DQJ-21215
+1 [Turn Over
+Implict Addressing (b) Explain the following addressing modes of 8086:
+_ Gi) (i) Register Relative Addressing
+(iii) Register Indirect Addressing Based Indexed Addressing
+Also mention their importances. (ii)
+(b) Explain the following instruction set of 8085 : (iii) Relative Based Indexed Addressing
+(i) POP PSW (iv) Immediate Addressing
+(ii) XTHL (v) Register Addressing
+(ai) SPHL (c) Describe the operations performed by the following
+instructions :
+(iv) PUSH PSW (i) AND BX,
+(v) [0300], CL
+(vi) CPI data (ii) SHR BYTE PTR
+(vii) XRA M (iii) ADD AX, [SUM]
+(viii) DAA (iv) AAA
+(ix) INRM (v) MUL DX
+(vi) IMUL CL
+(x) ADD M of the (vii) CBW
+(c) Explain what operation is performed on execution CL
+following instructions of 8085 ? ROR AX,
+(i) SUI data (ix) DIV BYTE PTR [S]] + 0020
+(i) RAR (x) SBB BX, CX.
+(ii) CNC addr 4. Answer any two parts of the following : (2x10=20)
+(iv) (a) What is result of executing the following instructions of
+8086 ?
+(v) PUSH PSW MOVAL, AIH
+(vi)
+(vii) OUT Port Gi) CBW
+(viii) RIM (ij) CWD
+(ix) DAA (b) Write a short note on the following :
+(x) XCHG. (i) Assembler Level Program (ASMs)
+of the following (2x10=20) (ii) Memory Space
+Answer any two parts : divide 16-bit (c) What do mean by “Low Level” and “High Level
+(a) Write an assembly language program to a you Programming” in microprocessors ? Also
+number by an 8-bit number. Language
+mention its advantages and disadvantages.
+EEE404/DQJ-21215 2 EEE404/DQJ-21215 3 [Turn Over
+5. Answer two parts of the following : (2*10=20)
+(a) Explain any the following
+:
+(i) INTEL-8259—Programmable Interrupt Controller
+(PIC)
+(ii) INTEL-8257—Programmable DMA Controller
+(iii) INTEL-8255—Programmable Peripheral Interface
+(PPI)
+(iv) INTEL-8253/8254—Programmable Timer/Counters.
+of with 8085 uP using
+(b) Show the interfacing 8355 memory
+mapped I/O Scheme. interfacing
+(c) What are I/O ports ? What are devices ? Why
+are they required ? Also mention its limitations and
+advantages.
+EEE404/DQJ-21215 4 6900

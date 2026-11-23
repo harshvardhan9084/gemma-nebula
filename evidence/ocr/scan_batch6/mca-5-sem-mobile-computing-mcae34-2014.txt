@@ -1,0 +1,58 @@
+Printed Pages—3 MCAE34
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2155 Fi ft
+MCA
+(SEM. V) ODD SEMESTER THEORY
+EXAMINATION 2013-14
+MOBILE COMPUTING
+Total Marks 100
+Time: 3 Hours :
+Note :— Attempt all the questions. All questions carry equal marks.
+1. Attempt any two parts : (10x2=20)
+Explain
+(a) (i) cellular communication. Discuss various
+channel allocation methods implemented in cellular
+systems.
+Explain the architecture of GSM and discuss
+Gi) system
+its subsystems.
+(b) What is mobile computing ? Discuss the evolution of
+mobile computing and its future applications.
+(c) @) Discuss various issues of wireless communication
+medium.
+(ii) What is wireless telephony system ? Discuss its
+characteristic features.
+2. Attempt any two parts : (10x2=20)
+(a) (i) Whatis Multiple Access Control (MAC) protocol for
+wireless LAN ? Explain the features of IEEE 802.11
+protocol.
+MCAE34/DNG-52017 1 [Turn Over
+(ii) Explain implementation of transport layer protocol 5. Attempt any two parts : (10x2=20)
+over wireless LAN. (a) What is ad-hoc network ? Discuss various localization
+an
+(6) @ Discuss the applications of wireless networking and issues of this type of network.
+compare it with wired LAN. (b) List some routing protocols of ad-hoc networks. Compare
+the DSDV method of discovering and managing
+(i) What is mobile IP ? Discuss its agent discovery route
+process. with DSR method.
+Sy c) Write note on quality-of- ice issue i in i ad-hoc
+(c) @_ Discuss the principles of working of Bluetooth ( ( networks. -
+devices.
+(ii) What is WAP ? Discuss its architecture.
+3. Attempt two (10x2=20)
+any parts :
+(a) Discuss methods for management of data over wireless
+and mobile environment.
+(b) Explain the issues of file system for mobile wireless
+networks.
+(c) Discuss advantage of data replication methodologies over
+mobile computing.
+4. Attempt any two parts :
+(a) Discuss the security and fault tolerant strategiesofmobile ( (
+wireless networks in detail.
+(b) What are mobile agents ? Explain the advantages of
+mobile agent programming in mobile computing.
+(c) Explain the issues of transaction processing system in
+mobile computing environments.
+MCAE34/DNG-52017
+2 3 4425

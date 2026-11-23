@@ -1,0 +1,95 @@
+Printed Pages: 6 EPL-051/EME-051
+(Following Paper ID and Roll No. to be filled in your
+Answer Books)
+Paper ID: [40851
+B. TECH.
+Theory Examination (Semester-VIII) 2015-16
+OPERATIONS RESEARCH
+Time : 3 Hours Max. Marks : 100
+Section-A
+Attempt all parts. All parts carry equal marks. Write
+answer of each part in short. (2x10=20)
+(a) Discuss simplex and convex set with respect to LPP.
+(b) Explain the concept of alternate optima in LPP.
+(c) What is degeneracy in TP?
+(d) What is curse of dimensionality?
+(e) Why dominance property?
+we use
+(f) How can we solve problems with risk?
+(g) What are different techniques of selective inventory
+control?
+(h) When we need simulation?
+1 P.T.O.
+2405/ /110/2750
+(i) | Explain balking in queue. @) Solve the given below for the
+game two players A and
+(j) What do you understand by crashing of resources? B
+Player B
+Section-B
+Attempt any five questions from this section.
+(10x5=50) (e) A company has six jobs. each of which has to pass
+through two machines M, and M, for processing.
+(a) Solve the given LPP model by simplex method: The processing
+Max Z = 3x, + 2x, time for the jobs on each machine
+(in hours) is given below:
+Subject to,
+<2
+3x, + 4x, 2 12
+x,
+(b) Obtain optimal solution of the transportation prob- Find optimum sequence, total time as well
+lem given as idle times for the two machines.
+below :
+(f) A contractor has to supply 10,000 bearings per day
+to an automobile manufacturer. He finds that when
+he starts production
+run, he can produce 25,000
+bearings per day. The holding cost of a bearing in
+Stock in Rs 0.02 per year. Set-up cost of a produc-
+tion is Rs 18. How frequently should the production
+run be made?
+(c) With help of an example, explain the Hungarian (g) A car par contains 5 cars. The arrival of cars is
+algorithm. Poisson with of 10
+(2) mean per hour. The length of
+2405/493/110/2750 2405/ 10/2750 3 PT.O.
+/1
+time each car spends in the car park is exponential with Subject to,
+mean hour How many cars are the car park x, =
+in x, + +x, 22
+ge?
+3x, + 5x, — 2x, < 65
+(h) Consider the following project : + 7x, 4x, 2 120
+x, —
+x1, x2 > 0 and x, is unrestricted. (5)
+(b) A soft drink distributor takes the contract for the sale of
+soft drinks at a cricket stadium during a one day match.
+He has 5 sales boys to assign to three areas of the
+stadium. The table below, shows estimated sales that can
+be made with different assignments:
+No of salesmen j East stand | North stand | Club stan
+aa
+Draw the network and find the critical path and
+variances. Also find the probability of completing the
+project by 18 weeks.
+Section-C
+Use dynamic programming to obtain assignment of sales-
+Note : Attempt any two questions from this section. men for sales maximization. (10)
+(15x2=30)
+| 4. (a) Explain the procedure for sequencing 2 jobs on k
+3. (a) Make dual of the following primal model : machines. (5)
+Min Z 4x, + 5x, 3x,
+= —
+| 5
+(b) Use dual simplex method to solve the LPP model given
+below : (10)
+Max Z = 3x, — x,
+Subjectto, X,+X,21
+2x, + 3x, 22
+x, x,20
+5. (a) What do you understand by simulation? Discuss
+different methods for generation of rando numbers.
+6)
+(b) The demand for a certain product has a rectangular dis-
+tribution between 4000 and 5000. Find the optimal
+order quantity, if the storage cost is Rs 1 per unit and
+shortage cost is Rs 7 per unit. (10)
+2405/495/110/2750

@@ -1,0 +1,72 @@
+Printed Pages : 2 EECO014
+(Following
+Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ED : 2620 |-{ | | | | | |
+B.Tech.
+(SEMESTER-VI) THEORY EXAMINATION, 2012-13
+MICROCONTROLLER
+Time : 2 Hours ] [ Total Marks : 50
+Section — A
+Answer all parts. é 2x5=10
+1.
+(a) Which register bank is used if we alter RSO and RS1 of the PSW by the following
+two instructions ?
+PSW.3
+SETB
+‘SETB PSW.4
+(b) Name all the 16-bit registers available in 8051.
+a program
+(c) Why do we always write starting with ORG 0000H ?
+(d) Find the system frequency of an 89C51 if the machine period is 0.546 us.
+What is the effect of executing the following instructions ?
+(e) two
+MOV C,P2.3
+MOV 13H, C
+Section — B
+2. Answer three §x3=15
+any parts.
+(a) Write the following programs :
+(i) Create a square wave of 50% duty cycle on bit 0 of port 1.
+Create
+(ii) a square wave of 66% duty cycle on bit 3 of port 1.
+(b) Generate _ a square with an ON time of 3 and OFF time of 10 on all
+wave ms on ms
+pins of Assume an XTAL of 22 MHz.
+addresses
+(c) Enlist important SFR registers and their of an 8051 microcontroller.
+2620 |
+(d) Draw the interfacing of 8051 to ADC0848 for channel 2 and explain all the steps
+need to take for data conversion by the ADC0848 chip.
+where
+(e) Show the design of the 8255 connection to the 8051 port A has the address
+20H. Then program the 8255 to get data from port C and send it to both ports A
+and B.
+Section C
+—
+Answer all questions. §x5=25
+Draw the architecture of 8051 and explain memory organization in it.
+OR
+Enlist the steps to generate a time delay using the timer’s mode-2. Also draw the
+structure of TMOD register. €
+Write transfer letter ‘Y’ serially 9600 baud continuously, and also
+a program to a at to
+send a letter ‘N’ through port 0, which is connected to a display device.
+OR
+Write a program to receive the data which has been sent in serial form and send it out to
+in parallel form. Also the data location 60 H.
+port 0 save at RAM
+Show the Interrupt Vector Table for the 8051 and explain the steps in executing an
+interrupt in 8051.
+OR
+What is in an LCD Module ? Write a subroutine for command — write transaction.
+What does it mean when it is said that given has linear ? Draw 8051
+a sensor a output
+connection to ADC0848 and Temperature Sensor.
+OR
+Draw the architecture of 8096 microcontroller and compare with 8051 architecture.
+Draw 8031 connection to external program ROM, Data RAM and Data ROM.
+OR
+Register and with 8051
+Compare MC68HC11 microcontroller Structure Features
+microcontroller.
+2620

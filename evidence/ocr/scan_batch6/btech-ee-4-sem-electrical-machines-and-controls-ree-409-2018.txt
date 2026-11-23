@@ -1,0 +1,86 @@
+Printed Pages: 03 Sub Code: REE409
+Paper Id: 120416 Roll No.
+B TECH
+(SEM IV) THEORY EXAMINATION 2017-18
+ELECTRICAL MACHINES AND CONTROLS
+MM.-70 TIME: 3:00HRS
+SECTION A
+Q.1-Attempt all the question: - (2*7=14)
+a) Write down the equation for frequency of emf induced in an Alternator.
+b) c) Why What are is Alternators by rated in reaction kVA and in not Alternators? in kW?
+d) What is meant meant by armature synchronous impedance of Alternator?
+e) Name the various methods for predetermining an the voltage regulation of 3-phase Alternator.
+f) What are different types of Control Systems?
+g) For the system in the given figure the characteristic equation is
+C(s)
+SECTION B
+Q.2- Attempt any three questions (7*3=21)
+a) A10KVA, 200/400 V, 50 Hz, single phase transformer gave the following test results:
+Open circuit testfrom L.V. side: 200 V, 1.3 A, 120 W
+Short circuit test from H.V. side: 22 V, 30 A, 200 W
+i. Draw the equivalent circuit of the transformer referred to H.V. side.
+a) What is u. autotransformer? efficiency of the State transformer its merits at and 90% demerits loading with load 0.8 winding power factor. transformer. An
+1100/2200 an V single phase transformer is rated at 1OOOKVA; if over the two two winding connected in
+series to form an autotransformer determine its voltage and power. are
+b) Why is starter necessary for starting of a dc motor? Explain briefly working of 3-point starter. A 220
+V d.c. shunt motor having an armature resistance of 0.25 Q carries an armature current of 50 A and
+runs at 600 r.p.m. if the flux is reduced by 1% by field regulator, find the speed of motor, assuming
+the torque to remain same.
+c) Derive the equation for the torque developed by a3-phase induction motor. Draw a typical torque-slip
+curve and deduce the condition for maximum torque. 2000V3
+d) Determine the voltage regulation of 3-phase, star connected alternator of terminal voltage
+Volt producing a current of 100 A at
+(1) (ii) 0.8 0.707 load pf. p.f. leading lagging
+The full load current of 100 A is produced short-circuit test field excitation of 2.5 Amp. An emf
+of 500 V is generated circuit test on the excitation on current a of 2.5 Amp. (Given R, =0.8Q)
+on open on same
+SECTION C
+Q.3- Attempt questions (7*1=7)
+any one
+a) What is two-phase servomotor? Draw its torque-speed characteristics for various control voltages.
+K(s+1)(s +2)
+b) A unity feedback control system G(s) = (s +0.1)(s—1) has an open loop transfer function.
+Using the Routh stability criterion, determine the of value of K for which the close loop
+system has 0, | 2 poles in the right half of s-plane. range
+or
+Q.4- Attempt any one questions (7*1=7)
+a) For the system shown below, determine the values of gain K and velocity feedback constant K,,
+so that the maximum overshoot is 0.2 and the peak time is 1 sec. With the obtained values of K
+and K, obtained the rise time and settling time.
+,
+b) Differentiate between loop and closed loop with suitable examples. What the
+advantages of feed-back? open system are
+Q.5- Attempt any one questions (7*1=7)
+a) Obtain the differential equation of the mechanical system and Sketch the mechanical equivalent
+representation for the system shown below.
+va F (t) X,
+OOM
+M,
+b) A unity feedback system has an open-loop transfer function
+G(s) K
++45 +13) Sketch the root locus plot of the system determining the following:--
+(i) Centroid number and angle of asymptotes.
+(ii) Break away , point if any
+(iii) The value of K and the frequency at which the root locus cross the j@-axis.
+(iv) Angle of departure of root locus from the poles
+Q.6- a) Attempt Discuss any the one affect questions of following controllers the second order control (7*1=7)
+(i) PI controller on system:
+(ii) PD controller
+(iii) Rate-feedback controller.
+b) Consider the system with the following open loop Transfer function
+G(S)= S(T: S K +1) S +1)
+Determine stability of system using NyquistCriterian for
+i) the gain K is small.
+ii) The gain K is large
+Q.7- Attempt any one questions (7*1=7)
+a) Draw the Bode plot for the transfer function
+G(s) 75(1+
++165 +100)
+(i) Gain cross over frequency
+(ii) Phase cross over frequency
+(iii) Gain Margin and Phase margin
+b) (iv) Stability of the given system
+given Determine by the resonant frequency wr, resonant peak Mp and Bandwidth of system whose T.F is
+C(S) = 5
+K(S) +1
+http:/Avww.aktuonline.com

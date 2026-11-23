@@ -1,0 +1,80 @@
+aktuonline.com
+Printed Pages—3 TEN —801
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+|_|
+RollNo.|
+B.Tech.
+(SEM VIII) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+ADVANCED COMMUNICATION SYSTEM
+Time 3 Hours Total Marks 100
+: :
+Note: (i) Attempt ALL questions.
+(ii) All questions carry equal marks.
+(iii) Assume data wherever missing.
+1. Attempt any two of the following : (2x10=20)
+(a) Classify wire Telephony. Explain it in
+details.
+(b) What are the popular standards of Public
+Telephone Networks ?
+~
+(c) Explain the operating principle of Television
+transmitter.
+2. Attempt any four of the following : (4x5=20)
+(a) Why Television standards required ? What
+India are the which major standards U.S.S.R. TV used standards? ? In
+are
+801 1 [Turn Over
+aktuonline.com aktuonline.com
+(b) Explain the working of High Definition
+transmission.
+(c) Draw the block diagram of color television
+receiver showing all the important function
+from the tuner to the picture tube.
+Explain briefly the difference between
+B/W color chrominance tube able and luminance. display How ? is a
+picture to picture
+Explain the working of TV Receiver. What ~
+is the role of Yagi Antenna in Television
+signal reception.
+Discuss the modulation methods used to
+generate voice and video signals.
+3. Attempt any two of the following : (2x10=20)
+(a) What is the basic principle of RADAR ?
+With the help of figures explain the working
+of any two Popular RADARs.
+(b) Explain cellular concept. Discuss TDMA
+and SDMA Multiple Access Techniques.
+(c) Discuss GSM and IS-95 standards.
+4. Attempt four of the following (4x5=20)™
+any :
+(a) What are the elements of satellite
+communication ? Explain each of them
+with a suitable diagram.
+(b) What is the difference between Geo
+synchronous and Geo stationary orbit ?
+Discuss the advantages and disadvantages
+of Geo stationary orbit.
+2
+aktuonline.com aktuonline.com
+(c) Derive signal is the transmitted equation of from a path the loss earth when the
+and back. station
+(d) Explain the working of LEOs and GEOs. By
+which type of satellite our TV signals are
+coming.
+(e) Derive general link equations. Find out
+expression for C/N and G/T ratio. Explain
+the importance of the satellite link design.
+(f) What is the importance of Antenna look
+angles?
+5. Attempt any four of the following : (4x5=20)
+(a) Losses in optical fiber transmission.
+(b) S Laser principle and operation.
+(c) Application of LEDs.
+(d). Working of Photo-detectors and
+applications.
+(e) Splicing Techniques.
+(f) of optical fiber link design.
+-o0Oo-
+TEN —801 3
+aktuonline.com

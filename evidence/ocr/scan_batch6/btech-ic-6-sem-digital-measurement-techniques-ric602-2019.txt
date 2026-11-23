@@ -1,0 +1,56 @@
+Printed Pages: 02 Sub Code: RIC602
+Paper Id: 3} 1] 3} 1] 7 Roll No.
+B.TECH
+(SEM VI) THEORY EXAMINATION 2018-19
+DIGITAL MEASUREMENT TECHNIQUES
+Time: 3 Hours Total Marks: 70
+Note: Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x7=14
+a. Differentiate between accuracy and precision
+b. What is the function of zero level comparator?
+c. What do you understand by Gating error?
+d. is the drawback of Fast-Low frequency measurement method?
+e. Define threshold voltage in digital measurements
+f. What is the difference between Attenuator DAC and WR type DAC?
+Explain the of Quantization with suitable example
+www.aktuonline.com g. process
+SECTION B
+2. Attempt any three of the following: 7x3=21
+a. Explain why the conventional method of frequency measurement is not suited
+for very low frequency measurement?
+b. — Give specific applications of average frequency measurements?
+c. Draw the circuit diagram and waveforms for power system frequency
+measurement
+d. What are the requirements of an ideal phase meter? Explain direct phase
+measurement method.
+e. Explain Vernier technique for small time interval measurement with neat
+circuit diagram
+SECTION C
+3. Attempt any one part of the following: 7x1=7
+(a) Draw the circuit diagram for minimal realizations of an inverting type PGA
+using dependent switching.
+(b) What are Single Mode switching and group switching? Draw the general RS
+Realization of a driving point consistence in all combinations
+4. Attempt any one part of the following: 7x1=7
+(a) dB meter is used in digital measurement? Draw the circuit and explain the
+(b) With procedure suitable for circuit dB measurement. diagram, show how fast low frequency is
+done using frequency multiplier circuit. Also draw the waveforms. measurement
+http://www.aktuonline.com
+Printed Pages: 02 Sub Code: RIC602
+5. Attempt any one part of the following: 7x1=7
+(a) Using suitable circuit diagram, explain in detail the working of weighted
+reference type voltage DAC
+(b) Draw the circuit diagram of VTC using comparator and a monostable
+multi-vibrator and explain its working
+Attempt any one part of the following: 7x1=7
+(a) Drive expression for the total number of N-bit multistage DAC
+(b) State and an Sampling theorem with waveforms and explain how signal is
+recovered prove from its samples
+Attempt part of the following: 7x1=7
+any one
+(a) Explain Time Division Multiplexing with suitable circuit scheme
+(b) Give statement of minimum digitally PGA. Draw the minimal realization
+circuits using Group mode switching
+www.aktuonline.com
+http://www.aktuonline.com

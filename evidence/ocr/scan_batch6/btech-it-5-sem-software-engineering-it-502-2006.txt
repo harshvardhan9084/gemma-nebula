@@ -1,0 +1,99 @@
+aktuonline.com aktuonline.com
+00957
+Printed Pages—4
+(Following Paper ID and Roll No. be filled Answe Book)
+to in your t L L
+PAPER ID
+B.Tech.
+FIFTH SEMESTER EXAMINATION, 2005-2006
+SOFTWARE ENGINEERING
+Time : 3 Hours Total Marks ; 100
+Note: (i) Attempt ALL questions.
+(11) questions carry equal marks.
+(iii) Be precise in your answer.
+1. Attempt any four of the following questions: (5x4=20)
+(a) Why can a count of faults be a misleading measure
+of product quality ? Explain.
+(b) Compare between system engineering and software
+- engineering. Explain.
+(c) Discuss various software engineering methods.
+(d) Describe in brief the evolution of software.
+(e) Should a development organization adapt a single
+process model for and all its software development ?
+a Discuss the pros cons ?
+(f) Is it fair to say that a preliminary user’s manual is a
+form of prototype ? Explain your answer.
+2. Attempt any four of the following questions: (5x4=20)
+(a) How does the description of system relate to the
+notion of model ? a
+process
+aktuopline.com
+1 {Turn Over
+aktuonline.com aktuonline.com
+(b) What are the benefits of separating functional flow
+from data flow ?
+(c) Contrast the benefits of an object oriented
+requirements specification with those of a functional
+decomposition ?
+(d) Suggest three measures, three metrics, and
+corresponding indicators that might be used to assess
+an automobile.
+(e) Compute the function point value for a project with
+the following information domain characteristics :
+Number of user inputs : 32
+Number of user outputs : 60
+Number of user inquiries : 24
+Number of files : 8
+Number of external interfaces : 2
+Assume that all complexity adjustments values are
+average. Assume that 14 algorithm have been
+counted. Compute the feature point value under
+the same conditions.
+(f) | Does the LOC measure make any sense when 4 GL’s
+are used ? Explain.
+3. Attempt any two of the following questions: (10x2=20)
+(a) Following figure illustrate the component hierarchy
+in a software system. Describe the sequence of tests
+for integrating the components using a bottom-up
+approach and-also by a top-down approach.
+je fe]
+[c]
+2
+aktuonline.com aktuonline.com
+(b) If could only select three test design
+methods you to apply during unit testing, case what would
+they be and why ? Explain.
+(c) Desire set of test for the following components:
+(i) a which cases line of and
+a replaces routine examines of blank a characters text with
+single blank sequences character. a
+(ii) An object representing keyed table where
+entries made and retrieved a using
+alphabetic are key. some
+Attempt any two of the following questions: (10x2=20)
+(a) Explain the significance of activity graph and critical
+path. Find the critical path for the following activity
+graph. the graph The indicates number the corresponding number of days to each required edge of
+complete the activity represented by that branch. to
+(b) Define Gantt Chart ? Describe how adding
+personnel to a project that is behind schedule might
+make the project completion date even later.
+(c) (i) would you propose for defining
+subsystems for a collection of classes ?
+(ii) | Describe the difference between an active and
+a passive state for an object.
+3 [Turn Over
+aktuonline.com aktuonline.com
+Attempt two of the following questions: (10x2=20)
+any
+(a) Besides counting errors, are there other countable
+characteristics of software that imply qualicy ? What
+are they and can they be measured directly ?
+(b) (i) Cana be correct and still not be
+reliable program ? Explain.
+(ii) | Describe the Formal Technical Review (FTR)
+(c) (i) Compare between ISO and SEI’s CMM.
+(ii) Differentiate between validation ana
+verification.
+-o00O0-
+aktuonline.com

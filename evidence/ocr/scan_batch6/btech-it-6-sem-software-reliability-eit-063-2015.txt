@@ -1,0 +1,82 @@
+www.aktuonline.com
+Printed Pages : 3
+EIT063
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 113603
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+SOFTWARE RELIABILITY
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all question.
+(2) All question carry equal marks.
+1 Attempt any FOUR question. 5x4=20
+(a) Differentiate among Faults, Failures and Errors.
+(b) Define Software Reliability in brief.
+(c) What do you mean by Inspection Process?
+Discuss.
+(d) How can you determine the number of latent
+defects in software product during the testing
+a
+phase?
+(e) Differentiate between software and hardware
+reliability.
+(f) how the reliability changes over the
+lifetime of a software product and a hardware
+product.
+113603] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any FOUR question. 5x4=20
+(a) Define three matrices to measure Software
+Reliability.
+(b) Draw the Life cycle of Failure and Correction
+Reports in software reliability.
+(c) What is the currently known effectiveness of the
+defect detection prior release
+process to
+(d) What is the of software failures and how does
+rate
+it change over time?
+(e) What was the accuracy of estimating the actual
+value of project schedule?
+(f) Why do need documents and matrices in
+we
+software reliability?
+(g) What is the normalized number of in-process
+faults and how does it compare with the number
+of in-process defects?
+3 Attempt any TWO question. 10x2=20
+(a) for hrs and
+A team run test cases 10 CPU
+identifies 25 failures. The effort required per hour
+of execution time is 5 hr. Each failure
+person
+requires 2 hr. on an average to verify and
+determine its nature. Calculate the failure
+identification effort required.
+(b) Discuss the basic model of software reliability
+growth model.
+(c) Explain the Software Quality Assessment Models
+with the help of a block diagram.
+113603] 2 [ Contd...
+www.aktuonline.com
+4 Attempt TWO question. 10x2=20
+any
+(a) Explain the Software Reliability Allocation Models
+with the help of a block diagram.
+(b) Explain in brief the Evolution of Software Quality
+Assurance and Major SQA Activities.
+(c) Explain briefly the following :
+(i) Quality Planning and Control
+(it) Quality Improvement Process.
+5 Attempt any TWO question. 10x2=20
+(a) | What resources must be expended to achieve the
+reliability improvement? Use the logarithmic Poisson
+a
+execution time model with failure intensity decay
+of 0.025/failure.
+parameter
+(b) Explain term Error Seeding, Failure Rate and
+Curve Fitting.
+(c) Explain the significance of bath tube curve of
+reliability with the help of a diagram.
+113603] 3

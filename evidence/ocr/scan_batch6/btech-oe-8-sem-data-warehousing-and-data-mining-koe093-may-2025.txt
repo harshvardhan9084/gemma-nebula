@@ -1,0 +1,61 @@
+Printed Page: 1 of 2
+Subject Code: KOE093
+Roll No:
+Paper ID : 250133
+BTECH
+(SEM VIII) THEORY EXAMINATION 2024-25
+DATA WAREHOUSING & DATA MINING
+TIME: 3 HRS M.MARKS: 100
+Note: Attempt all Sections. In case of any missing data; choose suitably.
+SECTION A
+all questions in brief. 2x10=20
+1. Attempt
+Explain Discretization.
+Discuss issues to consider during data integration
+Explain the working of Artificial Neuron.
+Explain support and confidence in Association rule mining
+Explain Pivot operation in OLAP.
+Define Information Gain.
+Define Data warehouse.
+Explain Outlier Analysis.
+What does negative, positive and Value Correlation coefficient
+indicates? zero
+SECTION B
+2. Attempt any t/ree of the following: 10x 3=30
+Compare OLTP and OLAP Systems.
+Discuss Snowflakes, and Fact Constellations Schemas
+Multidimensional Data Models
+Explain the following
+i. Enterprise Warehouse
+ii. Data Mart separability using
+Explain the Non linear EX-OR functionality in Neural
+Network
+SECTION C
+3s Attempt any one part of the following: 10x1=10
+Question
+Explain Laplacian correction to avoid computing probability values o
+zero in Naive Bayesian Classifier with example
+Explain Top- down and Bottom-up approach for Hierarchical Clustering
+P | Pa ze
+| Printed Page: 2 of 2
+Subject Code: KOE093
+aper ID : 250133
+Roll No:
+(SEM VIL) BTECH
+TIME: ATA WAREHOUSING THEORY EXAMINATION 2024-28
+3 HRS & DATA MININ M.MARKS: 100
+4.
+Attempt any one part of t he following:
+Attempt any one Part of the following:
+Explain The following
+iii. Spatial Mining
+iv. Temporal Mining
+Explain the following
+i. Regression
+ii. Normalization
+Attempt any one Part of the following:
+Question
+Explain i. the Following
+ii. various Standard measures to calculate the central tendency of Data
+Explain Decision deviation and Variance.
+tree with a suitable example

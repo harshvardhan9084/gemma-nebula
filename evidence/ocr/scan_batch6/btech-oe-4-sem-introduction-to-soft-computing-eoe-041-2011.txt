@@ -1,0 +1,66 @@
+Printed Pages—3 EOE041
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+RoliNo. | | {| [| | | | [| [|
+B. Tech.
+(SEM. IV ) THEORY EXAMINATION 2010-11
+INTRODUCTION TO SOFT COMPUTING
+Genetic
+(Neural Networks, Fuzzy Logic and Algorithm)
+Time 3 Hours ~ Total Marks 100
+: - :
+Note: (1) Attempt all questions. /
+(2) Make suitable assumptions wherever necessary.
+1. Attempt any four parts of the following : (5x4=20)
+(a) Define an artificial neural network. State the characteristics
+of artificial neural network.
+an
+(b) Briefly discuss the common application an
+artificial neural network.
+Define learning. Discuss the different learning methods in
+brief.
+-
+Construct a recurrent network with four input nodes, three :
+hidden nodes and four output nodes that has lateral inhibition
+structure in the output layer.
+(e) What
+is the necessity of activation function ? List the
+commonly used activation functions.
+(f) What is an auto-associative memory network ? Explain.
+EOE041/RFW-20687 1 [Turn Over
+following
+2. Attempt any two parts of the : (5x4=20) 4. Attempt any two parts of the following: (10x2=20)
+(a) (i) Explain the major features of single layer perception. (a) Let X = {a, b, c,d} 2,
+(ii) How hidden layer Y= {1, 3, 4}
+computation is done in and A= {(a, 0), (b, 0.8), (c, 0.6), (d, 1)}
+back propagation learning ? Explain. B= {(1, 0.2), (2, 1), (3, 0.8), (4,0)}
+(b) (i) Describe the multilayer perception model. C= {(1,0), (2,
+(ii) is the significance 0.4), (3, 1), (4, 0.8)}
+of error signal in perceptron Determine the implication relations :
+network ? Explain. (i) IF xis A THEN yisB.
+(i) Discuss the some application areas of back (ii)
+IFx is A THEN y is BELSEyisC.
+propagation networks. (b) Define the membership function. Using your own intuition,
+(i) Discuss the factors affecting the training of back plot the fuzzy membership function for the age of people.
+(c) Let of values of variables
+sets X and Y be X = {X,, X,,
+and Y = {y,, y,}, respectively. Assume athat a proposition
+Attempt any two parts of the following : (10x2=20) "if X isa, Then Y is B" is given, where A I/x, +
+(a) Explain the term fuzzy sets and fuzzy logic. Compare and B = 1/y,+ .4/y,. Then, given a fact expressed by
+classical and the proposition "x is A'",where A' =.6/x,+.9/x, + .7/x3. use
+contrast logic and fuzzy logic. the generalized modus ponens to derive a conclusion in the
+(b) The task is to recognize English alphabetical characters form "Y is B’".
+(FE, X, Y, I, T)in an image processing system. Two fuzzy
+sets J and F are defined to represent the identification of
+characters I and F. 5. Write short notes on any four of the following : (5x4=20)
+Procedures of GA.
+I= 0.4), 0.3) (X, 0.1), (Y, 0.1), (1, 0.9), (1,0.8)}
+F= {(F, 0.99), (E, 0.8), (X,0.1), (¥, 0.2), (1,0.5), (b) Genetic representations.
+Find the following (c) Mutation and Mutation rate.
+: (d) Generational cycle
+@ IUF (ii) (iii) FUF (iv) Verify of GA.
+de Morgan's law. (e) Applications of GA:
+(c) Write short notes onthe following :
+Gi)
+(i) Fuzzy relations Fuzzy to
+a
+2 EOE041/RFW-20687 © 3 21350

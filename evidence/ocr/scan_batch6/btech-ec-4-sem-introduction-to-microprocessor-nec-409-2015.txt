@@ -1,0 +1,74 @@
+www.aktuonline.com
+Printed Pages : 3
+ONY A A
+NEC-409
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 131409
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+INTRODUCTION TO MICROPROCESSOR
+Time : 3 Hours] [Total Marks : 100
+1 Attempt any FOUR questions of the following : 4x5=20
+a. the evolution of microprocessor in brief.
+Determine the result of A after the execution of the
+following program-
+MVI A, 13H ADI 41 H
+INR A ADD A
+XRA A
+b. instruction cycle, machine cycle and clock cycle
+How
+are related? Explain them with proper sketches?
+c. Write ALP to load A with 40 H & subtract 29 H from
+it. Multiply the result by 2 & store the result in the
+Register L.
+d. the difference between (1) RAM and ROM
+(2) SIM and RIM.
+e. Explain the Memory mapped I/O and Peripheral Mapped
+VO.
+131409] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any FOUR questions of the following: 4x5=20
+List the four operations commonly performed by the
+a.
+MPU.
+b. What is flag? Explain each flag of 8085 microprocessor.
+c. How many address lines are necessary to address
+8 K byte of memory?
+d. is function of accumulator?
+e. What is transparent latch, and why it is necessary to
+latch with device?
+use a output
+f If the clock frequency is 5 MHZ, how much time is
+required to execute an instruction of 18-T states?
+3 Attempt any two questions of the following : 2x10=20
+a. Explain the interrupts used in 8085 briefly. What is the
+difference between 8085 & 8086?
+b. With a neat diagram describe the internal architecture
+of 8085. State the function of each block shown.
+c. What is the difference between Maximum and Minimum
+mode of operation in 8086?
+4 Attempt two questions of the following: 2x10=20
+any
+a. Discuss internal block diagram of 8237 and explain the
+operating mode of 8237 A.
+b. the advantages of dividing memory into segments.
+How is the 20 bit physical address for memory
+generated? Explain with example.
+Discuss the following.
+c. 1. Instruction cycle and Machine cycle
+2. with typical timing diagram.
+131409] 2 [ Contd...
+www.aktuonline.com
+5 Attempt any TWO questions of the following : 2x10=20
+a. Discuss the various logic devices used in interfacing
+circuits.
+Explain the function of the following instructions
+1 SIM :
+2. PUSH
+3. DAA
+4 XCHG
+5 CALL
+Draw the timing diagram of the following instruction :
+l. ADD B
+2. CALL 2050 H.
+131409] 3 [ 18800 ]

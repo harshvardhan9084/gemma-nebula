@@ -1,0 +1,74 @@
+* v - 1 4 6 2 *
+Printed Pages : 3 MCA -— 245
+(SEM. II) EXAMINATION, 2006-07
+FUNDAMENTAL OF E-COMMERCE
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks
+1 Attempt any four parts of the following : 5x4=20
+(a) Why is e-commerce important in present persuit
+of business? How does it function?
+(b) Describe different types of e-business and
+explain various environmental elements of a
+business firm.
+(c) What are the market forces behind I-way?
+Describe different components of I-way.
+(d) Differentiate between narrowband and
+broadband networks. Describe the use of
+broadband networks in e-commerce.
+(e) Explain B B and B C, E-commerce with
+suitable examples. to to
+(f) | What are the differences among Intranet, Internet
+and Extranet?
+V-1462] 1 [Contd...
+http://www.UPTUonline.com
+2 Attempt any four parts of the following : 5x4=20
+(a) What do you mean by WAP? Explain WAP
+architecture with diagram.
+(b) What do you understand by Mobile Information
+Devices (MID)? Write minimal characteristics
+of MIDs.
+(c) Explain different types of firewalls with example
+and also write some limitations of firewll.
+(d) What do you mean by Mobile computing?
+Explain how mobile computing can be used to
+improve business.
+(e) What do you mean by public key Encryption?
+Write RSA algorithm for public key encryption.
+(f) Explain SSL (Secure Socket Layer) in brief.
+3 Attempt any two parts of the following : 10x2=20
+(a) Client-Server model is the backbone to the
+E-commerce applications. Are there
+security threats it? If discuss. any
+to any,
+(b) Discuss how the electronic commerce
+framework is being built on World Wide Web
+(WWW) architecture.
+(c) Write short notes on :
+Private Networks (VPN)
+(ii) Secure Electronic Payment Protocol (SEPP)
+4 Attempt any two parts of the following : 10x2=20
+(a) Define electronic payment system. Discuss
+various activities which take place in the digital
+token-based electronic payment system.
+V-1462] 2 [Contd...
+http://www.UPTUonline.com
+(b) What are the salient features of smart card?
+What is money smart? Differentiate between
+smart card and credit card.
+(c) Discuss, in detail, the major risk incurred due
+to the electronic payment system with suitable
+example.
+5 Attempt two parts of the following 10x2=20
+any :
+(a) What do you mean by Electronic Data Inter-
+change (EDI)? What are the main elements of
+EDI?
+(b) What do you mean by Supply Chain Manage-
+ment? How is the supply chain management
+related to E-commerce?
+(c) What do you mean by Customer Relationship
+Management? How can organizations achieve
+CRM?
+V-1462] 3 [ 125
+http://www.UPTUonline.com

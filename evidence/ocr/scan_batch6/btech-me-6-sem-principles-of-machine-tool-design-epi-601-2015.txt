@@ -1,0 +1,86 @@
+www.aktuonline.com
+Printed Pages : 3
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 141603
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+PRINCIPLES OF MACHINE TOOL DESIGN
+Time : 3 Hours] [Total Marks : 100
+Note : (i) Attempt ALL questions.
+(it) questions equal marks.
+carry
+1 Attempt any four parts of the following : 4x5=20
+a) Explain Tool Wear? Describe Crater Wear and Flank
+Wear.
+b) Explain the working of tool dynamometer giving its
+important characteristics. any
+c) Write a detailed note on the history and development
+of machine tools.
+d) is the Queen of all machine tools'—justify the
+statement giving suitable reasons.
+e) Discuss the general performance criteria of machine-
+tools.
+f) What is a single spindle automat generally used for?
+141603] What is a transfer machine?
+1 [ Contd...
+www.aktuonline.com
+2 Answer any four parts of the following: 4x5=20
+a) Discuss the factors to be considered in the selection
+of machine tool drive.
+b) — Give a list of mechanisms used for conversion of rotation
+to translation and vice-versa. Sketch at least two of
+them.
+c) Explain various types of quick return mechanisms, their
+applications and advantages.
+d) Describe the working of four-way, two position, piston
+type direction control valve. a Sketch the valve.
+e) Explain the working principle and important applications
+of Geneva mechanism.
+f) the working principle of Oldham coupling with
+the help of a neat sketch.
+3 Attempt of the following 2x10=20
+any two parts :
+a) Design the kinematic arrangement of the head stock of
+a lathe with the following specifications :
+Maximum speed = 1500 R.PM
+Minimum speed = 50 R.PM
+No of required 18. Use (2 3 3)
+steps x x arrangement.
+Draw a ray diagram for the headstock. Now calculate
+the number of teeth on gears used in the first stage of
+speed transmission; and show the head stock gear
+layout for all the stages of transmission schematically.
+b) | What is meant by "Preferred numbers" and what is the
+advantage of adopting them? Describe "Androin
+progression ratio" and explain how the basic series of
+preferred numbers is derived from it?
+c) Describe mechanical friction stepless drive and
+electrical one stepless drive with suitable sketches. one
+141603]
+2 [ Contd...
+www.aktuonline.com
+4 Attempt any two parts of the following : 2x10=20
+a) | What the main requirements of machine tool
+structure? are Show that using steel in reference a iron
+for machine tool would result into to cast weight
+structure
+savings of about 50-70%.
+b) | What materials are commonly used for the machine tool
+spindles? What main characteristics a spindle should
+possess?
+c) For a lathe guide-way consisting of vee and flat
+combination, show that the slide moving over the guide
+may overturn when very large or very small work
+diameters are machined. Give all assumptions made in
+support of your answer.
+5 Attempt any two parts of the following : 2x10=20
+a) What do you understand by 'Chatter' in machine tools?
+How it affects the product quality? How it can be
+removed? Explain.
+b) | What do understand by Numerical Control of
+Machine Tools? you Explain. Compare its advantages
+conventional machining over
+processes.
+c) Explain in detail various steps involved in testing of
+Machine Tools.
+141603] 3

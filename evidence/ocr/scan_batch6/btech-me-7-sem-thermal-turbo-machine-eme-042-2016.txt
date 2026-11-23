@@ -1,0 +1,73 @@
+Printed Pages : 3 497 EME-042
+(Following Paper ID and Roll No. to be filled in your
+Answer Book)
+Paper ID : 140758
+(SEM. VII) THEORY EXAMINATION, 2015-16
+THERMAL TURBO MACHINE
+{Time : 3 hours] {Total Marks : 100]
+1. | Attempt all question. (10*2=20)
+a) What is kinetic energy of fluid?
+b) In detail give classification of hydrodynamic
+machine?
+c) Express the Euler Equation for machine?
+d) What is impulse-momentum principle express and
+define?
+e) Howenergy transfer in turbo machine
+f) | What is reheat and preheat factor
+g) Difference between impulse and reaction turbine
+h) Give different types of blades
+(1) P.T.O.
+250
+i) | Whatis cavitation in turbine 8) What is the specific speed of pump derive an
+expression for specific speed of pump An inward
+j) Give different type coolant used for turbine blade flow reaction turbine has external and internal dia.
+is running
+Attempt any five (5*10=20) As 1.08 and .54m.The turbine at 200rpm.
+The width at inlet is 240mm and velocity of flow
+a) Discuss briefly the aerodynamics losses occur in through the runner is constant and equal to 2.16m/
+turbo machines s, the guide blades make an angle of 10° to the
+tangent of the wheel and discharge at the outlet of
+~ b) Derive relation for a degree of reaction for an axial the turbine is radial .Draw the inlet and outlet
+flow compressor and advantage of 50% reaction velocity triangles and determine
+stages.
+i. Absolute velocity of fluid at inlet
+c) For a centrifugal compressor explain following
+term ii. Velocity of whirl at inlet
+i. Slip factor, iii. Relative velocity at inlet
+ii. Power input factor iv. Width ofrunner at outlet
+iii. Effect of prewhirl v. Weight of water flowing through runner per
+second
+d) Show that the discharge through a nozzle is
+Maximum When there is a sonic condition at its vi. Head at inlet of the turbine
+throat.
+vii.
+e) Whatis the efficiency of centrifugal cascade? How
+does it with inlet flow angle? viii. Hydraulic efficiency of turbine
+vary
+f) Discuss the term surging, stalling and rotating stall
+applied characteristic with suitable
+to compressor
+sketch.
+250 (2) EME-042 250 (3) PTO.
+h) A fan delivers 2m3/s of air at 10mm WG, while
+running at 1470rpm. Determine a discharge for
+geometrically similar blowers which runs at
+360rpm developing the same head. What is the
+specific speed of these fans?
+Attempt any three. (15*2=30)
+a) Discuss in detail the enthalpy and entropy for radial
+flow turbine. And also give the indicator diagram
+and modification due piston acceleration
+to
+b) What the different variable involved
+determining are the performance of
+axial and
+centrifugal compressor? Develop the
+dimensionless parameter that are used to describe
+the performance of these turbomachine. Show
+graphically the performance curves with these
+machine
+c) Define various techniques for cooling turbine
+blades? And also discuss in detail the starting
+ignition system for gas turbine
+250 (4) EME-042

@@ -1,0 +1,86 @@
+Printed Pages: 4 865/979 EEN-701/EEE-504
+(Following Paper ID and Roll No. to be filled in your |
+Answer Book)
+(SEM. VII) THEORY EXAMINATION, 2015-16
+ELECTRICAL INSTRUMENTATION & PROCESS
+CONTROL
+[Time:3 hours] Marks:100]
+Section-A [Total
+1. all parts. All parts carry equal marks. Write
+answer of each part in short. (10x2=20)
+(a) Differentiate between primary and secondary
+transducers with example.
+(b) A thermistor has a characterstic temperature of
+3000 K. If its resistance is what will be
+its resistance at 600 K.
+(c) Why platinum is preferred gold
+over to construct
+RTD?
+(d) Define working of Effect
+principle Hall transducer.
+(e) Discuss criterion for the selection of transmission
+channel in telemetry
+a system.
+7200 (1) P.T.O.
+(f) What is neutral zone ina ON/OFF controller. Describe the basic components of a magnetic tape
+recorder and explain direct recording technique of tape
+(g) What is the need of data transmission and recording.
+telemetry.
+What is three term control action? What are the changes
+(h) Describe the working principle of LCD. in the overall system dynamics when a derivative action
+of digital oscilloscope is plugged in? What are the tunable parameters PID
+(i) Discuss advantages over controller.
+analog oscilloscope.
+| control. What is proportional controller? Discuss its
+(j) What are the elements of process a
+Section-B characterstics and advantages.
+proportional controller is used to control temperature
+Attempt any five question from this section. (5x 10=50) A °C. The
+within 50°C to 130°C. A set point is 73.5 set
+2. What are different types of mechanical pressure sensing point is maintained with 50% as output of controller.
+elements? Explain the measurement of pressure using Find the proportional offset which requires 55% of
+capacitive transducer with the help of neat diagram. controller output when proportional gain
+is:(i)0.1(i1)10.0.
+What is strain gauge transducer? Give its applications.
+What are the advantages of Digital data acquisition
+A strain gauge is bonded to a beam 0.1m long and has a Analog data acquisition system. Explain in
+cross sectional area 4cm?. Young’s modulus [or steel is system over
+The strain has unstrained resistance brief the building blocks of Modern digital data
+207 gauge an acquisition system.
+of 240Q anda gauge factor of 2.2. When a load is applied,
+the resistance of gauge changes by 0.013. Calculate the Write short notes on following:
+changes in length of the steel beam and the amount of
+(i) Photoconductive Cell.
+force applied to the beam. (ii) Total Radiation Pyrometer.
+Explain why it is essential to radio frequency
+use
+telemetry? Compare the salient features of PAM and
+PCM telemetry techniques.
+7200 (2) KEN-701/EEE-504 7200 (3) P.T.O.
+Section-C
+Attempt any two questions from this section. (15x2=30)
+10. Explain the construction of resistance potentiometer
+used for the measurement of linear displacement. Derive
+the expression for output voltage.
+A
+linear resistance potentiometer is 50mm long and is
+uniformly wound with wire having a resistance of
+a
+10,000 ohms. Under normal conditions, the slider is at
+the centre of the potentiometer. Find the linear
+displacement when the resisstance of the potentiometer
+as measured by a Wheatstone bridge for two cases is:
+(i) 3850 ohms (ii}7560 ohms. Are the displacements
+two
+in the same direction?
+11. Write short following:
+note on
+(i) DSO
+(ii) Smart scnors
+12. (a) Describe the measurement of fluid velocity using
+ultrasonic flow meter. Derive the expression for
+velocity of fluid.
+(b) Explain different types of channels used for
+telemetry mentioning advantages and disadvantages
+of each.
+7200 (4) KEN-701/EEE-504

@@ -1,0 +1,90 @@
+aktuonline.com aktuonline.com
+Printed Pages—3 ME—401
+and |
+(Following ID: Paper ID Roll No. to be filled in vour Answer Book)
+PAPER 4040
+B.Tech.
+FOURTH SEMESTER EXAMINATION, 2004-2005
+INDUSTRIAL ENGINEERING
+e: 3 Hours Total Marks : 100
+Note: (i) Answer ALL five questions; there are chotces
+(ii) Marks are indicate therein.
+1. Answer any four of the following : (6x4=24)
+(a) Define Productivity. Give the comparison ot
+Production and Productivity. Discuss how it can be
+improved,
+(b) Define “method study” and “motion study”. Discuss
+the role of methods engineer in raising the industrial
+productivity.
+(c) What is Man-Machine chart ? How is it used to make
+method analysis ?
+(d) The total observed time tor an assembly operation of
+a switch is 2.00 If minutes. total allowance If the rating allowed is 120% 10's find
+Normal for the job, time. determine the standard time. are
+evaluation. State the objectives of
+(e) Define Evaluation job and describe the technique of job
+evaluation.
+(f) Define Merit Rating. Explain the different
+of merit rating.
+ME—401 1 {Turn Over
+aktuonline.com aktuonline.com
+2. Answer any four of the following (6x4=24)
+(a) Describe the principles of plant layout. Also describe
+plant layout by fined position.
+(b) What the factors that considered for selecting
+site for are industrial unit are ? How important is plant
+a location to an productivity ?
+(c) What the objectives of material handling ?
+Enumerate are the guiding principles of material
+handling.
+(d) What the primary functions of Production
+Planning are and Control ? Discuss major problems
+associated with production planning and control.
+fe) “Production planning and control being service
+function, it is not possible to measure a its
+Comment.
+Discuss the various control and planning
+elements of Production Planning and Control.
+Explain the function of production control
+department.
+3. Answer three of the following (8x3=24)
+Explain any ABC analysis used in : inventory control.
+(a) speedometer/
+(b) A motor company requires 50000 and handling year. is
+The Rs.3/order, ordering, while receiving inspection cost is Rs.12/order. cost
+Interest Cost Rs.0.06/unit/year.
+= Rs.0.004/unit/year. Som,
+Obsolescence Cost =
+Storage Cost = Rs.1000/yr. for 50000 units
+Calculate following
+(i) EOQ
+(ii) Re-order period
+No. of orders/ yr.
+(iv) Total variable cost of inventory
+Mf 7 401 2
+aktuonline.com aktuonline.com
+(c) What is a replacement problem ? Describe various
+types of replacement problem.
+(d) State of the simple replacement policies.
+Discuss some in brief replacement procedure for the items
+that deteriorate with time.
+4. any three of the following : (4x3=12)
+(a) Write short note on any one:
+(i) TQM
+(ii) SQC
+(b) Define organization. Explain the importance of
+organization in an industry.
+‘ (c) State the factors governing the amount of
+compensation paid to the worker under the
+Workmen’s Compensation Act.
+(d) What is Break analysis ? Enlist its advantages
+and limitations. even
+5. Write short notes on any four of the following :
+(4x4=16)
+Transportation Problems
+b) we Graphical methods of Linear programming
+(c) Project Management
+(d) Budgetary Control
+(e) Human relationship
+(f) Project crashing
+3

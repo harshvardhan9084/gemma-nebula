@@ -1,0 +1,68 @@
+rrinted rage: lord
+WI Subject Code: BECOS4
+PAPER ID-311567 | 4
+; Roll No: | |
+BTECH
+(SEM V) THEORY EXAMINATION 2025-26
+VLSI TECHNOLOGY
+M.MARKS: 70
+TIME: 3 HRS
+Note: Attempt all Sections. In case of any missing data; choose suitably.
+SECTION A
+Attempt all questions in brief. 2x07=14
+Question
+Define Moore law.
+Name two chemicals commonly used in wet cleaning. I Kl
+State any two advantages of molecular beam epitaxy.
+What is a photomask.
+Mention . two disadvantage - of wet etching. .
+State Fick’s second law of diffusion.
+SECTION B
+Attempt any three of the following: 07x3=07
+Describe dry cleaning techniques for silic highlighting the | 1
+differences from wet cleaning methods.
+Explain the process of Silicon on formation using the SIMOX | 2
+technique.
+roper diagram.
+Explain the principle of
+conventional diffusion t ues. detail?
+Explain CMOS fabrication steps in
+SECTION C ae
+any one part of the following:
+Attempt Explain the Czochralski (CZ) crystal growth Discuss its
+importance in producing electronic-grade TC fabrication.
+escribe complete workflow starting from Aen crystal growth to a
+a
+S
+Attempt any one part of the followi 07x1=07
+Explain the principle of Epitaxy (VPE) and discuss its
+es and limitations.
+a
+Attempt any one partt the following: 07x1=07
+What are the requirements of a photoresist? Which photoresist is | 3
+| preferred for better resolution and why?
+b. Describe the deposition process of polysilicon films. Compare low-
+| pressure CVD (LPCVD) and plasma-enhanced CVD (PECVD)
+methods.
+46>
+https://www.aktuonline.com
+rrintea rage: Zor.
+Cases
+PA| |
+Roll No: u | ~
+BTECH
+(SEM V) THEORY EXAMINATION 2025-26
+VLSI TECHNOLOGY
+TIME: 3 HRS M.MARKS: 70
+6. Attempt any one part of the following: 07 x 1=07
+Derive equation. How the depth of diffusion is | K3
+during diffusion process?
+| Compare solid, liquid, and gaseous “sources for impurity diffusion in
+silicon. | | i
+7. Attempt any one part of the following: “does 07x 1=07
+a. _| Explain the need for packaging in VLSI devices. How packaging | 5 | K2
+affect the performance and reliability of ICs? ——
+b. Write a short note on:
+| 1. Package Fabrication Technologies |
+2. Sputtering |
+https://www.aktuonline.com

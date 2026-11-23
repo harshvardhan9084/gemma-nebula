@@ -1,0 +1,104 @@
+Printed Pages : 3 EECS02
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2118 | [| | |
+B.Tech. ‘
+(SEMESTER-V) THEORY EXAMINATION, 2012-13
+PRINCIPLES OF COMMUNICATIONS
+Time : 3 Hours ] | Total Marks : 100
+Section —A
+1. Attempt all questions. 2x10=20
+(a) Is it true that amplitude of transmitted carrier does not carry any message
+information in phase modulation ? Explain with
+answer.
+(b) Define the term sensitivity, selectivity and image frequency in a radio receiver.
+(c) What is pre-emphasis ? Why is it used ?
+(d) Find transmission power efficiency for a tone modulated signal when modulation
+index is 0.25.
+(e) What is meant by “threshold” in DSC-C reception ?
+(f) List the factors influencing the choice of the intermediate frequency for radio
+a
+receiver.
+(g) Find the nyquist rate and nyquist interval for signal
+G(t) = sin c(200t) + sin
+(h) For white noise interference, is it true that noise power spectral density does not
+vary with frequency at receiver output for phase modulated system while
+Increases In quadratic for FM system ?
+manner
+(i) A single tone modulated DSB signal has a peak envelope voltage of 200 V across
+a 50 Ohm resistive load. Determine peak envelope
+power.
+G) Does the reduction in frequency range improve SNR of both SSB and DSB-SC
+reception ? Explain with answer.
+2118
+1 P.T.O.
+Section —-B
+Attempt any three questions : 10x 3=30
+(a) A signal m(t) of bandwidth B = 4 KHz is transmitted using a binary companded
+PCM with modulation index p = 100. Compare the case of L = 64, with the case
+of L = 256 from the point of view of transmission bandwidth and the output SNR.
+(b) ‘Consider the DSB-SC signal s(t) A, cos (2nf,t)m(t) where A.cos (27f,t) is the
+=
+carrier wave and m(t) is the message signal. This modulated signal is applied to a
+square-law device characterized by y(t) = s’(t) the output y(t) is next applied to a
+narrowband filter with a pass band magnitude response of one, mid band
+frequency and Bandwidth Af is small enough to treat the spectrum of y(t) as
+essentially constant inside the pass band of filter. Show that the filter output y(t) is
+approximately sinusoidal, given by v(t) = cos is the energy of
+message signal m(t).
+“u(t)
+(c) Estimate the essential Bandwidth @ rad/s of the signal e if the essential band
+is required to contain 95% of the signal energy.
+(d) Single-side band may be viewed as a Hybrid form of amplitude modulation and
+frequency modulation. Evaluate the instantaneous frequency of SSB for
+an wave
+following two cases :
+(i) | When only the upper side’band is transmitted.
+(ii) When only the lower side band is transmitted.
+(ec) Consider a test, signal m(t) defined by a hyperbolic tangent function
+m(t) = A tanh (Bt). Where A & are constants. Determine the minimum
+step size A for delta modulation of the signals which is required to avoid slope
+?
+overload
+Section C
+—
+Attempt all questions. 10x 5=50
+The time average of the square of a modulating message signal of 60 KHz bandwidth is
+calculated 0.1 Watt. The signal is used in DSB-SC modulation with carrier
+as power
+10 Watt. If additive white noise power spectral density is W/Hz, find the output
+SNR for a square demodulator. Also find output SNR if carrier power is reduced by
+100 times.
+OR
+Show that weak sinusoidal interferences on carrier has negligible effect on angle
+modulated systems.
+2118
+Explain T1 digital system with block diagram and also explain TDM hierarchy.
+OR
+What determine the bandwidth used by any given FM Communication System ?
+Explain adjacent channel interferences and capture effect in FM.
+Explain Delta-Sigma Modulation with Block diagram and summarize the important
+advantages of PCM.
+OR
+Show that DSB-SC amplitude modulation is linear while phase modulation is not.
+Give a generalized representation of bandwidth for a single tone sinugoidal modulating
+signal of amplitude frequency carrier amplitude A,, carrier frequency W, for
+both FM and PM. Assume proportionality for phase modulation K, and
+constant
+proportionality constant for frequency modulation Kp
+OR
+Show that, PWM can be achieved by simple time averaging of PWM pulses by an
+averaging low pass filter.
+The autocorrelation function of a noise signal is triangular and defined as
+{5 for <1
+RO _ for |t|>1
+Find its noise spectrum.
+OR
+An angle-modulated signal with carrier frequency w, = 27 x 10° is deseribed by equation
+10 (w,t + 5 sin 3000t + 10 sin 2000 xt)
+= cos
+(i) the power of modulated signal.
+(ii) Find the frequency deviation.
+(iii) Find the deviation ratio.
+(iv) Find the phase deviation.
+(v) Estimate the bandwidth of
+2118

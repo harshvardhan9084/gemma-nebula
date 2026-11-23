@@ -1,0 +1,125 @@
+aktuonline.com aktuonline.com
+Printed Pages—4 EME031
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+B.Tech.
+(SEM. VIJ) THEORY EXAMINATION 2011-12
+COMPUTER AIDED MANUFACTURING
+Time 3 Hours Total Marks 100
+: :
+Note :—Attempt all questions.
+1. Attempt four of the following (5x4=20)
+any parts :
+(a) Explain what is meant by levels of automation in
+? NC belongs to what level of automation ?
+(b) Give list of manufacturing automation strategies. What
+strategy a
+would you recommend for achieving high overall
+output from an automated manufacturing system ?
+(c) What are basic reasons for automating a production
+system ? Discuss, what type of automation would be most
+suitable for manufacturing a large variety of parts in small
+lots ?
+of
+(d) Name some the important devices used in MCU of an
+NC machine. What important functions are performed by
+CLU and DPU of a NC machine ? Discuss.
+(e) Compare the important features of NC and CNC
+systems.
+(1) Discuss the reasons for higher accuracy and productivity
+obtainable from NC machines.
+i [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+2. Attempt any four parts of the following : (5x4=20)
+(a) Discuss the advantages and disadvantages of :
+(i) Incremental and absolute programming
+(ii) Floating and fixed zero.
+(b) What is the purpose of using canned cycles ? Three holes
+of diameter 15 mm are to be drilled as follows :
+Absolute locations: A 25, 40 (mm)
+B 60, 55
+(mm)
+Cc 80, 75 (mm)
+feed 150 mm/min
+drill speed 1400 rpm
+R-plane 2mm _ above the work surface
+I
+over-run mm.
+Work thickness 20mm
+Prepare a part programming manuscript for canned drilling
+cycle.
+(c) Discuss the advantages and disadvantages of using paper
+tape for NC's. What instructions are normally included in
+block of part in WAF ?
+a program
+(d) Write down the APT geometry statements for the following
+(i) Line: Tangent to two circles C, and C,.
+(ii) Circle of radius R : Tangent to two lines L, and L,.
+With the help ofa suitable sketch illustrate the following :
+(i) part surface
+(ii) drive surface
+(ili) and check surface
+With the help of an example explain how these are
+incorporated in APT motion statement ?
+(f) Discuss the utility of MACRO in APT part programming.
+Illustrate your answer with the help ofa suitable example.
+aktuoniin in e.com 2
+aktuonline.com aktuonline.com
+3. 4 Attempt any two parts of the following : (10x2=20)
+(a) Explain the purpose of position and speed contro] of NC
+machines.
+The work table of a NC machine is driven by a stepper
+motor coupled directly to the lead of pitch 5.00
+screw mm.
+The table is required to move 300 mm form its present
+position at a speed of 600 mm/min. How many pulses are
+required to move the table and the required pulse rate ?
+Stepper motor has step angle of 180.
+(b) What is meant by accuracy and repeatability of a NC
+machine ? Explain.
+Given the following data (i) perform CCW circular
+interpotation (i1) find the number of chords and specify the
+coordinates of
+the vertices of polygon approximating the
+desired circle.
+Circle radius 50mm
+Center point 25,25 (mm)
+Inner tolerance 2.5mm
+(c) Explain the difference between adaptive control and
+feed-back control. What three functions must be performed
+by adaptive controller ? Illustrate these by of a
+an means
+neat sketch.
+EME031/KTH-26172 3 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+4. Attempt any two parts of the following : (10x2=20)
+(a) What the advantages and disadvantages of CAPP ? A
+are
+company specializes in producing gears. Based on in-house
+study, 85% of the gears produced over the past 10 years
+belong to 11 families. Most of the drawings and process
+plans for these are available in files. What approach would
+you recommend for automating the process planning
+function ? Justify your recommendation.
+(b) What is GT. ? Discuss in brief, its applications in
+manufacturing. Give a list of the methods used for coding
+and classification of parts. Describe the two important types
+of coding schemes.
+(c) What is an FMS ? Differentiate between dedicated and
+randoai-order FMS. What functions are performed by
+materials handling and storage systems of an FMS ?
+5. Attempt any two parts of the following :
+(a) Describe in brief, the characteristics of robot controllers
+used for (i) Limited sequence control and (ii) play-back
+with continuous path control.
+(b) List the general characteristics of the industrial work
+environment that tend to promote substitution of robots for
+human labour. What typical material handling
+are
+applications of robots in industry ?
+(c) Define the term AI. Describe the forward and backward
+reasoning methods used in expert systems. Give an
+example of the same.
+EME031/KIH-26172 4 10100
+aktuonline.com

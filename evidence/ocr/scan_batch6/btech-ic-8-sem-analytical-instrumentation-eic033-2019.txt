@@ -1,0 +1,52 @@
+Printed Pages: 01 Sub Code: EIC033
+Paper Id: 131247 Roll No.
+B.TECH
+(SEM VIII) THEORY EXAMINATION 2018-19
+ANALYTICAL INSTRUMENTATION
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+Te Attempt all questions in brief.
+Explain the principle of Mass Spectrometers.
+What are the basic elements of analytical instruments?
+Bo Draw the pictorial view of Inductively-coupled plasma spectrometer.
+Explain the principle of flame photometers.
+Write the sources of interference in Atomic Absorption Spectrometers.
+State Beer Lambert’s Law. Mention engineering applications of photometry
+Mention various components of Mass spectrometers.
+Explain the sensitivity enhancement for analytical NMR-Spectroscopy.
+Mention the types of Infrared Spectrometers.
+Write the expression for concentration and interference in flame photometry.
+SECTION B
+PN Attempt any three of the following: 10x3=30
+www.aktuonline.com What is Quadrupole mass filter? Explain its role in deducing the result of analysis in case of
+Quadrupole Mass Spectrometer
+Discuss various Sampling handling techniques for matters used in analysis.
+Briefly explain different types of NMR Spectrometers.
+Explain in details the process of determinations.
+What are the laws relating to absorption radiation?
+SECTION C
+Attempt any one part of the following: 10X1=10
+Draw Electromagnetic Spectrum and show the relationship between Energy and
+Wavelength. Write a short note on microprocessor-based Spectrometer (block diagram).
+Draw the schematic diagram of a double beam spectrophotometer and explain its principle
+of operation.
+Attempt any one part of the following: 10X1=10
+What are the different sources of infrared radiation employed in Infrared Spectrophotometers
+and the different methods in Infrared Spectrophotometers? Explain in detail.
+Explain the working principle and function of Infrared Spectrometers. Describe the
+various components of Infrared Spectrometers.
+pn Attempt any one part of the following: 10X1=10
+Draw the block diagram of the electronic circuit of an atomic absorption spectrophotometer
+and explain the working of each block in detail.
+Explain the operation and types of Flame photometer Also list its various applications.
+Attempt any one part of the following: 10X1=10
+Discuss Ion cyclotron resonance (ICR) mass spectrometer and trapped Ion analyzers.
+Explain the working of Gas chromatograph. List the advantages and problems related to
+Pn Attempt interfacing of liquid Gas of Chromatograph the following: with Mass Spectrometer. 10X1=10
+Discuss any principle one part of NMR with schematic diagram. Also why RF is
+for NMR Spectroscopy. neat state source
+necessary What the advantages of Fourier transform NMR spectroscopy?Write short note
+Varian are T-60 NMR Spectroscopy. a
+on
+http://www.aktuonline.com

@@ -1,0 +1,75 @@
+NMCA214
+Printed pages: 03 Sub Code: NMCA 214
+Paper Id: 214222 Roll No:
+MCA
+(SEM-IT ) THEORY EXAMINATION 2018-19
+INTRODUCTION TO AUTOMATA THEORY AND LANGUAGES
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2 x10 = 20
+a. Explain the application and limitation of finite automata.
+b. What is MyHillNerode theorem? Explain.
+Define the Chomsky hierarchy. ?
+d Define DFA. Design a DFA for a language over the alphabet (0,1) that accept
+String ending with 101.
+Define and give the difference between Kleene’s closure and positive closure?
+f. Give the regular expression for the set of all string over (a,b) containing exactly three
+a’s.
+g. Is context free language closed under union? If yes, give example.
+h. Define alphabet, string and language.
+i. Remove useless production from the given production: S->AB/a, A->b.
+j. Explain recursively enumerable language with example.
+www.aktuonline.com SECTION B
+2. Attempt What any is regular of the expression? following: Construct regular expression for given transition
+a. diagram shown in fig.1 a state
+as
+Fig .1
+b. Reduce the grammar G=({S,A,B},{a,b),P,S) to the Chomsky normal form where
+production P is defined as:
+S->bA/aB
+A->bAA/aS/a
+B->abb/bS/b
+Prove that the language is neither regular nor context free.
+d. Construct the DFA equivalent to s-NFA described by fig.2
+Page 1 of 2
+http://www.aktuonline.com
+NMCA214
+€. Describe the Mealy and Moore machines with example. Convert the given Mealy
+machine as shown in fig.3into Moore machine.
+ao > a
+—— ees cl
+140 or
+Leo
+Fig 3
+SECTION C
+3. Attempt (a) State any Pumping one part of Lemma the following: for regular show that the L= {a?/p 10 x is 1= prime} 10 is
+regular. sets set not
+(b) Define a parse tree. Find the parse tree for the string bbaaaab consider the CFG:
+S->XX
+X-> XXX/bX/Xb/a
+Is this ambiguous or not? justify
+4. Attempt any one part of the following:
+(a) Explain the Inherently Ambiguous context-free language with suitable language.
+Construct the context- free grammar that accept language L= or j=k; i,j,k are
+(b) | positive Push integer} down . the for the language
+www.aktuonline.com L={wew®/wefa,b}*} automata (PDA)?Design PDA
+5. Attempt part of the following: 10 1= 10
+(a) Define any one Turing machine(TM).Design a Turing machine which compute x the following
+function: f(w)=ww*, where w* is the reverse of string w.( we{a,b}*)
+(b) Construct a context free grammar G corresponding to following context free language,
+then construct PDA corresponding to L={
+6. Attempt any one part of the following: 10x 1=10
+(a) Prove that (1+00*1) + (1+00*1) (0+10*1) (0+10*1)
+(b) Minimize following DFA shown in fig.4;
+Fig. 4
+7. Attempt any one part of the following: 10x 1=10
+(a) the short note of the following:
+(i) Halting problem of Turing machine
+(ii) Church’s Thesis
+(iii) Decidable and undecidable problem
+(b) What are the Post’s Correspondence Problem (PCP) and Modified PCP with
+application? Does the following PCP have 1). a solution?
+A=(101,100,10,0,010) B=(10,01,0,100,
+Page 2 of 2
+http://www.aktuonline.com

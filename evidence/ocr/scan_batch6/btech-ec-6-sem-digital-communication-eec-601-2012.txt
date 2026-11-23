@@ -1,0 +1,71 @@
+k ine.com
+any four parts of the following : (5x4=20) Printed Pages—4
+(a) A Gaussian channel has | MHz bandwidth. Calculate the Following Paper ID and Roll No. be filled
+channel capacity and maximum information rate if the to in your Answer Book
+signal noise spectral density PAPER ID : 2487
+power to ratio (S/N) is 10° Hz.
+(b) The parity check matrix of a (7, 4) Hamming code is as B. Tech.
+given : (SEM. VI) THEORY EXAMINATION 2011-12
+11014100 DIGITAL COMMUNICATION
+11001 1
+101310141 Time : 3 Hours Total Marks : 100
+Note: (1) Answer all questions.
+Calculate the syndrome vector for single bit errors. (2)
+(c) Define the term Burst error and error detection. How many All questions carry equal marks.
+types of redundancy checks corrected ? 1. Attempt any four parts of the following
+:
+(d) Fora(7, 4) cyclic code determine the generator matrix if (a) What are the main elements of the digital communication
+system ? Sketch and explain the function of each element.
+(e) Determine the Huffman code for the following (b) Differentiate between Base-band and Band-pass data
+with their probabilities given message
+: transmission system.
+{X} [xl x2 x3) x4 x5) x6 = x7] (c) If where X and Y are the independent
+{P} [0.05 0.15 0.2 0.05 0.15 0.3 0.1] random variables with variance and and C is
+(f) Write the advantage and disadvantage ofcyclic codes. constant. Find the variance of Z.
+(d) Write short note on Kraft Inequality.
+(e) Define the following
+terms :
+(i) Mutual information
+(ii) Entropy
+(iii) Channel capacity
+(iv) Rate of Information.
+(f) Verify equations that is I(X Y) H(Y) H(X)-
+: = + H(X, Y).
+EEC601/PUR-40163 4 9 17475 EEC601/PUR-40163 1 [Turn Over
+aktuonline.com
+of the following (10x2=20) FSK transmits binary atatttaqata@fom
+any fwo parts : (c) An system data
+(a) Discuss the properties of matched filter. Explain the block transmission, 2.5 x 10° bits per second. During the course of
+diagram of optimum receiver for binary coded signal and white Gaussian noise of zero mean and
+derive the expression for Probability of Error (P.) for power spectral density W/Hz is added to the signal.
+optimum filter receiver. In the absence of noise, the amplitude of the received
+(b) Explain the cause of IS] and discuss the Nyquist criterion sinusoidal wave for digit 1 or 0 is 1 mV. Determine the
+for distortionless Baseband Binary transmission. Design average probability of symbol error for the following
+a binary baseband PAM system to transmit data at a bit system configurations :
+rate of 3600 bits/sec with a bit error probability less than
+The channel response is given by : (i) Coherent binary FSK
+{107 for | (ii) Coherent MSK
+= | f < 2400 (iii) Noncoherent binary FSK.
+= {0 elsewhere.
+The noise power spectral density is G (f) = watt/Hz. 4. Attempt any two parts of the following : (10x2=20)
+(c) Give four desirable properties of. baseband line codes.
+Draw the following data formats for (a) What are the various characteristics of Spread Spectrum
+the data bit stream Signal ? Explain the principle of direct sequence and
+1100110: frequency hopped spread spectrum communication
+(i) Unipolar RZ,
+(ii) Polar NRZ, system.
+(iii) Bipolar NRZ, (b) Derive an expression for the probability of error of a DS
+spread spectrum using binary PSK. In a fast FH spread
+(iv) Manchester.
+3. Attempt parts of the following (10x2=20) spectrum system, the information is transmitted via FSK
+any : with non-coherent detection. Suppose there are N = 3 hops/bit.
+(a) Write short notes on the following : Determine the probability of, for this system in an AWGN
+(i) Byte Interleaving T1 Carrier System, channel with density and SNR 13 dB (total
+(ii) Tl toT4 PCM TDM. power =
+(b) Explain the different of digital carrier SNR over the 3 hops).
+type modulation (c) Explain the various types of multiuser systems. Determine
+schemes giving their merits and demerits for transmission and the capacity of FODMA, TDMA and CDMA
+data on band-pass channel. Determine the performance compare
+of a QPSK receiver in the presence of AWGN channel. in an ideal AWGN channel of bandwidth ‘W’.
+EEC601/PUR-40163 2 EEC601/PUR-40163 3 [Turn Over
+aktuonline.com

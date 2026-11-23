@@ -1,0 +1,64 @@
+Printed Pages: 02 Sub Code: EPI601
+Paper Id: 141227 Roll No.
+B.TECH.
+(SEM -VI) THEORY EXAMINATION 2018-19
+PRINCIPLES OF MACHINE TOOL DESIGN
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief.
+Explain crater wear
+What do you mean by dynamic rigidity?
+Write difference between up-milling & down-milling.
+What is a transfer machine?
+Lathe is the queen of all machine tools justify?
+Write down laws of stepped regulation.
+Explain the types of machine tools surface.
+Write steps for selection of bearing machine tools.
+Differentiate between group & individual drive.
+www.aktuonline.com Explain basics of numerical control system.
+SECTION B
+2. Attempt any three of the following: 10x 3 =30
+a. Explain what characteristics of grinding process makes it different from
+conventional turning/milling operations?
+b. — State the important parameters that would influence the torque and thrust in
+drilling. Describe the cutting action of a drill.
+c. Briefly describe any 4 mechanisms that can convert rotary motion into
+translation.
+d. What do you understand by 'Chatter' in machine tools? How it affects the
+product quality? How it can be removed? Explain.
+e. With the help of neat sketches describe the working, advantages and
+disadvantages of the following types of speed variators: (1) Adjustable pulley
+variator. (ii) Cone variator with spheres supported on shafts.
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+(a) Describe the factors that should be considered while making a choice between
+groups versus individual drive.
+(b) With the help of neat sketch describe the working of a Cam-controlled
+mechanism used in automatic lathes.
+4. Attempt any one part of the following: 10x1=10
+(a) Discuss the significance of machine tool layout. Write the layout formula for a
+knee-type vertical milling machine.
+(b) Discuss the advantages & disadvantages of hydraulic regulation of machine
+tool derives. Describe the working of a hydraulic drive unit for rotary motions
+5. Attempt any one part of the following: 10x1=10
+(a) State tools the advantages conventional & disadvantages automated machines. of numerically do controlled select machine the for
+machining? over How you parts
+NC
+Page 1 of 2
+http://www.aktuonline.com
+Printed Pages: 02 Sub Code: EPI601
+(b) With the help of a neat sketch explain the working principle of Word-
+Leonard drive used for machine tools. What are some of the important
+applications of this type of drive?
+6. Attempt any one part of the following: 10x1=10
+(a) Write a detailed note on the history and development of machine tools.
+(b) Describe one mechanical friction stepless drive and one electrical stepless
+drive with suitable sketches
+7. Attempt any one part of the following: 10x1=10
+(a) Describe the working principle of Oldham coupling with the help of neat
+sketch.
+(b) Explain in detail various step involved in testing of machine tools.
+www.aktuonline.com
+Page 2 of 2
+http://www.aktuonline.com

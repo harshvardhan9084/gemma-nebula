@@ -1,0 +1,121 @@
+www.aktuonline.com
+Printed Pages : 7
+(A
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 140658
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+MECHANICAL VIBRATIONS
+Time : 3 Hours] [Total Marks : 100
+Note: Attempt all questions of the following
+:
+1 Attempt any two questions.
+(a) Add the following harmonic motions
+10
+analytically and check the solution graphically.
+X, = 2 cos (wtt0.5) ; X, = 5 Sin ( wtt 1.0).
+(b) Derive an expression for the longitudinal vibration 10
+of a uniform bar of length L, one end of which
+is fixed and other end is free.
+(c) A cylinder of mass m and mass moment of 10
+inertia J, is free to roll without slipping but is
+restrained by springs of stiffnesses k, and
+two
+k, as shown in Fig. 1. Find its natural frequency
+140658] 1 [ Contd...
+www.aktuonline.com
+of vibration. Also find the value of that
+maximizes the natural frequency of vibration.
+m, Jo
+2 Explain any four of the following: 5x4=20
+(a) Coordinate coupling,
+(b) Damping,
+(c) Orthoganality principle,
+(d) Influence coefficient,
+(e) Dunkerley's method.
+3 Attempt any two questions :
+(a) The damped vibration record of a spring- 10
+rnass-dashpot system shows the following data :
+Amplitude on second cycle = 1.20 cm
+Amplitude on third cycle = 1.05 cm
+Spring constant, k = 7840N/m
+Mass the spring, M 2kg
+on =
+Determine the damping constant, assuming it to
+be viscous.
+140658] 2 [ Contd...
+www.aktuonline.com
+(b) An aircraft instrument of 10 kg is to be 10
+mass
+isolated from the engine vibrations. The engine
+runs at speeds ranging from 1800 rpm to 2500
+Natural rubber isolators with negligible
+rpm.
+damping are used. Determine the rubber stiffness
+for 90% isolation.
+r
+(c) A cylinder of weight w and radius rolls 10
+without slipping on a cylindrical surface of radius
+R, shown in Fig. 2. Determine its differential
+as
+equation of motion for small oscillations about the
+lowest point.
+Fig. 2
+140658] 3 [ Contd...
+www.aktuonline.com
+4 two questions
+any :
+(a) The static deflection of an automobile on its 10
+springs is 100 mm. Find the critical speed when the
+automobile is travelling road, which be
+on a can
+approximated by a sine wave of amplitude 80 mm and
+wavelength of 16 m. Assume the damping to be given
+by €=0.05. Also determine the amplitude of vibration
+at 75 km/hr. (Ref. fig. 3)
+no.
+Fig. 3
+(b) Figure 4 shows double pendulum. 10
+no. a
+Determine the natural frequencies of the oscillation
+when and L,=L,=L.
+m,—m,=m
+140658] 4 [ Contd...
+www.aktuonline.com
+Fig. 4
+(c) For the system shows in Fig.no.5, determine the natural
+frequencies and corresponding modes by using Holzer's
+method.
+140658] 5 [ Contd...
+www.aktuonline.com
+5 Attempt any two questions :
+(a) (i) Explain the Maxwell's reciprocal 5x2=10
+theorem and D. Alembert's principle.
+(i) | A commercial type of vibration pickup has
+a natural frequency of 6 Hz and a damping
+factor of 0.65. What is the lowest frequency
+beyond which the amplitude be
+can
+measured within one percent error?
+(b) <A rotor having a mass 5 kg is mounted 10
+midway on a 10 mm diameter shaft supported
+the ends by bearings. The bearing
+at two span
+is 400 mm. Because of certain manufacturing
+inaccuracies, the c.g. of the disc is 0.02 mm away
+from the geometric centers of the rotor. If the
+system rotates at 3000 rpm, find the amplitude
+of steady vibrations and dynamic force
+state
+transmitted to the bearing. Neglect damping and
+take E = 1.96 x 10!! N/m2. Assume the shaft
+to be simply supported.
+140658] 6 [ Contd...
+www.aktuonline.com
+(c) A mild steel shaft of 10 mm dia is built into 10
+walls both ends. It carries flywheels, each
+at two
+at 0.25 m from a wall and also 0.25 m from each
+other, of steel 0.3 mm in diameter and thick. Find
+the two natural frequencies in torsion.
+140658] 7 [ 500 |

@@ -1,0 +1,74 @@
+| | WT Printed Page: 1 of 2
+su ode nan
+Paper ID : 261104 No:
+| Roll | Ja
+(SEM. VI) THEORY EXAMINATION 2025-26
+REFRIGERATION AND AIR CONDITIONING
+TIME: 3 HRS M.MARKS: 70
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1, Attempt all questions in brief. 2x7 =14
+Define refrigeration and state the unit of refrigeration (Ton of Refrigeration). Cc
+What heat is Coefficient of Performance (COP)? Write its expression for a refrigerator and
+a pump.
+State the effect of sub-cooling of cond
+refrigeration cycle.
+What is an Apparatus Dew Point ( and Bypass Factor in air conditioning?
+\
+SECTION B
+2. Attempt any three of the following:
+Derive the expression for COP of a reversed Carnot refrigeration
+a practical vapour compression cycle and explain the limitations, By reversed Carnot
+cycle.
+With a neat schematic diagram, explain the working ofa
+air refrigeration cycle. Derive the expression for its COP.
+Explain the working principle of orptigit refrigeration Draw the
+schematic diagram and compare it a with vapour the va ab poUpcompression system. system.
+(i) Explain Sensible the following Cooling, (ii) psychrometric Sensible Hg iii). ith Cooling the help and of Dehumidification, a psychrometric chart (iv)
+Heating and Humidification.
+(c) | What is with a multistage inter-cooling vapour co) ion removal. system? State With its a diagram, advantages explain a two-stage
+system gas over single-stage
+SECTION C
+3. Attempt any one part of the following: 7x1=7.
+[ limits of | |
+(a) | A reversed Carnot cycle operates between temperature COP of the heat -10°C and 40°C. K3
+| Calculate: refrigerating (i) effect COP produced of the refrigerator, kW of work (ii) input. Also draw the cycle pump, T-S and diagram. (iii) the
+. per on
+QP26E 467 | 14-May-2026 1:40:10 PM | 125.23.225 186
+https://www.pyqonline.com
+simple compression refrigeration system using
+condenser In a pressures vapour are 2.0 bar and 10.0 R-134a, the evaporator and
+compressor is dry and saturated. Determine: ( bar i) Refrigerating respectively. effect The vapour kg of entering refrigerant, the
+(ii) Work done per kg, (iii) COP of the system, (iv) Mass flow rate per for 5 TR capacity.
+4. Attempt any one part of the following:
+Explain the bootstrap air refrigeration system used in aircraft with neal diagram.
+State Derive the the advantages expression for COP and compare it with the simple air refrigeration reinig a cycle. cycle
+of bootstrap system,
+Explain the Ammonia-Water vapour abso tption system with a neat schematic diagram.
+Discuss the role of the analyser and rectifi er. Also draw the Temperature-Concentration
+diagram for the NH3-H20 mixture.
+5. Attempt any one part of the following:
+Discuss What ozone Hydrofluoro-Olefins layer depletion (HFOs) and global and warming potential (GWP) of refrigerants? refrigerants.
+are why are they considered future
+principle, What is a advantages, cascade refrigeration system? With a neat diagram, explain its working
+Stage cascade system. and applications. Derive the expression for overall COP of a two-
+6. Attempt any one part of the following: Tx1l=7
+For an air-conditioned space, the following data is Outdoor 40°C
+DBT, 27°C WBT; Indoor conditions 25°C DBT, 50% given: Supply air at conditions ADP. Calculate:
+(i) Sensible Heat Factor (SHF), (ii) Apparatus t, (iii) By-pass factor if sensible
+heat load = 20 kW and latent haat nnd | .
+Explain the effect of change in suction
+vapour compression refrigeration cycle
+of superheating of refrigerant P.
+7. Attempt any one part of the following:
+Write short notes on any two of the following: ~
+(i) Vortex tube refrigeration system,
+(ii) Thermoelectric refrigeration system, NX
+yp .
+(iii) Steam jet refrigeration system,
+(iv) Magnetic refrigeration system.
+Explain the types of compressors used in Discuss the construction
+and working of a scaled 4 ..ermostatic expansion valve.
+\
+467 | 14-May-2026 PM | 125.23.225 86
+https://www.pyqonline.com

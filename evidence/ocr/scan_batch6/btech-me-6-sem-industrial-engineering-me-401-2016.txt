@@ -1,0 +1,88 @@
+Printed Pages: 4 ME-401
+(Following Paper ID and Roll No. to be filled in your
+Answer Books)
+Paper ID: 140405
+B. TECH.
+Theory Examination (Semester-VI) 2015-16
+INDUSTRIAL ENGINEERING
+Time : 3 Hours Max. Marks: 100
+Section-A
+1. Attempt all questions. (2x10=20)
+(a)
+What ia an organization?
+What
+(b) do you mean by therblings?
+(c) Write the of material handling equipments.
+names
+(d) What do understand by sampling?
+you
+(e) Write the full form of PERT.
+(f) | What do you mean by inventory?
+1 (1) PT.O.
+(g) What is the difference between production and
+productivity?
+(h) What is the difference between private limited company
+and public limited company?
+(i) | What is break even point?
+(j) | What do you mean by routing?
+Section-B
+Attempt any five questions. (10x5=50)
+(a) Explain the term “Performance Rating”. Correlate the
+terms performance rating and production rating with the
+help of a suitable example.
+(b) What is meant by Human Resource Development?
+Enumerate the objective of the human resource
+development.
+(c) State the factors governing the amount of compensation
+paid to the worker under Workmen’s Compensation
+Act.
+(d) data are available for existing equipment and
+for the proposed equipment to replace the existing one.
+(2)
+Find whether the concern should go for replacement or
+not:
+Factors
+Existing Proposed
+Equipment Equipment
+(i) Cost Rs. 1500 Rs. 10000
+(Market value)
+(ii) | Operating Rs. 3890 Rs. 3890
+(annual)
+(ai) | Scrap value Rs. 500 Rs. 1000
+(iv) Interest 11% 11%
+(v) Life of equipment l year 10 years
+.
+(e) Formulate a transportation problem as a Linear
+Programming problem.
+(f) What is Memorandum of Association according to the
+company act1956?
+(¢) Differntiate between the terms “Lock-Out” and “Closure”.
+Discuss the basic objectives of Industrial Disputes Act.
+(h) Enumerate the various principles of organization. Discuss,
+the principle of span of control.
+GB) P.T.O.
+Section-C
+Attempt Any Two questions (15x2=30)
+3. What is meant by the replacement of machine? Differentiate
+between the annual method and worth method of
+cost present
+replacement analysis. Discuss also the advantages and
+using worth method of analyzing
+disadvantages of present
+replacement of machine.
+Derive an expression for economic batch size in production in
+of of production annual requirement daily
+terms cost , set-up, ,
+requirement and daily production A company produces 4800
+.
+parts per day and sells them at approximately half of the rate.
+The set-up cost is Rs. 1000. The carrying costs are Rs. 5 per
+unit. The annual demand is 480000 units. Find optimal lot
+size.
+Write short notes on:
+(i) Factory act 1948
+(i) Industrial dispute
+(i) Trade union
+(tv) Independent float
+(v) First cost V/S Trade in value
+(4)

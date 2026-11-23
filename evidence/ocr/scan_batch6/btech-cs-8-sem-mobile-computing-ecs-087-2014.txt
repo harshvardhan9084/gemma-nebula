@@ -1,0 +1,65 @@
+aktuonline.com aktuonline.com
+Printed Pages—3 ECS087 2: Attempt any four parts :
+(a) What is Bluetooth ? What the functions of different
+(Following Paper ID and Roll No. to be filled in Answer Book) layer Bluetooth protocol are
+your stack ? Also discuss the concept
+PAPER ID : 110857 of Bluetooth profile.
+(b) Discuss the basic principle of WAP protocol architecture.
+B.Tech. applications
+Write down the of WAP.
+(SEM. VIII) THEORY EXAMINATION 2013-14 (c) “CSMA/CD is not suitable protocol for wireless LAN”.
+MOBILE COMPUTING
+aktuonline.com Give reasons in favour of or against the statement ? aktuonline.com
+Time : 3 Hours Total Marks : 100 (d) Draw and define 802.11 protocol stack regarding the
+Note :— Attempt all questions. Al] questions equal marks. following points :
+carry
+1. Attempt any four parts : (i) Physical layer
+(a) What are the various characteristics of mobile computing
+(ii) Mac sub layer protocol
+environment ? Discuss challenges being faced to support (iii) Frame Structure.
+mobile computing.
+(b) What do by Handover ? Explain the (e) What kind of problem may arise, if TCP is implemented
+ye you mean reasons uptuonline.com ye uptuonline.com
+why the handover occurrs and also describe the procedure over wireless networks ? Explain.
+of Handover. (f) List the entities of Mobile IP and describe data transfer
+(c) Compare different generations
+of the Wireless from a mobile node to a fixed node and vice-versa. Why
+Communication, and Where is encapsulation needed ?
+(d) What do you mean by cell in cellular concept and why the
+cell of Attempt any two parts : (2x10=20)
+cellular architecture is hexagon ?
+(e) Write down the issues of mobile computing. (a) How does mobility affect data replication when we consider
+(f) replicating on mobile platform ?
+In context to cellular networks, explain the following
+terms : (b) What is multicluster architecture ? Discuss any one
+(a) GPRS algorithm required to partition the network into several
+(b) LOCATION MANAGEMENT with HLR-VLR. clusters.
+7/DQJ-21761 1 [Turn Over 2
+for solution visit a2zsubjects.com for solution visit a2zsubjects.com
+aktuonline.com
+(c) you mean by CODA file system and also explain
+the clients in CODA ? How Disconnected Operations
+are
+performed in CODA ?
+4. Attempt any two parts : (2x10=20)
+(a) Discuss the schemes of mobile transaction management.
+List out various issues concerned to transaction
+management.
+(b) Describe Fault Tolerance in mobile computing environment aktuonline.com
+in detail.
+(c) What do you mean by online transaction processing ?
+Explain various mobile transaction models.
+5. Attempt any two parts :
+(a) Why is routing in adhoc network complicated, what
+are
+special challenges ? Give some examples of adhoc network.
+(b) Describe any two of the following :
+ye uptuonline.com
+(i) DSDV
+(ii) DSR
+(iii) DVR.
+(c) Name the main differences between Adhoc network and
+other network. What advantages do Adhoc networks
+offer ? Explain in detail by giving suitable example.
+ECS087/DOJ-21761 3 20350
+for solution visit a2zsubjects.com

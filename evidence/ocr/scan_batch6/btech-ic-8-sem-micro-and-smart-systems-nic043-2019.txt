@@ -1,0 +1,52 @@
+Printed Pages:01 Sub Code:NIC043
+| 131306 Roll No.
+B.TECH
+(SEM VIII) THEORY EXAMINATION 2018-19
+MICRO AND SMART SYSTEMS
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+Attempt all questions in brief.
+What is the need of micro fabrication?
+What do you understand by miniaturization of systems?
+ao Briefly explain portable blood analyzer.
+Write short note on magnetic micro relay.
+mo Differentiate between positive photoresist and negative photoresist.
+What do you understand by micro machining?
+po What is squeezed film effects in electro machines?
+Write short note on in-plane stresses.
+Sor Mention the general considerations in packaging design.
+List the special issues in microsystem packaging.
+SECTION B
+Attempt any three of the following: 10x3=30
+www.aktuonline.com What is MEMS? Explain the principle of operation of electrostatic scratch drive
+actuator used in MEMS devices.
+With necessary sketches, explain the working principle of silicon capacitive
+accelerometer and mention its advantages and applications.
+Describe surface micromachining technique with the help of a suitable example.
+Differentiate Bar modeling from Beam modeling of solids in Micro system. What is
+Bimorph effect?
+Describe any four packaging technologies used in microsystem.
+SECTION C
+Attempt any one part of the following: 10X1=10
+Discuss smart materials in details with their different types. Describe characteristics
+and properties of smart materials.
+Explain Integrated Microsystems. Write down applications of Microsystems in
+industry. Compare performance of Microsystems with MEMS.
+Attempt any one part of the following: 10X1=10
+Explain properties of a typical micro sensor. What is working principle of
+Piezoelectric Pressure sensor specifications?
+Explain the principle of operation of piezoelectric based inkjet printhead.
+Attempt any one part of the following: 10X1=10
+With neat sketches, explain the processes involved in photolithography processes.
+Explain with the help of neat diagram, the different process steps involved in the
+fabrication of micro system.
+a Attempt any one part of the following: 10X1=10
+Explain phenomena of Poisson Effect. Find out related bending deflection equations
+for anticlastic curvature of beams.
+Describe in details scaling of electromagnetic forces and electrostatic forces.
+Attempt any one part of the following: 10X1=10
+What is mechanical domain scaling and electrostatic domain scaling in micro
+systems Also write the Difference between them.
+Explain the reliability and key mechanism that are essential in micro system.
+http://www.aktuonline.com

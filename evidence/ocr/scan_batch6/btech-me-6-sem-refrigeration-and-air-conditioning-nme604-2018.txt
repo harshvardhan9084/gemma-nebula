@@ -1,0 +1,96 @@
+Printed pages: 02 Sub Code: NME604
+Paper Id | 140263 Roll No.
+B.Tech.
+(SEM. VI) THEORY EXAMINATION 2017-18
+REFRIGERATION & AIR CONDITIONING
+Time: 3 Hours Total Marks: 100
+Note: 1. —_ Attempt all Sections.
+2. any missing data; then choose suitably.
+3. data book and charts are allowed.
+SECTION A
+1. Attempt all questions in brief. 2 x10 =20
+Rose Explain the C.O.P. for Refrigerator and Heat Pump.
+What are the steam ejectors?
+What do you mean by Ramming Process?
+Write the chemical name of refrigerants R-134 and R-22.
+c A metal beaker contains water initially at room temperature and the water is cooled by
+gradually adding ice water to it. When the water temperature reaches 13 the moisture from
+What room air is bypass begins factor? on the beaker. Explain Make it. calculation for the specific humidity.
+What do by
+oe Define Fouling you mean Factor DART? in condenser.
+www.aktuonline.com Enlist demerits of Air refrigeration System.
+What is the defrosting in refrigeration?
+SECTION B
+Attempt any three of the following: 10x 3 =30
+Describe with a neat schematic diagram, two stage multi compression refrigeration
+system. Represent the cycle on T-s and P-h plots.
+Explain the working of Li-Br vapour absorption refrigeration system with neat sketch
+An ammonia refrigerating machine fitted with an expansion valve works between the
+temperature limits of -100°C and 300°C. The vapor is 95% dry at the end of
+compression and the fluid leaving the condenser is at 300 °C. Assuming actual COP
+as 60% of the theoretical, calculate the kg of ice produced per kW hour at 0°C from
+water at 100°C. Latent heat of ice is 335kJ/kg.
+The atmospheric air at 25° C dry bulb temperature and 12° C wet bulb temperature is
+flowing at the rate of 100 through the duct. The dry saturated steam at 100° C
+is injected into the air stream at the rate of 72 kg/hour. Calculate the specific humidity
+and the enthalpy of the leaving air. Also determine the dry bulb temperature, wet bulb
+temperature and the relative humidity of the leaving air.
+What is the basic function of refrigerant in a refrigeration cycle and how they are classified?
+Explain in brief.
+SECTION C
+Attempt any one part of the following:
+(a) The following data refers to a reduced ambient air refrigeration system used for 5°C; an
+aircraft. efficiency Speed of aircraft = 1200km/h; of cooled ambient air leaving pressure the and first temp. cooling 0.8 turbine bar and
+bar; ram = of 100%; cooled pressure air leaving the H.E. 100°C; ratio of the = main 0.8
+temperature 3; loss between the second = cooling turbine pressure and cabin 0.1 bar;
+compressor and = pressure in the cabin 1 bar and 22°C; load in the cabin = 10 TR;
+pressure isentropic efficiency temperature of = 85%; efficiencies of cooling turbine = 80%.
+Calculate the temperature compressor of different = points of the cycle, also find: (1). Mass = flow of
+http://www.aktuonline.com
+Printed pages: 02 Sub Code: NME604
+air passing through the second cooling turbine; (2). Qty. of ram air passing through the
+if the rise in temperature is limited to 80K; (3). C.O.P. of the system.
+(b) Explain Bell-Coleman cycle with P-V and T-S diagrams and derive its COP.
+4. Attempt any one part of the following:
+(a) Discuss the effect of suction pressure, Discharge pressure, super heating and
+sub-cooling the performance of compression system with suitable
+on a vapour
+diagrams.
+(b) Air at 15 °C dry bulb temperature and 25% relative humidity is heated and
+humidified at 30 °C dry bulb temperature and 50% relative humidity. Calculate
+the heat and moisture added to air and the sensible heat factor for the process.
+5. Attempt any one part of the following:
+(a) A food storage locker requires a refrigeration system of 2400 KL/min. capacity
+at an evaporator temperature of 263 K and a condenser temperature °C of 303 K.
+the refrigeration used is Freon -12 and sub-cooled by 70°C 8 before entering the
+expansion valve and vapour is superheated by before leaving the
+evaporator coil. The refrigeration compressor is two cylinder single-acting with
+heat= stroke equal 1.235 to kJ/kg°C, 1.25 times the bore specific and heat= operates 0.733 at 1000 kJ/kg°C. rpm. Liquid Determine specific (a)
+Refrigeration effect vapour kg. (b)Mass of refrigerant be circulated minute.
+(c)Theoretical piston per displacement minute.(d)Theoretical to per required
+www.aktuonline.com the in Kw. per power to
+(b) run Explain compressor, the function of the following of the Vapour Absorption
+Refrigeration System. components
+1. Rectifier
+il. Generator
+ui. Analyser
+iv. Absorber
+6. Attempt part of the following:
+(a) A any simple one saturation cycle using R-12 is designed for taking load of 10 tones.
+The refrigerator and ambient temperature 0°C and 30°C. a A minimum
+temperature difference of 5°C is required in are the evaporator and condenser for
+heat transfer find; 1. Mass flow rate thorough the system; 2. Power required in
+kW; 3.COP and cylinder dimension assuming L/D = 1.2 for a single cylinder,
+single acting compressor if it runs at 300 r.p.m. with volumetric efficiency of
+90%.
+(b) What is the Psychometry? Plot Psychrometric chart(s) and explain common
+Psychrometric processes on this chart. Explain and discuss these properties in brief.
+7. Attempt any one part of the following:
+(a) Explain the Performance Characteristics of Reciprocating Compressor
+mentioning the effect of the following points :-
+(i) Suction temperature on compressor on refrigerating capacity.
+Condenser temperature.
+(b) Define Condenser and explain the working of a Condenser in a Refrigerating
+System. Classify them. Also discuss what are the factors affecting the
+Condenser Capacity
+http://www.aktuonline.com

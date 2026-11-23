@@ -1,0 +1,87 @@
+http://www.aktuonline.com
+Printed Pages: 02 Subject Code:
+Paper Id: | 100714 | Roll No:
+BTECH
+(SEM VIl) THEORY EXAMINATION 2018-19
+POWER SYSTEM OPERATION &
+Time: 3 Hours Total Marks: 100
+Notes: Assume unv Missing Data.
+SECTION-A
+1. Answer ALL parts of this section. |2X10=20]
+is the function of energy control centre?
+by Discuss the problem of voltage stability in power systems.
+cy What is level decomposition in power system?
+d) What is meant by incremental cost curve?
+c) What do you understand by the term unit commitment?
+f) What is booster transformer?
+2) What is penalty factor?.
+hy What is the role of AYR in power system?
+the role of FACTs devices in ever expanding clectrical power system
+network. //
+SE -B
+2. Attempt any THREE questions from this section.
+a}. With the help of diagram between contro) centres for
+SCADA. Write the function of SEADA.
+b).Piscuss the importance of load frequency control and e¢onomic dispatch
+~~“ control with neat block diagram.
+a stations having functions
+¢) ‘Iwo generating cost are
+= 0.0008 +0.002P,,, +5
+0.0005 P3,
+=
+of P., and incremental cost for
+Calculate the value P,,.
+dispatch
+load = using economic
+cation
+i} Calculate cost a g of economic dispatch solution.
+ii) Calculate total cost of} neration using equal load sharing condition.
+Compare the resyits.
+d) Draw input-output and incremental fuel cost curve for steam turbine plant and
+hydroelectric plant and write their characteristics eyuations.
+¢) Two synchronous generators are operating in parallel, Their capacities are 300 MW
+and 400 MW. Their droop characteristics of their governor are 4% to 3% from no
+load to full load. Assuming that the generators are operating at 50 at no load to
+full load. how would be a load of 600 MW shared between them. What is the system
+frequency at this lvad? Assume free govemor action.
+http://www.aktuonline.com
+http://www.aktuonline.com
+SECTION-C
+Attempt all the question. [10*S=59]
+3, Attempt any one part
+ay Explain economic dispatch load and its application
+center
+b) Draw input output curve for thermal power plant and hydro power plant.
+one part
+4” 8) the complete block diagram representation of load frequency control of an
+power system. Show the relation between change in frequency and change in
+power.
+shown in figure,
+b) For a two bus system
+BR
+Plant 1 P,
+The incremental costs for the two plants are
+GR +35 ap, ac, <3 MMM
++
+ye
+The transmission line lass indicates that for transfer of a loss of
+a
+15 MW occurs. If A= 25
+Poweg supply
+Find (i) (i) ®, and P, for minimum fuel cost, (ii) to the load and
+(iv) Loss in transmission line (v) ITL (vi) Penalty factor
+5. Attempt any one part
+Explain with
+How power system security is performed, the help of block diagram.
+different of compensating eqyipmeht for transmission.
+b) Explain type
+6. Attempt part
+What any one
+are the different kinds of exeifablor Systems? Describe any two.
+b) Mention the various Voltage Describe any three.
+7. Attempt any one part
+a) What do you mean by controllers’? following controllers:
+STATCOM (ii) SSSC (iiiJUPFC (iv)
+b) What do you mean by “State Estimation” in power system environment? Also
+mention its advantages, disadvantages and importance in pawer system environment
+http://www.aktuonline.com

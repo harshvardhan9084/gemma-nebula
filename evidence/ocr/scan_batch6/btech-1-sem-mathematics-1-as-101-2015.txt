@@ -1,0 +1,83 @@
+www.aktuonline.com
+Printed Pages : 4
+AS-101
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 199101
+B. Tech.
+(SEM. I) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+MATHEMATICS - I
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+1 Attempt any two of following :
+(a) If y= x] 2 prove that
+,
+(i+ x 2 ae + (2n+ Ixy, 2 = 0|
+=
+(2)
+(b) If w=xsin * sin ¥ find the
+y x
+ce a
+value of >
+Ox axdy ay
+199101] 1 [ Contd...
+www.aktuonline.com
+(c) If y = x + + 22 —2xyz =1, show that
+=0
+2 Attempt any two parts of following :
+(a) Trace the curve r= a(1 + cos 9).
+(b) Find the approximate value of
+(0.98) i
++
+(c) If x=e" cosy, y =e” siny then find
+3 Attempt any two parts of following :
+6
+| 3 J /x x?
+(a) Evaluate dy dx by changing the order
+0 0
+of integration.
+199101] 2 [ Contd...
+www.aktuonline.com
+(b) the area enclosed by curves y? = 4ax and
+v= day.
+(c) Prove that
+0 -1
+B(m, n) =
+0 (ax + + ”
+4 Attempt any two parts of following :
+(a) Find © if
+( ve
+Vo= i+ [3 2xy
++ - -
+(b) Evaluate by Green's theorem
+¢ [ (cos x sin y — 2xy) dx +sinx cosy dy |
+c
+where C is circle y?
++ =]
+A A A
+(c) Verify : Stoke's theorem for =| y j+xk
+where S is upper half surface of sphere
+x y? 2% and C is its boundary.
++ 4+ =]
+199101] 3 [ Contd...
+www.aktuonline.com
+5 Attempt any two parts of following :
+(a) Find non-singular matrices P and Q such that P
+and Q is in normal form of the matrix and hence
+find the rank of matrix
+1 2 3. -2
+A=|2 1 3
+3 0 4
+(b) Solve following of equations
+system :
+2x, + 3kx, + (3k + 4)x, 0
+=
+x, + (k+4)x, + (44 =0
++2(k +1)x, (3k
+x, + =0
+(c) Find the eigen values and corresponding eigen
+1 1 3
+vectors of matrix 4=]1 1}.
+3 1
+199101] 4 18650

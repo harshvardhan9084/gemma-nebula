@@ -1,0 +1,82 @@
+Printed Pages—3 TEC603
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 3093.
+B. Tech.
+(SEM. VI) THEORY EXAMINATION 2010-11
+VLSI TECHNOLOGY AND DESIGN
+Time : 3 Hours Total Marks : 100
+Note : Attempt all questions. Each question carries equal marks.
+1. Attempt any four parts of the following : (5x4=20)
+(a) How bipolar LC. differ from MOS IC. ? Give comparisons
+of MOS and bipolar LC.
+(b) Classify the Integrated circuit according to complexity of
+the What of Integrated
+circuits. are the advantages circuits
+components as compared to discrete components ?
+(c) Discuss the operations performed during wafer
+preparation ? What are the precautions that must be taken ?
+Czochralski
+(d) How is single crystal grown ? Explain the
+Technique for single crystal growth. What are its
+advantages ?
+(e) Discuss the various types of charges present in the oxide
+and oxide-silicon interface. What the effects of these
+charges devices fabricated under are such oxides ?
+on
+(f) Why oxidation is done ? Explain the chemistry of oxidation
+and kinetics of oxide growth.
+TEC603/RFW-21163 1 [Turn Over
+2. Attempt any four parts of the following : (5x4=20)
+(a) the basic requirements for any diffusion system ?
+Describe a typical diffusion apparatus. What are the process
+variables which affect the diffusion process ? Explain.
+(b) What is epitaxial growth ? What are the advantages of
+epitaxy in LC. fabrication ? Describe a epitaxial growth
+process.
+(c) What is photolithography technique ? Discuss in brief.
+(d) Sketch and explain the isoetch for typical HF HNO,:
+curve :
+H,O diluent etching system used for silicon.
+(ec) What is the projected range in an ion-implantation
+technique ? What the advantages and disadvantages
+are
+of ion implantation ?
+(f) What are the desired properties of the metallization for
+Integrated circuits ? Describe deposition technique
+vacuum
+for thin film deposition.
+3. Attempt any two parts of the following : (10x2=20)
+(a) Explain with neat diagram the principle of p-channel
+enhancement MOSFET. Draw its V-I characteristic. What
+do you mean by substrate bias effects ? Explain it.
+(b) Draw the different type of MOS inverter circuits and their
+transfer characteristics. Compare their relative advantages
+and disadvantages.
+(c) Describe the Lambda based design rules and layout
+methodology for CMOS circuit design.
+TEC603/RFW-21163 2
+4. Attempt two of the following: (10x2=20)
+any parts
+(a) What is stick diagram ? Draw the stick diagram and a
+mask layout for an 8 : 1 n MOS inverter circuit. Both the
+input and output points should be on the polysilicon layer.
+(b) Construct colour coaded stick diagram to represent the
+of a the integrated
+design two input NAND gate NMOS
+structure and indicate pull up/ pull down ratio.
+(c) Draw a stick diagram to represent the design of a CMOS
+circuit that implements the following function :
+Input Output
+x Y Z
+0 0
+0 _
+1 fa)
+1 1 oO
+Attempt any two parts of the following : (10x2=20)
+(a) What is the term "ASIC" means ? Explain in detail. List
+the applications of ASIC.
+(b) What do you mean by VLSI testing ? Discuss different
+techniques for the same.
+(c) Give the architecture of Programmable Logic Device
+(PLD) and explain its function.
+TEC603/RFW-21163 3 7050

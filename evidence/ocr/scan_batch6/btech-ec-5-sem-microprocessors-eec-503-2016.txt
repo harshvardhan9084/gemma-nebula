@@ -1,0 +1,69 @@
+performed by
+(d) Explain what operation is cach of
+Printed Pages : © 4 EECSO03 the instruction that follows: . 7
+(Follow ing Paper ID and Roll No. to be filled in your (i) STAXB
+Answer Book)
+Paper ID: (ii) 2000
+TLLIILLL
+B.TECH What is the output at when following
+executed?
+(SEM. V) THEORY EXAMINATION, 2015-16 instructions are
+MVI/ VIA. 8FH
+MICROPROCESSORS
+5
+[Time : 3 hours] : 100}
+DISPLAY
+JC
+Note : The Question Paper contain three Sections.
+OUT + PORTI +:
+Section-A
+HLT
+Q.1 Attempt all parts of the following. All parts carry equal
+marks. Write answer of cach part in short. DISPLAY : XRA A
+(2*10=20)
+(a) List the functions of ALE and of 8085 HLT
+microprocessor.
+(f) Write a program using . the ADI instruction . to add
+(b) Calculate the number of memory chips needed to the two hexadecimal
+numbers 3AH and 48H and
+design 8K-Byte memory if the memory chip size to display the answer at the output port-port 1.
+is 1024*1.
+(g) Explain the role of two DMA signals in 8085
+(c) List the addressing modes of 8085 with example.
+EECS03
+14600 (1) (2)
+(h) Draw the Q?7. Write trite ¢ a program ny to count Py uly ‘4 in hexadecimal rr
+7 control word format for different modes from FEH OOH system with a 0.5 27s clock period.
+of 8225. Use to C to each
+register seta one ms delay between count
+(i) Explain 2) the croleo role © OF of program ) Counter in 8085. and display the no. at once of the output ports.
+the
+G) Explain Flag registe register of 8086 microprocessor. j QS. WAP to convert the content of 5 memory locations .
+into character. Place the
+Section-B starting from
+: result in m five ve memory . locations starting from 22001. 99
+Attempt any five of the following (5*10=50)
+Q9. What do you mean by DMA? Explain its modes
+Q2. Draw and Explain the architecture of 8085
+8085 Section-C
+Q3. Explain Data transfer instructions of in detail.
+8085. Attempt any two questions from this section. — (15*2=30)
+Q4. Explain the Interrupts of
+Q10. Draw and explain the architecture of 8086. Also, explain
+Qs. Asetofthree packed BCD numbers are stored in memory
+location starting at XX50H. The seven segment codes the concept of physical address generation.
+of digits 0 to 9 for cathode LED stored in
+common are Explain the block diagram of 8259 and also draw a neat
+memory location starting at XX70H and output buffer interfacing diagram.
+is reserved at XX90H.
+Q12. Explain the logic devices for interfacing. Design a
+WAP & two. subroutines called UNPAK and
+unpack BCD numbers and select an microprocessor system for 8085 MPU such that it
+LEDCOD to should contain 4K byte of EPROM and 2K byte of RAM
+appropriate seven segment code for each digit. The code using 2K byte EPROM and IK byte RAM. Draw
+should be stored in output buffer memory. two two
+the complete interfacing diagram.
+Q6. Explain various functions performed by microprocessor.
+14600
+(3) 3 (4)
+EECS503

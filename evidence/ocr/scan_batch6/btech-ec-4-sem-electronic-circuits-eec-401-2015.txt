@@ -1,0 +1,79 @@
+www.aktuonline.com
+Printed Pages : 3
+A A
+EEC401
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 131401
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+ELECTRONIC CIRCUITS
+Time 3 Hours] [Total Marks 100
+Note : Attempt all the questions. Each question carries equal marks. :
+: Attempt four of the following
+1 any parts : 5x4=20
+(a) A differential amplifier has inputs V;=10 mV and
+It has a differential mode gain of 60
+dB and a CMRR of 100 dB. Find the percentage
+error in the output voltage and the error voltage.
+(b) Explain the affect of Finite loop gain
+practical inverting amplifer. open on
+non
+(c) What do you understand by virtual ground in
+op-amp. circuits?
+(d) What is slew rate of ? How does
+it effect the operation an of op-amp ?
+op-amp
+(e) Explain input bias current and input offset current
+for a non ideal op. amp. and give reason for their
+existence.
+(f) | What are the ideal characteristics of OP-AMP?
+131401] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any four parts of the following. 5x4=20
+(a) Draw the structures of enhancement mode and
+depletion mode MOSFETS. Also explain how it
+be used voltage controlled linear resistor.
+can as a
+(b) Develop a small signal model of JEET Device and
+explain its working.
+(c) Draw the circuit diagram for common source
+MOSFET amplifier. Derive an expression for
+voltage gain low frequencies.
+at
+(d) Discuss the need of biassing. Which type of
+biasing is preferred for discrete MOSFET circuits
+and why?
+(e) Draw the high frequency model of MOSFET.
+(f) Characterize the voltage gain and output resistance
+of common gate MOSFET amplifier.
+3 Attempt any two parts of the following : 10x2=20
+(a) Draw the hybrid II model of a BJT for common
+emitter configuration and discuss each component.
+(b) Write down the Ebers-Moll model equation for
+a junction transistor and sketch the equivalent
+model. Modify the equations when collector base
+junction of the transistor is shorted.
+(c) Explain Millers Theorem for high frequency current
+gain with resistive load.
+131401] 2 [ Contd...
+www.aktuonline.com
+4 Attempt any two parts of the following. 10x2=20
+(a) Perform the DC analysis of difference amplifier.
+(b) Explain small signal operation of MOS differential
+pair. Explain the method for improving CMRR.
+(c) The common mode input to a certain differential
+amplifer having differential gain of 125 is 4 sin
+200 mt V. Determine the common mode output
+if CMRR is 60 dB.
+5 Attempt two parts of the following. 10x2=20
+any
+(a) Draw and explain the general feedback structures
+and explain the properties of negative feedback.
+(b) Derive the expressions for voltage gain, input
+resistance and output resistance with feedback for
+series sheet feedback amplifier.
+(c) Explain the working of Wien Bridge Oscillator
+using transistor. Derive the expression for feedback
+factor and frequency (/).
+131401]
+3 [2750]

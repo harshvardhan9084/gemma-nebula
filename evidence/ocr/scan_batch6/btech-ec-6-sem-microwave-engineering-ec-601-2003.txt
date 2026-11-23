@@ -1,0 +1,117 @@
+Roll No.| | |. LI Ltt
+No. of Printed Pages—4 EC-601
+B. TECH.
+SIXTH SEMESTER EXAMINATION, 2002-2003
+MICROWAVE ENGINEERING
+Time : 3 Hours Total Marks : 100
+Note (1) Attempt ALL the questions.
+: (2) All questions carry equal marks. Every part of a
+question is given equal weightage.
+(3) Assume suitable data if necessary.
+1. Attempt any FOUR parts of the following :— (5x4=20)
+(a) Show that a metal rectangular waveguide is
+a high pass filter. Derive the formula used.
+(b) What are Degenerate Modes ? Explain why
+waveguides. TEM mode cannot exist in metallic
+(c) Discuss, in brief, the methods of excitation of
+TE, TE, and modes in rectangular
+metal , waveguide. a
+(d) Which mode in circular metal waveguide has
+got highest cut-off wavelength ? What do the
+subscripts m and n indicate in TE,,,, mode
+of a circular waveguide ? Give two important
+applications of this waveguide.
+(e) What is a microstrip line ? How does its
+characteristic impedance change with
+change in width to height ratio ? Give a
+reason for using lower dielectric constant
+substrate in place of alumina at higher
+microwave frequencies.
+(f) A mode rectangular GHz. cavity Given resonates in 8-0 the TM,,, and
+b 60 at 5-0 calculate the resonant a = frequencies cm
+for = the cm, TE, TE;g, and TE,,, modes.
+Assume that the ;, cavity is air-filled.
+EC—601 1 Turn Over
+2. Attempt any FOUR parts of the following :— (5x4=20)
+(a) (i) What do the subscripts of the modes
+and of rectangular cavity
+designate Write a for the
+frequency ? an of expression mode
+resonant TM,,,,,, in a
+rectangular cavity.
+(ii) Give any one method of exciting
+mode in an absorption type rectangular
+cavity.
+(b) What problems associated with the
+simple form of are adjustable short circuit ?
+How these an problems in
+variable are short circuit ? overcome
+(c) Give the basic constructional details of a
+rotary phase shifter and describe, in brief, its
+principle of operation and working.
+(d) Compare the practical advantages and
+disadvantages of the hybrid junction with
+those of the hybrid ring. Explain the
+operation of hybrid ring and list its
+applications.
+(e) Give the constructional details of a crystal
+diode and list the requirements that a diode
+mount must fulfill if this diode is to be used
+as a detector.
+(f) Calculate the cut-off frequency of the
+dominant mode in a 2-5 cm diameter, teflon-
+filled (E, = 2-3) circular waveguide. What is
+its maximum operating frequency if the
+possibility of higher mode propagation is to
+be avoided ? Include a 5% safety factor.
+EC—601 2
+of the following
+3. Attempt any TWO parts :— (10x 2=20)
+(a) Define and interpret (i) Directivity and
+(ii) the coupling factor of a directional
+coupler.
+(b) Describe the standing wave detector method
+for measuring the impedance. Derive the
+formula used. Why is it a common practice
+to use minima rather than the maxima in
+measuring distances in connection the with the of
+standing in wave pattern. List sources
+error measurement.
+(c) Distinguish between insertion loss and
+attenuation. Describe a method to measure
+insertion loss frequencies. of a network How over a band the loss of
+due microwave to reflection at the input can port of the
+network be taken into account in the
+measurement process ?
+4. Attempt any TWO parts of the following :— (10x2=20)
+(a) | What problems are encountered in extending
+the conventional multi-electrode tubes to
+microwave frequencies. Describe the
+principle of operation of reflex klystron
+oscillator.
+(b) Draw the schematic diagram of a TWT
+amplifier and describe its principle of
+operation. Give the propagation
+characteristics of different waves generated
+in the amplifier. Explain how r.f. power
+output and gain vary with the change in rf.
+power input.
+(c) Draw the schematic diagram of a cylindrical
+multicavity magnetron and describe its
+principle of operation.
+EC—601 3
+Attempt any TWO parts of the following :— (10x2=20)
+(a) Why are Gunn diodes called Transferred
+Electron Devices ? Give the mechanism of
+negative differential resistance in GaAs
+semiconductor. Describe the behaviour of
+different modes of operation of a Gunn
+diode oscillator and give one of its
+applications.
+(b) What is the importance of PIN diodes at
+microwave frequencies. Describe the
+behaviour of a PIN diode mounted in a
+transmission line.
+(c) What is IMPATT diode ? Draw the
+schematic an diagram and equivalent circuit of
+the IMPATT diode.

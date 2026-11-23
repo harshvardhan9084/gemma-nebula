@@ -1,0 +1,109 @@
+aktuonline.com aktuonline.com
+Printed Pages —3 IC—0O11
+(Following ID and Roll No. be filled Book)
+ID Paper to ll in your Answer
+PAPER
+B.Tech.
+SEVENTH SEMESTER EXAMINATION, 2004-2005
+CONTROL SYSTEM COMPONENT
+Time 3 Hours Total Marks 100
+: :
+Note: (i) Attempt ALL the questions.
+(ii) Ail questions carry equal marks.
+1. Answer any four parts of the following :- (5x4=20)
+(a) Give the general shape of torque-speed
+characteristics of two-phase induction motor.
+How it differs from normal induction motor
+? a
+(b) Prove that synchro transmitter-control
+transformer acts as an error detector.
+(c) Compare the advantages and disadvantages
+of A.C. and D.C. components.
+(d) Draw the block diagram of the system shown
+in figure indicating the transfer function of
+each block.
+1 [Turn Over
+aktuonline.com 0 0 0 1 2 6
+aktuonline.com aktuonline.com
+8R
+Ref.
+(e) Discuss some of the constructional features of
+D.C. servomotors.
+(f) Discuss the speed-torque and load torque
+characterisitcs of D.C. servomotors.
+2. Answer any four parts of the following :- (5x4=20)
+Describe the use of stepper motors to control
+position and speed.
+characteristics Draw and of explain torque-angle
+stepper motor.
+Compare the operation of elementary stepper
+motor types.
+Explain the working of variable reluctance
+stepper motor.
+Name the distinct different ways of using
+stepper motors in control systems. Explain any
+one of them with the help of Block diagram.
+(f) Discuss the Torque Versus’ Pusels
+characteristics for Stepper Motor.
+a
+IC—011
+aktuonline.com —
+aktuonline.com
+any two parts of the following :- m
+(a) Derive the transfer function of hydraulic
+pump-motor system.
+(b) Explain with the help of diagram pneumatic
+flapper value. Draw the flapper value
+characteristics also.
+(c) Write short notes on
+:
+(i) Twin Pressure Value
+~ (ii) Quick Exhaust Value
+4. Answer any two parts of the following :- (10x2=20)
+(a) Explain with the help of diagrams pneumatic
+actuator.
+(b) Justify the use of Relays and Limit switches as
+Control System Components.
+(c) Describe reluctance the construction and applications of
+a motors.
+5. Answer any two parts of the following :- (10x2=20)
+(a) Describe the construction of a synchronous
+hysterisis motor and show that it develops a
+running torque both at synchronous and
+asynchronous speeds of the rotor.
+(b) Explain the principle of operation of an A.C.
+— tachometer. Give the approximate analysis of
+the A.C. tachometer.
+(c) Explain the switching of 3b
+connected in delta. circuit a motor
+KKK KKK KKK
+IC—011 3
+any two parts of the following :- m
+(a) Derive the transfer function of hydraulic
+pump-motor system.
+(b) Explain with the help of diagram pneumatic
+flapper value. Draw the flapper value
+characteristics also.
+(c) Write short notes on
+:
+(i) Pressure Value
+~ (ii) Quick Exhaust Value
+4. Answer any two parts of the following :- (10x2=20)
+(a) Explain with the help of diagrams pneumatic
+actuator.
+(b) Justify the use of Relays and Limit switches as
+Control System Components.
+(c) Describe reluctance the construction and applications of
+a motors.
+5. Answer any two parts of the following :- (10x2=20)
+(a) Describe the construction of a synchronous
+hysterisis motor and show that it develops a
+running torque both at synchronous and
+asynchronous speeds of the rotor.
+(b) Explain the principle of operation of an A.C.
+a tachometer. Give the approximate analysis of
+the A.C. tachometer.
+(c) Explain the switching of 3h
+connected in delta. circuit a motor
+KKK KKK KKK
+IC—011 3

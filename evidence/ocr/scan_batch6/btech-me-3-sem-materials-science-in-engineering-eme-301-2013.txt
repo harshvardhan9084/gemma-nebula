@@ -1,0 +1,78 @@
+Printed EME301
+Pages : 3
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0428
+B.Tech.
+THEORY EXAMINATION, 2012-13
+MATERIALS SCIENCE IN ENGINEERING
+T Hours [ Total Marks 100
+ime 3 ] :
+Note: Attempt all Sections.
+Section —A
+questions 10x2
+1. Attempt all :
+(a) Write Peritectic and peritectoid reaction in a phase diagram.
+(b) Differentiate between annealing and tempering.
+(c) Define superconductivity.
+(d) Classify solids on the basis of energy gaps. Briefly discuss any one.
+(e) Write the eutectic and eutectoid reactions.
+(f) | What is lever rule ?
+(g) Which material is used for transformer core; and why ?
+(h) Define the term hardness and hardenability.
+(i) Draw the direction [171] in a cubic unit cell and plane (1771)
+(j) | What is refractory material; give main application
+one example, property and ?
+Section — B
+2. Attempt any three parts : 3x10
+(i) Classify the engineering materials. Briefly discuss with suitable examples.
+Also discuss composites.
+(ii) Obtain the Miller Indices of the plane whose intercepts are; a, b/2 and 3c on
+x, y and z axis respectively in a simple cubic unit cell.
+0428 1 P.T.O.
+diffraction to
+(b) (i) What are the various experimental methods used in X-ray
+study the crystal structure ? Discuss any one.
+(ii) Calculate the atomic density (number of atoms per unit area) of (111)
+and (110) and (100) planes of Cu (FCC crystal) with the lattice
+parameter
+3.61 A.
+(c) (i) Calculate the atomic packing factor for the unit cell of BCC and FCC space
+lattices.
+(ii) Discuss and draw a eutectic Binary phase diagram with a suitable example.
+Discuss the phase rule in various regions.
+(d) (i) Explain the term corrosion. How materials can be protected against
+corrosion ?
+ii) Explain the principle of ferromagnetism with a diagram. What is hysteresis
+loss ?
+What are the most used Cu alloys ? Discuss the type, application and properties of
+bronze.
+Section C
+—
+Attempt all questions. §x 10
+What are the defects and imperfections in a crystal ? Describe them with neat sketches.
+OR
+(i) What is non destructive testing (NDT) ? Explain any one method for surface crack
+determination.
+(ii) Write a note on ultra sonic flaw detection or eddy current method for flaw
+detection.
+(i) The Dimension of nickel unit cell is being determined by calculating using
+the X-rays of wavelength 0.58 A. If the reflection angle is 9.5°, what is the size of
+unit cell ?
+(ii) Compare the working and construction of blast furnace and cupola furnace.
+-Explain the mechanical behaviour of plastic. Discuss their properties and application.
+OR
+Enumerate various method of ceramic processing. Discuss their salient feature in detail.
+Explain any two processing in detail.
+0428 2
+“Draw importance of diagram.
+the TIT diagram for eutectoid steel, what is the TTT ~
+Discuss the formation of 50% Bainite + 50 % Pearlite and 100% Martensite from the
+eutectoid composition.
+Attempt any two parts :
+(i) Define endurance limit. How find the endurance limit of material ?
+to out any
+(ii) | What are the typical alloys of A/ ? Write their applications.
+(iii) What do understand by Solid Solutions ? Classify them, discuss with neat
+you
+sketch. What is Hume Rothery’s rule ?
+0428

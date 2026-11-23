@@ -1,0 +1,111 @@
+| ect Code: KME502
+Subject + Code: KME
+PAPER ID-310892 Roll No:
+BTECH EXAMINATION 2023-24
+(SEM V) THEORY MATERIAL
+STRENGTH OF M.MARKS: 100
+TIME: 3 HRS
+Note: Sections. If require missing data; then choose suitably.
+1. Attempt all SECTION any A
+1, Attempt all questions in brief.
+Marks =] bal
+What is spring? What are different types of spring?
+State the effect of eccentric loading on short column.
+In case of gas as a fluid, which type of container will be used to contain
+the fluid?
+SECTION
+2. Attempt any three of the followihg:- > vs /
+A composite bar made of steel
+the end supports as shown up in copper, figure...’ and brass is rigidly attached to
+COPPER STEEL BRASS . ty
+-
+600 mm—>|-
+Determine the stresses in the three portions bar when the
+temperature of the composite system is raised by:70°C if
+(i) The supports are rigid
+(ii) supports yield by 0.6 mm}
+Take 100GPa, 205GPa, Ev= 95GPa, ac= 18 x as= 11 x
+10°C and a=19x
+Using Euler’s formula, determine the critical stresses for a strut of
+slenderness ratio 80, 120, 160-and 200 under the condition of
+(i) Both Both ends ends hinged, fixed. $0 gor
+(ii) Take E= 205 GPa. v
+Wall thickness of a cylindrical shell of 800-mm internal diameter and 2-
+m long is 10 mm. If the shell is subjected to an internal pressure of 1.5
+MPa, find the following:
+(1) The maximum intensity of shear stress induced
+The change in dimensions of the shell
+https://www.aktuonline.com
+BTECH
+V) THEORY EXAMINA TION 2023-24
+(sem OF MATERIAL M.MARKS: 100
+TIME: 3 HRS
+Circular section
+Triangular section
+SECTION C
+3.
+Attempt any one part of the following:
+For a given loading conditions the state of stress in the v wall of a cylinder
+is expressed as follows : —_—
+(i) | 85 MN/m? tensile, _—
+(iii) (ii) 25 MN/m’ tensile at right angles to (i), and
+stresses of 60 MN/m? on the planes on which ; the
+carrying Stresses (i) the and MN/m’ (ii) ‘act, the shear Glackwise couple acting
+Calculate principal 25 stress is in effect. al
+The load on a bolt stresses consists amd of principal axial planes. together with
+transverse shear of 10 KN, Calculate an the diameter pull of of 20 bolt KN according a
+(i) Maximum total strain theary; mee aii to :
+(ii) | Maximum shear strain energy energy theory. v
+Take elastic limit in tension 280 MPa, factor of safety=3 and Poisson’s
+ratio = 0.3
+4, Attempt any one part of the folidwing:
+A timber beam 80 wide:arid 160 deep is reinforced
+steel plates 5 mm thick mm and:60 wide mm top and bottom. If with bending’ two
+moment of 800 N-m acts at Section mm of this on beam, calculate the magnitude
+of maximum fiber stresses in tensions and compression and
+steel. Assume Es/Ew = fated
+Compare hollow shaft and solid shaft.
+(i) On the basis of Strength.
+ii of et
+5. Attempt On the basis weight. ve
+any one part of the following: ~
+What assumptions are made in the analysis of columns by Euler’s
+buckling theory? Derive an expression ‘for Euler’s crippling load when
+both ends of column are hinged... XK
+A helical spring having:24 turns is made of 8-mm diameter
+250 wire. The mean diameter of the'spring Stress is 80 mm and it carries a load of
+stiffness N. Determine of the shear developed, the deflection and the
+6. Attempt the spring. Take, G=84 GPa,
+any one part of the following:
+Deduce the general equations for circumferential and radial stresses
+A ped in thick cylinders along with assum ptions. “
+of steel 48-mm tube of 120-mm external diameter is shrunk on another steel tube
+is 80 mm. internal Initial difference diameter, After shrinking, the diameter at the junction
+was 0.04 mm. Determine of diameters at the junction before shrinking
+https://www.aktuonline.com
+UT sp
+| | | | | |
+PAPER Roll No:
+BTECH
+(SEM V) THEORY EXAMINATION 2023-24
+STRENGTH OF MATERIAL
+TIME: 3 HRS MLMARK
+Radial the junction,
+(i) pressure at after the shrinking.
+(ii) Hoop stress developed in the two tubes
+Take E= 210 GPa
+7. Attempt any ove part of the following:
+simply supported I-section beam of 1.5 carries a concentrated
+A vertical span m shown in Figure. Load
+load of 8 KN at an angle of 20° from Determine as the maximum
+passes through the centroid of the section.
+bending stress in the beam.
+Briefly disc uss shear centre along with examples. Prove that sum of |
+of i nertia about an set.of rectangular axis is constant.
+moment
+https://www.aktuonline.com
+Whatsapp @ 9300930012
+Send your old paper & get 10/-
+Trt Toe sor si 10 vos are,
+Paytm or Google Pay @
+https://www.aktuonline.com

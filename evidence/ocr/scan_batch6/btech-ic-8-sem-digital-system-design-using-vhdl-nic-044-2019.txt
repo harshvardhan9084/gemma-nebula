@@ -1,0 +1,51 @@
+NICO44
+Printed Pages:02 Sub Code:NIC-044
+Paper Id: 131307 Roll No.
+B TECH
+THEORY EXAMINATION 2018-19
+DIGITAL SYSTEM DESIGN USING VHDL
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief.
+FB Define: Signals.
+Define: Constant.
+Bo Listed the applications of generics.
+What are the Binding alternatives?
+Listed the various design flow of VHDL coding.
+mo Differentiate between transport and Inertial delay models.
+Write VHDL code 2: 1 Multiplexer.
+Explain concurrent statement with respect to VHDL.
+What are different levels of abstractions of digital design?
+Difference between VHDL functions and procedures.
+SECTION B
+2. Attempt any three of the following: 10x 3 =30
+www.aktuonline.com a. (1) Explain logic System for IEEE-1164 standard logic.
+(ii)Write VHDL statement for synchronous and asynchronous T-flip-flop.
+b. — Discuss Sequential modeling and attributes.
+c. What is Guarded signal Assignment? Explain with example.
+d. What are the Multiple concurrent drivers? Explain different resolving methods.
+e. Write short note on the followings with suitable diagram:
+(i). FPGA. (ii) CPLD.
+SECTION C
+3. Attempt any one part of the following: 10x1=10
+(a) Using single bit adder, write a VHDL code for 4 bit adder.
+(b) Write short notes on linked state machine.
+4. Attempt any one part of the following: 10x1=10
+(a) Design a behavioral model for 4x4 binary multiplier using state machine chart.
+(b) Explain the application and the use of status word register of UART
+transmitter.
+5. Attempt any one part of the following: 10x =10
+(a) (i)Give the syntax for wait and loop statements with examples for each.
+(ii)Write a VHDL code for synthesis of sequential case statement.
+(b) Write a short note on XILINX-4000 FPGA
+6. Attempt any one part of the following: 10x1=10
+(a) Write behavioral VHDL code for RAM.
+(b) Write and explain a state diagram for 010 sequence detector. Write VHDL code
+for the same.
+7. Attempt any one part of the following: 10x1=10
+(a) do you mean by Testing? What are different issues related to design the
+test?
+(b) Explain generic BIST scheme.
+Page 1 of 1
+http://www.aktuonline.com

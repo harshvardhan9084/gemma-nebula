@@ -1,0 +1,68 @@
+aktuonline.com
+Roll No. | | | | |
+No. of Printed Pages—2 IT-601
+B. TECH.
+SIXTH SEMESTER EXAMINATION, 2002-2003
+SOFTWARE PROJECT MANAGEMENT
+Time Total Marks 100
+: 3 Hours :
+Note : Attempt ALL the questions.
+1. Attempt any FOUR parts of the following :— (5x4=20)
+(2) Explain, in brief, about the characteristics of
+project.
+(b) Define the ‘triple constraint’ of with
+the help of example. project
+an
+(c) What are the required knowledge areas of
+project management ?
+(d) Differentiate between Information system
+and Embedded systems.
+(ec) How are software projects different from
+other types of projects ?
+(f) Draw up a Product Flow Diagram of any
+word processing application software.
+2. Attempt any TWO parts of the following :— (19x2=20)
+(a) Explain why discounted cash flow
+techniques provide better criteria for project
+selection than net profit or return on
+investment.
+(b) Explain the following terms with an example
+related to software project :—
+(i) Programme Management
+(ii) Portfolio Management
+(c) Explain how risk evaluation is done during
+the software project planning phase.
+IT-601 1 Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+3. Attempt TWO parts of the following (10x 2=20)
+any :—
+(a) Explain estimation by analogy and function
+point analysis with their benefits to the
+users.
+Explain, in detail, about COCOMO-II with
+their advantages over COCOMO-I.
+(c) What are the characteristics of Project
+Manager, Project Leader and the Support
+(software specialist) Persons ?
+4. Attempt any TWO parts of the following :— (10x 2=20)
+(a) What are the potential risk conditions
+associated with each required knowledge
+areas ? Explain with an example.
+(b) Categorise the required nature of resources
+and explain. How is the cost monitored ?
+(c) Discuss the most common Quality Criteria
+Attributes for software projects and explain
+any one of them.
+5. Attempt any TWO parts of the following :— (10x 2=20)
+(a) Explain the following terms with
+examples :—
+(i) ISO 9126 standards
+(ii) SEI-CMM model
+(0) “Software testing should be the part of
+software quality assurance.” Justify the
+statement.
+(c) Write short notes the following
+(i) Product Quality on Management :—
+(ii) Process Quality Management
+IT-601

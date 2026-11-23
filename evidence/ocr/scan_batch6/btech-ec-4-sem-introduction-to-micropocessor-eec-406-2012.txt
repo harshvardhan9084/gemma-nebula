@@ -1,0 +1,70 @@
+Printed Pages : 2 EEC406
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+0109 | [ | | J J
+PAPER ID : roto.| |
+B.Tech.
+(SEMESTER-IV) THEORY EXAMINATION, 2011-12 -
+INTRODUCTION TO MICROPROCESSOR
+Time : 3 Hours ] [ Total Marks : 100
+Note: Attempt all Sections.
+Section A
+—
+Attempt all of following : 10x 2=20
+(a) Define Memory-Mapped I/O and Peripheral I/O. |
+(b) What do you understand by address and data buses ?
+(c) Write important applications of 8085.
+(d) Why ALU is important ?
+so
+(e) Define PUSH and POP operation.
+(f) What do you understand by Pipelining ?
+(g) What operating modes of 8086 ?
+are
+(h) Define software interrupts.
+(i) | What is subroutine ?
+(j) What is role of RS232C ?
+Section B
+of following — 3x 10 30
+Attempt any three : =
+(a) Explain addressing modes of microprocessor. How flow of data and instruction
+‘ occurs in typical Intel microprocessors ?
+(b) Draw the internal architecture of microprocessor 8085 and describe it in brief.
+Discuss register organization of microprocessor explain the function
+(c) of each register. the How they make programmer’s 8086 job easier and ?
+a
+(d) Write a 8085 assembly langhage program for multi byte addition in BCD mode.
+(e) Define DMA. Draw and explain the block diagram of 8237 DMA controller.
+0109 1 P.T.O.
+Section —C
+Attempt all of the following 5 10=50
+Discuss : x
+about typical microprocessor development schemas in details.
+OR
+Explain architectural of microprocessor industry.
+recent advancements
+registers.
+What are different available in 8085 ? Explain them with their important
+applications.
+arithmetic OR
+Explain operations, logical operations and branching operations for 8085
+microprocessor.
+explain used
+Define ? and instruction sets available in 8086. What are instruction formats by
+8086
+OR
+Draw the internal architecture of microprocessor 8086 and describe its function in
+detail.
+Explain conditional call and return instructions used in microprocessor programming.
+OR
+What after will be the register contents of program counter in Register A and Register B
+execution of each step of following program ?
+MVIA, 23 H
+MVIB, 32 H
+XRAB
+ADI 88 H
+HLT
+What pending
+are -pending interrupts ? How RIM sense these interrupts ? Draw and
+discuss various modes of operation of 8259.
+OR
+Explain 8255 programmable peripheral interfaces in detail.
+0109 2 9,850

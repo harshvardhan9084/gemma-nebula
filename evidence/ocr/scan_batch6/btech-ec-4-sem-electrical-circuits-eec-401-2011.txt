@@ -1,0 +1,115 @@
+Printed Pages : 7 EEC401
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ED : 0321
+B. Tech.
+(SEM. IV) THEORY EXAMINATION
+ELECTRONIC CIRCUITS
+Time 3 Hours Total Marks 100
+: :
+Note :— (1) Attempt all questions.
+(2) questions carry equal marks.
+1. Attempt.any FOUR parts of the following :— (4x5)
+of difference amplifier using
+(a) Draw the circuit
+OP-AMP and apply expression. superposition to determine the
+common mode gain
+(b) Draw the circuit diagram of inverting weighted ; summer
+calculate the output voltage for the same.
+(c) Derive the expression for closed loop gain of non-
+inverting configuration of OP-AMP. What its
+are
+characteristics ? Discuss the effect of finite open loop -
+gain.
+(d) (i) Using non-inverting input draw the practical circuits
+of
+(@). VCVS
+(ii) CCVS
+(ii) An OP-AMP having 106dB gain at dc and a
+single pole frequency response with f, = 2 MHz
+is used to design a non-inverting amplifier with
+nominal dc gain of 100.
+Find the 3dB frequency of the closed loop gain.
+EEC401/RFW-21154. 1 [Turn Over
+(e) Define :— (c) @ Design the circuit given in Fig. 1 to obtain a
+(i) Slew rate I, of 80 wA. Find the value required
+current voltage. V,. Let the
+(ii) Half power bandwidth. for R and find the de
+An OP-AMP has a rated output voltage of NMOS transistor have V, = V, =
++ 10V and slew rate of | 2000 L = 0-8 ym and W = 4 pm. Assume
+Half bandwidth What is the rA=0.
+power if an input ‘sinusoid
+with frequency f = 5 f,, is applied to a unity gain
+follower constructed using this OP-AMP. What is
+. the. maximum _ possible amplitude that can.
+be accommodated at output without incurring
+SR distortion ?
+What “Input ax
+(f) is Bias current” of an OP-AMP ? How
+its effect can be.reduced by connecting a resistance
+in the non-inverting terminal explain with mathematical
+expression.
+Attempt any TWO parts of the following :— (2x10)
+(a) a Name the different biasing
+methods of MOSFET.
+Describe in detail the biasing using ‘a constant ‘Fig. 1 i
+current source. Implement this biasing for the” in double the
+application of current mirror. _ (ii) Re-design the circuit given Fig. 1 to
+(ii) A MOSFET to I, mA value of I, without changing V,. Give and values
+have | is operate at = 0-1 and ‘the to of W/L and R.
+= mA/V if K', = 50 pA/V?. Find
+W/L ratio and overdrive voltage. 3. Attempt any TWO parts of the following :-— (2x10)
+(b) - Explain the working of common source amplifier (a) Draw the circuit diagram of CE amplifier. Replacing
+with a resistance connected in source lead. Draw the. transistor with its hybrid IT model deduce the
+its small signal equivalent circuit expression for its voltage gain.
+and deduce the neglecting voltage r,
+expression for overall (b) (i) Discuss the various internal capacitances i in detail
+for BJT.
+EEC401/RFW-21154 . .
+2 3 [Tern Over
+(ii), Draw the high frequency hybrid II model of BJT. 4. any TWO parts of the following :— (210)
+expression given below differential
+Derive the : (a) Write the features of amplifier. Draw the
+=. &m circuit of MOS differential pair configuration and describe
+fy = +C ) its common mode operation for the determination of
+over drive voltage.
+(c) Write the steps through which small signal equivalent For MOS amplifier with differential input,
+circuit model be used in the analysis of transistor (b) a prove
+can I where symbols have their usual
+amplifier. . that 2m
+Analyze the transistor amplifier given in Fig. 2 to
+determine its voltage gain. Assume B = 100. meaning.
+(c) (i) Explain the advantages of an active load. Draw
+of MOS differential amplifier with active
+load.
+(ii)
+An N MOS balanced output differential amplifier
+is operated at a bias tail current of 0-5 mA and
+~ 50,
+has a ratio of = 250 pA/V? and
+R, = 4 kQ. Find g, and Ad assume A = 9.
+5. Answer FOUR parts of the following :—
+any discuss
+(a) Mention the advantages of negative feedback and
+its effect on :
+(i) Frequency response and bandwidth expression.
+(ii) Non-linear distortion.
+(b) Explain the working of trans-conductance amplifier using
+BJT and derive the expression for closed loop trans-
+conductance.
+EEC40URFW-21154 EEC401/RFW-21154 [Turn Over
+4 5
+(c) For the MOS source follower shown in F ig. 3, calculate () Draw the circuit of colpitts oscillator using MOSFET
+the value of A,, Rp R,, and B. in
+devices and show that tank circuit capacitors are
+the ratio given as
+(f) What is piezoelectric crystal ? Derive the expression
+-
+of the ratio of frequency in series and parallel resonance
+in a piezoelectric crystal.
+@ phase
+Write the disadvaritages of RC shift
+oscillator. Draw the circuit diagram of RC phase
+oscillator and derive the expression for
+shift
+frequency.
+= EEC401/RFW-21154 7 25675

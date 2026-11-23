@@ -1,0 +1,75 @@
+TEC-i1
+Printed Pages : 3
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0306 Roll No. A
+B. Tech.
+(SEM. VID EXAMINATION, 2008-09
+DIGITAL SYSTEM DESIGN USING VHDL
+Time : 3 Hours] [lotal Marks : 100
+Note : (1) Attempt all questions.
+Each equal marks.
+(2) question carries
+1 Attempt any four parts : 5x4=20
+(a) Write a behavioural styplo of VHDL Code for
+4x1 MUX.
+(b) Develop VHDL code for JK flip flop using
+conditional a assignment a
+statement.
+(c) What are the various VHDL operators?
+Explain each with examples.
+(d) Write a short note on VHDL packages and
+libraries.
+(e) Explain the various VHDL delays.
+(f) | Discuss the compilation, simulation and synthesis of
+VHDL code.
+2 Attempt any four parts : 5x4=20
+(a) Develop a VHDL module that describes one bit
+of a full adder with accumulator.
+0306] Mt [Contd..
+(b) Draw the block diagram of the faster multiplier
+including its state graph.
+(c) Consider 4x4 multipler with 4 bit
+multiplicand a and array multiplier with 8 bit result.
+a
+(i) Draw the block diagram of the multiplier.
+(i) | How many AND gates, full adder and half
+addres did you use?
+(d) Design an SM block that has 3 input variables
+(a,b,c) 4 outputs (w,x,y,z) and two exit paths.
+For this block output Z is always 1 and w is 1
+if a and b both are 1. If C=1 and a=0, y=1 and
+exit path | is taken. If C=O and a=1, x=1 and
+exit path 2 is taken.
+(e) Explain a method used to realize SM charts with
+an example.
+(f) Write a short note on Xilinx 3000 series FPGAs.
+Attempt any two parts : 10x2=20
+(a) What are the various floating point operations?
+Draw and explain the flow chart for floating
+point multiplication.
+(b) Two floating point numbers are added to form a
+floating point sum:
+)=
+x2"?
+Assume that F,; and F, are normalized and the
+result should be normalized. List the steps to
+carry out floating point addition including all
+special cases.
+(c) Write short hot assignment.
+a note on one state
+0306] 2 [Contd..
+Attempt any two parts : 10x2=20
+(a) Draw and explain SM chart for simplified
+486 bus interface.
+(b) Write a VHDL code for simple 6116 state
+RAM model.
+(c) Design the interfacing between to
+microprocessor bus. memory a
+Attempt any two parts : 10x2=20
+(a) Explain the UART block diagram with SM chart
+for the receiver.
+(b) Write various control instructions of 6805
+microcontroller. Give example of each
+instruction. one
+(c) Design the CPU of 6805 microcontroller with the
+suitable instructions.

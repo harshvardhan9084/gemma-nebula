@@ -1,0 +1,93 @@
+ll QUINN | printed Page: 1
+Code: KMESO01
+APER ID- Reng Subject
+|
+BTEC
+cen EXAMINATION
+2023-24
+_TIME: 3 HRS M.MARKS: 100
+Note: Attempt all Sections. If you require any Missing data, then choose suitably,
+1. Attempt al/ questions brief, SECTION A
+in
+gg tof thermal Uctivity,
+resistance. 7
+(d) 2
+Differentiate between
+natural a
+Describe Over a flat plate
+Pe any 4 rules used in d ete
+Explain black body and Bray body.
+i) Define Fouling factor used in analysis of heat exchanger.
+0) What are the various modes.of mass transfer?
+2. Attempt SECTION B
+Derive any three of the following: . ~'*.
+coordinates a general heat conduction equation for Cartesian (rectangular)
+State the assumptions made ev’ in -
+transient heat conduction, derive the Lumped following- Parametric analysis. Ra -For
+8/0i_= exp(-Bi.Fo) where 0= T-Ts
+Explain Reynolds analogy and colbum analogy. Obtain the expression
+for Nusselt Number for turbulent flow over flat
+analogy.
+Fick’s Law of Mass diffusion,
+Film-wise and drop-wise éondeénsation.
+SECTION ro
+t any one part of the following:
+Derive-the-expression for radius of insulation for cylinder, 10x1=10
+mm cable is to be laid-in.atmosphere of 20°c with outside a A10
+coefficient 8.5 W/m?° surface temp erature is likely heat transfer
+due to heat generation. Will the rubber insulation (K=0.155W/m?°C to be 65°C
+effective? If yes, determine the maxi effective ) be
+insulation for maximum heat transfer Tate, mum thickness of
+Obtain the expression for stead state
+ugh a hollow one dimensional heat transfer
+and ). If the temperature
+er unit outermost length surfaces is
+https://www.aktuonline.com
+wy 8000 Printed Page: 20
+Code:
+Roll Subject
+No:
+(SEM V) ) THEORY BTEC pcr!
+HEAT EXAMINATION 2023-24
+3 HRS AND M ASS TRANSFER
+4. Attem
+a ) One part of the following: 10x1=10
+erive the expression i for temperature for fin insulated at | 2
+tip distribution
+once fins (0.5 length | 2
+mm x 0.5 mm) of 10 mm are
+of semiconductor device to Watts of
+energy by electronic device. The temperature at surface of
+device should not ed exceed 80°C, when surrounding temperature is 400c.
+he of fins required to carry out this duty. Neglect
+the heat loss room end of fins. Kataminiam= 200 and h = 15 Wim?
+-
+5. Attempt any part of the following: 10x1=10
+one
+Grashoff Number, Number. 4%
+Estimate Prandtl Number, and Stanton vertical plate 2% (height | 3
+The coefficient ) of heat surrounding ‘air a surface
+and width=2m x 2m to the at 25°C.The plate
+temperature is 150°C, Also the rate of heat transfer from the
+plate. For air assume the kinematic Viscosity as 16 X 10° The
+properties’ of air - film are density
+Cp=1.0059KJ/KgK, K=3. 13: W/mK, Pr = 0.69. The constant C and nin
+Nusselt number are-0:15 and 1/3.
+6. Attempt any one part of the following:
+Two large plates at temperatures 1000 K and 500 K_bave emissivity emissivity of
+0.5 and 0.7 respectively. A radiation shield Determine having 0.1 on
+both sides is placed between the plates. the percentage
+reduction in heat transfer rate. wr Vv
+Explain the following - absorptivity, Law of radiation, Steffan
+Boltzmann’s law of radiation, reflectivity and
+transmissibility of a surface. Ov - L
+t any one part of the following: 10x1=10
+Derive an expression for effectiveness of ; a heat exchanger by NTU
+method for parallel ~
+i) Draw boiling curve and’also name regimes of pool boiling.
+ii)A counter flow heat exchanger js used to cool 50000 Kg/hr of a
+liquid from 65°C to 40°C using 40000 Kg/hr of water at 10°C
+Determine the surface area of heat exchanger required.
+Take = = 41 Overall heat transfer
+coefficient as 580 W/m°K. =
+https://www.aktuonline.com

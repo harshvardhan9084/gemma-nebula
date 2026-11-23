@@ -1,0 +1,95 @@
+www.aktuonline.com
+Printed Pages : 2
+AM A
+EEC-403
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 131403
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+ELECTRONIC INSTRUMENTATION AND
+MEASUREMENTS
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt rill questions
+(2) All questions carry equal . marks.
+1 Attempt any four parts of the following : 5x4=20
+a) Determine the dimensions of Magnetic Flux density,
+Electric field Strength. Explain the absolute and
+Gross error
+b) Current error. measured during a 30.4A, flowing
+was test as
+in a resistor of 0.105Q It was discovered later that
+the ammeter reading was low by 1.2 percent and the
+marked resistance was high by 0.3 percent, Find the
+true power as a percentage of the power that was
+originally calculated.
+c) Explain the construction and working of Galvanometer.
+d) What is the effect' of temperature change in Ammeter
+and Voltmeter? How can we minimize the temperature
+effect in Ammeter and Voltmeter?
+131403] 1 [ Contd...
+www.aktuonline.com
+e) instrument has a three resistor ayrton shunt
+connected across it to make an ammeter. The resistance
+values 0.050, 0.45Q and 45Q. The
+are meter
+resistance is 1 KQ and FSD is 50u.A. Calculate the
+three ranges of ammeter.
+f) | Howcan we measure unknown resistance using Series
+Ohmmeter?
+2 Attempt any four parts of the following : 5x4=20
+a) Draw and explain ‘the circuit diagram of Voltage to
+current converter with full wave rectifier AC electronic
+Voltmeters.
+b) Explain the working of FET Input Voltmeter with its
+circuit diagram.
+c) and explain the block diagram of the
+Draw Ramp Type
+DVM with its system waveform.
+d) What are the two methods of measuring current using
+high current probes of multimeter?
+e) Compare Digital and Analog Multimeter. Explain the
+concept of Burden Voltage.
+f) A digital frequency meter has a time base derived from
+2MHz clock generator frequency divided by decade
+counters. Determine the measured :frequency when
+3.524 kHz sine wave is applied and when the time
+bases uses i) Six decade counters ii) four decade
+counters. -
+3 Attempt of the following 10x2=20
+a) Explain any two the working parts of What : is the measuring
+Q-meter.
+procedure for high impedance measurement in Q-meter?
+b) Explain the Kelvin Bridge for unknown resistance
+measurement method. A wheat stone bridge has
+131403] 2 [ Contd...
+www.aktuonline.com
+P= Q=7KQ and S 4KQ when R= 2KQ.
+Resistors arranged in such = that the bridge
+is in balanced are condition. The supply a way voltage is 10V and
+galvanometer has a current sensitivity of and
+its resistance is 2.5K Q. Calculate the minimum change
+in R which is detectable by the bridge.
+c) Write short note on :
+i. Series resistance Capacitance Bridge also draws
+its phasor diagram.
+i. | Hay Inductance Bridge and its application.
+4 Attempt any two parts of the following : 10x2=20
+a) Draw the block diagram of automatic time base of
+oscilloscope. Show the waveforms and explain its
+operation.
+b) a short note on
+i) DSO operation
+i) 1:1 oscilloscope probes.
+c) Draw and explain the block diagram of Delayed- time-
+base (DTB) system, Show the system waveforms.
+5 Attempt any two parts of the fallowing : 10x2=20
+a) Draw and explain the circuits for calibration of d.c.
+voltmeter and wattmeter with standard instruments.
+b) with the help of block diagram the operation
+of X-Y recorder. Also list the application of X-Y
+recorder.
+c) Write short
+i. Galvanometric a note on strip chart recorders
+ii.
+Plotters.
+131403] 3 [2475]

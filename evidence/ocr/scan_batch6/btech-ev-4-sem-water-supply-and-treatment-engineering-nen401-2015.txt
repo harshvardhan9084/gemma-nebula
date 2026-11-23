@@ -1,0 +1,87 @@
+www.aktuonline.com
+Printed Pages : 3
+A A AT
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 197404
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+WATER SUPPLY AND TREATMENT ENGINEERING
+Time : 3 Hours] [Total Marks : 100
+NOTE : Attempt all questions, suitably assume the missing data.
+1 Attempt four parts of the following: 5x4=20
+any
+(a) Discuss the sources and impacts of turbidity.
+(b) A sample of water from a surface steam is analyzed
+for the common ions with the following results:
+= 90 mg/L Cr = 80 mg/L
+Mg** HCO3
+= 20 mg/L = 320 mg/L
+= 70 mg/L SO, = 120 mg/L
+(i) | What is % age error in the cations balance?
+(i) Draw a bar diagram for the water.
+(c) The 5-d 20 °C BOD of a wastewater is 212 mg/L.
+What will be the ultimate BOD? What will be the
+10 days BOD? If the sample had been incubated
+at 30 °C what would the 5 day BOD have been?
+Use Ky) = 0.23 dl.
+197404] 1 [ Contd...
+www.aktuonline.com
+(d) Acity must treat about 12000 m3/d of water flocculating
+particles are produced by coagulation and a column
+analysis indicates that an overflow rate of 20 m/d will
+produce satisfactory removal at a depth of 3.20 m.
+Determine the size of the required settling tank with neat
+sketch.
+(e) Explain Break point chlorination and Super chlorination.
+(f) How are suspended solids measured? Also define
+Threshold Number (TON).
+2 Attempt any four parts of the following: 5x4=20
+(a) Discuss the construction and working of a rapid sand
+filter.
+(b) Design the approximate dimensions of a set of rapid
+gravity filters for treating water required for population
+a
+of 40,000, the rate of supply being 135 Itr/capita per
+day. The filters are rated to work 4500 Itrs per hour
+per sq.m. Assume data not given.
+(c) Write advantages and disadvantages of multi media
+filters.
+(d) Chlorine usage in the treatment of 18,000 cubic meter
+per day is 9 kg per day. The residual after 10 min.
+contract is 0.20 mg/l. Calculate dosages in milligrams
+per litre and chlorine demand of water.
+(e) Differentiate between carbonaceous and non
+carbonaceous hardness of water.
+(f) Explain Aeration mechanism.
+197404] 2 [ Contd...
+www.aktuonline.com
+ww Attempt any two parts of the following: 10x2=20
+(a) With sketch explain ion exchange of
+a softening. neat process
+water
+(b) Explain Reverse Osmosis process for desalination.
+(c) Explain physical adsorption with respect to Freundlich
+isotherm.
+4 Attempt any two parts of the following: 10x2=20
+(a) | Using Geometrical increase method predict the population
+of a town for 2031 and 2041 with the following census
+records :
+Year 199] 2001 2011
+Population
+2,50,000 4,90,000
+(b) Explain simons non recording raingauge with neat
+sketch.
+(c) Discuss the "Logistic Curve Method" for determining the
+future population of a locality.
+5 Attempt any two parts of the following: 10x2=20
+(a) Compare the merits and demerits of the continuous and
+intermittent system of water supply.
+(b) Design the diameter of cast iron pipe required for the
+distribution system of a part of a small city of population
+10,000. Assume rate of supply and terminal pressure
+etc.
+(c) Write short notes on :
+(i) Water meter (i) Drain valve
+(it) Air valve (iv) Manhole.
+197404]
+3 [ 50 ]

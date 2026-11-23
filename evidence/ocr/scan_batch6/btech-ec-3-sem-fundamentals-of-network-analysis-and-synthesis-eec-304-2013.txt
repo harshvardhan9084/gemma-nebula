@@ -1,0 +1,98 @@
+Printed Pages 4 EEC304
+:
+(Following Paper ID and No. to be filled in Answer Book)
+your
+B. Tech.
+THEORY EXAMINATION, 2012-13
+FUNDAMENTALS OF NETWORK ANALYSIS AND SYNTHESIS
+Time : 3 Hours ] { Total Marks : 100
+1. Attempt all parts. 10x 2=20
+c
+(a) Draw the line spectra for the signal S(t) = 3 sin +
+(b) Define frequency transformation and frequency normalization.
+(c) Draw the even and odd signal functions for the unit-step function.
+(d) In the below figure, calculate the value of R.
+R
+FIT 40 V
+(e) Two capacitors of 1 pF and 2 uF and connected in parallel across a 25 V de
+battery. After the capacitors have been charged, calculate the charge across the
+two capacitors.
+(f) The current wave shape shown in figure (a) is applied to a circuit element. The
+voltage the element is shown in figure (b). Find the type of element used.
+across
+i
+HS’
+Figure (a) Figure (b)
+0325 1 P.T.O.
+figure below, the switch is closed 0. At 0*, calculate the value of
+(g) In supplied by battery. ai t = t =
+current
+(h) For the figure below, calculate the ratio V(s) / I(s).
+C L
+v(t) R
+(i) List the three properties to recognize an R-C impedance in synthesis.
+(j) | Enlist the two important properties of positive real functions.
+2. Attempt any three parts : 3 x 10
+(a) The network shown has reached steady state before the switch S is opened at t = 0.
+Determine the initial conditions for the currents i,(t) and i,(t) and their
+derivatives.
+(b) For the circuit shown, the switch S is opened at t = 0. Use Thevenin’s or Norton’s
+theorem to determine the output voltage v,(t). Assume zero initial energy.
+0.102
+(c) Explain with the suitable expressions, equivalent with (i) controlled-
+two-port one
+voltage source and (11) one controlled-current source.
+0325 2
+(S + 1)(S +3) +3
+(d) Given F(s) (S+ 2) (S+6)’ obtain a partial fraction expansion, with all positive
+residues and hence realize the network in foster form when
+(i) F(s) 1s impedance
+an
+(ii) F(s) is an admittance y(s).
+(ec) Enlist the main properties of a ACTIVE FILTERS.
+(ii) Draw the attenuation characteristics of LPF, BPF, HPF and BRF.
+Answer all the questions : 5x 10= A
+(a) The unit-step response of a linear system is
+(2e*"
+x(t) = — 1) u(t)
+(i) Find the response r(t) to the input f(t).
+(ii) Sketch the response. Show all pertinent dimensions.
+(b) For the following driving point functions find their simplest network realizations.
+1
+(i)
+3
+(ii) y(s)=28+ 5
+OR
+The network shown has reached steady-state before the switch moves from a to b.
+Determine the initial conditions for the voltages V,(t) and V,(t) and their first
+derivatives.
+b t=0 R, L
+4. For the two-port network shown in figure below, determine the admittance matrix.
+Prove that in a parallel-parallel interconnected two networks with admittance matrix
+[Y,] and [Y,] respectively, the overall y-matrix is given as
+[Y]= [Y,] +
+0325 3 P.T.O.
+5. In figure below, find i,(t) suing Thevenin’s theorem. The excitation is e(t) = 100 cos
+20 u(t). Assume zero initial energy.
+Suppose F,(s) and F,(s) are both positive real functions. Discuss the conditions such
+that F(s) = F,(s) F,(s) is also positive real function.
+—
+s? +
+6. Given z(s)= xs
+for
+(i) What are the restrictions on X Z(s) to be a positive real function ?
+(ii) Find X for Re[Z(jw)] to have second order at 0.
+a zero w =
+(iii) Choose a numerical value for X and synthesize Z(s).
+OR
+The input impedance for the network shown is
+2s2 +2
+in’
+If is an L-C network, (a) Find the expression for Zp, (b) Synthesize Z, is a Foster
+series form.
+7. Draw the circuit of non-inverting and inverting differentiator using ideal Op-Amp and
+determine it’s transfer function, input impedance and output impedance.
+OR
+Design an active low pass order filter and define its f-3dB, Roll-off-rate and also
+draw it’s phase response.
+0325 4

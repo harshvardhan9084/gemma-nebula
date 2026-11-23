@@ -1,0 +1,69 @@
+Attempt any two questions : 10x2=20 A Ht
+(a) What is LISP ? Why it is popular AT . 0 1 5 1 het
+practitioner Write LISP among which Printed Pages ; 4
+? a program
+returns the minimum of three numbers.
+(b) (i) What do you understand by pattern
+recognition ?
+(ii) Differentiate between structured (SEM VII) ODD SEMESTER THEORY EXAMINATION 2009-10
+description and symbolic description. INTELLIGENCE
+(c) Explain PROLOG Write a PROLOG program Time Hours] [Total Marks:
+that creates knowledge base of family : 3 100
+relationsnips such as father, mother, brother,
+Use clauses such as male, Affempt aif questions.
+female define rules.
+to any
+1 Attempt four parts : $x4=20
+by Artificial
+(a) what do vou understand
+Why AT is important ?
+(b) Discuss the problem of "Water Jug problem"
+with Heuristic search techniques.
+(c) Differentiate between Depth-first search and
+Breadth first search. .
+(d) Explain AO* algorithm with example.
+(e) When will Hill climbing search technique fail ?
+Do hill climbing always find
+steepest ascent
+solutions How might some problem be
+overcome in search ?
+(f) Define and describe the difference between
+1 knowledge, belief, hypothesis and data.
+36001 [Contd...
+1
+10x2=26
+2 Attempt any four parts 5x4=20 Attempt any two parts :
+techniques (a) (i) — Explain semantic Nets with example.
+(a) Explain Top Down parsing with (ii) Draw hierarchical network represent
+examples. a to
+the information.
+(b) Explain different type of Chomsky's hierarchy Mouse is a rodent; rodent is a mammal;
+grammars. _ A mammal has color and also drinks
+- water.
+(c) Differentiate “deterministic and
+nondeterministic parsers. in brief with example.
+Oo Represent such expression in FOPL.
+(d) Develop a parse tree for the sentence () All employees earning $500 or more per
+the table" using the following year pay taxes.
+"Mr. Kushwaha on
+rules : (ii) Some employces are sick today.
+(c) Explain Horn clause. What is the procedure of
+S — NP VP clausal conversion ?
+NP N Attempt two parts 10x2=20
+DET N any :
+Differentiate between-expert system and problem
+VP — VPP solving system. Why is it important that an
+expert system be able to explain the why and
+PP — PREP NP how question related to a problem solving
+session ?
+N — Mr. Kushwaha / table
+Slept (b) Write short notes on :
+V (i) MYCIN
+DET — the GY Comners the “ferent of problem
+type
+PREP — ON solved by and DENDRAL.
+(c) Explain Meta knowledge. Under what conditions
+(e) Explain Fillmore's case grammar with example. would it make sense to use both forward and
+short generation. backward chaining ? Give an example where
+(f) Write notes on sentence both are used.
+43-0151) 2 (Contd... 55-0151) [Contd...

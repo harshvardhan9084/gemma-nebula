@@ -1,0 +1,115 @@
+12703
+Printed Pages —4 TEC 602
+~—
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 3092
+B.Tech.
+(SEM VI) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+DIGITAL SIGNAL PROCESSING
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt all questions.
+(ii) All questions carry equal marks.
+(iii) Be precise in your answer. No second answer
+book will be provided.
+1. Attempt any four parts of the following : (4x5=20)
+(a) Establish the relationship between sampled
+Fourier transform and the DFT.
+(b) Compare DFT and FT.
+(c) Find the response of an FIR filter with
+impulse response h(n) = {1, 2, 3} to the input
+sequence x(n) = {1, 2}.
+(d) The first five points of the 8-point
+DFT of a real valued sequence are
+{0.25, 0.125-j0.3018, 0, 0.125-j0.0518, 0}.
+Determine the remaining three points.
+TEC — 602 1 [Turn Over
+(e) Give the statement and proof of the
+Periodicity and Symmetry properties of the
+DFT.
+(f) Find the DFT of the sequence
+X(n) ={1, 0, 0, —4, 2}
+2. Attempt four of the
+any parts
+(a) Define and explain any two of the following
+terms :
+(i) Auto Correlation
+(ii) | Cross-Correlation and
+(iii) Circular Correlation.
+(b) Draw the stage wise flow graph for radix-2
+decimation in time-FFT algorithm for N =4.
+(c) Write of the following
+algorithms notes on any one
+:
+(i) Goertzel algorithm
+(ii) Chirp-z Transform Algorithm.
+(d) Find the bit reversed decimal equivalent of
+2 & 5 for 8 point, 16 point FFT computations
+respectively.
+(e) Calculate the DFT of a sequence
+X(n) = {1, 2, 3, 4, 4, 3, 2, 1} using DIT FFT.
+(f) Discuss the computation efficiency of FFT
+over DFT.
+3. Attempt any four parts of the
+(a) Obtain the Direct form-I structure for the
+system
+—O.ly(n-1)
+X(n) — 0.252X(n — 2)
+(b) Obtain the ladder structure for
+Hyy=1/(@+
+TEC—602 2
+(c) Obtain the cascade form realization for the
+transfer function of an FIR system given by
+Hi = +
+(d) Determine the Transposed direct form for
+the given system II
+y(n) =0.5 y(n—1) —0.25 y(n—2)+X(n) + X(n—1).
+(e) Whether a system represented by its transfer
+~ function H(z) given by
+H 1/(z-1/4),
+represent an FIR or an IIR filter ?
+(g) Explain the parallel and cascade form
+realizations of IIR filters.
+4. Attempt any two parts of the following: (2x10=20)
+(a) What is an FIR system ? What are the
+advantages and disadvantages of FIR
+? Compare FIR with
+system an system an
+IIR System.
+(b) Design a linear phase FIR (low pass) filter
+of order seven with cutoff frequency of
+7/4 rad/ sec using Hanning window.
+os (c) | for following
+Designa low pass FIR filter the
+specification :
+Cutoff frequency = 500Hz
+Sampling frequency =200Hz
+Order of the filter, N =10
+Filter length, L=N+1 =11
+Use Hamming window to get modified
+impulse response.
+TEC—602 3 [Turn Over
+5. Attempt any two parts of the following : (2x10=20)
+(a) (i) What is meant by frequency
+warping ? What is the of this
+cause
+effect ?
+(ii) Compare the impulse invariance
+method with Bilinear Transform
+method of IIR filter design.
+Design a digital Butterworth filter that
+satisfies the following constraints, using
+(i) Bilinear transformation and
+(ii) impulse invariant transformation.
+0.9 < | | <1
+| | < 0.2
+Design the second order low pass digital
+filter of Butterworth type using Bilinear
+Transformation for the specification given
+below :
+(i) | Analog transfer function of the filter :
+H(s) (V2)s +1]
+(ii) Cutoff frequency =1 kHz
+frequency
+(iii) Sampling =10kHz
+TEC—602

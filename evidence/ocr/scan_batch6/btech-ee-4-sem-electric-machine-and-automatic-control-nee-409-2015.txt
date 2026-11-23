@@ -1,0 +1,78 @@
+www.aktuonline.com
+Printed Pages : 4
+NEE-409
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 121413
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+ELECTRIC MACHINE & AUTOMATIC CONTROL
+Time : 3 Hours] [Total Marks : 100
+1 Attempt any four of the following : 4x5=20
+(a) Explain the different speed control methods used in a
+DC motor.
+(b) Discuss conversion from 3 phase to 2 phase using Scott
+connection.
+(c) Briefly enumerate the working of auto transformer with
+its merits, demerits.
+(d) A 10 kva single phase 500/250 v transformer gave
+following test.
+Find efficiency and regulaton at full load 0.8 p.f. Lagging ?
+121413] 1 [ Contd...
+www.aktuonline.com
+(e) Why series motor is never start on no load, also explain
+application of series and shunt
+DC motor.
+(f) | Why starter is required in DC motor ? Explain different
+method of starting.
+2 Attempt any two of the following : 10x2=20
+(a) () Explain the working principle of 3-phase induction
+motor. The rotor of induction motor cannot run
+at synchronous speed. Explain. Why ?
+(it) induction motor is wound for 4 poles and
+is supplied from 50 Hz system. Calculate
+(a) synchronous speed
+(b) rotor speed when slip is 4% and
+(c) rotor frequency when rotor runs at
+600 rpm.
+(b) Explain the working of two phase servo motor and their
+application.
+(c) Explain the following :
+@) Synchronizing of alternators
+(i) | V-curve of synchronous motor
+3 Attempt any two of the following : 10x2=20
+(a) Compare open loop and closed loop system with
+suitable examples.
+121413] 2 [ Contd...
+www.aktuonline.com
+(b) Obtain differential equation describing equivalent
+mechanical of fig. and draw the equivalent
+system 1
+F-V analogy.
+(c) What do you mean by Transfer Function; find out
+Transfer Function for Fig. 2 circuit.
+4 Attempt any two of the following ; 10x2=20
+(a) Find steady with unit and
+out type error step, ramp
+parabolic input for
+(i) type zero
+(i) type one
+(iii) type two system
+(b) () — Explain bounded i/p bounded o/p stability criterion.
+(i) stability condition for following characteristics
+equation
+S3 2ks*
++ + (k+2)*s + 4=0
+121413] 3 [ Contd...
+www.aktuonline.com
+(c) Draw polar plot for G(s) = K/(sA + 1)*(sB+1) for
+unity feedback find Gain margin, phase margin.
+system,
+5 Attempt any two of the following : 10x2=20
+(a) Draw bode plot and determine GM., P.M., comment
+on stability.
+G(s) H(s) = 16 (1+0.5s) / s* * (1+0.125s) * (1+0.1s)
+(b) Explain the Proportional, Derivate, Integral controller
+and write their advantages.
+(c) construct root locus for
+G (s) H (s) = k/s* * (s+5) K>0
+121413] 4 [ 21275 ]

@@ -1,0 +1,78 @@
+Printed Page 1 of 3 Sub Code:EICS01
+Paper Id: 132511 Roll No:
+B.TECH
+(SEM-V) THEORY EXAMINATION 2019-20
+CONTROL SYSTEM I
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+Attempt all questions in brief. 2x10=20
+Write down two differences between open loop and close loop control system.
+What are feedback and its effect in close loop system?
+Define transfer function.
+Define Gain Margin & Phase Margin.
+Sketch the time for second order over-damped subjected unit
+step input. output curve versus system to
+=]o9 Explain the effect of adding pole to the forward path transfer function.
+| Define observability related a control
+to system.
+Define Mason’s gain formula.
+me Define Loop & Non-touching loop.
+www.aktuonline.com Explain controllability related to control system.
+SECTION B
+Attempt any three of the following: 10x3=30
+Obtain signal flow graph representation for system whose block diagram is given and
+also find a) Forward path b) Individual loops a c) Path factor d) non-touching as e)
+Determine the graph determinant.
+Determine the static coefficients and also determine the value of K to limit the
+steady state error to 20 error units due to input.
+r(t)=1+10t+20t?.
+Derive the expressions and draw the response of second order under-damped system for
+unit step input.
+A second order system has overshoot of 50% and period of oscillation 0.2 second in step
+For response. unity Determine feedback resonant control peak, resonant the frequency loop transfer and function bandwidth.
+G(S) a 10(S+2)/ S?(S+1). Find system the steady open state when the input is
+R(S) =2/S = +4/S?. error
+Page 1 of 3
+http://www.aktuonline.com
+Printed Page 2 of 3 Sub Code:EICS501
+Paper Id: 132511 Roll No:
+SECTION C
+3. Attempt part of the following: 10x1=10
+any one
+a. Write four properties of state transition matrix g(t) with their proof.
+b. Find characteristics equation and poles of LTI system with state model matrix
+4. Attempt any one part of the following: 10x1=10
+a. Determine the transfer function C/R of the system show in figure using block diagram
+reduction technique.
+www.aktuonline.com
+b. unity feedback system
+G(s)
+= s(s+4)(s+10)
+Draw bode plot. Find K when phase margin = 30°.
+5. Attempt part of the following: 10x1=10
+any one
+a. Consider SISO control system having transfer function
+s*+4s+4
+T (s )= 534552445
++5s7+4s
+Represent state model in terms of Canonical variable with block diagram and obtain
+matrices A,B,C.
+b. Derive for the unit expressions input. and draw output the response of second order under-damped
+system step
+6. Attempt any one part of the following: 10x1=10
+a. What are the necessary & sufficient conditions of R-H criterion? Also explain some
+limitation of R-H criterion.
+b. Determine the transfer function Y2(S)/F(S) of the system shown in fig:
+Page 2 of 3
+http://www.aktuonline.com
+Printed Page 3 of 3 Sub Code:EICS01
+Paper Id: 132511 Roll No:
+7. Attempt any one part of the following: 10x1=10
+Determine the range of k such that the characteristics equation 1+GH=S*+ 3(K+1) S2
++(7K+5)S +4K+7 = 0 has roots more negative than S = -1.
+Find the Range of K for the system to be (i) stable (11) unstable (111) Marginally stable by
+R-H Criterion. given open loop transfer function:
+www.aktuonline.com k
+Page 3 of 3
+http://www.aktuonline.com

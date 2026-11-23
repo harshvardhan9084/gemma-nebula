@@ -1,0 +1,141 @@
+Printed Pages: 8 MBA015
+M.B.A
+(SEM I) ODD SEMESTER THEORY EXAMINATION 2009-10
+BUSINESS STATISTICS
+Time: 3 Hours] {Total Marks: 160
+Note : (1) The question paper contains three parts.
+(2) All questions are compulsory.
+(3) Figures given at the right margin indicate
+marks.
+PART -I 1x20=20
+1 Choose the correct answer and write its serial order :
+(a) The sum of deviations taken from arithmetic
+mean is :
+@ Minimum i) Zero
+(ii) Maximum (iv) None of the above
+(b) While calculating median of data set, the first
+is a
+step
+(i) Calculate mean of the two middle items
+(ii) Arrange the data in ascending or descending
+order
+(iit) Calculate mean of the first and the last
+items
+(iv) None of the above
+[Contd...
+- + oS 8
+(c) A series has its mean as 15 and its coefficient (h) When the two regression lines coincide, then r is :
+of variation 20, its standard deviation is . (i) 0 qi)
+as : (iii) (iv) None of these.
+(i) 5 (ii) 10 1
+(iii) 3 (iv) 7 (i) and b = 3. If the independent variable
+(d) Which one of the curves is more peaked than has a value of 5, what would be the value of
+the normal : dependent variable ?
+Platykurtic (i) 15 (ii) 18
+6) Mesokurtic ci) (iii) 10 Gv) 21
+(iii) Laptokurtic {iv) None of the above (j) Which of the following correlation
+shows the highest degree of association ?
+(e) In time series analysis both trends and seasonal (i) 0.95 (ii) 1
+variations are studied because : (iii) above
+(i) allow the elimination of the components (iii) (iv) Both (ii) and
+from the series (k) If the outcome of one event does not influence
+another event, then the. two events are :
+. They describe . past trends
+(ii) Both the above (ii) independent
+(i) None of the above _ (iii) mutually exclusive
+(iv) None of these.
+(f) Which of the following index satisfies the What is the probability of total of
+circular test ? (1) getting a
+(i) Laspeyer's index 5 when a pair of die is thrown simultaneously ?
+(ii) Paasche's index (i) . 1 Gt)
+(iii) Bowley's index
+(iv) Fisher's index (itt) 1 (tv) 1
+(g) When the regression line of Y on X and the 9 12
+regression 8 line of X on Y form a 90° angle, then :
+{m) What is the probability of getting . three heads
+. r =| or three tails on three successive tosses ?
+GE (i) 0.25 (ii) 0.125
+(ai) r = 0.5 0.025 (iv) 0.50
+of the above _
+None
+55-7105] 2 (Contd... ETM 3 [Contd...
+A Binomial distribution is approximate to a (s) A contingency table for a chi-square test has
+Poisson distribution when : 8 rows and 6 columns. How many degrees of
+freedom should be used ?
+(i) both n and p are large
+(ii) both n and p are small (i) 14 (ii) 48
+p
+(iii) n is small and is large (iii) 13 (iv) 35
+(iv) n is large and p is small contingency table
+(t) A
+If a normal distribution has a mean = 20, (i) always has two vartables
+then its mode is : (ii)
+always has two degrees of freedom
+(i) 10 (ii) 20 (iii) always has two dependent variables
+(iii) 25 (iv) 30
+(iv) None of these
+(p) If the critical value of Z is 1.96, then the
+significance level of two-tail test is :
+PART II
+@ 0.025 Gi) 0.50 -
+(it) 0.05 (iv) None of these 2 Attempt two 15x2
+(a) The any aritual salary of employees of a
+(q) Assuming that we want to test whether mean is Rs. 30,000/-, The mean annual
+a population mean is significantly different company salaries of male and female are
+from 75, what should be the alternate 35,000/- and 23,000/- respectively.
+Rs. Rs. of male and female
+hypothesis ? Find out the the
+employees working in company. bars in
+The mean weekly sales of soap
+departmental stores was 146,3 bars per weakly store,
+(iii) (ivj After an advertising campaigti the mean
+sales in 22 stores for a typical week increased
+(r) A chi-square vafue can never be negative : to 153.7 and showed a standard deviation of
+True (ii) False 17.2, Was the advertising campaign successful 7
+(given tabulated value of t for 21 df. at 5%
+level of significatice = 1.72)
+4 JJ-7105)
+{c) Two computers A and B are to be marketed. 4 Briefly explain the components of a time series. What
+A. salesman who ts assigned a job of finding are the limitations of time series analysis in forecasting ?
+customers for them has 60% and 40% chances
+of succeding in case of computers A and B. The OR
+computers can be sold independently. Given
+that he was able to sale at least one computer, 4 price index numbers for the year 2001 with
+what is the probability that the computer A has 1991 as the base year from the following data using :
+been sold ? (a) Laspeyer's index
+(b) Paasche's index and
+(c) Fisher's index
+PART 1244
+- I
+"Statistics are like a clay of which you can make a God Value | Oty consumed
+or a Devil as you please." In the light of the statement
+discuss the uses and limiiations of statistics. ke
+Metre
+OR Packets
+An incomplete frequency distribution is given follows
+as :
+Variable Frequency 5 independent and mutually exclusive events.
+10 ~ 20 12 Can two events be mutually exclusive and independent
+_ simultaneously, explain with example.
+20 — 30 30 an
+30 ~ 40 ? OR
+40 50
+— 63 5 average monthly sales of 5000 firms are normally
+50 — 60 ? distributed. Its mean and standard deviation are
+60 70 25 Rs. 36,900 and Rs. 10,000 respectively. Find :
+— (i) The number of firms having sales over
+710 — 80 18 Rs. 40,000
+Total 229 The number of firms having sales between
+Rs. 30,000 and Rs, 40,000
+Given that the median value is 46, determine the (Given under normal from for
+missing frequencies using the median Z 04 area 0.1554 and Z 06 curve 0.2257) o to z
+1-71.05) 8 BL 6 = =
+- ps 35-7105) [Contd..
+6 Write notes on any two of the following :
+Standard Deviation
+(a)
+(b) Rank correlation
+(c) Chi-square test
+(d) Normal
+| ALAN MET
+[ 20600 ]

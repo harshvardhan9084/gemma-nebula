@@ -1,0 +1,124 @@
+pktuonmbine.com
+Pages —4
+(Following Paper ID and Roll No. be filled in Answer Book)
+to your
+PAPER ID: 2028
+B.Tech.
+SIXTH SEMESTER EXAMINATION, 2004-2005
+FUNDAMENTALS OF POWER ELECTRONICS
+Time : 3 Hours Total Marks : 100
+Note : Attempt ALL questions.
+All questions equal marks.
+carry
+1. Attempt any four parts of the following : (5x4=20)
+(a) Based on degree of controllability, classify power
+semi condctor devices. Write down the maximum
+voltage, maximum current ratings and typical
+maximum operating frequency of atleast one
+presently available devices.
+(b) A thyristor of 100 A is to be used with a thyristor
+of 150A in parallel to share the total load current
+of 250 A in proportions of their ratings, the
+on-state, voltage drops of the two thyristors are
+2.1 V and 1.75 V respectively. Calculate the series
+resistance that should be connected with each
+thyristor for proportional sharing of load current.
+Discuss various types of firing circuits design used
+for turn on of thyristor. Also discuss their
+comparative features.
+EE—607 1 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+(d) A dc of 100 V supplied purely inductive
+load of source 0.1 H. The controller device a is a thyristor
+in series with the source and load. The forward
+gate characteristic is a straight line passing
+through the origin with a gradient of 4 x 10%. The
+latching current of power device is 5 mA and
+allowable maximum gate power dissipation is 12
+mW. The gate is connected to a positive source of
+10 V through a series resistance of 1kQ. Calculate:
+(i) The minimum width of pulse
+thyristor turn gating to
+ensure on.
+(ii) | Whether the device will turn on safely.
+(iii) What should be the value of
+resistance keep the gate dissipation source
+within specified to limit. gate power
+(e) Explain basic Darlington connections of two
+transistors. Also discuss their advantages and
+disadvantages.
+(f) Give comparative properties of MOSFETs and
+IGBT.
+2. Attempt four parts of the following (5x4=20)
+any :
+(a) What is a cycloconverter ? Mention their ™
+advantages and disadvantages. .Also explain the
+operation of a single phase/single phase
+cycloconverter.
+(b) Explain the operation of ac voltage controllers in
+phase control and integral cycle control mode.
+Mention the advantages and disadvantages of
+each.
+EE—607 2
+aktuonline.com
+aktuonline.com(c) contr@ktuonline.com
+Explain the meaning of phase
+converters. them. Give different ways of classifying
+(d) Define transformer utilization factor and mention
+its significance.
+A single phase full wave bridge diode rectifier is
+used to deliver 500 W d.c. power to a load. The
+transformer utilisation factor is 0.812. Calculate
+the rating of transformer.
+(e) Discuss the effects of source inductance on the
+voltage regulation of 2-pulse converters.
+Explain regulated d.c. power supplies. Also
+mention desirable specifications.
+3. Attempt any two parts of the following : (10x2=20)
+(a) State and explain quality of inverter. Also
+mention the categories of voltage an fed inverters
+based on the voltage wave forms.
+(b) A three phase bridge converter operating in 120°
+conduction mode is fed from a d.c. source of 200
+V. Pure resistance of 10 is connected in each
+phase of star connected load. Determine :
+(i) rms load current,
+(ii) the required rms current rating of the
+switches and the load power.
+What pulse width modulation ? List the various
+PWM is techniques. How do these differ from each
+other.
+EE—607 3 [Turn Over
+aktuonline.com
+aktuonlind.comAttempt of the following
+any two parts :
+(a) Explain the principle of chopper. Also describe
+chopper control methods and compare them.
+(b) A stepdown chopper is supplying a resistive load
+of 10Q from an ideal d.c. source of 220V. When
+the chopper switch remains on its voltage drop is
+2V and the chopper frequency is 1 KHz. If the
+chopper duty cycle is maintained at 0.5 calculate :
+(i) the average and rms value of load voltage
+and
+(ii) input the chopper resistance efficiency by the and the effective
+seen source.
+(c) With circuit connection, explain the working of a
+fourquadrant chopper. Also mention its
+applications.
+5. Attempt two parts of the following (10x2=20)
+any :
+(a) State and explain advantages, disadvantages and
+application considerations of solid state control
+and of motors. Also of describe fan the circuit with connection electronic
+regulator operation presently available motors in the market.
+State and explain supply and motor performance
+parameters of phase controlled d.c. drives.
+(c) State and explain different methods of speed
+control of 3 - phase induction motors using solid
+state controllers. Also discuss merits and demerits
+of each.
+-o0Oo0-
+EE — 607
+aktuonline.com

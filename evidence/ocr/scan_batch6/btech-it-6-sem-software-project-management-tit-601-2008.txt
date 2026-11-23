@@ -1,0 +1,71 @@
+aktuonline.com
+. aktuonline.com
+0
+Printed Pages : 3 TIT - 601
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 1310 Roll No. [ L [| L] | |
+B. Tech.
+(SEM. VI) EXAMINATION, 2007-08
+SOFTWARE PROJECT MANAGEMENT
+Time : 3 Hours] [Total Marks : 100
+Ned
+Note : (i) Attempt all questions.
+(ii) All questions carry equal marks.
+1 Attempt any four parts of the following : 5x4=20
+(a) Explain various problems with software projects in
+detail.
+(b) Explain various
+activities covered by software
+project management.
+(c) Write down the Outline of stepwise planning
+activities.
+(d) What is resource allocation? Explain.
+What do you mean by the term project
+infrastructure ? Explain how to identify the same.
+(f) | Whatis activity risks ? How it can be identified and
+quantified ? Explain.
+[Contd...
+aktuonline.com http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+Pa
+2 Attempt four of the following 5x4=20
+any parts :
+(a) What is Cost-benefit analysis ? Explain in detail.
+(b) What do by strategic assessment ?
+you mean
+Explain.
+(c) Explain the term risk evaluation in detail.
+in detail.
+(d) Explain Water fall model
+(e) What is software prototyping ? Explain in short. -
+(f) | Explain investment and back period
+return on pay
+with example.
+3 Attempt any two parts of the following : 10x2=20
+(a) Explain COCOMO in detail.
+(b) Explain function point analysis in detail.
+(c) What do you mean by projects and activities ?
+Explain various approaches identify the activities.
+to
+4 Attempt any two parts of the following : 10x2=20
+(a)  Definenature of riskand then explain risk engineering
+in detail.
+(b) Explain various types of contracts in detail.
+(c) following:
+(i) | Contract Management
+(ii) | Human Resource Management.
+2 [Contd...
+aktuonline.com http: UPTUonline.com
+aktuonline.com
+aktuonline.com
+5 Attempt any two parts of the following : 10x2=20
+(a) Explain SEI CMM in detail.
+process
+(b) Definethe following:
+(i) Standard
+(ii) Product Quality Management
+(c) software quality assurance in detail.
+w
+3 [ 3800 ]
+aktuonline.com
+http://www.UPTUonline.com

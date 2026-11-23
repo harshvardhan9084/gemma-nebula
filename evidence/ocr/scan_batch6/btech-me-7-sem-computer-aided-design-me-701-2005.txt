@@ -1,0 +1,146 @@
+aktuonline.com aktuonline.com
+‘Printed Pages—5 ME—701
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID:
+B.Tech.
+SEVENTH SEMESTER EXAMINATION, 2004-2005
+COMPUTER AIDED DESIGN
+Time : 3 Hours Total Marks :; 100
+Note: (i) Attempt ALL questions.
+(ti) Question No.1 is short answer/objective type.
+1. (a) <A synthetic surface patch that can be
+controlled locally as well as globally by its
+off - line points is : 1x20=10
+(i)
+(ii) Bazier patch
+(iii) B-spline patch
+S
+(iv) None
+CO —~ Select a class of transformation :
+(i) Translation, rotation, windowing,
+oo reflection, clipping, scaling, panning.
+W (ii) Translation, rotation, windowing,
+reflection, clipping, scaling, panning,
+texering.
+(iii) Translation, rotation, windowing,
+reflection, clipping, scaling, panning,
+cancanating.
+ME—701 1° [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+‘
+(iv) Only ‘i’
+(v) None
+(c) Why raster scan display device is preferred in
+CAD ?
+(d) What do you mean by isoperimetric
+formulation of FEM solutions ?
+(e) What do understand by Object Oriented
+Programming you ?
+(f) A the good following representation scheme should address
+minimum issues as :
+(i) 4
+(ii) 5
+(iii) 6
+(iv) 7
+(v) 8
+(vi) Only three
+(g) Select the unambiguous representation
+scheme :
+(i) Wire frame
+(ii) CSG
+(iii) B-rep
+(iv) None
+(h) Define orientable face for CAD model.
+an a
+(i) | FEM gives:
+(i) exact solution
+(ii) | approximate solution
+( iii) approximate solution nearing exact
+one
+( iv) none
+ME-—-701 2
+aktuonline.com
+aktuonlije.camD aktuonline.com.
+process involves :
+(i) Iterative procedure
+(ii) Approximate procedure
+(iii) Mixed procedure
+(iv) None
+(k) ACAD system is better if it is :
+(i) Turnkey type
+(ii) Main frame
+type |
+(iii) Workstation type
+(iv) None
+(l) Define Silhouette edge of a solid model.
+(m) Write rendering
+steps.
+(n) What is difference between Constant shading
+and Gourand shading models ?
+(0) List major characteristics of a graphics
+software.
+(p) List major characteristics of a CAD hardware.
+(q) What is stereographic projection ?
+(r) Write parametric equations for hyperbola.
+(s) Which design model is better :
+(i) Shigly
+(ii) Pahl ca
+(iii) Beitz
+(iv) All are better
+(v) None
+(t) A seven plane raster display has a resolution
+of 1380 horizontal x 1024 vertical and a refresh
+rate of 60 Hz. Find its RAM size of bit map.
+3
+aktuonline.com
+pt any two of the following :
+(a) Why do prefer form of cubic
+the you Hermite Bezier form for the interactive curves
+computer over graphics ? Explain by examples.
+(b) For a5 unit side cuboid CAD model, show
+mathematically to find visible and invisible
+faces.
+(c) Differentiate between : Bazier, H - spline and
+B-spline surface patch.
+3. Attempt any two of the following : (10x2=20)
+(a) List and explain basic properties of space
+curves (in brief).
+(b) Find out the equation of closed (periodic)
+B-spline defined by a the four control
+points as curve :
+Po=[2 2 oy", P,=[2 3 O]7, 3
+P3=[3 2 Also find points on the same
+curve at u and 3.
+(c) What are the options available in VIEWPORTS
+command ? Explain.
+4. (a) List FEM steps and explain how an FEM \
+problem is solved. 5
+bar
+(b) An Consider axial load the P=200 as shown in N Figure is applied below.
+shown. Using FEM concept (i) Determine the as
+nodal displacement and (ii) Determine the
+stresses in each material. Material data given
+are : 15
+4° [Turn Over
+aktuonline.com
+aktuonline.com 2400 aktuonline.com
+Aluminium Area = mm?
+E = 70 x
+Steel Area = 600mm?
+E = 200 x 109 N/m?
+5. Attempt any two of the following : (10x2=20)
+(a) List various types of Graphics Input Devices
+used in CAD. Explain functions of each.
+(b) What are the techniques used of in computer
+graphics ? for How the do generation obtain picture colour pictures on CRT
+screen the you
+on screen
+(c) What is role of database in computer graphics
+system ? Explain briefly the following :
+(i) | Object oriented database system
+(ii) Relational database.
+KKK KKK KKK
+ME—701 5
+aktuonline.com
+_

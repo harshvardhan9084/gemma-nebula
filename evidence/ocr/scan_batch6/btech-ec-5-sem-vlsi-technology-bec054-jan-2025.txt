@@ -1,0 +1,57 @@
+Printed Page: 1 of 2
+Subject Code: BECOS4
+PAPER I0-310955 Roll No:
+BTECH
+(SEM V) THEORY EXAMINATION 2024-25
+VLSI TECHNOLOGY
+TIME: 3 HRS M.MARKS: 70
+Note: Attempt all Sections. In case of any missing data; choose suitably.
+SECTION A
+1, Attempt al! questions in brief. 2x07=14
+Question
+ca
+List the Figures of Merit in photolithographic process. CcO3
+rd. Name the etchant commonly used to remove Silicon. | CO3 | |
+le. | Name any two solid sources for n-type dopant sources.
+Hf. | Write the advantage of using Aluminium in metallization. Kl
+{g. Define throughput for IC fabrication.
+SECTION B
+2. Attempt any tiree of the following: Ry 07 x3=21
+a. Compare FZ and CZ Technique for crystal ‘Explain evaluation of
+crystal. reaction ;
+Explain the basic transport processes ‘and kinetics of Vapor | CO2 | K2
+Phase Epitaxy. the “of
+c. Define photolithography. Discuss steps mask generation with 03 |
+diagram. Diffusion i
+d. Explain Models for in Solids. Also explain Fick’s 1 Law of | CO4 | K2
+le. | Diffusion. Sputtering Applications Metallization |
+Write short notes on (i) (ii) of COS K2
+C
+SECTION
+3. Attempt any one part of the following: 07x1=07
+Molecular Epitaxy diagram.
+Explain Beam Also discuss the
+advantages and disadvantages of Molecular Beam Epitaxy.
+deposition
+Explain the deposition methods and variables for Silicon
+Dioxide. Explain step coverage problem in Silicon Dioxide deposition.
+Write short notes on (i) Wet Etching (ii) Projection Printing
+Explain the ion-implantation technique with diagram of equipment.
+Discuss the advantages and disadvantages of jon-implantation.
+https://www.pygonline.com
+Printed Page: 2 of 2
+QO Subject Code: BECOS4
+Roll No:
+BTECH
+(SEM V) THEORY EXAMINATION 2024-25
+VLSI TECHNOLOGY
+.
+Derive complementary error function (erfc) diffusion 70
+an expression for complementary error function (erfc) diffusion
+profile.
+Attempt any one part of the following: 07x1=
+Explain CMOS fabrication process sequence using twin-well technology | CO5
+with diagrams.
+| What is the need of packaging in VLSI? Discuss Packaging Design | COS
+considerations in VLSI.
+https://www.pygonline.com

@@ -1,0 +1,55 @@
+Printed Pages : 2 rotNo.[ [| [| | | |] EME014
+B. TECH.
+THEORY EXAMINATION (SEM-VI) 2016-17
+RELIABILITY ENGINEERING
+Time : 3 Hours Max. Marks : 100
+Note: Be precise in In of numerical problem data wherever not provided.
+your answer. case assume
+SECTION —-A
+1. Attempt all of the following questions: 10x2=20
+(a) What is Reliability?
+(b) Represent a reliability graph using probability density function.
+(c) How is the testing done for the goodness of a fit of data to distribution?
+(d) Explain the terms ‘Availability’ and ‘Maintainability’ of system.
+(e) Define MTTF and MTBF?
+(f)
+Write the differences between a k-out-of-n redundant system and n unit parallel system.
+(g) Define Minimal cut-set.
+(h) What is the system reliability, if the subsystem reliability is 0.80 in a system
+comprising of three identical subsystems in parallel redundancy?
+(i) What is Weibull distribution used in probability calculations?
+(j) State the objectives of Life Tests?
+SECTION
+2. Attempt any five of the following questions: 5x 10=50
+(a) Explain with a neat sketch
+(i) Series configuration
+(ii) General Series- parallel System
+(b) Differentiate between Design FMEA and Process FMEA. Also, explain methodology
+of system analysis.
+(c) Write brief note ‘Reliability Testing’.
+a on
+(d) Explain the steps involved in Chi-Square goodness fit test.
+(e) Estimate the Reliability of the system shown below: The numerals indicate the
+reliability of each element.
+(f) Derive an equation MTTF = k At
+(g) The following data have been collected at the plant:
+Mean time before failure = 30 hrs
+Mean time to repair = 15 hrs
+Administrative logistic time is 30% of Mean down time.
+Calculate the operational availability and inherent availability of this plant.
+(h) the reliability analysis of complex systems using minimal cut-set method.
+SECTION C
+Attempt two of the following questions: — 2x 15 =30
+3. any conducted sample of 100 automobile brakes have yielded value of 56,669.5
+Test on a a mean
+and a standard deviation of 12393.64 miles for the life of the brakes. Assuming normal
+distribution find the probability of realizing the life of the brakes less than 50,000 miles. Table
+below shows ®(z) values
+0.7019 0.7054
+(a) What is the minimum reliability required for each if overall
+component system
+reliability must be at least 0.9 for a series system having 10 identical components?
+(b) (i) Hazard rate (ii) Probability density functions of failure.
+If two components having failure rates 1), 42 respectively are connected in parallel, show that
+the reliability of this parallel configuration at time t is given as
+t t t

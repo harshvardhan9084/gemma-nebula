@@ -1,0 +1,115 @@
+aktuonline.com aktuonline.com
+.
+* ‘4 i) 8 Qo / 8 8 5 Q *
+Printed Pages : 4 TME — 402
+(SEM. IV) EXAMINATION, 2008-09
+KINEMATICS OF MACHINE
+Marks
+Time : 3 Hours] [Total : 100
+Note : (1) Answer all the questions.
+(2) All questions carry equal marks.
+(3) Assume suitable value for missing data.
+1 Answer four parts:
+any
+(a) Explain the difference between machine and 5
+structure with example.
+(b) Explain at least two types of joints which are 5
+usually found in chain.
+(c) Sketch and describe the four-bar chain 5
+~ mechanism. Why it is considered to be the
+basic chain ?
+(d) State Gruebler's criterion for ascertaining the
+degree of freedom of planner mechanisms having
+turning pairs only.
+(e) Determine the mobility of the devices shown 5
+in Fig.1.
+4080]
+[Contd..
+aktuonline.com
+aktuonline.com 4 aktuonline.com
+B
+3
+6
+2
+A
+(i) (ii)
+Fig.1.
+(f) Explalin the law of three centre method to 5
+determine the velocity of a point.
+2 Answer any two parts:
+(a) What are the different types of Exact Straight 10
+Line Motion mechanism? Explain any one of
+them with diagram.
+neat
+(b) Ina mechanism, a slider is guided along a slot 10
+of rotating lever. Explain the various acceleration
+terms involved. Derive an expression for Coriolis
+component of acceleration.
+(c) The crank of a slider crank mechanism 10
+rotates at constant speed of 300 rpm. The crank
+is 150 and the connecting rod is 600
+mm mm
+long. Calculate angular acceleration of the
+connecting rod, at a crank angle of 45° from inner
+dead enter positon.
+4080] [Contd..
+~ aktuonline.com
+aktuonfine.comswer aktuonline.com
+any four parts:
+(a) Explain Grashof's law. What do you mean by 5
+inversion of Grashof's linkage?
+(b) Explain limit positions of a four-bar mechanism. 5
+(c) Explain synthesis of mechanisms with examples. 5
+What do by of synthesis and
+you mean type
+~~ number synthesis?
+(d) Describe the methods for designing a four-bar 5
+mechanism function generation.
+as a
+(e) Explain Two position synthesis of Slider 5
+Crank Mechanism.
+( Explain the term Coriolis component of 5
+acceleration and write down the equation involved.
+4 Answer any two parts :
+(a) (i) Why aroller follower is preferred to that
+of knife-edge follower?
+(i) Draw the displacement, velocity and
+acceleration diagram for a follower when
+it moves with simple harmonic motin.
+(b) Derive expression for velocity and acceleration
+an
+during outstroke and return stroke of the follower
+when it moves with uniform acceleration and
+retardation.
+4oso) | [Conta..
+aktuonline.com
+aktuonline.com aktuonline.com
+(c) A Cam is be designed for knife edge
+to a
+follower with following data:
+(i) Cam lift = 40 mm during 90° of Cam
+rotation with S.H.M.
+(i) Dwell for next 30°
+(ii) During the next 60° of Cam rotation, the
+follower returns to its original positon with
+(iv) Dwell during the remaining 180°. Draw
+only the displacement diagram. Also
+determine the maximum velocity and
+acceleration of the follower during its ascent
+and descent, if the Cam rotates at
+240 rpm and having radius of base circle
+40 mm.
+5 Answer any two parts:
+(a) State and prove Law of Gearing. Also 7+3
+explain the following for the gears ;
+Circular pitch, Arc of contact, Path of recess.
+(b) Derive expression for the minimum of 10
+an no.
+teeth required on the pinions in order to avoid
+interference.
+(c) Explain with neat sketch the ‘Sum and 3+7
+Planet How the velocity ratio of epicyclic
+gear train is determined ?
+4080] ]
+[ 8850
+aktuonline.com

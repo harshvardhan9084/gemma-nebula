@@ -1,0 +1,70 @@
+(d) A smooth circular cylinder of radius 2 is lying
+* v - 4 3 * in triangular side of which m makes 20°
+Printed Pages : 4 ME — 202 and a other side groove, 40° one with the horizontal.
+makes angle
+(Following ID Paper : 4035 ID and Roll No. to be filled in your Answer Book) Find the reaction at the surfaces of contact, if there
+PAPER is no friction and the cylinder weighs 2 KN.
+B. Tech. 2kn\
+(SEM. II) EXAMINATION, 2006-07
+ENGINEERING MECHANICS
+Time 2 Hours] [Total Marks 50
+: : Fig. 2
+Note : (i) Attempt all questions.
+(ii) Assume missing data suitably, if any. (e) Briefly explain the Varignon’s Principle.
+1 Attempt any four of the following : 3.5x4=14 (f) Draw the bending moment diagram of the
+(a) Explain the law of transmissibility of forces. cantilever beam shown in the figure.
+(b) A particle is acted by following forces. [mn
+(1) 200 N inclined 30° with east towards north __ pais
+(2) 250 N towards the north &
+(3) 300
+N N towards the north west
+(4) 350 inclined at 40° with west towards Fig. 3
+south
+Find the resultant of all forces and its direction. 2 Attempt four of the following 3x4=12
+(c) Four forces equal to P, 2P, 3P and 4P are acting (a) Differentiate any between imperfect : perfect
+along the four sides of a square ABCD as and redundant an truss,
+shown in figure. Find the magnitude, direction truss truss.
+and position of resultant forces. (b) For the given truss find the forces in members
+BP te BC, CD and BD.
+D A Sp
+B
+4P Fig. 4
+Fig. 1
+V-4035] 1 V-4035] 2 [Contd..
+https://www.aktuonline.com https://www.aktuonline.com
+(c) Find the centroid of a uniform wire bent in form of 4 Attempt two of the following 6x2=12
+quadrant of the of circle of radius R. A cylinder any of radius 80 : rolls without
+(d) a State the parallel axis are theorem. a (a) mm
+What is product of inertia ? What will the product slipping along a horizontal plane AB. Its center
+has a uniform velocity of 15 m/s. Find the
+of inertia of a circular disc about its centroidal axis velocities of points D and E on the rim of the
+9 cylinder.
+(ft) Find the second moment of area of the given L-
+section about the centroidal x axis as shown in Fig.5
+|
+mm)
+Fig. 6
+20m (b) State the D’Alembert’s principle. A lift has
+upward acceleration of 2.5 m/s”. What an
+Fig. 5 will of weight 800 the pressure floor
+a man N exert on
+of the lift ? Determine the pressure m/s? by him if
+Attempt any two of the following : 6x2=12 the acceleration of lift is 2.5 downwards.
+(a) The pitch of a single thread screw jack is 6 mm and Assume g = 9.8
+its mean diameter is 60 mm. If the coefficient of (c) With suitable examples explain the difference
+friction is 0.1, determine the force required at the end between conservative and non-conservative
+of a 250 mm long lever from the axis of the screw forces. An object weighing 100 N is pulled up
+to (1) raise a load of 48 KN (ii) lower the same load. by a 80 N force up an inclined smooth plane
+Is the screw self locking? as shown in Fig.7. Determine the velocity of
+(b) A belt is running over a pulley of diameter 1000 mm the object after it has moved 4 m.
+at 450 rpm. The angle of contact is 150° and the gon
+coefficient of friction is 0.35. If the maximum tension
+in the belt is limited to 1 kN, determine the power
+transmitted by it.
+(c) A car weighing 4 kN is moving at a speed of 200 7
+m/s. The resistance to the car is largely due to the wa
+air drag which is equal to 0.005 v7. What distance A Fig. 7
+will it travel before its speed is reduced to
+100 m/s ? et
+V-4035] 3 [Contd.. V-4035] 4 { 1815 J
+https://www.aktuonline.com https://www.aktuonline.com

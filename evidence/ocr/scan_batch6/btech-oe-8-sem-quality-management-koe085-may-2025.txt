@@ -1,0 +1,80 @@
+Printea Page: 1 of 2
+Paper ID : 250256 Subject Code: KOE085
+Roll No: k :
+BTECH
+(SEM VIII) THEORY EXAMINATION
+QUALITY MAN 2024-25
+TIME: 3 HRS
+M.MARKS: 100 100
+Note: Attempt all Sections. In case of any missing data; choose suitably.
+SECTION A
+1, Attempt all questions in brief.
+State Question
+What the dimensions of uality? -
+What do you mean by Procurement?
+State the are the basic causes of the apparatus error?
+What role of team leader in an organization?
+What are the limitations of a basic C-Chart?
+is the use of Ishikawa diagram and Pareto chart?
+What is zero defect?
+Define MTTR.
+Write any four steps in implementation of management
+What system.
+are the limitations of JIT? Z
+B
+Attempt any three of the following:/
+What do by
+suitable example. you mean eyo
+Differentiate between the term and
+claims are being analyzed 7. warranty
+Elaborate house of quality using a schematic ~~
+Define the reliability. What are its objectives and h
+reliability of a product? Exp
+Human factor is the most in Quality of Product.
+Ca us detail with flowchart. {Ki |
+the various procurement procedure in a neat
+part of,the
+Attempt any one following:
+the organization structure and design of quality
+Write a note on
+the various steps to be taken in the planning of cost al oll
+reduction programs.
+1|Page
+QP25EP1_ 192 | 21-May-2025 9:02:30 AM
+|
+vine
+Paper ID : 250256 Subject C le:
+Roll No:
+(SEM BTECH
+QUALITY THEORY EXAMINATION 2024-25
+TIME: 3 HRS MANA EMENT
+M.MARKS: 100
+5 Attempt any
+one part of the following:
+QNo.| Question
+What do you mean by process capability study? Discuss with
+examples. some
+Explain the construction of X bar and R control charts. Where are they
+used?
+6. Attempt any one part of the following:
+Write short note
+Quality circle, on the follow ing: (i) MTTF, (ii). Maintainability, (iii)
+The probability distribution
+drive train on the Regional function for time to failure in years for the | 4
+f(t)= 0.2-0.02t Transit Authority bus is given by
+Find: 0<t<10 year a7
+i. Reliability R(t) aN |
+ii. The Hazard Rate Function
+iii. MTTF
+ac ny
+vy. Compute pute standard standard dey ia s://www.aktuo ktuonline.com .
+5
+Attempt any one part of tlie following: %
+Question
+| What
+9000? do you understand by documentation of Quality Systemg in ISO
+| Explain the Ne
+Taguchi Method in quality engineering?
+4
+2|Page
+5EP1_192 | 21-May 95 9:03:30 AM | 103.211.57.92

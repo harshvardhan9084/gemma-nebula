@@ -1,0 +1,89 @@
+Printed Pages: 6 259 EE-301
+filled in
+(Following Paper ID and Roll No. to be your
+Answer Book)
+Paper ID: 121311
+B. TECH.
+(SEM. II) THEORY EXAMINATION, 2015-16
+SYNTHESIS
+NETWORK ANALYSIS AND
+[Time:3 hours] [Total Marks:100]
+Section-A
+L. Attempt all parts. All parts carry equal marks. Write
+of in (2x10=20)
+answer each part short :
+properties matrix.
+(a) Write down the of incidence
+(b) What is duality ?
+(c) How is Tellegen’s theorem related to KVL and
+KCL.
+(d) Briefly describe the principle of superposition.
+(e) given network function, draw the pole zero
+diagram and comment on stability.
+(s+2)(s +7)
+1300 (1) PT.O.
+© vet the necessary
+Conditions forthe stability graph has three basic cutsets and six basic
+or a (b) graph having
+(g) What loops. Draw (i) the oriented network a
+are applications of transmission a parameters? nodes in ; one line (ii) (it all the six i basic ic loops loop
+(h)
+Forasymmetric lattice network the value of series | 3 Find the current through 10Q resistor using sing the venin
+impedance is 3Q and that of the diagonal theorem for the fig.1
+impedance is 5Q. What will be the Z parameters
+of the network ?
+(i) the difference between
+band pass and band
+elimination filter ?
+G) What are the required parameters of an ideal filter?
+Section-B | (a) State and prove Millman’s theorem.
+4
+Note: Attempt any five questions from this section : (b) Determine the Norton’s equivalent circuit of the
+in fig.2
+(10x5=50) network shown
+Bi
+2. (a) Forthe given reduced incidence matrix. Draw the
+graph and hence obtain the f-cutset matrix
+0011
+0100-11 1 Figure 2
+-1010 0
+-1 0 5. (a) Write the properties of the driviing point ,function
+transfer function.
+1300 (2) EE-301
+1300 . (3) P.T.O.
+Apply Routh’s Hurwitz
+polynomial criterion to the given 8. (i) low pass filter and (ii) high pass filter (Both
+and determine the number of root with (i) T and [] section for i and ii having a cut off frequency
+P real parts (ii) zero real parts (iii) negative real of 2kHz to operate with the load resistance of 600 Q.
+parts.
+9. the first and second foster forms of the function
+- Obtain the image parameters of the symmetric lattice
+network given in fig. 3
+.
+| S(s+2)
+Section-C
+Attempt two questions from this section. (15x2=30)
+any
+10. (a) Write the nnetwork equlibrium based K VL and
+on
+KCL.
+Figure 3
+(b) Determine the currents in all the branches of the
+The hybrid parameters of a two port netwrok shown in fig.4 network shown in fig.5 using node analysis method
+are h,, = 1kQ, h,, = 0.003, h, = 100, h, = Find V, of the graph theory.
+and Z parameters of the network my | 722
+Figure 5
+1300 (4) EE-301 1300 (5) P.T.O.
+maximum transfer
+11. (a) State and prove the power
+theorem applied to the AC circuits.
+(b) For the network shown in fig.6, determine the
+transfer function G,, (s), Z,,(s). Also find the driving
+point impedance Z, (s).
+Figare 6
+12. For the given network function, draw the pole zero
+diagram and hence obtain the time response I(t)
+5s
+4548)
+—x—
+1300 (6) EE-301

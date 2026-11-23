@@ -1,0 +1,159 @@
+aktuonline.com aktuonline.com
+sat
+No. of Printed Pages—5 EE-402
+B. TECH.
+FOURTH SEMESTER EXAMINATION, 2003-2004
+ELECTRICAL MACHINES
+& r
+Time : 3 Hours Total’ 100
+Note Attempt all the FIVE questions. _
+:
+1. Answer any FOUR of the following :—
+(a) Discuss the constructional features and
+explain various parts of a D.C. generator.
+(b) A short-shunt compound generator delivers a
+load current of 30 A at 220 V, and has
+armature, series-field and shunt-field
+resistances of 0:05, 0:309Q and 20092
+respectively. Calculate the induced e.m.f. and
+the armature current. Allow 1:0 V per brush
+for contact drop.
+(c) Describe external characteristics of D.C.
+generators.
+(d) A 25-kW, 250 V, D.C. shunt generator has
+armature and field resistances of 0:06 Q and
+respectively. Determine the total
+armature power developed when working :
+(i) as a generator delivering 25 kW output,
+and
+(ii) as a motor taking 25 kW input.
+(e) A 230V series motor is taking 50A.
+Resistance of armature and series-field
+winding is 0:2Q and 0:1 Q respectively.
+Calculate :
+134 (i) brush voltage,
+(ii) back e.m-.f.,
+EE-402 1 Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+(iii) power wasted in armature, and
+(iv) mechanical power developed.
+(p Describe methods to control the speed of
+D.C. motors.
+2. Answer FOUR of the following (5x4=20)
+any :—
+(a) Describe the factors for the selection of D.C.
+motor for specific application.
+(b) Describe the Hopkinson’s test for obtaining
+the efficiency of two similar shunt motors.
+(c) Derive the EMF equation of single-phase
+transformer.
+The no-load current of a transformer is 4:0 A
+at 0:25 p.f. when of supplied at 250 V, 50 Hz.
+winding The number is 200. Calculate turns on the primary
+—
+(i) flux in the core,
+(ii) the core loss, and
+(iii) magnetising current.
+(d) Draw the equivalent circuit of single-phase
+transformer. Explain the tests performed to
+obtain the parameters of the equivalent
+circuit.
+(e) Define voltage regulation of a transformer.
+A transformer has copper loss of 1:5% and
+reactance-drop load. Calculate of 3:5% full-load when regulation tested at full-
+its at :
+(i) 0-8 p.f. lagging,
+(ii) 0:8 p.f. leading.
+(p A 600-kVA, single-phase transformer when
+working at unity power factor, has an
+efficiency of 92% at full-load and also at half-
+EE-402
+aktuonline.com
+whenaktuonline.com
+Determine its efficiency
+operates at unity p.f. and 60% of full-load.
+3. Answer any TWO parts of the following :— (10x2=20)
+(a) Describe Sumpner test (Back-to-Back test)
+and explain how losses and efficiency are
+determined.
+A 10 kVA, 1-phase, 500/250 V transformer
+following test results
+gave :—
+— O.C test 250 V, 3:0 A, 200 W
+S.C test 15 V, 30 A, 300 W
+Calculate efficiency and regulation at full-
+load, 0°8 p.f. lagging.
+(b) (i) Describe, with neat diagram, the
+working principle a of instrument
+transformer.
+(ii) A 3-phase, delta/star transformer connected 11 kV/
+400 V, 50 of Hz 5 when secondary takes a load line
+current of 0-8 lagging amp, p.f. is connected.
+Determine each coil current and output
+of transformer.
+(c) Explain the working principle of 3-phase
+induction motor. The rotor of induction
+—_ Explain, motor cannot why. run at synchronous speed.
+A 3- induction motor is wound for 4 poles
+and is supplied from 50 Hz system.
+Calculate :
+(i) synchronous speed,
+(ii) rotor speed when slip is 4%, and
+(iii) rotor frequency when rotor runs at
+600 rpm.
+EE-402 3 Turn Over
+aktuonline.com
+ktuonline. li
+aktuo ne OR tempt any TWO parts of the following . m
+(a) Derive torque, mechanical and rotor
+output equations of a three-phase power induction
+motor connected from A.C. mains.
+A 400 V, 4-pole, 3-phase, 50 Hz induction
+motor phase has of a rotor 0:01 resistance and 0-1 and respectively. reactance
+per Determine Q
+:
+(i) maximum torque in N-m and _ the
+corresponding slip,
+the full-load slip and power output in
+watts, if maximum torque is twice the
+full-load torque and the ratio of stator to
+rotor turns is 4.
+(b) Why are starters needed to start the
+induction motors ? Explain various starters
+used for cage and wound rotor type
+induction motors.
+(c) | Describe the methods to control the speed of
+induction motors.
+The rotor of a 4-pole, 50 Hz, slip ring
+induction motor has a resistance of 0:25 Q
+per phase and runs at 1440 rpm at full-load.
+Calculate which the be external added resistance lower the per speed phase, _
+1200 must the being to before. to
+rpm, torque same as
+5. Answer any TWO parts of the following :—
+(a) Draw the neat diagram of synchronous
+alternator and derive the EMF equation.
+The effective resistance of 2200 V, 440 kVA,
+1-phase, alternator is 0-5 a ohm. On short-
+circuit, a field current of 40 A gives the full-
+EE-402 4
+aktuonline.com aktuonline.com
+load current of 200 A. The emf on open
+circuit with same field excitation is 1160 V.
+Calculate synchronous impedance and
+reactance.
+(b) Explain Potier method to determine voltage
+regulation of an alternator.
+3-phase A 20 kVA, salient 220 pole V, 50 synchronous Hz, star-connected,
+supplies load lagging factor generator angle
+45°. The constants at a of power generators
+40 and X, =2:0Q, R, 0:5 Q. Calculate are
+power angle and voltage regulation = under
+the given load conditions.
+following
+(c) Explain the :—
+(i) Synchronizing of alternators
+(ii) V-curve of synchronous motor
+(iii) Armature reaction in alternator
+aktuonline.com

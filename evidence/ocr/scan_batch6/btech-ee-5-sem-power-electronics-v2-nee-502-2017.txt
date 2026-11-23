@@ -1,0 +1,61 @@
+uptuonline.com
+NEE-502 | Whatismeantby and step -down chopper?
+Printed Pages: 3 g. step-up
+(Following Paper ID and Roll No. to be filled in your h. Why thyristors are not preferred for inverters?
+Books)
+Answer i. | What does ac voltage controller mean? * /hat are
+Paper ID: 2012415 Roll No uptuonline.com the applications of ac voltage controllers’.
+j. you mean by holding current?
+B.TECH
+Carry Over SECTION-B
+Theory Examination (Sem-V), 2016-17 Note: Attempt 5 questions from this section.
+POWER ELECTRONICS any
+Time : 3 Hours Max. Marks: 100 2. What the different methods to turn the thyristors?
+are on
+Note: i. Attempt all questions. Explain any three methods, uptuonline.com
+J. Draw the two transistor model of SCR and derive an
+ii, All questions carry equal marks. ,
+expression for anode current.
+4. Derive the expressions for average output voltage and mms
+SECTION-A output voltage of 1 phase semi converter. Semi converter
+1. parts. All parts carry equal marks. Write bridge circuit, (b) waveforms of vo, io Average
+answer of each part in short. (c) output
+(10x2=20) voltage erns value of output voltage expression.
+a Define latching current. Describe the principle of step chopper. Derive
+b. expression for - up input' an
+What are the advantages of MOSFET over BJT? the average output voltage in terms of
+c. Whatis the function of free wheeling de voltage & duty cycle.
+diodes? Explain with circuit diagram and waveforms the
+d. Give an expression for average voltage of single operation
+phase semi converters. of BJT as aswitch,
+Explain the working principle of single phase single
+What is meant by commutation? What are the types phase to
+ofcommiutation? uptuontine.com cycloconverters with appropriate Waveform and
+bridge circuit?
+{Write the applications of power electronics Explain the
+devices. construction and working principle of SCR,
+Also draw the V-I characteristics of SCR.
+502/12/2016/1800 (1) [P.T.O.
+(2) uptuonline.com
+NEE-502
+9. What is the need of
+electronics devices? protective device in power
+help of Ex plain the snubber circuit with the
+circuit diagram?
+SECTION-C
+Nate; Attempt any 2 questions from this section
+:
+(2x15=30)
+10. What is meant by forced commutation? What the
+ditferent types of commutation? Explain class are
+commutation technique with - C
+appropriate bridge circuit?
+Wl. Describe the working of 3 phase fully controlled bridge
+converter in the Rectifying mode and inversion mode.
+And derive the expressions
+for sverage output voltage and
+tins output voltage & draw the appropriate waveforms.
+12. Describe the operation of series inverter with aid of
+diagrams.
+$92/12/2016r1800
+(3)

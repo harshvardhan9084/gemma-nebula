@@ -1,0 +1,76 @@
+www.aktuonline.com
+Printed Pages : 3
+AN
+EEE404
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 121408
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+MICROPROCESSORS
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions. Each question carries equal
+marks.
+1 Attempt any four parts of the following. (5x4=20)
+(a) Differentiate among address and data buses of 8085
+and 8086 microprocessor?
+(b) Explain the function of following pins of 8086.
+(i) ALE (it) HLDA (iii) INTR (iv) RESET (v) READY
+(c) Differentiate between offset, physical and effective
+addresses in 8086.
+(d) Enlist and explain the interrupt pins in 8085.
+(e) Explain the addressing modes of 8085.
+(f) | Explain the division and multiplication instructions of
+8086.
+121408] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any two parts of the following. (10x2=20)
+(a) Draw and discuss the instruction fetch, read and write
+cycle of 8085.
+(b) Explain the flag register of 8085 microprocessor.
+What is flags status when addition of following
+hexadecimal numbers is performed?
+(i) EE+7D (ii) A5+59 (iii) 87+5B
+(c) Develop assembly language in 8085
+for finding an the of two eight programme bit numbers if result
+is than 8 bits. sum Consider that numbers in the
+more and result is be stored in the are
+memory to memory.
+3 Attempt any two parts of the following. (10x2)
+(a) Draw the register organization of 8086 and explain
+the significance of each register.
+(b) Explain the data addressing modes in 8086 with
+example.
+(c) Explain the following Instructions of 8086 with
+example.
+(i) LDS (ii) SBB (iti) ADD (iv) MOV (v) ADC
+(vi) XCHG (vii) PUSH POP (ix) XLAT (x) IN
+4 Attempt any two parts of the following. (10x2)
+(a) Explain the interrupts and interrupt sequence in 8086.
+Also explain the following instructions.
+(i) INT 30H (ii) INT 45H
+(b) Draw and explain the internal architecture of 8259
+interrupt controller. What are its operation command
+words?
+(c) Develop an assembly language programme for 8086
+to add two binary numbers each of 16 byte long.
+The numbers are stored from 9300 to 930F and 9400
+to 940F. The result is to be stored from 9300 to
+930F.
+121408] 2 [ Contd...
+www.aktuonline.com
+5 Attempt any two of the following (10x2)
+(a) What the methods to generate delay in software?
+Write are to generate delay of 200
+using 8085 a programme that 50 a MHz frequency. ms
+system runs on
+(b) Draw and explain the internal architecture of 8255.
+What are its modes of operation.
+(c) Interface an 8255 with 8085 to work as an I/O port.
+Initialize port A as output port, port B as input port
+and port C as output port. The address of Port A,
+Port B, Port C and CWR is 0840, 0842, 0844 and
+0846 respectively. Write a programme to sense the
+input as 10011001 at Port B. The sensed pattern is
+to be displayed on Port A through LEDS.
+121408]
+3 [2700]

@@ -1,0 +1,85 @@
+www.aktuonline.com
+Printed Pages : 3
+0 0000
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 132601
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+COMMUNICATION ENGINEERING
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt All Questions. All Questions carry equal marks.
+1. Attempt any four parts of the following : (5x4)
+(a) With the help of block diagram explain the
+working of communication system.
+(b) Explain how DSB-SC demodulator works.
+(c) What is the need multiplexing? Explain the working of
+FDM.
+(d) Explain the square law diode modulation method for
+AM generation.
+(e) Determine the percentage of power saving when carrier
+wave and one of side bands are suppressed in a AM
+wave modulated to depth of
+(i) 100% (ii) 50%
+(f) Explain the VSB transmission.
+132601] 1 [ Contd...
+www.aktuonline.com
+2. Attempt any four parts of the following : (5x4)
+(a) Explain the difference b/w narrow band FM & wide
+band FM.
+(b) Illustrate the principle of Armstrong method of generating
+FM.
+(c) Derive the expression for single tone narrow band
+frequency modulated wave.
+(d) Consider an angle modulated signal:
+x (t) = 3cos + 2 sin
+Find
+(1) Its instantaneous frequency time 0.5
+at t = ms
+(ii) Maximum frequency and maximum phase deviation.
+(iii) BW and Transmitted Power.
+(e) Write a short note on super heterodyne receiver.
+(f) Relate phase and frequency modulation.
+3. Attempt of the following (10x2)
+any two parts :
+(a) State and prove the Sampling Theorem. Draw the block
+diagram of pulse width modulation and explain its
+working.
+(b) Explain spike generation and threshold effect in FM.
+How to improve performance of FM receiver over these
+effects.
+(c) Explain the noise analysis of DSB-SC receiver using
+coherent detection & derive the expression for figure
+of merit.
+Attempt of the following (10x2)
+4. any two parts :
+(a) Explain the cause of Inter symbol interference & discuss
+the Nyquist criterion for a distortionless base band
+binary transmission.
+132601] 2 [ Contd...
+www.aktuonline.com
+(b) A voice frequency signal band limited to 3 kHz is
+transmitted with the use of DM (Delta modulation)
+system. The pulse repetition frequency is 30,000 pulses
+per second, and the step size is 40mV. Determine the
+maximum permissible speech signal amplitude to avoid
+a slope overload error. What is granular Noise in DM.
+(c) Explain the characteristic of Matched filter and calculate
+the impulse of Matched filter.
+response
+5. Attempt two parts of the following (10x2)
+(a) Compare any the noise performances of : various PSK &
+FSK
+(b) Define system. the following
+(1) Information and terms :
+Entropy
+(ii) A discrete memoryless source has an alphabet
+of seven symbols whose probabilities of occurrence
+are as describe here :
+{Symbol} [so sl $2 $3 s5 s6]
+{Probabilities} [0.05 0.15 02 0.05 O15 0.3 0.1]
+Compute the Huffman code for this source, moving
+“combined” symbol as high as possible.
+(c) Write short notes on the following:
+(1) Digitization of Video
+(ii) OFDM.
+132601] 3

@@ -1,0 +1,63 @@
+Printed Pages—3 — EEC035
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ED: 2896
+(SEM. VII) EVEN THEORY EXAMINATION 2012-13
+INTRODUCTION TO RADAR SYSTEMS
+‘Time : 3 Hours Total Marks : 100
+Note :— Attempt all questions. All questions carry equal marks.
+1. of following
+Attempt any twe parts the : (10x2=20)
+(a) With the help of schematic block diagram, explain radar
+transreceiver system.
+(b). An L-band radar operating at 1.25 GHz uses a peak nautical pulse
+power of 3 MW and must have a range of 100
+miles for objects whose radar cross-section is 1.0m”. If the
+minimum receivable power of the receiver is 2 x Watt,
+what is the smallest diameter the reflector could
+antenna
+have, assuming it to be a full paraboloid with K = 0.65 ?
+(c) What is a duplexer ? Explain the operation of a radar
+duplexer with the help of a circuit diagram. What is the
+main limitation of the duplexer _
+? Explain.
+2. - Attempt any two parts of the following : (10x2=20)
+{a) Draw the block diagram and explain the operation of
+radar using frequency a
+CW zero intermediate in the receiver.
+How have the drawbacks of the radar been overcome ?
+EEC035/DPC-47990 | [Turn Over
+.
+\
+(b) Explain what is meant by the term blind speed in MTI radar. 5. Attempt any two parts of the following: — (10x2=20)
+Under what conditions could this be embarrassment ? What
+of an of blind a) What do you understand by measurements of radar
+is a method Calculate overcoming the problems speed in parameters ? Enlist the various characteristics of the target
+radar ? the lowest two blind speeds of this radar, that are to be extracted from the radar signals.
+operating at following
+5 pulse repetition frequency of 800 pps. (b) Explain the terms :
+() Range measurement
+(c) Explain the use of delay line cancellers. Describe various
+types of delay-lines. used in MTI radar. Explain with (ii) Range accuracy ©
+frequency of the delay line cancellers. Range ambiguity
+response _
+Attempt any two parts of the following : (10x2=20) (iv) Range gate.
+(a) Describe with the aid of sketch, the conical scanning (c) What do you mean by radar clutter ? Explain various types
+a of radar clutters. How they affect the performance of the
+method of tracking an acquired target. How is this an
+improvement over lobe switching ? radar ? Explain.
+(b) Explain the basic difference between search radar and
+tracking radar. Compare different types trackers systems.
+of
+(c) What do you understand by acquisition of target and explain
+the various method of antenna scanning?
+Attempt any two parts of the following : (10x2=20)
+(a) What are the different types of detection used in radar ?
+Explain zero crossing detector with diagram.
+(b) Discuss the need of Constant False Alarm Rate Receiver
+(CFAR). Explain working of the cell averaging CFAR with
+block diagram.
+(c) Define threshold detection in radar signals. What do you
+by coherent detector ? Discuss the coherent
+mean
+integration of non-fluctuating target.
+EEC035/DPC-47990 2 EEC035/DPC-47990 3 6675

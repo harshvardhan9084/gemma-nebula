@@ -1,0 +1,91 @@
+Printed Pages—4 EC — 603
+(Following Paper ID and Roll No. be filled in Answer Book)
+to | | | your
+B.Tech.
+SIXTH SEMESTER EXAMINATION, 2004-2005
+MICROPROCESSOR
+~ Time : 3 Hours Total Marks : 100
+Note: (i) Attempt ALL questions.
+(ii) All questions equal marks.
+carry
+1. Attempt any four parts of the following : (5x4=20)
+(a) Describe the main advantages of a multi
+programming system over uniprogramming
+system.
+(b) Draw the bus cycle for an 8086 IOW.
+(c) Explain the conditions under which the IPQ in
+8086 will be flushed.
+(d) Explain why segmentation in 8086 makes
+multitasking easier.
+(e) Explain why the throughput of an 8086 based
+system increases due to asynchronous behavior
+of EU and BIU.
+(f) At what point in an 8086 bus cycle the READY
+line is checked and its response in return.
+1 [Turn Over
+2. Attempt any four parts of the following : (5x4=20)
+(a) Name the addressing mode for following 8086
+instruction.
+(i) | DEC WORD DTR 4243 [BP] [SI]
+(ii) CALL BX
+(iii) MOV [BX], AX
+(iv) ADD AX, BX
+(v) SUB 4243 [BP] [SI], SI.
+~
+(b) Find the errors in following 8086 instructions and
+correct | them.
+(i) MOV CS, 4243
+(ii) SHR AX, 66
+(iii) IN AL, 4243
+(iv) LOOP : MOV AX.BX
+(v) CALL 4243 [BX] [SI]
+(c) Write an 8086 ALP to convert a 16 bit binary
+number passed in AX to equivalent packed BCD
+number.
+(d) Write 8086 ALP to call FAR PROC with 2
+word parameters an passed using a pointers.
+(e)
+Explain the following assembler directives.
+(i) EXTRN ~
+(ii) i PUBLIC
+(iii) EVEN
+(iv) STACK
+(v) DT
+(f) Explain the differences between Recursive and
+Reentrant PROC.
+EC—603 2
+3. Attempt any two parts of the following : (10x2=20)
+(a) With a timing diagram, explain the activities on
+HOLD and HLDA pins of 8086.
+_(b) Draw one bit internal structure of 8286 and with
+a latched. timing diagram, explain how BHE signal is
+(c) Explain how does the 8087 understands or
+informs that :
+(i) it is working with 8088.
+(ii) particular instruction is meant for 8087.
+(iii) 8087 has finished the work assigned.
+4. Attempt any four parts of the following : (5x4=20)
+(a) Explain the difference between BURST,
+TRANSPARENT and CYCLE STEAL DMA.
+(b) Explain with schematic, how an 8255 - A
+programmed in MD1 output can be connected to
+the data bus of a processor.
+(c) In 8251-A, explain the function of SYNCDET/
+BREAKDET pin under different programming
+conditions.
+(d) Using 8259-A, explain how more than 64
+interrupting devices can be connected with an
+8086.
+(e) With a neat schematic, explain how an 8253 can
+be used to implement a WATCH DOG timer.
+With schematic, explain the working of
+4 bit FLASH a neat ADC. a
+EC—603 3 [Turn Over
+Attempt any two parts of the following : (10x2=20)
+(a) Describe the procedure for interfacing DRAM in
+system. Explain the function of DRAM
+a controller in this interface.
+(b) Draw the internal structure of a FAMOSFET and
+explain how an EPROM stores charge.
+(c) Draw the internal structure (Block Diagram) of
+8051 and explain.

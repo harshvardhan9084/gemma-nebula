@@ -1,0 +1,107 @@
+NU
+Printed Pages 04 EC —602
+(Following Paper ID and Roll No. be filled in Answer Book)
+to your
+B.Tech.
+SIXTH SEMESTER EXAMINATION, 2004-2005
+DIGITAL COMMUNICATION
+-— Time : 3 Ho urs Total Marks ; 100
+Note: (i) Answer ALL questions.
+(ii) All questions carry equal marks.
+(iti) In case of numerical problems assume data wherever
+not provided.
+1. Attempt any four parts of the following : (5x4=20)
+(a) A DMS with has probabilities an alphabet of 8 letters x;, i=1,
+0.10, , 8 0.08, 0.05 and 0.05. 0.25, 0.20, Determine 0.15, 0.12,
+optimum binary code for the using an
+Huffman Coding procedure. source
+(b) Let X be output of a DMS with letters a4, a9, a3
+in its alphabet with probabilities 0.45, 0.35 and
+0.20. X is transformed to Y by following linear
+operation Y=aX+b where a and b are
+constants. Determine entropy of Y.
+Prove that for a DMS an optimum code exists
+have in which higher lower length probability codewords. letters consistently
+(d) Show that I(x y) < min. {H(x), H(y)}.
+;
+EC — 602 1 [Turn Over
+(e) What is Shannon limit ? Determine its value.
+(f) Find minimum bandwidth needed for
+transmission if 6 messages of 20 KHz
+bandwidth each are multiplexed using FDM
+followed by SSB modulation.
+2. Attempt any four parts of the following : (5x4=20)
+(a) Asinusoidal signal is input to mid tread type
+uniform quantizer. Draw the quantizer a output
+for one cycle of the input.
+(b) Show that for a uniform quantizer with a given
+dynamic levels is doubled range, if the then number signal-to-quantization of quantization
+noise increases by 6 dB.
+power
+(c) What is the A-law of companding ? Give its
+expression and draw it.
+(d) What is the maximum power of a sinusoidal
+input to a delta modulator with step size D, if
+no slope-overload distortion is to take place.
+The sampling interval is Ts.
+(e) What is sigma-delta modulator ? Give its
+block-schematic diagram ?
+(f) | What is T3 system ?: Describe it briefly.
+3. Attempt two of the following (10x2=20)
+any parts :
+(a) (i) Let be the raised cosine spectrum
+with roll-off factor «. Show that
+df=1.
+EC—602 2
+(ii) What is minimum bandwidth solution
+for pulse shape with zero ISI? Assume
+symbol duration is T.
+(b) Given a bit sequence of 01011001, draw line
+codes in NRZ-L, NRZI and pseudoternary
+formats. Compare them on the basis of their
+bandwidth and clocking capability.
+(c) Derive the optimum correlation receiver
+structure for coherent reception in AWGN
+channel.
+4. Attempt of the following (10x2=20)
+any two parts :
+(a) Derive the probability of bit error for QPSK
+scheme in AWGN channel.
+(b) Apply gram-schmidt procedure to following
+signals to obtain an orthonormal basis set and
+signal coordinates.
+ime S(t)
+1
+-1
+(c) Digital information is to be transmitted by
+carrier modulation through an AWGN channel
+with a bandwidth of 100KHz and
+No= 107 Hz. Determine the maximum
+rate that can be transmitted through the
+channel for :
+(i) | Four phase PSK
+(ii) Binary FSK
+(iii) Four-frequency orthogonal FSK with
+incoherent reception.
+EC—602 3 {Turn Over
+5. Attempt any two parts of the following : (10x2=20)
+(a) Show that block code with hamming
+distance of 2t a + 1 detect at most 2t bit
+and correct upto t can bits of using minimum errors
+distance decoding rule. errors
+(b) (i) Show that a cyclic code with (1+.x) as
+factor of its generator polynomial will
+detect all odd number of bit errors.
+(ii) Let g(x) be a
+polynomial over the binary field. Find
+the lowest rate cyclic code whose
+generator polynomial is g(x).
+(c) Consider a convolutional coder with following
+structure.
+;
+(i) Determine its rate, constraint length and
+generators,
+(ii) Determine its state diagram and transfer
+function.
+HE
+EC—602 4

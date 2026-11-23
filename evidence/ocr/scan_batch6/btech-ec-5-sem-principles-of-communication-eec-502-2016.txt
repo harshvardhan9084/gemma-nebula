@@ -1,0 +1,97 @@
+uptuonline.com aktuonline.com uptuonline.com aktuonline.com
+of bits
+Printed Pages: EEC-502/NEC-502 (g) Which scheme utilizes the most number
+per symbol- Delta modulation of Adaptive delta
+(Following Paper ID and Roll No. to be filled in your modulation?
+Answer Book)
+Paper ID: 1315 (h) Define noise bandwidth.
+13150
+(i) What is the shape of function of
+random process having power spectral density
+(SEM. V)(ODD SEM) THEORY EXAMINATION, 2015-16 suTuonjdn a suTuonjdn
+(PSD) with only DV term?
+PRINCIPLES OF COMMUNICATION
+(j) Convert 120 W into dBm.
+{Time:3 hours] 100
+Section-A Section-B
+wos wos
+Ql. all parts. All parts carry equal marks. Write five questions from this section. 10«5=50
+of each part in short. Note: Attempt any
+answer scheme?
+(a) Draw the Block diagram of SSb synchronous Q2. What is the basic limitation SSb modulation
+demodulation How it is eliminated by Vestigial Side Band modulation.
+system. ye ye ye
+(b) List the advantages of DSB-FC modulation shceme. Q3. Mention advantages and applications of VSB
+band-
+modulatiion. Two signals m1 (t) and m2 (t), both
+(c) Write two properties of Bessel’s Function limited to 5000 rad/sec, are to be transmitted
+simultaneously channel by the multiplexing
+(d) Mention three direct methods of FM generation. wos over a wos
+shceme as shown in figure 1 below. The single at point b
+from 300 Hz is the signal at point c is transmitted over a channel.
+(e) Asignal has frequency components
+to 1.8 KHz. What is the minimum possible rate at (i) Sjetch the signal spectra at b, c.
+which the signal has to be sampled? - a,
+channel?
+the data for T-1, T-2, T-3 and (ii) What must be the bandwidth of the
+(f) Mention exact rates
+J-4 carrier systems.
+10600 (1) P.T.O. 10600 (2) EEC-502/NEC-502
+uptuonline.com aktuonline.com uptuonline.com aktuonline.com
+uptuonline.com aktuonline.com aktuonline.com
+Section-C
+nN
+Note: Attempt any two questions from this section.(152=30)
+-5000 0 X00 ae
+Q10. A compact disk (CD) recorsing system smaples each of
+y
+2 cos 20,0007 two stereo signals with a 16-bit analog-to digital
+(ADC) 44.1 kb’s.
+2 cos 10,0007 converter at
+(i) Determine the
+uonjdn output signal-to-quantizing ratio for suTuonjdn
+a full-scale sinusoid.
+Prove that bandwisth of an FM wave is infinity. Also (ii) The bit stream of digitized data is augmented by
+represent the single tone FM wava as a function of —
+the addition of error-correcting bits, clock
+Bessel’s Function. extraction wos
+bits, and display and control bit fields.
+Discuss Armstrong’s method of indirect FM generation These additional bits represent 100 percent
+in detail.
+overhead. Determine the output bit rate of the CD
+8 Explain the TDM principle. Draw a circuit diagram to recording
+ye ye ye system. ye
+illustrate the flat-top smapling. Draw the block diagram (iii) The CD record hour’s worth of
+of PCM shceme and explain its functionality. can an musci.
+Determine the number of bits recorder on a CD.
+Show that the equivalent noise bandwidth of a low pass
+(iv) For a comparison, a high-grade collegiate
+of wos wos
+filter is 5 times its 3dB bandwidth disctionary amy contain 1500 pages, 2 columns
+100 lines columns, words line,
+Q oo Describe PWM and PPM generation with neat labeled per page, per & per
+. a 6 letters per word, and 7 b per letter on average.
+diagram.
+Determine the number of bits required to describe
+Q9. Quantify the noise performance of frequency modulated the dictionary, and estimate the number of
+systems in detail.
+comparable books.
+10600 (3) P.T.O. 10600 (4) EEC-502/NEC-502
+uptuonline.com aktuonline.com uptuonline.com aktuonline.com
+uptuonline.com aktuonline.com
+Q11. Write a short note on AWGN. Calculate the Power
+Spectrum Density (PSD) corresponding to the
+autocorrelation function x (t) ofa random process shown
+in figure 2 below:
+suTuonjdn
+Figure: 2
+wos
+Q12. How is the human voice modeled? What do by
+you mean
+VOCODER? Explain the generation of LPC VOCODER
+system.
+ye ye
+wos
+10600
+(5) EEC-502/NEC-502
+uptuonline.com aktuonline.com

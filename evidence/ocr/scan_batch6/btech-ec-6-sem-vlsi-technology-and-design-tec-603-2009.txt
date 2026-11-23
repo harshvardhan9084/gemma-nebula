@@ -1,0 +1,71 @@
+TEC 603
+Printed Pages : 3 —
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 3093.
+B. Tech.
+(SEM. VI) EXAMINATION, 2008-09
+VLSI TECHNOLOGY AND DESIGN
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions.
+1 Attempt any four parts of the following :
+(a) How did technology shift from SSI to MSI then
+to VLSI?
+(b) Draw the equivalent circuit of a base diffused
+resistor showing all parasitic elements.
+(c) For a die size of 0.25inch x 0.25inch, calculate
+the number of dice in a 50 wafer lot of 6 in
+wafers.
+(d) How is single crystal grown? Describe one of the
+approaches that allow the crystal to be grown
+with a free surface.
+A silicon wafer with p type doping 10!> is heated
+at 1000°C for 1 hour in dry oxygen. How much
+oxide has been grown?
+What are the techniques to form oxide layer?
+What are applications of oxide layer?
+3093] [Contd...
+2 Attempt any two parts of the following 10x2
+(a) Discuss diffusion. Find diffusion constants for :
+(i) interstitial diffusion
+(ii) substitutional diffusion
+(b) What do you mean by ion implantation? If 45° an
+analyzing magnet bends the ion beam through
+and L= r =S0cm, find displacement D that would
+be seen if is sent through the system when
+it is turned for B,, if the extraction potential
+is 2 kV, find the field required.
+(c) Write short notes on ;
+(i) Photo mask and Photo resists
+(ii) Photolithography techniques.
+3 Attempt any two parts of the following 10x2
+(a) Explain with diagram the fabrication of BJT.
+neat
+(b) (@) Draw a CMOS inverter and explain its
+transfer
+(ii) What different scaling methods? Write
+the various are scaling factors for the device
+(c) Describe the lambda design rules and layout
+methodology for CMOS circuit design.
+4 Attempt any four parts of the following : 5x4
+(a) Discuss the tests for stuck faults for each
+transistor in two input NOR open
+a gate.
+(b) Which language is used to CAD design for VLSI?
+Discuss its application is design of MUX.
+3093]
+a
+(c) Draw stick diagram for a two input multiplexed
+latch. Place the two transmission gate side by
+side.
+(d) Draw the circuit diagram of one stage of a
+dynamic CMOS register.
+(e) Sketch the circuit diagram of ratio less MOS
+inverter. Explain its operation. a
+(f) Draw the block diagram of 1 bit SRAM.
+Attempt any two parts of the following : 10x2
+(a) Discuss programmable logic (PLA) with
+example of NMOS PLA. array
+(b) Describe field programmable gate array (FPGA).
+Realize NAND/NOR function using PGA?
+(c) Describe the commonly used VLSI testing
+procedures.

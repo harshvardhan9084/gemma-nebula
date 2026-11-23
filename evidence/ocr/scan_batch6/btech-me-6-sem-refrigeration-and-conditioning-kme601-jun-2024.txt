@@ -1,0 +1,101 @@
+| | | ‘
+APER ID) 4103 12 Rati No: | |! | i |
+BIECH
+(SEM VI) THEORY EXAMINATION 2023-24
+REFRIGERATION AND AIR
+_TIME: 3 HRS M.MARKS: 100
+| suitably.
+Note: 1. Attempt all Sections. If require any missing ditta. then choose
+SECTION A
+a// questions in brief.
+1. Attempt COP. 92
+a. Define the terms refrigerating effect and heat during 02
+b. Compute the COP range for the refrigerator and pump a,
+air-retrigeration cycle. 02
+ec. COP of vapour compression cycle is higher than COP of
+|_| Summarize your answer, supetheating in VCRS? 02
+What is sub-cooling and VAR system that performs the function as that | | 02
+e. | Name of the components in of same
+f.___| What compressor VCRsystem is with refrigerant 02
+type you of understand compressor by preferred apparatus dew point(ADP)? OR
+What do factor (SHF) and bypass factor
+Define sensible heat compressor?
+i. Whatisa hermetically sealed 02
+| | What do you understand by cooling tower
+‘SECTION
+of the following:
+2.Attempt any three K and 260
+a. A machine working on a Camot cycle operates between refrigerating 305 machine; 2.
+| Determine the C.0.P. aheat wher: it is’ operand as: |. a a
+heat pump; and 3. ideal VCR? Plot the actual | 10
+| How does the actual diagram VCR cycle andexplain differ from the associated the
+VCR on p-h and T-s the heat is supplied to NH3 generator 10 |
+in an absorption type refrigerator, and 90% dry. The temperature in the refrigerator |
+bycondensing steam at 2 bar C. Find the maximum C.0.P. possible, If the |
+is to be maintained at- 5° and actual C.O.P, is 70% of the maximum
+refrigeration load is 20 tonnes required hour, Take the temperature of the |
+C.O.P.,findthe 30° mass C of steam per |
+atmosphere DBT as and 90% RH is to be brought to 35°C DBT and 22.5°C WBI ; 10
+Air with av the 10°C help of winter air conditioner. If the humidified air comes out of the
+humidifier at 90% RH, draw the warious processes involved on 3 skeleton |
+psychrometric chart and find : 1, the temperature to which the air should be
+reheated, and 2. the efficie of cy of the air-washer preservation, Explain how —
+Explain the applications refrigeration for food 10
+e. refrigeration controls the spdilage of
+“SECTION C
+of the following:
+3. Attempt any one part on systems and 10
+a. | Enumerate the classification of and
+differentiate between a simple aircraft relrigeration syste em r-cooling used
+a bootstrap refrigerationsystem. Comparethe variousat
+for aircraft on the basis of DART. air working on Bell-Coleman = Wo
+Derive an expression for COP of an 14
+https://www.a ktuonline.com
+UA yrintea rage: 2012
+0 Subject Code: KME601
+PAPER
+Roll No:
+BIRCH
+(SEM VI) THEORY EXAMINATION 2023-24
+REFRIGERATION AND AIR CONDELIONING
+_TIME: 3 HRS MMARKS: 100
+if the compression and expansion processes take place according: te th
+law >
+pv" constant.
+of the following:
+4.Attempt any onc part
+a. In an ammonia vapour compression System, the pressure in the evaporator ty 2 "10
+bar. Ammonia at exit is 0. 85 dry aid at entry its dryness fraction is 0.17.
+During compression., the work done per kg of ammonia is 150 kJ. Calculate
+the C.O.P. and the volume of vapourentering the compressor per minute, if the
+rate of ammonia circulation is 4.5 kg/min. The latent heat and specific volume
+bat 1325 kJ/kg and 0.58
+Derive the are expression for C.O.P. of a refrigerating system consisting of three. 10
+I the sametemperature with - a single
+valve, evaporators at
+. of the following: —— em a
+any one part 10
+a. What is the basic function of a compressor in vapour compression refrigeration
+system? How this function is achieved »n vapour absorption refrigeration
+system? ee
+b. _ Differentiate between physical and thermodynamic properties of a refrigerant. , 19
+Explain which are more important gidiglg specific
+6.Attempt any one part of the following
+Anair conditioning required to supply 60 mm! of air per at a; 10
+| plant is The outside air is at DBTof 28°C and 60%
+DBT of 21°C and 55% water RH: drained and capacity of the cooling cou. Assume
+Determine the mass of dehumidify and then to cool the air.___
+the air conditioning plant first to air conditioned hail ys 300 m/min. 10
+“b. The amount of air supplied to an 6°C DBT and 55% RH. The required |
+Theatmospheric conditions are 3 RH. Find out the sensible > | heat and latent
+conditions are 20°C DBT and 60% Also find @ sensible ‘ heat factor tor the
+heat removed from the air per minute.
+system. the following: —https://www.aktuonline.com o
+7.Attempt any one part of
+Write short otes on frictional losses dynamic losses in flow 2 10
+a. duct. Write n the expression for pressure drop 1 ducts with
+| nomenclature
+| Explain Brief about com ee 10
+b. m jet refrigeration system, b Magnetic refrigeration ; system rd
+a. Steam
+https://www.aktuonline.com

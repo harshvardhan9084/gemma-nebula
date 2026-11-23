@@ -1,0 +1,68 @@
+Printed Pages : 2 EEE-501
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 2111 rool | TTT
+B. Tech.
+(SEMESTER. V) THEORY EXAMINATION, 2012-13
+ELECTROMECHANICAL ENERGY CONVERSION - II
+Time : 3 Hours ] [ Total Marks : 100
+Note; Answer all the Sections.
+SECTION-A
+Answer all parts of this section. 2x10=20
+(a) Explain why closed type slots are often used for small induction motors ?
+(b) What is the condition for producing maximum torque in a 3-phase induction
+motor ?
+(c) What is the speed of rotor mmf of a 3-phase induction motor w.r.t. its stator
+mmf?
+(d) Why a 3-phase synchronous motor will always run at synchronous speed ?
+(e) What is meant by hunting of synchronous motor ?
+(f) | What is the purpose of damper winding ?
+(g) Does resistance start induction motor have high low starting torque ? Explain.
+a a or
+(h) How the direction of rotation of a capacitor-start induction motor is changed ?
+Discuss.
+(i) | What is shaded-pole ?
+a motor
+G) What happens when the auxiliary winding of a capacitor motor disconnected
+during running condition ?
+SECTION - B
+2. Answer any three parts of the following : 3 x 10=30
+(a) Prove that resultant field in case of 3-phase induction machine is given by
+3
+= 2 Where is the maximum flux in any one phase.
+2111 1 P.T.O.
+(b) Draw the equivalent circuit of a 3-phase induction motor under blocked rotor
+condition.
+(c) What is synchronous condenser ? Explain with the help of phaser diagram its
+operation and application.
+(d) <A 2.3 kV, 3-phase star-connected synchronous motor Z, = (0.2 + j 2.2) ohms per
+phase. The motor is operating at 0.5 power factor leading with a line current of
+200 A. Determine the generated emf/phase.
+(e) Derive the equivalent circuit of a single phase induction motor with the help of
+double revolving field theory.
+SECTION
+Answer all questions in this section. 5 10=50
+x
+3. What is slip ? Draw the torque-slip characteristic an induction motor. Derive the
+torque slip relation.
+OR
+By means of power-flow diagram, show the flow of power in a 3-phase induction motor
+from the electrical source to mechanical load at the motor shaft. Based on above, show
+that
+where all terms used have their usual meanings.
+4. no-load and blocked rotor test for 3-phase induction motor.
+OR
+Briefly explain the phenomenon of Cogging and crawling.
+5. Explain effect of varying excitation on armature current and power factor in a
+synchronous motor. Draw & discuss V curves.
+OR .
+What is the nature of power factor in a power system ? Explain how a synchronous
+motor can be used for power factor improvement, with proper vector diagram.
+regulation
+6. Define the terms synchronous reactance and voltage of alternator. Explain
+synchronous impedance method of determing voltage regulation of an alternator.
+An alternator is conhected to an infinite bus and is running at no load. Explain briefly
+how to increase its real and reactive power outputs.
+7. Describe briefly various starting methods for single phase induction motor.
+OR
+Name three types of stepper motors and comment on their constructional differences.
+2111 2

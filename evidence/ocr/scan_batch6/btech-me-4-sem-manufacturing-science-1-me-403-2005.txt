@@ -1,0 +1,82 @@
+aktuonline.com ah aktuonline.com
+Printed Pages—3 — 403
+FOURTH SEMESTER EXAMINATION, 2004-2005
+MANUFACTURING SCIENCE-T
+Tone : 3 Hours Total Marks : 100
+Note: Answer ALL six questions. There be choices
+wititin. may
+(it) Marks ave indicated therein.
+(iii) In case of numerical problems assume data
+not provided.
+oO 1. Briefiy explain any four of the following :
+© (a) Friction {in metal forming)
+(b) Welding of plastics
+(c) Runner versus Riser (for casting)
+(d) Solidification of casting
+(e) Cupola furnace
+()}
+(g) Spring-back (in Bending)
+2. Answer any two of the following : (8x2=16)
+‘Describe
+(a) theories of plastic-deformation (failure).
+ME — 403 1 [Turn Over
+aktuonline.com
+jaktwenlise.
+Derive distribution the following forging of expression rectangular for block of com
+bxhxw under in “sticking a friction”. Conditon. size
+Poy
+2k h 2
+at distance from centre
+k=shear p=pressure yield strength a x
+h=height of block
+b=breath of block
+Enlist working and Cold working
+(c) various Compare Hot hot working and cold working \
+processes. indicating advantages and disadvantages
+of processes each.
+3. Answer two of the following (8x2=16)
+(a) Write any short note :
+(i) | Punch and on Die any assembly one :
+(ii) Flat face v/s Inclined face punch
+(b) Describe common Also indicate defects remedial of rolling and extrusion
+(c) Derive processes. following for drawing measures.
+for wire drawing expression operation. stress oy,
+xq _1+B
+1- D,
+Where
+a
+of friction
+a=semi-die angle
+k=shear strength of wire
+D, Diameter of wire at exit of die
+D, = Diameter of wire at entry of die
+=
+ME 403 2
+—
+aktuonline.com
+nswer any two of the following :
+(a) Describe in detail the explosive forming process.
+What will happen if no liquid medium is used in this
+process ?
+(b) How manufacturing powder metallurgy ? is Give different examples than other of
+the products manufactured processes by powder two metallurgy
+Also give advantages of this
+process. process.
+(c) Describe Injection moulding process indicating its
+principle and working.
+5. Answer two of the following (8x2=16)
+any :
+(a) What are the common methods of locating circular
+surfaces ? What is V angle for locating circular
+surface. Also give shortcoming of v location.
+(b) are the economic aspects of the use of jigs and
+fixtures ? Differentiate between drill jig and a fixture.
+(c) Describe the process for making a washer with the
+help of progressive and compound dies.
+6. Write short notes on any two: (8x2=16)
+(a) Future of plastics.
+(b) Desirable of moulding sand
+properties
+(c) Casting design considerations
+(d) Centrifugal casting
+ME — 403 3

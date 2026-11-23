@@ -1,0 +1,96 @@
+Printed Pages : 3 . EEE401 ©
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 0207 | | TTT TTT)
+: |
+B.Tech.
+EXAMINATION,
+(SEMESTER-IV) THEORY 2012-13
+ELECTRO-MECHANICAL ENERGY CONVERSION-I
+Time : 3 Hours ] | [ Total Marks 00
+SECTION -A
+1. Attempt all question parts : 10x2=20
+(a) Define energy and co-energy.
+hysteresis
+How magnetic can be overcome ?
+(c) Draw the internal and external characteristics of DC shunt generator.
+(d) ° Define reactance voltage during commutation. -
+is
+(e) What the need of starter in the motors ?
+| voltage and. flux of
+(f) * Compare control DC shunt motor.
+(g) Why the transformer ratings inkVA ?
+(h) Differentiate core type and shell type transformer.
+for parallel transformer
+(i) What are necessary conditions operation of ?
+single
+G) List out the advantages of a bank of three single phase transformers over a
+three phase transformer.
+SECTION
+2. Attempt any three question parts : 3x 10=30
+(a) Derive expression for reluctance in a rotating electrical machine.
+that an torque
+(i). Show for a linear system, energy and co-energy are numerically equal.
+| HHT ll
+-0207 PTO.
+~
+‘(b) ‘Describe the effects of armature reaction the operation of DC machines. Also
+on
+explain the remedies employed for decreasing the effects of armature reaction.
+(c) How to determine the efficiency of shunt machines using Hopkinson’s test ?
+Explain in detail.
+(d) | With the help of constructional diagram, explain the construction and
+neat
+working principle of an autotransformer.
+Explain diagrams,
+(e) with the help of the phenomenon of harmonics in case of single
+phase transformers.
+SECTION
+Attempt all questions : §x10=50
+-3. Attempt any two parts : | 2x5=10
+(a) Describe an idealized machine and explain its importance in analyzing an actual
+machine.
+(b) State and briefly explain the various phenomenon useful for the electromechanical
+energy conversion in rotating machines.
+(c) Drive the emf equation for D.C. generator.
+any one part
+4. Attempt : .
+(a) Illustrate the commutation action in DC machines.
+a
+6) (i) Explain the principle and operation of D.C. motors.:
+takes
+A 250 V shunt motor on no-load runs at 1000 rpm and 5 A. The total
+armature and shunt field resistance respectively 0.2 ohm and 250. ohms.
+when are
+Calculate the speed loaded and taking a current of 50 A, if armature reaction
+weakens the field by 3%.
+5. Attempt
+any one part : 1x10=10
+(a) Explain with the help of neat diagram the Ward Leonard method used for speed
+- disadvantages
+control of de motor. What are its advantages and ?
+0207 20
+(b) The armature and field resistance of a 250V D.C. shunt motor are 0.5 ohm and
+- 250 ohm respectively. When driving a load of constant torque at 600 r.p.m., the
+armature current is 20 A. If it is desired to raise the speed from 600 to 800 r.p.m.,
+what resistance should be inserted in the shunt field circuit ?
+6. Attempt any one part : 1x10=10
+(a) A transformer has its maximum efficiency of 0.98 at 20 kVA at unity power
+factor. During the day it is loaded as follows :
+12 hours.; 2 kW power factor-0.6
+at
+6 hours 10 kW at factor 0.8
+; power
+6 hours ; 20 kW at power factor 0.9
+Find the all-day efficiency of the transformer.
+(b) Explain the procedure of 0.C and S.C test for a transformer and also calculate the
+efficiency.
+7. Attempt any two parts : 2x5=10
+(a) With the help of neat diagram, explain Scott connection in transformer.
+(b) Explain the difference phasor groups of transformers and draw connections for
+delta-zigzag and star-zigzag connections.
+(c) What are the conditions required to be satisfied for the parallel. operation of a
+transformers expression
+single phase and three phase the secondary ? Derive the for the
+circulating current flowing through windings of transformers
+connected in parallel.
+0207.

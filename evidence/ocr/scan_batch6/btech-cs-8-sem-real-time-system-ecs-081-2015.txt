@@ -1,0 +1,87 @@
+www.aktuonline.com
+Printed Pages : 4
+A
+ECS081
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 110851
+B. Tech.
+(SEM. VII) THEORY EXAMINATION, 2014-15
+REAL TIME SYSTEM
+Time : 3 Hours] [Total Marks : 100
+1 Attempt any four parts : 4x5=20
+(a) Explain various components of a typical real time
+system with block diagram.
+(b) Differentiate between hard and soft real time
+systems.
+(c) What are the traditional performance measures
+used for real time systems ?
+(d) What system considerations are required in designing
+real time systems ?
+(e) What do you understand by temporal constraints ?
+List possible task timing constraints.
+(f) Explain various application where real time
+areas
+systems are useful.
+110851] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any four parts : 4x5=20
+(a) What is the difference between a performance
+constraint and a behavioral constraint in a real-time
+system ? Explain with the help of one example of
+each
+(b) Explain scheduling point of a task scheduling
+algorithm ? How the scheduling points are
+determined in (1) clock-driven system (ii) event-
+driven system ?
+(c) Can consider EDF (Earliest-Deadline-First)
+dynamic we priority scheduling algorithm for real- as
+time a tasks ? Justify
+your answer.
+(d) What are the distinguishing characteristics of
+periodic, aperiodic and sporadic real-time tasks ?
+(e) Determine whether the following set of periodic
+real-time tasks is schedulable on a uniprocessor
+using RMA (Rate Monotonic Algorithm).
+| | |
+Task Start (ms) Time Processing (ms) Time Period (ms) Deadline (ms)
+3 Attempt any two parts : 2x10=20
+(a) Define Priority Inheritance Protocol (PIP) with its
+properties and show that PIP works greedy
+as
+algorithm.
+110851] 2 [ Contd...
+www.aktuonline.com
+(b) Explain of Priority-Ceiling Protocol in Dynamic
+Priority use Systems. Why Round Robin Scheduling
+does not work for the real time application ?
+(c) How are deadlocks, unbounded priority inversions,
+and chain blocking prevented using PCP ?
+4 Attempt any two parts : 2x10=20
+(a) What is the difference between hard and soft real-
+time communication supported by network ?
+a
+Distinguish traffic shaping and policing.
+(b) Describe any two traffic specification models which
+satisfactorily be used to specify bursty traffic.
+can
+(c) Define real time communication. Explain VTCSMA
+(Virtual Time Carrier Sensed Multiple Access
+protocaol) with suitable example.
+5 Attempt any two parts : 2x10=20
+(a) Discuss in detail which category of concurrency
+protocol is best suited under what circumstances ?
+(b) Given that a relative consistency set R {position,
+velocity, acceleration} and R,,; 100 = and the
+= ms,
+following data items: position = (25 m, 2500 ms,
+200 ms), velocity = (300 m/s, 2550 ms, 300 ms),
+acceleration = (20 m/s*, 2425 ms, 200 ms),
+current time = 2600 ms. Are given data items
+absolutely valid ? Also, are they relatively consistent ?
+110851] 3 [ Contd...
+www.aktuonline.com
+(c) Explain any two of the following :
+| Commercial Real Time databases
+(it) Real Time Operating Systems
+(it) | Temporal Consistency.
+110851] 4 [1300]

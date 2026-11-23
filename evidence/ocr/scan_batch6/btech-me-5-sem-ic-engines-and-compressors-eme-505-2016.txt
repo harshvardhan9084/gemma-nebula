@@ -1,0 +1,68 @@
+Printed [212 |
+Pages: 4 EME - 505
+Paper
+(Following ID and Roll No. to be filled in your
+Answer Book)
+Paper ID 140525
+:
+(SEM. V) THEORY EXAMINATION 2015-16
+IC ENGINES & COMPRESSORS
+EME-505
+[Time:3 hours] ‘ [Total
+Section-A
+1. Attempt all All equal marks. Write
+parts. parts carry
+answer of each part in short. (10x2=20)
+(a) What is surging?
+(b) How the effciency of an Otto cycle is increased?
+(c) What is mean effective pressure in IC Engine?
+Engines?
+(d) Explain the knocking in IC
+|
+(e) the Advantages and of using LPG in Car?
+Scavenging?
+_(f) Whatis
+(g) Explain the meaning ofignition advance.
++
+(1)
+(h) What is meant by supercharging? 8. Distinguish between the ‘physical ignition delay’ and
+(i) Which are the reference fuels for knock rating of ‘chemical ignition delay’. Discuss the effect of different
+variables On ignition delay.
+S
+(j) | Why diesel Engine doesn’t have spark plug? 9. Explain the working of reciprocating compressor with neat
+sketch. a
+Section-B
+Section-C
+Attempt any five questions from this section. (5x10=50) Note: Attempt questions from
+any two this section. (2x15=30)
+2. What are the differences between two stroke and four Ina of four-cylinder,
+stroke engines. Draw the actual valve timing diagram for _ test a four stroke petrol engine of 75
+a4 stroke and 2 stroke S 1 Engine. mm bore and 100 mm stroke, the following results were
+obtained at full throttle at a constant speed and with a fixed
+Discuss the effects of gasoline volatility on cold setting of the fuel supply of 0.082 kg/min.
+starting, hot starting, warm up and vapour lock. What is
+performance number and diesel index? bp with all cylinder working=15.24 KW
+Discuss the effects of compression ratio, engine speed bp with cylinder number 1 cut-off=10.45 KW
+and spark advance on the knocking in SI Engine.
+bp with cylinder number 2 cut-off=10.38 KW
+Explain the working principle of a magneto ignition
+system with neat diagram. bp with cylinder number 3 cut-off=10.23 KW
+Explain the stages of combustion in SI Engines. Explain bp with cylinder number 4 cut-off=10.45 KW
+the terms flame speed and ignition lag.
+Estimate the indicated of the engine under these
+Explain the construction and working of simple conditions. If power
+carburetor ina S1 Engine. What the A/F requirements the calorific value of the fuel is 44 Mi/kg,
+are find the indicated thermal efficiency of the engine. Compare
+of a carburetor at different operating conditions? this with the air standard efficiency, the clearance volume
+of one cylinder being 115 cc.
+(2) EME-505 (3) P.T.O.
+Show advantages of multistage compression with help of
+PV and TS diagram. Derive optimum pressure ratio for two
+stage minimum work of compression. |
+A diesel engine has a compression ratio of 20:1 with an inlet
+of 95 kPa, 290 K, state 1, with volume 0.5 L. The maximum
+cycle temperature is 1800 K. Find the maximum pressure,
+the specific work and the thermal efficiency.
+net
+—_—x—
+(4) EME-505/4200

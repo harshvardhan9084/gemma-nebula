@@ -1,0 +1,88 @@
+aktuonline.com aktugniing
+epm
+Pages—3 TME—404
+(Following Paper ID and Roll No. to be filled in Answer Book)
+your
+PAPER ID: 4082
+B.Tech.
+(SEM IV) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+MEASUREMENT, METROLOGY AND CONTROL
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt all questions.
+(ii) Assume any missing data suitably.
+1. Attempt four of the following (4x5=20)
+any :
+a) Explain P the difference between active and
+passive transducer.
+(b) Define uncertainty in measurement. Discuss
+some major sources of error in
+measurement.
+(c) With a suitable example explain the
+difference between accuracy and precision.
+(d) Briefly discuss the various input signals used
+in measuring instruments.
+(e) Find the dynamic response of a first order
+system to a ramp input signal and explain
+delay time, rise time and maximum
+overshoot.
+(f) | Draw the response of a second order system
+for a step signal.
+TME—404 1 [Turn Over
+aktuonline.com
+aktuonline.com
+Attempt any four of the following :
+(a) With a neat sketch explain the working of a
+dead weight gauge tester.
+Discuss two elastic transducer which
+are used any for pressure measurement.
+What stroboscope ? Explain working
+principle. is its
+Show that the sensitivity of an analytical
+balance is independent of the weight.
+Discuss the working of a pony brake ~
+dynamometer. What are its disadvantages ?
+What surface temperature of a black body
+is needed to radiate 120 W/m? ?
+3. Attempt any two of the following (2x10=20)
+:
+(a) ‘end Distinguish standard’. between ‘How ‘line end standard’ standards and
+derived from line standards are ? Give
+examples for these two types of standards.
+(b) high Describe magnification the various mechanisms dial indicators. to obtain
+in
+Explain the Taylor’s principle as applied to
+limiting gauge. Use at least two examples
+of Go and Not - Go gauges demonstrate the
+application.
+4, Attempt any two of the following : (2x10=20)
+(a) Discuss how would you proceed to check
+(i) flatness, (ii) squareness
+(iii) roundness.
+Also explain the flatness testing using
+autocollimator method.
+TME—404
+aktuonline.com—-——_
+aktuonline.com,) measu@ktyonline.com
+the principle of
+light interference method. How flatness
+errors of lapped surfaces are measured with
+an optical flat ?
+(c) Describe the methods for numerical
+assessment example where of surface the RMS texture. value of Give surface an
+is generally used for specifying the
+texture finish.
+5. Attempt of the following (2x10=20)
+any two :
+(a) following Find the inverse function Laplace transform of the
+F(s) =
+(b) Determine the transfer function of the given
+freedom. mechanical system with two degree of
+(c) With a neat sketch explain the basic
+controller. principle Show of pneumatic its block diagram proportion and find
+the transfer function of the system.
+-o00O0-
+TME—404 3
+aktuonline.com
+aktuonline.com aktuonline.com
+aktuonline.com

@@ -1,0 +1,93 @@
+(Following Paper ID and Roil No. be filled in Answer Book)
+to your
+PAPER TD: 4096
+B. Tech.
+(SEM. V1) THEORY EXAMINATION 2010-11
+FLUID MACHINERY
+Time 3 Hours Total Marks 100
+: :
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+suitably,
+(3) Assume missing data, if missing.
+1, Attempt any two parts of the following : (2x10=20)
+|
+(a) Derive an expression for the force exerted by the jet on
+the moving flat plate, which is inclined at an angle of a
+from the jet axis. Explain the effect of inclination of the
+plate.
+(bv) Discuss the difference between impulse and reaction
+turbine.
+(c) A Pelton wheel is supplied with water under a head of 30m
+of 41m?/min. The buckets deflect the jet through
+at a rate
+an angle of 160° and the mean bucket speed is 12 m/s.
+Calculate the power & hydraulic efficiency of turbine.
+of the following (2x10=20)
+2. Attempt any two parts :
+(a) Describe with the help of a labelled sketch construction &
+working of a Kaplan turbine. Why is the efficiency of
+TME604/RFW-20834
+aktuonline.com 1 [Turn Over
+aktuonline.com aktuonline.com
+Kaplan turbine nearly constant, irrespective of speed
+variation under load.
+(b) Discuss main and operating characteristics of a hydraulic
+turbine.
+(c) Answer the following
+:
+(i) Define unit speed, unit power & unit discharge.
+(ii) Determine the power available & no. of turbines
+required for a hydroelectric station with following data :
+Head available = 60 m
+Water available = 33m‘/s
+Specific speed of turbines to be installed = 190
+of turbines 500
+rpm. =
+Overall efficiency = 82%
+3. Attempt any two parts of the following : (2x10=20)
+(a) Explain the following :
+(i) Function of volute casing and diffuser of a centrifugal
+pump.
+(ii) Cavitation in centrifugal pump.
+(b) Define specific speed of a centrifugal pump & derive an
+expression for the
+same.
+(c) A centrifugal pump delivers water against a net head of
+15 m at a speed of 1000 rpm. The vanes of the impeller
+are curved backward to an angle of 30° with the periphery.
+The impeller diameter is 300 and outlet width is 50
+mm. mm.
+Manometric efficiency is 95%. Determine the discharge
+of the pump.
+TME604/RFW-20834 2
+aktuonline.com
+aktuonline.com aktuonline.com
+of the following (2x10=20)
+4. Attempt any two parts :
+(a) With the help of a neat sketch, explain construction &
+working of Vane pump.
+(b) @ Explain the effect of bend in delivery pipe of
+reciprocating pump.
+(ii) Discuss the difference between centrifugal &
+reciprocating pump.
+(c) Asingle acting reciprocating has plunger diameter
+pump a
+of 10 cm and stroke 20cm.The centre of pump is 4 m above
+the water level in the sump and 14 m below the water level
+in the upper tank. The diameter & length of suction pipe
+4 cm and 6 m respectively, while that of delivery pipe
+are
+are 3cm and 18 m respectively.
+Find maximum speed at which pump may be run without
+separation, if the separation occurs at 7.85 N/cm?, below
+the atmospheric pressure. Take atmospheric pressure as
+10.3 of water column.
+m
+5. Attempt any two parts of the following : (2x10=20)
+(a) Discuss the construction and working of Jet pump.
+(b) Discuss the construction and working of hydraulic
+intensifier.
+(c) Discuss the construction and working of hydraulic crane.
+TME604/RFW-20834 3 5050
+aktuonline.com

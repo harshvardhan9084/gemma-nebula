@@ -1,0 +1,72 @@
+Printed Pages : 2 EME-012
+in
+(Following Paper ID and Roll No. to be filled your Answer Book)
+PAPERID:
+B.Tech.
+(SEMESTER-VI) THEORY EXAMINATION, 2012-13
+UNCONVENTIONAL MANUFACTURING PROCESSES
+Ti ime 3 Hours ] [ Total Marks 100
+: :
+SECTION -A
+1. Attempt all question parts : 10x 2=20
+(a) State the limitations of conventional manufacturing process.
+process
+(b) What is overcutting in EDM ?
+(c) Give the practical applications of water jet machining.
+(d) . What are the advantages and disadvantages of laser beam machining ?
+(e) very hard material be cut better by the ultrasonic process than soft ones ?
+| explosive
+(f) What is jetting effect in welding ?
+(g) How is plasma.arc different from conventional arc ?
+(h) Define the term cladding.
+(i) principle of electromagnetic forming process.
+(j). lithography
+is meant by ?
+2. Attempt three question :
+any parts | 3x10 =30
+(a) (i) Describe the principle of ultrasonic machining.
+(ii) Give the applications of ultrasonic machining.
+(b) Write the special features of the equipment used in abrasive
+a note on set
+machining. machine
+(c) What is laser ? How is it used to the materials ? Give the thermal
+features and analysis of the laser beam machining.
+(d) Explain the principle of operation of plasma welding
+arc process.
+(e)’ Describe the explosive forming process.
+as 2529 1.
+SECTION-C
+all
+Attempt questions : 5x 10=50
+any two parts :
+3. Attempt - 2x5=10
+(a) Enumerate the reasons responsible for development of newer machining methods.
+t
+(b) Classify unconventional manufacturing processes.
+(c) Discuss why AJM technique when applied to ductile materials lead to a low rate
+of metal removal.
+4. any one part : ,1x10=10
+important
+(a) Explain the EDM process in brief. Why is proper flushing so inEDM ~
+process ?
+(b) Explain the working principle of electro chemical machining at sketch.
+a neat
+5. Attempt :
+any one part 1x10=10
+(a) Sketch and describe. any two types of tool feed systems used in ultrasonic
+(b) Write a short notes on :
+(i) Process capabilities of electron beam machining.
+_ electron
+_ Comparison of thermal and non-thermal features of beam
+machining.
+Attempt |
+6, any one part :
+(a) Discuss about the ee used for under water welding.
+Describe some of the important considerations in the design of a plasma torch.
+What are the essential differences between a cutting and welding torch ?
+7. Attempt any two parts : 2x5=10
+(a) Enumerate the working principle of water hammer forming.
+“(b) Describe the processing sequences for manufacturing of printed circuit boards.
+metalizing
+(c) Discuss about process.
+2529 ; 2

@@ -1,0 +1,56 @@
+aktuonline.com aktuonline.com
+|Printed pages: 2 TEC507
+(Following code and roll filled book)
+paper No. to Cr be in your answer
+| |
+}
+V SEM. THEORY B EXAMINATION, Tech 2012-13
+Analog Integrated Electronics
+|
+Time :3 Hours Total Marks: 100
+Note: (i) Attempt all questiuns.
+(ii) All questions carry equal marks.
+|
+1. Attempt any four questions. (5x4)
+(a). Define frequency response with the help of suitable
+example.
+(b).What Define do break vou understand frequency and by compensated unity gait: band-width op- amps?
+(c). product.
+(d). Draw and explain the high frequency modal of op-
+amp?
+(e). Explain different types of compensation techniques.
+2. Attempt any four questions. (5x4)
+(a). Explain with suitable example and circuit diagram how
+the op- amp works as a difference amplifier.?
+(b). Why is negative feedback used in amplifiers? Explain
+with the help of suitable examples.
+(c). Draw and explain the circuit of typical instrumentation
+amplifier using two op-amps.
+(d). Explain and drive the expression of a practicai
+aktuonline.co orator
+aktuonline.com aktuonline.com
+(e). Explain the circuit of voltage to current converter with
+floating load.
+3. Attempt any two questions. (10x2)
+__(a). Define the term “filter” and classify filters in various
+categories. What is the difference between active and
+passive filter?
+(b). Draw the frequency response of Ideal low pass filter and
+explain the following.
+- (i).Pass band.
+(iii).Cut off band. frequency.
+“©. Explain the basic principle of Digital analog
+converter with suitable circuit diagram. to
+=
+-Attempt any two questions. (10x2)
+_(a). State the important characteristic of comparator and
+explain any two of them.
+Explain precision rectifier with circuit diagram and
+input output wave -form.
+c). Explain sample and hold circuit.
+_..5. Write short notes on any two. (10x2)
+a. Log and antilog amplitier.
+b. Operational transconductance Amplifier (OTA).
+c. Phase lock Loop (PLL).
+d. Noise in integrated circuits.
+aktuonline.com

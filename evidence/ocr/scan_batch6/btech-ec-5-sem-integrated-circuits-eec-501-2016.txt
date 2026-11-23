@@ -1,0 +1,60 @@
+Printed Pages: 3 366
+EEC 501
+(Following Paper ID and Roll No. to be filled in your
+Answer Book)
+(SEM. V) THEORY EXAMINATION, 2015-16
+INTEGRATED CIRCUITS
+[Time:3 hours] [Total Marks:100
+SECTION-A
+Note Attempt all All equal marks. Write
+: parts. parts carry
+answer of each part in short. (2x10=20)
+1. (a) Define current mirror circuit and current steering
+process.
+(b) Explain the type of distortions that can occur in an
+amplifier.
+(c) By what factors is the frequency of an op-amp
+oscillator limited?
+(d) Differentiate between positive feedback and
+negative feedback.
+(e) Define the terms V,,,, and V,,.
+(f) Explain Barkhausen criteria for oscillations.
+(g) Sketch properly labeled Master Slave D flip-flop
+circuit.
+EEC 501 (1)
+Monostable Multivibrator? Explain Wein Bridge Oscillator using op-amp and
+(h) What are the uses of derive the equation for its frequency of oscillation.
+(i) Define lock range. principle of working of digital to
+of analog multiplier? Draw and explain the
+(j) What are the applications analog converters with R/2R ladder.
+SECTION-B Discuss the frequency response of IC 741 op-amp. Also
+discuss the simplified model of IC 741 op-amp.
+Note: Attempt any five questions from this section cutoff
+(10x5=50) Design a wide band reject filterwith lower
+frequency f, =5kHz, higher cutoff frequency 100Hz
+Find out the output impedance of cascade current mirror and a passband Gain=2. Draw frequency response plot
+circuit. characteristics of Widlar and Wilson for that also.
+State
+current mirror circuit. Draw the pin diagram of IC 555 and explain the function
+is log amplifier and what are its applications? of each pin. Discuss the modes of operation of 555
+What Find the expression timer IC.
+Draw & explain its operation. out SECTION-C
+for its out voltage equation.
+circuit has 3 inputs A, B, C and output Note: Attempt any two questions from this section.
+Acombinational (15*x2=30)
+F.E. is true for following input combinations. representation of
+is True 10. Sketch the logic gate symbolic
+A is False, B clocked SR flip flop using NOR gate. Also sketch its
+Ais False, C is True CMOS circuit implementation and explain its
+operation.
+A, B, C are False using
+11. Explain the working of a practical differentiator
+A, B, C are True op-amp and give steps required to design it.
+(i) Write the Truth table for F. Also write the simplified Sketch the circuit and transfer characteristics of
+the convention True=1 and Schmitt trigger. What the applications of Schmitt
+expression for F. Use are
+False =0. trigger? Explain its working.
+CMOS logic circuit for expression obtained —_—x—-
+(ii) Draw
+for F using NAND gates only. EEC 501 /5000
+(2) EEC 501 (3)

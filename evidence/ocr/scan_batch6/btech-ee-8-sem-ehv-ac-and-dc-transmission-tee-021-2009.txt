@@ -1,0 +1,90 @@
+aktuonline.com aktuonline.com
+Printed Pages : 3 TEE 021
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0289
+B. Tech.
+(SEM. VIII) EXAMINATION, 2008-09
+& EHV AC & DC TRANSMISSION
+Time 3 Hours] [Total
+: Marks : 100
+Note : Attempt all questions.
+1 any four of the following: ; 5x4=20
+(a) Enumerate the five most important points
+describing the need of EHV Transmission,
+(b) With the help of a line diagram give the hierachy
+of standard voltage levels of power transmission
+in India.
+(c) Describe in two sentences the following :
+@) Bundled - Conductors.
+(i) Sub-conductors
+(ui) Surface gradient
+(iv) Dampers
+(v) Spacers.
+(d) Write a brief note on mpdern trends in EHV AC
+and DC Transmission in India.
+(e) Compare EHV AC with HVDC transmission on
+five salient points.
+() Discuss about two major considerations in
+mechanical design of transmission lines.
+aktuonline.com http:
+aktuonline.com aktuonline.com
+2 Attempt any two of the following: 10x2=20
+(a) A 400 kV system has a generated capacity of
+2000 MVA. Calculate :
+Gj) The normal current
+(i) |The rms value of shrot circuit current for
+a bus fault on the Transformer H.V. winding
+x
+if + X,=0.5 pu on generator base
+on the 400 KV side.
+(ii) The maximum current which the circuit ¢
+breaker contacts have to carry and
+(iv) The maximum interrupting current of the
+breaker if the contacts part after
+1
+= cycles (f= 50 Hz.).
+(b) Write a note on Corona on following points :
+(@) Definition and causes.
+Gi) ‘Factors affecting.
+(ii) (iv) Adverse Formulae. effects.
+@ Discuss audible noise Radio
+(c) Interference about in detail. or
+(ii) | What do know about principle of
+Half Wave you transmission? Write in detail.
+3 Attempt two of the following 10x2=20
+(a) Show any the characteristigs of : Impulse voltage.
+Draw a labelled diagram to an show a practical
+Impulse generator.
+(b) What the various methods of generating High
+AC voltage? are Draw schematic diagram to depict
+internal arrangement a of 2 unit cascade-connected
+transformer with excitation and measuring circuits.
+(c) Write detailed note effects of pollution
+performance a of EHV on Lines. on
+[Conta..
+aktuonline.com hitp://www.UPTUonline.com
+aktuonline.com aktuonline.com
+4 Attempt of the following:
+(a) Describe any two the 10x2=20
+discuss about various types of HVDC links. Also
+controlling the various firing schemes used for
+(b) What the power flow through HVDC links.
+do you understand by starting and stopping
+of DC link. Describe the methods used for the
+same.
+(c) Write notes on :
+€ @ Monopolar HVDC Systems, and
+(i) eletrode in bipolar systems.
+Or Attempt any two of the following. 10x2=20
+(a) Describe the various types of converter faults.
+What protection is used against overcurrents in
+an HVDC system ?
+(b) Describe the sources of harmonics in HVDC
+System. How are the harmonics mitigated?
+(c) Describe a Multiterminal DC system on following
+points :
+@) Types
+(i) Control.
+cy
+0289] [ 950]
+h¢tp://www.UPTUonline.com

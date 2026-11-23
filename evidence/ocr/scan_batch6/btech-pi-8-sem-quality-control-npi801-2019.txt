@@ -1,0 +1,87 @@
+NPI801
+Printed Pages: 2 Sub Code:NPI801
+Paper Id: 141202 Roll No.
+B TECH
+THEORY EXAMINATION 2018-19
+QUALITY CONTROL
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+_ Attempt all questions in brief.
+What the quality functions of quality control?
+State the are guiding principles of Total Quality Control.
+Bo Differentiate between discrete data and continuous data with suitable examples.
+What is meant by natural tolerance of the process?
+ho Compare random sampling and stratified sampling.
+Write short notes on single sampling plan.
+Soro Define Reliability.
+Write short notes on MTTR.
+State the benefits of Total Quality Management.
+www.aktuonline.com State the contents of quality audit plan.
+SECTION B
+2. Attempt three of the following: 10x3=30
+any
+Explain the importance of controlling tools, gauges and test equipments in inspection
+planning.
+In a capability study of a lathe used in turning a shaft to a diameter of 23.75 + 0.1
+mm a sample of 6 consecutive pieces was taken each day for 8 days, and data were
+recorded as given below:
+Days 1 2 3 4 5 6 7 8
+| 23.765 | 23.770 | 23.772 |23.776 |23.772 |23.758 |23.776 [23.766
+xX
+Range | 0.07 0.11 0.06 0.08 0.04 0.05 0.07 0.07
+R
+Plat X¥ and R chart and state whether the process is in control or not. Establish the
+process capability and compare it with the stipulated specification. Given that for a
+sample of size 6, A, = 0, Dy = 2,D3 = = 2.534.
+A known sigma variables plan for one-sided specification uses n=9 and k' =
+1.466. Assuming a normal distribution and a correct estimate of o’. What is the
+probability of acceptance of a 3.75% defective lot?
+An acceptance sampling plan for life testing required that a sample of 13 items be
+tested with replacement for 350 hours. If not more than 3 failures occur, the lot is
+accepted, and otherwise it is rejected. Assume that the probability of failure is
+constant. Compute the mean life for which the Producer’s risk of a lot rejected is
+0.05. Compute the mean life for which the Consumer’s risk of lot acceptance is 0.10.
+Draw the organization for acceptance. Mention responsibilities of the chief
+inspector.
+Page 1 of 2
+http://www.aktuonline.com
+NPI801
+SECTION C
+Attempt any one part of the following:
+State the various stages which need to be controlled for ensuring proper quality of
+product and for ensuring improvement in quality.
+Describe the characteristics of Just in Time production.
+Attempt of the following: 1x10 10
+any one part =
+TP What is meant by process capability? How will you determine the same?
+State and explain the conditions favorable for economic use of control charts for
+defects per unit.
+Attempt any one part of the following: 1x10 = 10
+How does the acceptance sampling by variables differ from that by attributes?
+Explain.
+The single specification limit L for tensile strength of certain wire is 62kg. MIL-STD
+414 is used with normal inspection code letter H, and an AQL of 1.0% variability is
+unknown, and the range method is to be used. A computation using the form 2
+criterion is to be made. The required sample is of 25 as follows:
+www.aktuonline.com Subgroup | Subgroup 2 Subgroup 3 Subgroup 4 Subgroup 5
+63 64 64 66 64
+69 65 70 68 64
+69 67 75 65 69
+67 68 66 66 72
+64 67 79 67 72
+Make the necessary calculations to determine whether or not the lot should be
+accepted.
+Attempt any one part of the following: 1x10 = 10
+Describe “Fault Tree Analysis” briefly with a suitable example.
+A small manufacturer of television equipment has been inspecting all the raw
+materials he receives. His operations are expanding and there is now some question
+concerning the economies of the present inspection system. It costs 3 paise to inspect
+production one unit of it raw will material him and 25 paise if a unit repair of defective the damage raw done material the is equipment allowed to it get is
+used in. What level cost of quality makes to the inspection to economical?
+present system
+Attempt any one part of the following: 1x10 = 10
+Describe the basic organizational structure of Quality Circles.
+Describe the various steps necessary for obtaining ISO: 9000 standard registration.
+Page 2 of 2
+http://www.aktuonline.com

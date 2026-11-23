@@ -1,0 +1,70 @@
+Printed Pages—4 EEC069(A)/EIT082
+(Following Paper ID and Roll No. be filled
+to in your Answer Book)
+PAPER ID : 113852
+B.Tech.
+(SEM. VIII) | THEORY EXAMINATION
+2013-14
+i MULTIMEDIA SYSTEMS|
+Time : 3 Hours Total Marks : 100
+Note :— (1) Attempt alll questions.
+(2) All questions carry equal marks.
+1. Attempt any four parts of the following : (5x4=20)
+(a) Describe what MIDI is, what its benefits are, and how it is
+best used in a multimedia project.
+(b) What three different
+are technologies used to capture digital
+images ? How are these three technologies different ?
+(c) How do staircasing or jaggies ? What be done
+occur can
+to prevent this ?
+(d) What is the difference between lossy and lossless
+compression?
+(e) What are some of the key features found in Macromedia
+Fireworks, Director and Flash ?
+(f) What is the difference between analog and digital video ?
+How do you digitize analog video ?
+EEC069(A 1 [Turn Over
+of the following (10x2=20) the role f Text in Multimedia. Explain Formatted
+2. Attempt any two parts : (b) Discuss o
+(a) Multimedia Database and Unformatted
+(b) MPEG Standards (c) A 15-inch monitor having aspect ratio 4 3 has 1080
+an :
+(c) Silence Compression. pixels along a single horizontal line and a screen refresh
+Attempt any four parts of the following : (5x4=20) rate of 60 Hz. Calculate its horizontal scan rate in kHz,
+resolution in dpi and dot pitch in mm (1 inch = 2.54 cm).
+(a) Describe the techniques of “interlacing” mentioning its
+merits and demerits. (d) What are some of the different methods used to create
+(b) What are dictionary-based compression techniques ? animation ? How would you describe each these
+they different from other conventional coding
+How are methods ?
+schemes ? (e) What is Quick Time ? What are the advantages of using
+(c) State and explain the three main properties of a color
+Quick Time ?
+source that the eye makes of. Hence explain the meaning (f) Differentiate Bitmap and Vector graphics.
+of the terms “luminance”, “chrominance”, and “color _
+difference”and how the magnitude of each primary color Attempt any two parts of the following : (10x2=20)
+present in the source is derived from these.
+(a) You have been assigned to design and produce the audio
+(d) What is meant by the “color depth” of a monitor ? Does it portions of a multimedia project. The program will be
+have any relationship with the amount of display memory delivered on a CD-ROM, and video clips will take up most
+in the adapter card ? of the CD. You have only 50 MB of storage to store
+space
+(e) Explain why I-frames are inserted into the compressed 20 one-minute clips of speech, 10 songs averaging three
+output stream relatively frequently. Hence explain the terms minutes long and a background sound loop. What sampling
+“group of pictures” (GOP) and “prediction span”. rates and depths should you use for the speech, for the
+Attempt any four parts of the following : (5x4=20) music and for the background sound ? Why ? Roughly
+of arithmetic coding calculate the file size totals for these specifications and be
+(a) Discuss the relative advantages sure that you end up with less than the 50 MB of storage
+over Huffman coding. In what way would you consider allotted. Discuss reasoning.
+Huffman algorithm superior to arithmetic coding ? space your
+EEC069(A)/EIT082/DQJ-21580 2 EEC069(A)/EIT082/DQJ-21580 3 [Turn Over
+(b) Derive the bit rate that results from the digitization of
+525-line and 625-line using 2:0 a
+a system the 4: digitization
+format and interlaced scanning. Hence derive the amount
+of memory required to store a 2-hour movie/video.
+(c) Discuss various Popular Audio
+and Video file formats.
+-7
+EEC069(A VEIT082/DQJ-21580 4 6050

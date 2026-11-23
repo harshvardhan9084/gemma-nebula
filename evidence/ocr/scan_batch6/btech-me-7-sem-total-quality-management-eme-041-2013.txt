@@ -1,0 +1,100 @@
+Printed Pages—4 EME041/EPL041
+Following Paper ID and Roll No. to be filled in your Answer Book
+| [| | | | | TTT]
+B.Tech.
+(SEM. ODD SEMESTER THEORY EXAMINATION 2012-13
+TOTAL QUALITY MANAGEMENT (TQM)
+Time : 3 Hours Total Marks : 100
+Note : (J) Attempt all questions.
+(2) Allocated marks indicated against part of
+each question. are every
+1. Attempt any two parts of the following :
+(A) (i) Detail out chronological evolution of quality control
+and change in concept in different era. (6)
+(ii) Explain how claims are being analyzed by the
+companies ? (4)
+(B) (i) What do you mean by “Quality Planning” ? How
+does it address the vision and mission of an
+organization ? (6)
+(ii) What do you mean by review of design ? Explain it
+in relation to “Design for maintenance”. (4)
+(C) (i) Broadly classify methods and techniques used in
+manufacturing. (4)
+(ii) What are different processes of procurement ?
+detail. Explain any one procurement process in
+(6)
+2. Attempt any two of the followings :
+(A) (i) What do you mean by house of quality ? Explain it
+with the help of figures and examples. (6)
+(ii) Discuss the advantages of empowered teams. (4)
+EME041/EPL041/DLT-44287 1 [Turn Qver
+(B) “Batch type manufacturing system has less quality
+problem than Job shop or Mass production system”.
+Comment on this statement whether it is right or wrong
+by comparing these three system on almost all issue of
+PPC and quality. (10)
+(C) (i) Explain the role of “quality director”. Also explain
+how such director coordinate among different levels
+through different management practice like training,
+(6)
+(ii) How does the decision for quality can affect the
+society ? Explain with example. (4)
+3. Attempt of the following
+any two :
+(A) (i) Why do people rely on sampling in quality
+control ? Explain with proper reasoning. (5)
+(ii) Explain central limit theorem. Enlist and explain
+X R
+probability distribution used for and chart,
+p-chart and C-chart. (5)
+(B) Control chart for X and R are to be established on a certain
+dimension part, measured in mm. Data were collected in
+subgroup of 6 and given below. Determine trial limits.
+are
+Assume assignable causes and revise the central line and
+limits. (10)
+0-32 0:36 [ | 0:35
+13 4 [15 16
+Subgroup No
+xX 20-39 | Foss 20-39 | | 20-40 052 | [034 20-41 | | 20-40 030 |
+EME041/EPL041/DLT-44287 2
+(C) A leading bank has compiled the data for 1000 accounting
+transaction/day during December and January. What
+control limits and central line are recommended for the
+control chart for February ? Assume any out-of-control
+points have assignable causes : (10)
+Count of Nonconformities | Count of Nonconformities
+4. Attempt any two of the following :
+be followed
+(A) What are the key concept that must as a part
+of design activity that supports the reduction in repair time
+to increase maintainability ? (10)
+(B) (a) The time-to-failure probability density function
+(PDF) for system is (2x4)
+a
+f(t) = 0-01 0 100 days.
+Find :
+(i) Realiability R(t)
+EME041/EPL041/DLT-44287 3 [Turn Over
+(ii) The hazard rate function
+(iii) MTTF
+(iv) MTBF.
+(b) Define “Reliability” and factor affecting it. (2)
+(C) What do by ISO 9000 ? Describe four tiers of
+quality documentation. you mean Also explain QS 9000 and
+TE 9000. (3+4+3)
+5. Attempt four of the following (5x4=20)
+any :
+(i) Contrast between continuous improvement and
+innovation.
+(ii) What do you mean by FMES, MTTF, MTBF and hazard
+rate.
+Explain different categories of cost of quality.
+(iv) What do you mean by “Gain sharing” ?
+Explain engineering in relation design
+(v) concurrent to
+review.
+(vi) List the methods to increase the reliability of a system.
+Explain, in brief, any one of them.
+EME041/EPL041/DLT-44287
+4 11725

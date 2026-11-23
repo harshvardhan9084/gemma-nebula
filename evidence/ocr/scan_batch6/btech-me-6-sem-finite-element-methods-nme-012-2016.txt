@@ -1,0 +1,98 @@
+(f) What the advantages
+Printed Pages: 6 NME-012 are of expressing displacement
+(Following Paper ID and Roll No. to be filled in your field in Natural co-ordinates than generalized
+Answer Books) co-ordinates?
+Paper ID 140662 Roll No (g) Write down the shape functions for four noded
+rectangular elements.
+B.TECH.
+(h) Write the shape function for
+Theory Examination (Semester-V]) 2015-16 constant strain triangle
+by using polynomial function.
+FINITE ELEMENT METHODS
+(i) What are the conditions for a problem to be
+Time 3 Hours Max. Marks 100 axisymmetric?
+: :
+(j) What are the steps involved in finite element
+Note : Assume any missing data suitably. modeling?
+Section-A
+Section-B
+1. Attempt all parts. All parts carry equal marks. Note Attempt five questions from this section.
+(2x10=20) : any
+(10x5=50)
+(a) What are the limitations of Galerkin formulation?
+(a) Determine the vertical deflection at the midpoint of
+(b) Write down the stiffness matrix for 2D beam element.
+the distributed load for the beam shown in Fig.
+(c) What do you mean by convergence in finite element 12kN/m
+analysis?
+(d) Why polynomial shape functions are preferred?
+(e) Specify stress and strain tensors for plane stress
+case. = 200 GPa mm4
+1 P.T.O. 2705/535/72/1800
+2705/ /72/1800
+u(x.y) y(I-x)u, +
+(b) Consider the axial vibrations of a steel bar shown in =
+the Fig.: v{x,y) 0
+=
+1. Develop global stiffness and mass matrices. Assuming plane stress condition, derive the stiffness
+for
+ii. Determine the natural frequencies. matrix the unit dimensioned square.
+E 2x10 Nim? (e) (i) Derive the jacobian for a four noded rectangu-
+Density = lar element having coordinates (0,0), (4,0), (4,2)
+7200 and (0,2).
+(ii) What do you mean by isoparametric formulation
+of finite element problem? Give example of
+a an
+(c) The circular rod depicted in real field problem where super- parameteric
+figure has an outside elements can be used and why ?
+diameter of 60 mm, length of 1 m, and is perfectly
+insulated on its circumference. The left half of the (f) the integral
+cylinder is aluminum, -for which
+is = 200 W/m-°C i.
+and the right half copper having k, = 389 W/m-°C.
+The extreme right end of the cylinder is maintained ae
+at a temperature of 80°C, while the left end is sub-
+jected using Gaussian integration with one, two, and three
+to a heat input rate 4000 W/m?. Using four integration points.
+equal-length elements, determine the steady-state
+temperature distribution in the cylinder. (g) (i) Discuss the advantages and disadvantages of
+finite element method over conventional meth-
+ods.
+OF (ii) Explain the steps involved in finite element
+}+0.25 m>| analysis - displacement approach.
+compatibility
+(d) Fora square, isotropics elastic body of thickness ‘h’, (h) (i) What are the convergence and
+the displacement approximated by: requirements? . Discuss . in . detail. .
+are
+3 P.T.O. 4
+2705/ /72/1800 2705/ 5 /72/1800
+5. Develop the stifness matric
+(it) Differentiate conforming and non-conforming & determine nodal displace-
+elements. ment for given truss. Also find stresses in bar AB & BC.
+C
+Section-C
+Note: Attempt any two questions from this section. (15x2=30)
+P=
+3. (a) Explain the features of Hermition interpolation func-
+tion with example. e (™ J)
+an A +——— 50m B
+(b) Discuss about C° and C' continuity elements in
+Take section for members E=220GPa.
+detail. cross area as
+In Figure, beam OC is supported by a smooth pin connec-
+tion at O and supported at B by an elastic rod BD, also
+through pin connections. A concentrated load F = 10 kN
+is applied C. Determine the deflection of point C and
+at
+the axial stress in member BD. The modulus of elasticity
+of the beam is 207 GPa (steel) and the dimensions of the
+cross section are 40 mm x 40 mm. For elastic rod BD, the
+modulus of elasticity is 69 GPa (aluminum) and the cross-
+sectional area is 78.54
+pia
+| 200 mm
+300) —+|+— 3) —+|
+mm mm
+5 P.T.O. 6
+2705/535/72/1800
+2705/ /72/1800

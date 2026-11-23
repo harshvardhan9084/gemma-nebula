@@ -1,0 +1,64 @@
+Printed Pages : 3
+ME-301
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 140304
+:
+B. Tech.
+(SEM. III) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+THERMODYNAMICS
+Time: Hours] [Total Marks : 100
+1 Attempt any FOUR parts : 5x4=20
+a) Write short notes on the following :
+State, path, closed system, isolated system, extensive
+and intensive properties.
+b) Zeroth law of thermodynamics. Write equivalence
+amongst different temperature scales. Also write brief
+note on each of them.
+c) A gas at 65 kPa, 200°C is heated in a closed, rigid
+vessel till it reaches to 400°C. Determine the amount
+of heat required for 0.5 kg of this gas if internal energy
+at 200°C and 400°C are 26.6 kJ/kg and 37.8 kJ/kg
+respectively.
+d) the Limitations of first law of thermodynamics and
+Internal Energy.
+e) Throttling calorimeter has steam entering to it at 10 MPa
+and coming out of it at 0.05 MPa and 100°C.
+Determine dryness fraction of steam.
+140304] 1 [ Contd...
+f) Write short notes on the following : Attempt TWO parts 10x2=20
+L Critical point a) A system any at 500 K and : heat reservoir 300 K
+Il. ‘Triple point. available for designing work a producing device. at Estimate are
+the maximum work that a be produced by the device
+Attempt any TWO parts : 10x2=20 if heat capacity of can is given
+a) I. _ Carbon dioxide passing through heat exchanger C (0.05 T? 0.10T system 0.085) J/K as;
+at rate of 50 kg/hr is to be cooled a down from b) Define = ‘available + energy’ + and ‘unavailable
+800°C a to 50°C. Determine the of heat removal Differentiate between energy’.
+assuming flow of be of steady rate and reference useful work and maximum useful
+Take gas Cp to 1.08 kJ/kg constant work in to the availability.
+II. Derive pressure the type. unsteady flow = K. Determine the entropy change, unavailable energy and
+b) reversible process energy equation. available energy for the process in which 2 kg air is
+A heat engine runs between 500°C and heated isobarically so as to cause increase in its
+200°C temperature reservoirs. This heat engine is used temperature from 21°C to 315°C. Take T, = 10°C.
+to drive an auxiliary and a reversible heat pump which parts
+runs between reservoir at 200°C and the body at Attempt any TWO : 10x2=20
+450°C. The auxiliary consumes one third of the engine a) What is meant by spark ignition and compression
+Output and remaining is consumed for driving heat pump. ignition engines ? Compare SI engines with CI engines.
+Determine the heat rejected to the body at 450°C as b) In a closed vessel the 100 kg of steam at 100 kPa,
+fraction of heat supplied by reservoir at 500°C. 0.5 dry is to be brought to a pressure of 1000 kPa
+c) Write short notes on the following: Heat reservoir, Heat inside vessel. Determine the mass of dry saturated steam
+engine, Heat pump and refrigerator and also Show that admitted at 2000 kPa for raising pressure. Also determine
+coefficient of performance relationship between heat the final quality.
+pump and refrigerator. ¢) Discuss the effect of pressure of steam at inlet to turbine,
+temperature at inlet to turbine and pressure at exit from
+Attempt any TWO parts : 10x2=20 turbine upon Rankine cycle performance.
+a) State Carnot theorem and explain its corollaries in detail.
+b) Discuss different zones on T-V and P-T diagram for
+steam with help of variation curves.
+Steam at 1.6 MPa, 300°C enters a flow device with
+negligible velocity and leaves at 0.1 MPa, 150°C with
+a velocity of 150 m/s. During the flow heat interaction
+occurs only with the surroundings at 15°C and steam
+mass flow rate is 2.5 kg/s. Estimate the maximum
+possible output from the device.
+140304] 2 { Contd... 140304] 3 [ 4100 ]

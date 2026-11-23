@@ -1,0 +1,78 @@
+http://www.uptuonline.com http://www.uptuonline.com http://www.uptuonline.com
+NEC-302
+Printed Pages: 4 NEC-302 What ts Fermi level? How does it depend
+(Following filled in your on
+Paper ID and Roll No. to be your temperature?
+Answer Books) g) What is the physical significance of diffusion
+length? How is it related with mobility of the
+Paper ID: 2012360
+carrier?
+B.TEC h) What do you mean by reverse recovery transient?
+State the significance of storage delay time.
+Regular theory Examination(Odd Sem - IID), 2016-17
+i) degenerate semi-conductors? Draw their
+FUNDAMENTAL OF ELECTRONIC DEVICES energy band diagrams.
+Time : 3 Hours Max. Marks : 100 j) Calculate the maximum packing fraction of fee
+http://www.uptuonline.com
+wos Section-A wos lattice.
+Section - B
+1 Attempt all parts. Ali parts carry equal marks. Write Note: Attempt five questions from this section
+answer of each part in short. (10x2=20) any
+a) Classify semiconductors the basis of band
+with the help of suitable on diagram. energy 2. a) What do you mean by mobility of a carrier? How
+gap does it depend temperature, doping
+b) Calculate the density of GaAs, ifthe lattice constant concentrations and high on field? Explain.
+of GaAs is 5.65 A". The atomic weights of Ga and
+As are 69.7 and 74.9 g/mol. respectively. b) Mobilities of electrons and holes in a sample of
+intrinsic germanium at room temperature are 3900
+c) Differentiate between phosphorescence and cm?/v-sec and 1900 cm?/y-sec respectively. If the
+florescence materials with examples.
+d) What is population inversion? Write down the electrons and hole densities are each equal to
+difference between emission and 2.5 x 10" per calculate germanium resistivity
+spontaneous and conductivity.
+stimulated emission for LASER action. Discuss Transition and Diffusion capacitance in
+e) V-I characteristics of photodiode. What wos 3. a p-n
+is the significance of 3 and 4" quadrant operation junction diode. In a p* - n junction reverse biased at 10V.
+of photodiode? the capacitance is 10pF. If the doping is doubled and
+http://www.uptuonline.com reverse bias voltage is changed to 80V. what will be the
+capacitance?
+302/12/2016/6720 (1) FET: 302/12/2016/6720 (2)
+http://www.uptuonline.com http://www.uptuonline.com http://www.uptuonline.com
+http://www.uptuonline.com http://www.uptuonline.com http://www.uptuonline.com
+NEC-302
+concentration in the p-type material. N , Is the donor
+4. a) Asilicon sample is doped with 10'° and concentration in the n-type material and q is the electronic
+has a hole life time of 0.5 usec. Assuming all the charge. ,
+donors to be ionized, determine : 8. Derive expression
+i) generation rate, which will produce an for diode current in an ideal p-n
+EHP in steady junction diode.
+4 x excess state. 9. What is Hall effect? Derive the relation between Hallé
+ii) The sample resistivity before and after voltage and carrier concentration. >
+illumination. z
+of conductivity due Section - C z
+iii) The percentage to Note: Attempt any two questions from this section
+minority carriers.
+Assume 1200 400 em?/V-s, &
+wos 4, = 1 = wos 10. Write the special features of MESFET. Explain the
+T=300K. working of normally-off and normally-on MESFETS with ®
+b) What do you mean by drift and diffusion of carriers? its characteristics.
+Find total current density generated due to both of
+these mechanisms of carriers. Il. a) Derive the expression for the equilibrium carrier
+transport concentration fer holes using Fermi Dirac
+Using suitable diagrams, describe the principle and distribution function,
+operation of a Tunnel diode. Also discuss its percm’
+characteristics. b) ASidoped with 10" Boron atoms has fermi
+level above valence band at 300K. What is 3
+6. Draw and explain the hole and electron flow in a p-n-p the density of states in valence band? =
+Common Base BJT. State various currents flowing across 12. Write ; short 2
+the device along with characteristics curves. notes on: http://www.uptuonline.com 2
+Show that the total depletion width in junction at a) LED materials. ; |
+a p-n b) GUNN Diode. = i
+thermal equilibrium condition can be given by
+wos c) IMPATT Diode.
+1 | wos 5
+qg\N, N,
+Where is the permittivity of semiconductor, V, is the
+built-in potential of the junction, is the acceptor
+302/12/2016/6720 (3) [P.T.O. 302/12/2016/6720 (4)
+http://www.uptuonline.com http://www.uptuonline.com http://www.uptuonline.com http://www.uptuonline.com

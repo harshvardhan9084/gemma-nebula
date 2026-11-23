@@ -1,0 +1,62 @@
+www.aktuonline.com
+Printed Pages : 3
+ONY
+EECOI3
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 131653
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+ADVANCE SEMICONDUCTOR DEVICES
+Time : 2 Hours] [Total Marks : 50
+NOTE : ATTEMPT ALL PROBLEMS.
+1 Justify the validity of following with proof: 2.5x4=10
+statements
+(ANY FOUR)
+(1) Gold is used recombination agent.
+as
+(2) Esaki diode is used in reverse bias.
+(3) GaAs is having lesser mobility than Si.
+(4) Mobility is proportional T! band +1.5
+to
+(5) Current becomes fluctuating function of time in bulk
+devices.
+(6) IMPATT is noisy.
+(7) Solar cell must be operated in quadrant of
+V, I GRAPH.
+131653] 1 [ Contd...
+www.aktuonline.com
+2 Answer any two parts of the following: 5x2=10
+(A) the maximum and normal conductivity of Si sample
+doped with N, & Nj, impurities after assuming necessary
+and sufficient notations in accordance with yourself.
+(B) Prove that per degree Centigrade increase in temperature
+increases the conductivity of Si by 8%.
+(C) Calculate the capacitance of graded junction after
+assuming and sufficient notations in accordance
+necessary
+with yourself.
+3 Answer any two parts of the following: 5x2=10
+(A) Discuss : (1) diffusion length (2) carrier life time
+(3) recombination (4) electron hole pair.
+(B) Discuss the phenomenon of photoconductivity in detail
+with its examples and applications.
+(C) Discuss the operation of N channel JFET with the
+condition of pinch-off. Deduce the result of
+transconductance of this amplifier.
+4 Answer any two parts of the following: 5x2=10
+(A) Discuss the operation of SCR with latching and holding
+in detail.
+current
+(B) Discuss the operation, applications and symbol of tunnel
+and zener diode in detail.
+(C) Discuss construction, operation and use of solar cell.
+Design a solar panel which can provide 1 Mega watt
+to University.
+131653] 2 [ Contd...
+www.aktuonline.com
+5 Write short notes on any two of the following : 5x2=10
+(1) IMPATT
+(2) FERMI LEVEL
+(3) AVALANCHE DIODE
+(4) Semiconductor laser.
+131653] 3 [ 6350 ]

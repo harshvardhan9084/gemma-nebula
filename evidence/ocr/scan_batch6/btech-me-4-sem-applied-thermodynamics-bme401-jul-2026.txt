@@ -1,0 +1,84 @@
+Printed Page: 1 of 2
+Subject Code: BME401
+Paper id: 252780 Roll No: |
+BTECH
+(SEM IV) THEORY EXAMINATION 2024-25
+APPLIED THERMODYNAMICS
+TIME: 3 HRS M.MARKS: 70
+Note: Attempt all Sections. Steam table allowed. In case of any missing data; choose suitably.
+SECTION A
+Attempt questions in brief. 02x7=14
+1.
+State the difference between Otto and Diese! cycles.
+What is the effect of superheating on the efficiency of the Rankine cycle?
+Define Higher Heating Value (HHV) and Lower Heating Value (LHV).
+A Name two boiler mountings and two accessories.
+a What is choked flow in a nozzle?
+= Differentiate between impulse and reaction turbines.
+\ List two advantages of using a regenerator in a gas turbine cycle.
+SECTION B
+2. Attempt any three of the following: A 07x3=21
+The output of an I.C. engine is measuredby a rake dynamometer. The K3 |
+a. diameter of the brakepulley is 750 mm rope diameter is 50 mm. The ! aa
+- Gcacioad on the tight side of the rope i i4nd the springbalance reading
+is 50 N. The engine consumes 4.2 fuc! at rated speed of 1000 r.p.m.
+The calorific value offuel is 43900 Calculate: O .
+(i) Brake specific thermal fuel cgfsumption, and e
+ii) Brake turbine &t 36 bar, 360°Cis expanded to 0.08 bar. dt 3 | K3
+b. enters In a steam condenser, where steam itis condensed to saturated liquid water. mp
+_ feeds backthe a water into the boiler. Assume ideal Processes, perkg of
+steam the net work and the cycle efficiency.
+Explain the working of a surface condenser _ with a neat Sketch. Discuss the | 3 | K3
+mpact of air leakage on condenser performane. a|
+Derive the expression for maximum mass flow unit area in 4 K3 _
+|e. | convergent the nozzle. Define nozzle engine efficiency. with diagram. 3] K3 _ |
+— Explain working of a turbojet SECTIQ' C OE
+ab
+“3. one part of the following: 7
+| In air standard Diesel cycle, the sion ratio is 16 and cut-off ee ratio ee
+2.5. an Calculate the thermal efficiep
+i i with a neat neat diagram. at diagram, How How does does it it differ ifr]
+any ger?
+4. Attempt one part of the following: x1l=
+The chemical formula for alcohol is the stoichiometric
+air/fuel ratio by mass and thepercentage composition of the products of
+combustion of
+Derive the expression for adiabatic flame for constant pressure | 2 K3
+07x 1=07
+5. Attempt any one part of the following: :
+[a. [ Define boiler draught. A boiler has chimney of 30 m height to produce natural! 3 | |
+-hitps://www.aktuonline.com
+Printed Page: 2 of 2 are
+Subject Code: BME401
+see
+Paper id: 252788 Roll No:
+BTECH
+(SEM IV) THEORY EXAMINATION 2024-25
+APPLIED THERMODYNAMICS
+TIME: 3 HRS M.MARKS: 70
+draught of 12 mm of water column.Ambient air temperature is 27°C and boiler
+furnace requires 20 kg of air per kg of fue) for completecombustion.
+Determine minimum temperature of burnt yases leaving chimney.
+b. Explain working of feed water heater and superheater in a boiler. How do they 3 | K3
+6. Attempt improve boiler efficiency? of
+any one part the following: 07 x 1=07
+Draw a velocity diagram for a single-stage impulse turbine. Derive
+expressions for work done and blade efficiency.
+b. In a single in stage impulse turbine the isentropic enthalpy drop of 200 kJ/kg
+blade occurs velocity the nozzlehaving coefficient is efficiency 0.96 of 96% and nozzle angle of 15°. The
+0.5. The steam flow rate is and 20 kg/s ratio and ofblade speed to steam velocity is
+m/s. Determineand mass drawing velocity diagram velocity of steam enteringis 50
+| a. the blade angles at inlet and outlet if the steam enters blades
+smoothly and leaves axially.
+b. blade efficiency
+c. the power developed in kW k ©
+d._ one the axial of thrust.
+7. Aitempt part the following: —< - 1° OF
+Air enters the Compressor of a gas turby 5 operating on Brayton cycle at| 3 K3 7}
+101.325 kPa, 27°C. Thepress in the cycle is 6. Calculate the | |
+maximumtemperatire in the cy: the cycle efficiency. AssumeWr = 2.5
+Wc , where y Wy and We are @ rbine and thecompressor work respecti vely:
+Take Explain = the 1.4. working of
+from turbojet? a turboprop engine with a neat diagram. Ke Ky
+a :
+https://www.aktuonline.com |

@@ -1,0 +1,56 @@
+www.aktuonline.com
+Printed Pages : 2
+A
+EITSOS
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 110605
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+INFORMATION SECURITY AND CYBER LAWS
+Time : 2 Hours] [Total Marks : 50
+1 Attempt any four parts of the following: 3x4=12
+(a) Define the term "tunnelling" in VPN. Expalin its
+different types of it.
+(b) Discuss the different approaches used for Intrusion
+Detection in
+a system.
+(c) Differentiate between direct and indirect security
+metrics.
+(d) What is Electronic Data Interchange? What are
+the benefits of EDI ?
+(e) Write down the different factors of biometric
+system.
+(f) Explain the following term:
+(i) — Confidentiality
+(i) Data Integrity
+110605] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any four parts of the following: 3x4=12
+(a) Explain the biometric with the help of
+diagram. system a
+(b) What is VPN ? Discuss different types of VPN.
+(c) Differentiate between Credit card and Debit card.
+(d) What is E-Commerce? Explain different types of
+it.
+(e) What is Physical Security? Write down the basic
+tenets of physical security.
+(f) | Discuss the ethical and legal issues in software
+piracy.
+3 Attempt any Two parts of the following: 7x2=14
+(a) What do you mean by cyber cime? Discuss
+different types of cyber crime in detail.
+(b) Write down short note on the following:
+(i) (ii) (iti) Copyright
+IPR Patent Law Law
+(c) What is information system? Explain the different
+characteristics and components of information
+system.
+4 Attempt any Two parts of the following: 6x2=12
+(a) What do you mean by access control to an
+information resource? Discuss differences between
+authentication and user identification.
+(b) What is Digital Signature system? How digital
+signature are related to Public Key Cryptography?
+(c) What are various types of threats to Information
+Systems? Discuss in detail.
+110605] 2 [13775]

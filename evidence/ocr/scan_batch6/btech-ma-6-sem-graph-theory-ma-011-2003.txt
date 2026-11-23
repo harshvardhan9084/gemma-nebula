@@ -1,0 +1,89 @@
+aktuonline.com aktuonline.com
+| | |
+MER
+Mi] fame. ARY
+B. TECH.
+SEMESTER EXAMINATION,
+GRAPE THEORY
+Total Marks 100
+Ours :
+Atlempt ALE the questions.
+FOUR following (5x 4=20)
+ot tie i
+ina graph
+es of odd
+(hp What do vou understand by a simple graph ?
+Bora simple graph of a vertices, prove that
+ibe of cdges of praph is tess or
+Show that the following eraphs (Mig. 1) are
+isomorphic. Label the corresponding oo oO vertices
+with
+ao
+ots vraph with example. Prove
+graph if and
+into circuits.
+travelling salesman problem.
+Over
+| Tiara
+aktuonline.com following ». ),aktuonline.com
+ono
+an Complete
+Bip PUES
+Cul points of a graph
+“OUR he following :
+tree, then prove that ©
+at least of degree | Ao
+Ine trees and discuss two
+Applications of it.
+Use Kruskal’s algoritl im to find a minimal
+Spanning tree of the following graph
+Vv;
+K |
+> Vv,
+ne 2
+(Fis. A Pply algorithm d to the Btaph given
+ato fF, 3) below to fin the short lest path from
+2
+aktuonline.com @ktuonline.com
+fundamental circuits. Find the sets
+rundamantal circuits of the graph in the
+figure associated with the spanning tree (in
+heavy lines). c
+~~
+te
+Fig. 4
+(f) Prove that a graph G=(p, q) is a tree if and
+only if it is connected
+3. Attempt FOUR of the following (5x 4)
+any
+(7) Pick an arbitrary spanning S} 8 tree in the graph
+given below and list all the fundamental cut-
+sets with respect to this tree.
+Fig. 5
+oO cay Turn Over
+aktuonline.com aktuonline.com
+=
+(0) Detine edge and vertex connectivity of «
+graph. Pind them for the graphs shown
+below if a
+a aN,
+4
+| | |
+| a ~ | |
+e
+- Fig. 6
+(c} Py that connected planar graph with
+vertices Ce and a has e-n+2 regions. 1
+Show is that non-planar. a complete graph of five ver
+the geometic of dual of a graph. Give self —
+dual an example graph. a graph which is itself a
+(fi the crossing number of 44 and the
+Petersen
+4. Attempt any TWO of the following (10« 2=20)
+(7) Define basis vectors of a graph. Show
+the number of cistinet basis possible in a
+cubesel subspace is
+4
+aktuonline.com
+aktuonline.com aktuonline.com
+aktuonline.com

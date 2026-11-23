@@ -1,0 +1,64 @@
+http://www.aktuonline.com
+* v - 1 4 6 3 *
+Printed Pages : 2 MBA - 403
+PAPER (Following ID Paper 1463 ID and Roll No. to be filled in your Answer Book)
+: Roll No.
+MBA
+(SEM. IV) EXAMINATION, 2006-07
+INFORMATION TECHNOLOGY
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions
+1 Attempt any five parts of the following:
+(a) What is the internet? Who it and why? 4
+(b) Explain the naming conventions uses used 4
+to
+identify internet host computers.
+(c) What is a web browser? How is it different 4
+from a web search engine?
+(d) What are telnet and FPP used for? 4
+(e) What is content streaming ? 4
+(f) Explain the following :
+http://www/up.nic.in 4
+2 Attempt five parts of the following:
+(a) Define any the What is the 4
+term e-commerce.
+expected size of the worldwide e-commerce
+market?
+(b) What role do digital certificates and 4
+certificate authorities play in e-commerce ?
+(c) What is firewall? Explain. 4
+V-1463] 1 [Contd...
+http://www.UPTUonline.com
+http://www.aktuonline.com
+(d) Explain Electronic payment systems. 4
+(e) Explain span.
+(f) What actions can you take to minimize the 4
+risk of being a victim of e-commerce fraud?
+3 Attempt four parts of the following:
+(a) List any the file for mats supported by MS Project. 5
+(b) Explain the technique import a file in 5
+to
+MS-project.
+(c) How to apply a constraint in MS Project 5
+(d) Explain project management concept. 5
+(e) Write the features of MS Project. 5
+4 Attempt any four parts
+(a) How many heading you can have in a page? 5
+Describe the process of making text coloured.
+(b) Describe how would you create tables in 5
+HTML? How would you divide the table in
+various cols.
+(c) Describe the of inserting graphics. 5
+How would process banner?
+(d) What is form? you create How is form created? 5
+a a
+(e) What do you understand by Framset? How 5
+would you combine various framsets?
+5 Write any four parts of the following:
+(a) Expain various data types of C++ 5
+(b) Explain classes and object. 5
+(c) Explain if else statement with example of C++. 5
+(d) Explain constructors. 5
+(e) Write the advantage of Loop statement. 5
+V-1463] 2 [ 125 ]
+http://www.UPTUonline.com

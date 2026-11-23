@@ -1,0 +1,71 @@
+Printed Pages 4 EEC508
+:
+(Following Paper ID and Roll No. to be filled in your
+Answer Book)
+Paper ID: 139525
+(SEM. V) THEORY EXAMINATION, 2015-16
+FUNDAMETALS OF E.M. THEORY
+[Time : 3 hours] [MaximumMarks : 100]
+Note : The Question Paper contains Three Sections.
+Section-A
+1. Attempt all parts of the following. All parts carry equal
+marks. Write answer of each part in short. (2x10=20)
+(a) Write Maxwell’s Equation in simple,
+a non-
+conducting and source-free region?
+(b) What is wave number?
+Define Divergence theorem.
+(d) What is unit vector?
+(e) Explain the physical interpretation of Gradient.
+. 10400 (1) PT.O.
+(f) Explain Electric potential. Write the relation What are the boundary conditions for static electric
+between electric potential and electric field fields in the general form the interface between
+intensity. at two
+different dielectric media? Explain.
+conduction
+(g) Define skin depth. Define displacement and current desities and
+derive Maxwell’s equation associated with faraday law
+(h) Transform the point P(2,2,5) in spherical and modified ampere’s circuital law.
+coodinate system.
+(i) Define Surface Integral. Discuss the wave propagation in lossy dielectric also
+determine propagation constant, intrinsic impedance.
+(j) Give the wave equation in terms of electric field
+A positive point charge Q is at the center of a spherical
+and magnetic field. dielectric shell of inner radius R,and radius
+an an outer
+Section-B R, dielectric constant of the shell is ¢,. Determine
+Attempt any five of the following : (5x10=50) P asa functions of the radial distance R.
+2. Derive expression the expression for a@andf in ==
+Acoording to W, =5 fff. evar fff. Vav
+lossless dielectric medium. ,
+show that the stored electic energy given by
+3. State and prove continuity equation. Also explain
+relaxation time. W.=5 |
+4. Explain reflection of plane wave incident normally at
+the dielectric-dielectric interface. Discuss about
+reflection & transmission coefficient.
+10400 (2) EECS08 10400 (3)
+P.T.O.
+Section-C
+Attempt questions from this section.
+any two
+(15x2=30)
+10. Derive a general expression for the magnetic flux density
+B at any point along the axis of a long solenoid. Sketch
+the variation of B from point point along the axis.
+to
+11. Derive an expression for the energy stored in the
+magnetic field of a coil possesing an inductance of L
+Henry when the current in the coil is 1 amp and
+considering toroidal coil, derive and expression for
+energy density.
+12. What is Vector. Helmholtz equation? A 100 MHz
+uniform plane wave E = propogates in the +z
+direction. Suppose €, = 4,4, =1,0 =0 and it
+maximum value of V/m at t=0 and z=0.125m.
+E
+(a) Write the instantaneous expressions for and
+(b) Determine the location where EF is a positive
+maximum when t=10? sec.
+10400
+(4) EECS508

@@ -1,0 +1,74 @@
+www.aktuonline.com
+Printed Pages : 3
+0 00 0
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 121801
+B. Tech.
+(SEM. VIII) THEORY EXAMINATION, 2014-15
+DATA COMMUNICATION NETWORKS
+Time : 3 Hours] [Total Marks : 100
+all the Questions:
+Note : Answer
+1 Attempt any four parts. 5x4=20
+(a) Explain the different of network.
+uses computer
+(b) List the various layers of OSI model. Briefly
+explain the working of each of them.
+(c) What do you mean by Synchronous and
+asynchronous transmission?
+(d) Explain the PCM in details. Discuss the
+specifications of Ethernet.
+(e) What do you mean by computer architecture?
+Explain.
+(f) Explain EIA RS 232 C. Write short notes
+on
+121801] Transmission media.
+1 [ Contd...
+www.aktuonline.com
+2 Attempt four parts. 5x4=20
+any
+(a) Explain HDLG protocol with its frame structure.
+(b) Explain GO-BACK-N ARQ mechanism for error
+and flow control.
+(c) What do you mean by authentication protocol?
+Explain with flow diagram.
+(d) What the main data link layer design issues?
+are
+Discuss briefly.
+(e) What do you mean by What are the
+methods of it?
+3 Attempt any four parts. 5x4=20
+(a) What are the differences between router and
+gateways? Explain.
+(b) What do you understand with congestion? Explain.
+(c) Explain the following.
+(i) Leaky bucket algorithm.
+(i) Token Bucket Algorithm.
+(d) Compare and describe different generations of
+Ethernet used in wired LAN.
+Explain Internetworking in details.
+(e)
+121801] 2 [ Contd...
+www.aktuonline.com
+4 Attempt any two parts. 10x2= 20
+(a) Describe ATM Protocol layers and compare
+them to the OSI protocol hierarchy.
+(b) What do you mean by ALOHA protocol? Draw
+its flow chart diagram.
+(c) Describe the various design issues of
+transport
+layers. What do you mean by Connection
+management?
+5 Attempt any two parts : 10x2=20
+(a) What do you understand by TCP and UDP?
+Explain.
+(b) Answer the following :
+(i) | Compare the salient features of HTTP and
+FTP.
+(it) Differentiate between TFTP and SMTP.
+(c) Write short notes on any of two.
+(i) DNS
+a) WWW
+(it) Subneting.
+121801]
+3 [ 5000 ]

@@ -1,0 +1,129 @@
+0 0
+0
+0 MA-301
+Printed Pages : 4
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 9909 [In
+B. Tech.
+(SEM. EXAMINATION, 2007-08
+III)
+MATHEMATICS -
+(Old Syllabus)
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+1 Attempt any two of the following : 10x2=20
+(a) Solve following differential equations :
+—>+y7=9, d” y
+(1) dx g given y=2 for x x=0,
+=-2 for
+y or 2
+2
+(2) x =
+x 2
+(3) gy sin ax.
+dx
+(b) The damped L.C.R. circuit is governed by the
+de ( x) (1
+equation i L —~+ de dt
+L, R, C
+conditions where under which are positive the circuit constants. is overdamped, Find the
+underdamped and critically damped. Find also the
+circuit resistance.
+bom 1 [Contd...
+aktuonline.com
+difference equations and z —
+z-transform, solve the difference equation
+Yn+3 + =
+2 Attempt tany four of the following : 5xd=20
+(a) Find the power series solution of the differential
+equation (x? +4 va in
++ dx powers
+of x.
+(b) Prove that =
+P, (x)
+| n! dx”
+where p(w) is the Legendre's polynomial.
+d
+(c) Show that where
+is the Bessel function of the first kind of
+order 7.
+x, |x| <a
+(d) Find the Fourier transform of f(x) = 0 | x| >a .
+x
+(e) Show that +7 2° e*, x>0.
+(f) Find the Hilbert transform of
+x
+3 Attempt any two of the following : 10x2=20
+(a) Solve the partial differential equation
+3? vz 2 2
+ax” +3 ax dy ay”
+(b) Solve that equation
+2 au
+Te dt ox
+VK-9909] 2 [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+subject to the conditions :
+u(O, t)=9 for all ¢,
+Ou
+u(x, f(x) and at t=Q.
+(c) Solve the system of partial differential equations
+Ou at
+Ove =0, =0
+4 Attempt four of the following 5x4=20
+(a) Is the any function :
+2 +1
+270,
+analytic at g=Q ?
+(b) Show that e* is harmonic function, find the
+cosy a
+analytic function of which it is real part.
+(c) Show that the function
+~4 isnotanalytic . .
+,
+at the origin, although Cauchy-Riemann equations are
+satisfied at origin.
+If is the upper bound of | f (z)| on C
+|
+of length 7 then prove that < MI.
+Cc
+(e) State and prove Cauchy's integral formula.
+(f) If y)+iv(x, y) is analytic function
+and u(x, y)—v(x, »)=e*(cos y—sin y) then
+find f(z) in term of z.
+VK-9909] 3 [Contd...
+aktuonline.com
+aktuonline.gom
+Attempt any two of the following :
+(a) Using contour integration, evaluate
+° Js cos Xx
++a") (x* +b") and
+ioe] 9
+oe sin
+9 (x" +a") +b")
+OR
+(a) Using contour-integration prove that
+wo sin .
+= 2°
+(b) Define Taylor's series and Laurent's series with
+suitable examples. Prove that
+n=—0o
+Jn(2) 1 j cos zsin 8)
+where = 0
+(c) Define poles, singularities and zero of a
+complex function f(z) with suitable examples.
+What kind of singularities have the following :
+ad) 1 at
+sin z-cosz 4
+(2) cot and
+(z-a) at z=a
+1-e*
+@) atl
+1+e* Z2=o0.
+OR
+(c) Define conformal mapping and linear fractional
+transformations. Prove that if analytic at 2
+then w=f(z) is conformal at zg provided
+f (zo) #9.
+VK-9909] 4 [ 1200 ]

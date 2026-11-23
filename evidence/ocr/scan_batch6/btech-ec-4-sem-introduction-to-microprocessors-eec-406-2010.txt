@@ -1,0 +1,92 @@
+12645
+Pages—3 EEC — 406
+(Following Paper ID and Roll No. to be filled in Answer Book)
+your
+PAPER ID: 0109
+B.Tech.
+(SEM IV) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+INTRODUCTION TO MICROPROCESSORS
+Time : 3 Hours Total Marks : 100
+Note: Attempt ALL questions.
+1. Attempt any four parts of the following:  (4x5=20)
+(a) Discuss about evolution of Microprocessor.
+(b) Explain the term INTERRUPT of a wp.
+(c) What do you mean by addressing modes of
+a MICROPROCESSOR.
+(d) Explain the requirement of peripheral
+devices with a microprocessor.
+(e) Discuss about application of microprocessor.
+(f) Explain operation of any microprocessor
+based system.
+2. Attempt any four of the following : (4x5=20)
+(a) Draw and explain internal architecture
+of 8085.
+(b) Explain operation of 8085 with the help of
+timing diagram.
+EEC 406 1 [Turn Over
+—
+(c) Explain addressing modes of 8085.
+(d) Explain interrupt structure of 8085.
+(e) Explain the execution of following
+instructions.
+(i) MV1 A, 08H
+(ii) JMP 2000H
+(iii) JC 2000H
+(iv) LXI B, 1234H
+(f) Explain the significance of Flag Register
+of 8085.
+3. Attempt any two parts of the
+(a) Explain memory organization of 8086.
+b Draw and explain internal architecture
+(c) Explain addressing modes of 8086 with
+suitable example and also explain physical
+address calculation for each mode.
+4. Attempt any two parts of the following: (2x10=20)
+(a) Write assembly language based _
+8085 an for addition of 16 bit program hexadecimal
+number on (whose lower byte - is stored in
+2000 H and higher byte in 2001H) with
+another 16 bit hexadecimal number
+(whose lower - byte is stored in 2002H and
+higher byte in 2003H) and store the result
+in memory location 2004H and 2005H and
+carry in 2006H.
+EEC 406 2
+—
+(b) Write assembly language based
+8085. an Multiply the numbers program stored
+in on locations two 2000H and 2001H
+respectively memory and place the result in
+location 2002H. memory
+(c) Write assembly language based
+8086 an to 10, 8 bit number program (stored
+in on memory) arrange in ascending order.
+(4x5=20)
+5. Attempt any four of the following :
+(a) Explain internal architecture of 8255
+(Programmable peripheral interface).
+(b) Explain DMA process with the help of
+internal architecture of 8237 (Programmable
+DMA controller).
+(c) Explain operation of programmable
+interrupt controller 8259 with the help of
+diagram of internal architecture.
+(a) Draw and explain internal Block diagram
+of 8255 and its different modes of operation.
+(e) Interface an 8255 with 8086 to work as an
+1/O port. Initialize port A as output port,
+port B as input port and port C as output
+port. Port A address should be 0740H. Write
+a program to reverse switch position
+SW, - connected at port B. The
+reversed pattern is to displayed on port A,
+to which 8 LED’s are connected, while the
+port C lower displays number of on switches
+out of total eight switches.
+(f) Draw and explain internal Block diagram
+of programmable timer counter and it’s
+mode of operation.
+-o0O0-
+EEC 406 3
+—

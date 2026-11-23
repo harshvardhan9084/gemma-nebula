@@ -1,0 +1,69 @@
+5. Attempt any two parts of the following : (10x2=20) Printed Pages—4 EOE048
+(a) Explain the following with one example
+(i) Euler graph : (Following ID-and
+Paper Roll No. to be filled in your Answer Book)
+(i) Hamiltonian graph PAPER ID : 0934
+(ii) Regular graph
+(iv) Union of two graphs Tech.
+(v) Isomorphic graphs. (SEM.
+( IV) THEORY EXAMINATION 2010-11
+(b) (i) Prove that a binary tree with n vertices has exactly . MATHEMATICS
+(a + 1) null branches. _
+(ii) Let the pre-order and in-order search of a binary tree
+T yield the following sequence of vertices : Time : 3 Hours Total Marks : 100
+” Note : Attempt all questions. Each question carries equal marks.
+root 1. Answer four of the following (5x4=20)
+| any parts :
+"ode (a) Let A, B, C be subsets of U. Given that A B= ANC,
+root is it necessary that B = C ? Justify your answer.
+Draw the binary treetad also find the depth (hight) of T. (b) Let A= {6, b}, construct the following sets :
+(c) Consider a DFA A = (Q, 5, 8, q,, F) . A- {9}
+where, Q Gi) -
+given byt the = following 4) table 4,} : D= {0,1} F= {q,} and 8 is | (ii) AU P(A) (iv). AM P(A)
+(v) None of these
+|
+. where P(A) is the power set of A.
+Let A= {1, 2,3, 4} and
+| R= {(1, 2), (2, 3), (3, 4), (2, 1)}
+Find the transitive closure of R.
+(d) Define a relation matrix.
+Give the complete sequence Let X= {1, 2, 3, 4} and R= {(x, y):x>y}
+111000101 using the above transition of states for table the input find string |
+whether string accepted by and out Draw the graph of R and also give its matrix.
+EQE048/RFW-20683 DFA 'A' or not.
+4 12600 | EOE048/RFW-20683 1 [Turn Over
+mo) Let A= {1, 2, 3, 4} (b) @_ Find the generating function of a sequence {a} if
+Given an example of R in A which is : a, = 2+ 3k.
+(i) _ neither symmetric nor reflexive. (ii) Determine the discrete numeric function
+symmetric, reflexive but not transitive. corresponding to the following generating function :
+@ transitive
+and reflexive but not symmetric. A(z)=
+(f) Let f : R by > g(x) R be = defined then by find f{x) out = x? R-» R-»>R Rand be ©
+defined x + 3, (fo g): (c) @ A polygon has 44 diagonals. Find the number of its
+(gof):R>R. sides.
+(i) Acommittee of 5 is to be formed 6
+Attempt any two parts of the following : (10x2=20) 4 females. In how this out of males and
+(a) Find out whether the following propositions ~ at least 2 females many included ways ? can be done when
+tautologies : are are
+@ 4. Attempt any four parts of the following : (5x4=20)
+(a) Let G be the set of all non-zero real numbers and let
+(b) Show that the following pair of propositions are.
+equivalent :
+2
+Use truth table as well as algebra of proposition to show. Show that (G, #) is an abelien group.
+© Prove the validity of the following argument (b) Determine whether semigroup
+"If I get the job.and work : idempotent elements a be with more than one
+will get hard, can a group.
+then I promoted. (c) Show that the system (E, + *) of even integers is a ring
+IfI get promoted, then I will be happy. under ordinary addition and multiplication. ,
+I will not be happy. (d) Show that the set G= {0, 1, 2, 3, 4} finite abelian
+Therefore, either I will not get the job of order 5 under addition module 5 isa composition. group -
+I will work hard." or Define as
+not (e) subgroup. Let H be a subgroup of G. Then prove
+Attempt any two parts of the following : ( 10x2=20) (i) The identity of H is the same as that of G.
+(a) Find the solution of following recurrence relation : (i) The inverse of any element of H is the same as the
++ 6a_, inverse of the same regarded as an element of G.
+given a, = 2 and a, 3. (f) Prove that the intersection of any two subgroups of
+= G.is again a subgroup of G. a group
+a
+2 EOE048/RFW-20683 3 [Turn Over

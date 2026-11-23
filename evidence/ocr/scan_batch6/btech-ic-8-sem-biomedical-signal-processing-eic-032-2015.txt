@@ -1,0 +1,64 @@
+www.aktuonline.com
+Printed Pages : 3
+0
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 132852
+B. Tech.
+(SEM. VIII) THEORY EXAMINATION, 2014-15
+BIO-MEDICAL SIGNAL PROCESSING
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all the problems.
+1 Justify the validity of following statements with
+reasons : (any four)
+(a) "Tonometer is used for Eye pressure measurement".
+(b) "EEG is used for waves of neurons".
+(c) "ECG is used for cardiac measurement".
+(d) "Log sigmoid function (Log sin x) is most eminently
+used in Neurons".
+(e) "Ethovien triangle use to provide complete
+information of heart".
+(f) "Self organizing (SOM) is used in Neurons".
+maps
+132852] 1 [ Contd...
+www.aktuonline.com
+2 Answer any two parts of the following : 10x2=20
+(a) ECGrecord of patient is shown below.
+a Name P, Q,
+R, S, T wave, prove that patient is abnormal.
+Fig. 1
+(b) Discuss Arrthythmia analysis in detail. How and where
+it is used ? Explain the role of theta (0) wave.
+(c) Explain the details of base line Wander and power line
+interference in detail. Why and where they are used ?
+3 Answer of the following 10x2=20
+any two parts :
+(a) Discuss Huffman Coding in detail. How it is modified ?
+Explain in detail.
+(b) Discuss tuning point Algorithm in detail. How and where
+it is used ?
+(c) Explain Run length coding in detail. How and where
+it used ?
+132852] 2 [ Contd...
+www.aktuonline.com
+4 Answer any two parts of the following : 10x2=20
+(a) Discuss the model of with its signal processing.
+Differentiate in between neurons,
+Dynamic and sleep EEG
+(i) Bt & AR method.
+(b) Discuss Maximum Likehood Method for EEG analysis.
+Differentiate it w.r.t ARMA method.
+(c) Discuss following filters used in Biomedical Signal
+processing.
+(i) — Adaptive
+(it) — Prediction
+(ii) Matched
+(iv) LMS adaptive filter.
+5 Write short notes on : (any four) 5x4=20
+(a) Wavelet detection
+(b) Epilepsy transition
+(c) Noise Cancellation
+(d) Brain Waves
+(e) Image Recognition
+(f) Moving Average Method
+(g) Detection and Estimation.
+132852] 3 [150]

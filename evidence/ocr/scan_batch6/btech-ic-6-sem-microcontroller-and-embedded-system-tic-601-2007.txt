@@ -1,0 +1,97 @@
+aktuonline.com aktuonline.com
+* v - 3 a 9 7 *
+Printed Pages : 3 TIC — 601
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 3097
+B. Tech.
+(SEM. VI) EXAMINATION, 2006 - 07
+MICRO CONTROLLER & EMBEDED SYSTEM
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions.
+(2) All questions equal marks.
+carry
+1 Attempt any four parts of the following :
+a) What are embedded microcontrollers and
+external memory microcontrollers ? Explain
+and differentiate.
+b) What the features of Harvard architecture
+and Von-Neumann are architectures?
+c) Explain RISC and CISC processors.
+d) Give a list of microcontrollers commercially
+available indicating the following features of
+each — (i) on chip data memory (ii) on chip
+programme memory (iii) No. of 16 bit timers
+/ counters (iv) I/o.
+Discuss the criteria for selecting the
+e)
+microcontroller device.
+f) Draw the generalised functional block diagram
+of a microcontroller specifying each block.
+V-3097] 1 [Contd...
+aktuonline.com
+http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+2 Attempt any four parts of the following :
+a) Explain the following pin signals of 8051
+family microcontroller :
+Gi) PSEN Gi) EA
+b) Explain the of O of 8051.
+I/o port structure part
+c) Explain TMOD and TCON of 8051
+microcontroller.
+d) Describe addressing modes of 8051 giving an
+example of each.
+€) What is the difference between long jump
+and short jump.
+f) List the different assembler directives and explain
+their meaning for the assembler of 8051.
+3 Attempt any two parts of the following :
+a) What is flash memory? What is the basic
+difference between 8051 microcontroller and
+89C51 microcontroller ? Give the pin
+configuration of 89C2051.
+b) Explain the basic features of an 8 bit PIC
+microcontrollers. What is the purpose of Watch
+Dog Timer (WDT).
+c) Explain the architecture of 16 bit microcontroller
+8096 with the help of block diagram.
+4 Attempt any two parts of the following :
+a) How will the following
+8051 you connect components
+to ports :
+Push button
+(ii) LEDs.
+V-3097] 2 [Contd...
+aktuonline.com
+http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+b) How will you interface the external data memory
+to 8051 llustrating each signal clearly.
+An 8 bit ADL 0809 is to interface with 8051
+microcontroller. Draw the complete circuit
+diagram along with all
+Write in assembly necessary language components. for
+ADC operations. a program
+5 Attempt any four of the following :
+a) Write a programme in assembly language for
+8051 to generate a square wave of 2 kHz.
+Assume crystal frequency is 12 MHz.
+b) Suggest method for of
+a measurement power
+frequency using timer of 8051 with programme.
+c) Explain microcontroller based measurement of
+angular speed of a shaft with the help of block
+diagram and flow chart of the algorithm.
+d) Discuss the control of using 8051
+controller along with stepper driver motor circuit and pulse
+generation.
+€) A single phase load is connected to single
+phase AC source through TRIAC. How will
+you use 8051 to control firing angle to get
+variable voltage across the load.
+Explain micrometer based PWM control of
+DC a
+motor.
+V-3097] 3 [ 1225 }
+aktuonline.com
+http://www.UPTUonline.com

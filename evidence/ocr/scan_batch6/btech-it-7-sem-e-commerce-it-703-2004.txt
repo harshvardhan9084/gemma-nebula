@@ -1,0 +1,133 @@
+aktuonline.com No. |_| | |
+Roll
+No. of Printed Pages—4
+te Romo; Gog}
+B. TECH. GHAZIABAD Institute of
+SEVENTH SEMESTER EXAMINATION, 2003-2004
+E-COMMERCE
+Total Marks 100
+Time : 3 Hours
+Attempt ALL questions.
+:
+1. Attempt any FOUR parts of the following
+(a) What is the difference between
+E-commerce and E-business ? How can
+e-commerce help to reduce inventory
+costs ? Explain with suitable example.
+(ii) What are five potential benefits of
+e-commerce for consumers ?
+(b) (i) What is I-way ? Why is it required for
+e-commerce applications ?
+used for
+(ii) Name high-speed two major global technologies
+distribution networks. Explain
+of the technologies. any one
+(c) (i) Differentiate between Connectionless
+and Connection-oriented networks using
+suitable examples. why Which one is more
+reliable and ?
+(ii) Differentiate between Fast Packet
+switching and Traditional Circuit
+101 switching.
+IT-703 1 Turn Over
+aktuonline.com
+aktuonline.com
+(ij) Write down the advantages
+disadvantages of using Frame Relay.
+(ii) Define the following terms :—
+(a) ATM (b) ISDN (c) SONET (d) SDH
+(e) What is the architectural framework for
+e-commerce ? Explain in detail.
+(f) (i) Does Internet access make employees
+more or less productive ? Justify your
+answer.
+(ii) How can e-commerce’ enhance
+customer service ? Explain with suitable
+example.
+2. Attempt any FOUR parts of the following :— (5x4=20)
+(a) What is TDMA? Compare it with CDMA.
+(b) (i) What disadvantages are the of using advantages circuit switched and
+cellular transmission ?
+(ii) What are VSATs? What types of
+organizations use them and why ?
+(c) Define the following terms :
+(i) WAP
+(ti) PDA
+(iii) Hybrid Pen Computers
+(d) (i) What do by software agents
+and malicious you mean code threat ? Write
+examples of malicious code. some
+(ii) What is an IP Packet Screening Router ?
+(e) is a Firewall ? Write down the different
+types of firewalls and mention their levels of
+security.
+IT-703 2
+aktuonline.com
+aktuonline.cgm aktuonline.com
+(i) Distinguish between FTP and Telnet.
+(ii) What is Finger ?
+(iii) What role does authentication play in
+firewall security ?
+3. Attempt any TWO parts of the following :— (10x2=20)
+(a) (i) What is Encryption? Differentiate
+between Cleartext and Ciphertext.
+~~ (ii) What is a Key ? Explain key length and
+a symmetric key system.
+?
+(iii) What is a public private key pair
+(b) (i) Write down the various WWW based
+security schemes and explain them.
+(ii) What is DES ? How much stronger is
+128-bit key than 64 or 56-bit DES key ?
+- (iii) What is RSA ?
+- (c) (1) What is Message Integrity ? Discuss
+message sender authentication.
+(ii) Explain the following :—
+(a) VPN
+(b)
+Cookie
+(c) E-mail Spoofing
+— Attempt any TWO parts of the following :— (10x2=20)
+(a) (i) EDI Are e-checks different Explain. from traditional
+systems ?
+(ii) What are the possible major risks in the
+operation of electronic payment
+systems ? Explain each risk with a
+suitable example.
+(tii) What is a Debit Card ?
+IT-703 3 Turn Over
+aktuonline.com
+aktuonline.com) traktuonline.com
+(i) What is Online Banking and ? What how does are
+major differ from benefits Home of Banking it ? it
+(ii) What is a Smart Card? What are the
+benefits of using with other a smart electronic card?
+Compare it
+payment systems.
+(i) Explain the based business pros and cons of
+credit card payment system.
+(ii) What is double spending problem with a
+e-cash? How is it detected and
+rectified ?
+5. Attempt any TWO parts of the following :— (10x2=20)
+(a) Explain how EDI helps in the following :—
+(i) Reducing based systems
+(ii) Expanding paper customer/supplier base
+(iii) Improving problem resolution and
+customer services
+(i) Define VAN. What services are provided
+by VANs ?
+(b) (i) Write down the differences between EDI
+and e-mail.
+(ii) Why is EDI a key element in a JIT (just-
+in time) environment ?
+(iii) Why is translation software necessary
+for EDI to work properly ?
+(c) (i) Write down the legal status of EDI
+messages.
+(ii) Explain the following terms :—
+(a) Supply Chain Management
+(b) Work Flow Management
+(c) CRM
+IT-703
+aktuonline.com

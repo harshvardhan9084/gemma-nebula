@@ -1,0 +1,71 @@
+Printed Pages : 4
+IN
+NEC-303
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+BIPAPER ID : 131314
+B. Tech.
+(SEM. III) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+SIGNALS AND SYSTEMS
+Time 3 Hours] {Total Marks 100
+: :
+Note: Attempt all questions. All questions
+data if - be suitably assumed and mentioned. carry equal marks. Missing
+any may
+1. Attempt any four parts of the following: (5X4=20)
+|
+a) Determine whether or not signal is periodic. If periodic find its
+fundamental period. (=) (=)
+i) X(t) =sinidat ii) x(n= cos sin
+~~ b) Determine the system is linear, time invariant, causal and
+memory.
+i) x(n) ii)
+c) Find the Laplace and ROC of the following function.
+san
+x(s) = then find the Laplace of
+d) Obtained the Discrete time Fourier transform of x(n) =
+a"u(n) + a u(—n — 1)
+131314} | 1 [ Contd...
+output sequence
+e) Determine the of the system with impulse b) LTI System, which is initially at rest is described by differential
+response h(n) = u(n) when input is complex exponential equation “204 322 + 2y(t)
+in system
+sequence x(n) = Ae 2 transfer function and impulse response.
+f) Find the convolution of x;(n) and x2(n) using Z-transform X(s) 2s+3
+i) = (1,3,4,5) ii) x2(n) = (5,1,2,6,3,4,5) c) If
+2. Attempt any four parts of the following: (5X4=20) (i) System is stable.
+(ii) System is causal.
+a) Find Energy and Power of the signal, (iii) System is non causal.
+i) X(t) = cos(t)
+ii) x(t) = Ae“u(t), a>0 4. Attempt two of the following:
+b) Obtained the convolution of x(t)=u(t) and h(t)}=1 for-1 <t <1 any parts (10X2=20)
+c) i) Find the Laplace transform of x(t) = e~?u(t + 1) a) i) Determine inverse Z-transform of the following signal
+ii) Find the z- transform of x(n) = z3- 2.
+d) Find the Fourier transform
+properties of Fourier of the following function using the ii) Obtained DTFT of a Signal r< 1
+transform. = b) For a linear shift invariant system h(n) = u(n—
+y(t) = « u(n — 2) + u(m — 3). Find the frequency response H(e!”). and
+(i) Explain delay and phase delay. plot the magnitude and phase response.
+(ii) A signal, group x(t) has Fourier transform given by X(w) c) An LTI system represented by the following difference equation
+a = 3y(n) =5 y(n-2) -7y(n-3) +4x(n-1) for n > 0, determine-
+write down the Fourier transform of — 1). i) Impulse response h(n)
+Determine inverse Z-Transform of the following function. ii) Obtain cascade and parallel farm realization for discrete time
+H(z) —3+ + 0.627? system.
+= ~ 0.2772 5. Attempt any two parts of the following:
+3. Attempt any two parts of the following: (10X2=20) (10X2=20)
+a) Evaluate the convolution integral of x(t)*x(2-t), a) When the input LTI ;
+shown in figure below- where x(t) is to an system is x(n) = ( u(-n)
+1) and the corresponding 5(2
+x{t) y(n)= Pua) -
+i) Find the system function H(z) of the system & its ROC.
+ii) Find the impulse response h(n) of the system.
+iii) Is system Stable & causal?
+131314] . 2 - [ Contd... 131314] 3 [ Contd...
+b) S20 +8204 = for the given system
+described by the above differential over equation, determine whether
+the system is under damped, damped or critically damped.
+And find the impulse response of the system.
+c) i) Prove Parseval’s theorem for continuous time system.
+ii) Explain System bandwidth and rise time for low pass filter
+and prove that t, = 0.35/B.
+131314} 4

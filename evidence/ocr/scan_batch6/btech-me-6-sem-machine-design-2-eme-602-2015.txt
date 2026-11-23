@@ -1,0 +1,132 @@
+www.aktuonline.com
+Printed Pages : 4
+UL
+EME602
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 140601
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+MACHINE DESIGN - II
+Time : 3 Hours] [Total Marks : 100
+1 Attempt any two questions in following part.[10<2=20]
+(a) Define the following terms used in worm gearing:
+(i) Lead;(11) Lead angle; (111) Normal pitch; and
+(iv) helix angle
+(b) Design 20° involute worm and gear to transmit 10 kW
+with worm rotating at 1400 rpm. and to obtain a speed
+reduction of 10:1 The distance between the shafts is
+225
+mm.
+(c) A double threaded worm drive is required for power
+transmission between two shafts having their axes at
+right angles to each other. The worm has 141/,° involute
+teeth. The centre distance is approximately 200 mm.
+If the axial pitch of the worm is 30 mm and lead angle
+is 23°, find (i) lead; (ii) Pitch circle diameter of
+and (iii) Helix angle of the and worm (iv)
+worm gear; worm;
+efficiency of the drive if the coefficient of friction is 0.05.
+140601] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any two questions in following part.[10<2=20]
+(a) Write the expressions for static, limiting load
+dynamic load for and explain the wear various
+spur gears
+terms used there in.
+(b) A bronze spur pinion rotating at 600 rpm. Drives cast
+iron spur gear at transmission ratio of 4:1. The allowable
+static stresses for the bronze pinion and cast iron gear
+are 84 MPa and 105MPa respectively. The pinion has
+16 standard 20° full depth involute teeth of module 8
+mm, The face width of both the gears is 90 mm, Find
+the power that can be transmitted from the standpoint
+of strength.
+(c) Apair of helical gears is to transmit 15 kW. The teeth
+are 20° stub in diametral plane and have a helix angle
+of 45°. The pinion runs at 10000 rpm. And has 80
+mm pitch diameter. The gear has 320 mm pitch
+diameter. If the gears are made of cast steel having
+allowable static strength of 100 MPa; determine
+suitable module and face width from static strength a
+considerations and check the for given
+gears wear,
+6,,=618 MPa.
+3 Attempt any two questions in following part.[10x2=20]
+Define the following applied rolling
+(a) bearings: terms as to contact
+(i) static load rating (ii) Static equivalent load
+(ii) Basic dynamic load rating (iv) Dynamic equivalent
+load.
+(b) A shaft rotating at constant speed is subjected to
+variable load. The bearings supporting the shaft are
+subjected to stationary equivalent radial load of 3 kN
+for 10 per cent of time, 2 KN for 20 per cent of time,
+1 KN for 30 cent of time and load for remaining
+per no
+140601] 2 [ Contd...
+www.aktuonline.com
+time of cycle. If the total life expected for the beating
+is 20 x 106 revolutions at 95 per cent reliability,
+calculate dynamic load rating of the bearing.
+(c) Select single deep ball bearing for radial
+load of a 4000 N row and axial groove load of 5000 N, operating
+speed of 1600 an for life of 5
+at hour day. rpm. an uniform average and steady years load.
+at 10 per Assume
+4 Attempt any two questions in following part. [10x2=20]
+(a) Design a journal bearing for a centrifugal pump running
+at 1440 rpm, The diameter of the journal is 100 and
+load on each bearing is 20 kN. The factor ZN/p may
+be taken as 28 for centrifugal pump bearings. The
+bearing is running at 75°C. temperature and the
+atmosphere temperature is 30°C. The energy dissipation
+coefficient is 875 W/m2/°C. Take diametral clearance
+as 0.1 mm,
+(b) Explain the following terms as applied to journal bearing:
+(i) Bearing characteristic number; and (ii) Bearing
+modulus. Also distinuish between Hydro dynamic bearing
+and Hydrostatic bearing.
+(c) Ajournal bearing with a diameter of 200 mm and length
+150 mm carries a load of 20KN, when the journal speed
+is 150 rpm. The diametral clearance ratio is 0.0015.
+If possible, the bearing is temperature at 35°C ambient
+temperature without external cooling with a maximum
+oil temperature of 90°C If external cooling is required,
+it is to be as little as possible to minimize the required
+oil flow rate and heat exchanger size.
+(i) What of oil do recommend?
+type you
+(i) Will the bearing operate without external cooling?
+(i) Ifthe bearing operates without external cooling,
+determine the operating oil temperature.
+140601] 3 [ Contd...
+www.aktuonline.com
+(vi) If the bearing operates with external cooling,
+determine the amount of oil in kg/min required
+to carry away the excess heat generated over heat
+dissipated, when the oil temperature rises from
+85°C to 90°C, when passing through the bearing.
+5 Attempt any two questions in following part.[10x2=20]
+(a) <A four stroke diesel engine has the following
+specifications
+:
+Brake power = 5 kW; Speed = 1200 rpm; Indicated
+mean effective pressure=0.35 Mechanical
+efficiency=80%.
+Determine : 1. Bore and length of the cylinder; 2
+thickness of the cylinder head; and
+3. Size of studs for the cylinder head.
+(b) Design a cast iron for a single acting four stroke engine
+for the following data : Cylinder bore=100 mm; Stroke
+= 125 mm; Maximum gas pressure=5 Indicated
+mean effective pressure=0.75 Mechanical
+efficiency=80%; Fuel consumption = 0.15 kg per brake
+power per hour; Higher calorific value if fuel=42 x 103
+kJ/kg; Speed=2250 rpm.
+Any other data required for the design may be assumed.
+(c) Explain the following in brief:
+(i) Effect of piston crown thickness and diameter on
+heat flow,
+(i) Lubrication of piston rings,
+(i) Stress induced in connecting rod.
+140601] 4 [ 19350 ]

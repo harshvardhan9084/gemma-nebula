@@ -1,0 +1,69 @@
+Printed Sub | Code: | | | | |
+Paper Id: — RollNo.[_
+B. TECH.
+(SEM VI) THEORY EXAMINATION 2022-23
+SOFTWARE ENGINEERING
+j Total Marks: 100
+Tiyne: 3 Hours
+Note: Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief.
+What is the prime objective of en gineering?
+(6) by spiral model?
+What do you mean software?
+(c) What are the non-functional requirements of
+What is data dictionary? How is it used in software engineering?
+Why software architecture is important in a software process?
+interface?
+rae do you evaluate user
+What is stress testing?
+An) are the roles of testing tools?
+A j List out the importance of cost estimation in software development.
+Gj) How do estimace required for a.sdftware development project?
+you teme
+€ ae
+SECTION B
+following:
+2. Attempt any three of the
+List several software process paradigms. Explain how both water and
+. (a) prototyping model in the spiral process
+(b) Explain the ways and means for collecting the software requirérgents and how are
+they organized and represented?
+Explain data architectural and procedural design for a software.
+do by integration testing? Explain their outcomes.
+}_ What bricfly you mean software maintenance activities do estimate the cost
+Discuss on you
+SECTION C
+3. Attempt any one part of the follawing: 10x1=10
+(a) Explain the bath tub curve of hardware reliability.
+model? Explain it with its advantages and disadvantages in brief.
+« @) What is RAD
+4, Attempt any one part of the following: 10x1=10
+(a) Discuss the various Me Call's quality factors with quality triangle.
+Discuss the Data dictionary ynd decision table with notations, What is
+the signiftcance of them in software requirement process?
+https://www.aktuonline.com
+§,
+Attempt ANY one part of the following: 10x1=10
+(a) Den, Draw the
+Software design framework and discuss the elements of design . model.
+ne coupling and cohesion with their types.
+6. Attempt any one part of the
+Discuss following: 10x1=10
+(b) SCUSS equivalence alence clas classes testing g me method wi with example
+Giv, an
+INPUTA & B
+C=A+B
+IF C>100
+PRINT “ITS DONE”
+END IF
+IF A>50
+PRINT “ITS
+__
+END IF.
+How many test cases would # be required for maximum
+coverage? State the Procedure
+7. Attempt any one part of the following: 10x1=10
+(a) Discuss the various types of software re-engineering approaches,
+27 What are the different types of risks? Discuss the version control.
+https://www.aktuonline.com

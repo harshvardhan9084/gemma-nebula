@@ -1,0 +1,84 @@
+,
+Printed Pages : 3 EEC406
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0109
+B.Tech.
+(SEMESTER-IV) THEORY EXAMINATION, 2012-13
+INTRODUCTION TO MICROPROCESSOR
+__Time :3 Hours ] . Total Marks : 100
+SECTION —- A
+-10x2=20
+1. Attempt all parts.
+(a) What is the concept of segmented memory ? What are its advantages ?
+(b) In the op-code fetch cycle, what the control and signals asserted by the
+are status
+8085 to enable the memory buffer.
+(c) If the clock frequency is 5 MHz, how much time is required to execute an
+instruction of 18 T states ? = 4
+can
+~ (d) What operation be performed by using the instruction XRA A ?
+List different of operation of
+(e) the modes 8255.
+(f) | What is the sensor matrix mode of 8279 ?
+(g) What is the difference between 8259 and 8259A ?
+(h) List the advances in 8237 over 8257.
+(i) How does 8086 differentiate between op-code and instruction data ?
+(j) . How does 8259A differentiate between an 8-bit and 16-bit processor ?
+oom
+SECTION B
+parts. —
+Attempt any three 10 x 3=30
+(a) Show the timing of how a data byte is transferred from to the MPU.
+memory
+(b) Draw and explain the read and write cycle timing diagrams of 8086 in minimum
+mode.
+(c) Illustrate the memory address range of the chip with 256 bytes of memory and
+explain how the range can be changed by modifying the hardware of the chip
+select
+(d) Write a program to add the following data bytes stored in memory locations
+starting from XX60H and display the at the output port if the does not
+generate sum sum
+a carry. If a result generates a carry, stop the addition, and display 01H at
+the output port.
+First
+Data (H) Set : 37, A2, 14, 78, 97
+Second Set : 12, 1B, 39, 42, 07
+(e) How will you provide more than eight -interrupt input linés to an 8085 based
+system ? Explain.
+SECTION —C
+Attempt all parts. 10x 5=50
+Attempt any one part.
+(a) Explain the concept of interfacing the 8155 memory segment.
+(b) Write an 8085 assembly program to generate a continuous square-wave with the
+period of 50 jas. Assume the system clock period is 30 ns and use bit D, to output
+square-wave. Show the delay calculations.
+Attempt any one part.
+(a) Implement, using the 8085 interrupt, program to count continuously in binary
+with two second delay between each count and write a service routine at XX90H
+flash AAH three times when the
+to program is interrupted, with some appropriate
+delay between each flash.
+(b) List and explain all 8085 vectored interrupts with internal hardware schematic.
+—
+0109 2
+Attempt any one part.
+(a) Draw the register organization of 8086 and explain typical applications of each
+register.
+different
+(b) (i) State and explain the instruction formats of 8086/8088.
+addressing
+(ii) Explain the modes for control transfer instructions.
+Attempt any one part.
+(a) Write a 20 ms time delay subroutine using register pair BC. Clear the Z flag
+without affecting other flags in the flag register and the main
+any return to
+program.
+(b) Write an 8085 program to count continuously in binary with a one-second delay
+between each count.
+Attempt
+any one part.
+(a) Draw and discuss the different modes of operation of 8253.
+of
+(b) Explain the key code format and mode set register 8279.
+,
+0109

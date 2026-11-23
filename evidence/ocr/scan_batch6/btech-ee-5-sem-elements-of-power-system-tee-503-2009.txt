@@ -1,0 +1,141 @@
+aktuonline.com aktuonline.com
+N08
+Printed Pages : 4 TEE-503
+PAPER ID : 2057 Roll No.
+B. Tech.
+(SEM. V) EXAMINATION, 2008-09
+ELEMENTS OF POWER SYSTEM
+Time : 3 Hours] [Total Marks ; 100
+Note : Attempt all questions.
+1 Attempt any four parts ;
+(a) Draw single line-diagram of a three-bus system having
+generator G1 connected to bus-1 through transformer
+T1, generator G2 connected to bus-2 through transformer
+T2, four synchronous motors M1 to M4 connected to
+bus-3 through transformer T3, transmission lines TL1,
+and
+TL2 and TL3 connected between buses !-2, 2-3
+1-3, respectively.
+(b}) What is the difference between isolator and circuit-
+breaker ?
+(c) Compare the conductor requirement for AC
+1—
+system with 3— AC system. Assume same maximum
+potential difference between conductor and earth.
+(d) The cost ofa 3— overhead line having cross-section
+area ‘q' cm’ is Rs.(500+ 2000 a) per kilometre.
+Calculate the most economical current density for the
+conductor if the rate of interest and depreciation is 12%
+2057) 1 [Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+per annum and the cost of energy wasted is 5 paise
+per kWh. The resistivity of conductor may be taken
+as 1.7 wQ-cm. Take load factor of 12%.
+(e) What advantages you get by using -
+(i) Stranded conductors
+(ii) Bundled conductors.
+(f) Explain with justification whether the following statement
+is TRUE on FALSE
+"Skin effect increases effective resistance and reactance
+of conductor".
+2 Attempt any two parts
+(a) Determine capacitance of the arrangement shown in the
+figure when (i) the effect of earth is neglected and
+(ij) the effect of earth is considered. The heights of
+conductors from ground are 10 meters and radius of
+each of the conductor is 2 cm
+(b) The A, B, C, D constants of a three-phase
+transmission line are A = D = j0.016.
+B=33.5+ j138Q and
+j901.223)x10°°
+C = (-0.9280 + mho
+The load at the receiving end is 40 MW at 200 kV
+with pf of 0.86 lagging. Find the magnitude of the
+sending end voltage, current, power, line frequency and
+the voltage regulation. Assume that the magnitude of the
+sending end voltage remains
+constant
+2057) 2 {Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+(c) Obtain equivalent model ofa long transmission line
+3 Attempt any two parts
+{a) Aconductor with 2.5 cm dia is passed centrally through
+a porcelain bushing having and internal and
+external diameters of 3cm and 9cm, respectively. The
+voltage between the conductor and an earthed clamp
+surrounding the porcelain is 20 kV rm.s. Determine
+whether corona will be present in the air-space round
+the conductor.
+(b) Discuss advantages and disadvantages of corona. How
+loss be minimized ?
+Determine can corona the maximum voltage that the string of
+(c)
+suspension insulators in the figure can withstand if the
+maximum voitage per unit is 17.5 kV
+4 Attempt any two parts: 10x2=20
+(a) Derive expressions for and tension in
+sag a power
+conductor strung between two supports at equal
+heights taking into account the wind and ice
+loading also.
+2057) 3 (Contd...
+aktuonline.com
+oo —_
+aktuonline.com aktuonline.com
+(b) Explain the necessity of a stringing chart for
+a transmission line and show how such a chart
+be constructed.
+(c} What can is the of using intersheaths in
+purpose a
+cable ? Show that in a cable using two intersheaths
+the maximum stress in the (homogeneous) dielectric
+3
+is reduced to (eat of maximum stress
+4,
+without . intersheaths . where Q= = _ d,
+d dy
+(D and d are the interval sheath diameter and
+diameter and d, and dy the internal
+core are
+diameters of intersheaths 1 and 2 , respectively.
+§ Attempt any two parts : 10*2=20
+(a) Discuss following methods of neutral grounding -
+(i) Peterson coil grounding
+(i) Resonant grounding
+(il) Solid grounding.
+(b) Discuss the points which are considered while
+designing a transmission line.
+(c) Discuss layouts, relative merits and demerits of
+different types of HVDC links.
+a
+2057] 4 [3200]
+aktuonline.com
+aktuonline.com aktuonline.com
+(b) Explain the necessity of a stringing chart for
+a transmission line and show how such a chart
+be constructed.
+What can is of using intersheaths in
+(c) the purpose a
+cable ? Show that in a cable using two intersheaths
+the maximum stress in the (homogeneous) dielectric
+is reduced to (l+a+a*) 2. of maximum stress
+d, d,
+without intersheaths where @ = a = ad. = dL D
+1 2
+(D and d are the interval sheath diameter and
+diameter and d, and dy the internal
+core are
+diameters of intersheaths 1 and 2 , respectively.
+5 Attempt any two parts : 10x2=20
+(a) Discuss following methods of neutral grounding :
+Peterson coil grounding
+fi) Resonant grounding
+(ii) Solid grounding.
+(b) Discuss the points which are considered while
+designing a transmission line.
+(c) Discuss layouts, relative merits and demerits of
+different types of HVDC links.
+2057] ‘0 4 [3200]
+aktuonline.com

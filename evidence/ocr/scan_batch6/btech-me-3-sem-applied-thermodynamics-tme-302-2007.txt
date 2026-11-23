@@ -1,0 +1,144 @@
+Pages—5
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+B.Tech.
+THIRD SEMESTER EXAMINATION, 2006-07
+APPLIED THERMODYNAMICS
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt ALL questions.
+(ii) All questions carry equal marks.
+(iii) In case of numerical problems assume data wherever
+not provided.
+(iv) Use of Steam Tables and Mollier Charts is permitted.
+(iv) Be precise in
+your answer.
+1. Attempt any four parts of the following : (5x4=20)
+(a) What is the difference between Path Function and
+Point Function. Explain it by p-v diagram. What
+is the amount of work done in free expansion
+01.97 process ?
+Derive the steady flow energy equation for a
+single stream entering and a single stream leaving
+a control volume and explain the various terms
+in it. Give the differential form of S.F.E.E. Also
+define unsteady flow process.
+(c) What does the Clausius-Clapeyron equation
+signify ? Derive the relation and discuss its
+application.
+1 [Turn Over
+TME — 302
+aktuonline.com
+aktuonline.com(d) aktuonline.com
+Define the coefficient of :
+(i) | volume expansion
+(ii) isothermal compressibility and
+(iii) adiabatic compressibility.
+Determine and the volume expansivity of steam at
+350 kPa 300°C.
+(e) combustion chamber, hot air is available
+continuously at 1550°K and 9 bar for expansion ™
+through a turbine. The air leaves the turbine at
+1 bar and 910°K. Determine
+(i) availability for the flow system; and
+(ii) effectiveness.
+Take C,=1.005 kJ/kg-°K and atmospheric
+temperature 20°C. Changes in potential and
+kinetic energy may be neglected.
+(f) Using Maxwell relation show that :
+C,.dT =T.ds+T de a P
+. oT
+Also briefly discuss relevance of Maxwell
+relations.
+2. Attempt any four parts of the following : (5x4=20)
+(a) Determine the work output per kg of steam and
+the quality of steam leaving steam turbine if steam
+undergoes reversible adiabatic expansion in steam
+turbine from 0.6 MPa, 300°C to 60 kPa.
+TME — 302 2
+-aktuonline.com
+ktuonline.com ktuonline.com
+(b) Determine the equivalent evaporation
+fuel and boiler efficiency of a boiler having steam
+generation in boiler at 3 MPa, 350°C at the rate of
+kg/hr. Feed water enters economiser at
+100°C and during one hour test 5 x 10° kg fuel
+having calorific value of 104 kJ/kg is
+consumed.
+(c) Name two accessories of a fire tube boiler plant
+and draw neat sketches to explain their working.
+(d) What are the different methods of producing
+draught. Explain any one method in detail.
+(e) What losses) are which the different be terms taken (heat utilization and for
+finding the are heat to balance of into boiler account Explain
+them and out also define boiler efficieny. a
+(f) Determine the height of chimney required for
+producing a draught equivalent to 15 mm of
+water, if the flue gas temperature is 525 K,
+ambient kg temperature of fuel required. is 25°C and minimum 18 kg
+air per is
+3. Attempt any two parts of the following : (10x2=20)
+(a) Draw Rankine p-V Cycle and and T-S derive diagram the for a modified for
+thermal efficiency for this cycle considering expression the
+work into account. Also explain how and
+pump why it is different from Rankine cycle for steam
+engine.
+(b) Using neat sketches enumerate and explain the
+various saturation parts of and a steam engine. Also of explain
+using diagram. curve missing quantity steam
+p-v
+TME — 302 3 [Turn Over
+aktuonline.comc) baraktuonline.com
+Dry through saturated nozzles steam the at pressure of 4.5 of kg/sec 6 and
+discharges at at of rate 1.6 bar. The loss due
+to friction a pressure only in the diverging portion of
+the nozzle occurs and its magnitude is 12% of the total
+isentropic enthalpy drop. Assume the isentropic
+index of expansion n=1.135. Determine the
+cross-sectional area at the throat and exit of the
+nozzles. Also explain choked flow through
+nozzle.
+4. Attempt any two parts of the following : (10x2=20)
+(a) (i) | does efficiency
+Why increase with the increasing of boiler a Rankine cycle
+when the condenser is maintained pressure at
+constant ?
+pressure
+(ii) | What is bleeding and how does it affect the
+cycle efficiency and specific work output ?
+(b) Determine the maximum blade efficiency and
+blade speed to steam velocity ratio of a De-Laval
+turbine. This turbine has nozzle angle of 20°,
+symmetrical blades, blade velocity coefficient of
+0.85 and actual blade efficiency as 90% of
+maximum blade efficiency. Also define reheat
+factor and discuss its relevance with the help of ~
+h-s diagram.
+(c) Draw the velocity diagram of velocity
+compounded impulse and 50% reaction a turbine
+stage. Show the calculations for finding out the
+tangential force, axial force, blade efficiency and
+stage efficiency for both the impulse and reaction
+turbine.
+TME — 302 4 [Turn Over
+aktuonline.com
+aktuonlinescom aktuanine.com
+Attempt any two parts of the following :
+(a) (i) | Discuss with the help of graph, the variation
+of specific output with pressure ratio at
+various maximum cycle temperatures for a
+gas turbine plant.
+(ii) | What are the different factors which cause
+the difference between an ideal cycle and
+real cycle of a gas turbine plant ? Define
+polytropic efficiency and its relevance.
+(b) Explain with the help of enthalpy-entropy
+diagram a turbojet gas turbine engine. How it is
+different from turbo-prop engine ? Also explain
+rocket engine briefly.
+(c) Prove that optimum ratio for maximum
+thermal efficiency for pressure turbine plant is given
+by: gas
+optimum =
+1+ pat]
+-o0Oo-
+TME — 302 5
+aktuonline.com —

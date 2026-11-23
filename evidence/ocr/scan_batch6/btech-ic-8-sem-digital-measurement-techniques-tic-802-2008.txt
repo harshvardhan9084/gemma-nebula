@@ -1,0 +1,67 @@
+aktuonline.com
+aktuonline.com
+Printed Pages : 2 TIC-802
+(Following Paper ID and Roil No. to be filled in your Answer Book)
+PAPER ID : 0396 Roll No.
+B. Tech.
+(SEM. EXAMINATION, 2007-08
+DIGITAL MEASUREMENT TECHNIQUES
+Time : 3 Hours] [Total Marks : 100
+Note Answer all questions.
+:
+1 Attempt four parts of the following 5x4
+any :
+(a) Discuss the advantages and disadvantages of a
+digital display compared to an analog one.
+(b) The Resolution of a digital instrument can be
+improved without limit. Explain.
+What is the maximum time interval that can
+be measured if the counter is a 16 bit one and
+the clock freq. is 1 MHz?
+(c) Explain the technique for the measurement of very
+low time period.
+(d) Explain phase technique through
+time measurement
+measurement.
+(e) In brief describe the CKT for measuring Q of
+a ringing CKT.
+(f) Calculate resolution due to drift in oscillator
+frequencies of a time measurement system than
+the clock period.
+[Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+of the following 10x2
+2 any two parts measured :
+(a) Explain how high frequency can be by
+digital technique.
+(b) With the help of diagram explain peak frequency
+measurement technique.
+(c) With the help of diagram in brief explain the
+method for measurement of the Ratio of two
+frequencies and product of two frequencies.
+3 Attempt any two parts of the following: 10x2 eg
+(a) Define digitally programmable resistors and its
+use.
+(b) Define programmable gain amplifiers and some of
+its uses.
+(c) Draw the CKT of Biquad 1 using switched
+capaciters and find out its transfer function.
+4 Attempt any two parts of the following : 10x2
+(a) Describe various CKTs that can be used as a
+switch in DACs.
+(b) Explain how DACs can be derived from
+Programmable Gain Amplifiers.
+(c) Write a note on weighted resistor DACs.
+5 Attempt any two parts of the following : 10x2
+(a) With the help of diagram explain the working of ao
+successive approximation type ADC.
+(b) What is the difference between indirect type and
+direct type ADC. With the help of diagram explain
+the working of indirect type ADC.
+(c) Write short notes on:
+(@) Sampling Theorem
+Gi) TDM
+MMM ]
+U-0396) 2 [ 1750
+aktuonline.com

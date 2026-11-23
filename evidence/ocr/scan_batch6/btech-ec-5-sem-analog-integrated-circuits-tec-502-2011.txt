@@ -1,0 +1,52 @@
+5. Attempt any two parts : (10x2=20) Printed Pages—4
+(a) Explain the operation of series voltage regulator.
+(b) How SMRS is different from linear feedback
+Give regulator ?
+various applications.
+(c) What is the difference between an 7808 and an 7908 IC
+regulator ? What is the difference in circuit connections,
+if they are both used to produce an 8V regulated supply ?
+2010-11
+ANALOG INTEGRATED CIRCUITS
+Time : 3 Hours Total Marks : 100
+Note : Attempt all the questions.
+| 1. Attempt any four parts :
+| (a) Explain brief view of differential amplifier.
+| (b) | Whatis the level ?
+translator circuit What is its significance
+in a cascade differential amplifier ?
+(c) Calculate current I in the circuit of figure 1.
+—10 Volt
+(d) Draw the block diagram of OP-Amp and
+various blocks. an describe its
+(e) Discuss the operation and significance of a multiple output
+transistor current mirror.
+. (f) What is primary advantage of using an active load.
+TECSO2/VEQ-15372 4
+. 5200 * TECS02/VEQ-15372 1 [Turn Over
+2. Answer any four parts : (5x4=20) (c) Design a Bandpass filter using the op-amp 741 shown
+(a) Why timer IC given the IC555. What its below, so that = 1 KHz, Q = 3 and gain A, = 10.
+was name are Cc
+essential building blocks ? Explain them.
+(b) Calculate the amplitude of the triangular wave and square
+for fig. (a).
+wave 0-01 pl
+(c) Explain the difference between capture and lock range of 4. Answer any two parts : (10x2=20)
+frequencies of the PLL with suitable examples. (a) Explain the hysteris loop obtained in the Schmitt trigger
+(d) Explain crystal controlled oscillator. operation.
+(e) Determine the frequency and duty cycle for 555 astable (b) Draw a sample-and-hold circuit. Explain its operation
+for kQ and briefly.
+multivibrator output C = 0-01pF, R, = 2:2 (c) Given a circuit of Fig. which gives output.
+R, kQ. square wave
+(f) Design a Wein bridge oscillator that will oscillate at 2 kHz. Find R and C so that square wave with period 10 m secs
+can be generated.
+3. Attempt any two parts : (10x2=20) R
+What is by filter ? Give the classification of the
+(a) meant advantages
+filters. What are the of an active filter over a
+passive filter ?
+(b) Write short notes on any two :
+(i) Second order active filter method
+(ii) High order filters
+(iii) State variable filter.
+TECSOUVEQ-15372 2 TECS02/VEQ-15372 3 [Turn Over

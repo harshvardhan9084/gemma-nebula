@@ -1,0 +1,98 @@
+aktuonline.com aktuonline.com
+Printed Pages —04 ME—605
+(Following Paper ID and Roll No. be filled in Answer Book)
+to | [| | your [| | | [I [|
+RollNo|
+B. Tech.
+SIXTH SEMESTER EXAMINATION, 2004-2005
+AUTOMATIC CONTROL
+: 2 Hours Total Marks : 50
+Note: (i) Attempt ALL questions.
+(ii) In case of numerical problems assume data wherever
+not provided.
+1. Attempt any four parts of the following : (3.5x4=14)
+(a) Describe the components and variables of the
+biological control apparatus involved in
+walking in a prescribed direction. Why is
+walking a closed-loop operation ?
+(b) What do you understand by servomechanism ?
+Explain with the help of a suitable example.
+Simplify the given block diagram.
+(d) Determine the expression for the time function
+f(t) from the s-domain function
+Fs)
+= (s +1) (s +2)
+ME—605 1 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+(e) What are different rotational mechanical
+components ? What are analogous systems ?
+Expiain with one suitable example.
+(f) | For the RC network given below, let the initial
+voltage across the capacitor C be. volts
+with the polarity shown and let
+Using the Laplace transform techniques,
+find y.
+2. Attempt any four parts of the following : (3x4=12)
+(a) typical step-response of a second order
+system and with the help of this plot explain
+the following terms :
+|
+(i) Swiftness
+(ii) Settling lime
+(iii) Maximum overshoot
+(b) The block diagram representation of a control
+system is given below :
+(i) | Determine whether this system is an
+overdamped, a critically damped or an
+underdamped system.
+ME—605 2
+aktuonline.com
+aktuonline.com aktuonline.com
+(ii) Determine damping ratio the and natural damped frequency, natural
+frequency.
+(c) Transfer function of a second-order system is
+given by 25 Determine its
++25
+time-domain c(t), to unit step.
+response, a
+(d) What is two-position control ? Explain with
+any suitable example.
+(e) Explain the following terms :
+(i) Derivative time
+(ii) Tuning the controller
+(iii) Proportional band of a controller
+(f) What is a PID controller ? How can it be
+implemented for a mechanical actuator ?
+of the following (6x2=12)
+3. Attempt any two parts :
+(a) How many roots does the following polynomial
+have in the right half of the s-plane ?
+(b) What is the difference between transient and
+steady state of control system ?
+What is steady-state response a of closed-loop
+system ? error any
+ME—605 3 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+c With a neat sketch, discuss the 8 generation of
+proportional as well as integral action in a
+proportional plus integral hydraulic actuator.
+4. Attempt any two parts of the following : (6x2=12)
+(a) For the open-loop transfer function given
+below, calculate :
+(i) break-away point
+(ii) intersection with imaginary axis, using ~
+root locus technique
+G(s) (5) H(s) K -
+= s(s+4) (s +5)
+(b)
+Obtain the polar plot of the following transfer
+G =
+function (jw) 1+jwT .
+(c) What are gain margin and phase margin ?
+How, using these margins, stable or unstable
+system can be identified from a Bode
+magnitude and phase-angle plot.
+He
+aktuonline.com

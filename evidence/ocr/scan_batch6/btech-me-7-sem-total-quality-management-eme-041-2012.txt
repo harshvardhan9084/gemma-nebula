@@ -1,0 +1,72 @@
+(b) Acomponent has the following linear hazard rate, where t Printed Pages—4 EME041
+is in years :
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+A(t) = 0.41, t>0 PAPER ID 2981
+(i) Find R(t) and determine the probability of component :
+failing with in the first month of its operation. B.Tech.
+(ii) is design life if a reliability of 0.95 is desired ? (SEM. VII) THEORY EXAMINATION 2011-12
+TOTAL QUALITY
+(2x5) MANAGEMENT (TQM)
+(c) (i) What do you mean by orthogonal array ? Explain its
+Time : 3 Hours Total Marks : 100
+properties. Note :— Attempt all questions. Marks allotted are indicated against
+(ii) What is the concept of JIT ? Explain its genesis. every part of each question.
+1. Attempt any two parts of the following :
+(iit) What do you mean by Six Sigma ? Explain how six (a) Discuss the journey of quality from
+sigma is different from TQM. (10) “inspection and testing” program
+era. era to today's most mordern
+(7)
+5. Attempt any four parts of the following : (5x4) (ii) Explain term “TQM”, (3)
+Explain : (b) (i) Enlist different methods to evaluate supplies. Explain
+any one in detail. (6)
+(i) MTTF and MTBF, with example. (ii) Explain how to assess the quality in sales and services.
+(ii) Explain quality planning. (4)
+(c) (i) What do you mean by capacity of a supplier ? What
+(iii) What do you mean by empowerment ? How does job are the different to it ? (3+4)
+enlargement and job enrichment improves quality ? (ii) What do measure by assess
+you mean warranty and guarantee ? How
+(iv) What is the role of value engineering in evaluating design are they being analysed and set ? (3)
+to improve quality ?
+2. Attempt any two parts of the following :
+(v) Explain continuous improvement and innovation. (a) (i) What do you mean by quality loss function ? How
+(vi) Explain internal and external customers in relation to does it explain the effect of quality and associated
+ISO decisions on the life of common people as well as
+9000. industrial personnel ? (6)
+EME041/KIH-26180 4 10100 ’
+EME041/KJH-26180 I [Turn Over
+(ii) individual, determine different obstacles (c) The following table gives the average and range in Kg? for
+implement an TQM ina manufacturing organization. tensile tests improved plastic cord. The subgroup
+to size is Determine on an the trial control limits. If
+(4) 4. points are out
+(b) What are different types of organizational structures ? of control, assume assignable causes and calculate revised
+Compare them on the basis of inventories, quality, limits and central line.
+production planning and control, set-up and throughput Subgroup Subgroup
+issues with suitable examples. (10)
+(c) Discuss the different causes of operator errors and Number xX Number x R
+managerial approaches the (10) = 1
+to overcome same.
+2
+Attempt any two parts of the following : 3
+(a) (i) | What do you mean by process capability index ? (2) 4
+The specification from the manufacturing of 5
+a particular type of metal coating call for the 6
+temperature of the drying to be 380 + 15°F. The | 7
+that is oven 8
+company considering using coating run tests
+by taking a large number of reading about mean 9
+temperature setting was found to be 2.06°F. What is
+the process capability index ? (4)
+(ii) Explain different situation that may appear in a
+control chart while ploting data of samples on control
+limits. (4)
+relationship population. (10)
+(b) (i) Show between sample and Attempt any two parts of the following
+Also explain how this relation help us to develop :
+control charts. (4) (a) Explain:
+(ii) What are a and 8 in relation to type I and type II (i) Fault isolation and self diagnostics;
+error ? (3)
+(iii) Standard deviation for three samples are 9.6, 10.2, (ii) Parts standardization and interchangeability;
+9.8. If all these three samples drawn single (ii) Modularization and accessibility and
+sample, what will be the standard are deviation? as (3) ;
+(iv) Repair and /or replacement. (2.54)
+EME041/KIH-26180 2 EME041/KIH-26180 * 3 [Turn Over

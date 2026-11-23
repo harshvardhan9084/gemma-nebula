@@ -1,0 +1,63 @@
+EME032
+Printed Pages—3
+ollowing sa ID and Roll No. to be filled in your Answer Book
+PAPER ED: 297
+B.Tech.
+(SEM. VI) ODD SEMESTER THEORY
+EXAMINATION
+PROJECT
+MANAGEMENT
+Time : 3 Hours Total Marks : 100
+“Note ALL the
+:— (1) Attempt questions.
+(2) All questions carry equal marks.
+(3) Be precise in your answer.
+(4) Assume suitable value for missing data if any.
+Attempt FOUR
+1. Describe any parts of the following :— (5x4=20)
+(a) various stages of project cycle.
+(b) Discuss how benchmarking be used in project
+may
+environment.
+What do you mean by taxonomy of projects ?
+(d) What are the different procedure for identification
+and
+- formulation of projects ?
+(e) What do you mean by Project environment and
+complexity ?
+(f) different What do you mean by project goal'? Explain in short
+issues of PM.
+5208 1 [Turn Over
+2. Attempt any TWO parts of the (10x2=20) (ii) Draw a network diagram containing the following
+8
+‘(a) Howdo the ideas of the ‘seamless enterprises’ differ from
+Time Duration (Days)
+those functional and matrix management ? A
+What do project ? Explain in B
+you mean by selection of
+detail about organization structure. C
+(c) What are project contracts ? Explain different types of
+| contracts. What the different types of payments to |
+are F
+contractors ? ( G
+3. the following:— H
+Attempt any TWO parts of
+; brief | (1) Indicate the critical path.
+(a) What is meant by ‘Project appraisal’ ? Discuss in ‘ (2) What is the project completion time ?
+PERT
+appraisal, financial appraisal and appraisal. ! (b) What-do you mean by cost accounting system of
+management and CPM ? Explain about lowest cost schedule.
+(b) What are the objectives of ‘Social cost benefit analysis’ ? (c). Explain ‘Total float’, ‘Free float’ and ‘Independent float’
+the approach in brief. of activities and their significance in management
+(c) What are the different sources of project finance ? Give a
+brief account of each of them. 5. Attempt any TWO parts of the following :— (10x2=20)
+(a) Discuss precedence diagramming method with help of a
+4. Attempt any TWO parts of the following (10x2=20)
+_ ( ( suitable example.
+(a) - (i) _ Define the term ‘Project Scheduling’. 2 (b) Discuss the complexity of project scheduling with limited
+resource. :
+(c) What are the essential requirements of project
+management software ? List some of the package
+available.
+EME032/DNG-52081 EME032/DNG-52081 3 2725
+2

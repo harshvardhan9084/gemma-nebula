@@ -1,0 +1,85 @@
+Printed Pages : 3 EECSO1
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER
+ID : 2117 | | |
+B. Tech.
+(SEMESTER-V) THEORY EXAMINATION, 2012-13
+INTEGRATED CIRCUITS
+Time : 3 Hours ] | Total Marks : 100
+Section — A
+L Attempt all question parts 10x 2=20
+:
+(a) For Widlar Current source assume the = 1 mA and R, = 5 KQ, neglect base
+current and find
+(b) List the advantages of Widlar
+current source.
+(c) Find the voltage gain of the CE amplifier with active load circuit when both
+devices are active.
+(d) Define the term “Sensitivity”.
+(e) Give “The voltage gain of the operational amplifier decreases high
+reason at
+(f) Write some applications of analog multiplier.
+(g) What are the parameters determine the performance of VCO ?
+(h) Calculate the time period of Astable Multivibrator having R, = R, = 2 KQ,
+R=4KQ and uF.
+(ij) Why CMOS NAND is preferred CMOS NOR ?
+over
+(j) List the disadvantages of Sallen —- Key Unity Gain filter.
+Section-B
+2. Attempt three question parts 10 3 30
+any : x =
+(a) Derive a voltage gain expression for Dual Input Balanced Output Differential
+Amplifier.
+(b) With neat circuit diagram explain the generation of square wave form using
+Op-Amp astable multivibrator and calculate its total time period.
+2117 1 P.T.O.
+(c) Design Wein-Bridge Oscillator circuit and derive expression for sustained
+a
+oscillations.
+(d) (i) Implement the following expression using AOI gate logic.
+F = A(B + CD)
+(ii) Explain the transistor sizing procedure for a four input NOR gate.
+(e) Design a filter using the Sallen — Key unity gain low pass active filter to meet the
+following specifications: Assume C = 0.027 uf.
+(i) Rolloff Rate : 40 dB/decade
+(i1) Critical Frequency : 4 kHz
+(ili) Pass band flat possible \
+as as
+(iv) Gain of 10 at DC
+Section — C
+Attempt all questions : 10x 5=50
+3. Attempt any two parts : 5x2=10
+(a) Draw the output of the following circuit and explain its working.
+(b) Draw Cascode MOS current mirror and calculate its output impedance.
+a
+(c) How Current Mirror can be used as an ACTIVE LOAD ? Draw the BJT
+differential amplifier circuit using ACTIVE LOAD.
+2117 2
+Attempt any two parts : 5x2=10
+(a) What is the effect of Vy on I) in MOS Current Mirrors ?
+(b) Draw and explain sample and hold Op-Amp circuit.
+(c) Name the circuit that is used to detect the peak value of the non-sinusoidal
+waveforms. Explain the operation with neat circuit diagram.
+Attempt any two parts : 5x2=10
+(a) Two CMOS inverters operating from a 5-V supply have V,,, and V,, of 2.42 V
+and 2.00 V and corresponding outputs of 0.4 and 4.6, respectively, and are
+connected as a latch. Approximating the corresponding transfer characteristic of
+by straight line between threshold points,
+each gate a sketch the latch open-loop
+transfer characteristic. What are the coordinates of point B (unstable point) ?
+What is the loop gain at B ? \
+(b) Draw and explain monostable multivibrator using 555 timer and calculate its time
+period.
+(c) (i) Design a precision peak rectifier and explain its working operation.
+(ii) Using a 10 nF capacitor, find the value of R that yields an output pulse of
+100 pts in the monostable circuit.
+Attempt any one part : 10x1=10
+(a) Draw the KHN Biquad filter and derive transfer function of the BPF and LPF
+from that.
+(b) Find the V,, /I,, for the following circuit :
+Attempt two parts
+any :
+(a) Draw and explain the PLL block diagram.
+(b) Design a parallel-flash ADC and explain its working.
+(c) Draw and explain a GILBERT analog multiplier.
+2117

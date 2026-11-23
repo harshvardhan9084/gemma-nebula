@@ -1,0 +1,71 @@
+Printed Page: 1 of 2
+Subject Code: KEE061
+PAPER ID-410573 Roll No:
+BTECH
+(SEM VI) THEORY EXAMINATION 2023-24
+SPECIAL ELECTRICAL MACHINES
+TIME: 3 HRS M.MARKS: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+me 1. Attempt ail questions in brief. 2x Mas 10=20 [CO]
+la. __| Which type of generator used in wind energy and why? | 1 |
+Ib. | Draw the torque speed characteristics of two phase AC Servomotor. 1
+Calculate the stepping angle for 3-stack, 16 tooth variable reluctance
+motor.
+Id. | What do you mean by closed loop control?
+Classify the conditions for successful operation of switched reluctance
+motor.
+How Switched reluctance motor differ from synchronous reluctance
+motor?
+lg | Discuss different types of rotors used in PMBLDC motor? OQ ad
+How can the direction of rotation of a PMDC motor can be reversed? oo Ad
+How does switched reluctance motor differ from synchrorus reluctance
+motor?
+Draw the torque-slip characteristic of steresis motor.
+SEC
+TION B
+2. Attempt any three of the following: ‘ 3 x 10 = 30
+la. __| Explain detailed working of doubly excited induction generator.
+With the help of diagram explain the construction and working’ principle
+of multi stack Variable Reluctance Stepper motor.
+Explain the working of switched reluctance motor in “deta “ and derive
+torque equation.
+Explain the speed control of PMBLDC machine warking for motoring
+i nips. /Iwww. aktuonline. com
+SECTION c
+3. Attempt any one part of the following: 1x 10=10
+Explain the constant power and constant torque control of induction
+motor
+Demonstrate the performance analysis of two phase AC Servomotor
+4. Attempt any one part.of the following: 1x 10=
+Explain the concepts of open-loop and closed-loop control systems for
+stepper motors using microprocessor-based control circuits.
+Drive the torque equation of stepper motor and Draw the different
+performance characteristics of steeper motor
+https://www.aktuonline.com
+a Printed Page: 2 of 2
+Subject Code: KEE061
+PAPER
+BTECH
+(SEM VI) THEORY EXAMINATION 2023-24
+SPECIAL ELECTRICAL MACHINES
+TIME: 3 HRS M.MARKS: 100
+5. Attempt any one part of the following: 1x 10=10
+Explain the construction and working principle of linear switched
+reluctance motor (SRM)
+.
+PMAC
+Explain in detail about sinusoidal motor. Also give its
+applications.
+Explain the construction and principle of operation of PMBLDC motor.
+7. Attempt any one part of the following: 1x 10=10
+Explain the construction and principle of operation of a Hysteresis
+motor.
+| Explain construction and working of repulsion motor.
+https://www.aktuonline.com
+Whatsapp ‘@ 9300930012
+Send your old paper & get 10/-
+site 10 vor oe,
+Paytm or Google Pay
+2|
+https://www.aktuonline.com

@@ -1,0 +1,117 @@
+www.aktuonline.com
+Printed Pages : 4
+A
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 120801
+B. Tech.
+(SEM. VID) THEORY EXAMINATION, 2014-15
+UTILIZATION OF ELECTRICAL ENERGY &
+TRACTION
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions.
+four of following.
+1 Attempt any parts the (5x4=20)
+(a) State and explain advantages of electrically produced
+heat. What are the essential properties of resistance
+heating elements ?
+(b) What are different methods of heat transfer and
+under what conditions heat transfer by radiation is
+efficient ?
+(c) What is induction heating ? Define its application
+and advantages.
+(d) Differentiate the function of AJAX WYATT furnace
+and TAMA furnace.
+(e) Explain clearly pinch-effect and skin-effect.
+120801] 1 [ Contd...
+www.aktuonline.com
+(f) of insulating material 130 cm? in area and
+1 cm thick is to be heated by dielectric heating.
+The required is 380 W at 30 MHz material
+has a power relative permittivity of and factor
+5 power
+of 0.05. Absolute permittivity = F/m.
+Determine the necessary voltage.
+2 Attempt any two parts of the following. (10x2=20)
+(a) Explain blow effect at the edges and due to
+ground arc What the advantages of using
+currents. are
+coated welding electrodes ?
+(b) What do you understand by resistance welding?
+Discuss the effect of welding time of resistance
+welding on the quality of the weld ?
+(c) (1) With necessary figure explain the process of
+seam welding.
+(I) the following used in electrolytic
+terms
+processes :
+(i) Current efficiency (ii) Energy efficiency.
+(d) (1) State Faraday's laws of electrolysis and
+explain them clearly.
+the basic laws which electro-
+deposition. govern
+3 Attempt any two parts of the following. (10x2=20)
+(a) Explain with the help of circuit diagram the working
+of high pressure mercury vapour lamp. A 250V
+lamp has a total flux of 1500 lumens and takes
+of 0.4 A. Calculates lumens and
+a current per watt
+M.S.C.P. per watt.
+120801] 2 [ Contd...
+www.aktuonline.com
+(b) What are the main faults of a lightning system and
+how these ? In a street lighting
+scheme, lamps are having overcome uniform C.P. of 500
+are
+hung at a 6 meters. The distance between
+consecutive lamps posts is 8 meters. Find the
+illumination under lamp and at centre in between
+the lamp posts.
+(c) Define following
+terms :
+(1) Refrigerated system (2) Water cooler.
+4 Attempt any two parts of the following. (10x2=20)
+(a) What are different systems of track electrification ?
+Explain DC system and composite system of track
+electrification.
+(b) What the factors affecting the schedule speed
+are
+of a train ?
+A train runs between two stations 1.6 km apart
+at an average speed of 36 km/h. if the maximum
+speed is limited to be 72 km/h, acceleration to
+km/h/s, coasting retardation km/h/s and
+2.7 to 0.18
+braking retardation to 3.2 km/h/s, compute the
+duration of acceleration, coasting and braking
+periods. Assume a simplified speed - time curve.
+(c) Define following
+:
+1. Steam engine drive
+2. Tramways
+3. Tractive effort for propulsion of train.
+120801] 3 [ Contd...
+www.aktuonline.com
+5 Attempt any two parts of the following. (10x2=20)
+(a) What are the advantages and disadvantages of
+diesel electric traction ? Discuss the main
+characteristics of diesel engine with special reference
+to its application for traction purposes.
+(b) What is the main advantage of series-parallel
+control of motors over Rheostatic method of
+starting and speed control ?
+(c) The following data refer to two traction motors
+rated at 1500 V :
+Armature resistance by each motor =
+Current drawn by each motor = 500A (During starting)
+Effective weight of the train = 140 tonnes
+Dead weight of the train = 120 tonnes
+Specific resistance 50 N/tonne
+=
+Tractive effort per motor = 38000N
+Speed at the end of starting period = 40 km/h
+Calculate :
+(i) Duration of starting period
+(ii) Speed of train at transition
+(ii) Rheostatic loss.
+120801]
+4 [2500]

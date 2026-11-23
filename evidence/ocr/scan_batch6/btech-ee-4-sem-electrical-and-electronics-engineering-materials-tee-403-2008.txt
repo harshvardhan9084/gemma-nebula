@@ -1,0 +1,95 @@
+aktuonline.com
+aktuonline.com
+Printed Pages : 3 TEE — 403
+(Following Paper ID and Roll No. to be | filled | in | your | Answer | | | Book) |
+PAPER ID : 2083 Roll No.
+B. Tech.
+(SEM. IV) EXAMINATION, 2007-08
+ELECTRICALS &
+ELECTRONICS ENGINEERING MATERIALS
+Time : 3 Hours] [Total Marks : 100
+Note: (1) Attempt all questions.
+(2) All questions carry equal marks.
+1 Attempt any four parts of the following 4x5
+(a) Describe :
+briefly the basic seven crystal systems.
+(b) Define the following:
+(i) Unit cell
+(11) Space lattice
+(ul) Body centered cubic structure.
+(c) State
+and explain Bragg's law. How it can be
+used to determine lattice parameters?
+(d) What is ‘Atomic Packing Factor? Calculate its
+value for simple cube and body centered cube
+structure.
+(e) Derive the relation between interplanar spacing’ d'
+and cube edge ‘a’.
+(f) Draw the following directions in a face centered
+cubic structure (112), (001) and (101)
+U-2053}
+[Contd...
+aktuonline.com
+aktuonline.com aktuonline.com ~
+2 Attempt four parts of the following : 4x5
+any and Thomson effects.
+(a) Explain Seeback, Peltier
+(b) Explain Superconductivity. What is the effect of
+magnetic field on the superconductors?
+(c) Derive an expression for heat development in a
+current carrying conductor. Also explain the
+factors responsible for it.
+(d) Determine the temperature coefficient of
+resistance of material used in a resistor if the
+resistance at 25°C is 50 ohms and at 70°C is
+57.2 ohms.
+(e) Ina certain conductor, the current density
+is 2.4 A/mm? copper and electron density is free
+electrons m3 of the Determine the drift
+velocity of per the electrons. copper. Given e=1.6x10-19
+coulomb.
+(f) Explain the factors which affect the resistivity of
+conducting materials.
+3 Attempt any two parts of the following. 2x10
+(a) Describe various mechanisms of dielectric
+polarisation and derive an expression for
+electronic polarizability.
+(b) What is dielectric loss and loss angle? How do
+loss factor and dielectric with
+and frequency constant of alternating vary field?
+Explain. temperature an
+(c) Explain with examples :
+(i) Piezoelectricity and
+(ii) Ferroelectricity.
+2053) Att inl Mi 2 [Contd...
+co http://www:UPTUonline.com
+aktuonline.com aktuonline.com
+4 Attempt any two parts of the following 2x10
+(a) What is Hall Effect? Explain its origin and derive
+the relation between Hall coefficient and carrier
+density.
+(b) (i) Discuss in brief the mechanism of
+conduction in N-type and P-type
+semiconductors.
+e (ii) Differentiate between intrinsic and extrinsic
+semiconductors.
+Explain in brief P-N-P and N-P-N
+transistors.
+(ii) Give constructional details of Junction Field
+Effect Transistors (JFET).
+of the following: 2x10
+5 any two parts
+(a) Explain the phenomenon of
+(i) and
+(ii) hysteresis in ferromagnetic materials
+(b) How do you classify the materials as dia, para
+or ferromagnetic? Explain ferromagnetism and
+antiferromagnetism.
+between soft and hard magnetic
+g (c) (i) materials. Differentiate
+(ii) Explain briefly following mechanical
+properties of metals:
+Elasticity, Plasticity, Ductility and
+Malleability.
+[5125
+aktuonline.com hetp://www.UPTUonline.com

@@ -1,0 +1,92 @@
+Printed Pages—04 EC—802
+( Following Paper ID and Roll No. to be filled in Answer Book
+your
+PAPER ID: 3049
+B.Tech.
+EIGHTH SEMESTER EXAMINATION, 2004-2005
+DATA COMMUNICATION NETWORK
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt ALL questions.
+|
+(ii) Make and state realistic assumptions if necessary.
+1. Attempt any four parts of the following : (5x4=20)
+(a) Explain Frame Relay and ATM technologies
+with their Data Link control frame formats.
+T6LTO0 (b) Whatis protocol? Explain its elements. Define
+important characteristics of any protocol.
+(c) salient features of OSI reference model.
+(d) What the features of PPP ? How lines
+brought are and down in it ? are
+| up
+) (e) Consider an error free 64 Kbps satellite channel
+used to send 512 byte data frames from one
+earth station without to another. The satellite Earth is a simple
+earth repeater station propagation memory. delay is station 270mS. to
+Short acknowledgements generated .
+immediately after a frame is correctly are received.
+What are the maximum throughputs for
+window sizes of 1, 7, 15 and 127 frames ?
+EC—802 1 [Turn Over
+(f) Distinguish between data rate and baud rate.
+Can you give examples where baud rate is
+{a) higher (b) lower than the data rate ?
+Explain.
+Attempt any four parts of the following : (5x4=20)
+(a) Explain the concept of broadcast channels.
+What are their design issues ? Do all networks
+use them ? Give examples.
+(b) An Ethernet channel with many stations has
+data rate =10Mbps, fixed size frames 1500
+bytes long (unusual), diameter =1km and
+signal propagation speed 2 x 108 m/s. Find its
+maximum channel efficiency.
+(c) Calculate ALOHA channel 10% of the slots
+are efficiency. idle. the channel load and
+(d) Explain limited contention protocol with an
+example. What are its advantages over full
+contention and collision free protocols ? Are
+they used in “Internet” for connecting two
+international gateways ?
+(e) With k-stations contending for of
+broadcast channel that the access maximum a
+probability of successful prove transmission is
+Ea when all stations are similar.
+(f) Discuss the significance of persistence in
+CSMA protocols.
+-802 2
+3. Attempt any two parts of the following : (10x2=20)
+(a) Explain the frame format for IEEE 802.3
+protocol. Write down the specifications of
+100 Mbps Fast Ethernet specified under
+100 Base-X and 100 Base-T4. What are the
+Band rates in different versions/parts of
+Ethernet ?
+(b) Describe the salient features of IEEE 802.5 and
+FDDI. What are their application areas ?
+(c) Explain the different aspects differ of medium access
+802.11 in IEEE 802.11. ? Why Do 802.11 they frame format in 802.11 has b four and
+address g fields ?
+4. Attempt any two parts of the following : (10x2=20)
+(a) Explain Network layer design issues in detail.
+(b) What is routing ? Explain in detail Link-State
+routing algorithm.
+(c) Give the IPv 4 header format and explain the
+significance of each field with their
+applications. Which fields rarely utilized ?
+State some common options. are Are they all
+practical ?
+5. Attempt any two parts of the following : (10x2=20)
+(a) How connection is established and released in
+TCP protocol ? What are the different
+situations that may be encountered ?
+(b) Discuss the issues and implementation of TCP
+transmission policy. What is Nagle's
+Algorithm ? What are the associated
+congestion control method ?
+3 [Turn Over
+(c) Write short notes on any two :
+(i) UDP
+(ii)
+RTP
+(iii) RPC
+OR OK 40k

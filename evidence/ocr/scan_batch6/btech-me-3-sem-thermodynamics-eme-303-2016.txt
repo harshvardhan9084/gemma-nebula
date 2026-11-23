@@ -1,0 +1,93 @@
+Printed Pages: 5 {| 935 EME-303
+(Following Paper ID and Roll No. to be filled in
+Answer Book) your
+Paper ID: 166702
+B.Tech.
+(SEM. III) THEORY EXAM. 2015-16
+THEROMODYNAMICS
+[Time : 3 hours] {Maximum Marks : 100]
+SECTION -A
+parts. marks.
+1. Attempt all carry equal Write answer of
+each part in short. (2x10=20)
+(a) What is concept of continuum ?
+(b) ExplainAmagat’s
+Law.
+(c) Discuss the significance of Clausius inequality.
+(d) Why does free expansion has zero work transfer ?
+(e) Energy can be conserved but not entropy. Explain
+.
+(f) A heat engine receives heat at a rate of 500-kW
+from a source at 1200 K, rejects waste heat at 300
+K, and in the process delivers a power of 180kW.
+Determine
+:
+3000 | (1) [PT.O.]
+the refrigerator are each 40% of their maximum
+(i) Reversible Power values.
+(ii) Irreversibilty rate A rigid closed tank of volume contains 5 kg.of
+(g) Inarefrigerator the food preservation temprature wet
+, steam at a pressure of 200kPa. The tank is heated until
+is -5°C, while the atomospheric temperature is the steam becomes dry saturated. Determine the final
+cooling load is 5k W. Determine the pressure and the heat transfer to the tank.
+minimum power required.to operate the unit.
+Comment on the statement; Heat having high entropy
+(h) Why should specific heat not in terms has a low possibility of conversion into work, whereas
+of heat transfer ? heat having low entropy has a possibility of conversion
+into work, show that change entropy
+- (i) What.is‘meant by degree of superheat and degree in of an irreversible
+of process is always positive.
+Two blocks of metal, each
+(j) What are the limitations OE 1st law of having a mass of 10 kg anda
+thermodynamics ? specific heat of 0.4 kJ/kg K, are temperature of 40°C.
+A reversible refrigerator receives heat from one block
+SECTION-B and rejects heat to the other. Calculate the work required ©
+section. to cause a temperature difference of 100°C between the -
+Attempt any five questions from this (10x5=50) blocks.
+two
+2. A reversible heat engine oprates between two reservoirs . Establish the equivalence of Kelvin Planck & Clausius
+at temperature of 600°C and 40°C. The engine drives a Statement Show
+reversible refrigerator which operates that efficiency of a heat
+reservoirs at temperature of 40°C & -20°C. The heat engine operating between the same temperature limits
+is same.
+transfer to the engine is 2 MJ and the net work output of
+the combined engine and the refrigerator plant is 360 Name the various methods to determine the dryness
+kJ. Find the heat transfer to the.refrigerant and the net fraction of steam. Explain combined separating and
+heat transfer to the reservoir at 40°C. Also find these calorimeter.
+values if the efficiency of the heat engine and COP of
+3000 (2) EME-303 ° (3) PTO]
+What is steady flow process ? Write the steady flow (a) When all the ice has melted and equilibrium has
+energy equation for a single stream entering and single been reached, what will be the temperature of water
+stream leaving control volume. and the ? The specific heat of copper is
+volume technique a Explain-the control can latent heat of fusion of ice is 333
+in a variable flow process. kJ/kg K and the
+A Carnot engine operating between temperatures T, & kJ/kg.
+T, with efficiency and increase of the universe
+77, other Carnot engine operates (b) Compute the entropy
+between temperatures T, & T, with efficiency 7 Show resulting from the process.
+that the carnot engine operating between temperatures work needed by a stirrer
+T, and T, will have efficiency (c) What will be the minimum
+| to bring back the temperature of water to 20°C ?
+mechanical. efficiency,
+Attempt 12. Define thermal efficiency,
+any two questions from this section. (15X2=30) efficiency, Brake power, Indicated power of
+10. Steam expands isentropically in nozzle from MPa, and IC engine and explain the working of the stoke SI
+250°C 10 kPa. a 1 engine with neat sketch and differentiate between two
+to The steam flow rate is 1 kg/s. Find the SI engine.
+velocity of steam at the exit from the nozzle, and the stroke and four stroke
+exit area of the nozzle. Neglect the velocity of steam at —x—
+the inlet to the nozzle. The exhaust steam from the nozzle
+flows into condenser and flows
+The cooling a out as saturated water.
+water enters the condenser at 25°C and leaves
+at 35°C Determine the mass flow rate of cooling water.
+All adiabatic
+porcess may not be isentropic, but all
+isentropic porcess are adiabatic. J ustify an insulated 0.75
+kg copper calorimeter can containing 0.2 kg water is in
+equilibrium at a temperature of 20°C. An experimenter
+now places 0.05 kg of ice at 0°C in the calorimeter
+encloses the latter and
+with a heat insulating shield.
+3000 (4) EME-303 (5) EME-303
+3000

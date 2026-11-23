@@ -1,0 +1,72 @@
+Printed Pages : 4 208 EEC-504
+(Following Paper ID and Roll No. to be filled in
+Answer Book) your
+Paper ID : 131524
+(SEM. V) THEORY EXAMINATION, 2015-16
+ANTENNA & WAVE PROPAGATION
+[Time : 3.hours] [Maximum Marks : 100]
+Section-A
+1. Attempt all sections. All sections carry equal marks.
+Write answer of each section in short. (10x2=20)
+(a) Write three methods which might be used to
+generate circular polarisation for lowearth-orbit
+a
+satellite antenna communication system.
+(b) Explain why all practical necessarily have
+antenna
+maximum directivity greater than unity.
+(c) Whatare the difficulties in waveguide Propagation?
+(d) Find the terminal impedance of infinitesimally thin
+slot antenna when the impedance of
+infinitesimally 2/2 dipole antenna is 73+
+42.5jQ.
+(1) P.T.O.
+How
+(e) radiation resistance? 4. Explain in detail about folded dipole antenna.
+and impedance of folded dipole antenna is related to the
+(£) What do you mean by resonant Non-resonant
+long wire abtenna? number of dipoles and radius of dipoles?
+(s) Define mean antenna array and Pont ; 5. Explain the principle of pattern multiplication and its
+(h) What are the advantages and disadvantages of advantages. Give one example of Pattern Synthesis.
+rhombic antenna?
+chamber? what purpose it 6. Write short Microstrip and Slot
+(i) What is anechoic For is a note on antenna
+used? antenna.
+(j) What do you understand by line of sight?
+7. What are the methods for Gain Measurement?
+Section-B
+8. Describe the applications of Loop antenna? Write down
+Note: Attempt any five questions from this section. the comparison between parabolic and reflector
+(10x5=50)
+antennas?
+2. Derive the Friis transmission line formula. Calculate the 9. Write short note on Ground wave propagations and space
+effective aperture of dipole length 2cm at a frequency wave propagation?
+of 1.2 GHz. What will be the power received for an
+incidental density of 2m W/m?? Section-C
+power {
+| Note: ote: Attempt any any two tw questions tions from this secti
+3.  Esplain the concept of Antenna Temperature. Calculate | (15x2=30)
+the maximum effective aperture of a beam antenna having |
+a HPBW of 30 degree and 35 degree in perpendicular 10. Explain the various modes of operation of a helical
+planes intersecting in beam axis. Assume negligible side antenna. What is Horn antenna? Explain its applications.
+lobes.
+(2) BEC-504 (3) P.T.O
+11. Explain the mechanism of Ionospheric propagation with
+neat diagram. In an Ionospheric propagation, reflection
+take place at a height of 400 km and that the maximum
+denesity in the ionosphere corresponds 0.9 refractive
+to a
+index at 10MHz. Determine the ground range for which
+this frequency is MUF take earth’s curvature into
+consideration.
+12. (a) Discuss the method for the measurement of
+Radiation Pattern
+(b) Design three-element Yagi-Uda
+a antenna at an
+operating frequency of 250MHz.
+(c) Forend fire consisting of several half
+array wave
+length long isotropic radiators to have a directive
+gain of 30. Find the array length and FNBW. What
+will be these values for Broadside array?
+(4) EEC-504 / 3200

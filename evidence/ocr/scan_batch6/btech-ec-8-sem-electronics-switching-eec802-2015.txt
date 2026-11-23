@@ -1,0 +1,68 @@
+www.aktuonline.com
+Printed Pages : 3
+ON A AT
+EEC802
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 131802
+B. Tech.
+(SEM. VIII) THEORY EXAMINATION, 2014-15
+ELECTRONICS SWITCHING
+Time : 3 Hours] [Total Marks : 100
+1 Attempt any four parts : 5x4=20
+(a) Explain and draw general trunking diagram.
+(b) Explain how packet switching is better than circuit
+switching for data communication system.
+(c) Explain Read electronic switch with support of
+diagram.
+(d) Explain one motion and two motion selector.
+(e) Explain register translator sender system.
+2 Attempt any four parts : 5x4=20
+(a) write down the difference between single
+stage
+and multistage network.
+(b) Briefly describe digital time division switching.
+Differentiate it with analog time division switching.
+131802]
+1 [ Contd...
+www.aktuonline.com
+(c) Derive blocking probability of a three stage
+network using lee graph.
+(d) Explain triangular point switches. Calculate
+cross
+the total number of cross points in a triangular
+crosspoint matrix with 100 subscribers.
+(e) Explain consolidation and segregation.
+3 Attempt 10x2=20
+any two parts :
+(a) Define pure birth process and derive the expression
+for the probability of K arrival. On average, one
+call arrive every 5 sec. During a period of
+10 sec, calculate the probability that.
+(a) No call arrives.
+(b) One call arrives.
+(c) Two call arrive.
+(d) more than two call arrives.
+(b) Derive and explain erlang B formula and
+it with erlang C formula. compare
+(c) Derive an equation of grade of service and
+blocking probability of lost call cleared service.
+4 Attempt any two parts : 10x2=20
+(a) Explain common channel signalling with SS7
+architecture. Compare common channel signalling
+with in channel.
+(b) Explain the sequence of operation in call processing
+function.
+(c) What do you understand by system software of
+SPC software.
+131802] 2 [ Contd...
+www.aktuonline.com
+5 Attempt two parts 10x2=20
+any :
+(a) Explain memory space memory switch. Draw 8x8
+banyan switch network.
+(b) Discuss TCP/IP reference model.
+(c) Write a short note on:
+(a) Fixed path routing.
+(b) Space switch.
+memory
+131802] 3 [14475]

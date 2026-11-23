@@ -1,0 +1,56 @@
+k li ktuonline.
+LA ML A
+* 4 3 1 is) / 4 4 2 5 *
+Printed Pages : 2 TIT — 601
+(SEM. VD EXAMINATION, 2008-09
+SOFTWARE PROJECT MANAGEMENT
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions.
+1 Attempt any four parts of the following : §x4=20
+(a) What is scope of a project? Explain with example.
+(b) Explain various activities covered by software
+project management.
+(c) What is project schedule? Explain by giving
+suitable example. a
+(d) What is stepwise project planning? Explain.
+(e) Discuss various types of software projects.
+(f) Explain milestones and deliverables in reference
+to project planning.
+2 Attempt any four parts of the following : 5x4=20
+(a) Explain cost-benefit evaluation technique
+with suitable any one example.
+(b) What is technical assessment? Explain how it is
+different from strategic assessment in detail.
+(c) What is rapid application development? Explain
+in detail.
+1310) (ATE {Conté...
+aktuonline.com
+aktuonline.com
+Explain V-process model in detail.
+(e) Compare the basic features of waterfall model,
+spiral model and prototype model.
+(f) | Explain cash-flow forecasting in detail.
+Attempt two parts of the following 10x2=20
+any :
+(a) Explain function points Mark II method in detail.
+(b) Expain Cocomo in detail.
+(c) What are various software measurement metrics?
+Explain any one of them in detail with example.
+Attempt any two parts of the following 10x2=20
+(a) Differentiate between known risk and predictable
+risks and then explain what is risk driver.
+(b) Describe the following:
+(i) Contract management
+(i) | Human resource management
+(c) Explain the term "scheduling resources" in detail.
+Attempt two parts of the following 10x2=20
+any
+(a) Explain software quality assurance and also discuss
+the various software quality assurance activities.
+(b) Explain the following :
+(i) — Product quality management
+(i) ISO 9126 standard
+(c) Discuss SEI process capability maturity model in
+detail.
+1310) [4425
+aktuonline.com

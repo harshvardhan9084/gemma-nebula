@@ -1,0 +1,82 @@
++
+Printed Pages : 3 TIT-702
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0151. .
+B. Tech.
+(SEM. VID) EXAMINATION, 2008-09
+ARTIFICIAL INTELLIGENCE
+~~
+Time : 3 Hours] [Total Marks : 100
+Note: (i) all questions.
+(ii) All questions carry equal marks.
+(iii) Be precise in
+your answer.
+(iv) No second answer book will be provided.
+1 Attempt any four parts of the following : 5x4=20
+(a) What is Artificial Intelligence and Natural
+Intelligence ?
+(b) Differentiate between strong AI and weak AL.
+(c) What are the different branches of Artificial
+Intelligence (AI) ?
+(d) an instance of the travelling salesman problem
+for which the nearest neighbour strategy fails
+to find an optimal path. Suggest another heuristic
+for this problem.
+0151] 1 {Contd...
+aktuonline.com
+aktuonline.com (e) Explain various hardware and software
+of
+components AI System.
+(f) Explain various types of heuristic.
+Attempt any four parts of the following : 5x4=20
+(a) What is natural language processing ?
+(b) Derive the parse tree for the sentence "Base
+Loues the fish", where the following rewrite rules
+are used :
+~» NPVP, NP -» NP DETN
+S N,
+VP —» VNP, DET -> the, V -> loues
+N Bose/fish
+(c) Describe the Transformational Grammars with
+suitable examples.
+(d) What is the basic process for building conceptual
+dependency structure ?
+(e) Explain the Transition Networks with help of
+suitable example.
+® Explain the various terms used in sentence
+generation.
+Attempt any two parts of the following : 10x2=20
+(a) Describe meaning of knowledge representation
+and knowledge acquisition.
+(b) What is Minskey Frames System Theory ?
+(c) What is Semantic Nets ? Explain the properties
+of Semantic
+nets.
+0151] 0 0 0 2 [Contd...
+aktuonline.éom Attempt of the following
+any two parts : 10x2=20
+(a) What is expert system ? Explain the architecture
+of an expert system.
+(b) Write a short note on DENDRAL.
+(c) Write a short note on limitations of experts
+systems.
+Attempt any four parts of the following 5x4=20
+(a) Explain approaches for pattern recognition
+techniques.
+(b) What are the problems associated with speech
+recognition ?
+(c) Write LISP Centrigrade
+an program to convert
+temperature to Fahrenheit.
+(d) Define a function called first-element that takes
+list its and the first
+a as argument returns top
+element of the list.
+(e) Trace the search sequence PROLOG follows in
+satisfying the following goal
+:
+? - member (C, [a, b, c, d])
+(f) Differentiate b/w pattern recognition and speech
+recognition.
+0151) 3 [ 2700
+aktuonline.com

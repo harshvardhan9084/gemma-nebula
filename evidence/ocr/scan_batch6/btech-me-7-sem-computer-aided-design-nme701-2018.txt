@@ -1,0 +1,76 @@
+Printed pages: 02
+(4 Ts Sub Code: NME 701
+B.TECH
+(SEM VII) THEORY EXAMINATION
+COMPUTER AIDED DESIGN 017-18
+Time: 3 Hours
+Note: 1. Attempt all Sections. Total Marks: 100
+If require any missing data; then choose suitably.
+i SECTION A
+1. Attempt all questions in brief. 2x10 20
+op What do you mean by computer Aided design [CAD]? =
+Write short note on optical character recognition.
+ae Discuss local coordinate system.
+What is concatenated transformation?
+me State difference between: analytic curves and synthetic curves.
+Discuss the generation of 2D curves,
+ra What are the different types of geometric modeling.
+Explain the types of surface entities.
+Tr What do you mean by discretization?
+Write limitation of finite element method.
+SECTION B
+2. Attempt any three of the following:
+10x3=30
+a. State the various types of output devices used in CAD workstation. Explain, with neat
+sketch, any three output devices.
+algorithm,
+b. Using Bresenham's line find the pixel positions along the line between end
+points (15,8) and (28,16).
+c. Line Ly has end points ¢1,2,7) and (5,6,1), while line Lz has end points (7,3,4) and
+(3,9,10)
+(1) Find the parametric equations of the lines.
+(II) Find the tangent vectors of the lines.
+(Ill) Are the two lines parallel perpendicular?
+or
+(IV) Are the two lines intersecting? If yes, find the point of intersection.
+d. Sketch the wireframe model defined by the set of points :
+e, Explain the various steps required toe solve mechanical problem using finite element
+analysis.
+SECTION C
+3. Attempt two part of the following:
+any 10x 1=10
+(a) Explain, with neat block diagram, conventional product cycle.
+for selection of CAD/CAM
+(b) (c) Discuss Discuss criteria mid point circle algorithm. system.
+—
+4, Attempt part of the following:
+any one
+(a) A triangle ABC with vertices A (30, 20), B(90, 20), and C (30, 80) is to be scaled
+by a factor of 0.5 about a point X(50, 40). Deterniine: (i) the composite
+transformation matrix ; and (ii) the coordinates for the vertices for a scaled
+triangle.
+(b)Explain with neat sketches, the following two-dimensional mappings :
+(i) Translational mapping (ii) Rotational mapping (iii) General mapping.
+5. Attempt of the following:
+any one part 10x 1=10
+(a) An ellipse has major axis of 10 units and minor axis-of 8 units. If the center of
+ellipse is (5, 6, 3) write the parametric equation of an ellipse.
+(b) Generate the Bezier curve for the following control points :
+A (1, 1), B G, 3), C(S, 2) and D@3, 1).
+6. Attempt
+any one part of the following: 10x 1=10
+(a) what are the various types of sweeps used in solid modeling ?
+|
+(b) Sketch the solid model defined by the set of points :
+{ (x, y, 2): x?
+7. Attempt any one part of the following: 10x1=10
+(a) State and describe the various types of elements used in the finite element
+analysis in detail.
+(b) Two springs, having stiffnesses 12 and 8 N/mm respectively, connected in
+series. One end of the assembly is fixed and a force of 60 N is applied at other
+end. Using the finite element method, determine : (i) the displacements at nodes
+2 and 3; (ii) the diflections of indivisual springs; and (iii) the reaction force at
+support.
+k4= 42 N/mm 8 N/mm
+60N
+Figure |

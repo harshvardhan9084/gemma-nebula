@@ -1,0 +1,67 @@
+uptuonline.com uptuonline.com
+SECTION-B
+|
+Pere (Following paper code and roll No. to be filled in your answer book) 2. Attempt SIX parts. 5*6=30
+any
+Consider the following equation, which may be the
+B TECH characteristic equation of linear control systems. Find the
+(SEM V) THEORY EXAMINATION 2014-15 system is stable or unstable.
+CONTROL SYSTEM-I
+= s Determine the transfer function C/R of the system shown
+"S TIME: 3 Hours Total Marks: 100 in Fig.1 using block diagram reduction techniques.
+= o
+= Note: Attempt questions from each Section as per
+SECTION-A
+5 2*10=20
+1. Attempt ALL parts.
+a. Classify control Systems and give the merits and demerits
+of open loop control system & closed loop control Figl
+system.
+b. For the forward path, TF given by For the system G(s)H(s) k(1+s)’/ s’, find the range of *k’
+G(s) 20(s+2) Find Error coefficients. 9 for the system to be stable. =
+= (st3)(s+4) _. a Derive the peak in frequency response (M,) and @, for
+Explain s the Incremental Encoder? Second Order Control System?
+c, d. Find the breakaway points of Consider the differential equation given as:- y+ 6¥+
+K 11p+ 6y= 8uDraw Block diagram
+S s+4 (s*+45+20) 80 using decomposition.
+e. Find the Gain margin . of G(s)= wos wos Explain the of contributed by wos
+wo f. Under damped systems are most preferred system. nature of and response conclude terms about the BIBO
+Explain why? various types Give the difference roots between
+g. How transfer Explain. function can be obtained from state stability. relative stability. :-
+equations. (i). Absolute and Asymptotic stability for continuous data
+h. A system has a transfer function = -Determine its (ii) BIBO and a
+Unit Impulse Response. system. order of the unity feedback
+i. Explain Mason Gain Formula briefly. Determine the type and transfer functions
+j. Find the phase system G(s)H(s)= for = control systems whose open-loop are
+G(S)=K / coefficients and the for
+Find also the static error errors
+unit step and unit ramp inouts.
+1
+aktuonline.com aktuonline.com
+uptuonline.com uptuonline.com
+SECTION-C.
+3. Attempt two parts: 10*2=20 4. Attempt any three parts 10*3=30
+any
+Draw the equivalent mechanical system of the given Draw the Bode Plot for the transfer function
+a. system(fig 2).Hence,write the set of equilibrium equatons G(S)= From the 36 bode (1+0.2
+for it and obtain electrical analogus circuits using F-V a) Phase plot frequency determine
+analogy b) Gain crossover crossover frequency
+c) Gain Margin
+d) Phase Margin
+Determine the type and order of the unity feedback
+x, - control systems whose open-loop transfer functions are
+a) G(S)=K/ S(S?+4S+200)
+Sx, Find also the static error coefficients and the errors
+for unit step and unit ramp inputs.
+9 A Second system has of 50% and period
+of oscillation 0.2 s in step response .determine resonant wo
+Fig 2 peak, resonant frequency and bandwidth
+Sketch the Nyquist plot for the system having a The closed transfer function of certain second
+G(s)H(s)= order unity feedback control systems are given below.
+Using the Nygqist 1+25 criterion,determine whether the closed Determine i,  C(S\V/R(S) the type of damping in the systems:
+loop system having the above open loop transfer function ii, = 4/S*+16
+ye is stable or not. ye ye =
+Find out the transfer function C/R for the signal flow
+graph shown in figure:-
+wos WO)’
+aktuonline.com aktuonline.com

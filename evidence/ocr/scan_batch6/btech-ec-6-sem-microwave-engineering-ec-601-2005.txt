@@ -1,0 +1,109 @@
+Printed Pages -—-04 EC
+(Following Paper ID and Roll No. to be filled in Answer Book)
+ID: your
+PAPER 3038
+B.Tech.
+SIXTH SEMESTER EXAMINATION, 2004-2005
+MICROWAVE ENGINEERING
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt ALL questions.
+(ti) Assume suitable data, if necessary.
+1. Attempt any four parts of the following: (5x4=20)
+(a) Describe the method of designating the _ mode
+086100 of transmission in rectangular waveguide. (5)
+a
+(b) The dimensions of a rectangular guide are
+2.5cmxicm. The frequency is 8.6 GHz,
+find :
+(i) Group velocity
+(ii) Phase velocity
+) Assume mode of propagation. (2x2.5)
+mode of circular waveguide
+(c) preferred Why is mode for in rotary
+joints What to is peculiar about the use TEg; mode
+in circular guide ? (2x2.5)
+power
+(d) What is the maximum (at atmospheric
+pressure) guide that can x be transmitted 9 GHz. by (5)
+rectangular 2cm Icm at
+1 [Turn Over
+{e) Discuss the factors that determine the amount
+of attenuation in a waveguide. (5)
+(f) Draw the cross-sections of strip line and -
+microstrip line alongwith their primary mode
+patterns. propagation What do you mean by quasi-TEM
+mode of in a microstrip line? (3+2)
+2. Attempt any four parts of the following : (5x4=20)
+(a) What is a precision rotary attenuator ? Show
+that attenuation produced by rotary attenuator ~N
+is given in decibels by
+A= ~—40 log sin 6
+Where 6 is the angle centre resistive card makes
+with the direction of the electric field in circular
+guide. (1+4)
+(b) Define coupling factor and directivity of a
+directional coupler. Justify the following
+statement. Directivity of a two-hole directional
+coupler is a sensitive function of frequency. (2+3)
+(c) Below what power level can one expect the
+crystal detector output to follow square the
+‘square law’ ? Define tangential sensitivity of
+a crystal detector and describe using a block (1+4)
+diagram, how to measure it.
+(d) Illustrate any two methods of coupling energy (5)
+into a cavity. >.
+(e) What is an isolator ? Explain the principle of
+operation of resonance isolator. How can you
+improve the reverse-to-forward attenuation (1+3+1)
+ratio of this isolator ?
+(f) Define quality factor of a cavity. Draw a
+schematic of cylindrical waveguide tunable
+wave frequency meter of and explain signal. how it measures the (1+4)
+an input
+EC—601 2
+3. Attempt any two parts of the following : (10x2=20)
+(a) Why is a ‘high quality’ square wave necessary
+when it is used to modulate a reflex klystron
+signal source for microwave measurements ?
+Describe a slotted line method to measure values (3+7)
+of VSWR above ten with greater accuracy.
+Distinguish between attenuation and insertion
+loss. Giving the block schematic of an
+experimental set-up describe loss a method to
+element measure by insertion standing reflection of a circuit
+wave
+The p.r.f. of a radar transmitter is 1000 per
+calorimeter second. The method average 1kW. power The measured pulse width by a
+is 1 What is peak is level ? Illustrate
+method sec. of power measurement of
+a the transmitter. average power (4+6)
+4. Attempt any two parts of the following : (10x2=20)
+(a) Giving constructional details explain the
+mechanism of operation of a three cavity
+klystron amplifier. Specify efficiency, power
+klystron gain and amplifier. bandwidth of a typical three-cavity (7+3)
+(b) With the aid of a schematic diagram, describe
+the qualitative travelling wave the tube amplifier. of Discuss in
+a the way in TWT consequences (i) close locating the
+output attenuator end of the tube a and (ii) very close to the
+end of the tube. very to (5+2.5+2.5)
+gun 7-mode
+What oscillations are oscillations sustained ? in Explain the cavity how
+magnetron, with are suitable sketches, assuming
+that oscillations already exist. (3+7)
+EC—601 3 [Turn Over
+Attempt any two parts of the following : (10x2=20)
+(a) Draw the band diagram of Ga As and explain
+the Gunn effect, whereby negative resistance
+and therefore oscillations are obtainable under
+certain conditions from bulk gallium arsenide. (10)
+(b) Draw the schematic diagram of an IMPATT
+diode and fully explain the two effects that
+combine to produce a 180° phase difference
+between the applied voltage and the resulting
+current pulse. Give one biggest disadvantage ™~
+of IMPATT diode oscillator. (8+2)
+(c) Describe the basic operating mechanism of
+TRAPATT diode using a suitable sketch. Why
+is drift through this diode much slower than
+through a comparable IMPATT diode ? (7+3)

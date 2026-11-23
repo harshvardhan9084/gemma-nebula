@@ -1,0 +1,143 @@
+Printed Pages: 7 EEE-601
+(Following Paper ID and Roll No. to be filled in your
+Answer Books)
+Paper ID: 121002
+B. TECH.
+Theory Examination (Semester-VI) 2015-16
+POWER SYSTEM ANALYSIS
+Time : 3 Hours Max. Marks : 100
+Section-A
+t
+1. Attempt all parts. All parts equal marks. Write
+carry (2x10 20)
+answer of each part in short. =
+(a) Represent the reactance diagram of a power system
+with justification.
+(b) Show that
+=Z 2 MVA (new)
+Z px(old) x K; Vinew) x MVA Guz)
+[Y,,,
+(c) Derive the equation ]=[A][Y][A]" using singular
+transformation.
+1 P.T.O.
+2005/10/1/25
+@) Discuss the significance of Slack or Swing bus in case of
+load flow study.
+What are the assumptions made to make the load flow
+equations decoupled?
+Name the factors which affect the transient stability.
+Define steady state and Transient stability in respect of
+Also define a
+power system. their stability limit.
+(h) A 50Hz four pole turbogenerator rated 20MVA, 13.2KV
+has an inertia constant (H) = 9.0kW-sec/KVA. Deter-
+mine the kinetic stoped in the rotor.
+energy
+@ Derive the expression of a transmission line for wave
+propagation.
+G) Discuss the propagation of a wave travelling along a
+line and then enters the cable.
+Section-B
+2. Attempt any five questions from this following.
+(5x10 = 50)
+(a) Prepare a perphase schematic of the system shown in
+Fig-1 and show all impedences in unit (p.u.)
+100MVA, 32kV base in the transmission per line circuit. on The a
+necessary data for this problem are as follow :
+2005/10/1/25
+Fig. 1
+12.2kV,
+G, : SOMVA, X = 0.15 p.u.
+G, : 20MVA, 13.8 kV, X = 0.15 p.u
+T, : 80OMVA, 12.2/161kV, X = 0.10 p.u
+T, : 4OMVA, 13.8/161kV, X 0.10 p.u.
+2 =
+Load : 50MVA, 0.80 PF lagg, operating at 154KV
+Determine the impedance of the load for the load
+modelled as a series combination of resistance and
+inductance.
+(b) Draw the network connections for L-G fault
+sequence the shown
+occurring in network in Fig. 2 with proper
+Fig. 2
+2005/10/1/25 3 P.T.O.
+(c) @ Discuss the 3-phase short circuit transient on a trans-
+mission line.
+(ii) Explain the terms (i) subtransient reactance (x*) (ii)
+transient reactance (x!) and synchronous reactance
+for a synchronous machine.
+(d) Draw the network for the system shown
+in fig. (3). zero Assume sequence for the
+zero sequence reactances
+generator and motors of 0.06 pp. Current limiting
+reactors of 2.5 ohms each are connected in the neutral
+of generator and motor No. 2. The zero sequence
+reactance of the transmission line in 300 ohm.
+Data
+:
+G : 25MVA, X” = 20%; M,: 1SMVA, x”
+= 25%
+M, = 7.5 MVA, lOkV, x” = 25%
+T,&T,: 30MVA, 10.8/121KV, X=10% each
+eit 4 Motor
+naw}
+or
+Fig.3
+The series reactance of the line in 100 ohms.
+Select the generator rating base in the generator cir-
+as
+cuit.
+2005/10/1/25
+(e) Classify the buses for load flow study. Formulate the
+load flow problem (in polar form) to be solved by
+newton Raphson method. Also discuss its solution
+algorithm. -
+(f) Derive Swing equation with the help of equal area crite-
+rion. Discuss the case of occurrence of fault and is cleared
+after time with the help of equal criterion.
+some area
+(g) What are the various method of improving transient
+stability? Discuss in brief.
+(h) A surge of 15kV magnitude travels along a cable
+towards a junction with an overhead line. The inductance
+and capacitance of the cable and overhead line
+are
+respectively 0.3 mH, and 1.5mH, 0.012uF per
+kilometre. Find the voltage at the junction due to this
+surge.
+Section-C
+Note: Attempt any two questions from this section.
+3. Discuss clearly the problem formulation and solution algo-
+rithm for Fast decoupled method for load flow study of a
+power system.
+5 P.T.O.
+2005/10/1/25
+4. The following in the system data for the load flow solution using
+G-5 method:
+Line admittances :
+Bus Cose Admittance
+1-2 2-j8.0
+1-3 1-j40
+2-3 ———> 0.666 - j 2.664
+2-4 1- j4.0
+3-4 2- j8.0
+The schedule of active and reactive powers :
+Bus Cod P Q Vv Remarks
+1 - - 1.06 slack
+2 0.5 0.2 1+j0.0 PV; 0.2<Q<1.0
+3 0.4 0.3 1+j0.0 P-Q
+4 0.3 0.1 1+j0.0 P-Q
+Determine the bus voltages at the end of first iteration using
+Gauss-Seidel method. Take acceleration factor 1.6.
+Determine the critical clearing angle for network shown
+5. the
+in fig. 4. When the 3-phase fault occurs at B and the breakers
+2005/10/1/25
+is delivering 1.0
+Aand B operates simultaneously. The generator
+p.u. before the fault tabes place.
+jo.12Q V=1.0 10"
+A B
+Fig. 4
+P.T.O.
+2005/10/1/25

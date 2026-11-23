@@ -1,0 +1,64 @@
+Printed Pages: 3 EEE-012
+(Following Paper ID and Roll No. to be filled in your
+Answer Books)
+Paper ID 121656
+:
+B.TECH.
+Theory Examination (Semester-VI) 2015-16
+SPECIAL ELECTRICAL MACHINES
+Time : 3 Hours Max. Marks: 100
+Section-A
+1. Attempt all parts. All parts carry equal marks. Write
+answer of each part in short. (2x10 = 20)
+(a) What do you meant by Slip power recovery scheme?
+(b) What the advantages of Constant and constant
+are power
+torque controls in slip ring induction motor?
+c) Whycapacitor-start ly Cap: induction motors are advantageous? g
+(d) Why centrifugal switches are provided in most Single
+phase induction machine?
+(e) Define Stepping angle.
+(1) PT.O.
+(f) What is meant by Detent torque?
+(g) Compare Permanent magnet brushless DC motor with
+Permanent synchronous
+magnet motor.
+(h) Name applications of PMDC motor.
+some
+(i) What is a universal motor?
+() List-out some applications of linear induction motors.
+Section-B
+Attempt any five questions from this section.[10<5=50]
+(a) Write detailed Deep bar construction and
+a note on rotor
+double cage rotor constructions.
+(b) Describe how can speed of a slip ring induction motor be
+controlled by injecting EMF in rotor circuit ?
+(c) Explain the construction and principle of operation of
+shaded pole induction along with torque-slip
+motor
+characteristics and the applications.
+(d) Elaborate the construction and torque speed characteristics
+of Two phase AC servomotors.
+Write short note on Hysteresis motor and explain its salient
+features.
+(2) P.T.O.
+(f) Derive the expression for EMF and torque developed in
+a Permanent Magnet Synchronous Motor.
+Discuss
+(g) the construction and principle of operation of
+various types of repulsion motors with neat sketch.
+(h) Explam the principle of operation of linear induction motor
+and show how does it differ from AC series motor?
+Section-C
+Note : Attempt any two questions from this section. (15x2=30)
+3. (a) Write short note on AC series motor. (8)
+(b) Explain what are the necessary modifications to be done
+in DC series motor to convert into AC series motor? (7)
+Explain the operation of the different of
+types stepper motor.
+Compare them with applications. (15)
+5. Discuss the following operations in Switched reluctance motor:
+(1) Method of rotor position sensing (7)
+(ii) Sensor less operation (8)
+(3)

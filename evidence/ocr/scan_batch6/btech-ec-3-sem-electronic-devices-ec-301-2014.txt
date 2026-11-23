@@ -1,0 +1,90 @@
+Printed Pages—4 EC301
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 1248
+B.Tech.
+(SEM. III) ODD SEMESTER THEORY
+EXAMINATION 2013-14
+ELECTRONIC DEVICES
+Time : 3 Hours Total Marks : 100
+Note :— Attempt all Sections.
+SECTION-A
+Attempt
+1. all parts : (2*x10=20)
+(a) What do you mean by Effective Mass ? How does
+it depend on Energy Band ?
+(b) Draw and explain Fermi Dirac distribution function.
+(c) What is Punch through in diode ?
+(d) What is Contact Potential and how does it with the
+vary
+Biasing ?
+(e) State difference between Phosphorescence and
+Fluorescence.
+(f) Explain carrier life time. How direct recombination life time
+differs from indirect recombination life time ?
+(g) Write down the maximum power delivered by solar cell.
+(h) Draw V-I characteristics of Photodiode and what is the
+significance of 34 and 4 quadrant operation of
+Photodiode ?
+EC301/DNG-52491 1 [Turn Over
+(i) What is Population Inversion Layer in LASER ? Write SECTION-C
+down the difference between stimulated emission and Note :— Attempt all questions. (5x10=50)
+spontaneous emission. 3. Attempt any two parts
+0) How a BIT is used as an amplifier and a switch ? :
+SECTION-B (a) Discuss temperature dependency of carrier Concentration.
+Attempt three (3x10=30) (b) A semiconductor has = 0.5 x
+any parts : and E, = 2 eV. It is doped with 10'’/cm? donors. Calculate
+(a) (i) What is mobility and discuss its dependency on and hole and intrinsic carrier concentration 62.7°C.
+temperature and doping concentration. Draw its band at
+(ii) Derive the expression for the equilibrium carrier energy diagram showing the position of E,.
+concentration (n,, p,) using Fermi Dirac Distribution (c) Whatis Hall Effect ? Derive the expression for Hall Angle.
+Function. 4. Attempt any two parts :
+(b) (i) What is Diffusion Length ? Derive its value using (a) What is Quasi Fermi Level ? Ann type Si sample with
+continuity equation. BH, = 10'%/cm? is steadily illuminated such that
+(ii) Discuss the relationship between Photoconductivity &,, = 107! If t, = t,= 1 ps for this excitation.
+and Mobility of carriers. Calculate the separation in the Quasi Fermi Level
+Differentiate between Zener and Avalanche (F -F,).
+(c) (i) (b) Write short
+Breakdown. notes on :
+(ii) Derive the expression for electron current in n type (i) Cathodoluminesence
+material of a forward Biased PN junction. (ii) Electroluminesence.
+(d) (i) Write the special features of MESFET. Differentiate
+between MOSFET and MESFET. (c) What do you mean by diffusion of carriers ? Derive
+expression for Diffusion Current. Draw drift and diffusion
+(ii) Differentiate between Rectifying contacts and Non of electron and hole in an applied electric field.
+Rectifying contacts with the help of Band Diagram. 5. Attempt any two parts :
+(e) (i) Explain different components of current flow through
+the structure of a N-P-N transistor with the help of (a) Derive the expression for Penetration depth X, and X, in
+flow diagram. N and P Region respectively for a PN jn diode. Also derive
+current an expression for depletion region width.
+(ii) What is Photo Detector ? Explain the operation of (b) What is time variation of Stored Charge ? Draw and explain
+p-i-n photodetector. What are the suitable materials _ the hole distribution in
+of it ? How can it be made more sensitive to low level excess n region as a function of time
+intensity of light ? during the transient.
+EC301/DNG-52491 2 EC301/DNG-52491 3 [Turn Over
+(c) An abrupt Si P-N junction has p, = on one side
+and 5 the other side.
+p = x
+(i) Calculate Fermi Level Position at 300 K in P and N
+Regions.
+(ii) Draw equilibrium band diagram for the junction
+an
+and determine the contact potential V, from the
+diagram.
+6. Attempt any two parts :
+(a) What is the difference between Homojunction and
+Heterojunction ? Explain Heterojunction with the help of
+ideal band diagram.
+Given that 0.4 8
+(b) For a MOSFET. = um, t, = nm,
+Ht, = 450 cm?/V-s and V, = 0.7 V. Find out K’. For a
+MOSFET with W/L = 8 pm/0.8 pum, calculate the value of
+and needed to operate a transistor in saturation
+region with a DC current I, = 100 WA.
+enhancement
+(c) Explain the operation of type MOSFET and
+discuss its Drain and Transfer characteristics.
+7. Attempt any two parts :
+(a) Explain Ebers-Moll Model of BJT.
+(b) Write a short note on semiconductor LASER.
+(c) What is Base Width Modulation and Early effect in BJT ?
+EC301/DNG-52491 4 7475

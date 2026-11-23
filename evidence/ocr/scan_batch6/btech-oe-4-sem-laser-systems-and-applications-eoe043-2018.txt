@@ -1,0 +1,71 @@
+EOE043/NOE043
+Printed Pages:02 Sub Code: EOE 043/ NOE 043
+Paper Id: 199227 Roll No.
+B. TECH.
+(SEM IV) THEORY EXAMINATION 2017-18
+LASER SYSTEMS AND APPLICATIONS
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x 10=20
+What do by modified and unmodified radiations?
+a. you mean
+b. Explain the physical significance of wave function.
+c. What are the characteristics of laser beam?
+a
+d. Describe the factor which causes losses in laser.
+e. State two differences between stimulated and spontaneous emission.
+f. Define laser gain and loop gain.
+What pulsed lasers?
+g. are wave
+www.aktuonline.com h. What is the role of helium in He-Ne laser?
+i. State the application of laser in optical communication.
+State the difference between photography and holography.
+SECTION B
+2. Attempt any three of the following: 10x 3 =30
+a What is a mode-locked laser? Explain Active and Passive mode locking.
+b. Derive Schrodinger time-dependent and time-independent wave equations.
+c. Discuss the working of Excimer laser. And state its properties and applications.
+d. Explain the construction and working of Nd-YAG solid state laser with applications.
+What is dye laser? Explain its construction and working mechanism. State few
+e. applications of dye laser.
+SECTION C
+3. Attempt any one part of the following:
+(a) | What is Compton Effect? Derive expression for Compton Shift.
+an
+(b) (i) Calculate the average energy of a Planck’s oscillator of frequency 5.6 x 10?
+cycles per second at 57°C.
+(ii) particle is moving in dimensional potential box (of infinite height) of width
+A one
+25A. Calculate the probability of finding the particle within an interval of 5 A at
+the centre of the box when it is in its state of least energy.
+Page 1 of 2
+http://www.aktuonline.com
+EOE043/NOE043
+Attempt any one part of the following:
+(a) What is a Q-switched laser? Explain various techniques used in Q- switching.
+Calculate (a) velocity of Bohr’s first orbit. Also find (b) radius, (c) total (d)
+(b) energy,
+time period and (e) frequency of nth orbit electron.
+Attempt any one part of the following:
+(a) Explain three level laser systems and derive rate equations for various levels in three
+level laser systems.
+(b) What do you understand by optical cavity? Explain various types of optical cavities
+with suitable diagram.
+Attempt any one part of the following:
+(a) What are molecular lasers? Describe construction and working of CO; lasers.
+(b) Explain construction and working of argon ion laser. Write down different
+characteristics and applications of the ion lasers.
+www.aktuonline.com Attempt any one part of the following:
+(a) | What is holography? How it different from photography. Explain construction and
+reconstruction of hologram.
+(b) the principle and operation of LIDAR.
+Physical Rest Constants of electron =9.1x 10-31 kg
+Rest mass of Proton mo 1.67 10-27 kg
+Speed mass of light mp = =3 108 x m/s
+c x
+Planck Constant h = 6.63 x 10-34 J-s
+Charge on electron e =1.6x
+Boltzmann Constant k =1.38 x 10-23 J K-1
+Page 2 of 2
+http://www.aktuonline.com

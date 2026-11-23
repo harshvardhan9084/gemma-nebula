@@ -1,0 +1,71 @@
+02166
+Printed Pages—3 EC—502
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 30:05
+B.Tech.
+FIFTH SEMESTER EXAMINATION, 2005-2006
+ANALOG INTEGRATED CIRCUITS
+Time : 3 Hours Total Marks : 100
+Note: (i) Answer ALL questions.
+(ii)
+All questions carry equal marks.
+(iti) Make suitable assumptions wherever required
+and justify.
+(iv) Be precise in your answer.
+1. Attempt any two of the following questions: (10x2=20)
+(a) (i) | Discuss the operation and significance of a
+multiple output transistor current mirror.
+(ii) Differential Discuss the operation Amplifier. of What an active is load in
+advantage of using active load ? primary
+an
+(b) For an active loaded differential amplifier of figure
+shown below when biased with a current
+and if the BJTs have 8 =200 and V,=100V, find the
+values of R;, R,, the differential mode voltage gain,
+common-mode voltage gain.
+EC—502 1 {Turn Over
+Vd
+(c) Describe the operation and characteristics of a BJT
+complementary push pull output stage. What are
+the advantages of this circuit ?
+2. Attempt any two of the following questions: (10x2=20)
+(a) Design an inverting Op-amp circuit with a voltage
+gain of Av=v,/v,;= —8. When the input voltage is
+—1V, the maximum current in R; and R, must
+be no larger than Determine the minimum
+values of R, and
+(b) Describe the operation and characteristics of
+Instrumentation Amplifier with neat sketch. Why do an
+we call this as instrumentation amplifier ?
+(c) Design a second order low-pass filter at a cutoff
+frequency of 2KHz using op-amp.
+3. Attempt any two of the following questions: (10x2=20)
+(a) Sketch the circuit and characteristics of basic Schmitt
+trigger. What are the advantages of a Schmitt trigger
+circuit in analog electronics ? Explain its working.
+EC—502
+(b) Draw and explain the operation of triangular
+generator. How be a obtained using wave
+this triangle square ? wave can
+wave
+(c) Draw the circuit of a log amplifier using op amps
+and explain its operation. Enlist the possible
+applications of this circuit.
+4. Attempt any two of the following questions: (10x2=20)
+(a) Draw and explain the circuit of Electronically tunable
+“resistor” using OTAs.
+(b) (i) | How is current boosting achieved in 723 IC ?
+(ii) Explain current fold back characteristics in
+voltage regulators.
+(c) Explain with circuit which gives square and square
+root of the given analog signal.
+5. Attempt any two of the following questions: (10x2=20)
+(a) Design 555 timer astable multivibrator with
+output a signal frequency as an of 800Hz and 60 percent
+an duty cycle.
+(b) Draw the circuit of a PLL AM detector and explain
+its operation.
+(c) Draw and explain the circuit of Programmable Gain
+Amplifiers using Analog switch.
+-o00O0-
+EC—502

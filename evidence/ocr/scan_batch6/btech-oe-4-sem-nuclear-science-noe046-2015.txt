@@ -1,0 +1,78 @@
+www.aktuonline.com
+Printed Pages : 3
+NOF046/EOR046
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 199436
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+NUCLEAR SCIENCE
+Time 3 Hours] [Total Marks 100
+: :
+1 Attempt any four parts from the followings : 5x4=20
+(a) What do you understand by parity of nucleus ?
+(b) Define binding energy. Calculate the binding
+12
+energy per nucleon in . 6 ©
+Given : Mass of hydrogen atom (m,;) = 1.007825amu
+Mass of neutron (m,) = 1.008665 amu
+Mass of carbon atom 12 c) 12.00000amu
+m =
+1 amu = 931 MeV
+(c) What do you mean by nuclear magnetic dipole
+moment ?
+(d) State the properties of the nuclear forces.
+Describe briefly Yukawa theory of nuclear forces.
+(e) Define quadrupole moment. What is the significance
+of existence of quadrupole moment of the nucleus ?
+199436] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any two parts from the following : 10x2=20
+(a) Write down the semi-empirical formula and
+mass
+justify each term briefly.
+(b) State the main assumptions of the nuclear shell
+model. What the experimental evidences which
+are
+suggest this model ?
+(c) Discuss the main features of the collective model of the
+nucleus. How does this model help in understanding the
+phenomenon of nuclear fission.
+3 Attempt any four parts from the following : 5x4=20
+(a) Define Q-value and threshold energy of a nuclear
+reaction.
+(b) What do you mean by nuclear reaction cross
+section ?
+(c) Complete the following reactions :
+@) . 12 17 14 N+P]
+(ii)
+n+Pl>
+(itt) a+ 3Li
+jv) +P]
+(v) ®LitP]> 'Be+ a
+199436] 2 [ Contd...
+www.aktuonline.com
+(d) Describe any one nuclear reactor.
+What is nuclear fusion ? What is its importance in
+the generation of nuclear fusion ?
+4 Attempt any four parts from the following : 5x4=20
+The half life of radium is 1590 In how
+(a) years. many
+years will 1 gram of pure element be reduced to one
+centigram ?
+(b) Define mean life and half life of a radioactive
+element. What is the relation between them ?
+(c) State Geiger-Nuttall law.
+(d) Explain neutrino hypothesis regarding -decay.
+(e) Give the construction and working of Bainbridge
+mass spectrograph.
+5 Attempt two parts from the following 10x2=20
+any :
+(a) Discuss the construction and working of a cyclotron.
+What are its limitations ? Calculate the maximum energy
+given to an @- particle by cyclotron.
+(b) What are the advantages of scientillation counter in
+comparison with other
+counters ?
+(c) What do you mean by radioactive tracers ? Explain
+their use in material science and agriculture.
+199436] 3 [ 1100 ]

@@ -1,0 +1,91 @@
+aktuonline.com aktuonline.com
+* 4 it) 8 2 / 8 7 7 5 *
+Printed Pages : 3 TME - 404
+(Following : Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 4082
+B. Tech.
+(SEM. IV) EXAMINATION, 2008-09
+MEASUREMENT, METROLOGY & CONTROL
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions. Each question carries equal
+marks.
+1 Attempt any two parts of the following : 10
+(a) | What is measurement ? Why make measurements?
+Explain the operational description of a
+measurement system giving generalised input -
+output configuration.
+(b) Define the following static calibration characteristics:
+(i) Linearity
+(i) — Static sensitivity
+(ii) Repeatability
+(iv) Hysteresis-threshold
+~ (v) Readability and span.
+(c) Define the word 'Transducer' What do you
+understand by active and passive . transducers?
+Give examples and explain their relative merits
+and demirts.
+2 Attempt any two parts of the following. 10
+(a) Explain the working of a stroboscope with the
+help of neat diagram.
+|
+[Contd..
+aktuonline.com
+—
+aktuonline.com aktuonline.com
+(b) Explain the temperature compensation and 10
+cancellation techniques in resistive type strain
+gauges.
+(c) Explain in brief the working of bimetallic
+thermometer and pyrometer with the help of
+line diagrams.
+Answer any four parts of the following:
+(a) Distinguish between line measurement and end 5
+measurement.
+(b) Explain the following standardization techniques: 5
+(i) Quality specification for measuring tools
+and equipment, and
+(ii) Environemental standard in
+(c) Explain why the sine bar is measurement. preferred for
+not 5
+greater angles than 45°. How will you use it
+for angles greater than 45°?
+(d) Dsicuss in brief working of the Johan & Son's 5
+Micrometer.
+(e) Give the classification of 'Plain Guages' and 5
+explain the working of any one of them.
+(f) Explain in brief the Taylor's principle of a 5
+gauge design.
+Attempt any four parts of the following:
+(a) Write the the of various methods available 5
+for straightness names and describe of them in breif.
+one
+(b) In what type of work, the flatness is checked 5
+by liquid method? Explain the underlying principle.
+(c) Explain the basic difference between 5
+flatness interferometer and length interferometer.
+4082] (Contd.
+aktuonline.com aktuonline.com
+(d) Name the three most important dimensions
+vee thread which control the fitting of threads.
+Show in a sketch all the dimensions which are
+necessary to completely define thread.
+(e) Name and define the various elements of a spur
+gear which are checked for the correct functioning
+of a gear.
+(f) Define the term 'primary texture’ and 'secondary
+texture’. What is the dividing wavelength between
+the two?
+Attempt any two parts of the following
+(a) List the major advantages and disadvantages 10
+of open loop control system.
+(b) (i) Find the poles of the following F(s) 2x5
+1
+(s) ~
+1-e-s
+(ii) Find the Laplace transform of f(t) defined by
+S@® = 0 for t<0
+. =t et for t>0
+(c) List the major applications of Pneumatic 10
+controllers and compare between pneumatic system
+and hydrualic system.
+aktuonline.com

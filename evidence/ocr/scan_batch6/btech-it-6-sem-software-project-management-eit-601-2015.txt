@@ -1,0 +1,66 @@
+www.aktuonline.com
+Printed Pages : 3
+NI A
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 113604
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+SOFTWARE PROJECT MANAGEMENT
+Time 3 Hours] [Total Marks 100
+: :
+Note : Attempt all questions
+1 Attempt any four parts of the following : 4x5=20
+(a) List at least seven deliverables in a s/w project.
+(b) Enumerate the authorities of a project manager.
+(c) Explain any cost estimation Technique.
+(d) List five factors of failing software project.
+(e) Write about software development team activities.
+(f) Discuss different challenges and problem faced by
+the project manager / Project leader.
+113604] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any four parts of the following : 4x5=20
+(a) Give the overview of the stepwise planning of the
+software project development.
+(b) Explain the project with suitable
+term scope
+example.
+(c) Explain dimension of project monitoring and
+control and presentation. Why presentation is
+important for good software?
+(d) Explain all type of software review technique.
+(e) How to prioritize the monitoring ? Explain.
+(f) Explain various problem encountered with s/w
+projects.
+3 Attempt any two parts of the following : 2x10=20
+(a) What do you mean by work breakdown structure
+in context to software project and product?
+Discuss with example.
+(b) What is PERT analysis? Compare and construct
+(i) Optimistic time estimation.
+(it) time estimation.
+(it) Most likely time estimation.
+(c) Explain the terms with relative
+cases
+CPI cost performance index.
+(i) budget of work scheduled
+cost
+(it) SPI schedule performance index.
+113604] 2 [ Contd...
+www.aktuonline.com
+4 Attempt any two parts of the following : 2x10=20
+(a) Explain the SEI capability Maturity Model with
+its all variants.
+(b) Write and explain software quality attributes.
+draw Mc-Call quality assurance Model.
+(c) Define various type of testing strategies with
+examples.
+5 Attempt any two parts of the following : 2x10=20
+(a) Explain Software configuration
+Management.
+(b) Explain all types of risk which is occurs during
+software development.
+(c) Explain various type of software project
+tools.
+management
+113604] 3 [ 4825 ]

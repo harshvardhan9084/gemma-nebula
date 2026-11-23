@@ -1,0 +1,128 @@
+aktuonline.com) aktuonline.com
+1 4 1 8
+Printed Pages—4 TME-—301
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID: 4068
+B.Tech.
+THIRD SEMESTER EXAMINATION, 2005-2006
+|
+MATERIAL SCIENCE
+Time : 3 Hours Total Marks : 100
+Note: (i) Answer ALL questions.
+(ii) All questions equal marks.
+(iii) In of numerical carry problems data
+wherever case not provided. assume
+(iv) Be precise in
+your answer.
+1. (a) Answer the following : (2x5=10)
+(i) | Write the material for :
+(a) Lathe bed.
+(b) Filament of electric bulb.
+(ii) Write major constituent elements of
+following alloys :
+(a) Stainless Steel.
+~ (b) Soft Solder.
+(iii) Differentiate between :
+(a) Peritectic and Eutectoid reactions.
+(b) Solid solution and compound.
+(iv) Write electronic configuration of following
+elements :
+(a) K, atomic number (19).
+(b) Mo, atomic number (42).
+TME—301 1 [Turn Over
+aktuonline.com
+aktuonline.com ktuonline.com
+(v) Draw the following plane and
+a cubic unit cell :
+(a) (110). (b) [111].
+(b) Answer | any two the following : (5x2=10)
+(i) What is bond energy ? What are the typical
+properties of their of metals bonding that ? arise from the
+(ii) Derive nature Bragg’s equation. An X-ray beam
+of 0.58 A wavelength is incident =
+at glancing angle of 9.5° when first order
+diffraction occurs. Determine the glancing
+angle for third order diffraction and the
+inter-planer spacing of the crystal.
+(ii) Explain any two of the following :
+(a) Edge dislocation.
+(b) Twin boundary.
+(c) Schottky’s defect.
+2. Answer any four parts of the following : (4x5=20)
+(a) What is hardness ? What is the purpose of miner
+load used in the Rockwell hardness test ? How
+does the Rockwell hardness test differ from the
+Brinell hardness test ?
+(b) Explain on an atomic basis why slip takes place
+easily in ductile materials and not in brittle
+materials.
+(c) What are the different factors, which govern the
+formation of substitutional solid solutions ?
+Discuss thern in brief.
+(d) Draw Iron-Iron carbide equilibrium diagram and
+mark on it all salient temperature and composition
+fields. Also, describe the changes that take place
+in a plain carbon steel containing 0.6%C when
+cooled from 1600° to room temperature.
+TME— 361 2
+aktuonliag.comhat
+is Gibb’s phase rule ? Show
+metallurgical systems the number of phases can
+not Also, exceed show the that number in Binary of component of alloys plus one.
+than three phases a system be in equilibrium. not
+(f) more Define the fatigue may life and fatigue strength.
+Discuss the terms effects of surface finish and stress
+concentration fatigue strength.
+on
+four of the following
+3. Answer any parts : (4x5=20)
+(a) How is TTT diagram obtained ? What is its
+importance ?
+(b) Differentiate briefly between :
+(i) |Austenite and martensite.
+(ii) Ferrite and pearlite.
+(c) Write short notes on any two of the following :
+(i) Gun metal.
+(ii) | Duralumin.
+(iii) Babbitt metal.
+(d) Why are steels heat treated ? State the process of
+tempering.
+(e) Briefly describe the process for making steel.
+(f) Comment on the structures, properties and uses
+of malleable cast iron.
+4. Answer two parts of the following (10x2=20)
+(a) Briefly any describe the phenomenon : of
+hysteresis, and why it for ferromagnetic magnetic
+and ferromagnetic materials. occurs Discuss coercive
+force and retentivity with the help of B-H curve.
+(b) What is meant by superconductivity ? Explain
+briefly the Bardeen, Cooper and Schriefter (BCS)
+theory for superconductivity.
+TME — 301 3 [Turn Over
+aktuonline.com
+aktuonline.com
+(c) Write notes on any two of the following:
+(i) | Semiconductors.
+(ii) | Thermistors.
+(iii) Importance of diffusion.
+5. Answer any four parts of the following : (4x5=20)
+(a) What are ceramics ? Explain the structures of
+ceramic materials. —™
+(b) does a zinc coating give better protection to
+steel than a copper coating ?
+How do thermoplastics differ from thermosetting
+plastics ? Give their properties and industrial
+applications.
+Why becoming popular
+in replacing are composites metals in more industrial
+applications ? Give many
+reasons.
+Derive the expression for Griffith’s criterion for
+crack sufficient propagation. condition for crack Is this propagation a necessary in brittle and
+fracture ? Explain.
+Under what different conditions a ductile material
+may behave in brittle manner ? What is the
+importance for of ductile-brittle applications transition of
+materials temperature ? cryogenic
+-o0Oo-
+TME-—301

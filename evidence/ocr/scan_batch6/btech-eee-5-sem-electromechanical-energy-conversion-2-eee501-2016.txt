@@ -1,0 +1,98 @@
+Printed Pages : 6 367 EEE 501
+(Following
+Paper ID and Roll No. to be filled in your.
+Answer Book)
+Paper ID: 121521
+B.Tech.
+(SEM. V) THEORY EXAMINATION, 2015-16
+ELECTROMECHANICAL ENERGY CONVERSION-II
+Time:3 hours] {Total Marks:100
+SECTION-A
+l. Attempt all parts. All parts equal marks. Write
+of carry
+answer each part in short : (2x 10=20)
+(a) | Why the power factor of the lightly loaded induction
+mechine is quite low?
+(b) | What do understand by the term cogging?
+you
+(c) Calculate the speed in rpm of a 6 pole induction motor
+which has a slip of 6% at full load with a supply
+What pole
+frequency of 50.Hz. will be the speed of a 4
+alternator supplying the motor?
+(d) Give application areas of the cylindrical and salient pole
+synchronous machine.
+(1) EEE 501 / 2825
+400 V, 50 Hz induction motor take the
+(e) Why in case of three phase synchronous machine, the A 3-phase, power .
+windings put stator and field windings put input of 35 kW at its full load speed of 890 rpm. The
+armature on and windage losses
+on rotor whereas in case of DC machine, the armature stator losses are 1 kW and friction
+windings put on rotor and field windings put on stator are 1.5 kW. Calculate :
+poles? (i) slip
+(f) Draw the V-curves and inverted V-Curves at different (ii) Rotor ohmic loss
+loading conditions of synchronous motor.
+(iii) Shaft power
+(g) Define slip. Why the induction motor can’t run at (iv) Shaft Torque
+synchronous speed? -(v) Efficiency
+(h) What are the reasons for the Hunting phenomenon in From the first principles derive the equivalent circuit
+synchronous machines? mechanical
+x. of a three phase induction motor. How the
+(i) State important application of the stepper motors. load is separated from rotor copper loss in the
+some
+G) How will reverse the direction of rotation of the equivalent circuit.
+you Explain the operating principle and constructional
+single phase Induction motor?
+SECTION-B aspects of Deep Bar and Double cage Induction motor.
+Note: Attempt any five questions from this section. higher starting
+(10x5=S0) Explain how there motors can give
+torque in comparison to the conventional design.
+Show that in a 3 phase induction motor :
+Explain the phenomenon of armature reaction when
++ sfl? alternator is delivering load current at purely leading
+tf 2 Bsfl a
+RQ and purely lagging power factor. Also derive the EMF
+whereB =
+20 equation of an alternator.
+(2) EEE 501 (3) EEE 501
+e
+Derive Torque, Mechanical Power and rotor output iii: Developed power
+equations of three phase induction motor connected iv. Output
+a power
+from AC mains. v. Efficiency
+Define the voltage regulation, for the synchronous SECTION-C
+term
+generator. Determine the voltage regulation of a 2000 Note: Attempt any two parts of the following:
+single phase alternator giving current of 100 A at (1) (2x15=30)
+V,
+0.8 pf leading and 0.707 pg lagging. Use the test data 10. (a) State the necessary conditions for parallel
+below: Full load of 100A is produced operation of alternators. Discuss two bright and
+given current on
+short circuit by a field excitation of 2.5A. An EMF of one dark lamp method of synchronizing alternators.
+circuit by the 1500rpm, 50 Hz alternator
+500 V is generated on open same (b) A5000kVA, 10000V,
+excitation. The armature resistance being 0.8 Q runs in parallel with other machine. Its
+synchronous is 20% Find for (a) No-
+Why single phase, induction motor is not self started? reactance
+Discuss the different methods of starting a 1-phase Load,(b)Full load at p.f. 0.8 Lagging, synchronizing
+unit mechanical angle of face
+Induction motor. power per
+4-pole single-phase induction motor displacement and calculate the synchronizing
+A 230 V, 50Hz, torque if mechanical displacement is 0.5 degree.
+has the following equivalent circuit impedances:
+Ray = 2.20hm. = 3.10hm. = 4.50hm, ll. (a) Whatare the effects of space harmonics in 3 phase
+jy =800hm induction motors?
+Friction, windage and core loss=40W. (b) ~ still impedances of outer and inner cages
+For aslip of 0.03 pu, calculate: of double induction motors (2+j1.2)Q
+i. a cage are
+Input current and (0.5+j3.5) Determine the slip
+ii. Power factor at which the 2 cages develop equal torques.
+(4) EEE 501 6) P.T.O.
+.
+12. Discuss the construction detail & working Principle
+of the following :
+a) Stepper
+Motors
+b) Universal Motors
+c) Shaded Pole type Induction Motor.
+(6) EEE 501

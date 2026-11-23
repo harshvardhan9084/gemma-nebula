@@ -1,0 +1,68 @@
+Or Printed Pages : 4 EOE-033
+Discuss the characteristics of a solid laser. With a
+_ neat energy level diagram explain the working of (Following Paper ID and Roll No. to be filled in your Answer Book
+ruby laser. A Ruby laser generally works in PAPER ID 0929
+a :
+pulsed mode. Give the reason.
+What do you understand by the term light B. Tech.
+amplification and how is it achieved in the case of (Sem. IIT) Theory Examination, 2011-12
+laser?
+LASER SYSTEMS AND APPLICATIONS
+Or
+Answer the following : Time 3 Hours Total Marks 100
+: :
+(i) Why laser.light is monochromatic? What is Note: Attempt questions from each Section as
+the smallest width which could be achieved
+indicated.
+using low power cw laser? Section-A
+(ii) Show that laser light of even 1 mW power
+is brighter than Attempt all parts of this question. Each part
+sun. carries 2 marks. 2x10=20
+Derive an expression for the resonance frequency (a) Show that population inversion is
+1. a
+in a resonator cavity with two mirrors of radius condition of negative temperature.
+n and separated by a distance d. (b) What is the role of optical cavity in a laser?
+Or How do
+(c) you define gain of a laser cavity?
+Discuss the different types of pumping used in (d) Define Einstein’s coefficients A and B.
+laser. What is the advantage of using lasers of
+at the (e) How do you generate short pulse laser?
+place of flash lamp in optical pumping? What (f) A pulse laser is generally used for material
+type of pumping is suitable for HF, HC] lasers?
+processing. Give the reason.
+0929-4-11,630+22,000
+(g) The diameter of the discharge tube in a helium Section-C
+neon laser is kept narrow. Give the reasons.
+(h) Even a small piece of hologram Attempt all questions of this Section. Each
+can give question carries 10 marks. 10x5=50
+complete information about the object. How?
+(1) | How do you define coherence property of How is hologram different from photograph?
+laser light? Discuss the method used to record and
+reproduce a hologram. Can we get hologram with
+G) Why near infrared laser are preferred for ordinary light?
+optical communication?
+Or
+Section-B How communication
+Attempt three gets facilitated using laser
+any parts out of five. Each part and fiber? Estimate the number of telephone
+carries 10 marks. 10x3=30 channels possible to have an optical fiber
+(a) Explain the Phenomenon of induced network using laser of wavelength
+emission indicating the features 1.55 um.
+differentiate which What is LIDAR? Discuss
+it from spontaneous emission. its components and
+(b) Discuss in brief the basic idea of elementary their role. How atmospheric pollutants are
+quantum theory and _ measured using LIDAR?
+experimental some observed
+phenomena which could not Or
+be understood on this basis. What is dye laser? ‘Explain
+(c) Write down the rate equation for the working of dye
+level laser a four laser on the basis of Jablonskii diagram. Show
+and obtain the threshold that a dye laser works as a four level laser.
+condition for lasing.
+(d) Discuss the working of excimer laser. Discuss the conditions in which a laser will work
+Why excimer lasers have an in cw/pulse mode. Name
+high efficiency? some lasers which
+(e) How eye surgery is made using lasers? Discuss works in cw as well as pulsed mode. Show that a
+its advantage over other kind of surgery. cw laser is suitable for time measurements.
+0929
+(2) 0929 (3)

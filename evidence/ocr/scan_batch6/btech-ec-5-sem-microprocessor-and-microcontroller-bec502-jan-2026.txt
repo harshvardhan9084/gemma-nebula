@@ -1,0 +1,92 @@
+Printed Page: I of 2
+Subject Code:
+J 1
+BTECH
+(SEM V) THEORY EXAMINATION
+MICROPROCESSOR & MICROCONTROLLER
+TIME: 3 HRS MARKS: 70
+Note:
+1. Attempt all Sections. If require any missing data; then choose suitadiy.
+1.___Attempt ail questions in
+Question 2x7=14
+Compare between Microprocessor and Miacrocoritroller, :
+wl
+at is an interrupt? Name any one interrupt of 8085.
+RCW 8085 HSS UH
+List all the ntaSkable and AT EH of
+8085. AN)
+List peripheral the int, Memory Mapped W/O VG }
+AS vo sit. Yes ay sick
+Discuss the viags available in 8051 Status Word.
+8051 WH Rew dS A
+What is the purpose of Program Counter 8051?
+8051 BISEX (PO)
+Investigate A the need of pre-fetch in 8086.
+8086 ay St
+Ve: (ON B sy
+2. Attempt any three of th wing: 7x3=21
+Draw the architecture of 8685 and mention its various functiona
+8085 Gl a fea sarge SR sa wi seats \
+‘examples. Illustrate the various addressing modes in 8085 along- oN suitable | 7 2
+8085 4 Als Blea Ae 2
+_| Describe the architecture and working of 8259 *
+Controller.
+8259 Hele Hl
+Explain the internal memory orgarization@
+8051 pt HAT dea Fe
+Draw and explain interfacing of DAC with 8051
+microcontroller. DAC. Write program sine wave at the output of
+siz 8051 &
+de fee
+SECTION C
+3. Attempt any one part of the followin;
+Demonstrate suitable the diagram. interfacing of output and input devices with 8085 along | 7
+witha TARR Also explain aR the Faye relevant instructions & used. wl
+8085 & Tey Waka SL ey Bi. Te Peat st caren ah wy
+| 9:26 08 AM | 182.72.114.114
+https://www.aktuonline.com
+of 2
+Printed Page: BEC502 2
+U0 Subject Code:
+Roll No:
+BTECH
+(SEM V) THEORY EXAMINATION 2025-26
+MICROPROCESSOR & MICROCONTROLLER
+TIME: 3 HRS M.MARKS: 70
+,| goes arithmetic and logical operations. HS wd
+a ae
+Prd
+of the following: 7x1=7
+Attempt any one language part to find the largest number a series
+Write an assembly location program 2000 H to 200 A H. Store the result in at
+of number stored from the with relevant flowchart.
+location 3000 H. Explain Safed program #1 saan A was a ast aa & fey ve
+2000H rer 200AH BT VIA UR Safed GL Ere
+Wa St 3000H
+and looping instructions of 8085 with suitable
+examples. Explain branching
+help
+Illustrate the process of DMA with the RS
+8237 SIGHY Hee wl Ay
+8086 microprocessor.
+8086
+$051 with the suitable dij
+Illustrate the pin diagram of help ofa
+Up explain the utility GI of the pins available in 8051. A sata
+foal ot SIS ol BEATA 8051
+ad Return.
+between Bret SH (1) fred Ret POP ats and PUSH see (2)
+(2)
+of the
+Attempt Analyze the any one part of serial
+the relevant process special function ters (SFR’s) used serial
+communication.
+8051 A dar HI ax ain dikaa tar feu art
+Haars UX Ht HEI
+Explain the timers
+TCON and TMOD
+3051 Ht ASN HL SX AY St TCON stk TMOD ST
+ox ft pe!
+2|Page
+QP26DP1_467 | 06-Jan-2026 9:26:08 AM | 182.72.114.114
+https://www.aktuonline.com

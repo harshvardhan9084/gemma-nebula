@@ -1,0 +1,153 @@
+aktuonline.€omQ 6 4 aktuonline.com
+Printed Pages—5 IT—501
+(Following Paper ID and Roll No. be filled in Answer Book)
+to your
+PAPER ID : 101 1
+B.Tech.
+FIFTH SEMESTER EXAMINATION, 2005-2006
+INTRODUCTION TO WEB TECHNOLOGY
+Time : 3 Hours Total Marks : 100
+Note: (i) Answer ALL questions.
+(ii) All questions carry equal marks.
+(iii) Be precise in your answer.
+1. Attempt any four of the following questions :
+(a) What are protocols? What do they do? What
+allows any size computer to be able to send
+and receive through the Internet ? (2+1+2)
+(b) While visiting a website, it is not uncommon
+for the site to be collecting information about
+you. This information is saved ina file that is
+retrieved typically and stored used on your the hard time disk to be
+the website. What again of information next you do visit
+- think is being collected type ? Do think site you has
+an ethical obligation to inform you visitors that it is
+collecting information ? Is there an ethical
+obligation to inform visitors before using their
+computer resources ? Do you see the activity
+as an invasion of privacy ? Why or
+Why not ? (1+1+1+2)
+IT—501 1 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+fo) There are various buttons on the toolbar of
+Internet explorer. Explain what each one of
+them stands for : (1x5)
+(1) Favorites
+(2)
+History
+(3) Refresh
+(4) Full Screen
+(5) Mail
+d) What do y' you mean by y having 8 effective web
+page titles ? Why do you think using effective
+construction web page titles ? is important step of web site (1+4)
+(e) Explain briefly the various steps you take while
+developing a web site. (5)
+(f) | What is a search engine ? How would you get
+information using a search engine ? (2+3)
+2. Attempt any four of the following questions :
+(a) What is URL ? What is the role of number
+in URL ? Give example of URL’s port that (1)
+contain host (ii) do not specify host
+name. a name a
+(b) What defferentiating is electronic feature commerce of electronic ? What is
+from print and broadcasting mediums commerce ? (243,
+(c) What is Java Script ? Why do you think java
+script plays important role in web designing ? (2+3)
+(d) Your Web site requires some entries to be filled
+in by the visitor. These entries may be his/her
+name and password, thus you are required to
+create a form. How would you create such a
+form ? (5)
+IT—501 2
+aktuonline.com
+aktupnline.comurvey
+technology professionals of nearly 1600 from
+73% of all the companies reported 50 countries, security
+breach during the past 12 months. some However
+companies doing their business through their
+web site or implementing electronic supply
+chains and enterprise resource planning
+applications were significantly more likely to
+be victims of security loss that affected their
+revenues and corporate data.
+Comment and suggest what business
+companies do about this ? can (5)
+(f) Who initiates client/server interaction : the
+client or the server ? How is this and done which ? Which
+of the following ? are clients are (1+1+3)
+servers
+(1) A web browser
+(2) A web site where you can accese a
+general search engine
+(3) A web site that tells the correct time
+you
+(4) A program that displays news headlines
+on your desktop
+(5) Awebsite that telis you the speed of your
+internet connection
+(6) A program that tracks stock prices and
+displays a customized ticker for you.
+Attempt any two parts of the following questions :
+(a) List some salient features of JAVA. How is Java
+strongly associated with Internet ? Draw a
+flowchart to show how various java tools are
+used in the application development. (A+2+4)
+aktuonline.com
+ent 2
+aktuonline.com aktuonline.com
+(b) What is an applet ? How do applets differ from
+application programs ? Develop an applet that
+displays the string “hello java” on the screen
+and explain how does an applet work? (3+3+4)
+Java has two ways to create child threads,
+what are these two methods ? Explain them.
+Which of the two, do you think is better and
+why ?
+4. Attempt two parts of the following questions
+any : ~
+(a) Abstract Window Toolkit (AWT) defines
+windows according to class hierarchy that FIF
+adds functionality and specificity at each level.
+Give description of class hierarchy for Panel
+and Frame. Give Brief introduction to
+Component, Container, Panel, Window, frame,
+and canvas classes.
+Write a simple applet to draw a Cone. (2+5+3)
+(b) What are the controls supported by AWT ?
+Give description of each of them. (10)
+Write short the following (5+5)
+notes on :
+(1) Double Buffering
+(2) Cell Animation
+5. Attempt any two parts of the following questions :
+(a) What is a java bean and what are the
+advantages of java beans ? Why is it necessary
+to understand JAR files before developing a
+bean. Give commands for the following: (3+4+3)
+IT—501 4
+{Turn Over
+.
+aktuonline. xyz aktuonline.
+“PO create a JAR file named jar .com
+contains all of the .class and gif files in
+the current directory.
+(2) To use available manifest file Yxz.mf
+(3) To list the contents of Xyz.jar
+(4) To extract the contents of Xyz.jar and
+places those files in the current directory.
+(5) To add the file filel.class to Xyz.jar
+(6) To add files below directory X to Xyz.jar
+(b) What is ImageMenu applet and how is it
+different from Navigation applet? Explain the
+following mathods associated with the
+ImageMenu applet (2+3+5)
+init()
+(2) update()
+(4) mouseExited()
+(5) paint()
+(c) Write short notes on the following : (5+5)
+(1) Destructors versus finalization
+(2) Converting C++ abstract classes into Java
+Interfaces.
+aktuonline.com

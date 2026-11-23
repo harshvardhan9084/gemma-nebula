@@ -1,0 +1,76 @@
+Sub KOE-064
+Printed Pages: | 236485 02 ] - Code:
+Paper Id: __ Rol! No.
+B.TECH.
+(SEM VI) THEORY EXAMINATION 2022-23
+OBJECT ORIENTED PROGRAMMING
+Time: 3 Hours Total Marks: 100
+If require missing data; then choose suitably.
+Note: 1. Attempt all Sections. any
+2x10=20
+1. Attempt all questions in brief.
+Differentiate between Object and Class._.
+Describe the difference between Abstract | Classes and Interfaces.
+of Relationships oO in Class diagrams.
+ao List down the different types “and ‘Composition on relationships.
+Explain the terms Association, Aggregation, Oriented
+List down the different phases of Object-
+me Procedural and Object-Oriented Tanguage features.
+Toe What is the namespace in C++? Explain its
+Describe the concept of in
+operator overloading in C++.
+Discuss of a class in
+Differentiate between private and 1 ” on
+Oy
+B
+following: the NY
+Attempt any three of _
+UML along with exa f
+Explain different types of diagra ms in diagrams-~
+different modelling t echniques used in
+Explain the “ind Encapsulation and explain’ ir significance im Object-
+Define
+Oriented Programming with the
+between call by call by reference in C++,
+Explain the difference example.
+help of suitable in Ge Discuss different types of consmuctors.
+Explain the concept of constructors se
+Give example of each.
+Ineo Cc 10x1=10
+following:
+Attempt any one part of cechniques.
+Explain Object-Oriented Modelling, and Differentiate it with modelling
+Explain your answer with proper reasoning.
+implementation in object-oriented
+Define Polymorphism and give an exampl e of its
+Programming.
+Oo
+QP2BEF+ 27-06-2023 ES:
+https://www.aktuonline.com “i
+Attempt any ove part of the
+10x1=10
+Explain the reason of Polymorphism being depicted in diagrams.
+Discuss the callback mechanism, und its representation in sequence diagrams?
+Attempt any one part of the following: 10x1=10
+Explain the advantages and disadvantages uf SA/SD and JSD in comparison to
+Object-Oriented Analysis and Design?
+Explain the process of combining three Models (Class, Use Case, and Interaction} in
+to object-oriented analysis and design.
+Attempt any one part of the following: 10x1=10
+Discuss an inline function in C++. Explain its significance along with example.
+Explain the difference between static and virtual functions _in i C++ with the help of
+Attempt any part of the following: 10x1=10
+one
+Illustrate the types of inheritance in C++. an example of
+en
+Explain pure virtua] function in its usefulness wilh an example.
+wf jay’
+oy
+ra
+https://www.aktuonline.com
+Whatsapp @ 9300930012
+Send your old paper & get 10/-
+Wet Ws Ast HH Ses aA,
+10
+Paytm or Google Pay 4
+https://www.aktuonline.com

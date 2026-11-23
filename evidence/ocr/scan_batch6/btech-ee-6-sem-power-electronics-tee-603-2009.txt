@@ -1,0 +1,119 @@
+aktuonline.com aktuonline.com
+* 2 6 4 / 4 4 5 *
+Printed Pages : 4 TEE - 603
+(Following Paper ID and Roll No. to be filled in Answer Book)
+PAPER ID Roll No. [ LJ | your | | |
+:
+B. Tech.
+~ (SEM. VI) EXAMINATION, 2008-09
+POWER ELECTRONICS
+Time : 3 Hours] [Total Marks : 100
+Note Attempt all questions.
+:
+1 Attempt any four parts of the following : 5x4=20
+(a) Describe dynamic characteristic of power diode.
+(b) Explain the two transistor analogy of thyristor.
+(c) Explain operation of GTO thyristor.
+(d) Discuss the problems of parallel connection of
+power BJTs and their solutions.
+(e) What are differences in the gating characteristics
+of BJTs and MOSFETs?
+(f) Compare IGBT and power MOSFET switches
+with reference to converter applications.
+four of the following
+2 Attempt any parts : 5x4=20
+(a) On what factors the di/dt rating of thyristor
+depend? What device techniques are used to
+improve the di/dt rating?
+(b) Explain the problems associated with the series
+operation of thyristor.
+2061] [Contd..
+aktuonline.com
+the circuit diagram and waveforms
+resonant pulse commutation. Why does the
+commutation capacitor in a resonant pulse
+commutation gets overcharged?
+(d) What is de chopper? Explain the principle of
+operation of a step-up chopper.
+(e) Draw the circuit diagram of class D chopper and
+explain its operation in brief.
+(f) | For type-A chopper, dc source voltage = 230 V,
+load resistance 10 Q. Take voltage drop
+= a
+of 2V across chopper when it is on. For a duty
+cycle of 0.4, calculate
+(i) average and rms values of output voltage
+(ii) chopper efficiency.
+3 Attempt any two parts of the following : 10x2=20
+(a) A single phase half wave rectifier shown in
+Fig. 1 has a purely resistive load R. Determine :
+(i) the efficiency
+(ii) the form factor
+(ii) the ripple factor
+the transformer utilization factor and
+(v) the peak inverse voltage of diode.
+‘l
+Vy Sv.
+Fig. 1
+2061; 2
+_aktuonline.com
+aktuonline.@om A
+single-phase fully controlled
+is connected to RLE load. The source voltage
+is 230 V, 50 Hz. The average current of 10A
+is continuous over the working range. For
+R = 0.4 Q, compute
+(i) firing angle delay for E = 120 V,
+(ii) firing angle delay for E = V.
+Indicate which source is delivering power to
+load in parts (i) and (ii),
+(iii) In is assumed
+case output current constant,
+find the input pf for parts (i) and (ii).
+(c) Draw the circuit diagram and output voltage
+waveforms of three-phase fully controlled bridge
+converter with highly inductive load for o = 90°.
+Derive expression for voltage.
+an average output
+4 Attempt any two parts of the following : 10x2=20
+(a) What are the advantages and disadvantages of
+on-off control? What are the advantages and
+disadvantages of phase-angle control? Derive the
+o expression of rms output voltage for single-phase
+full wave (bidirectional) ac voltage controller with
+resistive load?
+(b) full wave (bidirectional) ac voltage
+has a resistive load R= 10Q
+the rms input voltage, V, = 230 V, 50 Hz. The
+thyristor switch is on for n = 25 cycles and
+is off for m = 75 cycles. Determine
+2061) 3 [Contd..
+aktuonline.com
+aktuonline.com aktuonline.com
+(i) the rms output voltage V,
+(i) the input power factor and
+(iii) the average and rms currents of thyristors.
+(c) Explain the working principle of single-phase
+cycloconverter by drawing circuit diagram and
+necessary waveforms. What are the advantages
+and disadvantages of cycloconverter?
+5 Attempt any four parts of the following : 5x4=20
+(a) Explain the operating principle of single-phase
+half-bridge inverter with suitable diagram and
+waveforms.
+(b) Compare voltage source and current source
+inverters.
+(c) Discuss single-phase-width modulation for voltage
+control of single-phase inverters.
+(d) Discuss advantages of sinusoidal pulse-width-
+modulation over multiple-pulse-width modulation.
+Draw the waveforms for sinusoidal pulse-width
+modulation.
+(e) Draw the circuit diagram and waveforms for ~
+three-phase voltage source inverter for 180°
+mode of condition.
+(f) | What is dead zone of a resonant inverter? What
+are the advantages and disadvantages of resonant
+inverters with bidirectional switches ?
+2061) | [ 4450 1
+aktuonline.com

@@ -1,0 +1,81 @@
+Printed Pages: 6 EME-064
+(Following Paper ID and Roll No. to be filled in
+your
+Paper ID: 1408600
+B. TECH.
+Theory Examination 2015-16
+PRODUCTION AND OPERATIONS MANAGEMENT
+Time 3 Hours Max. Marks 100
+: :
+Section-A
+Attempt all parts. All parts carry equal marks. Write
+answer of each part in short. (2x10=20)
+(a) Explain the concept of five P’s.
+(b) understand
+What do you by operations strategy?
+(c) What is the role of standardization in product
+design?
+(d) Discuss the concept of service capacity.
+() Explain earliest start and finish times.
+(f). What are free float and independent float?
+1 P.T.O.
+106/
+(g) Define MRP and MRP IL. What do you understand by aggregate planning? Explain
+all the steps involved in effective
+(h) Briefly discuss master schedule. aggregate planning.
+What is work design? What are various components of
+(i) Differentiate between normal time and standard time. work design process? Explain.
+(j) various therblings.
+() Discuss all the inputs and outputs in MRP system.
+Section-B (h) What do you understand by operations management?
+Also discuss its scope.
+2. Attempt any five questions from this section.
+(10x5=50)
+Section-C
+(a) What do you understand by product design? Discuss
+various steps involved in product design process. Note : Attempt any two questions from
+this section.
+(b) What are different strategies for service capacity (15x2=30)
+planning?
+Also discuss various approaches for 3. (a) A limited company is planning
+designing service processes. manufacturing to start a new factory for
+steel utensils. It is considering three loca-
+(c) What do you mean by facility location? What tions, namely, Bokaro, Jamshedpur and Bhilai. The fixed
+different factors involved in facility are Costs at the three locations have been estimated at Rs.
+ning? location plan- 8.15 million, Rs 7.377 million and Rs 7.903 million
+spectively. The variable the re-
+estimated costs at three locations are
+(d) What is facility layout? Discuss different types of at Rs 500 per unit, Rs 580 per unit and Rs
+facility layouts. 490 per unit Tespectively. The factory will have an an-
+nual production capacity of 10,000 steel utensils and in
+3
+106/ /261/6525 PTO.
+the initial years, it will operate at 75% efficiency. (iv) Calculate the probability that the project will
+Find the best location option, which has the lowest be completed at least 3 weeks than expected.
+©
+total cost of production. (5) If
+(v) the project due date is 18 weeks, what is the
+(b) A small project is composed of 7 activities whose probability of not meeting the due date?
+time estimates are listed below. Activities are being
+identified by their beginning (i) and ending (j) node 4. (a) What do you understand by good quality? What is
+numbers: (10) Deming’s contribution to management of quality? (5)
+(b) A machine has perform three operations,
+Activities Time in weeks operator to
+namely plane turning, step turning and taper turning on a
+number of different jobs. The relevant data is tabulated
+as:
+15
+Now: (i) Draw the network.
+(ii) Calculate the expected variances.
+(iii) Find the expected projéct completion time.
+Obtain optimal sequence of jobs as well as total elapsed
+time, and idle time for the three operations. (10)
+5 PTO.
+106/ /261/6525 106/ /261/6525
+5. (a) What are symptoms of a bad layout ? (5)
+What do you understand by principles of motion
+economy? Discuss. (5)
+(c) What are different activities involved in operations sched-
+uling process? (5)
+(6)
+106/ 1261/6525

@@ -1,0 +1,87 @@
+Printed Pages: 4 NEE-301
+(Following Paper ID and Roll No. to be filled in your
+Answer Books)
+Paper ID 2012374 TT
+:
+B.TECH.
+Regular Theory Examination (Odd Sem III), 2016-17
+-
+EMEC -I
+Time 3 Hours Max. Marks 100
+: :
+SECTION -A
+Attempt
+1. all parts of the
+a) Write the energy balance equation for motor action
+and draw power flow diagram.
+b) What is back-emf in a dc motar?
+c) Define “reactance voltage” in commutation
+process.
+d) Whatis the effect of frequency and supply voltage
+iron losses?
+e) What on the effects of reaction?
+are armature
+f) Differentiate between ‘armature voltage control’
+and ‘flux control’ of dc shunt motor.
+g) What is the need of tertiary winding in a 3-¢
+transformer?
+h) Why short circuit test is performed on HV side of
+transformer?
+301/12/2016/5480 (1) [P.T.O.
+NEE-301 NEE-301
+i) | What is the need of starter while starting the dc Explain the procedure of O.C. and S.C. for
+motor? tests a
+transformer. How different parameters of the transformer
+j) Define energy and co-energy. can be determined from theses tests?
+SECTION -B A 500 kVA, 11/0.43 kV, 3- delta/star connected
+transformer has rated load. The loss of
+Attempt any Five questions of the followings on HV copper
+(5x10=50) 2.5 kW and the LV loss of 2 kW and the total leakage
+reactance of 0.06 per unit. Find the ohmic values of the
+a)- Derive an expression for Reluctance torque in a equivalent resistance and leakage reactance on the delta
+rotating electrical machine. side.
+a) Derive the relationship between magnetic field
+b) Explain the various phenomenon happening in and for singly-excited
+electro mechanical energy conversion in rotating energy co-energy a system.
+electrical machines. b) Derive the emf equation for a dc generator.
+What are various losses that occur in d.c. machines? Also, . Two single-phase furnaces | and 2 are supplied at 80 V
+derive the condition for maximum efficiency of a d.c. by means ofa Scott connected transformer combination
+generator. fed by a 3-phase 6600 V system. The voltage of furnace
+1 is leading. Calculate the line currents on the 3-phase
+Draw the ‘speed-torque characteristics’ of d.c. shunt, side when the furnaces take 500 kW and 800 kW,
+series and compound motors. A 200 V shunt motor has respectively
+Ra= 0.1 Q, R= 240 Q and rotational loss 236 W. On -
+full-load the line current is 9.8 A with the motor running a) Atunityp.f.
+at 1450 Determine
+r.p.m. b) Furnace | at unity p.f. and furnace 2 at 0.7
+a) power developed. (lagging).
+output.
+b) |. The power What do you mean by “PARALLEL OPERATION of
+TRANSFORMERS”? Discuss the advantages and
+c) The load torque. disadvantages of parallel operation of transformers.
+d) The full load efficiency.
+301/12/2016/5480 (2) 301/12/2016/5480 (3) [P.T.O.
+NEE-301
+SECTION -C
+Note: Attempt any two questions of the following.
+(2x15=30)
+Write short notes on the following :
+a) to connection of transformers.
+b) 3- to connection of transformers.
+11. A 4-pole series wound fan motor draws an armature
+of 50 Amps, when running at 2000
+current field coils connected r.p.m on in a
+230 V d.c. supply with four
+series. The four field coils are then reconnected in two
+parallel groups of two coils in series. Assuming flux /
+pole to be proportional to the - exciting current and load
+torque proportional to the square of the speed. Find the
+new speed and armature current.
+tests on
+12. a) Discuss the following d.c. machines -
+i) Hopkinson’s test.
+ii) D.C. resistance test.
+b) Discuss the following test on transformers.
+i) Back-to-back test.
+ii) Polarity test.
+301/12/2016/5480 (4)

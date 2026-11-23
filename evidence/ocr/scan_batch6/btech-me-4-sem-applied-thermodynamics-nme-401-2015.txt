@@ -1,0 +1,85 @@
+www.aktuonline.com
+Printed Pages : 3
+0
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 140408
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+APPLIED THERMODYNAMICS
+Time 3 Hours] [Total Marks 100
+: :
+1 Attempt any four parts : 5x4=20
+(a) What is the difference between path function and
+point function, explain using p-v diagram. What
+is the work done in free expansion process ?
+(b) Describe the steady flow equation for
+single entering and energy leaving control a
+volume stream also explain various a involved.
+the terms
+Give the differential from S.F.E.E. Also define
+unsteady flow process.
+(c) What does the Clausius-Clapeyron equation
+signify ? Derive and discuss its applications.
+(d) Define the following
+:
+(i) Coefficient of volume expansion
+(i) Isothermal compressibility and
+(it) | Adiabatic compressibility
+140408] 1 [ Contd...
+www.aktuonline.com
+(e) How regeneration in gas turbines increases thermal
+efficiency of the plant ?
+(f) the effect of temperature on standard heat
+of reaction.
+2 Attempt questions 10x2=20
+any two :
+(a) What are boilers ? How are they classified ?
+Differentiate between mounting and accessories.
+(b) What do you understand by boiler draught ?
+Calculate condition for maximum discharge.
+(c) Determine equivalent evaporation/kg of fuel
+and boiler efficiency of a boiler having
+steam generation at 3 mpa, 350°C at a rate
+of 4x10* kg/hr. Feed water enters economizer
+at 100°C and during one hour test 5x10? kg
+fuel of Cv = 3.5 <10* kj/kg is consumed.
+3 Attempt any two questions : 10x2=20
+(a) Draw P-V and T-S diagram for a Rankine cycle.
+Derive expression for work done and efficiency
+of cycle. Explain how it is different from modified
+Rankine cycle.
+(b) Dry saturated steam at pressure of 6 bar flows
+through converdiver nozzle at rate of 4.5 kg/sec
+and exit 1.6 bar loss due friction
+pressure as to
+occurs in divergent section at 12% as friction
+drop. Determine cross section of exit and throat
+area.
+140408] 2 [ Contd...
+www.aktuonline.com
+(c) Explain the following :
+(i) curve
+(i) Indicated power
+(it) Metastable state flow through nozzle
+(iv) Brake power
+(v) Missing quantity
+4 Attempt any two questions : 10x2=20
+(a) (i) Enumerate effect of pressure and temp. on
+Rankine cycle.
+(i) | What is bleeding and how does it affects
+cycle efficiency ?
+(b) Draw velocity diagram for velocity compounded
+turbine and find equation for maximum work done
+and efficiency.
+(c) Define steam turbines and classify them. Explain
+the term compounding and its types in brief.
+5 Attempt any two questions : 10x2=20
+(a) Explain in brief methods of improving efficiency
+of cycle turbine.
+open gas
+(b) Explain Brayton cycle and obtain expression for
+efficiency in terms of pressure and temp ratio.
+(c) Explain working of jet propulsion system and
+compare working of Ram jet with Pulse jet
+engines.
+140408] 3 [19825]

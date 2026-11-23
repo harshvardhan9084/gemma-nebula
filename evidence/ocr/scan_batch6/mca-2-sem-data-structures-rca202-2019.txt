@@ -1,0 +1,64 @@
+Page 1 of 2
+Printed pages: 02 Sub Code: RCA 202
+Paper Id: 214234 Roll No:
+MCA
+(SEM Il) THEORY EXAMINATION 2018-19
+DATA STRUCTURES
+Time: 3 Hours Total Marks: 70
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+2. Any special paper specific instruction.
+SECTION A
+Attempt all questions in brief. 2x7=14
+a. What is a sparse matrix? Also give its important properties.
+b. Discuss the differences between Array and lists.
+c. Write two applications of Linked Lists.
+d. Explain method to store graph in computer.
+Explain Complete a Binary Tree a and Extended Binary Tree.
+f. e. Differentiate between directed and Undirected graph.
+www.aktuonline.com Explain Garbage Collection with example.
+g.
+SECTION B
+Attempt three of the following: 7x3=21
+any
+a. What do you understand by complexity of an algorithm?Describe the different
+notations used to describe the asymptotic running time of an algorithm.
+b. | How a linked list can be used to represent a polynomial 5x3 +4x2 +3x+2? Give
+an algorithm to perform addition of two polynomials using linked list.
+c. What is AVL tree? Explain the balancing methods of AVL trees with an
+example.
+d. | Compare Linear search and Binary search algorithms with examples with their
+complexities.
+e. Describe the minimum cost spanning tree with suitable example.
+SECTION C
+Attempt any one part of the following: 7x1=7
+(a) Define Stack. the expressioninfix prefix using stack:
+A*(B+D)/E-F*(G+H/K). Convert to
+(b) What is the Tower of Hanoi problem? Explain the solutions of the Tower of
+Hanoi problem where the numbers of disks 3 and numbers of 3.
+are pages are
+Attempt part of the following: 7x1=7
+any one
+(a) Explain circular queue and Double ended queue with example.
+(b) Give an algorithm to perform following operations in a singly linked list.
+(i) Insert a new node after a given node.
+(ii) Delete last node.
+RCA202
+http://www.aktuonline.com
+Page 2 of 2
+5. Attempt any one part of the following: 7x1=7
+(a) Howrecords are organized into blocks? Discuss any one method for the same
+with an example.
+(b) What is threaded binary tree? Explain the operation of threaded binary tree.
+Attempt any one part of the following: 7x1=7
+(a) Write algorithm for Insertion Also illustrate insertion sort with
+example. sort. an
+(b) Write algorithm for heap sort technique. Illustrate with example.
+an an
+Attempt part of the following: 7x1=7
+any one
+(a) Define hashing. What are the properties of a good hash function? With
+necessary examples explain four different hashing techniques.
+(b) Write a note on the following: (i) B+ tree. (ii) Internal sorting.
+www.aktuonline.com
+RCA202
+http://www.aktuonline.com

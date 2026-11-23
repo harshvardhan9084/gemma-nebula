@@ -1,0 +1,70 @@
+Printed Pages—4 EECS09
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 2115
+:
+B.Tech.
+(SEM. V) ODD SEMESTER THEORY
+EXAMINATION 2013-14
+- ANALOG INTEGRATED ELECTRONICS
+00
+Time :; 3 Hours Total Marks : 1
+Note :— Attempt all questions.
+.
+1. Answer any four parts of the following : (5x4=20)
+(a) Briefly explain the need for compensating networks in
+op-amps.
+(b) Explain the effect of negative feedback on frequency
+response.
+(c) IC as a non-inverting amplifier. What
+maximum gain can be used that will keep the amplifiers’s
+response flat to 10 kHz ?
+How does the high frequency model of an op-amp differ
+from the equivalent circuit of ?
+an op-amp
+(e) Why are low closed loop gains avoided with uncompensated
+op-amps ? Explain.
+EECS09/DNG-51949 - 1 . [Turn Over
+.
+(f) What is the frequency response ? Define “break (b) Design a multiple feedback narrow band pass filter with
+frequency” and “bandwidth”. f, = 1 kHz, Q=3 and A= 10.
+(c) Draw the circuit diagram of a All Pass Filter and show
+Answer any two parts of the following : = (10x2=20) that phase is given by ® = -2 tan —t 2 fRC.
+Integrator. (d) Design Wide Band Pass Filter with lower cutoff frequency
+(a) Explain the working of practical Also derive a
+and explain its frequency response. Design a practical 200 Hz and higher cutoff frequency 1 a pass band
+gain 4.
+integrator circuit with a d.c. gain of 10, to integrate a square =
+wave of 10 kHz. (e) Explain the operation of a 3-bit R-2R type DAC.
+_
+(b) Draw and explain the commonly used three op-amp (f) Discuss the successive approximation type A/D converter.
+instrumentation amplifier. Derive expression for its gain.
+Also design the instrumentation amplifier to have a variable
+differential gain in the range 5-200. Use a 50 kQ Answer any two parts of the following : (10x2=20)
+triangular
+potentiometer. (a) Using.op-amp design wave generator and square
+(c) (i) Draw the V-I converter and derive voltage wave generator.
+output
+equation for grounded load. (b) Whatare the advantages of the adjustable voltage regulator
+(ii) the fixed voltage regulator ? Describe the working of
+Explain the. difference between inverting and adjustable over
+differential summing amplifiers. voltage regulator.
+(c) Write short notes on the following :
+() Precision rectifiers
+Answer any four parts of the following : (5x4=20)
+(a) Design a low filter using Op-Amp a Gi) Schmitt trigger.
+pass at cut-off
+frequency of 1 kHz with pass gain of 2. And plot the
+frequency response of this low pass filter. |
+EECS509/DNG-51949
+2 EECS09/DNG-51949 3 [Turn Over
+5: Answer any two parts of the following : (10x2=20)
+(a) Explain the basic principles of PLL with suitable block
+a
+diagram and mention its applications in detail.
+(b) List the characteristics of an Operational Transconductance
+Amplifier (OTA). Draw the inverting and non-inverting
+amplifier using OTA.
+(c) Write short notes on the following :
+(i) Logand Antilog amplifiers
+Gi) Analog Multipliers.
+EEC509/DNG-51949 4 $475

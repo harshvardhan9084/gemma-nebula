@@ -1,0 +1,100 @@
+(c) For the circuit shown in Fig. 15, derive an expression for Printed Pages—8 EEC304
+V,, and V,,, assuming ideal op-amp. Following Paper {D and Roll No. to be filled in Answer Book
+your
+0325
+B. Tech.
+(SEM. III) ODD SEMESTER THEORY EXAMINATION
+2010-11
+FUNDAMENTALS OF NETWORK ANALYSIS AND
+SYNTHESIS
+Time » 3 Hours Total Marks : 100
+Fig. 15
+Note : Attempt all questions. All questions carry equal marks.
+Missing Data if any may be suitably assumed.
+1. Attempt any four parts of the following : (5x4=20)
+(a) The waveform f(t) in the Fig. | is defined as :
+2
+= =0, elsewhere.
+Cin
+| Show that as —> 0, f(t) becomes a unit impulse function.
+\ ft)
+Q e t
+Fig. 1
+20095 EEC304/VEQ-15427
+EEC304/VEQ-15427 8 1 {Turn Over
+(b) Find the response to the excitation shown in Fig, 2 when (¢) For the circuit shown in Fig, §, i(t) = u(t), find v(t);
+the network is (i) an ideal differentiator, (ii) an ideal 0
+integrator.
+e(t)
+Fig. 5
+1 15 t (f) Find the requirement for the RC time
+differentiator circuit, constant in the RC
+Fig. 2 approximately such that output voltage is
+(c) Using Shifting property of the step function, obtain an the derivative of input voltage,
+equation of the waveform shown in Fig. 3. Attempt any four parts of the following : (5*4=20)
+s(t) (a) Use the convolution integral, find
+of the following : the inverse transform
+aoe
+(s+a)(s+b) “||
+0 t (ii)
+Fig. 3
+(b) using
+(d) For the circuit shown in Fig. 4, at t = 0, the switch goes Find i,(t) for the circuit shown in Fi ig. 6 Thevenin’s
+from position | to 2, find i(t), given that ¢(t) = e* sin 2t. theorem. The excitation is = [09 cos 20u(t),
+Assume that the circuit had been steady state for t > 0. 192 2H
+Fig. 6
+BEC304/VEQ-15427
+7 2 3 Over
+transfer function Hs) when (f) For the network shown in Fig. 9, determine the Y and Z
+(c) Determine the V,(s)
+u(t), find v,(t) for the circuit’shown in Fig. 7.
+v,(t) = initial conditions.
+Assume zero
+1Q
+3. Attempt two of the following (10x2=20)
+any parts :
+(a) Find the network for the following function in Foster-I
+and Cauer-I form
+(s+1)(s+3)
+Fig. 7 ¥(s)=
+(d) Prove that for a passive reciprocal network AD — BC = 1, (s+2)(s+4)
+where A, B, C and D are the transmission parameters. (b) For the pole-zero diagram shown in Fig. 10, pick the
+(e) For the cascade connection of two ports network shown diagram an R-L impedance function and synthesize in the
+in Fig. 8, shown that the transfer impedance Z,, of the series Foster form.
+overall circuit is given in terms of the Z-parameters of the
+individual ports by the equation
+two
+Z12
+Zi + Z22a o -4-32-1/0 o
+addition, show that the short-circuit admittance Y ,, is
+In
+given by —Y,, (i) (id) (iii)
+= — + Fig. 10
+Given 45) s* + Xs
+(©) Gi s)=——_
+(i) What are restrictions on X for Z(s) to be positive
+real function ?
+4
+5 [Turn Over
+(ii) Find X for to have a second order at (c) For the network shown in Fig. 13, show that—
+o=0. Vv |
+1 and synthesize Y when V2 +2)
+(iii) Choose a numerical value for X and synthesize Vv, 2+¥ Vy = s?42s+2 .
+Zs). R
+4. Attempt any two parts of the following : (10x2=20)
+(a) For the networks shown in Fig. 11, show that the driving ve)
+V2
+point impedance Z,, are equal to R, when ZZ, = R?.
+R
+Fig. 13
+5. Attempt any two parts of the following : (10x2=20)
+{a) Draw the circuit of non-inverting differentiator using
+one
+ideal op-amp and determine its transfer function.
+Fig. 11 (b) For the circuit shown in Fig. 14, Find I,. Assuming ideal
+(b) Synthesize N, with termination resistor R, = 4Q and op-amp.
+R, = 1Q for the network shown in Fig. 12 to give
+V,
+Fig. 14
+EEC304/VEQ-15427
+6 7

@@ -1,0 +1,96 @@
+aktuonline.com aktuonline.com
+10559
+Printed Pages—4 TME— 402
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+B.Tech.
+(SEM IV) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+la KINEMATICS OF MACHINE
+Time 3 Hours Total Marks 100
+: :
+Note: (i) Answer all the questions.
+(ii) All questions carry equal marks.
+(iii) Assume suitable value for missing data if any.
+1. Answer any four parts : (4x5=20)
+(a) Distinguish between Mechanism and
+Machine.
+(b) Explain mechanical advantage and
+ae transmission angle of a mechanism.
+(c) Describe various inversions of slider crank
+mechanism. a
+(d) What is a Velocity image ? Explain its
+usefulness.
+(e) What class-I and class-II four bar
+linkage are
+TME — 402 1 [Turn Over
+aktuonline.com (f) aktuonline.com
+Locate all the instantaneous centres for
+mechanism shown in fig. below.
+2. Answer any two parts : (2x10=20)
+(a) For what pantograph used ?
+Sketch purpose form of is pantograph a and show
+that it satisfies one the required conditions.
+(b) are coupled together by a Hook’s
+joint, the driving shaft rotating uniformly
+at 600 rpm. Find the greatest permissible
+angle between the shafts if the maximum
+speed of the follower shaft is 630 rpm. Prove
+your reasoning.
+(c) Explain the procedure Klein’s
+construction to determine to construct the velocity and
+acceleration of slider-crank mechanism.
+a
+3. Answer any two parts : (2x10=20)
+(a) | What is the pole of coupler link of four-
+link mechanism ? Enumerate a its properties. a
+What is a relative pole ?
+TME 402 2
+—
+aktuonline.com
+aktuonliqe.com
+What is Freudenstein’s equation ?
+helpful in designing a four-link mechanism
+when three positions of the input (01, 95, 83)
+and the output link (®,, ®,, ®3) are known ?
+Explain Grashof’s law. What do you mean
+by inversion of linkage ?
+4. Draw the profile of a cam operating a roller (20)
+reciprocating follower with the following data :
+Minimum radius of the cam = 25 mm,
+Lift = 30mm, Roller diameter = 15 mm, the cam
+lifts the follower for 120° with SHM followed by
+a dwell period of 30°. Then the follower lowers
+down during 140° of the cam rotation with
+uniform acceleration and deceleration followed
+by a dwell period. If the cam rotates at uniform
+speed of 160 rpm, calculate the maximum velocity
+and acceleration of the‘follower during the descent
+period.
+OR
+(a) What are the requirements of a high speed (5)
+cam ?
+(b) What isa tangent cam ? Find the expression (15)
+for the velocity and acceleration of a roller
+follower for such a cam.
+5. Answer (2x10=20)
+any two parts :
+(a) What is the smallest number of teeth that
+can be used on each of the two wheels in
+angle order is to 14.5° avoid and interference standard if addendum the pressure of
+module is used a ? Find also the length
+of one the arc of contact in terms of the circular
+pitch.
+TME—402 3 {Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+(b) Whatisa differential gear of a automobile ?
+How does it function ?
+of are used for
+(c) (i) What parallel, types intersecting gears and skew
+shafts ?
+What their
+(ii) | What is a gear train are
+main types ?
+-o00-
+TME—402 4
+aktuonline.com

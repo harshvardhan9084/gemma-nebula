@@ -1,0 +1,55 @@
+Printed Pages—3 EME055
+(Following Paper ID and Roll No. to be filled in your Answer Book
+PAPER TD:
+. B.Tech.
+(SEM. VII) THEORY EXAMINATION 2013-14
+SIX SIGMA METHODS AND APPLICATIONS
+Time 3 Hours
+: Total Marks : 100
+Note :— (i) _ All questions are compulsory.
+(if) Be precise in your answers.
+1. Attempt any four parts of the following : (5*4=20)
+(a) What is your perception about quality ? Explain in detail.
+(b) How do you visualize quality in the service sector ?
+(c) Comment on the role of statistics in quality control and
+improvement.
+(d) Describe the success which Six Sigma has brought to some
+Organizations.
+(e) Differentiate between Normal and Binomial distribution.
+(f) Differentiate between TQM and Six Sigma.
+2. Attempt any four parts of the following : (5x4=20)
+(a) Elaborate the basic concepts of Six Sigma.
+(b) Who are" Black Belt" ? Explain their role in a Six Sigma
+Organisation.
+(c) What do you understand by DPMO and DPU ?
+EME055/DQJ-21741
+1 [Turn Over
+(d) Explain the role of Six Sigma in an organisation providing 5. Attempt any two parts of the following : (10x2=20)
+Service.
+(a) Discuss use of Six Sigma as a tool for substance of a project.
+(e) Who are Green Belts ? What is their role in a Six Sigma Elaborate few Communication strategies for Six Sigma
+Organization ? a
+initiatives.
+(f) the functions of Leadership council in a Six Sigma (b) List and introduce different software packages used for
+Organisation ? Six Sigma.
+Attempt any two parts of the following : (10x2=20) Describe different features of Minitab in detail.
+(a) Describe what is DFSS. Comment on DFSS as an approach
+to design. DFSS DMAIC Discuss. (c) Elaborate organizational culture and quality practices in Six
+versus Sigma . Give a brief review of reinforcement and control
+(b) Discuss the methodologies of Six Sigma. Also elaborate procedures.
+the advantages and disadvantages associated with each.
+(c) Elaborate the general guide lines for project selection in
+Six Sigma. What are the elements of a good Six Sigma
+project.
+Attempt any two parts of the following : (10x2=20)
+(a) Describe the concept and principles of " Measurement
+Systems Analysis What are the factors effecting
+measurement systems ". ?
+(b) What is statistical hypothesis testing ? Explain. Describe
+the entire testing process in detail. List the and
+uses
+importance of stastical hypothesis testing.
+(c) Introduce what is Project Charter ? Define the role of
+Project Charter. Elaborate elements of Project Charter.
+What are the benefits of Project Charter ?
+EME055/DQJ-21741 2 EME055/DQJ-21741 3 15950

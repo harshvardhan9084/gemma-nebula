@@ -1,0 +1,96 @@
+Printed Pages : 4 TEC605
+Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 3100
+B. Tech.
+(SEM. VI) THEORY EXAMINATION 2010-11
+ANTENNA AND WAVE PROPAGATION
+Time : 3 Hours Total Marks : 100
+Note :— (1) Attempt all questions.
+(2) All questions carry equal marks.
+|. Answer any four parts of the following :— (5x4=20)
+(a) Derive field components present due to a half wave-
+length Antenna. Find out the far field component.
+(b) Derive and draw the radiation of thin
+pattern center
+fed antenna of A wavelength long. Calculate its radiation
+resistance half power beam width.
+(c) Define the following
+terms :—
+(i) Effective height
+(ii) Directivity.
+(d) An Omni directional antenna has a field pattern given
+by E 10I/r(V/m), where I terminal (A) and
+= = current
+r = distance (m). Find the radiation resistance.
+(e) Derive the relationship between Effective height and
+Effective
+aperture.
+TEC605/RFW-21165 I [Turn Over
+(f) Areceiver has with total noise
+an antenna a temperature
+50 K, a physical temperature of 300 K, and an efficiency
+of 95%. Its transmission line has a physical temperature
+of 300 K and efficiency of 85%. The first three stages
+of the receiver all have 80 K noise temperature and
+13 dB gain. Find the system temperature.
+2. Answer any two parts of the following
+(a) Classify Antenna Arrays. Derive and draw the field
+pattern of two Isotropic Antenna when the initial phase
+between them is :
+(i) 90° and
+(ii) 180°.
+(b) How Binomial arrays are constructed from Linear Array ?
+Compute and piot the field pattern of a 3-source
+Array of Isotropic array and find its HPBW.
+(c) Discuss the advantages of using the Dolph-Chebyshev
+distribution for the broadside linear array with equal
+spacing between elements. The center source of a five
+source array current amplitude of unity. For a
+side lobe level of 0-2 of the main-lobe maximum field,
+find the Dolph-Chebyschev value of the amplitude of
+the end sources. The source spacing d = A/2.
+3. Answer any four parts of the following :— (5x4=20)
+(a) What is free space propagation ? Derive the free
+space
+path loss.
+TEC605/RFW-2 1165 2
+(b) What do you understand by the term troposphere
+scattering ? Discuss the various factors that contribute
+to this result.
+(c) Explain the mechanism of sky wave propagation.
+What the frequency in which Ground
+(d) are ranges wave
+propagation takes place ? Explain its mechanism.
+(e) Discuss magneto-ionic effect of the earth radio
+on waves.
+(f) Calculate the value of Frequency at which an
+electromagnetic wave must propagate through the
+D-region with an index of refraction of 0-5 and an
+electron density of 3:24 x 10% electron/m?.
+4. Answer two parts of the following
+any :—
+(a) Derive the field equation for TM mode of Propagation
+in rectangular wave guide. Deduce the field component
+for TM,, mode of propagation.
+(b) Derive Cut-off Wavelength, Cut-off frequency, Guided
+wavelength and Characteristics Impedance of
+wave a
+rectangular wave guide of 2:2 x 1-8 cm? dimension. It
+operates at 9 GHz signal and the mode of propagation
+is
+(c) Derive the field component of TM mode in circular
+wave guide. For a dominant mode propagated in an air
+filled circular wave guide the cut-off wavelength is
+10 cm. Find the Cross-section area of the guide and
+the frequency of operation. Given = 1-841.
+TEC605/RFW-2 1165 3 {Turn Over
+5. Answer any two parts of the following :-—
+(a) Describe the working principle and operation of Reflex
+Klystron.
+(b) Describe the working principle and operation of any
+one type of crossed field device.
+(c) Explain the working and salient features of TRAPATT
+Diode and Gunn Diode. Write down applications
+two
+of both the devices.
+TEC605/RFW-21165 4 3675

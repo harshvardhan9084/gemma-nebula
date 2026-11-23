@@ -1,0 +1,55 @@
+Printed Page 1 of 1 Sub Code:RCAT101
+Paper Id: 206101 Roll No:
+MCA (INT)
+(SEM TI) THEORY EXAMINATION 2019-20
+PROGRAMMING IN C
+Time: 3 Hours Total Marks: 70
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1. Attempt all questions in brief. 2x7=14
+a. What will be the output of the following code
+for(i=1; 1<1051++);
+printf(“%d”, 1);
+b. What is the use of flow chart?
+c. What do you mean by system software and application software?
+d. What is the task of a loader?
+e. What do you mean by formal parameters?
+f. If 14 and b= 3, what is the result of a/b in C language?
+Declare a= and initialize 2 dimensional during compile time.
+g. a SECTION B array
+2. Attempt three of the following: 7x3=21
+How any do-while loop is different from while loop? Give the syntax and working
+a. of both the loops.
+b. What the disadvantages of generation computers?
+Draw a are flow chart to find the of | to N.
+www.aktuonline.com c. d. Write function find factorial sum of number.
+Write a to in search number a in given of numbers.
+e. a program C to a a array
+SECTION C
+3. Attempt any one part of the following: 7x1=7
+(a) Write a program inc to count the number of characters in a string.
+(b) do you mean by type casting? Illustrate implicit type casting and explicit
+type casting with suitable example.
+4. Attempt any one part of the following: 7x1=7
+(a) Define algorithm. What are the attributes of a good algorithm?
+(b) Write a program in C to print the pattern
+A
+AB
+ABC
+ABCD
+ABCDE
+5. Attempt any one part of the following: 7x1=7
+(a) “A variable is declared as static”. Illustrate with example the behavior of the
+variable. C
+(b) Write a program in to print the transpose of a matrix.
+6. Attempt any one part of the following: 7x1=7
+(a) Differentiate between compiler and interpreter.
+(b) do you mean by precedence and associativity of operators? Explain with
+a suitable example.
+7. Attempt any one part of the following: 7x1=7
+(a) Write a function to check an input number is prime or not. The function should
+return a value of | if the number is prime otherwise it should return 0.
+(b) Write the syntax of switch statement and explain its working. Illustrate with a
+suitable example.
+1|Page
+http://www.aktuonline.com

@@ -1,0 +1,136 @@
+www.aktuonline.com
+Printed Pages : 7
+ON A
+EEV801
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 197801
+B. Tech.
+(SEM. VIII) THEORY EXAMINATION, 2014-15
+DESIGEN OF WASTE WATER SYSTEMS
+Time : 3 Hours] [Total Marks : 100
+Note: Attempt all the Question
+Assume essential data if required As per Range & Standard
+1 Attempt any four Question (4«5=20)
+(a) Define COD? Discuss advantage of COD Test?
+(b) A sample of wastewater has 5 -day 20C BOD value
+is 70 % of the final. Find the rate constant day?
+per
+(c) The fallowing BOD result were obtained on a sample
+of untreated 20C
+wastewater at
+Bit
+PPP
+[60 [100
+197801] 1 [ Contd...
+www.aktuonline.com
+Estimate
+(i) Ultimate BOD
+(d) Difference between Zero order and First order reaction?
+(e) Discuss types-1 of settling in brief?
+(f) | What is Theoretical Oxygen demand? Estimate ThOD
+Demand for Propanal (C,; OH)?
+2 Attempt any Two Question (2x10=20)
+(a) Define fallowing terms (2+2+24+2+2)
+(b) (@) Sludge age
+=
+(i) SRT/MCRT
+(it) F/M ratio
+(iv) Signifance SVI
+(v) Impact of temperature reaction rate coefficient
+on
+197801] 2 [ Contd...
+www.aktuonline.com
+(b) Describe process Microbiology of Activated Sludge
+Process? Write down Mass Balance equation for Food
+& Microorganisms in the Entire System? Derive the
+relationship for MCRT & MLSS
+Q, Se, Xe Aeration Tank (14R)Q, XS. Settling (Q-Qu), Xe, Se
+Va X Se Tank
+RQ, Se, X
+(c) An Activated sludge system is to be used for secondary
+treatment of 10000 m3/day of municipal wastewater.
+After primary clarification the BOD is 150mg/1 and it
+is desired to have not more than 5 mg/1 of soluble BOD
+in the effluent. A completely mixed reactor is to be used
+Assume MLSS=3000 mg/1 and Underflow concentration
+10000 mg/1 Y=0.5, ky 0.05
+=
+197801] 3 [ Contd...
+www.aktuonline.com
+Estimate (3+3+4)
+(i) Volume of reactor
+|
+(i) The mass and volume of solid that must be wasted
+each day
+(iit) Recycle ratio
+(d) A pond is located at 23 N if sky clearance factor at
+the pond location is 75%. And Oxygen production is
+1.3 times Algal production
+Latitude Visible Radiation | VisibleRadiation
+(deg ree “vm
+Estimate
+(i) Average algal production
+(i) Average Oxygen production
+197801] 4 [ Contd...
+www.aktuonline.com
+(e) Prove that
+S/So= 1/(1+k@)
+Where
+S/So= Fraction of Soluble BOD remaining
+k =rate coefficient @ = HRT
+V=Reactor Volume Q= Flow Rate
+(f) Short Notes (3+2)
+(i) types of oxidation ditch
+(i) various constituents of wastewater
+3 Attempt any Two Question (2x10=20)
+(a) Distinguish between (With Neat Diagram) (4+3+3=10)
+(i) Attached growth process & Suspended growth
+process With Examples?
+(i) Differences between Unit operation and Unit
+process with examples?
+(ii) Classification of Bacteria on the basis of Carbon
+and (With Example)
+energy sources
+(b) (@) Design a low rate filter to treat 6.0 Mld of
+of BOD of 210 mg/l. The final effluent
+sewage
+should be 30 mg/1 and organic loading rate is
+320 g/m3/d.
+(i) | Advantage of High rate trickling filter?
+197801]
+5 [ Contd...
+www.aktuonline.com
+(c) Short (5+5=10)
+Notes
+(i) Discuss Working Principle of RBC with neat
+Diagram
+(i) | Properties of Filter media Used in trickling filter
+Attempt four Question (4x5=20)
+4 any
+(a) List various factors affecting Oxygen transfer?
+(b) List various types of aerators? Also draw neat diagram
+of Floating type vertical axis aerator?
+(c) Discuss various type of Oxidation Ditch in detail?
+four Question
+5 Attempt Any (4x5=20)
+(a) A sedimentation tanks treats 6MLD containing
+250mg/1 suspended solid. The tanks 60% of
+remove
+the suspended solids. Compute the weight and volume
+of the sludge produced daily if the moisture content of
+sludge is 95%?
+(b) Draw Flow chart of Sludge treatment and disposal ?
+197801] 6 [ Contd...
+www.aktuonline.com
+(c) Discuss Sludge Characteristics (3+2)
+(i) Sludge from PST
+(i) Sludge from the trickling Filter
+(d) What do you understand by "Digestion of Sludge"?
+Discuss Importance of digestion ?
+(e) List various Dewatering Techniques used in sludge
+disposal ?
+(f) Shorts Notes (3+2)
+(a) Sludge conditioning
+(b) Sludge drying bed
+197801]
+7 [ 50 |

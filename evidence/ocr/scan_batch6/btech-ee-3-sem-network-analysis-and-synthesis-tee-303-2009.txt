@@ -1,0 +1,133 @@
+aktuonline.com aktuonline.com
+AN
+Printed Pages : 7 TEE-303
+(Following Paper ID and Roll No. to be filled in your Answer Baok}
+B. Tech.
+(SEM, Il) EXAMENATION, 2008-09
+NETWORK ANALYSIS & SYNTHESIS
+3 Hours] Marks : 100
+:
+Note : Attempt all questions, All questions carry equal
+marks. In case of numerical problems assume data
+wherever provided.
+not
+1 Attempt any four parts of the following : §x4=20
+(a) Explain the duality principle with suitable
+example graph theory
+(b) Obtain the fundamental Joop and fundamental cutset
+matrices for the graph given in Fig, I (b).
+®
+@
+®
+Fig. 1 (b)
+2044] 1 (Contd...
+aktuonline.com
+——
+aktuonline.com aktuonline.com
+Determine the number of branches, number of
+(c)
+nodes and number of links. Also develop network
+equilibrium equation of the network given in
+Fig. L (c)
+242
+O) |
++
+a0
+Fig.
+(d) Derive the relation between branch current matrix
+and loop current matrix
+(e) Differentiate between subgraph and connected
+graph. Enlist the properties of incidence matrix in
+a graph,
+if) A resistive network is shown in Fig, 1 (f).
+Setup corresponding tie-set matrix and obtain
+kVL equation.
+Fig. 1 (9
+2044) 2 (Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+2 Attempt any three parts of the following 2
+-
+(a) Find the current in 2 © resistance in the network
+shown in Fig, 2 (a) using theorem
+242
+Fig. 2
+(a)
+(b) Using Millman's theorem, tind the current through
+(4+ in the network shown in Fig, 2 (b).
+(4 +
+Fig. 2 (b)
+2044) (MIM (Conta...
+aktuonline.com
+aktuonline.com aktuonline.com
+{c) In the network of Fig. 2 (c) find the maximum
+(6+ j8)Q
+power in
+(6+j3)0
+Fig. 2 (c}
+(d} Determine the current in the capacitor branch by
+superposition theorem in the current of Fig. 2 (d) ‘ |
+Fig. 2 (d)
+(e) State and explain compensation theorem in ac
+network.
+3 Attempt any two parts of the following 10*2=20
+(a} Check the stability criteria of - the following
+polynomial by applying criterion -
+(i) P(s)= 455743842 %
+(ii) The characteristic equation of a feedback
+control is
+system
++457 +108+15-0
+Find the range of & for the system to be
+stable
+2044) 4
+aktuonline.com
+aktuonline.com aktuonline.com
+(b) Draw the pole-zero diagram of given network
+function and hence time domain i(t)
+response
+9
+I(s)=———_
+{c) Enlist the properties of transfer function of a
+~ network. Obtain the driving point immittance of
+the network shown in Fig, 3 (c).
+Fig. 3 (c)
+4 Attempt any two parts of the following 10x2=20
+{a} Obtain the z-parameters of the network shown
+in Fig. 4 (a).
+Fig. 4 (a)
+(Contd.
+aktuonline.com
+aktuonline.com aktuonline.com
+(b) Determine Y-parameters of two-part network
+shown in Fig. 4 (b).
+—™,
+Fig. 4 (b)
+(c) Determine lattice equivalent of the network shown
+in Fig. 4 (ce).
+Fig. 4 (c)
+5 Answer any two parts of the following : 10x2=20
+and Cauer-I network for
+(a) Develop the Foster-II
+the given function :
+5 3
+z(s)-4 43s 4.
++387 9 +1
+2044) TI 6 (Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+{b) Enlist the properties of positive real function.
+Also determine whether the given polynomials
+are hurwitz or not :
+(i) 814+7s° 44s"
+(i)
+(c) Enlist the properties of a filter
+Design m-derived low filter having
+an pass
+design resistance Ry cut-off
+frequency and_ infinite
+f,, Hz,
+attenuation frequency = 2000
+|
+2044] 7 [ 30500
+aktuonline.com

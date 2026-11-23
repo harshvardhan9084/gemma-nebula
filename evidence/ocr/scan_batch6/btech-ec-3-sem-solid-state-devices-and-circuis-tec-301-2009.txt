@@ -1,0 +1,125 @@
+http://www.uptuonline.com
+Printed Pages : 4 TEC-301
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 3073 Roll No. | |
+| |
+B. Tech.
+(SEM. EXAMINATION, 2008-09
+SOLID STATE DEVICES & CIRCUITS
+Time : 3 Hours] [Total Marks : 100
+Note: (1) Attempt all the questions.
+(2) Symbols and notations carry their usual
+meanings unless stated otherwise.
+(3) Any missing data may be assumed suitably
+giving proper justification.
+1 Attempt any four parts of the following 5x4=20
+(a) Explain the operation of tunnel diode. Draw
+the I-V characteristics of a the diode and list the
+possible applications of the device.
+(b)
+Explain with a neat sketch the operation of a
+photodiode. How would you use the device as
+a a (i) Photodetector and (ii) Photo-cell ?
+(c) Write down the Ebers-Moll equations for a
+bipolar junction transistor and sketch the
+equivalent model. Modify the Ebers-Moll
+equations when the collector base junction of the
+transistor is short-circuited
+(d) Compare and contrast the relative performance
+ratings of CB, CE and CC modes of operation
+of a BJT in respect of input and output
+resistances and voltage and current gains.
+3073] 00 1 [Contd..
+http://www.onlineQP.com
+/
+http://www.uptuonline.com
+(e) A bipolar junction transistor is connected in
+common base mode. Draw the circuit schematic
+assuming the transistor to be an p-n-p one. Draw
+a qualitative sketch of the family of output CB
+characteristics of the transistor and discuss the
+various modes of operation of the transistor with
+special reference to amplification and switching
+operation.
+(f) Draw the hybrid x model of a BJT.
+Define : y
+(i) Ay,
+(ii)
+(iii) A,
+(iv)
+2 Attempt of the following
+any two parts : 10x2=20
+(a) Draw a schematic diagram of a MOSFET and
+explain its mechanism of operation, Sketch the
+drain current drain voltage characteristics of the
+device and explain the meaning of threshold
+voltage.
+(b) Explain the meaning of pinch-off voltage
+JFET. How does the current flow in a JFET
+after pinch-off ? Explain the meaning of the
+terminologies
+(i) transconductance,
+g,,
+(ii) drain resistance, ry and
+(iii) amplification factor, of JFET
+» a
+3073] 2 [Conta..
+http://www.onlineQP.com
+(c) -Sketch the schematic circuit diagram of a
+common source MOSFET amplifier. Derive
+an expression for the voltage gain at low
+frequencies. What is the maximum value of
+this gain ?
+3 Attempt any two parts of the following ; 10x2=20
+(a) Draw and explain the small signal high frequency
+CS model of JFET: Explain the physical origin
+of various capacitances a that become dominant
+high frequency. at
+(b) Draw the circuit schematic of a common emitter
+BJT amplifier. Sketch and explain the small
+signal high frequency model of the amplifier and
+hence obtain the expression for the input
+impedance.
+(c) Sketch the equivalent circuit of high frequency
+analysis of an emitter follower stage. Using
+S-domain analysis obtain the expression for the
+frequency response of the input admittance of
+the emitter follower.
+4 Attempt any two parts of the following 10x2=20
+(a) Sketch the four possible topologies - of feedback
+a
+amplifier. Define the feedback factor (B) and
+identify the transfer gain for each topology with
+appropriate expressions.
+(b) Describe the step-by-step procedure for analysis
+of a feedback amplifier, Apply this procedure to
+obtain the expression for the voltage gain with
+feedback for BJT emitter follower using a small
+signal low frequency model of the transistor.
+3073] | AM I Il HM i] 3 (Contd..
+http://www.onlineQP.com
+http://www.uptuonline.com
+(c)
+Sketch the circuit diagram of a feedback pair
+with for current shunt topology. Obtain the expression
+the voltage gain with feedback for system.
+5 Attempt any two parts of the following ; 10x2=20
+(a) Draw a neat sketch of a generalized resonant
+circuit oscillator using three impedances.
+Explain how this circuit can be used to
+behave as
+(i) oscillator
+(ii) Hartley oscillator.
+(b) Sketch the circuit schematic of a Wien-bridge
+oscillator and explain its operation. Derive an
+expression for the frequency of oscillation and
+suggest a suitable scheme for amplitude
+stabilization of the oscillator.
+(c) What is a piezoelectic crystal ? Sketch the
+circuit symbol, an electrical equivalent model
+and the variation of the reactance of the crystal
+with frequency. Explain how this crystal can
+be incorporated in an electronic circuit to form
+a stable oscillator.
+3073] | 4
+http://www.onlineQP.com

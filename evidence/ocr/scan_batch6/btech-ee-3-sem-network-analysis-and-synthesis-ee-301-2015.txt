@@ -1,0 +1,106 @@
+/
+Printed Pages : 7
+AT A EE-301
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 121301
+B. Tech.
+(SEM. Ill) SEM.) THEORY
+EXAMINATION, 2014-15
+NETWORK ANALYSIS AND SYNTHESIS
+Time : 3 Hours} [Total Marks : 100
+Note : Attempt ALL questions.
+| Attempt any four parts :
+(a) Fora incidence matrix A given below, draw the oriented
+graph :
+0 0 1 1 1 1 0 +1
+0 -l -l 0 0 0-1 0 0
+4- 1°00 0 0 0 -1 -1 1
+1 0 0 0-1 -l 1 0 0 0
+121301] 1 | Contd...
+(b) Explain following
+terms with reference to network
+topology .
+(i) Tree
+(il)
+(iii) Incidence matrix
+(iv) Oriented graph
+(v) Twig and link.
+(c) For the network shown in Fig. | shown below draw (e) State the principle of duality. Explain the graphical
+method to draw dual network.
+the directed graph. And also find number possible
+tree. (f) The fundamental cutest matrix is given as
+Link
+123 4 5 67
+t AWN RI | R3 1 000 -1 0 0
+| OQ= Oo 1.00 1 0 1
+~ 10 0 t 0 !
+9 0 0 1 0 1:0
+Draw the oriented graph.
+(d) For the network shown in Fig. 2 shown below -
+(i) Draw the directed graph
+2
+(ii) F-cutset matrix 2. Attempt Any Three Questions : 6—x3=20
+2)
+(a) State and prove Millman's theorem for the n voltage
+connected in parallel
+sources
+121301| . 3 | Contd...
+121301] 2 | Contd...
+(b) State and explain
+compensation theorem with suitable 3 Attempt any two parts ; 10x2=20
+example. (a) | Write the necessary condition for driving point function
+(c) Determine the current in capacitor C, by the principle
+of superposition of the network shown below in Fig.3 and transfer function.
+(b) Determine voltage transfer function for the
++ 4V network shown in Fig. 5
+-
+G
+on + +
+2Q 1Q
+1F 1F V2(t)
+Vi(t)
+(d) Determine the maximum power which can be absorbed
+by a pure resistive load when placed across the output
+terminal a, b of the network shown below in Fig. 4. (c) For the ladder network shown in Fig. 6 find
+(i) Driving point input impedance
+-j100 2 (ii) Transfer impedance function V./1,
+| NW
+100 2 100 2 100.2
+|
+1001.0°V b 1H 1H 12
+i | 4
+Fig 4
+V1 1H T 1F — v2
+(e) State and prove Tellegen's theorem Fig.6
+121301}
+4 | Contd... 121301] 5 | Contd...
+4 Attempt any two parts 10x2=20
+(a) For the network shown in Fig. 7, Find 7-Parameter 5S Attempt any two parts 10x2=20
+T
+and hence find transmission parameter. (a) Design a constant k low pass section filter to be
+terminated in 600 Q, having cutoff frequency of 3 kHz.
+IQ Determine
+19
+fi R (i) The frequency at which the filter ts 17.372 dB.
+1 pa
+v2 (ii) Attenuation at 6 kHz.
+(i) The characteristic impedance and phase
+constant
+Fig.7 at 2 kHz.
+(b) An impedance function has the pole and zero
+(b) Explain the reciprocity condition for two port network. diagram shown in Fig. 9. Find impedance function if
+Z(—4)=3/8 and realize it in Cauer | and form
+Also derive the condition for reciprocity for Z, T and
+(c) Find Y for the network shown in
+parameter Fig. 8
++9
+-J -2
+Fig. 9
+(c) State the properties of RL driving point impedance
+function. Also realize the given network impedance
+function using form
+Foster I
+(y+1)(s+3)
+(s+4)
+121301] 6 | Contd...
+121301] 7 | 1300 |

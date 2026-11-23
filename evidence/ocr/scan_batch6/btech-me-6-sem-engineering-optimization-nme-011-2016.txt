@@ -1,0 +1,78 @@
+Printed Pages: 4 NME-011
+(Following Paper ID and Roll No. to be filled in
+Answer Books) your
+Paper ID: 140061
+B.TECH.
+Theory Examination 2015-16
+ENGINEERING OPTIMIZATION
+Time 3 Hours
+: Max. Marks : 100
+Section-A
+1. Attemp all question. All questions carry equal mark.
+Write answer of each question in short. (210=20)
+(a) Write the linear programming problem- in standard
+form.
+(b) What is a Pivot operation?
+(c) State the Kuhn-Tucker conditions.
+(d) What is the difference between Newton and
+Quasi-Newton method?
+(e) What is the limitation of the linear extended penalty
+function?
+(f) How is the direction-finding problem solved in
+Zoutendijk's method?
+1 P.T.O.
+2705/: /92/2300
+(g) Why is Rosenbrock method called the method of ro- Determine whether the constraint qualification and
+tating coordinates? Kuhn-Tucker conditions satisfied at the optimum
+are
+point.
+(h) What is Univariate method? (c) Find the dimensions of box of largest volume that
+a
+(i) What is normality condition in a geometric program- can be inscribed in a sphere of unit radius.
+ming problem?
+(d) Minimize f (x,, x,) = X, — x,
+() Define a complementary geometric programming
+problem. Subject to g(x,, X,) = 3x,? — 2x,x,+x,?-1<0
+Using the cutting plane method. Take the conver-
+limit in 5 0.02.
+Section-B gence step as =
+Attempt any five questions from this section. (e) Derive the expression for solution of an Uncon-
+(10x5=50) strained Geometric Programming program using
+Differential Calculus.
+(a) Maximize f = X,+2x,+x,
+(f) In certain reservoir installation, the first cost
+Subject to 2x, +X,-x,S2 a pump D
+of the pipe is given by (100 D+ 50 D*), where is
+—2X,tx,-5x,2-6 the diameter of the pipe in cm. The cost of the res-
+ervoir decreases with an increase in the quantity of
+fluid handled and is given by 20/Q, where Q is the
+x20, i=1,2,3 rate at which the fluid is handled (cubic
+meters per
+Using simplex method. second). The pumping cost is given by (300Q? /D*).
+(b) Minimize f x,) (x,-l? x7 Find the optimal size of the pipe and the amount of
+(x,, = — fluid handled for minimum overall cost.
+Subject to g, (x,, X,) = 2x,<0
+—
+g, (x, X,) = x,? + 2x,<0
+3 P.T.O.
+2705/5117/92/2300 2705/5 /92/2300
+(g) Minimize f (x, ,x,) = x,-x, +2x,?+2x,x,+x,? starting
+X,={
+from the point using CAUCHY METHOD.
+(h) What are the Rank 1 and Rank 2 Updates in QUASI-
+NEWTON Methods?
+Section-C
+Attempt any two questions from this section. (15x2=30)
+3, Explain the Exterior Penalty Function Method with suitable
+example.
+Solve the following LP problem using the branch and bound
+method:
+Maximize f= 3x,+4x,
+Subject to 7x, t+11x, < 88
+3x,-x,$ 12
+X,20
+X,20
+Design a helical spring for minimum weight subject to a
+constraint on the shear (+) induced in the spring under a
+compressive load P.
+2705/ /92/2300

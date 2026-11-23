@@ -1,0 +1,104 @@
+aktuonline.com
+0 aktuonline.com
+ll
+Printed Pages : 3 TEE-703
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0676
+B. Tech.
+(SEM. VIII) EXAMINATION, 2007-08
+€&
+POWER SYSTEM OPERATION & CONTROL
+Time : 3 Hours] [Total Marks : 100
+i Note (1) Attempt all questions.
+: (2) All questions equal marks.
+(3) Be precise in carry
+| | second your answer. book will be provided.
+(4) No answer
+1 Attempt any four parts of the following: 4x5=20
+| (a) How the real time monitoring and controlling of
+| an electric power system is done? Discuss.
+(b) Discuss the various tasks performed by
+control center for optimal operation of an energy
+system. a power
+(c) Discuss how the voltage collapse be avoided
+in typical system. can
+© (d) What a do power understand by the ‘secure
+system’? Discuss you various term static
+security levels. power system
+(e) What the difference between pools and
+national is grid? Discuss merits and power demerits of
+grid. a
+(f) diagram of a coal fired
+steam
+plant.
+A [Contd..
+http://www.UPTUonline.com
+aktuonline.com
+aktuonline.com
+2 Attempt any four parts of the following : 4x5:
+(a) What do you mean by merit commitments.
+Explain various constructivity in unit commitment
+problem.
+(b) Derive the exact coordination equation for optimal
+thermal generation scheduling.
+(c) Incremental fuel costs in MWh for
+plant consisting of two units rupees per a
+are:
+dC, Po;
+= 0.20 Git +40
+dC,
+= 0.40 Pro G2* +30
+and the generator limits
+are:
+30 MW < Pg, <175 MW
+20 MW < Pg <125 MW
+Assume that both units are operating at all times.
+How will the load be shared between the units
+as the system load varies over the full range of
+the load values? What are the corresponding
+values of the plant incremental costs?
+(d) Derive water availability equation for optimal
+scheduling of a hydrothermal system.
+(e) What is OPF? Discuss various objectives, limits
+and constraints of OPF. What are different
+methods used to solve OPF problem.
+(f) Describe input-output operational characteristics
+of hydro plants. How the incremental
+water rate power be obtained from input-output
+curve? can
+aktuopling gam Uonline.com [Conte
+aktuonline.com
+aktuonline.com
+3 Attempt any two parts of the following: 2x10=20
+(a) Whatare the different reasons to keep the system
+frequency in strict limits? Discuss.
+steady analysis of load
+(b) What is ‘droop’? How the
+frequency control system is done?
+(c) A100 MW unit with 0.07 p.u. turbine regulation
+operates in parallel with a 600 MW unit of
+identical turbine regulation. For a specific amount
+of power demand increase, find the ratio of
+sharing of the load by the units; system frequency
+is 50 Hz.
+4 Attempt any two parts of the following : 2x10=20
+(a) What is an exciter? What is its role in AVR loop?
+Show the complete block diagram of an AVR
+loop taking into account modern static excitation
+system of the alternator.
+(b) Explain series and shunt compensation of
+transmission lines and their effect on the surge
+impedance loading of the lines. If shunt
+compensation is 100%, what happens to SIL and
+profile.
+voltage transformers
+(c) How the On load tap Changing
+regulate bus voltage? Discuss.
+5 Attempt any two parts of the following: 2x10=20
+(a) Discuss any one technique for bad data detection.
+(b) Differentiate between FACTS and FACTS
+Controller. Compre V-I and T-Q characteristics
+of STATCOM and SVC.
+(c) Discuss basic operating principle of UPFC.
+3 [ 1050 }
+aktuonline.com

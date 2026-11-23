@@ -1,0 +1,81 @@
+uptuonline.com
+inductance of a.25 A electrodynamic
+Printed Pages : 4 (c) The the of
+A ammeter H/degree. changes uniformly at rate
+NEE-302 The spring constant is
+10% N-m/degree. Determine the angular
+(Following Paper ID and Roll No. to be filled in your Answer Book) deflection at full scale.
+PAPER ID : 121313 resistor for
+(d) Compute the value of multiplier
+a 10 V rms sinusoidal a.c. range of the
+voltmeter shown in figure. The forward
+= = resistance of the diode is zero and the reverse aktuonline.com
+B. Tech - = resistance is infinite.
+(SEM. III) (ODD SEM.) THEORY S 5
+EXAMINATION, 2014-15 = Rs iode
+=
+ELECTRICAL MEASUREMENT & = bs Multiplier -
+wos MEASURING INSTRUMENTS = = S Input :
+= 5 =Vm Sinwt
+ime 3 Hours] [Total Marks : 100 v PMMC
+:
+1 Attempt FOUR 5x4=20
+any parts : (e) Explain the working principle of thermocouple
+(a) Describe the Various types of errors in instruments.
+Ye Measurement. E uptuonline.com
+A 3 (f) Describe the errors i electrodynamometer
+(b) circuit was tuned for resonance by eight =! type:
+different students, and the values of resonant =
+frequency in kHz were recorded as 532, 548, = @ 2 Attempt any TWO parts :
+543, 535, 546, 531, 543 and 536. S with
+Calculate S (a) Describe how high current is measured
+: = B the help of instrument transformer. And show
+(i) ‘the arithmetic . mean the relationships in a current transformer from
+(ii) deviations of Equivalent circuit of it.
+mean transformer
+(iii) the average deviation (b) Explain the applications of potential
+in the extension of instrument range.
+(iv) Standard deviation (c) Explain type of frequency measuring
+(v) Variance any with one suitable frequency meter.
+method
+aii [ Contd... 121313] 2 [ Contd...
+aktuonline.com
+uptuonline.com uptuonline.com
+(b) A ballistic galvanometer gives a first swing of
+3 Attempt any TWO parts : 10x2=20 discharge
+method of 60° for a of Find the
+(a) Describe the substitution quantity of electricity to produce
+measurement of medium resistances. List the
+factors on which the accuracy of the method (i) a swing of 90° in the instrument
+depends. (ii) a
+a spot deflection of 20 mm on scale
+(b) A Wheatstone bridge has resistance of 1 m aaway.
+P=10002, Q=100Q, R=2,005Q and (c)
+= Explain in detail about the various methods aktuonline.com
+S=200Q. The battery has an emf of 5 V and S > involved in the measurement of iron loss.
+negligible internal resistance. The galvanometer é 5
+has current sensitivity of 10 mm/H A and = = 5 Attempt TWO
+a 2 = any parts :
+an internal resistance of 1009. Calculate the oe Ge e lee basic circuit Sa of
+deflection of galvanometer and the sensitivity = a spectrum
+of the bridge in tetms of deflection per unit = = yser. Explain how the spectra of the
+resistance. ollowing are displayed :
+change in
+(c) Derive the equations for balance in the case (i) continuous signal
+of Maxwell’s inductance capacitance bridge. (ii) amplitude modulated signal
+Ye Draw the phasor diagram for balance conditions. | (iii) frequency modulated signal uptuonline.com
+= =
+4 any TWO parts : 10x2=20 2 S (iv) pulse modulated signal.
+(a) Calculate the inductance of a coil from (b) Explain, with the help of block diagram, about
+the following measurement on an a.c. 3 the various parts of an electronic multimeter.
+tentiometer.
+= = (c) Describe the following , types of oscilloscope
+(i) Voltage drop across a 0.1Q standard in detail :
+connected in series with the
+(i)
+coil = 0.613 Z 12°6’. ii)
+(ii) Voltage the coil ; through (ii Dual trace oscill
+across test a
+100/1 volt ratio box = 0.781 2 50°48” V.
+121313] 3 [ Contd... 121313] 4 8375
+aktuonline.com aktuonline.com

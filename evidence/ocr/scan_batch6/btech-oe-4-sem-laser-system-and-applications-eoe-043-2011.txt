@@ -1,0 +1,59 @@
+Printed Pages—2 EOE043
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0929
+B.Tech.
+(SEM. IV ) THEORY EXAMINATION 2010-11
+LASER SYSTEM AND APPLICATIONS
+Time : 3 Hours Marks : 100
+Note :. (i) | Attempt all questions.
+All questions carry equal marks.
+1. two ofthe following: | (2x10=20)
+(a) Derive time independent schrédinger's | wave equation.
+What is the physical significance of wave function ?
+relation coefficient.
+(b) Establish between Einstein's
+(c) Find the intensity of a laser beam of 20 mW: power and
+having a diameter of 1.3 mm. Assume uniform intensity
+. across the
+2. Attempt any two of the following : (2x10=20)
+stimulated ? - |
+(a) What are the important features of emission
+Discuss the essential requirement of producing a laser beam.
+(b) Discuss the working of resonators in laser system. How
+many types of such resonators you know ? Explain the
+. working of one resonator in detail.
+(c) ‘Explain the terms coherence time and coherence . length.
+Laser beam has : band width of 2500 Hz. What the
+coherence a time are
+values of and coherence length ?
+EOE043/RFW-20689 [Turn Over
+4
+3.
+Attempt any two of techniques the following : (2x10=20)
+(a) What are the used for population inversion ?
+Discuss the construction and working of a Ruby Laser.
+(b) What do you mean by Q switching ? methods
+for Q switching.
+(c) Explain the working
+of semiconductor laser. Discuss
+recombination radiation in order to explain the principle of
+operation of LEDs.
+4. Attempt any two of the following: (2x10=20)
+describe
+(a) Draw a neat diagram of He-Ne laser and its
+working. What are the characteristics of output laser beam
+from He-Ne laser?
+Describe generation and _ measurement of short laser pulses.
+(c) The ratio population of two levels out of which
+to energy upper
+one corresponds a metastable state is 1.059 Find
+the wavelength of light emitted at a temperature T = 330K.
+5. Attempt two of the following: (2x10=26)
+any —
+(a) Discuss applications of lasers in material processing.
+(b) Explain the following industrial applications of lasers :
+(ii) Photolithography.
+recording hologram.
+Explain and reconstruction of a
+Discuss the intensity variation in a hologram.
+EOE043/RFW-20689 22550+1350

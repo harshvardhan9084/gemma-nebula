@@ -1,0 +1,59 @@
+Printed Pages—3 TEC401
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID:
+B.Tech.
+(SEM.IV) EVEN THEORY EXAMINATION 2012-13
+ELECTROMAGNETIC FIELD THEORY
+Time : 3 Hours Total Marks : 100
+Note :— All questions carry equal marks.
+1. Attempt four of the following (5x4=20)
+any :
+(a) Given A=6i+2j+5k, B=2i+4j + 7k. Find:
+(i) Angle between A and B
+Gi) The unit vector norma! to the plane containing them
+(ii) The distance between their tips
+(iv)
+(v) AxB.
+(b) P(-2, Transform the cartesian vector A = 3a, — 2a, — 3a, at point
+. 4) into spherical coordinates.
+(c) Why the gradient of a scalar field is a vector quantity ?
+Write down the gradient ofa field in different coordinates.
+(d) Derive the expression for the electric field due to infinite
+sheet of charge.
+(e) Acharge distribution with spherical symmetry has density
+r
+p, = for 0 <r < R and 0 for r > R. Determine E
+everywhere.
+TEC401/DPC-48370 1 [Turn Over
+2. Attempt four of the following
+any parts : (5x4=20) (e) Define diamagnetic, paramagnetic and ferromagnetic
+(a) State and explain Coulomb's Law. If current density materials. Write down the relation between B, H and M.
+A/m?. Find the current Attempt any two of the following : (10x2=20)
+passing through a sphere of radius 1.0 m.
+(b) Derive (a) Explain skin effect. Derive the expression for o and B ina
+Possion's equations. conducting medium. .
+(c) Derive Laplace's equations.
+(b) Derive the wave equations in free space in terms of E.
+(d) Calculate the potential of a point outside or inside a uniformly (c) The electric field amplitude of a uniform plane wave
+charged sphere radius ‘a’. propagation in a, direction if 250 V/m. IfE=E, a, and
+(e) Three point charge Q, 10~C, Q, 10*C and 1Mrad/s, find
+= = w= :
+Q, =0.5 x 10°C are located at the corners of an equilateral (a) Frequency (b) Wave length
+triangle of 50 cm side. Determine the magnitude and
+divergence of the force of Q,. (c) Period (d) Amplitude of H.
+3. Attempt four of the following Attempt any two of the following : (10x2=20)
+any parts : (5x4=20)
+(a) Find H due to infinitely long straight conductor. (a) Find the expression of propagation distortion constant and phase
+velocity in case of lossless line and less line.
+(b) Write all forms of Maxwell's equations and also write (b) Explain Standing Wave Ratio. An ideal Lossless
+Maxwell's equation for good conductor. transmission line of z, = 100Q is connected to unknown
+(c) Given that If S.W.R. 5, find the reflection coefficient.
+z,. =
+H, = -2a, + 6a, + 4a, A/m in region y —- x -2 < 0 (c) What do you mean by term ? Explain the
+where = 5M,, Calculate M, and B.. classification of guided electromagnetic wave in waveguide.
+Write the defining equation of rectangular waveguide.
+(d) Ina material for which o = 5 S/m and €, = 1, the electric
+field intensity is E = 250 sin10'*t V/m. Find conduction and
+displacement current densities and the frequency at which
+both have equal magnitude.
+TEC401/DPC-48370 2 TEC401/DPC-48370 3 2222?

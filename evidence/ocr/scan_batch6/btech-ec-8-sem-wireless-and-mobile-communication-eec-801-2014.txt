@@ -1,0 +1,67 @@
+Printed Pages—3 EEC801
+(Foliowing Paper ID and Roll No. to be filled in your Answer Book)
+| | | | | | | [| J
+B.Tech.
+(SEM. VIII) THEORY EXAMINATION 2013-14
+MOBILE COMMUNICATION
+WIRELESS &
+Time : 3 Hours Total Marks : 100
+Note Attempt all questions. Each question carries equal marks.
+:—
+1. Attempt any four parts of the following : (5x4=20)
+(a) Explain and discuss various frequency dispersive
+parameters of fading channel.
+(b) Write short notes on the following :
+(i) Path loss models
+(ii) Free space path loss model.
+(c) Discuss survey of equalization. -
+(d) Discuss methods of co-channel interference reduction.
+(e) List out various radio air-interface specifications of GSM.
+(f) Verify the cluster size N = 1? + j? + ij, where / and j are the
+integers used to determine the co-channel cells.
+2. Attempt four parts of the following (5x4=20)
+any :
+(a) Explain and discuss the need to evolve third generation
+wireless standards.
+(b) Find the radio capacity of the cellular system for a total
+allocated spectrum of B,, channel bandwidth of B., and co-
+channel reuse factor Q for a cluster size N. Assume path
+loss exponent
+EEC801/DQJ-21572 as n. [Turn Over
+1
+(c) Explain the of
+characteristics of a speech signal. 5. Attempt any two parts the following : (10x2=20)
+(4) Write short no teon any one of the following : (a) Explain the term frequency reuse concept. With the help
+. of received signal level plot, explain the hand off initiation
+(i) Near-far problem in ; CDMA. mechanism
+(ii) Doppler effect on mobile receiver.
+(b) Explain GSM system architecture with neat diagram.
+(e) Explain the structure of a RAKE receiver with the help of (c) Explain the working of Linear Predictive Coder (LPC)
+a neat diagram. system and explain its functioning. What the
+3. Attempt two of the following of non-uniform are advantages
+any parts : (10x2=20) quantization ?
+(a) Discuss various channel assignment strategies. Define the
+importance of frequency reuse distance, signal to
+interference ratio, Frequency factor, pathloss
+reuse
+exponent.
+(b) Name the various outdoor propagation models. Find the
+received power at a distance d by using ground reflection
+two-ray model and the method of images.
+(c) Incase of both transmitter and receiver as stationary, the
+relative powers of the received impulses are 0 dB, dB,
+1.5 dB, and 0 dB. The corresponding times of arrival
+t, = 2ps, t, t, and t, Sys. Show that the are
+RMS delay spread = =
+is 1.86 x 10% s.
+4. Attempt any two parts of the following : (10x2=20) ( (
+(a) Whatare
+the factors influencing small-scale fading ? Show
+that the mobile radio channel can be modeled as a linear
+filter with time varying impulse response.
+(b) Find the signal-to interference ratio for 7-cell cluster layout
+with 120° sectors. Assume path loss a
+exponent n = 4.
+(c) Discuss in detail the features of IS-95.
+EEC801/DQJ-21572 2 EEC801/DQJ-21572
+3 17200

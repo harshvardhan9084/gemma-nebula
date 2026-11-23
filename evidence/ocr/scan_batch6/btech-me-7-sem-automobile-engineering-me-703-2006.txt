@@ -1,0 +1,93 @@
+aktuonline.com aktuonline.com
+01163 7
+Printed Pages—3 ME—703
+(Following Paper ID and Roll No. be filled Answer Book)
+to in your
+B.Tech.
+SEVENTH SEMESTER EXAMINATION, 2005-2006
+AUTOMOBILE ENGINEERING
+Time : 3 Hours Total Marks : 100
+Note: (i) | Answer ALL questions.
+(ii) All questions equal marks.
+carry
+(iii) Each question is of 20 marks.
+(iv) Be precise in your answer.
+NTH
+1. Attempt two parts (10x2=20)
+any :
+(a) Draw overhead layout valve of a valve operating Label mechanism for and an
+explain their functions engine. various parts
+(b) The weighing coefficient 62300 N of rolling 0.018 and resistance the coefficient for a truck of
+resistance is 0.0276 is in the formula R=KW+K,.AV?, air
+N, where A is m? of frontal and V is the speed
+in km/h. The transmission efficiency area in top of
+6.2: 1 is 90% and that in the second gear of 15: gear 1 is
+80% The frontal area is 5.75m?. If the truck has to
+have maximum speed of 88km/h in top gear,
+calculate :
+(i) The engine b.p required,
+(ii) The engine speed if the driving wheels have
+an effective diameter of 0.8125m,
+ME—703 1 [Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+(iii) The maximum grade the truck negotiate
+at the above engine speed in second can
+gear.
+(iv) The maximum drawbar pull available on level
+at the above engine speed in second gear.
+(c) A four speed gear box is to be constructed for
+providing the ratios of 1.0, 1.46, 2.28 and 3.93 to 1
+as nearly as possible. The diametral pitch of each
+gear is 3.25mm and the smallest pinion is to have at
+least of 15 different teeth. Determine the suitable number distance of teeth
+between the the main gears. and layout What shaft is then ? the
+2. Attempt any four parts : (5x4=20)
+With a suitable sketch describe the working of a
+multiplate clutch.
+(b} Sketch and explain the construction and working of
+torque converter.
+a
+(c) Describe the working of a hydramatic drive
+automatic transmission.
+(d) What do you mean by a universal joint What is its
+function ?
+{e) What is the need of using a differential assembly ?
+Discuss different types of differentials.
+(f) Explain the principle of Ackerman steering
+mechanism.
+3. Attempt any four parts : (5x4=20)
+(a) What is a tandem master cylinder ? What are its
+advaniages over an ordinary master cylinder ?
+(b) Draw layout of a booster hydraulic brake system and
+briefly explain the functions of each component.
+ME—703 2
+aktuonline.com aktuonline.com
+{c) Explain the working of a vacuum brake by means of
+a diagram.
+(d) Sketch and explain the construction and working
+on a torsion bar.
+(e) Differentiate between independent suspension
+system and rigid axle suspension system.
+(f) What are the functions of a shock absorber ?
+Describe the telescopic shock absorber with a sketch.
+“~~
+4. Attempt any two parts : (10x2=20)
+(a) Sketch and explain the construction and working of
+a starter motor commonly used on modern vehicles.
+(b) Describe the working principle of a multipoint port
+electronic fuel-injection system. What are the
+advantage of SI engine fuel injection system ?
+(c) Describe the working principle of a Jerk type of
+injection pump. Show the variation of plunger helix
+indicating the beginning and ending of diesel
+injection.
+5. Attempt any two parts : (10x2=20)
+(a) Describe with the help of a diagram air-cooled system
+of an automobile engine. What are its advantages
+and disadvantages ?
+(b) Describe with the help of a diagram a combination
+of splash and pressure lubrication system.
+(c) Write short notes on Major overhaul of an engine.
+ME—703 3 4800
+aktuonline.com

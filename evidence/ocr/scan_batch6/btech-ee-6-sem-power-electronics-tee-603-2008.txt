@@ -1,0 +1,115 @@
+ine.com — aktuonline.com
+tu
+Printed Pages : 4 TEE — 603
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2061 Roll No. | [| J | | | | |
+B. Tech.
+(SEM. VI) EXAMINATION, 2007-08
+| POWER ELECTRONICS
+Time : 3 Hours] [Total Marks : 100
+Note
+: Attempt all questions.
+1 Attempt any four parts of the following : 5x4=20
+(a) Describe the structure and dynamic characteristic of
+a power diode.
+(b) On what factors does the di/dt rating of thyristor
+depend? What device techniques used
+improve the di/dt rating ? are to
+(c) Explain the problems associated with series
+operation of thyristors and how are they
+overcome.
+(d) In low power applications, explain your preference
+& between GTO and bipolar transistors giving
+~ supporting arguments.
+Enumerate the advantages of MCT over ordinary
+| | SCR.
+(f) Explain second breakdown in BJTs.
+power
+[Contd..
+aktuonline.com
+aktuonline.com aktuonline.com
+-
+2 Attempt any four parts of the following ; 5x4=20
+(a) Draw and explain scrubber circuit for dv/dt
+protection thyristor.
+(b) Explain the dynamic equilizing circuit for series-
+connected SCRs.
+(c) What the differences between voltage and
+current are commutation? Explain with suitable circuit
+diagrams.
+(d) Explain the principle of operation of dc chopper.
+Discuss different classifications of dc chopper.
+(e) Draw the circuit diagram and explain the
+operation of class C chopper.
+(f) A step-up chopper has input voltage of 220V and
+output voltage of 660V. If the non-conducting
+time of thyristor-chopper is 100 p s, compute the
+pulse width of output voltage.
+In pulse width is halved for constant
+frequency case operation, find the output voltage.
+new
+3 Attempt any two parts of the following : 10x2=20
+(a) A single-phase full rectifier with centre-
+wave
+tapped transformer has a purely resistive load R.
+Determine:
+(11) ripple factor
+(ii) transformer utilization factor and
+(iv) peak inverse voltage (PIV) of diode.
+(b) A single-phase full converter feeds power to
+RLE load with R = L = 6mH and
+E = 60 V. The source voltage is 230 V. For
+continuous condition, find the average value of
+2 [Contd...
+aktuonline.com aktuonline.com
+load current for firing angle 45°. In case one of
+the four SCRs gets open circuited, find the new
+value of average current assuming continuous output
+current.
+(c) Draw the circuit diagram and output voltage
+waveforms of three phase semiconverter with
+highly inductive load for a =90°. Derive an
+expression for average output voltage.
+Attempt of the following
+any two parts : 10x2=20
+(a) Explain the principle of on-off contro! and
+phase-angle control. For a single-phase ac voltage
+controller feeding a resistive load, show that power
+factor is given by the expression :
+EG
+—a)+
+(b) A single phase half wave (Unidirectional) ac
+voltage controller has a resistive load of
+R=10Q and the input voltage is Vs=230 V,
+50 Hz. The delay angle of thyristor is @ =
+Determine :
+(1) the value of voltage V, and
+rms output
+(1) the input power factor.
+(c) What 1s cycloconverter? Enumerate some of its
+industrial applications. Draw the circuit diagram
+and waveforms for a single-phase cycloconverter
+and explain its working principle.
+3
+aktuonline.com aktuonline.com
+5 Attempt any four parts of the following §x4=20
+(a) Explain the operating principle of single-phase full-
+bridge inverter with suitable diagram and
+waveforms.
+(b) Discuss the merits and demerits of voltage
+source and current source inverters.
+(c) Discuss the merits and demerits of PWM control
+of Voltage Source inverters.
+(d) Discuss the advantages of multiple-pulse width
+modulation scheme single pulse width
+modulation for voltage over control of single-phase
+inverters. Draw the waveforms for multiple-pulse-
+width modulation scheme.
+(e) Draw the circuit diagram and waveforms for
+three-phase voltage source inverter for 120°
+mode of conduction.
+(f) What is the necessary condition for series
+resonant oscillation? Discuss the advntages of
+using bidirectional switches in resonant inverters.
+LMT 4 [3500]
+aktuonline.com

@@ -1,0 +1,174 @@
+uptuonline.com uptuonline.com
+03526 ©
+Printed Pages—8 TEE—303
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 204 4
+B.Tech.
+THIRD SEMESTER EXAMINATION, 2005-2006
+a
+NETWORK ANALYSIS AND SYNTHESIS
+——
+Time : 3 Hours Total Marks : 100
+Note: (i) Answer ALL questions.
+(ii) All questions carry equal marks.
+(iit) Be precise in your answer.
+1.
+Attempt any three of the following questions :
+(a) Define the terms ‘tree’, ‘fundamental loops’ and
+‘fundamental cut-set’ related to a linear graph
+and discuss their properties. (3+4)
+The fundamental cut-set matrix is given as
+Twigs Links
+: cutset b d f
+a e
+2 1 0 O 1 0 1
+4 0 1 O 0 1 1
+5 0 oO 1 1 1 1
+Draw the oriented graph of the network
+TEE—303 1 [Turn Over
+uptuonliné.com
+SS
+uptuonline.com (b) What do understand by the ‘Duptugfiline.com
+Discuss the you procedure find out term the dual of
+given network having both to voltage and current a
+sources. (7)
+Draw the dual of the network shown in
+fig.(1) (b)
+Co C4
+ig 1 L3
+Fig.1(b)
+Determine the necessary volues of v and i in the
+network shown in figure 1 (c). (6)
+Fig.1(c)
+(d) For the circuit shown in figure 1(d) Find the
+voltage across 49 resistor by using nodal
+analysis (7)
+‘
+TEE —303
+== f¥ptygnline.com
+Draw the graph of the network shown in
+Find the number of possible trees and draw them. (7)
+22
+Z
+Fig.1(e)
+2. Attempt any three of the following questions
+(a) Define the term linearity and state : the
+superposition theorem. (7)
+Using Thevenin’s theorem and superportion
+theorem convert the active network shown in
+figure 2 (a) by a single voltage source in series with
+equivalant impedance and hence find the current
+‘i’ when A-B is short circuited.
+Fig. 2(a)
+(b) the circuit shown in fig 2(b) find the value of
+Z that will receive maximum power. Also
+determine this power. (7)
+40.3 + Va
+Zz
+5V4
+Fig.2(b)
+TEE—303 3 [Turn Over
+uptuonline.com
+uptuonline.com tuonline.com
+c) State and explain ‘Reciprocity theorem’. Vert y
+the reciprocity theorem for the network shown
+in figure 2(c) in which voltage soure of 5V
+causes a current | in the 22 resistor. Find the
+value of I. (7)
+19 -j10
+5V 20
+Fig.2(c)
+(d) the network of figure 2(d), the
+In substitution theorem by replacing the verity 6 resistor
+by voltage (6)
+a source
+Fig.2(d)
+(e) State and prove the dual of ‘Millman’s Theorem’.
+Using the millman’s theorem find the current
+‘Y through R,=5Q in the network shown in
+figure 2(e). (6)
+TEE—303 4
+uptuonline.com
+uptuonling.com com
+any two of the following questions :
+(a) Discuss the concept of complex frequency. Giving
+the possible reasous justify your statement whether
+following network functions represent driving
+point immittance function :
+i i F (s) s°+s 4,2
+=,
+(i) +
+s~
+(b) For the ladder network shown in fig 3(b), Find
+(i) driving point input impedance Z,,,
+V2
+(ii) transfer impedance function T and
+Cal
+(iii) Voltage transfer function Assume
+1,=0
+> I, 1H 1H <0 oy
+1F 1?
+V>
+Fig.3(b)
+(c) The output voltage V(s) of a network is given by
+4s.
+V(s)= 6)
+(s +
+Plot its pole-zero diagram and hence obtain v(t).
+TEE—303 5 [Turn Over
+uptuonline.com
+uptuonline.comtempt
+any two of the following questions :
+(a) Obtain the y-parameters of the circuit shown in
+fig. & 4(a). Find its equivalent q circuit usin &
+y-parameters and find whether the network is
+(i) reciprocal (ii) symmetrical.
+2h
+12 fy
+Fig.4(a)
+(b) (i) For a two-port network to be reciprocal
+prove that
+AD BC =1
+-
+where A,B,C,D are the network’s
+transmission parameters.
+(ii) For the circuit shown in figure 4 (b), find
+transmission z-parameters hence calculate’ the
+parameters.
+Fig.4(b)
+TEE—303 6
+_uptuonline.com
+uptuonline.com(c) impeduptyanline.com
+Find the short circuit and open circuit
+of the network shown in fig. 4(c) and hence obtain
+its 7 equivalent.
+Fig.4(c)
+5. Attempt any three of the following questions :
+(a) Derive the expressions network for ‘Image parameters’ of A,B,C,D of
+a parameters. two-port in terms (0)
+(b) Discuss the disadvantages of K-type filters.
+How these can be overcome using n-derived
+section ? (7)
+Design m-derived T-section of a high pass filter
+having design impedance of 600 ohms,
+cut-off frequency of 5KHz and m=0.35. Find also
+the frequency of infinite attenuation.
+Write the conditions for a driving point function
+to be positive real. (6)
+Determine whether the function
+Z(s) is positive real not.
+4) or
+TEE —303 7 [Turn Over
+uptuonline.comid)
+Of the two pole-zero diagrams
+RL figure impedance 5 (d), pick funtion the diagram and synthesize that represents by First an
+foster form. (7)
+jo ye
+SH 3
+(a) (b)
+2 2
+(e) Realize ize
+(62+ 3) 5) —
+In First caner form. (7)
+-o00-
+uptuonline.com

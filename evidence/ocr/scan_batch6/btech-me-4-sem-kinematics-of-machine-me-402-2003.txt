@@ -1,0 +1,164 @@
+aktuonline.com aktuonline.com
+| | | ET tt
+No. of Printed Pages—6 ME-402
+B. TECH.
+FOURTH SEMESTER EXAMINATION, 2002-2003
+KINEMATICS OF MACHINES
+Time : 3 Hours Total Marks : 100
+Note : Attempt ALL the questions.
+Attempt any FOUR of the following :— (5x4=20)
+(a) Differentiate between the following kinematic
+pairs with suitable examples :—
+Lower pair and higher pair
+(ii) Turning pair and sliding pair
+(b) do you mean by constrained motion ?
+What are the different types of constrained
+motions ? Explain with examples and neat
+sketches.
+(c) Sketch and describe the working of two
+different types of quickreturn mechanisms.
+Give examples of their application. Write an
+expression for the ratio of times taken in
+forward and return strokes.
+(d) For a plane mechanism, derive an expression
+for Grubler’s equation and find out degrees
+of freedom for the _following planer
+mechanisms ( (Figure 1) :
+Slider pair) J
+higher pair
+(i) (ii)
+Fig. 1
+Mr—402 1 Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+(e) Prove that if three bodies in relative
+motion with respect to another, are the three
+relative instantaneous centres one of velocity are
+collinear.
+(f)
+A Fig. pin 2. jointed The link 4 bar AB mechanism 20 is shown and in
+angle BAD 60°. Find rotates at rpm
+= :
+(?) Angular velocities of links CD and BC,
+(ii) Linear velocity of point E on link BC at
+a distance of 2:25 m from end B.
+Cc
+E
+BC =3-0m
+A 60° D BE=2:25m .
+Fig. 2
+2. Attempt any FOUR of the following :—
+(a) Find an expression for tangential acceleration
+and for radial acceleration when a body is
+moving in a circular path. What will happen
+to these accelerations if :
+(i) body with uniform angular
+velocity, is rotating and
+(ii) body is moving on a straight path ?
+(b) Explain Klein’s construction for finding
+acceleration of links in four bar mechanism.
+(c) do by Coriolis component of
+acceleration you ? mean When will it exist ? Prove that
+this component of acceleration is equal to
+ME—402 2
+aktuonline.com directioraktuonline.com
+2vw. How will you find the
+Coriolis component of acceleration ?
+(d) An engine mechanism shown in Fig. 3 has a
+crank length of 0-1 m and connecting rod
+0-3 m long with centre of gravity G, 0-1 m
+from end B. The crankshaft has a speed of
+75 rad/sec and an angular acceleration of
+1200 Find acceleration of point G
+— and angular acceleration of connecting rod.
+Fig. 3
+(e) What do by straight line
+mechanism you ? Name mean different mechanisms
+which are used for exact straight line motion.
+Describe the working of one of the exact
+straight line motion mechanisms with neat
+sketch.
+~ (f) | What is Hooke’s joint ? With sketch,
+describe a the working of Hooke’s a neat joint. Also
+show that for a Hooke’s a joint,
+tan@ tan@
+where angle of inclination of the driven
+@=
+shaft with driving shaft, and @ and @are
+angles turned by driven and driving shafts
+at any instant.
+ME—402 3 Turn Over
+aktuonline.com
+aktuonline.com aktuonline.com
+3. Attempt any TWO of the following : — (10x2=20)
+(a) What do by Grashof’s linkage ?
+Discuss various you mean inversions of Grashof’s
+linkage.
+(b) Explain synthesis of mechanism with
+examples. What do you understand by
+(i) Type Synthesis,
+(ii) Number Synthesis,
+(iii) Dimensional Synthesis ?
+(c) Design a 4 bar mechanism to coordinate the
+input and output angles as follows :
+Angles
+Input
+Output Angles 30°
+Also draw the designed mechanism for the
+above values of input and output.
+4. Attempt any TWO of the following :— (10x2=20)
+(a) Differentiate between the following with neat
+sketches :—
+(i) Base circle and Prime circle
+(ii) Cam angle and Pressure angle
+(iii) Pitch point and Trace point
+(iv) Period of and period of descent
+ascent
+(v) Disc cams and Cylindrical cams.
+(b) What are the advantages of cam profiles
+consisting of circular arcs and straight lines ?
+Discuss the important cams of specified
+contours. For the tangent cam with circular
+ME—402 4
+TE
+aktuonline.com roller follower, derivaktudnline.com
+expression nose and of the velocity of the follower
+:
+(1) when roller is in contact with straight
+flank,
+(ii) when roller is in contact with circular
+nose.
+(c) Draw a cam profile for a knife edge follower
+with the following data :—
+(7) Cam lift 40 during 90° rotation
+with simple mm harmonic motion cam
+(ii) Dwell period for next 30°
+(iii) During next 60° of cam rotation, the
+follower returns to original position with
+simple harmonic motion
+(iv) Dwell period for rest of the rotation of
+the cam
+The radius of base circle is 40 and it
+rotates at 240 rpm in clockwise mm direction.
+Also determine the maximum velocity and
+acceleration of the follower during its ascent
+and descent.
+5. Attempt any TWO of the following :— (10x2=20)
+(a) State and the law of gearing and show
+how the involute prove teeth profile satisfies the
+conditions for correct gearing. Derive an
+expression for the velocity of sliding between
+a pair of involute teeth.
+() What the different forms of tooth
+Discuss are the relative advantages a gear of involute ?
+and cycloidal Explain the interference
+and show how gears. it is prevented.
+ME—402 5 Turn Over
+aktuonline.com
+aktuonline.cem show@ktyonline.com
+The annulus A in the gear train
+Fig. 4 rotates at 300 rpm about the axis of
+the fixed wheel S which has 80 teeth. The
+three-arm spider is driven of at 180 rpm.
+Determine the wheel P. the number teeth required on
+aktuonline.com

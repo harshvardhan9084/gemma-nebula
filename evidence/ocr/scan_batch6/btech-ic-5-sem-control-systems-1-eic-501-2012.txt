@@ -1,0 +1,62 @@
+(b) Determine the range of values of k such that the Printed Pages—4
+characteristic equation :
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+s°+3(k+1)s?+(7k+5)s+(4k+7)=0 [| [| [| [ | | TT)
+has roots more negative than s = — 1.
+(c) State the Routh stability criterion. Discuss its advantages . B.Tech.
+over Hurwitz Stability criterion. Also discuss relative (SEM. V) THEORY EXAMINATION 2011-12
+stability | (
+concept. CONTROL SYSTEMS—I
+5. Attempt two parts of the following | | Time : 3 Hours Total Marks : 100
+any : (10x2=20)
+(a) Sketch the Bode plot for the system having Note :—Attempt all the questions.
+1. Attempt any four parts of the following : (5x4=20)
+G(s) (s) H(s)=————_ H(s) 20 (a) Discuss i
+s(0.1s +1) the effect of feedback on the following ing : :
+(b) (i) Establish correlation between frequency domain | (i) Overall gain (ii) Stability (iii) Noise and Disturbance.
+response and time domain response (b) Compare open loop control system with closed loop control
+(ii) Define the following : tem.
+(1) Resonant Peak (c) Find the transfer function for the system whose block
+(2) Gain Margin diagram representation is shown in fig. 1.
+(3) Phase Margin
+(c) Sketch the Nyquist plot for the following system having
+_100
+G(s) = s(s +10) , H(s)=1 consider negative feedback.
+Comment
+on the stability of the system.
+EIC501/KIH-26584 4 18650 EIC501/KIH-26584
+1 [Turn Over
+:
+(d) Define the following 3. Attempt any four parts of the following : (5x4=20)
+(i) Path (ii) Forward Path (iii) Path Gain (iv) Loop (a) Define the following
+:
+(v) Non touching loop. (i) Peak Overshoot (ii) Stelling time (iii) Rise Time
+(e) Write notes on (i) Control valves (ii) RTDs (iii) DC (iv) Steady state error.
+Tachometer Generator. (b) Derive expressions for Peak overshoot for the second order
+control system.
+of
+2. Attempt any two parts the following : (10x2=20) (c) Measurement conducted on a servomechanism show the
+(a) For the following state equation, determine the transfer system response to be
+function
+between Y(s) U(s) according to the formula : c(t) = 1 +0.2
+Y(s) when subjected to a unit step input. Obtain the expression
+for the
+transfer function.
+(d) The open loop transfer function of a servo system with
+unity feedback is
+C=fl o] D=1 G(s) = _
+s(0.1s+1)
+(b) Construct the state model for a system characterized by Evaluate the static
+the differential equations error constants (K,, K, and K,).
+: (e) Discuss the effect of adding a zero to a system.
+d’ dy
+dt dt dt a4
+4. Attempt any two parts of the following : (10x2=20)
+Give the block diagram representation of the state model. (a) Determine whether the largest time constant of the
+What is state transition matrix ? Discuss its properties.
+characteristic equation given below is greater than less than,
+Also discuss controllability. or equal to 1.0 sec :
+4s?+
+6s +4=0.
+EICS01/KIH-26584 2
+3 [Turn Over

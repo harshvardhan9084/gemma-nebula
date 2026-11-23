@@ -1,0 +1,66 @@
+Printed Pages: 4 EEE-054
+(Following Paper ID and Roll No. to be filled in your
+Answer Books)
+Paper ID:
+B.TECH
+Theory Examination (Semester-VIII) 2015-16
+ENERGY EFFICIENCY & CONSERVATION
+Time : 3 Hours Max. Marks : 100
+Section-A
+1. Attempt all All equal marks. Write
+parts. parts carry
+answer of each part in sort. (2x10 = 20)
+(a) Describe about the protection of capacitors and switch-
+ing is distribution system.
+ENERGY
+(b) What do you mean by CONSERVATION
+LEGISLATION?
+(c) What do you mean by “LOAD SCHEDULING/SHIFT-
+ING”?
+(d) What are energy efficient windows?
+I P.T.O.
+(e) How the efficiency of the motor is tested? Describe in detail about the national and international
+experiences with Demand Side
+(f) What is conservation planning? Management.
+energy (e) Enumerate in detail about
+(g) Give technical note principle of conservation. energy conservation in electri-
+a on energy cal generation, transmission and distribution.
+(h) Write short note evaluation of demand side
+on manage- () Explain the following :
+ment.
+(i) HVAC
+() What are the various instruments used for energy audit?
+(ii) Voltage drop calculations.
+(j) Give the applications of load control.
+(g) Explain the energy conservation in small scale and large
+scale industries.
+Section-B
+(h) Describe the methods of voltage and reactive power
+2. Attempt any five questions from this section. control in distribution systems. Also mention its impor-
+(10x5 = 50) tance in power system environments.
+(a) Discuss the principles of energy conservation. Also
+discuss the energy conservation planning. Section-C
+Note
+(b) Write short note on Energy efficient motors and compare : Attempt any two questions in this section. (15x2 = 30)
+it with standard motors.
+3. Explain the following :-
+(c) Write short notes on the following :
+(i) UPS selection
+(a) Energy audit of Electrical systems.
+(i) Load scheduling/shifting
+(b) Voltage instability in system networks
+power (ii) Distribution code and Electricity Bill 2003..
+3
+2405/510/89/2225 2405/510/89/2225 P.T.O.
+4. (a) What do you mean by “CAPACITOR BANKS” and
+“INDUCTOR BANKS” used in distribution systems?
+Explain their advantages and limitations.
+(b) Write short note on Voltage classes and nomenclatures.
+5. (a) Discuss about the following
+:
+(@) Motor efficiency testing
+(i) Motor Speed Control
+|
+Write a detailed note on Indian Electricity Act 1956.
+4
+2405/510/89/2225

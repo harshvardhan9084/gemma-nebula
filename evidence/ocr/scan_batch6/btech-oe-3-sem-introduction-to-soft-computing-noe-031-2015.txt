@@ -1,0 +1,66 @@
+aktuonline.com aktuonline.com
+Printed Pages : 3 UPTUonline.com
+9 ¢ 3 2. 3 & NOE-031 (b) What are the different attributes of predicate
+Book) logic ? Using inference in predicate logic and prove
+(Following Paper ID and Roll No. to be filled in your Answer following statement :
+PAPER ID : 199323 (@) All man are mortal.
+is a man.
+Prove : Socrates is mortal.
+(c)
+B. Tech. Let X = {a, b, c, d}
+(SEM. Ill) (ODD SEM.) THEORY And A = {(a, 0) (b, 0.8) (c, 0.6) (d, 1)}
+EXAMINATION, 2014-15 B {(1, 0.2) (2, 1)
+INTRODUCTION TO SOFTCOMPUTING C = @, 0.8) (4, 0)}
+= {(, 0) (2, 0.4) G, 1) (4, 0.8)}
+Time : 3 Hours] [Total Marks : 100 Determine the implication relation if X is A then
+is B.
+1 Attempt any FOUR parts : 4x5=20 Y
+Define What are the different learning @) Consider X = {2, 4, 6, 8, 10}. Find its power
+(a) softcomputing. set, cardinality and cardinality of power set.
+paradigms ? (e) Define delta rule. Explain significance of delta rule
+(b) What is an activation function ? Explain its in defining the weights.
+characteristics in neural network.
+(c) Discuss in detail operations and properties of fuzzy 3 Attempt any TWO parts : 10x2=20
+(a) What is meant by genetic algorithm ? Compare
+sets. and contrast traditional algorithm and genetic
+(d) What are the operators involved in a simple genetic algorithm.
+algorithm ? Explain each with example. (b) A neuron j receivers inputs from other
+(e) What is neural network architecture ? Explain whose activity levels 10, —20, 4 and neurons —2. The
+logistic sigmoid function with example. respective synaptic weights are of the
+0.2, -1.0 and 0.9. Calculate the neurons are 0.8,
+j for the following situation output of neuron
+2 Attempt any FOUR parts of the following : 4x5=20 The is
+(a) What is the classification of training ? Explain (2) neuron linear.
+supervised training. The neuron is represented by McCulloch-
+Pits model, defined as follows :
+199323 ] 1 [ Contd... 1, if V. V, 20
+if Vy <0 where V, istheinduced local field.
+199323 | 2 [ Contd...
+aktuonline.com
+aktuonline.com aktuonline.com
+(c) State the drawbacks of single layer perceptron.
+Name problem which be solved by
+above a cannot the
+neural model.
+Attempt any TWO parts : 10x2=20
+(a) What is meant by genetic algorithm ? Compare
+and contrast traditional algorithm and genetic
+algorithm.
+(b) Is it possible for GA to generate individual
+with maximum fitness a without using an
+If mutation, but
+only single point crossover ? so, give an example.
+(c) Explain the effect of selection, crossover and
+mutation in evolutionary computation.
+Attempt any TWO parts : 10x2=20
+(a) Short
+notes :
+(1) Perceptron model.
+(2) Unsupervised and Supervised learning.
+(3) Associative memory.
+(b) Discuss operation in Genetic algorithm
+and its crossover
+type.
+(c) Explain Fuzz inference system (FIS).
+199323 | 3 [ 7500 |
+aktuonline.com

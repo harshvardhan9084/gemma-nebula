@@ -1,0 +1,97 @@
+www.aktuonline.com
+Printed Pages : 4
+EAG-102
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 991102
+B. Tech.
+(SEM. I) (ODD SEM.) THEORY
+EXAMINATION, 2014-15
+ENGINEERING PHYSICS
+Time : 3 Hours] [Total Marks : 100
+Attempt questions from each Section instructions.
+Note : as per
+Physical Constants
+Mass of electron m, = 9.1x10-3! kg
+Mass of proton m, = 1.67 x10" kg
+Speed of Light c =3x108 m/s
+Plank’s constant h = 6.63x10-34 J-s
+Avogadro’s number = 6.023x1023 per mole
+SECTION-A
+1 Attempt all parts of this question. 10x2=10
+Each part carries 2 marks.
+(a) What do by turbulent motion?
+you mean
+(b) What do you understand by capillary action?
+(c) What do you mean by interference of light?
+991102] 1 [ Contd...
+www.aktuonline.com
+(d) What are coherent sources of light?
+(e) What is plane polarized light?
+) What are quarter wave plates?
+(g) Define population inversion.
+(h) What is ferroelectricity?
+(i) | What do you understand by diffraction of X-rays?
+G) Distinguish between metal and insulator.
+SECTION-B
+2 Attempt any three parts of this question. 3x10=30
+Each part carries 10 marks :
+(a) In horizontal tube 4 km long and 8 in diameter,
+a flows the of liters/sec cm against viscous
+water at rate 20
+resistance. If the viscosity of water is0.01C.GS. unit
+calculate the pressure required to maintain the flow.
+(b) In a certain set-up the Newton's rings observed with
+light of wavelength 5890 A show the difference of
+square of diameters of successive rings as 0.124 cm?.
+What happens this quantity if wavelength is changed
+to
+to 4360 A ?
+() Light of wavelength 5000 A falls on a grating normally.
+Two adjacent principal maxima occur at sing = 0.2
+and sing 0.3 respectively. Calculate the grating
+=
+element. If the width of the grating surface is 2.5 cm,
+calculate its resolving power in second order.
+991102] 2 [ Contd...
+www.aktuonline.com
+(d) Calculate the thickness of a doubly refracting crystal
+plane required to introduce a path difference of 4/2
+between ordinary and extraordinary rays when
+A= 6000 A, wy = 1.55, py = 1.54.
+(e) Calculate the de-Broglie wavelength of an o -particle
+accelerated through a potential difference of 200 volts.
+SECTION-C
+Attempt any one part of all the questions of this 5x10=50
+section. Each question carries 10 marks.
+3. (a) Discuss capillary action. Calculate the height to which
+capillary action will lift water. Explain why will water
+rise higher in a smaller tube.
+(b) Derive the Poiseuille’s equation and also discuss the
+viscometer.
+4. (a) Discuss the Fraunhofer diffraction at a double slit.
+What is the effect of increasing the (1) slit width
+(il) wavelength?
+(b) Discuss the phenomenon of interference of light due to
+thin films and find the conditions maxima and minima.
+Show that the interference patterns of reflected and
+transmitted monochromatic source of light are
+complementary.
+991102] 3 [ Contd...
+www.aktuonline.com
+5 a) What is He-Ne Laser? How it work?
+Explain with suitable diagrams. Compare the Laser
+beam characteristics of Ruby and He-Ne laser.
+(b) Describe how, the plane polarized, circularly polarized
+and elliptically polarized lights are produced and detected.
+6 (a) State and explain Heisenberg’s uncertainty principle.
+Using this principle discuss how that electrons cannot
+reside in an atomic nucleus.
+(b) What is hysteresis curve? Explain residual magnetism,
+coercive force and and hysteresis loss.
+7. (a) Describe an X-ray spectrometer used in study of crystal
+structure. Explain how it is used in determining the
+of cubic crystal.
+structure a
+(b) What are intrinsic and extrinsic semiconductors? Describe
+different types of extrinsic semiconductors in detail.
+991102] 4 [ 350 ]

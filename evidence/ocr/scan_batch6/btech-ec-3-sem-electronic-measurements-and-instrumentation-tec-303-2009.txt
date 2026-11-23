@@ -1,0 +1,97 @@
+http://www.uptuonline.com
+3 0 7? 5 1 2 a 0 *
+Printed Pages : 4 TEC-303
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 3075 | [| | [| | | [ [ J 4
+B. Tech.
+(SEM. IID) EXAMINATION, 2008-09
+ELECTRONICS MEASUREMENTS &
+~ INSTRUMENTATION
+Time ; 3 Hours] [Total Marks : 100
+Note (1) Attempt all questions.
+:
+(2) Each question carries equal marks.
+(3) Be precise in your answer.
+1 Attempt any four parts of the following ;
+(a) Explain the difference with example between
+(i) Accuracy and precision
+(ii) Static and Dynamic error in instruments
+(b) Explain the following by suitable example
+(i) Gross errors :
+(ii) | Systematic
+errors
+(iii) Random errors.
+(c) An ammeter reads 6.7 A and the true value of
+current is 6.54 A. Determine the error and the
+correction for this instrument.
+(d) Differentiate between the active and passive
+transducers with suitable examples.
+3075]
+1 [Contd...
+http://www.onlineQP.com
+http:/Awww.uptuonline.com
+(e) Describe the construction and working of
+thermocouple.
+(f) Describe different modes of operation of
+the
+Piezo-electric transducers and explain the
+application of piezo-electric transducer.
+2 Attempt any four parts of the following : §x4=20
+(a) Describe the working of Hays Bridge for
+measurement of inductance.
+(b) Fig. 1 shows the connection of a bridge for
+measuring the inductance L and resistance R of
+a coil. Find R and L if balance is obtained when
+Q=S=1kQ, P=500Q, r=100Q and
+C=0.5pF.
+3075] A 2 [Contd...
+http://www.uptuonline.com
+(c) Describe AC voltmeter using rectifier with
+diagram.
+(d) Write a short note on true RMS reading
+voltmeter,
+(e) Describe the working principle of Q meter.
+(f) A 34 Digit DVM has an accuracy specification
+of 1.5% of reading +1 digit. What is the
+possible error in volt, when the instrument is
+reading 5-00 V on the 10 V range ?
+of following
+3 Attempt any two parts the - 10*2=20
+(a) Explain the theory and working of an LED.
+Describe the advantages of LCDs.
+(b) Explain the following terms as applied to
+digital displays ;
+(i) — Resolution
+~ (ii) Difference between Digits and
+4 digits displays.
+(iii) Sensitivity of digital meters
+(iv) Accuracy specification.
+(c) Draw and explain the circuit of a digital
+frequency meter.
+3075) 3 [Contd...
+http://www.onlineQP.com
+http://www.uptuonline.com
+of the following 10*2=20-
+4 Attempt any two parts ;
+(a) Discuss briefly, the basic block diagram of
+Cathode Ray Oscilloscope.
+(b) Write a short note on
+(i) Storage oscilloscope
+type
+(ii) type digital voltmeter.
+(c) Describe how the following measurement
+can
+be made with the use of a CRO :
+(i) Frequency
+(ii) Phase angle.
+5 Attempt any two of the following : 10x2=20
+Analyzers ? Explain
+(a) What are Heterodyne Wave
+the theory of a RF Heterodyne wave analyzer
+for 0 — 20 MHz RF range.
+(b) Explain the working of a function generator in
+detail using blocks, relations and waveforms.
+(c) With the help of block diagram, explain spectrum
+analyzer. =
+3075] 4 [ 12,900 J
+http://www.onlineQP.com

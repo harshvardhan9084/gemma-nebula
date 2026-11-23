@@ -1,0 +1,72 @@
+www.aktuonline.com
+Printed Pages : 3
+NEE405
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 121412
+B. Tech.
+(SEM. IV) THEORY EXAMINATION, 2014-15
+SENSOR & INSTRUMENTATION
+Time : 3 Hours] [Total Marks : 100
+Note : (i) Attempt alll questions.
+(i) All questions carry equal marks.
+1 Attempt any four parts of the following : (5x4=20)
+(a) Write short note on smart sensor.
+(b) Explain the working principle of LVDT with the
+help of neat sketch and characteristics. Explain the
+advantages and disadvantages of LVDT.
+(c) Explain the working of ultrasonic flow meter in
+brief.
+(d) Discuss the working of thermocouple sensor for
+the measurement of temperature.
+(e) Explain piezoelectric pressure transducers. Write
+its advantages and disadvantages.
+121412] 1 [ Contd...
+www.aktuonline.com
+(f) A linear resistance potentiometer is 5 cm long and
+uniformly wound with wire having resistance
+a a
+of 10kQ. Under normal conditions the slider is
+at centre of the potentiometer. What will the linear
+displacement when resistance of potentiometer is
+measured as (i) 3.8kQ (ii) 8.3kQ.
+2 Attempt any two parts of the following : (10x2=20)
+(a) Draw the circuit diagram of a first order low pass
+filter and derive its transfer function.
+(b) Explain the working of envelop detector with circuit
+diagram.
+(c) Explain the Wheatstone Bridge used for the
+measurement of resistance.
+3 Attempt any two parts of the following : (10x2=20)
+(a) Explain the purpose of Time division multiplexing
+in telemetry system.
+(b) Explain the working of LCD and differentiate
+between light scattering and field effect types of
+LCD.
+(c) Describe the working of Successive approximation
+technique used in ADC.
+121412] 2 [ Contd...
+www.aktuonline.com
+4 Attempt two parts of the following (10x2=20)
+any :
+(a) Explain the typical features and advantages of LABVIEW.
+(b) Draw and explain the difference between traditional
+instruments and software based virtual instruments
+(c) Two resistors have the following rating
+:
+R,=36Q + 5% and 75Q + 5% , calculate
+(i) | The magnitude of errors in each resistor.
+(i) limiting error in ohm and in percentage
+when the resistors are connected in series
+(ii) Relative and percentage relative
+when resistors error connected in parallel. error
+are
+5 Attempt any two parts of the following : (10x2=20)
+(a) Describe fruits &vegetable processing through
+diagram. a
+neat
+(b) Explain electronic Nose system & how it is useful
+for food industry.
+(c) Explain different elements of food packaging plant
+& explain role of robotics in the plant?
+121412]
+3 [100]

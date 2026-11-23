@@ -1,0 +1,87 @@
+Printed Pages: 4 EEC-069B
+(Following Paper ID and Roll No. to be filled in your
+Answer Books)
+Paper ID: 121854
+B.TECH.
+Theory Examination 2015-16
+SATELLITE COMMUNICATION
+3 Hours Max. Marks : 100
+Time :
+Section-A
+Ql. Attempt all equal marks. Write
+pasts
+answer of each part in short. (2x10=20)
+(a) Discuss the methods to achieve station keeping of
+satellite.
+(b) What do you understand by argument of perigee?
+Write uplink and downlink frequencies of satellite
+communcation. Explain the why these
+reason
+frequencies are different?
+(d) Explain Kepler’s laws of planetary rotation.
+(1) P.T.O.
+Describe the function of a satellite transponder.
+(f) What do you mean by carrier to noise ratio?
+significance for satellite link design?
+Describe its
+(g) Explain the ice effect in satellite communication.
+(h) Enlist the applications of medium-gain directional
+mobile satellite antennas.
+(i) Describe the utilization of pre-emphasis and de-em-
+phasis.
+Gj) Write the name of codes for error control for vigital
+satellite links.
+Section-B
+Q2. Attempt any five questions from this section.
+(10x5=50)
+Write advantages and disadvantages of Geosta-
+(a) the
+tiouary orbit. A satellite moving, in a highly eccentric
+Molniya orbit having the farthest and the closest poins
+as 35000km and 500km respectively from the sur-
+face of the earth. Determine the orbital time period
+and the velocity at the apogee and perigee points.
+(2) P.T.O.
+(b) Explain rain attenuation and rain depolarization in detail
+with suitable diagrams.
+and explain different of What
+State the segments GPS.
+is meant by satellite signal acquisition in GPS?
+(d) Discuss the various types of antenna used for mobile
+satellite broadcasting. What their technical
+are
+requirements?
+(e) With the help of a suitable block diagram, explain
+the working of DBS Television network in detail.
+(f) Derive the general link equatiqn. Find out the expression
+for C/N and G/T ratio.
+(g) What do you understand by system noise tempera-
+ture? Derive its relation for equivalent system noise
+temperature.
+(h) With the help of a suitable diagram, explain satellite
+communcation system architecture using VSAT. Also
+write the Applications of VSAT.
+(3) P.T.O.
+Section-C
+Note: Attempt any two questions from this section.
+(15x2=30)
+Q3. (a) What the factors that affect the uplink design
+are
+and the downlink design in geostationary satellites?
+(b) What is meant by look angles? Explain them with
+reference to geostationary satellite and the earth
+a
+station.
+Q4. (a) Write short note on satellite signal acquisition.
+a W transponder
+(b) The EIRP of 240 is 57 dB W. Cal-
+culate the approximate gain of the antenna if the
+transponder is switched to 120 W. Also calculate the
+new EIRP assuming that the same antenna is used.
+Q5. (a) Three amplifiers are connected in cascade having a
+gain of 20 dB each. If the noise temperature is 100K,
+determine the overall gain.
+(b) Write short note on Wire Quadrifilar Helix Antenna
+(WQHA) for hand held
+terminals.
+1 (4) PT.O.

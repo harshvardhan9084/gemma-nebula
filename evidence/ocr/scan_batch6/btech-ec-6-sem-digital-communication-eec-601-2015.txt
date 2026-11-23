@@ -1,0 +1,120 @@
+www.aktuonline.com
+Printed Pages : 4
+EEC601
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 131601
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+DIGITAL COMMUNICATION
+Time : 3 Hours] [Total Marks : 100
+Note: Attempt all questions.
+1 Attempt any two questions : 2x10=20
+(a) Explain the of scrambler and unscrambler in
+digital communication use the block
+system. Draw
+diagram of an unscrambler using shift registers and
+explain its operation with suitable example.
+(b) Write short note following digital modulation
+on
+techniques :
+(i) Differential phase shift keying (DPSK)
+(ii) Quadrature phase shift keying (QPSK).
+(c) How FSK modulation and demodulation is done?
+Explain using block diagrams of modulator and
+demodulator.
+131601] 1 [ Contd...
+www.aktuonline.com
+2 Attempt any two questions 2x10=20
+(a) Write short note on following :
+(i) CDF(i) PDF (iii) random process.
+(b) Define mean, variance and standard deviation for
+random variables.
+Also prove the following theorem on variance
+@ =E(X7)-w
+= C?Var(X)
+(it) Var = Var (X) + Var (¥)
+(c) The probability density function is given
+as
+(x)=ae OF where X is a random variable.
+Find
+(i) : relationship between and b
+a
+CDF
+the probability that outcome lies between
+1 and 2.
+3 Attempt any two questions 2x10=20
+(a) What do you understand by matched filter and
+what are the properties of matched filter ?
+(b) Derive an expression for the probability of error
+of the binary phase shift keying (BPSK) signal.
+(c) Derive an expression for error probability of a
+matched filter.
+4 Attempt four questions
+any
+(a) What is PN sequence? Draw suitable PN
+sequence generator and prove the properties of
+PN sequence and sketch its autocorrelation
+function.
+131601] 2 [ Contd...
+www.aktuonline.com
+(b) With the help of block diagram and suitable
+expressions explain the generation and reception
+of direct sequence spread spectrum (DS-SS)
+signal using BPSK modulation.
+(c) Explain the following terms for spread spectrum
+system.
+(i) Processing gain (P G)
+(i) Probability of error of DS/BPSK system
+(ii) Jamming margin.
+(d) Explain the operation of frequency hop spread
+spectrum (FH-SS) with the help of block diagram
+and waveforms.
+(e) Explain how spread spectrum communication can
+be used for providing multipoint connectivity using
+CDMA techniques?
+5 Attempt any five questions 5x4=20
+(a) An event has six possible outcomes with the
+probabilities p;=1/2, 1/4, p3= 1/8 py=1/16,
+pe=1/32. Find the entropy of the
+system. Also find the information rate if there are
+32 outcomes per second.
+(b) Consider a sequence of symbols emitted by a
+source with their probabilities as given below:
+Probability | 0.1 | 0.25 | 0.15 | 0.05 | 0.15 | 0.1 | 0.05 | 0.15
+Compute the Huffman code for the above source
+symbols. Also find the average codeword length
+and efficiency.
+(c) The generator polynomial of a (7, 4) cyclic code
+is G (p) p>+ptl find the code vectors for
+messages 0111 & 1110. If code is in systematic
+form.
+131601] 3 [ Contd...
+www.aktuonline.com
+(d) The parity check matrix of a (7, 4) hamming code
+is given
+1110100
+[H] =| 1101010
+1011001
+Find :
+(i) | Generator matrix
+(it) |code vector for message 1011
+(ii) draw the encoder diagram?
+(©) The parity check matrix of a (7, 4) hamming code
+is given.
+1110100
+[H] =| 1101010
+1011001
+Calculate the syndrome vectors for
+(i) No error in received code vector
+(i) Error in third bit of received code vector.
+A rate 1 /3 convolution encoder has generating
+vectors
+as
+g! =(110) and g? (101)
+=
+(i) Sketch the encoder configuration
+(i) Draw the trellis diagram
+(ui) If input message sequence is 11010;
+determine the output sequence of the
+encoder?
+131601] 4 [ 12800 ]

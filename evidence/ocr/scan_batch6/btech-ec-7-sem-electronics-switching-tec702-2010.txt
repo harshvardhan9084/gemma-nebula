@@ -1,0 +1,73 @@
+4 Attempt any two parts of the following 10x2=20 ll
+Printed Pages: 4
+(a) Draw a block diagram of common control
+switching system. Compare between Micro 0305,
+programmed and Hard-wired control PAPER ID’: = Roil No. ;
+schemes for Electronic control.
+Explain the various signalling techniques: used B.Tech
+in telephone networks. Discuss channel (SEM VIT) ODD SEMESTER THEORY EXAMINATION 2009-10
+G37 common WY sar
+(c) how many modes configured in dual lime: 3 Hours] {Total Marks: 100
+processor architecture. Draw a dual chain
+distributed control and discuss the levels of Note : (1) Attempt all questions.
+processing. (2) Ail questions carry equal marks.
+nN Attempt any four parts of the following 5x4=20 1
+questions Attempt any four parts of following Sx4=20
+questions :
+(a) Draw an ATM cell format and ATM header Give the classification of switching systems.
+structure, Compare manual exchange and automatic
+Define the classification of switching techniques exchange.
+used in PSTN and explain in brief.
+Draw a general trunking diagram for a switching:
+Write short ATM services with traffic ..system and explain the prir of reed relay.
+parameters and types of connection. (c). A link network is required 64
+Discuss the frame of HDLC and enlist incoming trunks 64 outgoing to trunks. connect
+the important features structure of it. switches be to of All its
+to are to equal size stage, and 64 links
+Sketch the TCP/IP reference model IP are at ‘each suggesi a
+cs Coonan. explain ore ao address network, ght dh a iwo stage
+resolution protocol.
+Write short (d) A four stage switching network for 1000
+a note on Banyan network switch. incoming trunk and 1000 outgoing trunks using
+a 10x10 switches. How many cross-points does
+. it contain ?
+UL A
+0305] [ 7400 }
+Explain a blocking and nonblocking model of
+telephone traffic. Attempt any four parts of the following 5x4=2)
+questions :
+Draw a three stage nonblocking configuratic-n A
+and detine switching elements advantage ratio (a) rural telephone exchange normally experience’
+(A). 4 call originations per minute. What is the
+probability that exactly 8 calls occur in
+an
+2 Attempt pt any any four Pp parts of the following 5x4=20 arbitrarily chosen interval of 30
+questions : (b) Compare call congestion and time congestion
+(a) Sketch an STS network to connect m incoming in a telephone network. During busy hours,
+highways to m outgoing highways, each carrying 1400 ‘calls were offered to a group of trunks
+n PCM channels and having k time switch links. calls
+Explain how it works. and 14 were lost. The average cal!
+duration has 3 minutes. Calculate the total
+(b) A TST network has ten incoming highways and duration of period of congestion and GOS.
+Whig a 3
+channels. The average occupancy of the incoming (c) Using Lee's graph for a three stage networks
+channel is 0.6E. Derive equivalent
+division an space define switching eletnents advantage ratio (2)
+network and estimate the blocking
+probability. and find out the no of switching elements S for
+(c) A three stage switching structure having 128 N = 128.
+input and 128 output terminals. For 16 first
+and 16 last determine the number (d) Discuss the modeling of a telephone traffic
+stage stage, system as birth death process.
+of cross points for nonblocking.
+(d) Derive an expression for the blocking (e) Distinguish call congestion and time congestion.
+probability of three stage switch using LEE Enlist. the examples of delay in
+probability graph. a systems
+telecommunications.
+Enlist the important features of Digital switching, Write
+short note on behaviour of loss system
+(f) Write short notes on PBX and Digital using blocking models.
+cross connect units.
+WE) 34-0305}
+2 {Contd... 3 [Contd...
+\

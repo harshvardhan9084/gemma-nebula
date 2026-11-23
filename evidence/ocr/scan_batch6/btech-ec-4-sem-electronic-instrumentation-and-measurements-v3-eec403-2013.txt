@@ -1,0 +1,122 @@
+Printed Pages—7 a EEC403
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+RollNo. | | | | |
+B.Tech.
+(SEM. IV) EVEN THEORY EXAMINATION 2012-13
+ELECTRONIC INSTRUMENTATION AND
+MEASUREMENTS
+Time 3 Hours Total Marks 100
+: :
+Note :- (i) | Attempt ALL questions.
+Gi) Assume the missing data if any.
+(ii) indicated the end of each Section.
+are at
+1. Attempt any four parts of the following :
+characteristics of transducer
+(a) What are the desirable
+element in respect of sensing any physical variable ?
+(b) Mean Torque of an electro dynamometer type of
+Wattmeter may be written as T a Z’.
+M — Mutual inductance between fixed coil, E
+is applied voltage, z is impedance of load circuit? Determine
+of
+the value of p, q, t from the dimensions the quantities.
+(c) Explain the limiting error. A 4 dial decade resistance box
+has its accuracy specified as follows :
+@ X,
+EEC403/DPC-48008 1 [Turn Over
+)
+X,x1002+0.1% ) |
+@) 2. Attempt any two parts of the following (10x2=20)
+:
+(ii) X, x (a) Describe the multimeter probes which can extend the range
+6 of measurement and
+. Box sense the physical variables. What is
+If R across the terminal o Resistance’ is the difference between the decibel . (dB) and
+the relative ive limiting error involved decibel-milliwatt (dBm) measurement ?
+4739 Q, then determine limitin;
+in in this thi measure! ment ! (b) The half wave restifier electronic Voltmeter circuit in
+following the
+(d) How the limiting error is calculated when fig, uses a meter with a FSD current of | mA,
+The meter coil resistance is 1.2 kQ. Calculate the value of
+@ ‘Two or more variables are added rat R, that will give
+meter full scale pointer deflection when
+(ii) Product of two or more variable | ac input voltage is 10OmV (ms). Also determine the meter
+deflection when the input is 50
+(iii) Composite factor. mV. _
+of current
+The value of an unknown R is calculated in terms
+drawn by it and the power it dissipates. If the limiting
+and currentare 1.
+involved in the measurement of power
+| and 1% respectively. The relative limiting error in the
+measurement of R is ?
+with of + 10% carmies | a
+(e) An 820 Q resistance an accuracy
+curren! t of 10 mA. The current was measured by an analog
+25 . mA With an accuracy of + 2% 0, of
+eter on a range. dissipated
+full scale. Calculate the power os in . the resis
+— _— |
+(c) An opamp meter shown in fig. is required to measure
+maximum input
+of 20 mV. The opamp input current is
+EEC403/DPC-48008 | EEC403/DPC-48008 ome
+|
+\\
+0.2 »A and the meter circuit has Im = 100 pA FSD and (d) The 3 impedances of AC Bridge are z, = 200 Q < 60, z, =
+R,, 10 kQ. Determine suitable resistance value for R, 400 2 <90, 300 © <0, ? When Bridge is
+= z, = | z, =
+Balanced ?
+fig.
+2
+3
+3. Attempt any four parts of the following : (5x4=20) fig.
+diagram of (e)
+(a) Explain the working, principle and phasor How the voltmeter ammeter is used in measurement of
+Maxwell's capacitance Bridge. medium Resistance and low Resistance ?
+(b) Explain the Budge method to measure the low resistance. (f) How the sources and detectors are determined according
+What will we have to do to minimize the effect of lead to f range used in AC Bridge ? Write Balance condition
+resistance ? for AC Bridge.
+(c) How the capacitance value is measured with the help of 4. Attempt any two parts of the following : (10x2=20)
+De-Sauty's Bridge This Bridge is used for whic of (a) Determine the time/division for
+? minimum sensitivity an
+capacitor . 9 oscilloscope . that is to be used investigate 50 MHz
+waveform. Assume that the time base magnifier expands
+the horizontal display by a factor of 5.
+EEC403/DPC-48008 [Turn Over
+EEC403/DPC-48008 4 5
+)
+(b) A IV signal with resistance of RS 600 Q is (b) Sx. circuit for calibration
+a source = of wattmeter and dexpl explain
+connected to an oscilloscope which has an input impedance the calibration procedure.
+of R, = 1 MQ in parallel with C, = 30 pF. The coaxial cable (c) Determine the di splayed rise a
+time when Pulse pul Waveform
+has a capacitance of C,. = 100 pF. Calculate the with a rise time of 21 ns is applied to an oscilloscope
+oscilloscope terminal voltage (V,) when s/g f is 100 Hz. has an upper cut off frequency that
+Also determine the f at which V, is 3 dB below V.. of
+20MHzand
+(c) Sketch the Block diagram of CRO and explain the working (i) 50 MHz.
+of it : What is the utility of input attenuator ? How is the
+loss of leading line occurred ?
+Attempt any two parts of the following : (10x2=20)
+_ readings
+(a) Forthe 10 in the calibration chart in figure
+below. Determine the instrument accuracy as a percentage
+of the reading and as a percentage of full scale.
+Precise Voltage Correction
+‘Scale reading
+100 103 +3
+90 3 | +3
+80 82.5 +2.5
+70 72.5 +25
+60 62 +2
+50 51.7 +1.7
+40 +15
+445
+30 310 +1
+20 19.7 -0.3
+10 9.5
+0 0 0
+EEC403/DPC-48008 6 7
+8300

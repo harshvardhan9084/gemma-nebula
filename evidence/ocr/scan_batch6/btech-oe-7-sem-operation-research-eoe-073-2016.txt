@@ -1,0 +1,88 @@
+Printed Pages: 6 638 EOE-073 (g) What is float ? What are the different types of
+floats’?
+(Following Paper ID and Roll No. to be filled in your
+Answer Book) (h) Distinguish between PERT and CPM.
+Paper ID : 199373 Roll No. (i) What is looping and dangling in network diagram ?
+|
+B. Tech.
+(j) Discuss the various costs involved in an inventory
+(SEM. VII) THEORY EXAMINATION, 2015-16 model.
+OPERATION RESEARCH Scction B
+-
+[Time:3 hours] [Total Attempt five questions fram this section:
+any
+Section -A 2. Solve the following
+problem graphically
+1. Attempt all parts. All parts carry equal marks. Write Maximize Z = —-X,+2Xx
+of each in short (2x10=20) 2
+answer part : Subject to constraints
+linear programming ?
+(a) What is (i) x, —x, <2 and x,,x, <0
+feasible solution
+(b) What of an LP 3. Approximation Method (VAM) to find initial
+problem ?
+basic feasible solution to the transportation problem.
+(c) What is basic solution of an LP problem ?
+(d) What is degeneracy in transportation problems ?
+What is by unbalanced transportation
+(e) meant
+problem ?
+(f) What are assignment problems ? Give two
+applications.
+10200 (1). 10200 (2) EOE-073
+A that operates for 50 weeks in is
+A department of a company has five employees with five company a year
+jobs to be performed. The time (in hours) that each man concerned about its stock of copper cable. This costs
+Rs. 240 a meter and there is a demand for 8,000 meters
+takes to perform each job is given in the effectiveness
+matrix. a week. Each replenishment costs Rs. 1,050 for
+administration and Rs. 1,650 for delivery, while holding
+Employees estimated 25 of held
+costs are at per cent value a year.
+Assuming no shortages are allowed, what is the optimal
+inventory policy for the ?
+company
+How would this analysis differ ifthe company want to
+maximize its profits rather than minimize cost ? What
+profit if the cable for
+is the gross company seils the
+Rs. 360 a meter ?
+Define : (i) Competitive game (ii) Payoff matrix
+Activities mixed strategies (iv)
+Predecessor (iii) Pure and Saddle point and
+Activity (v) Optimal strategies
+Section C
+Briefly explain the different phases of project -
+management. Attempt any two questions from this section. (15x2=30)
+whose payolfmatrix if given below 10. Use the simplex:method to solve the following LP
+Solve the game :
+problem :
+Maximize Z 3x, + 5x, + 4x,
+=
+Subject to constraints
+(i) (ii)
+2x,+3x, <8
+(ili) and
+3x, +2x,+4x, <15 x,,x,,x, 20
+10200 PT.O. 10200 (4) EOE-073
+a]
+8 |
+the shipping has worked
+The shipping clerk of agency
+out the following schedule, based on his own experience:
+A to Q. | unit from A R, 9 units from A
+12 units from to
+to S, 15 units from B to R, 7 units from C to P and | unit
+C toR.
+from
+(a) Check and clerk has the optimal schedule.
+(b) Find the optimal schedule and minimum total
+transport cost.
+(c) Ifthe clerk is approached by carrier of route C to
+a
+Q who offers to reduce his rate in the hope of
+getting business, by how much should the
+some
+rate be reduced before the clerk would offer him
+the business.
+10200 (6) EOE-073

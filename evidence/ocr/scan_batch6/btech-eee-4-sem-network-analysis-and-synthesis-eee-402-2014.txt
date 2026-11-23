@@ -1,0 +1,112 @@
+EEE402
+Printed Pages—8
+(Following Paper ID and Roll No. to be filled in your Answer Book
+PAPER ID : 121406 el
+B.Tech.
+(SEM. IV) THEORY EXAMINATION 201 3-14
+NETWORK ANALYSIS & SYNTHESIS
+Total Marks 100
+Time : 3 Hours :
+Note :— Attempt alll questions. Each question.carries equal marks.
+1. Answer any two parts of the following : (10x2=20)
+(a) (i) What do by "GRAPH" and "ORIENTED
+GRAPH" you in circuit mean theory ? What the advantages
+and disadvantages of graph theory are approach over
+conventional approaches ?
+(ii) Derive the KCL and KVL using graph theory.
+(b) The fundamental cut-set matrix is given as :
+CUT-SET/
+BRANCHES
+C,
+(i) Draw and explain the oriented graph of the network.
+EEE402/DQJ-21217 1 [Turn Over
+the "INCIDENCE MATRIX" of the (b) Consider the network shown in Fig. 3.
+(ii) Determine network.
+and 2.
+(c) Consider the network shown in Fig. 1
+eM ——_—
+2L
+aT
+Fig. 1. network
+Fig. 3
+Find the Thevenin's equivalent circuit across the
+AB-terminals of network. Also find Norton's equivalent
+1H
+circuit across the AB-terminals of same network from
+loo Thevenin's equivalent circuit.
+(c) Consider the network showin in Fig. 4.
+Fig. 2. network
+Draw and explain the dual of the networks shown in Fig.(1)
+and (2).
+2. Answer any two parts of the following : (10x2=20)
+(a) Explain why "SUPER-POSITION THEOREM" is not
+applicable for power and energy verifications of a given
+networks ? Explain the following:
+(i) LINEARITY PRINCIPLE
+(i) HOMOGENEITY PRINCIPLE.
+2 3 [Te
+‘urn Over
+—
+.
+(i) What should be the value of Z, for maximum power (c) Consider the network shown in Fig. 6.
+transfer from source to load in network shown in Fig. 4?
+(ii) What is the value of maximum power transfer from source
+in network shown in Fig. 4?
+to load
+3. Answer any two parts of the following : (10x2=20) t
+(a) What do by "POLES" and "ZEROS" of a given
+you mean the significances
+network limitations transfer function ? What are
+and of network transfer functions ? Explain the
+complex frequency in circuit theory.
+Consider the network shown in Fig. 5.
+(b) Fig. 6
+(i) Find ,, (s) & G,, (s)
+(ii) Find Y,,(s) & Z,, (s)
++ \ 4, Answer any . two parts of the following : (10x2=20)
+(a) Consider the network shown in Fig. 7.
+V \
+.
+Vv
+_
+Fig. 5
+¢
+c
+Find Vv. for network shown in | Fig. 5. Also draw and
+1
+Vv,
+explain the pole zero diagram of Vv. and check its absolute
+f Fig. .
+stability of network.
+EEE402/DQJ-21217 4 EEE402/DQJ-21217 5 [Turn Over
+two-port
+Determine I, & L, in function of V, and V.,. Determine the [z] & [y]- parameters of network
+shown in Fig. 9.
+(ii) Determine V, & V, in function of I, and L.
+(b) Consider the network equations shown in Fig. 8. 5. Answer any two parts of the following : (10x2=20)
+(a) you mean by POSITIVE REAL FUNCTION" ?
+What are the properties associated with PRF ? What are
+‘the significances of PRF ?
+(b) Consider the single port network as shown in Fig. 10.
+iS
+205
+Determine the [h] & [g]- parameters of two-port network
+shown in Fig. 8.
+(c) Consider the two-part network shown in Fig. 9.
+1H 14
+Fig. 10
+at (i). Determine Foster Second forms.
++ \
+_ if - _ (ii), Determine Cauer Second forms.
+‘7 (c) G) What do you mean by "ACTIVE" and "PASSIVE"
+filters ? What are the advantages and disadvantages
+of active filters passive filters ? Discuss the
+over
+different types of active and passive filters.
+Fig. 9
+EEE402/DQJ-21217 6 EEE402/DQJ-21217 7 [Turn Over
+(ii) Consider the function F(s) as follows :
+F(s)=
+Where a, B, a’ & B'>0
+What should be the conditions when F(s) is PRF ?
+EEE402/DQJ-21217 8 6650

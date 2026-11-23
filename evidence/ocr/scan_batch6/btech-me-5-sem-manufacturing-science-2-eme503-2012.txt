@@ -1,0 +1,68 @@
+Printed Pages—4 EMES03
+(f) Differentiate between welding, brazing and soldering
+processes. Which process results in the strongest joint and
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+why ? PAPER ID : 2103
+5. Answer any two of the following : (2x10=20) B.Tech.
+(a) What is "Explosive" welding ? Which explosives are (SEM. V) THEORY EXAMINATION 2011-12
+commonly used ? Describe an explosive welding set-up. MANUFACTURING SCIENCE—II
+Will the bond strength between two materials joined by
+Time : 3 Hours Total Marks : 100
+explosive welding process be as high as that obtained by
+conventional welding techniques and why ? Note :—Attempt all questions. They carry equal marks.
+1. Answer any four of the following : (4x5=20)
+(b) Describe the principle of ECM process. What is meant by (a) Describe the mechanics of chip-formation. Derive
+"current-density" and current-efficiency ? What is the an
+expression for shear strain in a chip, assuming orthogonal
+object of masking ? What are the advantages associated cutting.
+with this process ? (b) What is meant by "cutting-speed" ? What are the
+(c) (i) Describe the use of Laser beams in welding and recommended values of cutting speed for turning mild steel
+machining processes. with H.S.S. and Tungsten carbide tools ? If turning is done
+at higher than recommended speeds, what harm is there ?
+(ii) Give of electron beam machining. Mention Write "wear" of tools. What the locations,
+typical applications. What advantages and (c) note on are
+some where wear usually occurs ? How can the tool wear be
+disadvantages are associated with this process ? minimised ?
+(d) While machining 20 diameter thin pipe lathe, the
+a mm ona
+length of chip for one revolution of pipe was measured and
+found to be 40 mm long. Tool had a rake angle of 10°.
+Determine the shear angle.
+EMES03/KIH-26175 4 12150 EMES03/KIH-26175 1 [Turn Over
+>
+(e) What are the values of shear angle as predicted by theories (b) Justify the common saying that recommends use of hard
+propounded by (i) Ernst-Merchant, (ii) Lee and Schaffer, wheels for soft materials and vice-versa. What is meant
+and (iii) Stabler ?
+What assumptions were made by Ernst-Merchant, by G-ratio ?
+which the value of shear-angle based ? (c) What is the advantage of centreless grinding ? Describe
+on was this process. Why is it called centreless ? Explain the terms
+(f) What is the difference between T-series and M-series of
+high speed steel ? Mention the approximate chemical (i) through feed (ii) Infeed and (iii) End feed.
+composition of at least one T-series and one M-series (d) How is surface finish expressed quantitatively ? Describe
+the C.L.A. and R.M.S. methods of doing What is the
+so.
+difference between surface texture and surface finish ?
+Answer any two of the following : (2x10=20) (e) Describe briefly "honing" process. What is the object of
+(a) What time saving devices are provided in the design of a
+capstan lathe in comparison with a centre lathe ? Explain this process ?
+what is a tool layout chart. State and explain Taylor's principles of gauge design.
+(b) Calculate the time required for drilling 20 diameter
+a mm
+hole in a 15 mm thick m.s. plate. A feed rate of 0.15 mm 4. Answer any four of the following : (4x5=20)
+per revolution and a lip angle of 118° for the twist drill may (a) Describe the essential difference between leftward and
+be assumed. Cutting speed for m.s. = 25 metres/minute.
+(c) Describe the mechanism of a dividing head and explain rightward gas welding techniques.
+how it is used for indexing work-piece blank. (b) What is meant by "heat affected zone" in welding ? What
+a e.g., a gear metallurgical changes may take place in this during
+Explain the difference between simple indexing and zone
+compound indexing. arc welding of medium carbon steel and how can sound
+welding be done ?
+Answer any four of the following : (4x5=20) (c) What the functions of electrode coating ?
+What the abrasives used in are
+(a) are common a grindging wheel ? (d) What is the principle of E.R. W. process ? Describe a typical
+Which abrasives are recommended for grinding (i) medium E.R.W. process cycle for spot welding.
+carbon steel and (ii) brass ?
+What is meant by GRIT size and state its effect on (e) Describe the submerged arc welding process. What are
+ground surface. the advantages and disadvantages of this process ?
+EMES03/KIH-26175 2 EMES03/KIH-26]75
+3 [Turn Over

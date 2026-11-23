@@ -1,0 +1,100 @@
+Printed Pages : 7 UPTUonline.com
+0 ll (d) Find the Norton equivalent circuit of the
+NEC-301 circuit in Figure at terminals a-b.
+(Following Paper ID and Roll No. to be in your Answer Book)
+PAPER ID : 131312
+B. ‘Tech.
+(SEM. III) (ODD SEM.) THEORY
+EXAMINATION, 2014-15 (e) For the network shown, before the switch
+NETWORK ANALYSIS AND SYNTHESIS moves from a to b, steady state conditions
+prevailed. Find the current i(t).
+Time : 3 Hours] . {Total Marks : 100
+Note : (1) Attempt All Questions.
+(2) Assume suitable data if missing.
+1 Answer any four parts of the following 4x5= 20
+:
+(a) Write the condition for a system to be causal.
+Is causal physically realizable
+system or not.
+(b) What do you mean by linear time invariant (f) Prove the convolution theorem and find the
+convolution of rectangular pulses of width
+system? Also differentiate between lumped two
+and distributed elements. T and amplitude A.
+(c) Write the statement of Norton and Thevenin’s
+theorem. In which type of networks these 2 Answer any four parts of the following ; 4x5=20
+are (a) Write the properties of L-C driving point
+not applicable?
+functions.
+131312]
+1 [| Contd... 131312} 2 [| Contd...
+ne (f) Obtain for the network shown.
+(b) Prove that poles and zeros of driving point Wry
+functions be interlace for of if
+must any one the
+combinations (R-C, L-C, and R-L).
+(c) What do mean by system function? What
+you
+are different types of the system function?
+Also define the impulse and step response of
+system. of the following 2x10=20
+a 3 Answer any two parts :
+(a) What do you mean by positive real function?
+(d) What do you mean by complementary function point function should be positive
+and particular integral in the solution of a Why a driving
+real to be realizable? Find the conditions of
+differential equation? a, b and c such that the following function is
+positive real function.
+(e) For the circuit in Figure find:
+S 2 +a,8 ’ +a
+(i) i, (0*), Vz. 07), Ve (0°) F(s) =>
+S
+ii) Vi O, Vy OF) Why Y- parameters are called short circuit
+(b) of the
+parameters? Find the Y- parameter
+following network.
+2t
+Ry + "Re 2f
+10 1Q
+it 22
+131312] 4 | Contd...
+131312] 3 { Contd...
+driving point
+(c) In the given network =e! for ¢>0 and (b) Discuss the properties of R-C
+is zero for all <0 if the capacitor is initially impedance function and R-L driving point
+¢ impedance function. Find the voltage
+—2 ? alli 3, nodes and b.
+uncharged, find the value of and dt a
+dt 62
+a y
+20 (+)30V
+SR
+(c) List the properties of a transfer function.
+Synthesize the following transfer function in
+the form of a L-C network.
+Z(s) (5)
+4 Answer of the following +4542
+any two parts 2x10=20
+(a) What do you mean by residue condition in 5 Answer two parts of the following - 2x10=20
+terms of transfer function? Show any
+that the (1) Which of the following functions are L-C
+residue condition holds for the following driving point impedances?
+network.
++16]
+1Q 3h 20)= +9)(s +25)
+i) (s
+gy s(s +4)
+1’ 2’
+Also Synthesis the network.
+131312] 131312] 6 | Contd...
+(b) Discuss briefly the active network synthesis.
+Determine the damped natural frequency,
+damping ratio and dc gain of the following
+transfer function.
+S*+ aS +a
+Also represent this transfer function in terms
+of block diagram.
+(c) Obtain active RC realization of the band
+an
+pass voltage transfer function
+28
+S°4+38+4

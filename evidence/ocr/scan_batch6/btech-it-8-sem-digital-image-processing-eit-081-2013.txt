@@ -1,0 +1,57 @@
+Printed Pages—2
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2934
+B.Tech.
+EVEN THEORY EXAMINATION 2012-13
+DIGITAL IMAGE PROCESSING
+Time : 3 Hours Total Marks : 100
+Note Attempt all questions. All questions equal marks.
+Attempt :— carry
+1. any four parts of the following : (5x4=20)
+(a) What do you mean by digital image representation ?
+(b) Compare and contrast between linear spatial filtering and
+nonlinear spatial filtering.
+components
+(c) Describe system. various of an processing
+(d) Describe the basic steps Discrete Fourier
+Transform (DFT) filtering.
+(e) Explain the process of lowpass frequency domain filters in
+image enhancement.
+(f) Describe the working of Gaussian highpass filter by taking
+a suitable example.
+_2. Attempt any two parts of the following : (10x2=20)
+What do you mean by image subtraction and image
+averaging operations ? Why we need image subtraction
+and image averaging operations in image processing ?
+(b) Explain Laplacian filter.
+EIT081/DPC-48079 [Turn Over
+equalization
+(c) What is histogram ? Explain briefly.
+3. Attempt any two parts of the following : (10x2=20)
+- (a) What do you mean by image restoration ? Describe image
+restoration process by a model of image degradation and
+subsequently image restoration.
+(b) Describe the principle of filter in image processing.
+mean
+Differentiate between arithmetic mean filter and geometric
+mean filter.
+(c) How the noise parameters are estimated in spatial
+domain ?
+4. Attempt any two parts of the following : (10x2=20)
+(a) Describe the fundamental operations of morphological
+image processing.
+(b) Explain opening and closing operations for gray-scale image
+processing.
+0) Explain the following algorithms in detail :
+(i) Boundary extraction
+(ii) Region filling.
+5. Write short notes on any four of the following : (5x4=20)
+(a) Image registration
+Region extraction
+detection algorithm
+(c) Edge
+(d) Line detection algorithm
+(e) Image thresholding
+(f) Image interpolation.
+EIT081/DPC-48079 5175
+.

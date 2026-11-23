@@ -1,0 +1,72 @@
+www.aktuonline.com
+Printed Pages : 3
+NAN A
+FEC034
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 131854
+B. Tech.
+(SEM. VIII) THEORY EXAMINATION, 2014-15
+INTEGRATED CIRCUIT TECHNOLOGY
+Time : 3 Hours] [Total Marks : 100
+Note All questions compulsory:
+: are
+1 Attempt four 5x4=20
+any parts:
+(a) What is Moore's law? Describe the terms SSI,
+MSI, VLSI and ULSI.
+(b) Describe the obtain Electronic Grade
+process to
+Silicon along with the proper diagram.
+(c) What is Czochralski method? Explain it.
+(d) What is Epitaxy and how it is different from
+Czochralski process? Differentiate between homo
+and hetro epitaxy.
+(e) Explain Molecular beam epitaxy along with its
+advantages and disadvantages.
+(f) What is the concept of silicon on insulator?
+Explain it.
+131854] 1 [ Contd...
+www.aktuonline.com
+2 Attempt four parts 5x4=20
+any :
+(a) Why oxidation is done in CMOS technology?
+Explain.
+(b) Explain the silicon oxidation model.
+(c) What is Lithography and what are its different
+types?
+(d) Explain various oxidation techniques along with
+their advantages and disadvantages.
+(e) What are the different types of photoresist
+used in optical lithography? Explain their
+properties.
+(f) Explain Hot-wall reduced CVD reactor
+pressure
+used for deposition purpose.
+3 Attempt any two parts : 10x2=20
+(a) What is diffusion? Explain Fick's dimensional
+one
+diffusion equation along with the solutions.
+(b) What is ion implantation? Explain along with the
+proper diagram. What is annealing and why it is
+done?
+(c) What is sheet resistance? Explain four-point
+probe technique of measuring the sheet resistance.
+131854] 2 [ Contd...
+www.aktuonline.com
+4 Attempt any two parts: 10x2=20
+(a) What are the device properties of metallization
+for integrated circuits? What is multi level
+metallization and its advantages.
+(b) What are the different package types used for
+VLSI devices? What are the different packaging
+design considerations?
+(c) Explain the physical vapour deposition method
+along with the proper diagram.
+5 Attempt any two parts : 10x2=20
+(a) Explain the steps of fabrication process for
+NMOS IC technology.
+(b) What are the special considerations for the
+fabrication of CMOS ICs?
+(c) Discuss in detail the monolithic and hybrid
+integrated circuits.
+131854] 3 [ 1025 ]

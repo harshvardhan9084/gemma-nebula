@@ -1,0 +1,227 @@
+AD
+Printed Pages : 7 TEE - 401
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+Roll | | TET ET
+B. Tech.
+(SEM. IV) EXAMINATION, 2008-09
+_ELECTROMECHANICAL ENERGY CONVERSION - I
+Time 3 Hours] [Total Marks 100
+: :
+Note : (1) Attempt all questions.
+(ii) Each question carries equal marks.
+1 Attempt any two parts of the following :
+(a) (i) Describe the principle of energy 2x5
+coversion. From a consideration of the various
+energies involved, develop the model of an
+electromechanical energy-conversion device.
+(ii) For a linear magnetic circuit, derive the
+following relations for the stored magnetic
+Wria
+energy Wyq and co-energy
+1, 1 1 FY 2
+' 2 Joules
+where
+F Instantaneous mmf
+= flux
+y = Magnetic linkage
+2051] [Contd..
+uptuonline.com
+uptuonline.com uptuonline.com
+= Instantaneous flux
+RI = Reluctance
+i Instantaneous current
+=
+L = Self-inductance.
+(b) For the simple magnetic relay of Fig. 1. (b), 110
+the variation of flux linkage w in terms of
+current i and displacement x from the open
+by the relation
+position is given w
+obtain an expression for the magnetic force.
+North Open
+f / +; Position
+Iron
+armature
+Pivot
+Fig. 1. (b)
+(c) (i) the advantages of analysing energy 2x5
+conversion devices by field-energy concept?
+(ii) Describe the principle of virtual work
+and hence show that the magnetic force
+f, is given by
+~OWna —O = OWna
+(6,2)
+Ox
+Above terms have usual meanings.
+2051] ees [Contd..
+uptuonline.com
+of the following uptuonline.com
+any two
+(a) (I) Give the materials and functions of 2x5
+the following parts of a DC machine :
+(i) Field poles
+(ii) Yoke
+(iv) Commutating Poles
+(v) Armature.
+(il) Explain lapwinding with suitable example.
+(b) A 2-pole de shunt generation charges a 1x10
+100-V battery of negligible internal resistance.
+The armature of the machine is made up of
+1000 conductors, each of 2 milli-ohm resistance.
+The charging currents are found to be 10A
+and 20A for generator speeds of 1055 and
+1105 rpm respectively. Find the field circuit
+resistance and flux pole of the generator.
+per
+Neglect armature reaction effects.
+(c) (i) The effect of armature reaction is to 2x5
+decrease the flux under pole tip and
+one
+to increase it under the other pole tip.
+Explain this with respect to a de generator
+by using the developed view of armature
+sheet and poles.
+current
+(ii) What are interpoles? Why are the
+interpoles designed to provide mmf more
+than the armature mmf in the commutating
+zone?
+2051] [Contd..
+uptuonline.com
+uptuonline.com uptuonline.com
+3 Attempt any two parts of the following
+(a) (i) Draw the speed-torque characteristics of 2x5
+dc. shunt, series and compound motors
+in figure and them. Which
+characteristic one is compare for
+more suitable traction
+purposes and why ?
+(ii) A 6-pole 230 V dc. series motor 2x5
+has flux , pole of 4 mWb / Amp
+a per of
+over the working range the
+magnetization curve which is assured
+to be linear. The load torque is
+proportional to speed squared and its
+value is 20 Nm at 800 rpm. There are
+432 wave-connected conductors and the
+total resistance of the motor is 10Q.
+Determine the motor speed and current
+when this motor is connected to rated
+supply voltage.
+(b) (i) A 250 V, 15 kW, shunt motor has 2x5
+a maximum efficiency of 88% and
+a speed of 700 rpm, when delivering
+80% of its rated output. The resistance
+of its shunt field is 100 Q. Determine
+«
+the efficiency and speed when the
+motor draws a current of 78 A from
+mains.
+(ii) Explain in brief how efficiency is obtained
+from HOPKINSON'S Test.
+2051]
+[Contd..
+uptuonline.com
+(c) A dc. shunt motor is connected to
+starter. Explain what would happen if :
+(i) The starter handle is moved rapidly from
+OFF to the ON position
+(ii) The field circuit is open and an attempt
+is made to start the motor.
+(iii) The field circuit becomes circuit
+open
+with the motor running at no-load, with
+the assumption that the starter is not
+provided with the no-volt release and the
+spring.
+(iv) The starter handle is pulled back to stop
+the motor.
+(v) There is sudden overload of 100%.
+a
+4 Answer any two of the following :
+(a) (i) Explain how the 3-phase core type 2x3
+transformer was evolved from three single-
+phase core type transformers having both
+their windings on one leg.
+(ii) In 3-phase shell type transformers, a
+considerable economy is achieved in the
+core material if the middle phase winding
+is wound in the reversed direction as
+compared with the phase
+outer two
+windings. - Explain.
+2051] (Contd..
+uptuonline.com
+uptygnline.com
+Describe in detail the four phasor
+groups pertaining to 3-phase transformers. Draw
+the phasor diagrams and connection schemes
+for each of these four groups.
+(c) (i)  Scott-connected transfomers supply 2x5
+two single-phase loads at 100 V. The
+load the teases secondary is
+across
+300 kW at unity power factor and
+that across the main secondary 1s 200 kW
+at 0.8 factor lagging. For
+power a
+3-phase input voltage of 11000 V,
+calculate the primary line currents and
+the leakage impedance drops
+are
+ignored.
+transformers,
+(ii) In open-delta show that the
+secondary line voltages form a balanced
+3-phase system of voltages, in case the
+suppy voltages are balanced.
+5 Answer any two of the following :
+(a) (i) In Sumpner's test, the reading of the 2x5
+wattmeter recording the core losses,
+remains unaffected when low-voltage is
+injected in the secodanry series circuit.
+Explain.
+-
+2051] [Contd..
+uptuonline.com _
+uptuoniine.com
+(ii) Explain why the exciting
+single-phase transformers contains
+harmonics even when the supply voltage
+is Sine
+a wave.
+(b) (i) Discuss the conditions for the 2x5
+necessary
+successful parallel operation of single-
+phase transformers. How check
+can you
+these conditions?
+(11) Two single-phase transformers rated
+unit
+1000 kVA and 500 kVA have per
+leakage impedanace of (0.02+j0.06)
+and (0.025+0.08) respectively. What is
+the largest kVA load that can be
+delivered by the parallel combination of
+these two transformers without
+overloading any one.
+(c) (i) Discuss the relative merits and 2x5
+demerits of an auto-transformer.
+(ii) A 2000/1000/S00 V, single-phase three
+winding transformer is to be used
+as an
+auto-transformer, with supply voltage of
+3000 V. Two loads, one of 1050 kVA at
+2051] M7 [Contd..
+$$
+uptuonline.com uptuonline.com
+3500 V and the other of 180 kVA at
+1000 V, be energised from this
+are to
+auto-transformer output. Draw a suitable
+diagram of connections and find the
+currents in various parts of the circuit.
+Assume the loads to have the same power
+factor.
+uptuonline.com

@@ -1,0 +1,63 @@
+Printed = [_ 594 ] (f) Distinguish between solenoid and toroid.
+(Following Paper ID and Roll No. to be filled in your and State
+Answer Book) (g) Define Poynting vector Poynting
+Theorem.
+Paper ID
+(h) What is skin effect?
+B.Tech.
+(SEM. THEORY EXAMINATION, 2015-16 (1) How avoid the frequency distortiion that
+to occurs
+ELECTROMAGNETIC FIELD THEORY in the line?
+{Total Marks: 100] (j) What is Impedance
+Section-A
+Section-B
+| Attempt all parts. All parts carry equal marks. Write
+answer of each part in short (10x2=20) Attempt any five questions from this section. (5x10=50)
+(a) State the conditions for a field to be solenoidal é. > State and explain Maxwell's equations. Discuss its
+physical significance.
+and irrotational.
+Enlist the
+(b) Transform the point P (-2, 6, 3) in spherical properties of conductors, dielectrics and
+coordinate system. semiconductor and obtain an expression for continuity
+current relation.
+What the various of charge distribution?
+(c) are types State the divergence theorem. the flux of
+Give an example for each. Determine
+D=p' cos’ +Zsinga, the
+(d) State the of Gauss’s law. over closed surface
+of Cylinder Verify the divergence
+Give dissimilarity between electric and theorem for this
+(¢) any one case.
+magnetic circuits
+2850 (1) PT.O. 850 (2) EEC-303
+Section-C
+Write the Laplacian equation in all three coordinate
+system. Find the potential function and Attempt any two questions from this section. (2x15=30)
+intensity for the electric field
+region between two concentric right
+circular cylinder where V=Vo at r=a and V=( at r=b 10. Discuss the solution of plane wave equation in
+(b>a)? conducting media (Lossy Dielectric). Derive the above
+Derive the expression for inductance up to propagation constant, attenuation constant and
+co-axial per unit length of phase
+conductor. A current filament of 2.5 A is placed constant.
+along z axis and current in the directiion of a. then
+calculate the magnetic flux Define displacement and conduction current densities.
+crossing the portion of plane
+defined by and Derive the boundary conditions between
+0.05 dielectric (e,,) interfaces.
+Derive the expression of reflection and transmission Define transmission loss. reflection loss and retum loss.
+coefficients. Derive the relation between two. The 600 ohms lossless transmission line is feeded by
+50 ohms generator. If the line is 200m long and
+A distortion less line has Z, = = 20mNp/m terminated by load 500 ohms. Determine in dB (1)
+u=0.6c, where is the speed of light in reflection loss, (ii) transmission loss, and (iii) return
+c vacuum. Find R,
+L,.GCand 7 at 100 loss.
+A30m long transmission line with
+Z,= operating
+at 2 MHz is terminated with a load Z, =60+j40ohms. If
+the velocity of the v=0.6c
+reflection wave on the line, find the
+coefficient I- standing wave ratio and input
+impedance.
+(3) P-T.O. 2850
+(4) EEC-303

@@ -1,0 +1,64 @@
+Printed Page: | of 2
+Subject Code: BEC601
+Paper [0 : 250538 Roll No
+(SEM EXAMINATION 2024-25
+TAL COMMUNICATION
+TIME: 3 HRS M.MARKS: 70
+Note: Attempt all Sections. In case of any missing data, choose suitably.
+1. SECTION A
+Attempt all uestions in brief. 02x7=14
+Question a
+What is a random variable? How is it related to the concept of probability in
+communication systems?
+What do you mean by the mean and variance of a random variable?
+Compare PSK and FSK modulation techniques.
+What is a digital communication system? Mention any two advantages over
+analog communication systems.
+Keying What is (BPSK) the expression for the Bit Error Rate (BER) of Binary Phase Shift
+List any two application in an AWGN of Direct channel? Sequence
+|g. | What by signal representation Spread Spectruin (DS-SS) systems.
+is meant space of signals?
+SECTION B
+2. Attempt any tree of the following: a
+he
+| a._|
+What do you understand by statistical averages? Explain all ils properties.
+Describe scrambler and unscrambler with the help of suitable diagram.
+Explain constellation the working dia principles of ASK, FSK. and PSK modulation schemes w
+of the following: SECTION C
+Attempt any one part 07x 1=07
+Define Power Spectral Density state its relationship with the
+autocorrelation function,
+Gad
+a Explain the Gram-Schmidt orthogonalization procedure used in signal space
+Explain analysis. the of
+the important concept properties line good coding line in code digital should communication systems. data What are
+1010101, draw the waveform a representations using: have? For a binary stream
+1. Unipolar NRZ
+Il. Polar NRZ https://www.pyqonline.com
+QP25EP1_641 | 30-May-2025 1:32:30 PM | 122.252.241.22
+https://www.pygonline.com
+Printed Page: 2 of 2
+(SEM VI) BTECH
+DIGITAL THEORY EXAMINATION 2024-25
+TIME: 3 HRS COMMUNICAT men
+M.MARKS: 70
+5. Attempt of the following:
+any one part
+Explain the working principle of QPSK modulation with Mathematical
+representation of the QPSK signal, Constellation diagram and its significance,
+Expiain the modulation and demodulation pzggess of Binary Amplitude Shift
+Keying constellation (BFSK) diagram with for the BASK help of neat block diagrams. Also, sketch the
+Attempt any one part of the
+(CO
+Derive known signal the impulse response and frequency response of a Matched Filter for a
+Compare the Bit s(t). Error Rate (BER) performance of Binary ASK (BASK), Binary
+FSK (BFSK), and Binary PSK (BPSK) in an AWGN channel. Also, justify why
+BPSK is preferred over BASK and BFSK in most practical systems.
+Attempt an part of the following: .
+Define and explain the concept of Mutual Information in the context of
+communication systems.
+Find the code word } for length symbols by using Shannon Find Fano the for code the_ 5 .
+Redundancy {0.4,0.2,0.2,0.1,0.1} and variance of the:code of the code. e iciency, |)”
+ag
+641 | 30-May-2025 1:32:30 PM | 122.252.2.

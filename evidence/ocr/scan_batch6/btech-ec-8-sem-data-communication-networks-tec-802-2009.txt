@@ -1,0 +1,76 @@
+AT
+Printed Pages : 3 TEC 802
+-
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 0386
+B. Tech.
+(SEM. VIID EXAMINATION, 2008-09
+DATA COMMUNICATION NETWORKS
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+(3) Be precise in your
+(4) No second answer. book will be provided.
+answer
+1 Attempt four of the following: 5x4=20
+any
+(a) Discuss design issues for the layered
+architecture of data communication.
+(b) Classify service primitives. Define protocol.
+Discuss the service primitive, used for
+connection oriented services.
+(c) Compare
+EIA RS-232C and ETA RS-449.
+(d) Discuss the specifications of Ethernet.
+(e) What is Multiplexing ? Compare TDM and FDM.
+(f)
+Discuss the salient features of Hybrid switching
+with relevant example.
+2 any four of the following: 5x4=20
+(a) Discuss the salient features of charter oriented
+and bit oriented protocols.
+0386] [Conta..
+(b) What is the importance of Data link layer ?
+Discuss the services it is providing to Network
+layer.
+(c) What
+are the IEEE standards develop for Local
+Area Networking ? Explain their working.
+(d) Explain the working of stopard wait ARQ and
+GO-Back, N ARQ
+(e) For p=110011 and M = 11100011, find CRC.
+(f) Differentiate between pure and slotted ALOHA.
+Show frame transmission and vulnerable time
+for slotted ALOHA and that the maximum
+utilization of slotted ALOHA prove G=1 with
+value 36.8%. occurs at
+Attempt any two of the following: 10x2=20
+(a) Discuss the design issues of Network layer with
+example. Explain Bell man-Ford routing algorithm.
+(b)
+Differentiate between open loop and closed
+loop congestion control. How traffic policing
+differs from traffic shapping ? Explain leaky
+bucket algorithm.
+(c) Discuss the role of Bridges routers Gatways
+in Internet connection. List the message types
+associated with Internet Control Message Protocol
+(ICMP).
+4 Attempt any two of the following: 10x2=20
+(a) Discuss the design issues of Transport layer.
+Explain the term connection management.
+(b) Explain TCP transmission policy and congestion
+control.
+(c) Discuss the performance issues
+Network. of computer
+0386] [Conta..
+5 Attempt four of the following: 5x4=20
+any
+(a) TCP / IP protocol suite
+(b) Addressing mechanism of TCP /IP
+(c) DNS
+(d) FTP |
+(e) SMTP
+(f) Relevance of w.w.w.
+}
+0386] 3 [ 6700

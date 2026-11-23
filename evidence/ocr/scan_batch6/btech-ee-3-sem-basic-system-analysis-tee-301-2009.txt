@@ -1,0 +1,120 @@
+http://www.uptuonline.com
+00 0)
+Printed Pages : 4 TEE-301
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2047
+B. Tech.
+(SEM. HII) EXAMINATION, 2008-09
+— BASIC SYSTEM ANALYSIS
+Time
+: 3 Hours] [Total Marks : 100
+Note : (i) Attempt all questions.
+(ii) All questions carry equal marks.
+(iii) It case of numerical problems assume
+data wherever not provided.
+1 Attempt any four parts of the following : 5x4=20
+(a) Whether following continuous-time signal is periodic
+or not ?
+cos(t) if t<0
+sin(t) if t=0
+(b) Distinguish the following system :
++ (i) Linear and non-linear systems
+- (i) and time-varying
+systems.
+(c) Input-output relationship for following continuous
+time systems is given as
+()
+(i) y(t) (8t) s(t)
+= cos
+whether the system is causal or not ?
+2047] 1
+http://www.onlineQP.com
+=
+http://www.uptuonline.com
+(d) Discuss farce-current analogy used for electrical analog
+write rules for it.
+of the mechanical systems. Also
+(e) Draw the farce-voltage analogous of the spring mass-
+damper system given in Fig. I(e).
+1 D,
+Fig. 1(e) Mechanical system
+(f) What do by electro-mechanical systems
+Discuss fundamental you mean theory of electro-mechanical .
+systems
+with suitable examples.
+2 any two parts of the following 10x2=20
+(a) Find the continuous time Fourier transform of the double
+gate function shown in Fig. 2(a) using time-shifting
+property. s(t)
+oy, T,-T2 T, T,+T/2
+Fig. 2(a) Double gate function
+(b) Find the continuous time Fourier transform of the __
+following functions
+:
+(i) Impulse function
+(ii) function
+(ii) Signum function
+(c) What are Desichlet conditions ? Also determine the
+complex exponential Fourier series for the continuous-
+time periodic signal s(t) A|sin
+=
+2047] ‘0 0 0 EE 2 (Contd...
+http://www.onlineQP.com
+http://www.uptuonline.com
+3 Attempt any two parts of the following : 10x2=20
+(a) Define Laplace transform. Give the relationship between
+Laplace transform and continuous time Fourier
+transform. Find the initial and final value of the function
+(s—2)
+if its Laplace is given by /'(s)
+(b) Determine the inverse Laplace of the following :
+s-l
+0
+s(s +1)
+s(s +1) (s+ 2)
+(c) Laplace transform of the network is given by
+3s
+H(s)
+(s +2)
+(i) Draw plot-zero plot
+(ii) Find its impulse response b(t).
+3 Attempt any two parts of the following : 10x2=20
+(a) Write various important properties of state-transition
+matrix, system matrix of a system is given by
+_1 _5
+= es Zz
+“dee
+2 5
+Find the state transition matrix o(t) of the
+system.
+(b) State space representation of a system is given by
+X= X
+—2 -3 + 1 u
+2047) 1 3 (Contd...
+http://www.onlineQP.com
+http://www.uptuonline.com
+where u(t) <> unit step function and all initial
+conditions are zero. Find the time response of
+the system.
+(c) What is diagonalisation matrix ? Obtain the state-
+space representation of the network given in
+Fig. 4(c)
+5 = Attempt any two parts of the following : 10x2=20
+(a) Determine the causal discrete-time signal f(m) for
+1+2z -1
+(z) given by f(z) 1-227)
+442%
+(b) (i) the response of the system
++1) + 2f(n) = 8(n)
+when all the initial conditions
+are zero.
+(ii) Find the initial and final values of the
+sequence f(n). Given
+(c) Define Z-transform. Give the relationship between
+Z-transform and discrete-time Fourier transform.
+Also determine the inverse z-transform for
+at -1
+with ROC : |z|<3.
+2047]
+{UNE ose 4 [5100]
+http://www.onlineQP.com

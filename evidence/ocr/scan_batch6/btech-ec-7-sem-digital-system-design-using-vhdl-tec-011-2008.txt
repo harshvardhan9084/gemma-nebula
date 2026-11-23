@@ -1,0 +1,151 @@
+* 3 0 6 / 2 9 2 5 *
+Printed Pages : 7 TEC-O11
+PAPER (Following ID Paper 0306 ID and Roll No. to be filled in your Answer Book)
+: Roll No.
+B. Tech.
+(SEM. VID EXAMINATION, 2007-08
+DIGITAL SYSTEM DESIGN USING VHDL
+Time : 3 Hours] [lotal Marks : 100
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+(3) Be precise in your answer.
+(4) No second book will be
+answer
+1 Attempt any four parts : 3x4=20
+(a) What are the logic levels described in the
+std_ulogic in IEEE-1164 package? Describe the
+of each level. What kind of hardware
+purpose
+would the symbol 'Z' translate to in a VHDL
+code? Write the Entity and Architecture for
+implementing the following function :
+f = sum m(1,2,4,6,9)
+0306) {Contd...
+(b) A Moore machine with two inputs x and y and
+one output z, has the following state table :
+NS
+Or
+Write VHDL code describe the machine
+to state at
+behavioural level. Assume gates with 5 ns delay.
+Write
+(c) VHDL code for a full adder using logic
+equations. Write VHDL code for a 8-bit full adder -
+using the module defined earlier as a component.
+(d) What is operator overloading in VHDL? Hlustrate
+with a suitable example. Write VHDL code for a
+D Flip-flop with asynchronous reset signal, and a
+clock gate signal EN. Both the signals are active
+high.
+(e) Write VHDL code for a 8-bit Johnson counter.
+(f) Write a shor. note on compilation, simulation and
+synthesis of VHDL code.
+0306) 2 [Contd...
+2 Attempt any four parts : 5x4=20
+(a) Show the block diagram for a 8-bit serial multiplier.
+Use suitable shift registers, full adders, flip-flops and
+gates. Draw the state graph for the serial multiplier
+controller and implement tt in hardware.
+(b) Write VHDL code for a 16-bit serial multiplier.
+(c) Design a multiplier to multiply two, 8-bit unsigned
+numbers. The result is a 16-bit product. Use any
+method of your choice. Show the datapath and control
+path of the solution explicitly.
+(d) Construct an ASM chart for the following state
+table. Each decision box only
+variable. Write VHDL code can for the test one machine
+state
+based on the ASM chart.
+N.S. Outputs
+PS oO Ol 10 I]
+he
+SO $3.00 $2.10 S11]
+SI S010 S110 $2.01 3.00
+S2 S3.11 SO.11 S101 S111
+S3 $2.00 $2.00 S1.10 $0.00
+0306) MT 3
+(e) Draw block diagram for a divider that divides
+8-bit dividend with 4-bit divisor and
+an a a
+suitable quotient. The dividend register is. loaded
+with a signal start = |. Construct an ASM chart
+for the control circuit.
+(f) Realize the ASM chart in part d using
+microprogram control. What will be the
+contents
+of the microprogram memory? Draw a block
+diagram of your implementation using ROM,
+multiplexers, flip-flops etc.
+3 Attempt any four parts : 5x4=20
+(a) Explain the purpose and working of
+used in
+programmable interconnects Xilinx
+FPGAs.
+(b) What ts the advantage of one-hot state assignment
+method over other methods? Where is it
+preferred? Design a '1001' sequence detector
+using assignment. JK-flip flops.
+one-hot Use
+(c) Add two floating point numbers, with 5-bit
+fraction and 5-bits exponent. F] = 1.0011,
+El = 11011, F2 =
+Also draw a flow chart for a floating point
+multiplier.
+0306) [Contd...
+multiplier.
+(d) Draw an ASM chart for a fixed point
+Define the control signals used.
+(e) Write a short note on Nilinx 3000 series FPGAs.
+binary using 3000 series
+(f) Implement an 8-bit counter
+logic cell. The counter has an asynchronous reset
+signal.
+4 Attempt any four parts 5x4=20
+(a) With the help of a block diagram, write a short
+note 6116 Static RAM.
+on
+simple model
+(b) Write VHDL code for a memory
+with 512 bytes of memory arranged in 8-bits of
+data at each location.
+Write VHDL code for simplified 486 memory
+(c) a
+bus interface unit.
+(d) For a static CMOS RAM device, explain the
+read cycle timing diagram, WE* controlled write
+controlled write
+cycle timing diagram and CS*
+cycle timing diagram.
+0306) [Contd...
+(e) How would you test a Memory device? Write
+VHDL code for a tester for a simple
+model. memory
+(f) Write VHDL code for
+testing the RAM timing
+model.
+Attempt any four parts 5x4=20
+(a) What is the standard serial data format?
+Explain all the terms. What is the
+of the typical ratio
+bit rate and bit clock frequency in a
+UART? How can the faster bit clock frequency
+improve noise immunity of a UART receiver?
+(b) Explain the operation of UART With
+of detailed block a the help
+a diagram.
+(c)
+Write VHDL code to model an ALU for a
+microprocessor to perform the following
+operations AND, OR, EXOR, Complement,
+add with add.
+carry. Assume 8-bit datapath.
+(d)
+the operation of UART transmitter
+controller with a suitable SM chart. Write VHDL
+code for the controller
+0306) 6 [Contd...
+(e) Illustrate the operation of a 68HCO0S
+microcontroller with a top level VHDL code.
+(f) Write short note on th e 6805 instruction set.
+a
+0306] 7

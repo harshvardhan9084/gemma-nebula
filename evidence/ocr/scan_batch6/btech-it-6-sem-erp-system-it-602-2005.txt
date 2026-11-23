@@ -1,0 +1,68 @@
+aktuonline.com aktuonline.com
+a
+Printed IT —602
+(Following and Roll be filled
+Paper ID No. to | | | in your [| | Answer Book)
+I
+B.Tech.
+SIXTH SEMESTER EXAMINATION, 2004-2005
+SYSTEM
+ERP
+Time : 3 Hours Total Marks : 100
+Note: Answer ALL questions.
+1. Attempt four parts of the following (5x4=20)
+any :
+S. (a) Define ERP. Discuss the reasons for the growth
+nO of ERP market.
+(b) Discuss typical integrated data model used in
+ERP implementation. a
+(c) Enumerate benefits of ERP implementation in an
+organization. Discuss any two in detail.
+(d) What is Business reengineering ? How is
+it important in ERP process implementation ?
+(e) Differentiate between data warehousing and data
+mining with suitable example.
+(f) Discuss the rules for on-line analytical processing
+system as given by Dr. E.F. Codd.
+IT —602 1 [Turn Over
+aktuonline.com
+7
+aktuonliné.comAttempt four of the following
+any parts :
+(a) Discuss the integration model for processes in a
+manufacturing organization for ERP
+implementation.
+(b) Discuss the important sub systems in HR module
+of an ERP package.
+(c) What is SSAD. Discuss its role in ERP
+inplementation.
+(d) How will you select an ERP package for a
+particular business sector ? Discuss the factors
+considered for this purpose.
+(e) Write down the phases of ERP implementation
+life cycle. Discuss the ‘gap analysis’ in detail
+(f) | Write a short note on object oriented architecture.
+3. Attempt any two parts of the following : (10x2=20)
+(a) Discuss the steps of ERP implementation in detail.
+(b) Name the hidden costs involved in ERP
+implementation. Discuss any two in detail.
+(c) Discuss the role of vendors and consultants in ERP
+installation.
+4. Attempt of the following (10x2=20)
+any two parts :
+(a) What is E-commerce ? Discuss the ways, web
+can be used to support e-commerce.
+IT —602 2
+aktuonline.com
+aktuonline.com) aktuenling.¢o
+Discuss the factors which are critical m
+ERP implementation.
+(c) How the ERP can be merged with organizational
+culture and vice-versa comment.
+5. Attempt any two parts of the following : (10x2=20)
+(a) Discuss oracle application ERP package in detail.
+(b) Discuss successful the importance implementation. of SAP’s business engineer
+in SAP
+(c) SAP with oracle as ERP tool.
+-o0Oo0-
+aktuonline.com

@@ -1,0 +1,63 @@
+(b) Explain design, modeling and simulation. Printed Pages—4
+(c) Explain the difference between finite volume method Following Paper ID and Roll No. to be filled in your Answer Book
+and finite element method. PAPER 1D: 2936
+(d) State various optimization techniques. B.Tech.
+(e) Explain briefly the search method of optimization.
+(SEM. VIII) THEORY EXAMINATION 2011-12
+(f) Discuss various performance parameters used for design SYSTEMS
+of heat exchanger. DESIGN OF THERMAL
+Time : 3 Hours Total Marks : 100
+Note :—Attemp all questions.
+1. Attempt any four parts of the following :— (4x5=20)
+(a) State the factors which should be taken into consideration
+while selecting a system of air-conditioning.
+(b) Explain the procedure to draw GSHF line
+a on a
+psychrometric chart.
+(c) Write down the procedure for calculating heat gains
+through building structures.
+(d) What do by infiltration ? Explain briefly
+you mean
+how air leakage through window and door cracks can
+be estimated.
+(e) Enumerate and explain the components of internal heat
+gain.
+(f) Discuss the effect of various design parameters on
+cooling tower performance.
+EME053/PUR-40302 4 6325 EME053/PUR-40302 1 [Turn Over
+2. Attempt any four parts of the following :— (4x5=20) (b) Discuss the various factors
+(a) Explain affecting stage pressure
+the factors which affect the total volumetric ratio of axial flow compressor. Show the various design
+efficiency of compressor. parameters of blade with sketch.
+(b) Discuss the selection
+of refrigeration and air conditioning (c) Discuss the various steps for design of axial flow turbine
+controls for the system. Stage.
+(c) Discuss briefly the 4. Attempt _ two parts of the following (2x10=10)
+various methods used for capacity any :—
+control of reciprocating compressor. (a) Discuss the various heat exchanger design methods
+(d) What is heat rejection factor indicating merits and demerits.
+for a condenser ? On
+which factor does it depend ? (b) Derive an expression for the overall heat transfer co-
+(e) Explain briefly the factors which efficient of a shell and tube exchanger taking into
+affect the heat transfer consideration scale formation on the inside surface and
+capacity of an evaporator. film coefficients
+(f) Why refrigerators selected that on the inside and outside surface of
+are so evaporator pressure the tube. Under what conditions the overall coefficient
+and condenser pressure are greater than atmospheric reduces to hi ho/(hi + ho), where hi and ho are inside
+pressure ? and outside film coefficients.
+Attempt
+any two parts of the following :— (210=20) (c) A counter flow heat exchanger is used to cool
+(a) A centrifugal compressor has pressure rise of 0.8 kg/s of air from 45°C to 15°C. The cooling water
+with isentropic a 4/1 of 0.75 kg/s enters the system at 8°C. If the overall
+a efficiency of 80% when running at heat transfer coefficient
+1500 rpm and inducing air at 20°C. Guide vanes at is 35 W/m?K, what heat
+inlet give the air a prewhirl of 25° to the axial direction exchanger area is required ? If the same air-flow rate
+at all redii and diameter is maintained while the water flow rate is reduced
+mean of the eye is 250 mm; to half, how much will be the reduction in heat
+the absolute air velocity at inlet is 150 m/s. At exit transfer ?
+the blades are radially inclined and the impeller tip
+diameter is 590 Calculate the slip factor 5. Attempt any four parts of the following
+mm. of the
+compressor. (a) State physiological principles for comfort air-
+conditioning.
+EME053/PUR-40302 2 EME053/PUR-40302 3 [Turn Over

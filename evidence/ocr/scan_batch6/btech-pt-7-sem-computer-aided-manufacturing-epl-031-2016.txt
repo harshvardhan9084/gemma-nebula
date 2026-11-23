@@ -1,0 +1,55 @@
+Printed Pages: 4 A351 EPL-031/EME-031
+(Following Paper ID and Roll No. to be filled in your
+Answer Book)
+:
+Paper ID 187751 TT I |
+B.Tech.
+(SEM. VID) THEORY EXAMINATION, 2015-16
+COMPUTER AIDED MANUFACTURING
+[Time:3 hours] [Total
+Section-A
+Note: Attempt all questions (10x2=20)
+(a) Write types of automation.
+(b) What is DNC, how it differs from CNC system?
+(c) Elaborate product development cycle.
+(d) Write two G and two M codes used in CNC.
+(e) Write two codes for canned cycle used in CNC
+part programming.
+(f) What are different ways of defining line and plane,
+using geometrical statement of APT language?
+(g) What is FMS? Write its importance.
+19050 (1) P.T.O
+(h) What is cellular manufacturing? h) Define computer aided process planning. Discuss its
+various types with example.
+(i) State the advantage of CAPP.
+Section-C
+(j) Write the name of Robot programming languages.
+Attempt any two questions : (2x15=30)
+Section-B
+a) | Write a NC part program to machine the part program as
+Note: Attempt any five Questions: shown in fig. Assume suitable data for speed and feed
+a) Discuss the parameters in detail and neat sketches which rate.
+are responsible for eliminating and reducing the activities
+of operator in CNC systeza.
+b) Classify and explain NC system on the basis of Types of
+conrol and co-ordinate,system.
+c) State and explain different of used in
+types statement
+APT.
+d) What are distinct approach of adoptive contro! system?
+Explain them. Home Position .
+(-2,0,0)
+e) Discuss the principle of variant process planning, also
+write its advantage. an APT
+b) What is APT? Write Program to turn a cylindrical
+f) Elaborate various types of senser used in robot. Enlist component on Lathe, length of component is 600 mm
+various applications and limitations of robot. and diameter 100mm, 125 mm and 160mm at equidistant
+of 200 is of
+g) What is group technology? Define coding and mm material component is mild steel
+assume other missing data.
+classification? What is production flow analysis?
+19050 (2) EPL-031/EME-031 19050 (3) PT.O.
+c) | Whatis robot? State advantages and limitations of robot,
+also explain various types of configuration used for
+robots.
+19050 ° (4) EPL-031/EME-031

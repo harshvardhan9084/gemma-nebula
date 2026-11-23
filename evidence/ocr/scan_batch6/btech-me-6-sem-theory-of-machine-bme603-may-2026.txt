@@ -1,0 +1,97 @@
+| rrintea rage: tor
+SEM. VI) THEORY EXAM I NATION 2025-26
+THEORY OF MACHINE
+Note: Attempt all Sections. In case of any missing data; choose suitably.
+SECTION
+A
+1. Attempt all questions in brief. 02x7=14
+Qno. | Question |
+| What is Grubler’s criteria? 1 CO_| | Level Ki |
+|b. _| Why the basic mechanisms start with four links? 1 | Ki |
+\c.__| Why the gears are known positive drive? 2 KI
+_| Define the term pressure angle as in CAM. 2 KI
+le A flywheel reduces speed fluctuation from 10% to 2%. By what factor must its moment | 3 KI
+of inertia increase? |
+Define the term Sensitivity of governor. 4 Ki |
+ig. | What do you mean by a self —energizing brake and self- locking brake?
+_
+SECTION B
+2. Attempt any three of the following: © 07x3= 24. 5°
+Q no. | Question
+a. | A crank and slotted lever mechanism used Atha’ shaper has centre distance of 300 | “Level K2
+between the centre of oscillation of lever and a the centre of rotation of the
+crank. The radius of the crank is 120 bind the ratio of the time of cutting to y |
+of return stroke. XY
+a Derive the the law expression 2 [| K2
+satisfy of pearing
+c. | What is a Moment Diagram? Describe how it is constructed for a single-
+cylinder engine.
+d. A system consists of four rotating masses of 180 kg, 20 kg, and 240 kg K2
+at radii of 0.18 m, 0.14 m, 0.22 m, and 0.28 m respecti e angular positions
+radius between of successive masses are 50°, 70°, and 140°. Ne cing mass rotates at a |
+(a) The magnitude 0.18 m. Apply of the the balancing principles of cing to determine: |
+b) The angular position of the balancing mass. mass.
+| What is a gyroscopic couple? Describe is/effect the stability
+|__| vehicles such as two-wheelers and on curved on paths. of moving | 5 K2
+SECTION C
+3. Attempt part of tpe following:
+any one 07x 1=07
+‘ Question
+velocity In the mechanism of shown in Fig., the slider C is moving to the right with a
+| AB 3 1 m/s inclined and an acceleration of 2.5 m/s?. The dimensions of various links
+' are with the = horizontal. m Determine: at 45° with the vertical and BC = 1.5 m inclined at 45°
+The magnitude of vertical and horizontal com onent of the acceleration
+__@ of
+https://www.pyqonline.com
+. rrinted Frage: za,
+Subject Code:
+Paper ID : 261770
+BTECH
+(SEM. VI) THEORY 2025-26
+THEORY OF MAC
+TIME: 3 HRS M. 70
+the point B, and
+¢ The angular acceleration of the links AB and BC.
+Question
+A cam drives a flat reciprocating follower in the following mah:
+120° rotation of the cam, follower moves outwards ip distance of 20
+with simple harmonic motion. The follower dwells g next 30° of mm
+rotation. During next 120° of cam rotation, the moves inwards with cam
+simple harmonic motion. The follower dwells fo e next 90° of cam rotation.
+profile of the cam.
+The turning moment di, 5\N-m; a petrol engine is drawn to the following scales:
+Turning moment, 1 mm = crank angle, 1 mm = 1°. The turning moment
+diagram repeats itself at every half revolution of the engine and the areas above
+and below the mean turning moment line taken in order are 295, 685, 40, 340,
+gyration 960, 270 of mm. 150 The rotating Determine parts are equivalent to a mass of 36 kg at a radius of
+engine at 1800 mm. the coefficient of fluctuation of speed when the
+The runs of flywheel r.p.m. of an engine is 6.5 radius of [|
+metres. mass It is found from the turning tonnes and the that the gyration fluctuation is 1.8 of
+moment diagram
+2[Page
+menu
+ill rrintea rage: 3 o1z
+Subject Code: BME603
+Paper ID : | | _ | | | | | |
+Roll No: |
+BTECH |
+MINATION 2025-26
+6 EM. VI) THEORY EXA
+THEORY OF MACHINE
+3 HRS _ M.MARKS: 70
+‘TIME:
+| | energy is 56 kN-m. If the mean speed of “the engine is 120 find the
+and minimum speeds.
+|__| maximum
+6. Attempt any one part of the following: 07 x 1=07
+Question
+port central
+A porter governor has two balls each of mass 3kg and a load of 15 kg. | 4
+The arms are all 200 mm long, pivoted on the axis. If the maximum and
+minimum radii of rotation of balls are 160 mm and 200 mm respectively, find the
+range of the speed.
+Fig. 250 1
+A single block brake is shown in The of the drum is mm and | })
+the angle of contact is 90°. If the 700 N is applied at the end of Ay: |
+the drum and the lining is
+https://www.pygonline.com

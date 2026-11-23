@@ -1,0 +1,101 @@
+aktuonline.com aktuonline.com
+OE
+Printed Pages : 3 TEE-031
+Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 0290 [cel
+:
+B. Tech.
+| (SEM. VIII) EXAMINATION, 2007-08
+BIO-INSTRUMENTATION
+3 Hours] [Total Marks 100
+: :
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+(3) Be precise in your answer. provided.
+(4) No second answer book will be -
+1 Attempt any four parts of the following: 4x5=20
+@) What is the objective of biomedical
+| instrumentation system? Name the different
+societies and organizations which look after the
+_ developments and research in the area of
+biomedical instrumentation.
+| (b) What do you mean by “in vivo” and “in vitro”
+measurements? Which one should be preferred
+and why?
+(c) Define the terms Anatomy and Physiology. Also
+eS explain their broad classification in brief.
+(d) Discuss the following physiological systems of the
+body using the terminology common to the
+engineering analogy.
+(i) Cardiovascular System
+(i) Respiratory System
+(ai) Nervous System
+Discuss the major problems encountered in
+measuring A living system.
+- [Contd..
+aktuon U- http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+(f) Explain basic medical instrumentation system.
+Also discuss about bio-medical transducers used
+for body temperature measurement and position/
+motion transducers.
+2 Attempt any four parts of the following: 4x5=20
+(a) What are bio-potentials? Name six types of
+bio-potentials sources with their amplitude and
+frequency
+(b) Explain electrode range. theory. Discuss different types
+of electrode used for bio-electric potentials.
+(c) Explain the term “Action/Resting” potentials with
+the help of a waveform.
+(d) Calculate the hydrogen ion concentration of the
+blood with pH of 7.4. Explain the pH electrode
+for it. a
+(e) Explain various ECG lead systems and Einthoven
+tnangle.
+Draw electrocardiogram (lead II), labeling the
+critical an features. Include typical amplitudes and
+time interval for normal Also
+the types of interferences a which person. during name
+recording the ECG occur
+3 Attempt any two parts of the following
+(a) Explain the electrical and mechanical activities
+of the cardiovascular system with the help of
+neat sketch.
+(b) Explain in detail about the different methods of
+measurement of cardiac output.
+(c) Define systole and diastole. Explain the working
+of an electronic/automatic blood pressure
+measurement system with block diagram. Mention
+the sources of error and standard pressure in
+different chambers of the heart.
+aktuonline.com’ U-0290] http: AWWW. [Contd...
+UPTUonline.com
+aktuonline.com aktuonline.com
+4 Attempt any two parts of the following: 2x10=20
+(a) What is the difference between a motor nerve
+and a sensory nerve? Explain 10-20 international
+electrode system used in EEG recordings. Discuss
+in brief instrumentation scheme for EEG recording.
+(b) What is a pacemaker? Give the classifications of
+various pacemakers. Explain “demand” type
+pacemaker.
+(c) What do you mean by fibrillation? How do you
+correct it? Draw a circuit of a direct current
+defibrillator and explain the working.
+5 Attempt any two parts of the following : 2x10=20
+(a) Explain the principle of computerized axial
+tomography and compare its method of
+visualization with conventional X-ray methods.
+(b) What is the basic purpose of the safety measures
+used with the electrically susceptible patients?
+Why it is so important to maintain the integrity
+of the grounding system for protection against
+microshock?
+(c) Write short technical notes on any two of the
+following:
+(i) Role of computer in Biomedical
+Instrumentation.
+(1) systems and its application in
+BME
+(ui) Impedance Plethysmography.
+3 [ 2550 |

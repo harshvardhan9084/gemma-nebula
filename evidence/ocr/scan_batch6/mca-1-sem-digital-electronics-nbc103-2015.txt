@@ -1,0 +1,59 @@
+www.uptuonline.com
+Printed Pages :3
+| | |
+oat
+NBC103
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 294103
+RolNo. (TT
+MCA (Dual Degree) (Semester-I)
+SPL. THEORY EXAMINATION, 2014-15
+DIGITAL ELECTRONICS
+Time 3 Hours]
+: [Total Marks : 100
+Note : Attempt all questions. Each question carry equal marks.
+1. Attempt any four questions.
+A. Convert the hexadecimal number 68BE to binary, and then
+convert it from binary to octal.
+Ao mam Convert decimal 27.315 to binary.
+Determine the value of base x if (211)x =(1 52),.
+o>
+Determine the 10°s complement of (93
+Discuss gray code with example.
+Perform subtraction binary complement
+on numbers using 2’s
+method : 1001 — 101000.
+294103] (1) [Contd...
+www.aktuonline.com
+Attempt any two questions.
+2. Attempt any four questions. a constructed from
+A. Demonstrate the validity of The associative law: x + (y+ Z= A. Show that full adder can be two
+(x+y) +z by means of truth table. and an OR gate.
+minimum B. that covert a 3-bit gray code to binary code.
+B. Simplify the Boolean expression x’yz+xztoa
+number of literals. C. What do you mean by decoder? Implement full adder by
+C. Implement the Boolean function F=xy + x’y’ a) with decoder.
+OR, and inverter gates. b) with OR and inverter gates, questions.
+AND. AND and inverter gates. Attempt any two
+c) with A. Whatdo youmean by flip-flop? Discuss SR flip-flop in detail.
+D. Express the following function as a sum of minters and as a Bi-directional
+product ofmaxterms: F(A,B.C. D)=B'D+A’D+ BD. B. you mean by shift registers? Explain
+shift register.
+E. Show that the dual of the exclusive-OR is equal to its by counters? Discuss 3-bit binary ripple
+complement. C. you mean
+(x’)’ counter.
+F. Prove =x. —xXx—
+Attempt any two questions.
+F(w,x,.y.Z)
+A. Simplify the Boolean function =
+x 1,4,5,6,12,14,15) using four variable map.
+Simplify the following Boolean function together with the
+don’t -care conditions d, and then express the simplified
+function in sum-of-minterms form :
+F(x,y,z) = (2,3,4,6,7)
+d(x,y,z) =
+F(A,B,C,D)
+Simplify the Boolean function =
+¥(0,2,4,5,6,7,8,1 0,13,15) using tabulation method.
+(3) 25
+294103] (2) 25 294103]

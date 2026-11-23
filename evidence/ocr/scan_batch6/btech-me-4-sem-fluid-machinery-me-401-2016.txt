@@ -1,0 +1,61 @@
+Printed Pages : 2 ME-401
+(Following Paper ID and Roll No. to be filled in your Answer Books)
+B.TECH.
+Theory Examination (Semester-IV) 2015-16
+MACHINERY
+FLUID
+Time : 3 Hours Max. Marks : 100
+SECTION
+1 all question A (2*10=20)
+a) Explain the steps involved in the computation of work done by a jet. Of velocity V when it
+impinges as a single curved vane at a velocity of v in the direction of jet and deflects the
+water by an angle 0.
+b) What are repeating variables and how are they selected?
+c) Compare impulse turbine with reaction turbine.
+d) What is Draft tube?
+e) Define manometric head and what are the ways it is expressed?
+f) List the factors which are contributing the cavitation in centrifugal pumps.
+g) h) What What is is meant Surge by tank? specific speed for pump?
+i) Define the a terms Dimensional analysis and Model analysis.
+j) List out components used in Hydroelectric power plant
+SECTION B
+2.Attempt any five (5*10=50)
+a) Design a Pelton used for a head of 120 m and speed 300 r.p.m. The Pelton which develops
+145 kW. Assume C, = 0.98, speed ratio = 0.45 and overall efficiency = 80 %.
+b) A turbine is to operate under a head of 30 m at 300 r.p.m. with a discharge of 30 m’/s. If the
+efficiency is 90 %, determine specific speed of turbine, power generated and the type of
+c) turbine. A centrifugal having external and internal diameter of 1.25 and 0. 5
+respectively is discharging pump water an at rate of 2000 litres/second against the head m of 16 when m
+running at 300 rpm. The vanes are a curved back at an angle of 30° with tangent at outlet m and
+velocity of flow is constant at 2.5 m/s.
+Find:
+i. Efficiency of pump
+ii. Power required.
+d) Describe with neat sketches the working of
+i. Hydraulic Ram.
+e) In ii. inward Hydraulic radial Intensifier. flow turbine, angle of the wheel
+outer an rim and leaves 3 m/s. The water flow velocity enters at is an through 22° to the The tangent inner to and the
+outer diameters are 300 at mm and 600 mm respectively. constant The speed of the runner. is 300
+The discharge through the runner is radial. Find : runner mm.
+i. Inlet and outlet blade angles
+ii. Taking inlet width as 150 mm and neglecting the thickness of the blades
+iii. The power developed by the turbine
+f) Obtain an expression for the work done per second by water on the runner of a Pelton wheel.
+Hence derive an expression for maximum efficiency of the Pelton wheel giving the
+relationship between the jet speed and bucket speed
+g) Calculate the work saved by fitting an air vessel for a double acting single cylinder
+reciprocation pump.
+h) Find the power m’ required to drive a centrifugal pump which to drive a centrifugal pump which
+delivers 0.04 /s of water to a height of 20 m through a 15 cm diameter pipe and 100 m
+formula long. The h=4flv overall /2gd. efficiency of the pump is 70% and coefficient of friction is 0.15 in the
+SECTION C
+Attempt any two (2*15=30)
+3. Draw a neat sketch of Reciprocating pump and explain the working principle of single acing
+and double acting Reciprocating pump.
+4. A Francis turbine has an inlet diameter of 2.0 m and an outlet diameter of 1.2m. The width of
+the blades is constant at 0.2 m. The runner rotates at a speed of 250 rpm with a discharge of 8
+m?/s .The vanes are radial at the inlet and the discharge is radially outwards at the outlet.
+Calculate the angle of guide vane at inlet and blade angle at the outlet.
+5. A of centrifugal 22 The pump impeller is to diameter discharge is 50 0.2 its of width water at a outlet speed is of 50 1480 r.p.m. and the against manometric a head
+Efficiency m. is 76 %. Determine the mm, angle at the outer at periphery of mm the impeller
+vane

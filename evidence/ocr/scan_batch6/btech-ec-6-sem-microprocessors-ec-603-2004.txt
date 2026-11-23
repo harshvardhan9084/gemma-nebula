@@ -1,0 +1,132 @@
+| | |
+No. of Printed Pages—4 EC-603
+B. TECH.
+SIXTH SEMESTER EXAMINATION, 2003-2004
+MICROPROCESSORS
+Time : 3 Hours Total Marks : 100
+Note : Attempt ALL questions.
+Attempt any FOUR parts of the following :— (5x4=20)
+(a) Describe the main advantages of a
+distributed processing computer system over
+a simple time-sharing system.
+(b) Describe the sequence of signals that occurs
+on the address bus, the control bus, and the
+data bus when a simple microcomputer
+fetches an instruction.
+(c) What are the main differences between 8085
+and 8086 microprocessors ?
+(d) Draw the internal architecture of 8086
+microprocessor. Also explain the function EU.
+(e) What are the Segment Registers ? How are
+segment registers used to form a 20-bit address ?
+(f) | Which control bus signal is active during an
+instruction fetch bus cycle ? How does a
+memory read bus cycle differ from an I/O
+read bus cycle ?
+2. Attempt any FOUR parts of the following  (5x4=20)
+(a) What are the different addressing modes
+supported by 8086 ? Which 8086 general-
+115 purpose registers cannot be used as base
+pointer or index registers in the indirect
+memory access addressing mode ?
+EC-603 1 Turn Over
+(b) What are Each the of different the following instruction types of
+8086 invalid ? instructions is
+(1) MOV :— DS, 1234 H;
+(ii) IN AL, 70 FF H;
+(iti) MOV CX, [AX].
+Explain, why.
+(c) Draw the flow chart to convert a four-digit
+BCD number passed in AX to its binary
+equivalent. Also write a 8086 assembly
+language program.
+(d) Describe the execution of a CALL instruction.
+Write numbers a program and store to the add result two multibyte third
+number. The numbers are stored in as the a form of
+the byte lists stored with the lowest byte first.
+(e) Figure below is a list of inputs and outputs
+for a computer monitoring system for an
+industrial process. You are to design and
+write the assembly language program that
+monitors the temperature and pressure
+sensors for both processes. The alarm is to be
+sounded whenever the temperature and
+pressure for process A or B are both high or
+both low.
+Temperature High
+8086 Microcomputer Pressure Process
+A
+Bit 2 Output Port Input Port
+FFFAH FFF8H
+(active To alarm high
+output) All inputs are active perature Process B
+High Level Pressure High
+High
+EC-603
+(f) What are the assembler directives ? Explain
+the DD and END directives.
+3. Attempt any TWO parts of the following :— (10x2=20)
+(a) Why are latches required on the ADO-AD 15
+bus in an 8086 system? Bring out the
+architectural and signal differences between
+8086 and 8088. What are the functions of the
+clock generator IC 8284 in the 8086/8088
+systems ?
+(b) What logic levels will be the
+8086 RD, WR and M/IO lines when the 8086
+is doing a write to a memory location and a
+read from a port? Draw and discuss the
+read timing diagram of 8086 in minimum
+mode and maximum mode.
+(c) (i) List and describe, in general terms, the
+steps an 8086 will take when it responds
+interrupt-vector to an interrupt. table What addresses used for in the
+2 interrupt ? are a type
+(ii) How does the
+distinguish its instruction from processor those for
+the 8087 it fetches instruction from
+memory ? as Also draw the block diagram
+of 8087 numeric data co-processor.
+any FOUR parts of the following :— (5x4=20)
+(a) Explain the different modes of operation of
+8255. Describe the control word format of
+8255 in I/O and BSR mode.
+(b) Draw and discuss the asynchronous mode
+transmitter and receiver data format of 8251.
+(c) Explain the function of the following pins
+of 8259 :—
+(i) CAS,-CAS,,
+EC-603 3 Turn Over
+(ii) SP/EN.
+Also describe an interrupt request response
+of an 8086 system.
+(d) Draw and explain the internal architecture of
+8253/8254 programmable timer/counter.
+(e) Discuss the following modes of DMA
+transfer :—
+(i) Single transfer mode
+transfer
+(ii) Memory to Memory
+(iii) Demand transfer mode
+(p How many clock cycles does a 12-bit
+successive approximation A/D converter take
+to do a conversion on a 0:1 V - input signal,
+and on a 5-V input signal ?
+5. Attempt TWO of the following (10x2=20)
+any parts :—
+(a) Describe the procedure of interfacing DRAM.
+Why factor does of for the each size single of a DRAM address go line up that by a
+added ? 4 is
+(b) What is the basic secondary difference between primary
+memory the various and types of ROM memory available ? ? What Interface are
+eight 8 K chips of RAM and four 8 K chips of
+EPROM with 8086. Interface the RAM bank at
+a segment address OBOOH and the EPROM
+bank at a physical address F 8000 H.
+(c) Why are so many virtual 8086 tasks
+possible ? How many general purpose
+registers are available in the pentium ?
+(d) What the essential sections of
+Microcontroller are ? Also draw the block a
+diagram of 8051.
+EC-603

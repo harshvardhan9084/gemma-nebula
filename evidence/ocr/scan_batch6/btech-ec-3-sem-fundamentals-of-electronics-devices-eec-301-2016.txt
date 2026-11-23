@@ -1,0 +1,64 @@
+Printed Pages: 4 427 EEC-301
+(Following Paper ID and Roll No. to be filled in your
+Answer Book)
+Paper ID : 131321
+(SEM. III) THEORY EXAMINATION, 2015-16
+FUNDAMENTALS OF ELECTRONICS DEVICES
+{Time:3 hours] 4 [Total Marks: 100]
+Section-A
+1. Attempt all parts. All parts carry equal marks. Write
+answer of each part in short. (2x10=20)
+(a) What is degenerate semiconductor?
+(b) Why metal semiconductor contacts are faster than
+that of conventional diode? ©
+(c) Differentiate direct and indirect band gap
+semiconductors.
+(d) What is ionized impurity scattering.
+(e) How the effect of ionized impurity scattering is
+minimized in high electron mobility transistors?
+(f) Why 4" quadrant is preferred for solar cells?
+(g) What is florescence?
+1675 (1) P.T.O
+(h) Comment over the conductivity of semiconductor b) Rate of excess thermal given
+at OK electrons the lattice energy up by
+to before recombination.
+(i) Define minority carrier diffusion length. c) number of photons
+G) Why Fermi per second given off from
+energy level moves toward the middle recombination events, assuming perfect quantum
+of energy gap with increasing temperature. efficiency.
+Section-B 5. Derive the diffusion current density equation. Also,
+Attempt five Questions from derive the equation relation the mobility and diffusion
+any this section. (10x5=50)
+2. ‘Describe the Hall experiment in detail. coefficient of semiconductor sample.
+semiconductor Consider a
+bar of length cm, width 102 cm and 6. With the help of neat diagram describe the operation of
+thickness 10° cm. External applied voltage and resulting IGFET.
+current (I,) are 12.5V and ImA respectively. Magnetic
+field applied in z-direction have intensity of 5x 107 tesla. Describe the transient variation of voltage and
+Calculate the majority carrier minority carrier profile for a P*N diode if it is exited by
+if Hall voltage concentration and mobility a Square
+is V,=-6.25mV. wave.
+8. With the help of neat diagram describe the operation
+Derive the equation governing the carrier flow Tunnel diode. of
+mechanism under the influence of electric field.
+9. Explain the V-I characteristics ofa photodiode.
+Describe the excess carrier generation through photonic the significance What is
+excitation in semiconductors. Derive the relation of of third and fourth quadrant operation
+and nn A 0.46 of photodiode?
+of GaAs power. 4 m thick sample
+is illuminated with monochromatic light Section-C
+hv=2ev. The absorption coefficient is 5x The Attempt any two questions from this section.
+power incident on sample is 10mW, Calculate : | (15x2=30)
+onerky | 10. Discuss the formation of PN junction diode. Derive the
+a) total absorbed by sample per second. equation of contact potential and depletion region width
+for P*N diode.
+1675 (2)
+EEC-301 1675 (3) PT.O.
+Describe the constructional feature of Bipolar Junction
+Transistor. Describe various current components and
+amplifiation ratios. Also, mention the base current
+controls mechanism.
+Describe in detail the operation of Shockley diode. Also,
+describe various triggering mechanism.
+—x—
+1675 (4) EEC-301

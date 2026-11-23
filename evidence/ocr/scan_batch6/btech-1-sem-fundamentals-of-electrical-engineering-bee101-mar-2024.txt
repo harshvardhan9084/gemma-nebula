@@ -1,0 +1,73 @@
+| printed Page | of?
+Roll No
+EXAMINATION BTECH 2023-24
+FUND (SEM AMENTALS 1) THEORY OF ELE ELECTRICAL ENGINEERING
+TIME 3 Hs
+Note | Attempt all Sections If require any missing data, then choose suitably
+Att SECTION A 2x7=14
+| all questions in brief Question
+Differentiate between ideal voltage and practical vonage | 2
+source source
+ae Describe briefly the following elements with examples
+Active and Passive elements
+Ina Derive series that RLC the av. power consumed by a pure inductor ts zero au
+R =2Q, L = C = 10pF. Find the resonant
+je requency and Q-factor. | 3]
+Find the inductance of a coil in which a current of 0 2A increasing at a
+What rate of 0.4 the A/sec of repres slip usa power flow of watt |
+om is function ring pobens
+What are the common during electrical
+installations?
+Calculate the current acree<
+following circuit:
+A 100 EVA,
+of 1.5 kW at toad curre;
+induction motor.
+Discuss briefly the _types of batteries and explain any one type of
+d
+1| Page
+152.58.156.68
+QP24DP72_746 | 15-03-2024 08:50:46 |
+Primeg
+om. Code
+[
+Roll No
+BTECH
+(SEM 1) THEORY EXAMINATION 2023-24
+FUNDAMENTALS OF ELECTRICAL ENGINEERING
+TIME 3HRS M MARKS 70
+_
+SECTICN Cc
+Calculate the current across 62 resistor in the following circuit using:
+(1) Mesh Analysis
+(ut) Nodal Analysis
+|
+Explain the is wi 7x1=7
+4. Attempt any one part of the following: 7k
+freque: Derive an of expression series resonating of bandwidth, circuit. upp lower half power
+Derive the relation a between line and A voltages in 3-, star- é
+connected circuit A balanced ase load of (3+j4) a is
+connected to a 400 V supp alculate the line current, power
+factor, active and reactive p from the supply.
+s Attempt part of the fatving:
+A 20 kVA, 50 Hz transformer has a
+resistance of 1.5 Q and apts 22. The secondary resistanc
+reactance are 0.015 Q and 0.02 Q respectively. The
+transformer is 1A at 0.2 power factor Determine: referred
+(i) ii Total Equivalent resistance loss and reactance
+copper
+conditions
+6. _one pe of the following:
+pt any
+shunt motor has 500 conductors in the‘ayprature. The resistance of the
+armature path is 0.05 Q. The the shunt field is 25 Q. Find
+the speed of the motor when it soe A from DC mains of 100 V.
+the labelled
+Explain following with neat and diagram:
+(i) Earth Leakage Circuit Breaker
+ii Miniature Circuit Breaker
+an What is the difference between earthing and grounding? Also discuss X
+the different methods of earthing?
+7 2| Page
+QP24DP2_746 | 15-03-2024 08:50:46
+|

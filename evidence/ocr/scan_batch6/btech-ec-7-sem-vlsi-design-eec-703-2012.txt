@@ -1,0 +1,56 @@
+Printed Pages—3 EEC703
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 2728
+B.Tech.
+(SEM. VII) THEORY EXAMINATION
+VLSI DESIGN
+Time 3 Hours Total Marks
+: : 100
+Note :—(1) Attempt All questions.
+(2) All questions marks.
+carry
+1. Attempt any two parts of the following : (10x2=20)
+(a) Discuss the hierarchy of various semiconductor technology
+with Moore's law and VLSI design flow (Y chart).
+(b) Explain the structure and operation of MOS transistor. What
+is meant by Zpu and Zpd in the inverter circuit ? Derive
+the required ratio between Zpu and Zpd, ifa MOS inverter
+is to be driven from another n-MOS inverter.
+(c) Explainn-MOS Fabrication with suitable sketch.
+2. Attempt any two parts of the following : (10x2=20)
+(a) Write short notes on the following :
+(i) MOSFET Scaling
+(ii) Channel Length Modulation.
+(b) Derive the expression for NM, and NM,, for
+inverter,
+CMOS
+EEC703/KIH-26673 1 [Turn Over
+(c) Design a 2 input XOR logic using CMOS Transmission Attempt any two parts of the following : (10x2=20)
+Gate and with Pass transistor and CMOS logic (a) Write short adiabatic
+compare a note on logic circuit. Differentiate
+circuit. between single struct-at fault and multiple struct-at fault.
+(b) Define the terms Controllability and Observability. Discuss
+of
+Attempt any four parts the following : (5x4=20) in brief Ad-hoc Testable design techniques.
+(a) Explain the behavior of Pass transistor in dynamic CMOS (c) Briefly explain the issues involved in Built-in Self Test
+logic implementation. (BIST) techniques.
+(b) Draw a CMOS shift register circuit.
+(c) Explain the effect of constant voltage scaling on Delay
+and Power Delay Product (PDP).
+(d) Whatare the various sources of power dissipation in CMOS
+circuits ?
+(e) Explain how DOMINO CMOS logic overcomes the charge
+sharing problem.
+(f) Explain the Voltage Bootstrapping in logic
+term CMOS with
+suitable example.
+Attempt any two parts of the following : (10x2=20)
+(a) Enlist the advantage of dynamic logic circuit over static
+logic circuit. Explain DOMINO and NORA CMOS logic
+circuit with suitable example.
+(b) Write a short note on DRAM cells. Explain leakage currents
+and refresh
+operation in DRAM cells.
+(c) Discuss with a neat diagram the operation of CMOS
+SRAM cell.
+EEC703/KIH-26673 2 EEC703/KIH-26673 3 15650

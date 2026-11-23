@@ -1,0 +1,48 @@
+Printed Page 1 of 1 Sub Code: RIC702
+Paper Id: 132725 Roll No:
+BTECH
+(SEM VII) THEORY EXAMINATION 2019-20
+TELEMETRY PRINCIPLES
+Time: 3 Hours Total Marks: 70
+Note: 1. Attempt all Sections. If require missing data; then choose suitably.
+any
+SECTION A
+1. Attempt all questions in brief. 2x7=14
+a. Write the time—domain equation of Frequency Modulation (FM).
+b. Draw the basic block diagram of PLL.
+What is the Ideal & practical bandwidth of FM System?
+c. |
+d. What is Inter-symbol interference (ISI).
+e. Define Antenna.
+f. Discuss the advantages of Active Filter.
+g. |Draw modulated waveforms PWM related to Telemetry.
+SECTION B
+2. Attempt any three of the following: 7x3=21
+a. Draw the block diagram of telemetry system. Explain its components.
+b. _ | Explain TDM PCM System with block diagram & mathematical equation.
+www.aktuonline.com c. Describe modem protocol in detail.
+d. | What is Antenna Array? Describe some transmission techniques of Telemetry.
+e. Explain the basics of Satellite and Fiber Optic Telemetry in detail.
+SECTION C
+3. Attempt part of the following: 7x1=7
+(a) | Explain any one Non electrical telemetry systems in detail.
+|
+(b) Describe depth Voltage of 80% and for current single Telemetry modulation systems. A 100W carrier is modulated
+to a a tone
+4. Attempt | any one part of the following: 7x1=7
+(a) Write Four differences between FDM & TDM. Draw the block diagram of both
+Frequency (TDM). Division Multiplexing (FDM) & Time Division Multiplexing
+|
+(b) What is Differential Pulse Code Modulation? Explain the working of
+Differential Pulse Code Modulation with transmitter & receiver block diagram.
+5. Attempt any one part of the following: 7x1=7
+(a) | Explain Modem with block diagram in detail.
+(b) | Describe QAM with modulator & De-modulator used in Telemetry System.
+6. Attempt any one part of the following: 7x1=7
+(a) | Explain different Microwave Antennas in detail.
+(b) | What are the different Receiver Antennas? Also provide information about
+Antenna arrays & current distribution.
+7. Attempt any one part of the following: 7x1=7
+(a) | Explain Active RC Filters & Universal Filter Circuits in detail.
+(b) | Describe the Telemetry Data Acquisition Systems (DAS).
+http://www.aktuonline.com

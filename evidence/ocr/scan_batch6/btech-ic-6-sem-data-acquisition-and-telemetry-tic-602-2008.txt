@@ -1,0 +1,81 @@
+aktuonline.com
+NN 0 00
+Printed Pages 3 TIC 602
+: -
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 3098 Roll {TT
+B. Tech.
+(SEM. VI) EXAMINATION, 2007-08
+» TELEMETRY
+DATA ACQUISITION AND
+Time : 3 Hours] [Total Marks : 100
+Note : Attempt all questions.
+1 Attempt any four parts of the following : 5x4=20
+(a) What is telemetry and what are its basic
+? Explain them.
+components
+voltage telemetering system ? Explain basic
+voltage telemetering system used for measurement
+. of water level.
+(c) Describe the frequency telemetering system giving
+a block diagram.
+) (d) | Whatis system ? On what basis
+impulse telemetering systems are classified and name
+them.
+(e) Why isscope pneumatic methods
+of data transmission limited ? Explain both 1n brief.
+(f) | Whatis position telemetering system ? Explain with
+the help of neat sketches.
+U-3098] | Mt [Contd...
+™ http: //~ww.UPTUonline.com
+aktuonline.com aktuonline.com
+2 Attempt any four parts of the following : 5x4=20
+(a) Whatare the advantages and disadvantages of delta
+_ modulation over PCM or DPCM ?
+(b) Sketchand explain
+the functional diagram ofa PCM
+system.
+(c) WhyTDM (Time Division Multiplexing) is required
+ina PCM system ? What are its advantages ?
+(d) Compare the effects of with and without
+companding scheme in a PCM system.
+(e) InanFM system, if Myris doubled by halving the
+modulation frequency, what will be the effect on the
+maximum deviation ?
+(f) the phase locked local loop with the help of
+neat sketches.
+3 Attempt any two parts of the following : 10x2=20
+(a) | What is meant by Modem ? Draw the pin diagram
+of Modem. What is null modem ? Show the
+connections and explain them.
+(b) What type of topology is used when customers in
+an area use DSL modems for data transfer
+purposes ? Explain, when we have an overseas
+telephone conversation, we sometimes experience
+delay. Can explain the
+a you reason.
+(c) Explain with the help of block diagram A DSL
+modem.
+aktuonline.com aktuonline.com
+4 Attempt any two parts of the following : 10x2=20
+(a) Why parabolic is suitable basis for
+geometry a
+antenna reflectors. Explain why an antenna using a
+parabolid reflector is likely to be a highly directive
+receiving antenna.
+(b) Describe the behavior of loop antennas and show
+direction finding. What
+how they may be used for
+») other applications do they have.
+, (c) | Whatare different transmission techniques used in
+telemetery system ? Describe interstage coupling.
+5 Attempt two parts of the following 10x2=20
+any :
+(a)  Listmost commonly used filters. Draw the schematic
+diagram of the Band pass filter and explain.
+(b) Design a wide band pass filter with f,, =200Hz,
+fq = 1 a passband gain 4.
+-
+(c) Explain what is fiber optic telemetry.
+HM Ws
+WWW. [1800]

@@ -1,0 +1,123 @@
+www.aktuonline.com
+Printed Pages : 4
+EME-011
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 140651
+B. Tech.
+(SEM. VI)
+THEORY EXAMINATION, 2014-15
+FLUID MACHINERY
+Time : 3 Hours] [Total Marks : 100
+Note:
+(1) Attempt all questions.
+(2) All questions equal marks.
+carry
+(3) Assume suitably, missing data, if
+any.
+1 Attempt four of the following:
+any parts
+Express the Euler Equation for machine.
+a.
+b. — What is impulse-momentum principle and define?
+express
+What is the difference between the force of jet
+c.
+when it impinges ona single moving flat plate and the
+force of jet when it strikes series of moving
+on a
+plates?
+140651] 1 [ Contd...
+www.aktuonline.com
+d. an expression for force exerted by a jet on a
+fixed inclined plate. Also give an expression for a force
+exerted by jet on flat moving plate in the direction of
+jet.
+e. Explain construction and working of pelton wheel
+Turbine. Also how the speed of pelton wheel
+govern.
+f Give “degree of reaction” for impulse and reaction
+turbine?
+2 Attempt any four parts of the following:
+governing Mechanism of Francis turbine?
+a.
+b. | Why draft tube is used in reaction turbine? Derive an
+expiration show that of fluid after
+to pressure runner
+is less than atmospheric pressure.
+c. A model turbine, diameter of runner 380mm develops
+9kw at a speed of 1500rpm under a head of 7.6m
+A geometrically similar turbine 1.9m diameter has
+runner
+to operate with same efficiency under a head of 15m.
+What speed and power would be expected?
+d. is cavitation in turbine? Give its effect and methods
+of preventing cavitations in turbine, what is Thomas’s
+cavitations factor?
+e. an expression for the specific speed of
+turbine and explain how it is useful
+in practice.
+f A Kaplan turbine has the following specification
+Rated discharge 260m3/sec; head 10m,
+= =
+speed = 80rpm; runner hub diameter = 2.3m; runner
+vane tip diameter = 6.7m; power produced = 18000kw;
+hydraulic efficiency 85%. Find the flow ratio, overall
+=
+efficiency, specific speed and the degree of reaction
+140651] 2 [ Contd...
+www.aktuonline.com
+3 Attempt any two parts of the following:
+a. Differentiate between Centrifugal & Reciprocating pump.
+Also derive an expression for starting speed of a
+Centrifugal pump.
+b. — Explain the working of centrifugal pump with sketch also
+define manometric head and manometric efficiency.
+Acentrifugal having dia. equal times
+c. pump outer to two
+of inner dia. and running at 1000rpm. Works against
+total head of 40m the velocity of flow through the
+a
+impeller is constant and equal to 2.5m/s the vanes are
+set back at angle 40° at outlet. If the outer dia.
+an
+of the impeller is and width at outlet is 50mm.
+Determine :
+1. Vane angle at inlet
+il. Work done by the impeller on water per sec
+it. | Mechanical efficiency
+4 Attempt any two parts of the following:
+a. A single acting reciprocating pump, running at SOrpm
+delivers m3/s of The diameter of the
+0.00736 water.
+piston is 200 mm and stroke length 300m. The suction
+and delivery heads 3.5m and 11.5m respectively.
+are
+Determine
+:
+I. Theoretical discharge
+Il. Coefficient of discharge
+Ill. Percentage slip of the
+pump
+IV. Power required to the
+run pump
+140651] 3 [ Contd...
+www.aktuonline.com
+b. the curve show the variation of discharge with
+crank angle for double acting reciprocating pump.
+c. that work done by the pump is proportional to
+the area of indicator diagram. What do you know about
+slip both positive and negative in a reciprocating pump?
+Attempt of the following:
+5 any two parts
+Ahydraulic accumulator has of 30cm in diameter.
+a. ram
+Total weight of its movable parts is 50 Tonne and
+frictional resistance amounts to 5 Tonne. Find the
+intensity of pressure of water when,
+I. Ram is ascending
+Il. Ram is descending
+b. and explain the characteristic curve of a fluid
+coupling.
+c. hydraulic Accumulator also derive an expression
+for capacity of hydraulic Accumulator
+140651] 4

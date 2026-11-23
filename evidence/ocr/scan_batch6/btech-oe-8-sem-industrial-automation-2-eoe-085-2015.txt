@@ -1,0 +1,79 @@
+www.aktuonline.com
+Printed Pages : 3
+0 A
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 199855
+B. Tech.
+(SEM. VIII) THEORY EXAMINATION, 2014-15
+INDUSTRIAL AUTOMATION - II
+Time : 3 Hours] [Total Marks : 100
+Note: Attempt all questions
+1) Attempt any four of the following: (5 x 4=20)
+a) Explain industrial network components with their applications in
+networking.
+b) Discuss the use of various network topologies with suitable
+diagrams.
+¢) Describe importance of industrial networking with its merits and
+demerits.
+d) With the help of suitable examples, explain the use of network
+communication in Industrial Automation.
+e) Give classifications of industrial network based their
+on
+functionality and explain different ways in which it can be
+connected.
+199855] 1 [ Contd...
+www.aktuonline.com
+f) What the features of standard Ethernet? Explain Ethernet
+are
+standards for industrial networking.
+Attempt any four of the following: x 4=20)
+a) What are the disadvantages of de drives due to which three phase
+replacing it?
+induction motor drive is
+b) Enlist the classification of electric drives and explain them.
+c) Draw a block diagram of electric drive and indicate the role of each
+component.
+d) What is servomechanism? Describe principle of operation of servo
+motors.
+Write short of the following;
+a notes on any two
+i. Scalar control
+ii. Vector control or flux vector control
+iil, PWM Controller
+Describe variable frequency drives with its components and block
+diagram.
+Attempt any two of the following: (10 x 2=20)
+Explain the following:
+Serial Real Time Communication Network
+Eathernet/IP
+Describe the need of synchronization techniques used in automation
+system. Give brief description of Precision Time Protocol (PTP)
+Network Time Protocol (NTP).
+over
+199855] 2 [ Contd...
+www.aktuonline.com
+c) Write short notes on the following:
+Acquisition
+i. Real time data
+ii, Real time web based reporting
+4) Attempt any two of the following: (10 x 2=20)
+a) How does a Vibration-based condition monitoring system help in
+predictive maintenance of industrial automation?
+b) What is overall Equipment Effectiveness? How this increases the
+productivity and total efficiency of an automatic system?
+Describe the key benefits and features of OEE with reference to
+industrial automation.
+Automation Controller? Differentiate
+c) What is Programmable
+PAC with PLC based on features and application.
+5) Attempt any two of the following: (10 x 2=20)
+a) Discuss how EMI Software has changed manufacturing
+operations. Explain Enterprise Manufacturing Intelligence (EMI)
+with their core functions.
+b) Define Asset Management System with brief description of their
+components. What is the scope of a risk-based management
+plan?
+c) What is disaster recovery? Explain various types of DR and give
+importance of disaster recovery planning industrial
+automation.
+199855] 3

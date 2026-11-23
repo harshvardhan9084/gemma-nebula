@@ -1,0 +1,115 @@
+Printed Pages : 4 EEE601
+--(Following Paper ID and Roll No. to be filled in your Answer Book)
+TT T
+PAPER ID: 2498
+. B.Tech.
+(SEMESTER-VI) THEORY EXAMINATION, 2012-13
+POWER ANALYSIS
+SYSTEM
+Time: 3 Hours] [ Total Marks : 100
+|
+1, Attempt all question parts.
+(a) Distinguish between positive sequence components and negative Sequence
+of three unbalanced voltage V,, V,, V,.
+components vectors,
+A 30 a reactance
+(b) generator rated at MVA, 11 kV has of 20%. Calculate its per
+unit reactance for a base of 50 MVA and 10 kV.
+(c) Rank the various faults that can occur in power system in the order of severity.
+adding impedance existing
+(d) What are bus the four ways af to an power system so as to
+modify impedance matrix ?
+(e) Explain the need for slack bus.
+(f) Name the various of buses of used in flow analysis.
+types a power system power
+- What are the quantities to be specified and to be computed for each class during
+. power flow solution ?
+(g) Define inertia constant of a synchronous machine and write the unit for inertia
+constant.
+(h) Write the power angle equation of a synchronous machine connected to an infinite
+bus and also the expression for maximum power transferable to the bus.
+(i) Draw Bewlay’s lattice diagram.
+(j) surge impedance loading of transmission line.
+we
+SECTION -B
+Attempt any three question parts. 3x 10=30
+(a) Derive the formula for the internal impedance in H/m of a hollow conductor
+having inside radius r, and outside radius r, and also determine the expression for
+the inductance in H/m of single-phase line consisting of the hollow conductors
+a
+described above with conductors spaced a distance D apart.
+Derive
+(b) the fault current equation for L-G fault and draw the sequence network.
+Draw the flowchart for load flow solution by Gauss Seidal Iterative method and
+explain.
+(d) Derive the critical clearing angle of system having double circuit
+a power
+transmission line and fault occurs at the middle point of one of the transmission
+line. Also find out the critical clearing time. -
+when
+(e) Derive the voltage expression for travelling wave reflection the line is
+terminated with a capacitor.
+SECTION —C
+Attempt all questions. 5x10=50
+Attempt any two parts.
+(a) A set of 3 phase unbalanced voltages and currents resolved into symmetrical
+components give the following results :
+Vay = 30 Tao = 10 2190°
+20° =6 220°
+240° =5 250°
+Determine the complex represented by these voltages and currents by
+power
+Symmetrical components
+(ii) unbalanced phase quantities
+(b) Explain the modelling of generator, transformer, transmission line, load, shunt
+capacitor and shunt reactor for power flow and stability studies.
+2
+(c) A 25 MVA, 11 kV, generator has 0.2 Its negative and
+a = p.u. zero sequence
+reactances are respectively 0.3 and 0.1 p.u. The neutral of the generator is solidly
+grounded. Determine the sub-transient current in the generator and line-to-line
+voltages for sub-transient conditions when an LG fault occurs at the generator
+terminals. Assume that before the occurrence of the fault, the generator is
+operating at no load at rated voltage. Ignore resistances.
+Attempt any one part. . 1x10= 10
+(a) A salient pole generator is rated 20 MVA, 13.8 kV and has X," = 0.25 p.u. The
+negative and zero sequence reactance are 0.35 p.u. and 0.1 p.u. The neutral of the
+generator is solidly grounded. Find the sub-transient current and the line to line
+voltage the fault under sub-transient condition when double line ground
+at a to for
+fault occurs at the the terminals samé b and c of the generator. Derive the expression
+fault current for fault.
+Determine Z bus using bus impedance matrix building algorithm by adding the
+lines as per increasing element number. The reactance diagram of the system is
+shown in a
+Fig. 1
+5. Attempt any one part. 1x10= 10
+(a) The Fig. 2 shows a three bus power system.
+Fig. 2
+Bus 1 : Slack bus, V = 1.05 p.u.
+Bus 2 : PV bus, [V| = 1.p.u., Pg = 3 p.u.
+Bus 3: PQ bus, P; = 4 p.u. Q p.u.
+load solution Gauss-Seidel
+Carry out one iteration of flow by method. Neglect
+limits on reactive power generation.
+2498 3. P.T.O.
+(b) Explain clearly the algorithmic steps for solving load flow equations using
+Newton-Raphson Method (polar form) when the system contains all types of
+Q
+buses. Assume that the generators at the P-V buses have enormous limits and
+hence Q limits need not be checked.
+Attempt any one part. 1x10= 10
+Derive swing equation for a synchronous machine used for stability studies in
+power system.
+(b) Describe equal area criteria for transient stability analysis in power system.
+Attempt any two parts. 2x5= 10
+~
+(a) Derive wave equation for uniform transmission lines.
+(b) How to protect system equipments, against travelling waves ? Explain in
+power
+detail.
+(c) A rectangular wave of 200 kV amplitude travel along a line having a surge
+inductance of 500 Ohm transit point where it is
+to.a connected to a line of 50 Ohm
+surge impedance. Determine the value of the transmitted and reflected voltage and .
+current waves.

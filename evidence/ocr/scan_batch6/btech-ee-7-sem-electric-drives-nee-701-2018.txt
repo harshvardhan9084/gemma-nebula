@@ -1,0 +1,35 @@
+CamScanner
+Sub Code: NEE-701 ij of 0.05 05 ol ohms It is broken by
+Printed pages: b) plugging A 220 V, from 970 an rpm, initial 100 speed A de of separately 1000 rpm. excited calculate motor has an armature resistance .
+Roll No: b. a. Value braking of torque resistance to be placed in armature circuit to limit braking . current to twice the full load ad value value.
+Attempt any one parts of the following (10xt =10) _
+THEORY B EXAMINATION TECH 2017-18 a) What are components of load torque and explain each by
+(SEM 7) b) Draw the block diagram of an electric drive. Explain the . function of each. Scanned
+AN
+Time: 3 Hours Total 00
+Attempt any one parts of the following (10x1
+Note: (i) Attempt all questions. If required any missing data; then choose suitably. a) What are the reasons for using load equalization in an electrical drives?
+(ii) All questions carry equal marks. b) A current rolling is mill maintained driven by constant thyristors at the converter rated value. -fed de Moment motor of operates inertia on referred a speed to reversing the motor duty shaft cycle. is 10000 Motor kg-m field .
+SECTION -A Find torque during speed reversal from 200 to -200 rpm in 5 sec.
+1, Attempt all question in brief. (2x10=20) Attempt any one parts of the following (10x1 =10)
+a) b) Define Define term term Wind dynamic age torque a) b) A Derive 220 volt the thermal 200 A model 800 rpm of motor de separately for heating excited and cooling. motor has an armature resistance of 0.06 The motor armature
+c) value of slip when torque. motor is at standsiill? fed from a variable , , voltage source with an internal resistance braking of 0.04 80% Q . calculate internal voltage of the 1s
+¢) a) How What you is meant can change by classes speed of of duty separately of motor. motor. voltage source when motor is operating in regenerative at of rated motor torque and 600 rpm
+8) f) Write What is name intermittent plate detail periodic of 3 phase Duty induction of machine?
+h) What information we get from frame size of motor. motor.
+j) i) Define What is passive meant by load heating torques time and constant active load of motor? torques,
+SECTION -B
+2. Aempt any three parts of the followin 8 (10x3=30)
+a) Explain dynamic braking for separately excited DC motor.
+c) b) Explain Explain plugging regenerative for braking separately for excited separately DC excited motor DC motor.
+e) Describe Drive expression four quadrant energy operation consumption of E = 0.5 on no load during starting of induction motor.
+motor torque, load torque, and speed motor for for quadrant. hoist load with illustrative figures for each. Show clearly the direction of
+SECTION
+3, Attempt any -C
+one parts of the following (10x1 =10)
+a) A drive has the following parameters. T !50-0.1N, N-m, where N is the
+m initially the drive is operating in steady = stute. The characteristics of load speed torque in are rpm. changed Load torque to T; = T; -100, = 100, N-m. N-
+b) Explain Calculate different initial and type final of braking equilibrium of induction specus. motor
+4. Auempt any one parts of the following
+a) Drive E U.S Jw, load (10x1 =10)
+expression energy consumption = on no during Starting of de motor.

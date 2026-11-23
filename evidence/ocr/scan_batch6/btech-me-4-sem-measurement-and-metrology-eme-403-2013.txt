@@ -1,0 +1,98 @@
+Printed
+| Pages : 4 EME403
+Book)
+(Following Paper ID and Roll No. to'be filled in your Answer
+| TT TE
+PAPER ID : 3991 roto.
+B.Tech.
+(SEMESTER-IV) THEORY EXAMINATION 2012-13
+-MEASUREMENT & METROLOGY
+Time : 3 Hours } { Total Marks : 100
+SECTION
+-A
+1. Attempt all question parts :
+(a) State the difference between accuracy and precision of 2 measurement.
+Give any four methods of measurement.
+(c) What is by analog and digital transducer ? Give exampie.
+meant
+(d) What is thermocouple and thermopile ?
+(e) With a aid of sketch explain any one type of elastic pressure transducer.
+strain
+(f) What is gauge and strain rosettes ? A
+‘(g) What-are the various types of linear measuring instruments ?
+(h) How the following designated ?
+are
+Standard tolerance grade
+|
+(i) Tolerance size
+(i) Name the different types of interferometer.
+measuring thickness
+(j) .. What are the various methods used for the gear tooth ?
+Pro
+voor
+http:/Awww.UPTUonline.com
+SECTION ~ 5
+Attempt
+2, any three question parts : 3x10=30
+(a} Discuss in detail
+-
+(i) various dynamic characteristics of a measuring system
+(ii) primary and secondary with neat sketch
+(b) Briefly explain various methods of measuring torque.
+(c) Discuss the construction and working of Optical Pyrometer with sketch.
+neat
+(d) With the aid of neat sketch explain the working of Johansson ‘Mikrokator’.
+(e) Describe how the straightness of Lathe bed is using
+collimator. error a checked an Auto-
+SECTION — C
+Attempt all questions : 5x
+3, Attempt any two parts ;
+(a) Draw a sketch showing the movement of sigma comparator.
+(b) What is surface texture and give its representation with a sketch ? Also explain
+about primary and secondary texture.
+(c) With neat sketches, explain the significance of
+some important parameters used:
+for measuring surface roughness. Why so many parameters are needed ?
+4. Attempt any one part : 1x10=10
+(a) What are the basic blocks of a generalized instrumentation system ? Draw the
+various blocks and explain their functions.
+(b) Discuss in detail various types of errors associated in measurement and how these
+errors be minimized.
+can
+3991 2
+http:/Awww.UPTUonline.com
+Attempt one part |
+any : - 1x 10=10
+short
+(a) Write notes on any twe of the following : |
+(i) Stroboscope
+Gi) Vibration
+pickups and decibel meters
+cells
+(itt) Different types of
+(b) Explain the theory of strain gauges and also discuss the temperature compensation
+in strain gauge.
+Attempt any one part: 1x 10=10
+(a) Explain how the shown in Fig. is
+Justify component 1 checked for its dimensional and
+form accuracy. the selection of instruments after considering various
+alternatives possible.
+M 10x 1.0RH
+Fig. 1
+Determine
+(b) Explain Taylor’s principle of gauge design. the dimensions of hole
+and shaft for a fit 30 H,/h,. Also determine the allowance and maximum
+clearance,
+3991 3 P.T.O.
+http:/Awww.UPTUonline.com
+7.. Attempt any two parts : : 2x5=10
+(a) Derive the expression for best size wire.
+(b) Calculate the length of base tangent over two teeth for a helical gear having the
+following specification : width of gear = 30 mm, No. of teeth = 10, Helix
+angle = 30°, pressure angle = 20°, module = 4.
+(c) In the measurement of surface roughness, heights of 20 successive peaks and
+troughs measured from datum and 35, 25, 40, 22, 35, 18, 42, 25, 35,
+were a were were
+22, 36, 18, 42, 22, 32, 21, 37, 18, 35; 20 microns. If the measurements
+obtained over length of 20 mm, determine the C.L.A and R.M.S value of the
+rough surface.

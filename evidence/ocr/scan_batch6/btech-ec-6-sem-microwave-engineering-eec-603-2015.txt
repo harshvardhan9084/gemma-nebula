@@ -1,0 +1,114 @@
+www.aktuonline.com
+Printed Pages : 4
+A
+EEC603
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID : 131603
+B. Tech.
+(SEM. VI) THEORY EXAMINATION, 2014-15
+MICROWAVE ENGINEERING
+Time : 3 Hours] [Total Marks : 100
+Note: Attempt all the questions.
+Each question carries equal marks.
+1 Attempt any four parts of the following :5x4=20
+(a) What waveguides ? Explain the following
+terms are
+:
+Gi) Phase velocity
+Gi) Group velocity
+Gii) Cut-off wavelength.
+(b) Derive the field distribution of TE10 mode in
+rectangular waveguide and draw its field
+pattern.
+(c) Show that TEO1 and TM10 modes do not exist
+in rectangular guide.
+(d) What is microstrip wave line ? How does its
+characteristic impedance change with change
+in width to height ratio.
+131603] 1 [ Contd...
+www.aktuonline.com
+(e) Arectangular wave guide has a cross sectional
+area 2.29 cm x 1.45 cm and the operating
+frequency is 9.0 GHz. Calculate the value of
+(a) free wavelength, (b) off frequency,
+space cut
+(c) cut off wave length.
+(f) Define quality factor of a cavity resonator.
+Derive expression for quality factor Q of a
+rectangular cavity resonator.
+2 Attempt any four parts of the following :5x4=20
+(a) What do by microwave passive
+devices ? Describe you mean E-plane tee, H-plane tee
+and Magic tee.
+(b) What are S-parameters ? Why are they used
+at microwave frequencies to describe multiport
+network ?
+(c) Describe rotary-vane attenuator. Show that
+its [S] matrix is given by
+is 0
+sin@ 0
+(d) What is a phase shifter ? Describe a rotary
+phase shifter and explain its principle.
+Show that the scattering matrix of four port
+circular using magic tees is
+0 O° or KF
+[s]=|, Oo CO
+0
+131603] 2 [ Contd...
+www.aktuonline.com
+(f) With support of figures explain the working
+of an isolator.
+Attempt of the
+3 any two parts 10x2=20
+following :
+(a) A two cavity klystron amplifier has the
+following specifications : Beam voltage = 900 V,
+Beam current = 30 mA, frequency = 8GHz,
+gap spacing in either cavity = 1 mm, spacing
+between centers of cavities = 4cm and effective
+shunt impedance 49 Determine
+G) Electron velocity =
+Gi) D.C. transit time of electron
+Gii) Input voltage for maximum output
+voltage
+(iv) Voltage gain in dB
+(b) By means of an appropriate diagram explain
+the operation of a reflex klystron. Calculate
+the modulated velocity of electron if the
+electron enters the cavity at the instant when
+the signal peak. Assume
+R.F. is at its negative
+cavity gap to be 2mm and the frequency of
+R.F. signal to be 9 GHz with peak to peak
+value of 10 mV and V, = 1000 V.
+(c) With support of figure explain the working of
+TWT.
+4 Attempt two parts of the 10x2=20
+following any
+:
+(a) Give the construction of tunnel diode. Explain
+its volt-ampere characteristics.
+131603] 3 [ Contd...
+www.aktuonline.com
+(b) Explain the construction, fabrication and
+domain formation of Gunn diode.
+(c) Explain IMPATT and TRAPATT diodes and
+their performance.
+compare
+5 Attempt any two parts of the 10x2=20
+following :
+(a) Explain :
+G) Thermocouple detector
+Gai) Bolometer mount technique
+Calorimeter wattmeter technique
+(iv) Slotted line carriage and its importance
+in uwW test bench.
+(b) Discuss the salient features of microwave
+measurements. Describe a voltage standing
+wave ratio (VSWR) meter.
+(c) What do by insertion loss and
+attenuation you ? Discuss mean method for
+any one
+measurement of attenuation using “ wave
+test bench.
+131603] 4 [12675]

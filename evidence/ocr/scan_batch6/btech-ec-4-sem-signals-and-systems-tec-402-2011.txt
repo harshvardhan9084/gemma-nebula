@@ -1,0 +1,117 @@
+Printed Pages: 4 - TEC402
+(Following Paper ID and Roil No. to be filled in your Answer Book)
+3082
+B. Tech.
+(SEM. IV) THEORY EXAMINATION 2010-11
+SIGNALS AND SYSTEMS
+Time : 3 Hours Total Marks : 100
+Note :— (1) Attempt a@// questions. All questions carry equal
+marks.
+(2) Be precise in your answer. No second answer
+book will be provided.
+1. Attempt any FOUR parts of the following :— (5x4=20)
+(a) Sketch the signal
+x(t) 2) 1) r(t 2) rt 3)
+= + — + — + —
+and determine the even and odd component of it.
+(b) Determine the energy or power as applicable for the
+signals :
+x(n)
+=
+(c) Consider a discrete-time system with input x[n] and
+output y[n]. The input-output relationship for this system
+is y[n] = x{n] x[n — 2]. Determine the output of the
+system when the input is where A is any real
+or complex number.
+(d) _ Establish the relationship among unit step function, unit
+function and unit impulse function.
+ramp
+(e) Find the x(t)* y(t) and sketch the convolved signal
+for :
+x(t) = 2, for-I <t < 1 and -2 <1 <2.
+i {Turn Over
+TECAGZT/REW-2 1159
+(f) Explain the properties of LTI system and find the
+convolution between of signals. x[n] = a" uf{n] and
+h{n} = ufn].
+2. Attempt any FOUR parts of the following :-— (5x4=20)
+(a) Find the auto-correlation function and the energy spectral
+density of the signal x(t) et u(t) by using the
+=
+relationship between convolution and correlation.
+(b) State and prove the following of Fourier transform :
+(a) Time differentiation property.
+(b) Parseval’s theorem.
+(c) Determine the time domain given expression :
+(d) Using partial fraction expansion, find f(t). If its unilateral
+Transform F(s) by
+is given
+(e) Using Parseval’s theorem find the signal of
+energy
+x(t) = 4 sin c(2t).
+(f) Find the Fourier series expression for rectangular
+of amplitude A and period T.
+3. Attempt any TWO paris of the following :-— (10x2=20)
+(a) A second-order DT system is described by the difference
+equation :
+y(n) — y(n — 1) + 0-Sy(n — 2) = x(n)
+Determine :
+(i) H(z), the system function,
+TEC402/RFW-21159 2
+(ii) h(n), the unit-sample response sequence, and
+(iii) transfer function H(e™). Plot its magnitude
+response. _
+(b) An LTI is described by
+system
+H(f)=
+2+ j2nf
+Find its response y(t) if the input is x(t) = u(t).
+(c) Consider the first-order causal LTI system described
+by the difference equation y[n}] — ay[n — 1] = x[n]
+with | a | < 1. Determine the magnitude and phase of
+the frequency of the
+response system.
+4, Attempt any TWO parts of the following :-— (160x2=26)
+reconstruction scheme used in reconstructing
+(a) Describe the
+CT signal from its discrete counterpart using zero-
+order hold with necessary equations and sketches.
+(b) (i) A 100 Hz sinusoid x(t) is sampled at 240 Hz. Has
+aliasing occurred ? How many fu!! periods of x(t)
+required obtain period of the sampled
+are to one
+signal ?
+(ii) Use the convolution theorem of Laplace transform
+to find y(t) = x,(t) * if =e u(t) and
+= u(t 2).
+— the Laplace transform of periodic
+(c) Show that
+f T /
+function is given as i f(je™ j-e!
+9 J
+where T is the period of the function f(t).
+TEC402/REW-21159 3 {Turn Over
+(ii) Determine the unilateral laplace transform and __
+specify the region of convergence of the signal
+.
+x(t) = + 1) + 8) + ut + 1).
+5. Attempt TWO parts of the following
+any :-—
+(a) Determine all the possible responses for the system
+described by
+y(n) — + (n — 2) = 2x(n)
+Also determine the y(n) if the input
+output
+x(n) = 2" u(n).
+(b) Realize the following systems in Direct and
+Direct :
+(i) y(n) 0-Sy(n—-1) + 0-25y(n—2) x(n) + 2x(n—1)
+(i) — =
+28 + dy(t)/dt + 3y(t) = x(t).
+(c) Determine the Z-transform of the signal
+x(n) = 2(n 1) u(n 1).
+— —
+Also show pole-zero plot and ROC.
+Gi) If X(zj= 32° ~4z+1 » find x(n), n = 0, given
+that ROC of X(z) is | z| > 1.
+TEC402/RFW-21159 4 2390

@@ -1,0 +1,101 @@
+aktuonline.com aktuonline.com
+3 a 5 o
+Printed ® Pages : 4 2 o TEC-507
+(Fotlowing Paper ID and Roll No. to be filled in your Answer Book)
+PAPER : 3000
+B. Tech.
+(SEM, V) EXAMINATION, 2008-09
+ANALOG INTEGRATED ELECTRONICS
+Time 3 Hours] {Total Marks 100
+:
+Note Attempt all questions.
+:
+1 Answer four questions of the following 5x4=20
+any :
+(a) Explain the need of compensating network in
+op-amp circuit.
+(b) Explain the difference between the frequency
+of internally compensated and
+response uncompensated
+op-amps.
+(c} Draw the high frequency model of an op-amp
+with double break frequency, Explain the principle
+of this circuit.
+(d) Justify that for stable circuit, the additional phase
+angle provided a by be less than 180°
+when its magnitude op-amp reaches must unity
+(e) Discuss dominant-pole compensation of an
+op-amp.
+if) Explain the input bias characteristics of
+in default. current
+op-amp
+3000) [Conta..
+aktuonline.com
+aktuonline.com
+2 four of following
+Answer any questions the : 5x4=20
+between de and ac amplifier.
+(b) Draw and explain the operation of
+voltage If 741 C is used. a What current is the 10
+iowest value converter. of that be measured ?
+current may
+(c) Name and draw the system whose gain ts
+controlled by an adjustable resistance. its “
+working
+Calculate V, for the circuit given below.
+al
+(fe) Show that vi y -V;) where
+V, for differential
+= a amplifier with “
+double ended output whose circuit is given below
+R, R,
++
+=
+vy R,
+3000} ‘HA 2 (Contd...
+aktuonline.com
+Oooo
+aktuonline.com aktuonline.com
+(f} Show that the output of an op-amp integrator
+to a step input of magnitude V volts is given
+by Ug =
+3 Answer two question of the following 10*2=20
+any -
+(a) Draw the frequency response of an ideal low-
+pass a high, pass a band pass, and a band reject
+filter.
+(b) Design a high pass filter at a cutoff frequency of
+1 KHz with a pass band gain of 2. Plot the
+frequency response on semilog paper. Using the
+frequency scaling techniques, convert the | kHz
+cutoff frequency of the high pass filter to a cut
+off frequency of 0.6 kHz.
+(c) Design a fourth order butter worth Low Pass filter
+whose bandwidth is | kHz. Select all capacitors.
+equal to 1000 nf,
+4 Answer any two questions of the following 10x2=20
+(a) (i) Draw the circuit of peak detector and
+explain its operation. a
+(i) Draw a sample and Hold circuit and explain
+its operation,
+(ob) Draw a regenerative comparator system and
+explain its operation. What parameters determines
+the loop gain ? What parameters determine the
+hysteresis ?
+(c) Draw a circuit of triangle integrator. generator Explain using it a
+comparator operation by referring and an waveform.
+What is the peak amplitude to the output ?
+3000] ME lL
+3
+aktuonline.com
+aktuonline.com aktuonline.com
+5 Answer any two of the following 10x2=10
+(a) Explain the operation of the
+555 timer as a
+monostable and astable multivibrator,
+(b) Explain the operating principles of Phase
+Locked Loop (PLL). a
+(c) Discuss different types of voltage regulators
+and explain the characteristics of each,
+3000) [ 2500 |
+aktuonline.com

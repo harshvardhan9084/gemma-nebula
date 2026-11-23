@@ -1,0 +1,51 @@
+Printed Pages: 01 Sub Code:EIC032
+Paper Id: 131246 Roll No.
+B.TECH
+(SEM. VITT) THEORY EXAMINATION 2018-19
+BIO-MEDICAL SIGNAL PROCESSING
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+SECTION A
+1 Attempt all questions in brief.
+a. Give any four examples of bioelectrical signal.
+b. What is the clinical importance of EMG signals?
+Cc. Draw the PQRST curve of an ECG and label it.
+d. How we measure amplitude in ECG define.
+What is the use of FAN algorithm?
+f. Write short note on turning point algorithm.
+g. What is the frequency range of beta wave in EEG? What is its significance?
+h. Describe briefly the sleep EEG.
+1. Mention two advantages of Adaptive Noise Canceller.
+j. What is overlapping any wavelets?
+SECTION B
+Attempt three of the following: 10x3=30
+www.aktuonline.com With the any help of a block diagram, explain the objectives of biomedical signal
+analysis.
+Explain about portable Arrhythmia monitor with a neat sketch.
+Classify the different data reduction techniques. Explain the turning point algorithm
+used for the ECG data reduction.
+What is the clinical importance of EEG? Mention the different conditions where beta
+and alpha generated.
+What the waves advantages are of adaptive filter? Design adaptive filter using LMS
+algorithm. are an an
+SECTION C
+& TP Attempt any one part of the following: 10X1=10
+Explain three difficulties encountered in biomedical signal analysis and acquisition.
+Explain the following biomedical signals. Draw the waveform and give the
+frequency ranges relevant to these signals: i). ECG, ii). EEG.
+S Attempt any one part of the following: 10X1=10
+Discuss about two types of electrodes used in ECG.
+Explain the QRS detection algorithm in detail.
+Attempt any one part of the following: 10X1=10
+Draw the flow chart for AZTEC algorithm.
+Explain the Huffman coding and its uses for ECG data compression.
+Attempt part of the following: 10X1=10
+Discuss any Maximum one Likelihood Method for EEG analysis. Differentiate it w.r.t
+ARMA method.
+With suitable figures describe the AR modeling of seizure EEG. Explain the steps
+involved in sleep stage analysis.
+Ten Attempt any one part of the following: 10X1=10
+Discuss in detail about different applications of adaptive filters.
+What is adaptive wavelet detection method? Specify two critical parameters which
+determine the stability of LMS algorithm?
+http://www.aktuonline.com

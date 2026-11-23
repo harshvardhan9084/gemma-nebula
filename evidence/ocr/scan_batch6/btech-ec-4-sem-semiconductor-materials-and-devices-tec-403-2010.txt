@@ -1,0 +1,130 @@
+10832
+Printed Pages—4 ; TEC — 403
+.
+(Following Paper ID and Roll No. to be filled in your Answer Book)
+PAPER ID 3083
+:
+B.Tech.
+(SEM IV) EVEN SEMESTER THEORY EXAMINATION,
+2009-2010
+SEMICONDUCTOR MATERIALS & DEVICES
+Time : 3 Hours Total Marks : 100
+Note: (i) Attempt all the questions.
+(ii) All the questions carry equal marks.
+1. Attempt any four parts of the following:
+(a) Give the electronic configuration of Ge and
+sketch the lattice structure of GaAs.
+(b) What do you understand by Miller
+indices ? How is this obtained that describes
+a plane in a crystal ?
+(c) Sketch the following planes and directions
+in cubical unit cell.
+(100), <100>, {100}, [100]
+(d) What do you mean by effective mass of
+bands carriers ? ? What How is does the it kinetic depend on energy of an
+hole at the top of the valence band energy ?
+TEC —403 1 [Turn Over
+(e) Define Fermi level and plot the Fermi
+function at 0°C. Calculate the probabilities
+of finding electron at the energy level of
+0.1 eV above and below the Fermi level at
+(f) Define room temperature. mobility of carrier. How does
+mobility depends a doping concentration
+and temperature ? on
+2. Attempt any two parts of the following: (2x10=20)
+(a) What are the direct and indirect
+recombination ? Derive an expression for
+minority carrier life time.
+(b) Define the explain quasi-Fermi level. A Ge
+sample with Sb atoms per cm? is
+optically, excited at 300 K such that
+Sop =1079 EHP per cm*-sec and
+=10 micro second. What is the
+separation of the quasi-Fermi levels ? Draw
+an energy band diagram also.
+(c) What do you mean by excess carriers ?
+Derive an expression for diffusion equation
+for steady state distribution of excess
+electrons.
+3. Attempt any two parts of the following:
+(a) What is contact potential ? Explain. Derive ~
+an expression for it assuming step junction
+at equilibrium condition.
+ror Si p-n junction, donor and acceptor
+10! urities at 3x10'8 room temperature are
+and cm~? respectively.
+Calculate the contact potential and draw
+junction an equilibrium if intrinsic band carrier diagram concentration for the of
+Si 1.510! at temperature.
+is room
+2
+(b) Find an expression for the electron current
+in the n-type material of a forward biased
+p-n junction.
+(c) Assume that an ideal Schottky barrier is
+formed on n-type Si having atoms
+per cm®. The metal work function is 4.3 eV
+and Si electron affinity is 4 eV. Draw the
+equilibrium band diagram with values
+calculated for appropriate barriers and
+describe the contact.
+4. Attempt any two parts of the following: — (2x10=20)
+(a) Whatare the advantages and disadvantages
+of Field Effect Transistor over a BJT ?
+Discuss briefly the operation of normally-
+on and normally-off GaAs MESFET with
+suitable diagram and characteristics.
+(b) With a suitable diagram describe the
+working principle of a photo-diode.
+Explain how the various quadrants of its
+V-I characteristics are used in different
+applications ?
+(c) What is light emitting diode ? Explain the
+operation of LED. What the suitable
+material for it an Explain. are
+—
+5. any two parts of the following: (2x10=20)
+(a) What is transferred electron effect ?
+Describe a device based on this effect with
+suitable diagram in detail.
+[Turn
+TEC —403 3 Over
+(b) Find an expression for the electron current
+in the n-type material of a forward biased
+p-n junction.
+(c) Assume that an ideal Schottky barrier is
+formed on n-type Si having atoms
+per cm®. The metal work function is 4.3 eV
+and Si electron affinity is 4 eV. Draw the
+equilibrium band diagram with values
+calculated for appropriate barriers and
+describe the contact.
+4. Attempt any two parts of the following: — (2x10=20)
+(a) the advantages and disadvantages
+of Field briefly Effect the Transistor over a BJT ?
+Discuss and normally-off operation GaAs MESFET of normally- with
+on suitable diagram and characteristics.
+(b) With a suitable diagram describe the
+working principle of a photo-diode.
+Explain how the various quadrants of its
+V-I characteristics are used in different
+applications ?
+(c) What is light emitting diode ? Explain the
+operation of an LED. What are the suitable
+material for it ? Explain.
+5. Attempt of the following: — (2x10=20)
+any two parts
+(a) What is transferred electron effect ?
+Describe a device based on this effect with
+suitable diagram in detail.
+TEC —403 3 [Turn Over
+(b) Explain the conditions for electron
+tunneling in a tunnel diode with the help of
+suitable energy band diagrams. Explain the
+operation and J-V characteristics of the
+diode.
+Discuss the switching mechanism of the
+p-n-p-n diode with the help of the two
+transistor analogy.
+-o0Oo-
+TEC —403

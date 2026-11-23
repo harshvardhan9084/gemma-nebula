@@ -1,0 +1,67 @@
+Printed Page | of 2 Sub Code:KCT301
+Paper 1a: [11
+B. TECH
+THEORY EXAMINATION 2019-20
+YARN TECHNOLOGY I
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+Attempt ail questions in brief. SECTION A 2x 10=20
+Name various of staple spinning ot
+Define Ginning types yarn systems.
+process.
+Name trash content. the sequences of machines in a Blow room used for processing cotton fibre having 4%
+Name the types ofi impurities present in cotton fibre.
+State the principles of opening & cleminginablowroom
+ofehute eedsystem
+| Name the types of carding machines used
+2 16 |
+What Foow draw the Tnear frame density should of not carded do. yam and combed yam are expressed,
+Write specifications of few types of earding wires used for processing cotton bres.
+SECTION B
+State the objectives of Ginning process. With neat diagram explain the principles of Ginning
+State through the various basic objectives Ginning machines. of Blow Explain the principles of Processing of fibres
+through various sections of Blow room. cotton
+With a neat diagram explain the principles room. of processing fibre through chute feed system. State
+the advantages and disadvantages of chute feed system.
+Briefly mention process flow chart of carded and combed yarn. State the objectives of combing
+process. What comber should not do?
+State the objectives of drawing process. With a neat diagram mention the flow of material
+through a draw frame and functions of its important elements.
+SECTION C
+3. Attempt any one part of the following: 1x10=10
+With a neat diagram show the functioning of a super lapper machine. How this machine is
+different to the traditional lap former machines (with neat diagram).
+Compare the effect of total draft and number of doubling in the traditional and modern pre
+combing process. Mention the process parameters and production rate of combing machine for
+medium, fine and super fine counts.
+ee
+With carding a neat machine. diagram Mention show the the flow of of material carding and machine functioning productivity of important for different organs fibres. of a modern
+b. What the functions of Auto norms leveler in Draw frame machine. Explain the function of closed | 10
+loop & are open loop Auto leveler (with a neat a diagram)
+Printed Page 2 of 2 Sub Code:KCT301
+5. Attempt any one part of the following: 1x10=10
+A Blow room machine is running with the following parameters:
+Length of Blow room lap -40metres,
+Weight of Blowroom lap 16 kg.
+Shell roller rpm- 10
+Efficiency- Shell roller dia- 90%, 10 Waste inches. 5%.
+Determine the Production — of the Blowroom line in kg. for a shift of 8hours.
+(Assume any relevant technical data., if necessary)
+| A carding machine is running with the following parameters:
+Hank of lap fed - 0.00140sNe,
+Doffer rpm — 30,
+Doffer dia-26.75 inches.
+Tension Hank of card draft-1.3, sliver 0.135s Ne.
+Efficiency-90 %., Waste- — 2%
+Determine the Actual & Mechanical draft working in the machine. Production of the carding
+machine in kg for a shift of 8 hours.
+(Assume any relevant technical data., if necessary)
+6. Qno. Attempt any one part of the following: Question Marks | CO
+of of
+Mention Mention the the speeds specification important of wires of organs carding and setting i (gauges) norms a carding machine.
+Mention the norms of distribution of a draft and recommended roller settings in a draw frame
+machine, Mention the stop motions working in a draw frame machine.
+Technically compare between Mixing & Blending process. Briefly explain various types of
+Blending Process (with a neat dia
+Mention the sequences of operation in a combing cycle (with a neat diagram).Mention noil level | 10
+for different counts in a

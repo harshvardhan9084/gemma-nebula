@@ -1,0 +1,72 @@
+5. Attempt any two of the following : (10x2=20)
+Explain the field revolving theory for single phase
+(a) two
+induction motors. Give its torque speed characteristics. Why
+this motor does not have any starting torque ? Show that
+this motor can run in either direction if once started.
+4 V, Hz
+(b) A125KW, pole 110 50 single phase induction motor eee el
+delivers rated output at a slip of 6%. The copper loss at full
+load is 25 watts. Calculate the full load efficiency and the
+Rotational ELECTROMECHANICAL ENERGY CONVERSION-II
+rotor copper loss caused by the backward field.
+losses may be assumed to be 25 watts. Neglect stator Time 3 Hours
+copper loss. : Total Marks ; 100
+Note ; Attempt all questions,
+(c) Write short notes on any two of the following : 1. Attempt four of the following (5x4=20)
+(i) Capacitor motor any :
+(a) Compare salient and non salient pole synchronous machine.
+(ii) Shaded pole motor (b) Sketch and explain the circuit and short circuit
+(iii) Method of speed contro! of single phase induction open
+characteristics of a synchronous machine.
+motor. (c) Derive the emf equation of a 3-phase alternator having
+connected winding. Why synchronous impedance
+star
+method of computing voltage regulation leads to pessimistic
+value for lagging power factor of load ?
+60°
+(d) pole, 3 phase, spread, double layer winding has
+72 coils in 72 slots. The coils are short pitched by two slots.
+Calculate the winding factor for the fundamental and third
+harmonic.
+(e) A 2200 V, 50 Hz, 3—phase, star connected alternator has
+an effective resistance of 0.5Q per phase. A field current
+EEESO1/VEQ-15327 4 7615 EEESO1/VEQ-15327 [Turn Over
+1 urn
+of 30 A produced the full—load current of 200 A short
+circuit and a line line on (b) A 6 pole, 50 Hz 3-phase slip-ring induction motor has 4
+to emf of 1100 V on open circuit. resistance and reactance of 0.5Q and 5Q per phase
+Determine respectively. Calculate (i) at what speed the torque is
+(i) the power angle of the alternator when it maximum ? (ii) the ratio of maximum torque/starting
+delivers full-load at 0.8 pf (lagging). What be the external torque,
+must resistance per phase have so
+(ii) the SCR of the alternator. that the starting torque is half of the maximum torque ?
+(f) Derive an expression for the winding factor of an alternator. Derive the exact equivalent circuit of a 3-phase induction
+motor. What is the difference between the and
+2. Attempt any two of the following : (10x2=20) exact
+(a) Explain the effect of varying of excitation of a synchronous approximate equivalent circuit ? From the approximate
+generator connected to infinite busbar on the factor, equivalent circuit find the (i) rotor output (ii) output power
+and load power (iii) output torque. Also find the slip at maximum torque,
+armature current angle. 4. Attempt of the following
+(b) Write short notes on the following : any two : (10x2=20)
+Gi) Parallel operation of alternators (a) Why a starter is necessary to start an induction motor ?
+Mention the various methods of starting, Explain in detail
+(ui) Process of synchronization. auto transformer starting method of starting squirrel
+(c) Two alternators working in parallel supply the following induction a cage
+loads (1) lighting load of 500 kW (2) 1,000 kW 0.9 pf motor.
+at (b) The rotor of a 4 pole, 50 Hz, slip-ring induction motor has a
+lag (3) 500 kW at 0.9 pflead (4) 800 kW at 0.8 pf lag. resistance of 0.25 2 per phase and runs at 1440 rpm at full
+One alternator is supplying 1,500 kW at 0.95 lag. Calculate load. Calculate the external resistance phase
+the load on the other machine. per which
+must be added to lower the speed to 1200 rpm, the torque
+3. Attempt any two of the following : (10x2=20) being the same as before,
+(a) Write short notes on any three of the following : (c) Write short notes on any three of the following
+@) Principle of working of an induction motor :
+(ii) characteristics of 3—phase induction @) Crawling of induction motor
+a (ii) Slip power recovery scheme for speed contro] of
+motor slip-ring induction motor
+(iii) The effect of rotor resistance on torque of induction
+motor. (ai) Double cage induction motor
+(iv) Induction generator. (iv) Cascade operation of 3-phase induction motors,
+2 EEESOWUVEQ-15327
+3 [Turn Over

@@ -1,0 +1,144 @@
+Printed Pages—5 EE-—401
+B.Tech.
+FOURTH SEMESTER EXAMINATION, 2004-2005
+ELECTRO-MECHANICAL ENERGY CONVERSION-I
+Time ; 3 Hours Total Marks : 100
+Note ALL questions,
+: All questions equal marks,
+carry
+(iti) = In case of numerical problems assume data wherever
+vot provided.
+1. Attempt any four parts of the following : (5x4=20)
+(a) Differentiate magnetic circuits and electric circuits.
+(b) A in cast diameter steel ring and has a circular circumference cross-section of 80 of 3 cm A
+1 air-gap is cut a mean out in the ring which is wound cm.
+with mm a coil of 600 turns. Estimate the current required
+to establish a flux of 0.75 mWb in the air-gap.
+Neglect leakage.
+Magnetization data
+:
+TH (AT/m) 200 | 400 |
+| 0.32 | 0.
+hd The flux ina magnetic core is alternating sinusoidally
+at a frequency of 600 Hz. The maximum flux density
+is 2 Tesla and the eddy-current loss is 15 watts. Find
+the eddy current loss in the core if the frequency is
+raised to 800 Hz and the maximum flux density is
+reduced to 1.5 Tesla.
+EE—401 1 [Turn Over
+(d) Explain the term ‘co-energy’ in Electromechanical
+energy conversion and show that coenergy is given
+by:
+2
+Where P of the magnetic circuit
+= permeance
+F in coil of magnetic circuit
+The magnetic flux density on the surface of an iro:
+face is 1.6 Tesla which is a typical saturation 4eve
+value for ferromagnetic material. Find the
+density on the iron face.
+For Doubly-excite Magnetic field system,
+inductance are : Ly,=(4+cos2@)x 1077} variou
+0.15cos0H. (20+ 5cos20)H. Find th
+torque developed if iy =1Amp and
+Also explain the significance of each terms in torqu
+tN Attempt any two parts of the following : (10x2=2(
+(a) A de shunt generator has the following open-circe
+characteristic when separately excited :
+Field Current, (Amp)
+Emf (Volts)
+The shunt winding has 1000 turns per
+total resistance of 240 ohm. Find the turns Fa PC
+of a series winding the that will be needed to >t
+terminal voltage same at 50 Amp output as
+no-load. The resistance of the armature
+including the series compounding winding, can
+assumed to be 0.40 ohm and constant. Jgne
+armature reaction.
+EE—401
+(b) A 220 V de series motor has the data :
+P/A=1, Flux/Pole=3.75 mWb/ field
+Z=180, total circuit resistance =1 ohm. amp.,
+armature
+The motor is cou pled to centrifugal pump whos¢ af!
+torque is Ty) 4h? N — m; where n=speed iif ‘or |
+Calculate the current drawn by the motor and
+speed at which it will run.
+(c) A 20 kW, S00 V de shunt motor has an efficiency of
+\ 90% ata full load. The armature copper loss is 40°
+of the full load loss. The field resistance is 250 ohm.
+Calculate the resistance values of a 4-section starter
+for this motor in given two cases :
+(i) starting
+fii) Starting current(min) = 120% Ty).
+3. Attempt any two parts of the following : (10x2=20)}
+(a) Explain the series-parallel control of de shunt moter.
+Hopkinson’s test load; on two machines gave the following
+excluding results for field full line 50 voltage A; 250 volt, line current
+380 Amp; field current currents motor 5 Amp armature and 4.2 current Amp.
+Calculate the efficiency of each machine. The
+armature resistance of each machine =0.02
+hd
+(b) (i) A 440 V, 4-pole, 25 kW de generator has a
+wave-connected armature winding density with $46
+conductors. The interpoles mean flux Wb/m? in, the air-
+gap load under and the the radial is 0.5 length on full
+Calculate the number of gap required is 0.4 oneach cm.
+interpole. turns
+EE—401
+/
+(ii) Derive the condition for zero voltage
+regulation. Also show that the magnitude of
+maximum (per unit) voltage value regulation of equivalent equals leakage the p.u.
+impedance.
+(c) A whose single impedance phase load is fed (120+j400) through a 66 ohm kV and feeder
+= 66/6.6 kV ‘transformer is whose equivalent impedance a
+(referred to LV) is (0.4+j1.5) ohm. The load is
+250 kW at 0.8 leading power factor and 6 kV.
+(i) Calculate the voltage the sending-end of the
+feeder at
+(ii) Calculate the transformer the voltage at primary terminals of
+(iii) Calculate the complex power input at the
+sending-end of the feeder.
+4. — Attempt any two parts of the following : (10x2=20)
+(a) An audio-frequency ideal transformer is employed
+to couple a 60 ohm resistance load to an electric
+source which is represented by a constant voltage of
+6 volt in series with an internal resistance of
+_~ 2400 ohm.
+(i) Determine the turn-ratio required to ensure
+maximum power transfer by matching the load
+and source impedance.
+(ii) Find the load current, voltage and power under
+the conditions of maximum power transfer.
+(b) What do you understand by the term ‘vector group’
+of a transformer ? Show the terminal connections
+of a 3-phase transformer having vector groups.
+(ii) and the corresponding phasar diagrams.
+EE—401 4 [Turn Over
+500 Two KVA single-phase respectively, transformers, connected rated 1000 in parallel KVA and
+both HV and LV sides. are They have equal voltage on
+ratings of 11 KV/400 V and their per unit
+impedances are (0.02 +j0.07) and (0.025 + j0.0875)
+ohms respectively. What is the largest value of the
+unity power factor load that can be delivered by the
+parallel combination at the rated voltage ?
+5. Attempt any two parts of the following : (10x2=20)
+(a) A 500-KVA, 11/0.43 KV, 3-phase delta/star
+connected transformer has on rated load an HV
+copper-loss of 2.5 kW and an LV loss of 2 kW. The
+total leakage reactance of 0.06 per unit. Find the
+ohmic values of the equivalent resistance and leakage
+reactance on the delta side.
+Explain the Scott connection for phase conversion
+in transformer. Also give applications of it.
+(i) | Enumerate the purposes of tertiary winding in
+transformers.
+400/100 transformer
+(ii) A is be employed V, 10 KVA, 2 winding autotransformer
+supply to 400 V circuit as an from 500 V to
+When tested a as a 2-winding transformer source. at
+rated load, 0.8 = pf lagging, its efficiency is 0.97.
+Determine its KVA rating and efficiency as an
+auto-transformer.
+EE-—401

@@ -1,0 +1,61 @@
+aktuonline.com aktuonline.com
+* v - 1 3 1 1 *
+Printed Pages : 2 IT - 602 / TIT - 602
+(SEM. VI) EXAMINATION, 2006-07
+ERP SYSTEMS
+Time : 3 Hours] [Total Marks : 100
+Note : (1) Attempt all questions.
+(2) All questions carry equal marks.
+(3) Be precise in
+your answers.
+1 Attempt any four parts of the following : 5x4=20
+(a) Discuss the reasons of growth of ERP market.
+(b) What is business integration and how does the
+ERP system achieve it ?
+(c) How is BPR connected with ERP ? Explain.
+(d) Discuss the advantages of data mining.
+(e) What is supply chain ? How SCM is different
+from logistic a management ?
+(f) the limitations of
+are ERP ?
+2 Attempt any four parts of the following : 5x4=20
+(a) What is pre-evaluation screening? Why is it
+required?
+(b) How the gap analysis helps in selection of a
+specific ERP package ?
+V-1311] 1 [Contd...
+aktuonline.com
+http://www.UPTUonline.com
+aktuonline.com aktuonline.com
+(c) Discuss the suitability of Indian market for ERP
+packages.
+(d) Discuss the important factors for ERP package
+evaluation.
+(e) Discuss the methodology for selecting suitable
+platform for ERP.
+(f) Explain SSAD.
+3 Attempt any two parts of the following : 10x2=20
+(a) Discuss the importance of post-implementation
+of phase of ERP implementation. How is it
+carried out ?
+(b) Explain the economic aspects of ERP
+implementation. What are the hidden costs ?
+(c) What kind of contract is with
+consultants and employees in ERP necessary environment ?
+4 Attempt two of the following 10x2=20
+(a) Discuss any the parts future of ERP market : in Indian
+industrial scenario.
+(b) What are enabling technologies ? Discuss some
+of these for successful ERP implementation.
+(c) Discuss the advantages of product data
+management.
+5 Attempt any two parts of the following : 10x2=20
+(a) Describe SAP applications. How are these
+used?
+(b) Discuss the cross-function approach of ERP
+systems.
+(c) How ERP and E — Commerce are related ?
+Explain with examples.
+V-1311] 2 [ 70 ]
+kt line.
+aktuonline.com http://www.UPTUonline.com

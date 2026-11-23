@@ -1,0 +1,107 @@
+acity
+6 [2] NME-504 ® State the assumptions made in lumped heat cap
+Printed Pages: transient heat conduction
+Paper ID and Roll No. to be filled in your method for analysis
+(Following Book) problem.
+Answer What
+uptuonline.com Define response time of a thermocouple.
+does it signify?
+B.Tech.
+2015-16 Explain black body, white body, gray body and
+(SEM. V) THEORY EXAM.
+opaque body.
+HEAT & MASS TRANSFER (EME-504) analysis of
+What do you mean by fouling factor in
+[Time:3 hours} [MaximumMarks: 100} heat exchanger?
+SECTION-A A black body emits radiation of maximum intansity
+Write 0.5 calculate its surface
+1. parts. All parts carry equal marks. at wavelength of m.
+answer of each part in short. (2x10=20) temperature and emissive power.
+_ SECTION-B
+What do you mean by thermal conductivity? Why
+good electrical conductor materials also gooc
+are Note:-Attempt any five questions from this section.
+heat conductors? (10x5=50)
+What do you mean by thermal cotact resistance? general heat conduction
+Wein’s displacement law. ‘Derive the ‘equation in
+State cylindraical coordinates.
+(d) What do by critical thickness
+9 you mean 01 Derivethe Von-Karman integral enegry equation for the
+insulation? . flat
+flow past a plate.
+\(¢) Define the term “Irradiation” and Radiosity”, an
+- the applications of fins? Establish expression
+for temperature distribution in a straight fin of
+rectangular profile, when fin tip is unsulated.
+18000 (1)
+(2) NME-504
+During heat treatment, cylindraica} Pieces of 25 mm A Counter flow heat exchanger IS used to cool lubricating
+diameter, 30 mm height and at 30 °C oil of large engine. The oil flows
+are placed in a industrial gas turbine
+furnace at 750 °C with convective heat transfer through the tube at 0.9 kg/s (c,= 2.18 kJ/kgK) and the
+coefficient 80 W/m*-deg,Calculate the time reqired coolant annulus in the opposite
+to water flows in the
+heat the pieces to 600 °C. What will be shortfall in direction at the rate of 0.15 kg/s (c= 4.18 kJ/kgK). The
+temperature if pieces are taken out from the furnace after oil enters 425 345 K while the coolant
+280 at K and leaves
+seconds? Assume the following properties: enters at 285 K. how long must the tube be made to
+k=40 W/m "C, c=480 J/kg K, and perfrom this duty if the heat transfer coefficient from
+p=
+The insulation board for air conditioning purposes oil to tube surface is 2250 and from tube to water
+comprises is 5650 W/m?K? The tube has diameter of 12.5
+three layers. A 12 cm thick layer of grass a mean
+(k=0.22 W/mK) is sandwiched between 3 thick layer mm and its wall presents negligible resistance to heat
+cm transfer, uptuonline.com
+of plywood (k=0. 15 W/mK) on each side. The bonding
+is achieved with glue which does not offer any resistance The nose section of a missile is formed of a 6 thick
+ot heat flow. If the side surfaces of mm
+board are maintained stainless plate and is held initially at uniform temperature
+at 40 °C and 20 °C temperature, determine the heat flux. of 88 °C. The missile enters the denser layers of the
+How would the heat flux be affected if instead of glue atmosphere at high velocity.
+the very The effective
+three pieces are fastened by steel bolts (k=40 WmK) temperature of air surrounding the nose region attains
+of 1.2 cm diameter at corners. the value 2200 °C and the surface convective coefficient
+Consider radiative heat. transfer between large is estimated at 3405 W/mK. Make Calculations for the
+0. two maximum permissible time in these surroundings if the
+paralle] planes of surface emissivity 8. How many thin maximum
+radiation shields.of emissivity.0.05 be placed between metal temperature is not to exceed 1095 °C,
+reduce the radiation heat Also workout the inside surface temperature under these
+_ to transfer by factor conditions. The
+75? properties for steel are:
+K= 54 C= 465 |
+uptuonline.com
+(3)
+PTO: 18000 (4) NME-504
+SECTION-C
+12. (a) Differentiate between Drop wise Condensation and
+Note: Attempt any five questions from this secrtion. film wise condensation. uptuonline.com
+(10x5=50)
+uptuonline.com _ (b) Engine Oil (c, J)kg °C is to be heated from
+analogy between momentum and heat =2100 diameter
+10. Explain the 20°C to 60°C at a rate of 0.3 kg/s ina 2 cm
+transfer in turbulent flow over a flat surface. thin walled copper tube by condensing steam
+outside of 130 °C (H,,=2 174
+(b) A flat plate is 2 m long, 0.8 m wide and 3 mm thick at a temprature
+and specific heat is 3000 kg/m? and kJ/kg) for an overall heat transfer coefficient of
+Its density 650 W/m?°C, Determine the rate of heat transfer
+700J/kgK respectively. The plate is having jnitial
+temperature is 80 °C. A stream of air at 20 °C of and the length of the tube required to achieve it.
+plate along its
+blown over both surfaces of the —x—
+widht; at a velocity 2 m/s. calculate rate of heat
+dissipation from the plate and initial rate of cooling
+of the plate. The proprties of air are:
+1007
+p =1.09 k =.028 W/m °C, C=
+x 10°kg/ms, Pr = 0. 698
+Nu, =0.664 (Re,)°* For Laminar Flow
+for Turbulent Flow
+ll. (a) What do you mean by shape factor? Write its salient
+features.
+internsity of
+(b) Define radiation. Prove that the
+internsity of radiation is 1/7 times’ of the total
+emissive
+power.
+(5) uptuonline.com (6)
+18000 NME:504

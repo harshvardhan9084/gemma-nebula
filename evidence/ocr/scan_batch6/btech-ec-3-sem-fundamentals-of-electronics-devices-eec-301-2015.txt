@@ -1,0 +1,63 @@
+Printed pages: 3 . EEC301
+(Following paper code and roll No. to be filled in your answer book)
+Roll No. [ | | |
+B TECH
+(SEM Il) THEORY EXAMINATION 2014-15
+FUNDAMENTALS OF ELECTRONICS DEVICES
+Total Marks: 100
+TIME: 3 Hours
+Note: - Answer all questions, all questions carry equal
+marks
+1. Attempt any four part of the following: 5X4
+(a) With suitable sketch describe briefly the
+diamond lattice.
+(b) What do you mean by mobility of carrier? How
+does it depend on temperature and doping
+concentration?
+(c) Calculate minimum resistivity of Silicon at
+300K. Also derive its expression if any.
+(d) What is Hall Effect? What properties of a
+semiconductor are determined from Hall Effect
+experiments? (211) Justify your answer. direction
+(e) Sketch cubic the crystal lattice. plane and the (211) in
+(f) In a germanium the donor concentration is
+1 n-type 10° germanium If the effective a
+atom of per the electrons is atom. half the true
+find mass the position of Fermi one level from the edge mass, of
+the conduction band of room temperature.
+2. Attempt any four part of the following: 5X4 junction. How is this built-in potential modified
+by the application of bias voltage?
+(a) Describe drift and diffusion of carriers,
+derive expression for Einstein’s Relationship. Also 4. Attempt two part of the following: 10X2
+(b) Calculate the relaxation any
+holes in silicon times for electrons and
+(c) State crystal. (a) Enumerate the special features of MESFET.
+and derive the continuity equation for Explain its working and state the difference
+electron. between normally on and normally off
+(d) Consider p-type silicon at T=300K doped at MESFETs with their characteristics.
+X 10'° cm?. Assume =5x10"'s, (b) Explain how a bipolar Junction Transistor can be
+D,=25 cm’/s used as an amplifier. Define the emitter injection
+Determine efficiency, current transfer ratio and base to
+the excess carrier in terms of distance x. collector current amplification factor.
+(e) Define quasi Fermi levels. Also show that for (c) What are the advantages and disadvantages of
+steady state condition the product of electron and FET BJT? Describe the operation and
+hole concentrations is equal to characteristics over of enhancement type channel
+where symbols have their usual meaning. with an band diagram n of
+(f) Explain the difference between florescence and MOSFET help of energy
+phosphorescence with the help of suitable sketch. MOS structure.
+part of
+Attempt any two part of the following: 10X2 . Attempt any two the following: 10X2
+.
+(a) What do by bias (a) What are the basic constructional differences
+Calculate you the mean thermal reverse breakdown? between a conventional p-n junction diode and a
+equilibrium electron and tunnel diode? Explain briefly the operation and
+hole concentration in a compensated P-type characteristics of a tunnel diode.
+silicon semiconductor at 300°K in which (b) What is transferred electron effect? Describe a
+Na=10!° cm®, Np=3 X cm? and N= 1.6 X device based this effect with suitable diagram
+10'° cm®. in detail. Also on draw is characteristics.
+(b) Derive an expression for the current voltage
+relation in an ideal p-n junction diode. (c) Explain the operation and characteristic of
+(c) Explain the formation of built in potential silicon controlled rectifier. Also describe the
+a p-n junction diode at equilibrium across application of the SCR and p-n-p-n diode.
+Derive the expression for it condition.
+assuming step
