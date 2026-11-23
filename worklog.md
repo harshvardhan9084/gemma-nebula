@@ -1,4 +1,20 @@
 ---
+Task ID: CRON-V6-20261123-cycle83
+Agent: Super Z (scheduled fire 2026-11-23 07:30Z = 13:00 IST, job 535407; standing order v4)
+Task: resilience check, audit, verdict-follow; legal zero-AI campaign continuation (OCR-evidence batch6).
+
+Work Log:
+- RESILIENCE: no missed fires - last obs 23:31:34Z (05:00 IST fire = worklog cycle82, script counter #79), this fire 07:30Z exactly 8h later. Sandbox recycled -> psycopg2-binary+pynacl reinstalled; repo_b rolled back to 355a890 -> ff-pull to e0a5bb2.
+- AUDIT (script counter #80): papers 10,883 (+0), questions 248,382 (+0), complete 8,268 / review 2,615, retry active=124 accepted=529 frozen=1,078, thin 110, unit-400 0. RPD 0/5,700 (fresh quota day since 2026-11-23 07:05Z), cadence 0/3, repo synced e0a5bb2==remote. VERDICT: CAMPAIGN (owner-rule gate) -> extraction stays gated (chunk2 PARKED pending extractor anti-enrichment hardening; owner go pending on phase-2 + 774-paper cleanup adjudication); legal zero-AI campaign continues.
+- LEGAL ZERO-AI CAMPAIGN (OCR-evidence run #9, standing owner go 11-18 'work on already got PDFs'; CPU-only, zero vision calls, zero cadence, zero DB writes, evidence-branch commits only): batch6 stems = scan_3530[2200:2750] (550 stems, script-verified 0 overlap with batches 2-5, 0 internal dupes) committed 201c5c6 + pushed; ocr_evidence.yml dispatched id=45131745631 with active-run guard; COMPLETED SUCCESS ~9 min: 6/6 shards + gather, 550 verdicts on branch ocr-evidence.
+- BATCH6 PROCESSING (tools/scan_batch6_verdicts_all.jsonl mirrored; promotion census extended): 550/550 verdict OK, 550/550 joined DB by stem. ALL 550 batch6 papers extraction_status=complete (THIRD consecutive all-complete band). measurable(printed_atomic>0)=379: pa<nq 324 (stored exceeds printed - parser-v2 ambiguity case), pa>nq 28 (missing-question deficit evidence), pa==nq 27. exact(n>=10)=27 and ALL 27 clean (status=complete) -> cumulative count-verified clean pool = 67 (batch4 13 + batch5 27 + batch6 27; batch3 contributed 0, review-status). NO promotions executed: bands incomplete (2,750/3,530), promotion = local gold census rerun after bands complete (owner-confirmed execution order step a).
+- TOOLING FIX: recurring mirror-filename double-prefix bug (scan_scan_batchN_) root-caused (LABEL already carries the scan_ prefix) and fixed in the processor f-strings this fire - batch6 mirror renamed correctly; future batches clean first-write.
+- SCAN-SCORING PROGRESS: 559 (scan559 corpus universe) + 2,750 (scan_3530 DB universe: batches 2-6) = 3,309 papers scored; 780 remain on scan_3530 -> batch7 [2750:3300] next fire, batch8 tail [3300:3530] (230) after that, then the gold census rerun.
+- LAWS INTACT: zero vision calls (RPD still 0/5,700), zero DB writes (read-only SELECTs only), zero-churn, anti-loop ledger untouched, no extraction dispatch (quality stop + owner-rule gate honored), no new PDFs ingested, repo A untouched, PROD untouched, no secrets printed or committed.
+
+NEXT: (a) batch7 dispatch at next fire + rolling verdict processing; (b) after scan_3530 bands complete -> gold census rerun promotes count-verified clean scans (67 clean banked in scan_promotion_list_20261122.json); (c) owner decisions still pending: extractor anti-enrichment hardening test (phase-2, unlocks chunk2 578 + MISSING-1/2 585 + parse-fail 723) + 774-paper cleanup adjudication; (d) pa>nq deficit rows (28 new) join the missing-question evidence pool.
+
+---
 Task ID: CRON-V6-20261123-cycle82
 Agent: Super Z (scheduled fire 2026-11-22 23:30Z = 2026-11-23 05:00 IST, job 535407; standing order v4)
 Task: resilience check, audit, verdict-follow; legal zero-AI campaign continuation (OCR-evidence batch5).

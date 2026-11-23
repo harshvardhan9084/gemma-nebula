@@ -1,7 +1,7 @@
 {
  "criterion": "printed_atomic==n_questions AND n_questions>=10 AND status=complete (sha256 join)",
- "joined": 1650,
- "measurable": 1033,
+ "joined": 2200,
+ "measurable": 1412,
  "clean": [],
  "batch3": {
   "rows": 550,
@@ -933,6 +933,563 @@
     "pid": "e5533c33-864a-48db-999d-87acb48ab075",
     "status": "complete",
     "n_questions": 22
+   }
+  ]
+ },
+ "scan_batch6": {
+  "rows": 550,
+  "joined": 550,
+  "unjoined": 0,
+  "status": {
+   "complete": 550
+  },
+  "deltas": {
+   "pa<nq": 324,
+   "pa>nq": 28,
+   "pa==nq": 27
+  },
+  "exact_count": [
+   {
+    "stem": "btech-ec-3-sem-electromagnetic-field-theory-eec-303-2012",
+    "printed_atomic": 25,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "44c142ad-67c0-44d9-94a4-75ddf62a921b",
+    "status": "complete",
+    "n_questions": 25
+   },
+   {
+    "stem": "btech-ec-4-sem-signals-and-systems-ec-402-2004",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 5,
+    "truncated": false,
+    "pid": "bdbddf49-626a-4c19-b2a5-2986dcda488e",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-ev-6-sem-hse-for-offshore-and-petroleum-industries-rev061-2019",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "937a76a7-70a0-42ef-b3aa-0907542e6798",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-me-3-sem-applied-thermodynamics-tme-302-2007",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 5,
+    "truncated": false,
+    "pid": "a00dfed1-ddc1-430c-ab76-7fa70b20b4d4",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-me-5-sem-heat-and-mass-transfer-tme-505-2013",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "2cf9d84f-4676-492f-a022-7a73ee128205",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-me-7-sem-computer-aided-manufacturing-eme-031-2012",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "648424b2-470e-40e9-b487-88c67e38ca29",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-ft-4-sem-food-biochemistry-rft401-2019",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "93a59d1e-315d-4d87-a5a6-6363a212ed5b",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-ec-6-sem-microwave-engineering-ec-601-2003",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "d794089e-4ae1-40c6-98c4-4c3616839210",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-ec-8-sem-data-communication-network-ec-802-2005",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "67cb051a-4ffa-4a3c-9fb2-2a6e12d7b110",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-it-4-sem-software-engineering-eit-402-2011",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "35c0c01d-9894-4942-8089-efd95e86c5e2",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-me-3-sem-strength-of-material-2-eme-302-2013",
+    "printed_atomic": 26,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "9060595a-a84e-449b-b3b3-08deb61ef26f",
+    "status": "complete",
+    "n_questions": 26
+   },
+   {
+    "stem": "btech-me-4-sem-kinematics-of-machines-tme-402-2006",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 6,
+    "truncated": false,
+    "pid": "890b7a50-a667-40b8-8212-b7b12bf4542c",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-eee-4-sem-electro-mechanical-energy-conversion-1-eee401-2013",
+    "printed_atomic": 25,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "566f640c-87ba-4371-8912-cbed28d44eec",
+    "status": "complete",
+    "n_questions": 25
+   },
+   {
+    "stem": "btech-ec-4-sem-introduction-to-microprocessors-eec-406-2010",
+    "printed_atomic": 24,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "3288b586-d99a-4d45-b359-0e9967f64967",
+    "status": "complete",
+    "n_questions": 24
+   },
+   {
+    "stem": "btech-ec-3-sem-digital-electronics-v2-eec302-2013",
+    "printed_atomic": 32,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "a627495b-d5cd-4af9-bd20-ec3262f4e78a",
+    "status": "complete",
+    "n_questions": 32
+   },
+   {
+    "stem": "btech-ec-6-sem-microprocessor-ec-603-2005",
+    "printed_atomic": 25,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "b3952440-2cc5-4ea0-b6ad-cfe1623350fe",
+    "status": "complete",
+    "n_questions": 25
+   },
+   {
+    "stem": "btech-eee-8-sem-advance-control-system-eee-052-2012",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "fdbcee5d-c7b3-42f1-8bda-ff2d3977884f",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-it-5-sem-e-commerce-tit-501-2007",
+    "printed_atomic": 23,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "33b179aa-700f-4390-ac43-21363e314d64",
+    "status": "complete",
+    "n_questions": 23
+   },
+   {
+    "stem": "btech-it-6-sem-erp-system-it-602-2006",
+    "printed_atomic": 23,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "d1ca0d6e-f02d-41ab-999e-c6267310d4d4",
+    "status": "complete",
+    "n_questions": 23
+   },
+   {
+    "stem": "btech-me-6-sem-unconventional-manufacturing-process-eme-012-2013",
+    "printed_atomic": 26,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "f51f755b-84fe-4a27-af92-f60b0b301b73",
+    "status": "complete",
+    "n_questions": 26
+   },
+   {
+    "stem": "btech-ic-5-sem-control-system-1-eic-501-2013",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "90647ff1-0e1e-4b2e-beb8-07bc0e704ba7",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-me-5-sem-manufacturing-science-2-eme-503-2013",
+    "printed_atomic": 26,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "a62c5441-903e-4b6f-806b-d310a67b02a6",
+    "status": "complete",
+    "n_questions": 26
+   },
+   {
+    "stem": "btech-tc-3-sem-principle-of-yarn-manufacture-rtc301-2019",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "8825a69c-0812-4e82-918e-c49f6a807f52",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-ec-6-sem-digital-communication-ec-602-2005",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "1961e744-1b5d-4317-9abd-033c268e391e",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-ec-6-sem-vlsi-technology-ec-605-2005",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "1c67a141-a562-4240-910d-7146c635a9a7",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-ec-6-sem-vlsi-technology-and-design-tec-603-2011",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "85db9d26-9b79-4772-bac9-7125ed853d15",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-me-6-sem-industrial-engineering-me-401-2016",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "f37ec597-bab0-499e-aa55-492dfd5263ed",
+    "status": "complete",
+    "n_questions": 20
+   }
+  ],
+  "clean": [
+   {
+    "stem": "btech-ec-3-sem-electromagnetic-field-theory-eec-303-2012",
+    "printed_atomic": 25,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "44c142ad-67c0-44d9-94a4-75ddf62a921b",
+    "status": "complete",
+    "n_questions": 25
+   },
+   {
+    "stem": "btech-ec-4-sem-signals-and-systems-ec-402-2004",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 5,
+    "truncated": false,
+    "pid": "bdbddf49-626a-4c19-b2a5-2986dcda488e",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-ev-6-sem-hse-for-offshore-and-petroleum-industries-rev061-2019",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "937a76a7-70a0-42ef-b3aa-0907542e6798",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-me-3-sem-applied-thermodynamics-tme-302-2007",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 5,
+    "truncated": false,
+    "pid": "a00dfed1-ddc1-430c-ab76-7fa70b20b4d4",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-me-5-sem-heat-and-mass-transfer-tme-505-2013",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "2cf9d84f-4676-492f-a022-7a73ee128205",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-me-7-sem-computer-aided-manufacturing-eme-031-2012",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "648424b2-470e-40e9-b487-88c67e38ca29",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-ft-4-sem-food-biochemistry-rft401-2019",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 1,
+    "truncated": false,
+    "pid": "93a59d1e-315d-4d87-a5a6-6363a212ed5b",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-ec-6-sem-microwave-engineering-ec-601-2003",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "d794089e-4ae1-40c6-98c4-4c3616839210",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-ec-8-sem-data-communication-network-ec-802-2005",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "67cb051a-4ffa-4a3c-9fb2-2a6e12d7b110",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-it-4-sem-software-engineering-eit-402-2011",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "35c0c01d-9894-4942-8089-efd95e86c5e2",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-me-3-sem-strength-of-material-2-eme-302-2013",
+    "printed_atomic": 26,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "9060595a-a84e-449b-b3b3-08deb61ef26f",
+    "status": "complete",
+    "n_questions": 26
+   },
+   {
+    "stem": "btech-me-4-sem-kinematics-of-machines-tme-402-2006",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 6,
+    "truncated": false,
+    "pid": "890b7a50-a667-40b8-8212-b7b12bf4542c",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-eee-4-sem-electro-mechanical-energy-conversion-1-eee401-2013",
+    "printed_atomic": 25,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "566f640c-87ba-4371-8912-cbed28d44eec",
+    "status": "complete",
+    "n_questions": 25
+   },
+   {
+    "stem": "btech-ec-4-sem-introduction-to-microprocessors-eec-406-2010",
+    "printed_atomic": 24,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "3288b586-d99a-4d45-b359-0e9967f64967",
+    "status": "complete",
+    "n_questions": 24
+   },
+   {
+    "stem": "btech-ec-3-sem-digital-electronics-v2-eec302-2013",
+    "printed_atomic": 32,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "a627495b-d5cd-4af9-bd20-ec3262f4e78a",
+    "status": "complete",
+    "n_questions": 32
+   },
+   {
+    "stem": "btech-ec-6-sem-microprocessor-ec-603-2005",
+    "printed_atomic": 25,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "b3952440-2cc5-4ea0-b6ad-cfe1623350fe",
+    "status": "complete",
+    "n_questions": 25
+   },
+   {
+    "stem": "btech-eee-8-sem-advance-control-system-eee-052-2012",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "fdbcee5d-c7b3-42f1-8bda-ff2d3977884f",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-it-5-sem-e-commerce-tit-501-2007",
+    "printed_atomic": 23,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "33b179aa-700f-4390-ac43-21363e314d64",
+    "status": "complete",
+    "n_questions": 23
+   },
+   {
+    "stem": "btech-it-6-sem-erp-system-it-602-2006",
+    "printed_atomic": 23,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "d1ca0d6e-f02d-41ab-999e-c6267310d4d4",
+    "status": "complete",
+    "n_questions": 23
+   },
+   {
+    "stem": "btech-me-6-sem-unconventional-manufacturing-process-eme-012-2013",
+    "printed_atomic": 26,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "f51f755b-84fe-4a27-af92-f60b0b301b73",
+    "status": "complete",
+    "n_questions": 26
+   },
+   {
+    "stem": "btech-ic-5-sem-control-system-1-eic-501-2013",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "90647ff1-0e1e-4b2e-beb8-07bc0e704ba7",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-me-5-sem-manufacturing-science-2-eme-503-2013",
+    "printed_atomic": 26,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "a62c5441-903e-4b6f-806b-d310a67b02a6",
+    "status": "complete",
+    "n_questions": 26
+   },
+   {
+    "stem": "btech-tc-3-sem-principle-of-yarn-manufacture-rtc301-2019",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 2,
+    "truncated": false,
+    "pid": "8825a69c-0812-4e82-918e-c49f6a807f52",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-ec-6-sem-digital-communication-ec-602-2005",
+    "printed_atomic": 22,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "1961e744-1b5d-4317-9abd-033c268e391e",
+    "status": "complete",
+    "n_questions": 22
+   },
+   {
+    "stem": "btech-ec-6-sem-vlsi-technology-ec-605-2005",
+    "printed_atomic": 21,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "1c67a141-a562-4240-910d-7146c635a9a7",
+    "status": "complete",
+    "n_questions": 21
+   },
+   {
+    "stem": "btech-ec-6-sem-vlsi-technology-and-design-tec-603-2011",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 3,
+    "truncated": false,
+    "pid": "85db9d26-9b79-4772-bac9-7125ed853d15",
+    "status": "complete",
+    "n_questions": 20
+   },
+   {
+    "stem": "btech-me-6-sem-industrial-engineering-me-401-2016",
+    "printed_atomic": 20,
+    "ocr_verdict": "OK",
+    "n_pages": 4,
+    "truncated": false,
+    "pid": "f37ec597-bab0-499e-aa55-492dfd5263ed",
+    "status": "complete",
+    "n_questions": 20
    }
   ]
  }
