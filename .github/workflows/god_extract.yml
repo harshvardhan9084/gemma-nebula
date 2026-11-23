@@ -32,6 +32,10 @@ on:
         description: 'run id for the audit ledger (0 = use github run_number)'
         default: '0'
         type: string
+      wipe_diagrams:
+        description: 'true = wipe god-diagrams bucket first (ONLY for clean-slate full re-runs; partial runs must keep false so live diagram URLs survive)'
+        default: 'false'
+        type: string
 
 permissions:
   contents: write
@@ -41,7 +45,57 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Owner-ordered clean-slate re-runs wipe the derived bucket BEFORE the god
+  # matrix starts (the sandbox PAT cannot delete storage objects; the runner
+  # service key can). Default false: partial/group runs must NEVER wipe -
+  # papers not re-processed would keep diagram_url rows pointing at deleted
+  # objects.
+  wipe-diagrams:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wipe god-diagrams bucket (clean-slate only)
+        if: ${{ github.event.inputs.wipe_diagrams == 'true' }}
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          python3 - << 'EOF'
+          import json, os, urllib.request
+          url = os.environ['SUPABASE_URL'].rstrip('/')
+          key = os.environ['SUPABASE_SERVICE_KEY']
+          hdr = {'apikey': key, 'Authorization': f'Bearer {key}',
+                 'Content-Type': 'application/json'}
+          def ls(prefix=''):
+              req = urllib.request.Request(
+                  f'{url}/storage/v1/object/list/god-diagrams',
+                  data=json.dumps({'prefix': prefix, 'limit': 10000}).encode(),
+                  headers=hdr, method='POST')
+              return json.loads(urllib.request.urlopen(req).read() or '[]')
+          folders = [o['name'] for o in ls() if not o.get('id')]
+          objs = []
+          for f in folders:
+              objs += [f + '/' + o['name'] for o in ls(f + '/') if o.get('name')]
+          fail = 0
+          for n in objs:
+              try:
+                  urllib.request.urlopen(urllib.request.Request(
+                      f'{url}/storage/v1/object/god-diagrams/{n}',
+                      headers=hdr, method='DELETE'))
+              except Exception:
+                  fail += 1
+          for f in folders:
+              try:
+                  urllib.request.urlopen(urllib.request.Request(
+                      f'{url}/storage/v1/object/god-diagrams/{f}',
+                      headers=hdr, method='DELETE'))
+              except Exception:
+                  pass
+          print(f'god-diagrams wipe: {len(objs) - fail}/{len(objs)} objects deleted, '
+                f'{len(ls())} entries remain')
+          EOF
+
   god:
+    needs: wipe-diagrams
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
