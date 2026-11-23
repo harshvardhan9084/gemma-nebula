@@ -727,6 +727,9 @@ def main():
 
     stats = {'gold': 0, 'review-weakref': 0, 'review-diff': 0, 'failed': 0,
              'pdf-missing': 0, 'calls': 0, 'diagrams': 0}
+    zero_send_streak = 0          # run-7 lesson: fleet-wide degradation churned
+    outage_slept_s = 0            # 124 papers with 0 sends in minutes; wait out
+    OUTAGE_SLEEP_CAP_S = 1_800    # the nearest bench recovery instead (max 30min)
     with open(vpath, 'a', encoding='utf-8') as vf:
         for i, row in enumerate(mine, 1):
             stem = row['stem']
@@ -763,6 +766,23 @@ def main():
             out['path'] = path
             row['path'] = path
             row['attempts'] = 0
+            if zero_send_streak >= 3:
+                # last >=3 papers got 0 real sends: fleet-wide degradation.
+                # Churning forward poisons every remaining paper (extracted=0).
+                # Wait out the nearest bench recovery, then try again.
+                now = time.time()
+                pending = [u - now for u, _w in router.benched.values() if u > now]
+                wait_s = min(min(pending) if pending else 60.0, 300.0)
+                if outage_slept_s + wait_s <= OUTAGE_SLEEP_CAP_S:
+                    log(f'    [ai] fleet outage: {zero_send_streak} papers with 0 sends '
+                        f'-> waiting {wait_s:.0f}s for bench recovery '
+                        f'(slept {outage_slept_s:.0f}s total)')
+                    time.sleep(wait_s)
+                    outage_slept_s += wait_s
+                else:
+                    log(f'    [ai] fleet outage: cap reached ({outage_slept_s:.0f}s slept), '
+                        f'continuing degraded')
+                zero_send_streak = 0
             s0 = router.sends
             try:
                 h = sha256(path)
@@ -778,6 +798,8 @@ def main():
                 qs = []
                 verdict = 'failed'
                 header = {}
+                best = None   # (count, score) -> (qs, verify); run-7 lesson:
+                # a bad repair must not erase the best attempt's evidence
                 for attempt in range(1, max(1, args.attempts) + 1):
                     row['attempts'] = attempt
                     if attempt == 1:
@@ -799,6 +821,10 @@ def main():
                     calls += c
                     verify = god_verify(qs, ref)
                     verify['ref_kind'] = ref['ref_kind']
+                    bkey = ((verify.get('extracted_count') or 0),
+                            (verify.get('score_avg') or 0))
+                    if best is None or bkey > best[0]:
+                        best = (bkey, qs, verify)
                     if verify['ok']:
                         verdict = 'gold'
                         break
@@ -813,6 +839,12 @@ def main():
                         f"{verify['printed_count']} missing={verify['missing'][:8]} "
                         f"extra={verify['extra'][:8]} gaps={list((verify.get('part_gaps') or {}).items())[:4]} "
                         f"score={verify['score_avg']}")
+                if verdict == 'review-diff' and best is not None and \
+                        best[0] > ((verify.get('extracted_count') or 0),
+                                   (verify.get('score_avg') or 0)):
+                    log(f"    [god] attempt {row['attempts']}: degraded below best "
+                        f"(count={best[0][0]} score={best[0][1]:.2f}) -> retaining best")
+                    qs, verify = best[1], best[2]
                 if sb:
                     try:
                         push_audit(sb, row, args.run_id, args.shard, row['attempts'],
@@ -845,6 +877,10 @@ def main():
                             'error': f'{at} {type(e).__name__}: {str(e)[:180]}'})
                 stats['failed'] += 1
                 log(f'    [god] EXCEPTION: {out["error"][:160]}')
+            if (router.sends - s0) == 0 and out.get('verdict') != 'pdf-missing':
+                zero_send_streak += 1
+            else:
+                zero_send_streak = 0
             vf.write(json.dumps(out, ensure_ascii=False) + '\n'); vf.flush()
             if i % 5 == 0 or i == len(mine):
                 log(f'  [{i}/{len(mine)}] ' +

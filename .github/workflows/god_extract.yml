@@ -144,7 +144,7 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
           GEMMA_API_KEYS: ${{ secrets.GEMMA_API_KEYS }}
-          GEMMA_FALLBACK_MODELS: "gemini-3.1-flash-lite,gemini-3.5-flash-lite,gemma-4-26b-a4b-it"
+          GEMMA_FALLBACK_MODELS: "gemini-3.1-flash-lite,gemini-3.5-flash-lite,gemma-4-31b-it,gemma-4-26b-a4b-it"
         run: |
           set -x
           PER_SHARD=$(python3 -c "import math; print(math.ceil(int('${{ github.event.inputs.total_calls || '800' }}') / ${{ matrix.shards }}))")
@@ -205,13 +205,16 @@ jobs:
         if: always()
         run: |
           git config user.name "god-bot"; git config user.email "god@bot"
+          # run-7 lesson: evidence/god/*.jsonl are already tracked on origin/god-evidence;
+          # a plain 'checkout -B' aborts on the untracked artifact copies in the workspace.
+          # Force-checkout the evidence branch first, THEN copy artifacts in.
+          git fetch --depth=1 origin god-evidence:refs/remotes/origin/god-evidence && \
+            git checkout -f -B god-evidence origin/god-evidence || \
+            git checkout -f --orphan god-evidence
           mkdir -p evidence/god
           for d in artifacts/god-evidence-shard*/; do
             [ -d "$d" ] && cp -r "$d"/. evidence/god/ 2>/dev/null || true
           done
-          git fetch --depth=1 origin god-evidence:refs/remotes/origin/god-evidence && \
-            git checkout -B god-evidence origin/god-evidence || \
-            git checkout --orphan god-evidence
-          git add evidence/god
+          git add -f evidence/god
           git commit -m "god-extract run ${{ github.run_number }} evidence" || echo "nothing new"
           git push origin god-evidence

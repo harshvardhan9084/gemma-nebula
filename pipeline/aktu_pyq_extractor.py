@@ -560,7 +560,7 @@ def load_models():
     # 503-overload minute degrades to one extra model instead of stalling.
     default_ladder = (
         'gemini-3.1-flash-lite,gemini-3.5-flash-lite,'   # lites: RPD 500, 250K TPM;
-        'gemma-4-26b-a4b-it')                            # 3.1 first = RPD headroom (owner 2026-10-27)
+        'gemma-4-31b-it,gemma-4-26b-a4b-it')             # 3.1 first = RPD headroom (owner 2026-10-27); 31b routine lane (run-7 forensics)
     models = [m.strip() for m in os.environ.get(
         'GEMMA_FALLBACK_MODELS', default_ladder).split(',') if m.strip()]
     # GEMMA_MODEL stays honored as an extra candidate (never reorders anything)
@@ -669,12 +669,16 @@ class AIRouter:
     KIND_ORDER = {
         # v5.7: flash-lites lead EVERY kind (owner directive); gemma-26b is the
         # EMERGENCY lane (gated in _ring, last in every order).
+        # v7.1 (run-7 forensics 2026-11-23): gemma-4-31b-it added as a routine
+        # lane after the lites - live keyprobe run 45193684308 showed BOTH
+        # flash-lites + 26b in 503 'high demand' rolling degradation while 31b
+        # passed 3/6 keys (RPM 30, RPD 14,400 = real capacity, not emergency).
         'repair': ['gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
-                   'gemma-4-26b-a4b-it'],
+                   'gemma-4-31b-it', 'gemma-4-26b-a4b-it'],
         'enrich': ['gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
-                   'gemma-4-26b-a4b-it'],
+                   'gemma-4-31b-it', 'gemma-4-26b-a4b-it'],
         'marks':  ['gemini-3.1-flash-lite', 'gemini-3.5-flash-lite',
-                   'gemma-4-26b-a4b-it'],
+                   'gemma-4-31b-it', 'gemma-4-26b-a4b-it'],
     }
     # owner directive 2026-10-27: weighted ring - each (model,key) combo of the
     # roomier-RPD lite appears twice per key, the tighter lite once, so ~2/3 of
