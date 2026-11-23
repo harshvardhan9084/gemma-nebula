@@ -165,6 +165,46 @@ Return the FULL CORRECTED question set for these page(s) per the GOD RULES: ever
 # printed reference (AI-free)
 # ---------------------------------------------------------------------------
 
+def resolve_paper(row, index):
+    """Deterministic, HASH-ANCHORED resolution (run-9 lesson 2026-11-24):
+    the old code+year glob returned sorted(cands)[0] - in the 11k-PDF runner
+    corpus that silently resolved the WRONG paper (the bcs301-2024-25 batch
+    row transcribed the mar-2024 PDF: hash_ok recorded False but 9 AI sends
+    were still burned on wrong-paper data). New law: with file_hash known, a
+    glob candidate is accepted ONLY when its sha256 matches the DB hash;
+    otherwise fall through to the next candidate and finally the
+    storage_url download (which carries its own sha256 guard). Without
+    file_hash the legacy heuristic stays (exact stem -> glob -> download).
+    Returns (path|None, resolved_by, hash_ok|None)."""
+    fh = (row.get('file_hash') or '').lower()
+    stem = row['stem']
+    path = index.get(stem)
+    if path:
+        ok = None
+        if fh:
+            try:
+                ok = sha256(path) == fh
+            except Exception:
+                ok = None
+        return path, ('stem-exact' if ok in (True, None) else 'stem-exact'), ok
+    y0 = (row.get('year') or '')[:4]
+    code_l = row['code'].lower()
+    cands = [k for k in index
+             if code_l in k and (y0 and (f'-{y0}' in k or y0 in k))]
+    if not fh:
+        if cands:
+            return index[sorted(cands)[0]], 'code+year-glob', None
+        return None, '', None
+    for k in sorted(cands):
+        p = index[k]
+        try:
+            if sha256(p) == fh:
+                return p, 'code+year-glob+hash', True
+        except Exception:
+            continue
+    return None, 'no-hash-match-in-glob', False
+
+
 def page_text_pdfium(pdf_path, max_pages=40):
     """Embedded text per page via pypdfium2 textpage (no pdfplumber)."""
     if not HAVE_PDFIUM:
@@ -645,6 +685,8 @@ def push_audit(sb, row, run_id, shard, attempt, verdict, verify, calls, notes):
                      'scores': verify.get('scores'),
                      'score_avg': verify.get('score_avg'),
                      'weakref': verify.get('weakref'),
+                     'marks_off_law': verify.get('marks_off_law', []),
+                     'marks_null_rate': verify.get('marks_null_rate'),
                      'ref_kind': verify.get('ref_kind')},
             'vision_calls': calls, 'notes': notes}
     rest(sb, 'POST', '/rest/v1/god6_audit', body=[body]).raise_for_status()
@@ -775,7 +817,7 @@ def main():
     log(f'[god] resume: {len(done)} done')
 
     stats = {'gold': 0, 'review-weakref': 0, 'review-diff': 0, 'failed': 0,
-             'pdf-missing': 0, 'calls': 0, 'diagrams': 0}
+             'pdf-missing': 0, 'hash-mismatch': 0, 'calls': 0, 'diagrams': 0}
     zero_send_streak = 0          # run-7 lesson: fleet-wide degradation churned
     outage_slept_s = 0            # 124 papers with 0 sends in minutes; wait out
     OUTAGE_SLEEP_CAP_S = 1_800    # the nearest bench recovery instead (max 30min)
@@ -786,16 +828,9 @@ def main():
                 continue
             out = {'stem': stem, 'group': row['group'], 'code': row['code'],
                    'shard': args.shard, 'run_id': args.run_id}
-            path = index.get(stem)
-            if not path:
-                # code+year glob fallback (second naming convention)
-                y0 = (row.get('year') or '')[:4]
-                code_l = row['code'].lower()
-                cands = [k for k in index
-                         if code_l in k and (y0 and (f'-{y0}' in k or y0 in k))]
-                if cands:
-                    path = index[sorted(cands)[0]]
-                    out['resolved_by'] = 'code+year-glob'
+            path, resolved_by, _h0 = resolve_paper(row, index)
+            if resolved_by:
+                out['resolved_by'] = resolved_by
             if not path:
                 # last resort: fetch from the paper's recorded source
                 # (aktuonline / ryzenstudy / Drive), sha256-guarded
@@ -815,6 +850,27 @@ def main():
             out['path'] = path
             row['path'] = path
             row['attempts'] = 0
+            # WRONG-PAPER GATE (run-9 lesson): a file whose sha256 does not
+            # match the DB hash is NEVER transcribed - 0 AI calls, verdict
+            # hash-mismatch, audit row. Wrong-paper data must not enter
+            # god6_* and must not spend the fleet budget.
+            if row.get('file_hash'):
+                try:
+                    out['hash_ok'] = sha256(path) == row['file_hash'].lower()
+                except Exception:
+                    out['hash_ok'] = None
+                if out['hash_ok'] is False:
+                    out.update({'verdict': 'hash-mismatch', 'calls': 0})
+                    stats['hash-mismatch'] = stats.get('hash-mismatch', 0) + 1
+                    vf.write(json.dumps(out, ensure_ascii=False) + '\n'); vf.flush()
+                    if sb:
+                        push_audit(sb, row, args.run_id, args.shard, 0,
+                                   'hash-mismatch',
+                                   {'printed_count': None, 'extracted_count': None},
+                                   0, 'wrong paper refused at sha256 gate (0 AI calls)')
+                    continue
+            else:
+                out['hash_ok'] = _h0
             if zero_send_streak >= 3:
                 # last >=3 papers got 0 real sends: fleet-wide degradation.
                 # Churning forward poisons every remaining paper (extracted=0).
@@ -833,11 +889,6 @@ def main():
                         f'continuing degraded')
                 zero_send_streak = 0
             s0 = router.sends
-            try:
-                h = sha256(path)
-                out['hash_ok'] = (not row.get('file_hash')) or h == row['file_hash']
-            except Exception:
-                out['hash_ok'] = None
             try:
                 calls = 0
                 real_calls = lambda: router.sends - s0
