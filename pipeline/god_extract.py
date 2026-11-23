@@ -572,7 +572,7 @@ def main():
                                          os.path.join(root, f))
     log(f'[god] corpus index: {len(index)} PDFs')
 
-    keys = load_key_pool()
+    keys = load_key_pool().keys
     models = load_models()
     router = AIRouterV7(keys, models, max_calls=args.max_calls)
     sb = None
