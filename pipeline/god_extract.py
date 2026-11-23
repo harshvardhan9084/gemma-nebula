@@ -49,7 +49,7 @@ bucket; the old papers/questions tables are NEVER touched):
      replace; own isolated table) + god6_audit rows (the owner's "GOD Updates"
      ledger, one row per attempt with the full diff).
 """
-import argparse, difflib, hashlib, io, json, os, re, sys, time
+import argparse, difflib, hashlib, io, json, os, re, sys, time, traceback
 from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -240,6 +240,28 @@ def chunk_text_for(pages, ref):
     return '\n'.join(parts)
 
 
+def dict_or(d):
+    """Model JSON fields arrive unvalidated on the REST lane (no response
+    schema there) - paper_header/questions items can be strings. Guard."""
+    return d if isinstance(d, dict) else {}
+
+
+def to_int(v):
+    try:
+        return int(str(v).strip()) if v is not None and str(v).strip() != '' else None
+    except (ValueError, TypeError):
+        return None
+
+
+def to_bbox(v):
+    if isinstance(v, list) and len(v) == 4:
+        try:
+            return [int(x) for x in v]
+        except (ValueError, TypeError):
+            return None
+    return None
+
+
 def extract_chunks(router, pdf_path, ref, args):
     """Vision-first chunked transcription. Returns (questions, calls, header)."""
     qmap, calls, header = {}, 0, {}
@@ -258,11 +280,13 @@ def extract_chunks(router, pdf_path, ref, args):
         if not ai:
             log(f'    [ai] pages {pages}: FAILED ({str(err)[:120]})')
             continue
-        hdr = ai.get('paper_header') or {}
+        hdr = dict_or(ai.get('paper_header'))
         for k in ('subject', 'session'):
             if hdr.get(k) and not header.get(k):
                 header[k] = str(hdr[k])[:120]
         for q in ai.get('questions') or []:
+            if not isinstance(q, dict):
+                continue
             lab = str(q.get('label') or '').strip()
             if not lab or not (q.get('text') or '').strip():
                 continue
@@ -274,10 +298,10 @@ def extract_chunks(router, pdf_path, ref, args):
             if not t:
                 continue
             qd = {'label': lab, 'key': key, 'text': t,
-                  'marks': q.get('marks'), 'page': pages[0],
+                  'marks': to_int(q.get('marks')), 'page': pages[0],
                   'has_diagram': bool(q.get('has_diagram')),
-                  'diagram_page': q.get('diagram_page'),
-                  'diagram_bbox': q.get('diagram_bbox')}
+                  'diagram_page': to_int(q.get('diagram_page')),
+                  'diagram_bbox': to_bbox(q.get('diagram_bbox'))}
             old = qmap.get(key)
             if old is None or len(t) > len(old['text']):
                 qmap[key] = qd
@@ -310,6 +334,8 @@ def repair_pass(router, pdf_path, ref, missing, extra, cur_qs, args, suspect_pag
         return None, 1, str(err or 'repair failed'), {}
     out = []
     for q in ai.get('questions') or []:
+        if not isinstance(q, dict):
+            continue
         lab = str(q.get('label') or '').strip()
         t = v6.clean_v6(str(q.get('text') or ''))
         if not lab or not t:
@@ -318,11 +344,12 @@ def repair_pass(router, pdf_path, ref, missing, extra, cur_qs, args, suspect_pag
         if sum(1 for _k, v in flags.items() if v) >= 2:
             continue
         out.append({'label': lab, 'key': label_key(lab), 'text': t,
-                    'marks': q.get('marks'), 'page': suspect_pages[0] if suspect_pages else 1,
+                    'marks': to_int(q.get('marks')),
+                    'page': (suspect_pages[0] if suspect_pages else 1),
                     'has_diagram': bool(q.get('has_diagram')),
-                    'diagram_page': q.get('diagram_page'),
-                    'diagram_bbox': q.get('diagram_bbox')})
-    hdr = ai.get('paper_header') or {}
+                    'diagram_page': to_int(q.get('diagram_page')),
+                    'diagram_bbox': to_bbox(q.get('diagram_bbox'))})
+    hdr = dict_or(ai.get('paper_header'))
     return out, 1, None, {k: str(hdr[k])[:120] for k in ('subject', 'session') if hdr.get(k)}
 
 
@@ -698,8 +725,10 @@ def main():
                 stats[verdict] = stats.get(verdict, 0) + 1
                 stats['calls'] += real_calls()
             except Exception as e:
+                tb = traceback.extract_tb(sys.exc_info()[2])
+                at = f'{os.path.basename(tb[-1].filename)}:{tb[-1].lineno}' if tb else '?'
                 out.update({'verdict': 'failed',
-                            'error': f'{type(e).__name__}: {str(e)[:220]}'})
+                            'error': f'{at} {type(e).__name__}: {str(e)[:180]}'})
                 stats['failed'] += 1
                 log(f'    [god] EXCEPTION: {out["error"][:160]}')
             vf.write(json.dumps(out, ensure_ascii=False) + '\n'); vf.flush()
