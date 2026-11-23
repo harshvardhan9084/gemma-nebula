@@ -1,0 +1,163 @@
+# GOD-LEVEL extraction pipeline v7 (owner order 2026-11-23).
+# ISOLATED: writes ONLY god6_papers / god6_questions / god6_audit tables and
+# the god-diagrams storage bucket. The legacy papers/questions tables are
+# never touched. Vision-first transcription verified against an AI-FREE
+# printed reference (embedded text + tesseract OCR), anti-enrichment caps,
+# per-part coverage, repair loop, diagram crops with bbox.
+name: god-extract
+on:
+  workflow_dispatch:
+    inputs:
+      papers_file:
+        description: 'committed god papers list (JSONL: stem,group,code,year,file_hash)'
+        default: 'pipeline/god_lists/god6_all.jsonl'
+        type: string
+      group:
+        description: 'subject group filter (DS/COA/DSTL/TC/MATHS4/PYTHON, empty=all)'
+        default: ''
+        type: string
+      total_calls:
+        description: 'whole-run vision send budget (RPD-law slice)'
+        default: '800'
+        type: string
+      min_interval_s:
+        description: 'min seconds between sends per shard (speed law: pace, never throttle below fleet RPM ceiling)'
+        default: '4'
+        type: string
+      attempts:
+        description: 'max verify-loop passes per paper (1 initial + N-1 repairs)'
+        default: '3'
+        type: string
+      run_id:
+        description: 'run id for the audit ledger (0 = use github run_number)'
+        default: '0'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: god-extract
+  cancel-in-progress: false
+
+jobs:
+  god:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { shard: 0, shards: 6 }
+          - { shard: 1, shards: 6 }
+          - { shard: 2, shards: 6 }
+          - { shard: 3, shards: 6 }
+          - { shard: 4, shards: 6 }
+          - { shard: 5, shards: 6 }
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Install tesseract OCR for scanned papers
+        run: |
+          set -e
+          ok=0
+          for i in 1 2 3 4 5; do
+            echo "[apt-retry] attempt $i/5"
+            if sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-eng >/dev/null; then ok=1; break; fi
+            sleep 45
+          done
+          if [ "$ok" != "1" ]; then echo "::error::tesseract install failed"; exit 100; fi
+          tesseract --version | head -1
+
+      - name: Preflight secrets
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::error::Secrets missing: SUPABASE_URL, SUPABASE_SERVICE_KEY, GEMMA_API_KEYS."
+            exit 1
+          fi
+
+      - name: GOD extraction (shard ${{ matrix.shard }})
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GEMMA_API_KEYS: ${{ secrets.GEMMA_API_KEYS }}
+          GEMMA_FALLBACK_MODELS: "gemini-3.1-flash-lite,gemini-3.5-flash-lite,gemma-4-26b-a4b-it"
+        run: |
+          set -x
+          PER_SHARD=$(python3 -c "import math; print(math.ceil(int('${{ github.event.inputs.total_calls || '800' }}') / ${{ matrix.shards }}))")
+          RUN_ID="${{ github.event.inputs.run_id }}"
+          [ "$RUN_ID" = "0" ] && RUN_ID=${{ github.run_number }}
+          python3 pipeline/god_extract.py \
+            --papers-file "${{ github.event.inputs.papers_file || 'pipeline/god_lists/god6_all.jsonl' }}" \
+            --group "${{ github.event.inputs.group }}" \
+            --shard ${{ matrix.shard }} --shards ${{ matrix.shards }} \
+            --max-calls "$PER_SHARD" \
+            --min-interval "${{ github.event.inputs.min_interval_s || '4' }}" \
+            --attempts "${{ github.event.inputs.attempts || '3' }}" \
+            --db --run-id "$RUN_ID"
+
+      - name: Upload shard evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: god-evidence-shard${{ matrix.shard }}
+          path: evidence/god/
+          retention-days: 30
+
+  gather:
+    needs: god
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          pattern: god-evidence-shard*
+      - name: GOD scoreboard
+        run: |
+          mkdir -p evidence/god
+          for d in artifacts/god-evidence-shard*/; do
+            [ -d "$d" ] && cp -r "$d"/. evidence/god/ 2>/dev/null || true
+          done
+          ls evidence/god/ || true
+          python3 - << 'EOF'
+          import json, glob, collections
+          rows=[]
+          for f in glob.glob('evidence/god/god_verdicts_shard*.jsonl'):
+              rows += [json.loads(l) for l in open(f, encoding='utf-8') if l.strip()]
+          verdicts=collections.Counter(r['verdict'] for r in rows)
+          groups=collections.defaultdict(collections.Counter)
+          calls=sum(r.get('calls') or 0 for r in rows)
+          diagrams=sum(r.get('diagrams') or 0 for r in rows)
+          for r in rows: groups[r['group']][r['verdict']]+=1
+          print('=== GOD SCOREBOARD ===')
+          print('papers:', len(rows), 'verdicts:', dict(verdicts))
+          print('real vision sends:', calls, ' diagram crops:', diagrams)
+          for g,c in sorted(groups.items()): print(f'  {g}: {dict(c)}')
+          ok=len([r for r in rows if r['verdict']=='gold'])
+          print(f'GOD rate: {ok}/{len(rows)} = {ok/max(1,len(rows))*100:.1f}%')
+          EOF
+      - name: Commit evidence to god-evidence branch
+        if: always()
+        run: |
+          git config user.name "god-bot"; git config user.email "god@bot"
+          mkdir -p evidence/god
+          for d in artifacts/god-evidence-shard*/; do
+            [ -d "$d" ] && cp -r "$d"/. evidence/god/ 2>/dev/null || true
+          done
+          git fetch --depth=1 origin god-evidence 2>/dev/null && \
+            git checkout -B god-evidence origin/god-evidence || \
+            git checkout --orphan god-evidence
+          git add evidence/god
+          git commit -m "god-extract run ${{ github.run_number }} evidence" || echo "nothing new"
+          git push origin god-evidence

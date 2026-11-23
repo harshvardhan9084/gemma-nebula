@@ -1,0 +1,300 @@
+# Extraction pipeline v6 (quality-first) on the public runner.
+#
+# MANUAL DISPATCH ONLY - needs repo secrets:
+#   SUPABASE_URL          https://qnakqtiokspzoopivfyl.supabase.co
+#   SUPABASE_SERVICE_KEY  service/secret key (server-side only)
+#   GEMMA_API_KEYS        comma-separated AI Studio keys (only healthy ones)
+#   MERCURY_API_KEYS      optional comma-separated Inception Labs keys (sk_...);
+#                         when present, mercury-3 serves the TEXT lane (solid
+#                         text-layer chunks + check/clean passes) and the Google
+#                         flash-lite lanes are spent almost only on scans/vision
+#
+# v6 (pipeline/aktu_pyq_extractor_v6.py): chunked VISION extraction (page text
+# + page images per call, 1-2 page chunks), per-paper multi-pass (extract ->
+# completeness audit -> targeted re-extract -> deterministic clean -> AI clean
+# -> QC gate), paper-scoped --reprocess replace, RETRY anti-loop ledger, hard
+# per-run call budget and per-call pacing.
+#
+# RPD LAW (owner 2026-11-06, v3 2026-11-07): 6 keys x 500 RPD/model x 2 flash-lite
+# vision models = 6,000 vision calls/day hard ceiling; the cron dispatcher budgets
+# strictly under it (DAILY_VISION_CAP=5,700, quota-day window anchored 07:05Z) via
+# its cross-run ledger and passes the remaining budget as total_calls. 6 parallel
+# shards burn the budget at MAX speed while pacing stays far under the
+# 15 RPM/model/key per-minute window. The old fixed 2,000-calls/5h spec is retired.
+#
+# The "legacy" extractor choice runs the v5.8 script unchanged.
+# Non-extract stages (enrich/repair/embed/cluster) are v5 stages and run the
+# v5 script regardless of the extractor input.
+name: extraction
+
+on:
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: 'extract | enrich | repair | embed | cluster | all'
+        default: 'extract'
+        type: string
+      extractor:
+        description: 'v6 (vision+QC, default) | legacy (v5.8)'
+        default: 'v6'
+        type: choice
+        options: [v6, legacy]
+      pdf_dir:
+        description: 'PDF dirs, comma-separated (scanned recursively)'
+        default: 'corpus/unified,corpus/aktuonline3,corpus/aktuonline4'
+        type: string
+      manifest:
+        description: 'manifest CSVs, comma-separated (fills source_url/identity)'
+        default: 'data/unified_manifest.csv,data/aktuonline3_manifest.csv,data/aktuonline4_manifest.csv'
+        type: string
+      pilot_n:
+        description: 'run on next N unfinished PDFs (0 = all)'
+        default: '0'
+        type: string
+      limit:
+        description: 'hard cap on PDFs this run (0 = no cap)'
+        default: '0'
+        type: string
+      course:
+        description: 'course filter: path substring, e.g. BTech / BPharm / MBA / MCA / BCA (empty = all)'
+        default: ''
+        type: string
+      year:
+        description: 'year filter: filename substring, e.g. 2022-23 (empty = all)'
+        default: ''
+        type: string
+      reprocess:
+        description: 'RE-extract papers already complete (paper-scoped REPLACE, old rows backed up)'
+        default: false
+        type: boolean
+      status_filter:
+        description: 'with reprocess: which DB statuses to re-extract'
+        default: 'complete,review,failed'
+        type: string
+      thin_max:
+        description: 'with reprocess: only papers with n_questions < N (0 = off). COMPLETE-tier gate only (review/failed are QC-flagged, never thin-gated - audit 2026-11-12)'
+        default: '0'
+        type: string
+      amnesty_frozen:
+        description: 'owner mandate 2026-11-12: ONE-SHOT re-attempt of RETRY-FROZEN papers (AMNESTY once per paper ever, AMNESTY-FROZEN terminal afterwards)'
+        default: 'false'
+        type: string
+      fix_pids:
+        description: 'owner rule 2026-11-14 EVIDENCE-BACKED FIX: comma-separated filename stems proven violating by completeness verification. Re-extracts exactly these papers (zero-loss guard applies; blind re-shots stay retired)'
+        default: ''
+        type: string
+      total_calls:
+        description: 'AI call budget for the WHOLE run (all shards). The cron ledger passes the remaining daily RPD slice (strictly under 6,000 vision/day; cron cap 5,700/4 per run). Manual runs: 2800'
+        default: '2800'
+        type: string
+      min_interval_s:
+        description: 'per-shard seconds between call starts (empty = auto: max(8, 10800*6/total_calls) - MAX speed under the daily RPD cap)'
+        default: ''
+        type: string
+      route:
+        description: 'auto (text + page images) | text (no images) | vision (images only) | ocr'
+        default: 'auto'
+        type: choice
+        options: [auto, text, vision, ocr]
+      qc_min_questions:
+        description: 'papers with fewer extracted questions -> review (never silent-accept)'
+        default: '10'
+        type: string
+      chunk_pages:
+        description: 'pages per vision call (1-3)'
+        default: '2'
+        type: string
+      dry_run:
+        description: 'tier0 + chunk plan only: no AI calls, no DB writes'
+        default: false
+        type: boolean
+      not_before:
+        description: 'UTC HH:MM - hold until then (e.g. AI RPD reset 07:00Z). Empty = start now.'
+        default: ''
+        type: string
+
+permissions: {}
+
+concurrency:
+  group: aktu-extract
+  cancel-in-progress: false
+
+jobs:
+  hold:
+    if: ${{ github.event.inputs.not_before != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 200
+    steps:
+      - name: Hold until UTC time
+        run: |
+          T="${{ github.event.inputs.not_before }}"
+          TARGET=$(date -u -d "$T" +%s)
+          NOW=$(date -u +%s)
+          D=$((TARGET - NOW))
+          if [ "$D" -gt 0 ] && [ "$D" -lt 10800 ]; then
+            echo "holding $D s until $T UTC (AI free-tier quota window)"
+            sleep "$D"
+          else
+            echo "not_before passed/out-of-range ($D s) - continuing immediately"
+          fi
+
+  extract:
+    needs: hold
+    if: ${{ !cancelled() && (needs.hold.result == 'success' || needs.hold.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        include:
+          - { shard: 0, shards: 6 }
+          - { shard: 1, shards: 6 }
+          - { shard: 2, shards: 6 }
+          - { shard: 3, shards: 6 }
+          - { shard: 4, shards: 6 }
+          - { shard: 5, shards: 6 }
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Install tesseract OCR (+ Hindi) for scanned PDFs
+        run: |
+          set -e
+          ok=0
+          for i in 1 2 3 4 5; do
+            echo "[apt-retry] attempt $i/5 (runner DNS flakes fail this step outright otherwise)"
+            if sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-hin tesseract-ocr-eng >/dev/null; then ok=1; break; fi
+            echo "[apt-retry] attempt $i failed, sleeping 45s"
+            sleep 45
+          done
+          if [ "$ok" != "1" ]; then echo "[apt-retry] tesseract install failed after 5 attempts"; exit 100; fi
+          tesseract --version | head -1
+
+      - name: Preflight secrets
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::error::Secrets missing. Add SUPABASE_URL, SUPABASE_SERVICE_KEY, GEMMA_API_KEYS."
+            exit 1
+          fi
+
+      - name: Compute rate plan
+        id: rate
+        run: |
+          SHARDS=6
+          TOTAL="${{ github.event.inputs.total_calls || '2800' }}"
+          MI="${{ github.event.inputs.min_interval_s }}"
+          if [ -z "$MI" ]; then
+            # MAX speed under the daily RPD cap: pace the whole budget to be
+            # consumable in ~3h at 6-way parallelism (call latency usually
+            # binds first); floor 8s keeps the fleet ~<=15 starts/min, far
+            # under the 15 RPM/model/key per-minute window on 12 combos.
+            MI=$(python3 -c "import math; print(max(8, math.ceil(10800 * $SHARDS / max(1, int('$TOTAL')))))")
+          fi
+          PER_SHARD=$(python3 -c "import math; print(math.ceil(int('$TOTAL') / $SHARDS))")
+          echo "per-shard budget: $PER_SHARD calls, min-interval ${MI}s (total $TOTAL on $SHARDS shards - RPD-law slice)"
+          echo "per_shard=$PER_SHARD" >> "$GITHUB_OUTPUT"
+          echo "mi=$MI" >> "$GITHUB_OUTPUT"
+
+      - name: Paper-wise extraction (shard ${{ matrix.shard }})
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GEMMA_API_KEYS: ${{ secrets.GEMMA_API_KEYS }}
+          MERCURY_API_KEYS: ${{ secrets.MERCURY_API_KEYS }}
+          GEMMA_FALLBACK_MODELS: "gemini-3.1-flash-lite,gemini-3.5-flash-lite,gemma-4-26b-a4b-it"
+        run: |
+          set -x
+          STAGE="${{ github.event.inputs.stage || 'extract' }}"
+          EXTRACTOR="${{ github.event.inputs.extractor || 'v6' }}"
+          PILOT="${{ github.event.inputs.pilot_n || '0' }}"
+          LIMIT="${{ github.event.inputs.limit || '0' }}"
+          DRY="${{ github.event.inputs.dry_run || 'false' }}"
+          SHARD_ARGS="--shard ${{ matrix.shard }} --shards ${{ matrix.shards }}"
+          OPTS=""
+          [ "$PILOT" != "0" ] && OPTS="$OPTS --pilot $PILOT"
+          [ "$LIMIT" != "0" ] && OPTS="$OPTS --limit $LIMIT"
+          [ -n "${{ github.event.inputs.course }}" ] && OPTS="$OPTS --course ${{ github.event.inputs.course }}"
+          [ -n "${{ github.event.inputs.year }}" ] && OPTS="$OPTS --year ${{ github.event.inputs.year }}"
+          if [ "$DRY" = "true" ]; then
+            python3 pipeline/aktu_pyq_extractor_v6.py \
+              --dir "${{ github.event.inputs.pdf_dir }}" \
+              --manifest "${{ github.event.inputs.manifest }}" \
+              --dry-run $SHARD_ARGS $OPTS
+            exit 0
+          fi
+          if [ "$EXTRACTOR" = "v6" ]; then
+            if [ "$STAGE" != "extract" ] && [ "$STAGE" != "all" ]; then
+              # v6 covers extraction only; delegate the rest to the v5 script
+              if [ "${{ matrix.shard }}" != "0" ]; then
+                echo "stage $STAGE runs on shard 0 only"; exit 0
+              fi
+              python3 pipeline/aktu_pyq_extractor.py --stage "$STAGE" --db --ai --soft-deadline 285
+              exit 0
+            fi
+            python3 pipeline/aktu_pyq_extractor_v6.py \
+              --dir "${{ github.event.inputs.pdf_dir }}" \
+              --manifest "${{ github.event.inputs.manifest }}" \
+              --ai --db --soft-deadline 285 \
+              --route "${{ github.event.inputs.route || 'auto' }}" \
+              --qc-min "${{ github.event.inputs.qc_min_questions || '10' }}" \
+              --chunk-pages "${{ github.event.inputs.chunk_pages || '2' }}" \
+              --min-interval "${{ steps.rate.outputs.mi }}" \
+              --max-calls "${{ steps.rate.outputs.per_shard }}" \
+              $SHARD_ARGS $OPTS \
+              ${{ github.event.inputs.reprocess == 'true' && '--reprocess' || '' }} \
+              ${{ github.event.inputs.reprocess == 'true' && format('--status-filter {0}', github.event.inputs.status_filter) || '' }} \
+              ${{ github.event.inputs.reprocess == 'true' && github.event.inputs.thin_max != '' && github.event.inputs.thin_max != '0' && format('--thin-max {0}', github.event.inputs.thin_max) || '' }} \
+              ${{ github.event.inputs.reprocess == 'true' && github.event.inputs.amnesty_frozen == 'true' && '--amnesty-frozen' || '' }} \
+              ${{ github.event.inputs.fix_pids != '' && format('--fix-pids "{0}"', github.event.inputs.fix_pids) || '' }}
+            if [ "$STAGE" = "all" ] && [ "${{ matrix.shard }}" = "0" ]; then
+              python3 pipeline/aktu_pyq_extractor.py --stage embed --db
+              python3 pipeline/aktu_pyq_extractor.py --stage cluster --db
+            fi
+          else
+            PILOT_ARG=""
+            [ "$PILOT" != "0" ] && PILOT_ARG="--pilot $PILOT"
+            python3 pipeline/aktu_pyq_extractor.py \
+              --stage "$STAGE" \
+              --dir "${{ github.event.inputs.pdf_dir || 'corpus/unified' }}" \
+              --manifest "${{ github.event.inputs.manifest || 'data/unified_manifest.csv' }}" \
+              --ai --db --soft-deadline 285 $SHARD_ARGS $PILOT_ARG
+          fi
+
+  post:
+    needs: extract
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install requests
+        run: pip install -q requests
+
+      - name: Report remaining PDFs (no auto-dispatch)
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          PDF_DIR: ${{ github.event.inputs.pdf_dir || 'corpus/unified,corpus/aktuonline3,corpus/aktuonline4' }}
+        run: |
+          echo "### Extraction Complete" >> $GITHUB_STEP_SUMMARY
+          echo "extractor=${{ github.event.inputs.extractor || 'v6' }} reprocess=${{ github.event.inputs.reprocess || 'false' }} dry_run=${{ github.event.inputs.dry_run || 'false' }}" >> $GITHUB_STEP_SUMMARY
+          FIRST_DIR="${PDF_DIR%%,*}"
+          REMAIN=$(python3 tools/remaining.py --dir "$FIRST_DIR" 2>/dev/null || echo "n/a (multi-dir)")
+          echo "remaining PDFs not complete in $FIRST_DIR: $REMAIN" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Manual dispatch:** trigger the next iteration from the Actions tab when ready." >> $GITHUB_STEP_SUMMARY

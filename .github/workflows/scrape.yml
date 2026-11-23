@@ -1,0 +1,197 @@
+#Round-3 corpus scraper: full aktuonline archive (8,162 new papers).
+#
+# Trigger: push to aktu-runner (ignoring corpus writes so the collector
+# commit cannot re-trigger), or manual dispatch.
+#
+# Two shards, ~1 req/s aggregate (2.0s polite delay each). Every ~25 min each
+# shard force-pushes its state (plumbing-only commit, linear chain) to its own
+# branch scrape-r3-<shard> - reruns resume from there.
+#
+# collect job (after both shards):
+#   1. merges BOTH shard manifests properly (union, last-wins - the old
+#      checkout-overwrite version silently dropped shard 0's rows),
+#      unions the PDF trees, commits to aktu-runner
+#   2. chains the expansion: if every index row is handled -> dispatch the
+#      extraction workflow (stage=all); if progress was made but rows remain
+#      -> re-dispatch this scrape (resume from checkpoints); if zero progress
+#      -> stop and flag for manual attention (no infinite loop).
+name: scrape-aktuonline3
+
+on:
+  workflow_dispatch:
+    inputs:
+      delay:
+        description: 'polite delay seconds per request'
+        default: '2.0'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aktu-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        include:
+          - { shard: 0 }
+          - { shard: 1 }
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Restore previous checkpoint for this shard
+        continue-on-error: true
+        run: |
+          BR=scrape-r3-${{ matrix.shard }}
+          if git fetch --depth=1 origin "$BR"; then
+            git checkout FETCH_HEAD -- corpus/aktuonline3 data/aktuonline3_manifest.csv 2>/dev/null || true
+            echo "restored checkpoint from $BR"
+          else
+            echo "no checkpoint yet for $BR (first run)"
+          fi
+
+      - name: Scrape in chunks with checkpoint pushes
+        run: |
+          set -e
+          SHARD=${{ matrix.shard }}
+          BR=scrape-r3-$SHARD
+          git config user.name  "aktu-bot"
+          git config user.email "aktu-bot@users.noreply.github.com"
+          for round in 1 2 3 4 5 6 7 8 9; do
+            echo "=== shard $SHARD round $round ==="
+            python3 tools/scrape_aktuonline3.py \
+              --index data/aktuonline_full_index.csv \
+              --out corpus/aktuonline3 \
+              --manifest data/aktuonline3_manifest.csv \
+              --shards 2 --shard "$SHARD" \
+              --delay "${{ github.event.inputs.delay || '2.0' }}" \
+              --for-seconds 1500 || true
+
+            # checkpoint: plumbing-only commit (never disturbs worktree/index)
+            export GIT_INDEX_FILE="$GITHUB_WORKSPACE/.git/scrape-idx"
+            git read-tree --empty
+            git add corpus/aktuonline3 data/aktuonline3_manifest.csv 2>/dev/null || true
+            TREE=$(git write-tree)
+            unset GIT_INDEX_FILE
+            # NOTE: rev-parse echoes unknown args to stdout, so a plain
+            # rev-parse of a missing ref yields the LITERAL ref name (this
+            # exact bug killed the first real run with
+            # 'fatal: not a valid object name origin/scrape-r3-0').
+            # --verify -q is the only safe resolution; empty = root commit.
+            PARENT=""
+            if git rev-parse -q --verify "refs/remotes/origin/$BR" >/dev/null 2>&1; then
+              PARENT=$(git rev-parse --verify "refs/remotes/origin/$BR")
+            fi
+            MSG="scrape r3 state shard $SHARD round $round ($(ls corpus/aktuonline3 | wc -l) pdfs)"
+            if [ -n "$PARENT" ]; then
+              COMMIT=$(echo "$MSG" | git commit-tree "$TREE" -p "$PARENT")
+            else
+              COMMIT=$(echo "$MSG" | git commit-tree "$TREE")
+            fi
+            git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" "$COMMIT:refs/heads/$BR"
+            echo "checkpoint pushed to $BR"
+            # refresh the remote-tracking ref: the direct-URL push above does
+            # NOT create refs/remotes/origin/$BR, so without this the next
+            # round's parent lookup would fail again
+            git fetch -q --depth=1 origin "$BR" || true
+
+            if [ -f ".scrape_done_$SHARD" ]; then echo "SHARD $SHARD COMPLETE"; break; fi
+          done
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Shard ${{ matrix.shard }} scrape summary" >> $GITHUB_STEP_SUMMARY
+          echo "pdfs on disk: $(ls corpus/aktuonline3 2>/dev/null | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "manifest rows: $(wc -l < data/aktuonline3_manifest.csv 2>/dev/null || echo 0)" >> $GITHUB_STEP_SUMMARY
+          cut -d, -f10 data/aktuonline3_manifest.csv 2>/dev/null | sort | uniq -c | sort -rn >> $GITHUB_STEP_SUMMARY || true
+
+  collect:
+    needs: scrape
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Merge shard branches into aktu-runner (manifest union + pdf union)
+        run: |
+          set -e
+          git config user.name  "aktu-bot"
+          git config user.email "aktu-bot@users.noreply.github.com"
+          mkdir -p /tmp/shardmf
+          for BR in scrape-r3-0 scrape-r3-1; do
+            if git fetch --depth=1 origin "$BR"; then
+              git show "FETCH_HEAD:data/aktuonline3_manifest.csv" > "/tmp/shardmf/$BR.csv" 2>/dev/null || true
+              git checkout "FETCH_HEAD" -- corpus/aktuonline3 2>/dev/null || true
+              echo "fetched $BR ($(ls corpus/aktuonline3 2>/dev/null | wc -l) pdfs so far)"
+            else
+              echo "no $BR yet (skipped)"
+            fi
+          done
+          python3 tools/merge_manifests.py data/aktuonline3_manifest.csv \
+            /tmp/shardmf/scrape-r3-0.csv /tmp/shardmf/scrape-r3-1.csv
+
+      - name: Progress check + chain dispatch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          TOTAL=$(python3 -c "import csv;print(len(list(csv.DictReader(open('data/aktuonline_full_index.csv')))))")
+          HANDLED=$(python3 -c "
+          import csv
+          seen=set()
+          try:
+            for r in csv.DictReader(open('data/aktuonline3_manifest.csv')):
+              u=(r.get('paper_url') or '').strip().lower()
+              if u and r.get('status') in ('OK','NO_PDF','SKIP'): seen.add(u)
+          except FileNotFoundError: pass
+          print(len(seen))")
+          PREV=-1
+          if [ -f data/aktuonline3_progress.json ]; then
+            PREV=$(python3 -c "import json;print(json.load(open('data/aktuonline3_progress.json')).get('handled',-1))" 2>/dev/null || echo -1)
+          fi
+          echo "handled $HANDLED / $TOTAL (previous collect: $PREV)"
+          python3 - "$HANDLED" "$TOTAL" <<'EOF'
+          import json, sys
+          json.dump({'handled': int(sys.argv[1]), 'total': int(sys.argv[2])},
+                    open('data/aktuonline3_progress.json', 'w'))
+          EOF
+
+          git add corpus/aktuonline3 data/aktuonline3_manifest.csv data/aktuonline3_progress.json
+          if git diff --cached --quiet; then
+            echo "nothing new to collect"
+          else
+            git commit -q -m "collect: round-3 corpus snapshot ($HANDLED/$TOTAL handled)"
+            git push -q "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" aktu-runner
+            echo "pushed snapshot to aktu-runner"
+          fi
+
+          echo "### Collect summary" >> $GITHUB_STEP_SUMMARY
+          echo "handled: $HANDLED / $TOTAL" >> $GITHUB_STEP_SUMMARY
+
+          if [ "$HANDLED" -ge "$TOTAL" ]; then
+            echo "SCRAPE COMPLETE -> dispatching extraction (stage=all, iter=0)" | tee -a $GITHUB_STEP_SUMMARY
+            gh api -X POST "repos/${{ github.repository }}/actions/workflows/extraction.yml/dispatches" \
+              -f ref=aktu-runner \
+              -f 'inputs[stage]=all' -f 'inputs[pilot_n]=0' -f 'inputs[iter]=0'
+          elif [ "$PREV" -ge 0 ] && [ "$HANDLED" -le "$PREV" ]; then
+            echo "::warning::NO PROGRESS since last collect ($HANDLED <= $PREV) - chain stopped, manual attention needed" | tee -a $GITHUB_STEP_SUMMARY
+          else
+            echo "rows remain -> re-dispatching scrape (resume from checkpoints)" | tee -a $GITHUB_STEP_SUMMARY
+            gh api -X POST "repos/${{ github.repository }}/actions/workflows/scrape.yml/dispatches" \
+              -f ref=aktu-runner -f 'inputs[delay]=2.0'
+          fi

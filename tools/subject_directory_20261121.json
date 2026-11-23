@@ -1,0 +1,59 @@
+{
+ "run": "SUBJECT-DIRECTORY-20261121",
+ "ts": "2026-11-21T12:11:55.633467+00:00",
+ "csv_subjects": 3080,
+ "distinct_codes": 6998,
+ "fallback_repeats_mapped": 0,
+ "fallback_repeats_unmapped": 343,
+ "with_papers": 1233,
+ "with_repeats": 386,
+ "with_questions": 1217,
+ "embedding_dim": 384,
+ "inserted": 3080,
+ "verify_count": 3080,
+ "verify_emb": 3080,
+ "avail_matrix": [
+  [
+   false,
+   false,
+   1847
+  ],
+  [
+   true,
+   false,
+   847
+  ],
+  [
+   true,
+   true,
+   386
+  ]
+ ],
+ "nn_data_structure": [
+  [
+   "Data Structure",
+   1.0
+  ],
+  [
+   "DATA STRUCTURE",
+   1.0
+  ],
+  [
+   "Data Structure",
+   1.0
+  ],
+  [
+   "Data Structures",
+   0.955124632671614
+  ],
+  [
+   "Essentials of Data Structure",
+   0.92026317119601
+  ],
+  [
+   "Fundamentals of Data Structures",
+   0.871922173523257
+  ]
+ ],
+ "repeat_rows_mapped": 6379
+}

@@ -1,0 +1,157 @@
+# OCR EVIDENCE BUILDER - phase-2a tool (owner go 2026-11-18: "work on already
+# got PDFs", GHA motion on the 4,280 scan/parse-fail papers).
+#
+# CPU-ONLY: zero AI calls, zero Supabase writes, zero RPD consumption. Not an
+# extraction run (cadence law governs extraction.yml runs; this is evidence
+# tooling like model-probe.yml). It builds the printed-paper reference the
+# 11-14 verifier lacked for UNMEASURABLE(scan) + PARSE-FAIL pools, so the
+# anti-loop law's "evidence-backed fix list" can exist for them.
+#
+# Inputs: a committed stems file (pipeline/evidence_lists/*.txt), one corpus
+# stem per line. Output: evidence/ocr/<label>/<stem>.txt + verdicts JSONL,
+# uploaded as artifacts and committed to branch ocr-evidence by the gather job.
+name: ocr-evidence
+
+on:
+  workflow_dispatch:
+    inputs:
+      stems_file:
+        description: 'committed stems list (one corpus stem per line)'
+        default: 'pipeline/evidence_lists/ocr_parsefail_750.txt'
+        type: string
+      batch_label:
+        description: 'label dir under evidence/ocr/<label>/'
+        default: 'parsefail_750'
+        type: string
+      dpi:
+        description: 'rasterize DPI (200 fast / 300 best)'
+        default: '250'
+        type: string
+      max_pages:
+        description: 'pages per paper cap (0 = no cap)'
+        default: '40'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ocr-evidence
+  cancel-in-progress: false
+
+jobs:
+  ocr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        include:
+          - { shard: 0, shards: 6 }
+          - { shard: 1, shards: 6 }
+          - { shard: 2, shards: 6 }
+          - { shard: 3, shards: 6 }
+          - { shard: 4, shards: 6 }
+          - { shard: 5, shards: 6 }
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install -q pypdfium2 pytesseract Pillow
+
+      - name: Install tesseract OCR
+        run: |
+          set -e
+          ok=0
+          for i in 1 2 3 4 5; do
+            echo "[apt-retry] attempt $i/5 (runner DNS flakes fail this step outright otherwise)"
+            if sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-eng >/dev/null; then ok=1; break; fi
+            echo "[apt-retry] attempt $i failed, sleeping 45s"
+            sleep 45
+          done
+          if [ "$ok" != "1" ]; then echo "[apt-retry] tesseract install failed after 5 attempts"; exit 100; fi
+          tesseract --version | head -1
+
+      - name: OCR evidence (shard ${{ matrix.shard }})
+        run: |
+          MAXP="${{ github.event.inputs.max_pages || '40' }}"
+          if [ "$MAXP" = "0" ]; then MAXP=100000; fi
+          LABEL="${{ github.event.inputs.batch_label || 'parsefail_750' }}"
+          python3 pipeline/ocr_evidence.py \
+            --stems-file "${{ github.event.inputs.stems_file || 'pipeline/evidence_lists/ocr_parsefail_750.txt' }}" \
+            --dirs corpus \
+            --shard ${{ matrix.shard }} --shards 6 \
+            --dpi "${{ github.event.inputs.dpi || '250' }}" \
+            --max-pages "$MAXP" \
+            --out-dir "evidence/ocr/$LABEL"
+          echo "shard ${{ matrix.shard }} verdicts: $(wc -l < "evidence/ocr/$LABEL/verdicts_shard${{ matrix.shard }}.jsonl" 2>/dev/null || echo 0)"
+
+      - name: Upload shard evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ocr-evidence-shard-${{ matrix.shard }}
+          path: evidence/ocr/
+          retention-days: 30
+
+  gather:
+    needs: ocr
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      LABEL: ${{ github.event.inputs.batch_label || 'parsefail_750' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download all shard artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: ocr-evidence-shard-*
+          path: artifacts/
+          merge-multiple: true
+
+      - name: Merge verdicts + commit to ocr-evidence branch
+        run: |
+          mkdir -p "evidence/ocr/$LABEL"
+          # artifacts preserve relative paths: artifacts/evidence/ocr/<label>/...
+          if [ -d "artifacts/evidence/ocr/$LABEL" ]; then
+            cp -r "artifacts/evidence/ocr/$LABEL/." "evidence/ocr/$LABEL/"
+          else
+            find artifacts -name 'verdicts_shard*.jsonl' -exec cp {} "evidence/ocr/$LABEL/" \;
+            find artifacts -name '*.txt' ! -name 'SUMMARY.txt' -exec cp {} "evidence/ocr/$LABEL/" \; || true
+          fi
+          cat "evidence/ocr/$LABEL"/verdicts_shard*.jsonl > "evidence/ocr/$LABEL/verdicts_all.jsonl" 2>/dev/null || true
+          export LABEL
+          python3 - << 'PYEOF'
+          import json, os, collections
+          label = os.environ['LABEL']
+          base = f"evidence/ocr/{label}"
+          rows = []
+          try:
+              rows = [json.loads(l) for l in open(f"{base}/verdicts_all.jsonl")]
+          except Exception as e:
+              print('[gather] no verdicts to merge:', e)
+          c = collections.Counter(r['verdict'] for r in rows)
+          atomic_ok = [r for r in rows if r['verdict'] == 'OK' and r.get('printed_atomic', 0) > 0]
+          s = (f"ocr-evidence {label}: {len(rows)} papers | " +
+               " ".join(f"{k}={v}" for k, v in c.most_common()) +
+               f" | measurable (printed_atomic>0): {len(atomic_ok)}")
+          print(s)
+          open(f"{base}/SUMMARY.txt", "w").write(s + "\n")
+          PYEOF
+          git config user.name "ocr-evidence-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout -B ocr-evidence
+          git add "evidence/ocr/$LABEL"
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "ocr-evidence: $LABEL batch ($(grep -c '' "evidence/ocr/$LABEL/verdicts_all.jsonl" 2>/dev/null || echo 0) verdicts) - CPU-only, zero AI calls, zero DB writes"
+          git push origin ocr-evidence --force
