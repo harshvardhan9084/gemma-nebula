@@ -1,0 +1,1100 @@
+{
+ "bcs301-2024-25": {
+  "meta": {
+   "printed_containers": 8,
+   "printed_atomic": 32
+  },
+  "report": {
+   "rows_before": 22,
+   "clean_changes": [],
+   "garbled_labels": [
+    "1.a",
+    "1.b",
+    "1.c",
+    "1.d",
+    "1.e",
+    "1.g",
+    "2.a",
+    "2.b",
+    "2.c",
+    "2.d",
+    "2.e",
+    "3.a",
+    "3.b",
+    "4.a",
+    "4.b"
+   ],
+   "split_changes": [],
+   "demote_changes": [],
+   "label_suspects": [],
+   "rows_after": 22
+  },
+  "rows": [
+   {
+    "label": "1.a",
+    "marks": 2,
+    "verify": "printed-matched+text-garbled",
+    "text": "Explain why do we need a pointer to maintain a linked list structure?\nसमझाइये िक िलं̋ड सूची संरचना को बनाए रखने के िलए हमŐपॉइंटर की\nआवʴकता Ɛों होती है?"
+   },
+   {
+    "label": "1.b",
+    "marks": 2,
+    "verify": "printed-matched+text-garbled",
+    "text": "If an array starts at address 2000 and each integer takes 4 bytes, evaluate the\naddress of arr[5]?\nयिद एक सरणी पता 2000 से शुŝ होती है और Ůȑेक पूणाōक 4\nबाइट्स लेता है, तो arr[5] का पता मूʞांकन करŐ?"
+   },
+   {
+    "label": "1.c",
+    "marks": 2,
+    "verify": "printed-matched+text-garbled",
+    "text": "Explain Priority Queue and its significance?\nŮाथिमकता कतार और इसके महȕ को समझाइए?"
+   },
+   {
+    "label": "1.d",
+    "marks": 2,
+    "verify": "printed-matched+text-garbled",
+    "text": "The following sequence of operations is performed on stack: PUSH (10),\nPUSH (20), POP, PUSH (10), PUSH (20), POP, POP, POP, PUSH (20), POP.\nDemonstrate the sequence of the value popped out?\nːैक पर िनɻिलİखत अनुŢम मŐऑपरेशन िकए जाते हœ: PUSH (10),\nPUSH (20), POP, PUSH (10), PUSH (20), POP, POP, POP,\nPUSH (20), POP. पॉप आउट िकए गए मान का अनुŢम ŮदिशŊत\nकरŐ?"
+   },
+   {
+    "label": "1.e",
+    "marks": 2,
+    "verify": "printed-matched+text-garbled",
+    "text": "Illustrate the concept of Indexed Sequential search.\nअनुŢिमत अनुŢिमक खोज की अवधारणा को ˙ʼ करŐ।"
+   },
+   {
+    "label": "1.f",
+    "marks": 2,
+    "verify": "printed-matched",
+    "text": "Explain the concept of NonLinear data structures with the help of example.\nउदाहरण की सहायता से नॉनलीिनयर डेटा संरचना की अवधारणा को\nसमझाइए।"
+   },
+   {
+    "label": "1.g",
+    "marks": 2,
+    "verify": "printed-matched+text-garbled",
+    "text": "Illustrate the significance of Threaded Binary Tree.\nŪेडेड बाइनरी टŌी के महȕ को ˙ʼ करŐ।"
+   },
+   {
+    "label": "2.a",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "An array ARR[-5…15, 10…20] stores elements in Row Major Wise with each\nelement requiring 2 bytes of storage. Evaluate the address of\nARR[10][15] when the base address is 2500.\nएक सरणी ARR[-5…15, 10…20] रो मेजर वाइज मŐतȕों को संŤहीत\nकरती है, िजसमŐŮȑेक तȕ को 2 बाइट्स ːोरेज की आवʴकता होती\nहै। जब आधार पता 2500 हो तो\nARR[10][15] के पते का मूʞांकन करŐ।"
+   },
+   {
+    "label": "2.b",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "If a stack is implemented using Linked List, then show the logical\nrepresentation of nodes as a stack. Illustrate PUSH and POP operations of this\ntype of stack.\nयिद िलं̋ड िलː का उपयोग करके ːैक को कायाŊİɋत िकया जाता है, तो\nːैक के ŝप मŐनोड्स का तािकŊक Ůितिनिधȕ िदखाएं। इस Ůकार के ːैक\nके PUSH और POP संचालन को िचिũत करŐ।"
+   },
+   {
+    "label": "2.c",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Construct a binary tree with the following traversals:\nInorder: B C A E G D H F I J\nPreorder: A B C D E G F H I J\nिनɻिलİखत टŌैवसŊल के साथ एक बाइनरी टŌी बनाएं:\nइनऑडŊर: B C A E G D H F I J\nŮीऑडŊर: A B C D E G F H I J"
+   },
+   {
+    "label": "2.d",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Construct an AVL Tree by inserting following sequence of elements, starting\nwith an empty tree: 71,41,91,56,60,30,40,80,50,55\nएक खाली टŌी से शुŝ करते Šए, तȕों के िनɻिलİखत अनुŢम को\nसİʃिलत करके एक AVL टŌी का िनमाŊण करŐ:\n71,41,91,56,60,30,40,80,50,55"
+   },
+   {
+    "label": "2.e",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Explain the Depth-First Search (DFS) algorithm with the help of an example\ngraph. Which data structure is used for DFS and BFS?\nएक उदाहरण Ťाफ की मदद से डे̪थ-फːŊ सचŊ (DFS) एʎोįरदम को\nसमझाइए। DFS और BFS के िलए िकस डेटा संरचना का उपयोग िकया\nजाता है?"
+   },
+   {
+    "label": "3.a",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Illustrate the following:\na. Asymptotic notations\nb. Time Space Tradeoff\nc. ADT\nिनɻिलİखत को ˙ʼ करŐ:\na. अिस̱टोिटक संकेतन\nb. समय ˕ान ʩापार-बंद\nc. ADT"
+   },
+   {
+    "label": "3.b",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Illustrate how to represent the polynomial using linked list? Construct a C\nprogram to add two polynomials using linked list.\nिलं̋ड सूची का उपयोग करके बŠपद को कैसे दशाŊया जाए, इसका\nउदाहरण दŐ? िलं̋ड सूची का उपयोग करके दो बŠपदों को जोड़ने के िलए\nC ŮोŤाम बनाएँ।"
+   },
+   {
+    "label": "4.a",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Construct a Queue using a linked list? Include functions insert(), delete(),\nprint().Explain how a circular queue overcomes the limitations of a simple\nqueue.\nिलं̋ड सूची का उपयोग करके कतार का िनमाŊण करŐ? insert(),\ndelete(), print() फ़ं ƕन शािमल करŐ। समझाएँ िक एक वृȅाकार\nकतार एक साधारण कतार की सीमाओं को कैसे पार करती है।"
+   },
+   {
+    "label": "4.b",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Construct a C program to check whether the parentheses are balanced in an\nexpression.\nिकसी ʩंजक मŐकोʿक संतुिलत हœया नही, ं इसकी जाँच करने के िलए C\nŮोŤाम का िनमाŊण करŐ।"
+   },
+   {
+    "label": "5.a",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "Construct a Hash table that contains 10 buckets and uses linear probing to resolve collisions. The key values are integers and the hash function used is key % 10. Insert values 43, 165, 62, 123, 142 in the table. Show all the steps and find the location of the key value 142?\nएक हैश टेबल बनाएं जिसमें 10 बकेट हों और टकरावों को हल करने के लिए रैखिक जांच का उपयोग करें। कुंजी मान पूर्णांक हैं और उपयोग किया गया हैश फ़ंक्शन कुंजी % 10 है। तालिका में मान 43, 165, 62, 123, 142 डालें। सभी चरण दिखाएं और कुंजी मान 142 का स्थान ज्ञात करें?"
+   },
+   {
+    "label": "5.b",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "Demonstratemerge sort algorithm to sort the following elements in ascending order : 11, 16, 13, 11, 4, 12, 6, 7. What is the time and space complexity of merge sort?\nनिम्नलिखित तत्वों को आरोही क्रम में सॉर्ट करने के लिए मर्ज सॉर्ट एल्गोरिदम का प्रदर्शन करें: 11, 16, 13, 11, 4, 12, 6, 7. मर्ज सॉर्ट की समय और स्थान जटिलता क्या है?"
+   },
+   {
+    "label": "6.a",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "Demonstrate B-Tree? Construct a B-Tree of order 4 with the alphabets (letters) arrive in the sequence as follows: a g f b k d h m j e s i r x c l n t u p.\nबी-ट्री का प्रदर्शन करें? क्रम 4 का बी-ट्री बनाएं जिसमें अक्षर (अक्षर) इस प्रकार क्रम में हों: a g f b k d h m j e s i r x c l n t u p"
+   },
+   {
+    "label": "6.b",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "Construct a Binary Search Tree (BST) using the following sequence of numbers: 50, 30, 70, 20, 40, 60, 80, 35, 45. Perform Inorder traversal of Tree.\nसंख्याओं के निम्नलिखित अनुक्रम का उपयोग करके एक बाइनरी सर्च ट्री (BST) का निर्माण करें: 50, 30, 70, 20, 40, 60, 80, 35, 45. ट्री का इनऑर्डर ट्रैवर्सल करें।"
+   },
+   {
+    "label": "7.a",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "Explain two ways to represent a graph in memory and compare their advantages:\n(i) Adjacency matrix\n(ii) Adjacency List\nमेमोरी में ग्राफ को दर्शाने के दो तरीके बताएं और उनके फायदों की तुलना करें:\n(i) एडजेंसी मैट्रिक्स\n(ii) एडजेंसी लिस्ट"
+   },
+   {
+    "label": "7.b",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "Explain the following graph terminologies with examples:\n(i) Graph\n(ii) Weighted Graph\n(iii) Degree of a Vertex\n(iv) Connected and Disconnected Graph\n(v) Cycle in a Graph\n(vi) Directed and Undirected Graph\n(vii) MST\nनिम्नलिखित ग्राफ शब्दावली को उदाहरण सहित समझाइए:\n(i) ग्राफ\n(ii) भारित ग्राफ\n(iii) शीर्ष की डिग्री\n(iv) जुड़ा और डिस्कनेक्टेड ग्राफ\n(v) ग्राफ में चक्र\n(vi) निर्देशित और अनिर्देशित ग्राफ\n(vii) एमएसटी"
+   }
+  ]
+ },
+ "bcs301-2024-25-ryzen-ea84defe": {
+  "meta": {
+   "printed_containers": 8,
+   "printed_atomic": 32
+  },
+  "report": {
+   "rows_before": 19,
+   "clean_changes": [],
+   "garbled_labels": [],
+   "split_changes": [
+    {
+     "kind": "split",
+     "detail": "label 5 -> 2 sub-parts ['a', 'b'] (container marks 7 propagated)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 6 -> 2 sub-parts ['a', 'b'] (container marks 7 propagated)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 7 -> 2 sub-parts ['a', 'b'] (container marks 7 propagated)"
+    }
+   ],
+   "demote_changes": [],
+   "label_suspects": [],
+   "rows_after": 22
+  },
+  "rows": [
+   {
+    "label": "1.a",
+    "marks": 2,
+    "verify": "printed-matched",
+    "text": "Explain why do we need a pointer to maintain a linked list structure?\nसमझाइये कि लिंक्ड सूची संरचना को बनाए रखने के लिए हमें पॉइंटर की आवश्यकता क्यों होती है?"
+   },
+   {
+    "label": "1.b",
+    "marks": 2,
+    "verify": "printed-matched",
+    "text": "If an array starts at address 2000 and each integer takes 4 bytes, evaluate the address of arr[5]?\nयदि एक सरणी पता 2000 से शुरू होती है और प्रत्येक पूर्णांक 4 बाइट्स लेता है, तो arr[5] का पता मूल्यांकन करें?"
+   },
+   {
+    "label": "1.c",
+    "marks": 2,
+    "verify": "printed-matched",
+    "text": "Explain Priority Queue and its significance?\nप्राथमिकता कतार और इसके महत्व को समझाइए?"
+   },
+   {
+    "label": "1.d",
+    "marks": 2,
+    "verify": "printed-matched",
+    "text": "The following sequence of operations is performed on stack: PUSH (10), PUSH (20), POP, PUSH (10), PUSH (20), POP, POP, POP, PUSH (20), POP.\nDemonstrate the sequence of the value popped out?\nस्टैक पर निम्नलिखित अनुक्रम में ऑपरेशन किए जाते हैं: PUSH (10), PUSH (20), POP, PUSH (10), PUSH (20), POP, POP, POP, PUSH (20), POP. पॉप आउट किए गए मान का अनुक्रम प्रदर्शित करें?"
+   },
+   {
+    "label": "1.e",
+    "marks": 2,
+    "verify": "printed-matched",
+    "text": "Illustrate the concept of Indexed Sequential search.\nअनुक्रमित अनुक्रमिक खोज की अवधारणा को स्पष्ट करें।"
+   },
+   {
+    "label": "1.f",
+    "marks": 2,
+    "verify": "printed-matched",
+    "text": "Explain the concept of NonLinear data structures with the help of example.\nउदाहरण की सहायता से नॉनलीनियर डेटा संरचना की अवधारणा को समझाइए।"
+   },
+   {
+    "label": "1.g",
+    "marks": 2,
+    "verify": "printed-matched",
+    "text": "Illustrate the significance of Threaded Binary Tree.\nथ्रेडेड बाइनरी ट्री के महत्व को स्पष्ट करें।"
+   },
+   {
+    "label": "2.a",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "An array ARR[-5…15, 10…20] stores elements in Row Major Wise with each element requiring 2 bytes of storage. Evaluate the address of ARR[10][15] when the base address is 2500.\nएक सरणी ARR[-5…15, 10…20] रो मेजर वाइज में तत्वों को संग्रहीत करती है, जिसमें प्रत्येक तत्व को 2 बाइट्स स्टोरेज की आवश्यकता होती है। जब आधार पता 2500 हो तो ARR[10][15] के पते का मूल्यांकन करें।"
+   },
+   {
+    "label": "2.b",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "If a stack is implemented using Linked List, then show the logical representation of nodes as a stack. Illustrate PUSH and POP operations of this type of stack.\nयदि लिंक्ड लिस्ट का उपयोग करके स्टैक को कार्यान्वित किया जाता है, तो स्टैक के रूप में नोड्स का तार्किक प्रतिनिधित्व दिखाएं। इस प्रकार के स्टैक के PUSH और POP संचालन को चित्रित करें।"
+   },
+   {
+    "label": "2.c",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "Construct a binary tree with the following traversals:\nInorder: B C A E G D H F I J\nPreorder: A B C D E G F H I J\nनिम्नलिखित ट्रैवर्सल के साथ एक बाइनरी ट्री बनाएं:\nइनऑर्डर: B C A E G D H F I J\nप्रीऑर्डर: A B C D E G F H I J"
+   },
+   {
+    "label": "2.d",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "Construct an AVL Tree by inserting following sequence of elements, starting with an empty tree: 71,41,91,56,60,30,40,80,50,55\nएक खाली ट्री से शुरू करते हुए, तत्वों के निम्नलिखित अनुक्रम को सम्मिलित करके एक AVL ट्री का निर्माण करें:\n71,41,91,56,60,30,40,80,50,55"
+   },
+   {
+    "label": "2.e",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "Explain the Depth-First Search (DFS) algorithm with the help of an example graph. Which data structure is used for DFS and BFS?\nएक उदाहरण ग्राफ की मदद से डेप्थ-फर्स्ट सर्च (DFS) एल्गोरिदम को समझाइए। DFS और BFS के लिए किस डेटा संरचना का उपयोग किया जाता है?"
+   },
+   {
+    "label": "3.a",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "Illustrate the following:\na. Asymptotic notations\nb. Time Space Tradeoff\nc. ADT\nनिम्नलिखित को स्पष्ट करें:\na. असिम्प्टोटिक संकेतन\nb. समय स्थान व्यापार-बंद\nc. ADT"
+   },
+   {
+    "label": "3.b",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "Illustrate how to represent the polynomial using linked list? Construct a C program to add two polynomials using linked list.\nलिंक्ड सूची का उपयोग करके बहुपद को कैसे दर्शाया जाए, इसका उदाहरण दें? लिंक्ड सूची का उपयोग करके दो बहुपदों को जोड़ने के लिए C प्रोग्राम बनाएं।"
+   },
+   {
+    "label": "4.a",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "Construct a Queue using a linked list? Include functions insert(), delete(), print().Explain how a circular queue overcomes the limitations of a simple queue.\nलिंक्ड सूची का उपयोग करके कतार का निर्माण करें? insert(), delete(), print() फंक्शन शामिल करें। समझाएं कि एक वृत्ताकार कतार एक साधारण कतार की सीमाओं को कैसे पार करती है।"
+   },
+   {
+    "label": "4.b",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "Construct a C program to check whether the parentheses are balanced in an expression.\nकिसी व्यंजक में कोष्ठक संतुलित हैं या नहीं, इसकी जाँच करने के लिए C प्रोग्राम का निर्माण करें।"
+   },
+   {
+    "label": "5.a",
+    "marks": 7,
+    "verify": null,
+    "text": "a. Construct a Hash table that contains 10 buckets and uses linear probing to resolve collisions. The key values are integers and the hash function used is key % 10. Insert values 43, 165, 62, 123, 142 in the table. Show all the steps and find the location of the key value 142? एक हैश टेबल बनाएं जिसमें 10 बकेट हों और टकरावों को हल करने के लिए रैखिक जांच का उपयोग करें। कुंजी मान पूर्णांक हैं और उपयोग किया गया हैश फ़ंक्शन कुंजी % 10 है। तालिका में मान 43, 165, 62, 123, 142 डालें। सभी चरण दिखाएँ और कुंजी मान 142 का स्थान ज्ञात करें?"
+   },
+   {
+    "label": "5.b",
+    "marks": 7,
+    "verify": null,
+    "text": "b. Demonstrate merge sort algorithm to sort the following elements in ascending order : 11, 16, 13, 11, 4, 12, 6, 7. What is the time and space complexity of merge sort? निम्नलिखित तत्वों को आरोही क्रम में सॉर्ट करने के लिए मर्ज सॉर्ट एल्गोरिदम का प्रदर्शन करें: 11, 16, 13, 11, 4, 12, 6, 7. मर्ज सॉर्ट की समय और स्थान जटिलता क्या है?"
+   },
+   {
+    "label": "6.a",
+    "marks": 7,
+    "verify": null,
+    "text": "a. Demonstrate B-Tree? Construct a B-Tree of order 4 with the alphabets (letters) arrive in the sequence as follows: a g f b k d h m j e s i r x c l n t u p. बी-ट्री का प्रदर्शन करें? क्रम 4 का बी-ट्री बनाएं जिसमें अक्षर (अक्षर) इस प्रकार क्रम में हों: a g f b k d h m j e s i r x c l n t u p"
+   },
+   {
+    "label": "6.b",
+    "marks": 7,
+    "verify": null,
+    "text": "b. Construct a Binary Search Tree (BST) using the following sequence of numbers: 50, 30, 70, 20, 40, 60, 80, 35, 45. Perform Inorder traversal of Tree. संख्याओं के निम्नलिखित अनुक्रम का उपयोग करके एक बाइनरी सर्च ट्री (BST) का निर्माण करें: 50, 30, 70, 20, 40, 60, 80, 35, 45. ट्री का इनऑर्डर ट्रैवर्सल करें।"
+   },
+   {
+    "label": "7.a",
+    "marks": 7,
+    "verify": null,
+    "text": "a. Explain two ways to represent a graph in memory and compare their advantages: (i) Adjacency matrix (ii) Adjacency List मेमोरी में ग्राफ को दर्शाने के दो तरीके बताएं और उनके फायदों की तुलना करें: (i) एडजेन्सी मैट्रिक्स (ii) एडजेन्सी लिस्ट"
+   },
+   {
+    "label": "7.b",
+    "marks": 7,
+    "verify": null,
+    "text": "b. Explain the following graph terminologies with examples: (i) Graph (ii) Weighted Graph (iii) Degree of a Vertex (iv) Connected and Disconnected Graph (v) Cycle in a Graph (vi) Directed and Undirected Graph (vii) MST निम्नलिखित ग्राफ शब्दावली को उदाहरण सहित समझाइए: (i) ग्राफ (ii) भारित ग्राफ (iii) शीर्ष की डिग्री (iv) जुड़ा और डिस्कनेक्टेड ग्राफ (v) ग्राफ में चक्र (vi) निर्देशित और अनिर्देशित ग्राफ (vii) एमएसटी"
+   }
+  ]
+ },
+ "bcs301-2025-26": {
+  "meta": {
+   "printed_containers": 7,
+   "printed_atomic": 30
+  },
+  "report": {
+   "rows_before": 2,
+   "clean_changes": [],
+   "garbled_labels": [],
+   "split_changes": [],
+   "demote_changes": [],
+   "label_suspects": [
+    {
+     "label": "7",
+     "detail": "text begins with sub-part marker 'b. Write and' - likely 7b"
+    }
+   ],
+   "rows_after": 2
+  },
+  "rows": [
+   {
+    "label": "6",
+    "marks": 7,
+    "verify": "printed-matched",
+    "text": "a. Write Short notes of following\n(a) Binary Search Trees (b) Complete Binary Tree (c) Extended Binary Tree निम्नलिखित पर संक्षिप्त टिप्पणी लिखिए—\n(a) बाइनरी सर्च ट्री (Binary Search Trees)\n(b) पूर्ण बाइनरी ट्री (Complete Binary Tree)\n(c) विस्तारित बाइनरी ट्री (Extended Binary Tree)"
+   },
+   {
+    "label": "7",
+    "marks": 5,
+    "verify": "printed-matched+marks-off-law+label-shape-suspect",
+    "text": "b. Write and explain the Floyd Warshall algorithm to find the all-pair shortest path. Use the Floyd Warshall algorithm to find shortest path among all the vertices in the given graph:\nसभी युग्मों(All-Pairs) के बीच सबसे छोटा पथ ज्ञात करने के लिए फ़्लॉयड–वार्शल (Floyd Warshall) एल्गोरिदम लिखिए तथा समझाइए। दिए गए ग्राफ में सभी शीर्षों (Vertices) के बीच सबसे छोटा पथ ज्ञात करने के लिए फ़्लॉयड–वार्शल एल्गोरिदम का उपयोग कीजिए"
+   }
+  ]
+ },
+ "btech-cs-3-sem-data-structure-bcs301-2026": {
+  "meta": {
+   "printed_containers": 2,
+   "printed_atomic": 6
+  },
+  "report": {
+   "rows_before": 4,
+   "clean_changes": [],
+   "garbled_labels": [],
+   "split_changes": [],
+   "demote_changes": [],
+   "label_suspects": [],
+   "rows_after": 4
+  },
+  "rows": [
+   {
+    "label": "6.a",
+    "marks": 4,
+    "verify": "weak-ref+marks-off-law",
+    "text": "Write Short notes of following (a) Binary Search Trees (b) Complete Binary Tree (c) Extended Binary Tree निम्नलिखित पर संक्षिप्त टिप्पणी लिखिए- (a) बाइनरी सर्व ट्री (Binary Search Trees) (b) पूर्ण बाइनरी ट्री (Complete Binary Tree) (c) विस्तारित बाइनरी ट्री (Extended Binary Tree)"
+   },
+   {
+    "label": "6.b",
+    "marks": 4,
+    "verify": "weak-ref+marks-off-law",
+    "text": "Insert the following sequence of elements into an AVL tree, starting with empty tree 71, 41, 91, 56, 60, 30, 40, 80, 50, 55 रिक्त AVL ट्री से प्रारम्भ करते हुए निम्नलिखित तत्वों के अनुक्रम को एक AVL ट्री में सम्मिलित कीजिए: 71, 41, 91, 56, 60, 30, 40, 80, 50, 55"
+   },
+   {
+    "label": "7.a",
+    "marks": null,
+    "verify": "weak-ref",
+    "text": "Use Prim's Algorithm to compute MST for the given weighted graph दिए गए भारित ग्राफ के लिए न्यूनतम स्पैनिंग ट्री (MST) ज्ञात करने हेतु प्रिम (Prim) एल्गोरिदम का उपयोग कीजिए।"
+   },
+   {
+    "label": "7.b",
+    "marks": null,
+    "verify": "weak-ref",
+    "text": "Write and explain the Floyd Warshall algorithm to find the all-pair shortest path. Use the Floyd Warshall algorithm to find shortest path among all the vertices in the given graph: सभी युग्मों (All-Pairs) के बीच सबसे छोटा पथ ज्ञात करने के लिए फ़्लॉयड-वार्शल (Floyd Warshall) एल्गोरिदम लिखिए तथा समझाइए। दिए गए ग्राफ में सभी शीर्षों (Vertices) के बीच सबसे छोटा पथ ज्ञात करने के लिए फ़्लॉयड-वार्शल एल्गोरिदम का उपयोग कीजिए"
+   }
+  ]
+ },
+ "btech-cs-3-sem-data-structure-bcs301-mar-2024": {
+  "meta": {
+   "printed_containers": 4,
+   "printed_atomic": 3
+  },
+  "report": {
+   "rows_before": 16,
+   "clean_changes": [],
+   "garbled_labels": [],
+   "split_changes": [
+    {
+     "kind": "split",
+     "detail": "label 1 -> 7 sub-parts ['a', 'b', 'c', 'd', 'e', 'f', 'g'] (container marks 14 off-law: NOT propagated to children)"
+    }
+   ],
+   "demote_changes": [],
+   "label_suspects": [],
+   "rows_after": 22
+  },
+  "rows": [
+   {
+    "label": "1.a",
+    "marks": null,
+    "verify": null,
+    "text": "a) What are the various asymptotic notations? ("
+   },
+   {
+    "label": "1.b",
+    "marks": null,
+    "verify": null,
+    "text": "b) Why are parentheses needed to specify the order of operations in infix expressions but not in postfix operations? ("
+   },
+   {
+    "label": "1.c",
+    "marks": null,
+    "verify": null,
+    "text": "c) How the choice of pivot element effects the running time of quick sort algorithm? ("
+   },
+   {
+    "label": "1.d",
+    "marks": null,
+    "verify": null,
+    "text": "d) What are the 2 different forms of hashing? ("
+   },
+   {
+    "label": "1.e",
+    "marks": null,
+    "verify": null,
+    "text": "e) What is the significance of binary tree in Huffman algorithm? ("
+   },
+   {
+    "label": "1.f",
+    "marks": null,
+    "verify": null,
+    "text": "f) What is the number of edges in a regular graph of degree d and n vertices. ("
+   },
+   {
+    "label": "1.g",
+    "marks": null,
+    "verify": null,
+    "text": "g) Write an algorithm to obtain the connected components of a graph."
+   },
+   {
+    "label": "2(a)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "Write a Pseudo code that will concatenate two linked lists. Function should have two parameters, pointers to the beginning of the lists and the function should link second list at the end of the first list."
+   },
+   {
+    "label": "2(b)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "Write an algorithm to convert a valid arithmetic infix expression into an equivalent postfix expression. Trace your algorithm for following infix expression: A+B*C-D/F"
+   },
+   {
+    "label": "2(c)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "What are the disadvantages of linear probing in hashing? Discuss how quadratic probing can be used to solve some of these problems."
+   },
+   {
+    "label": "2(d)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "Write C function for non-recursive post order traversal."
+   },
+   {
+    "label": "2(e)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "Consider the following graph and using Dijkstra Algorithm find the shortest path."
+   },
+   {
+    "label": "3(a)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "Each element of an array Data [20][50] requires 4 bytes of storage. Base address of Data is 2000. Determine the location of Data [10][10] when the array is stored as: (i) Row major (ii) Column major"
+   },
+   {
+    "label": "3(b)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "How will you create link list representation of a polynomial. Explain it with the suitable example."
+   },
+   {
+    "label": "4(a)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "Write an algorithm to evaluate an arithmetic expression using stack and show how the expression 3*(5-3) will be evaluate."
+   },
+   {
+    "label": "4(b)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "A double ended Queue (deque) is a linear list in which additions may be made at either end. Obtain a data representation mapping a deque into one dimensional array. Write C function to add and delete elements from either end of deque."
+   },
+   {
+    "label": "5(a)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "Write a C program for sorting 100 integer numbers wring selection sort procedure. Discuss the worst-case time complexity of the algorithms."
+   },
+   {
+    "label": "5(b)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "Write a program in C language to implement binary search algorithm. Also discuss the average behavior of the algorithm."
+   },
+   {
+    "label": "6(a)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "If E and I denotes the external and internal path length of a binary tree having n internal nodes then show that E=I+2n."
+   },
+   {
+    "label": "6(b)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "Suppose character a, b, c, d, e, f has probabilities 0.07, 0.09, 0.12, 0.22, 0.23, 0.27 respectively. Find an optional Huffman code and draw the Huffman tree. What is the average code length?"
+   },
+   {
+    "label": "7(a)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "Find the minimum spanning tree using Prim’s algorithm for the graph shown below"
+   },
+   {
+    "label": "7(b)",
+    "marks": 7,
+    "verify": "weak-ref",
+    "text": "Write a program in C language to compute the indegree and outdegree of every vertex of a directed graph when the graph is represented by an adjacency matrix."
+   }
+  ]
+ },
+ "btech-cs-3-sem-data-structure-bcs301-mar-2025": {
+  "meta": {
+   "printed_containers": 8,
+   "printed_atomic": 32
+  },
+  "report": {
+   "rows_before": 19,
+   "clean_changes": [],
+   "garbled_labels": [
+    "1.a",
+    "1.b",
+    "1.c",
+    "1.d",
+    "1.e",
+    "1.g",
+    "2.a",
+    "2.b",
+    "2.c",
+    "2.d",
+    "2.e",
+    "3.a",
+    "3.b",
+    "4.a",
+    "4.b"
+   ],
+   "split_changes": [
+    {
+     "kind": "split",
+     "detail": "label 5 -> 2 sub-parts ['a', 'b'] (container marks 7 propagated)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 6 -> 2 sub-parts ['a', 'b'] (container marks 7 propagated)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 7 -> 2 sub-parts ['a', 'b'] (container marks 7 propagated)"
+    }
+   ],
+   "demote_changes": [],
+   "label_suspects": [],
+   "rows_after": 22
+  },
+  "rows": [
+   {
+    "label": "1.a",
+    "marks": 2,
+    "verify": "printed-matched+text-garbled",
+    "text": "Explain why do we need a pointer to maintain a linked list structure? समझाइये िक िलं̋ड सूची संरचना को बनाए रखने के िलए हमŐपॉइंटर की आवʴकता Ɛों होती है?"
+   },
+   {
+    "label": "1.b",
+    "marks": 2,
+    "verify": "printed-matched+text-garbled",
+    "text": "If an array starts at address 2000 and each integer takes 4 bytes, evaluate the address of arr[5]? यिद एक सरणी पता 2000 से शुŝ होती है और Ůȑेक पूणाōक 4 बाइट्स लेता है, तो arr[5] का पता मूʞांकन करŐ?"
+   },
+   {
+    "label": "1.c",
+    "marks": 2,
+    "verify": "printed-matched+text-garbled",
+    "text": "Explain Priority Queue and its significance? Ůाथिमकता कतार और इसके महȕ को समझाइए?"
+   },
+   {
+    "label": "1.d",
+    "marks": 2,
+    "verify": "printed-matched+text-garbled",
+    "text": "The following sequence of operations is performed on stack: PUSH (10), PUSH (20), POP, PUSH (10), PUSH (20), POP, POP, POP, PUSH (20), POP. Demonstrate the sequence of the value popped out? ːैक पर िनɻिलİखत अनुŢम मŐऑपरेशन िकए जाते हœ: PUSH (10), PUSH (20), POP, PUSH (10), PUSH (20), POP, POP, POP, PUSH (20), POP. पॉप आउट िकए गए मान का अनुŢम ŮदिशŊत करŐ?"
+   },
+   {
+    "label": "1.e",
+    "marks": 2,
+    "verify": "printed-matched+text-garbled",
+    "text": "Illustrate the concept of Indexed Sequential search. अनुŢिमत अनुŢिमक खोज की अवधारणा को ˙ʼ करŐ।"
+   },
+   {
+    "label": "1.f",
+    "marks": 2,
+    "verify": "printed-matched",
+    "text": "Explain the concept of NonLinear data structures with the help of example. उदाहरण की सहायता से नॉनलीिनयर डेटा संरचना की अवधारणा को समझाइए।"
+   },
+   {
+    "label": "1.g",
+    "marks": 2,
+    "verify": "printed-matched+text-garbled",
+    "text": "Illustrate the significance of Threaded Binary Tree. Ūेडेड बाइनरी टŌी के महȕ को ˙ʼ करŐ।"
+   },
+   {
+    "label": "2.a",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "An array ARR[-5…15, 10…20] stores elements in Row Major Wise with each element requiring 2 bytes of storage. Evaluate the address of ARR[10][15] when the base address is 2500. एक सरणी ARR[-5…15, 10…20] रो मेजर वाइज मŐतȕों को संŤहीत करती है, िजसमŐŮȑेक तȕ को 2 बाइट्स ːोरेज की आवʴकता होती है। जब आधार पता 2500 हो तो ARR[10][15] के पते का मूʞांकन करŐ।"
+   },
+   {
+    "label": "2.b",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "If a stack is implemented using Linked List, then show the logical representation of nodes as a stack. Illustrate PUSH and POP operations of this type of stack. यिद िलं̋ड िलː का उपयोग करके ːैक को कायाŊİɋत िकया जाता है, तो ːैक के ŝप मŐनोड्स का तािकŊक Ůितिनिधȕ िदखाएं। इस Ůकार के ːैक के PUSH और POP संचालन को िचिũत करŐ।"
+   },
+   {
+    "label": "2.c",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Construct a binary tree with the following traversals: Inorder: B C A E G D H F I J Preorder: A B C D E G F H I J िनɻिलİखत टŌैवसŊल के साथ एक बाइनरी टŌी बनाएं: इनऑडŊर: B C A E G D H F I J ŮीऑडŊर: A B C D E G F H I J"
+   },
+   {
+    "label": "2.d",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Construct an AVL Tree by inserting following sequence of elements, starting with an empty tree: 71,41,91,56,60,30,40,80,50,55 एक खाली टŌी से शुŝ करते Šए, तȕों के िनɻिलİखत अनुŢम को सİʃिलत करके एक AVL टŌी का िनमाŊण करŐ: 71,41,91,56,60,30,40,80,50,55"
+   },
+   {
+    "label": "2.e",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Explain the Depth-First Search (DFS) algorithm with the help of an example graph. Which data structure is used for DFS and BFS? एक उदाहरण Ťाफ की मदद से डे̪थ-फːŊ सचŊ (DFS) एʎोįरदम को समझाइए। DFS और BFS के िलए िकस डेटा संरचना का उपयोग िकया जाता है?"
+   },
+   {
+    "label": "3.a",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Illustrate the following: a. Asymptotic notations b. Time Space Tradeoff c. ADT िनɻिलİखत को ˙ʼ करŐ: a. अिस̱टोिटक संकेतन b. समय ˕ान ʩापार-बंद c. ADT"
+   },
+   {
+    "label": "3.b",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Illustrate how to represent the polynomial using linked list? Construct a C program to add two polynomials using linked list. िलं̋ड सूची का उपयोग करके बŠपद को कैसे दशाŊया जाए, इसका उदाहरण दŐ? िलं̋ड सूची का उपयोग करके दो बŠपदों को जोड़ने के िलए C ŮोŤाम बनाएँ।"
+   },
+   {
+    "label": "4.a",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Construct a Queue using a linked list? Include functions insert(), delete(), print().Explain how a circular queue overcomes the limitations of a simple queue. िलं̋ड सूची का उपयोग करके कतार का िनमाŊण करŐ? insert(), delete(), print() फ़ं ƕन शािमल करŐ। समझाएँ िक एक वृȅाकार कतार एक साधारण कतार की सीमाओं को कैसे पार करती है।"
+   },
+   {
+    "label": "4.b",
+    "marks": 7,
+    "verify": "printed-matched+text-garbled",
+    "text": "Construct a C program to check whether the parentheses are balanced in an expression. िकसी ʩंजक मŐकोʿक संतुिलत हœया नही, ं इसकी जाँच करने के िलए C ŮोŤाम का िनमाŊण करŐ।"
+   },
+   {
+    "label": "5.a",
+    "marks": 7,
+    "verify": null,
+    "text": "a. Construct a Hash table that contains 10 buckets and uses linear probing to resolve collisions. The key values are integers and the hash function used is key % 10. Insert values 43, 165, 62, 123, 142 in the table. Show all the steps and find the location of the key value 142? एक हैश टेबल बनाएं जिसमें 10 बकेट हों और टकरावों को हल करने के लिए रैखिक जांच का उपयोग करें। कुंजी मान पूर्णांक हैं और उपयोग किया गया हैश फ़ंक्शन कुंजी % 10 है। तालिका में मान 43, 165, 62, 123, 142 डालें। सभी चरण दिखाएँ और कुंजी मान 142 का स्थान ज्ञात करें?"
+   },
+   {
+    "label": "5.b",
+    "marks": 7,
+    "verify": null,
+    "text": "b. Demonstrate merge sort algorithm to sort the following elements in ascending order : 11, 16, 13, 11, 4, 12, 6, 7. What is the time and space complexity of merge sort? निम्नलिखित तत्वों को आरोही क्रम में सॉर्ट करने के लिए मर्ज सॉर्ट एल्गोरिदम का प्रदर्शन करें: 11, 16, 13, 11, 4, 12, 6, 7. मर्ज सॉर्ट की समय और स्थान जटिलता क्या है?"
+   },
+   {
+    "label": "6.a",
+    "marks": 7,
+    "verify": null,
+    "text": "a. Demonstrate B-Tree? Construct a B-Tree of order 4 with the alphabets (letters) arrive in the sequence as follows: a g f b k d h m j e s i r x c l n t u p. बी-ट्री का प्रदर्शन करें? क्रम 4 का बी-ट्री बनाएं जिसमें अक्षर (अक्षर) इस प्रकार क्रम में हों: a g f b k d h m j e s i r x c l n t u p"
+   },
+   {
+    "label": "6.b",
+    "marks": 7,
+    "verify": null,
+    "text": "b. Construct a Binary Search Tree (BST) using the following sequence of numbers: 50, 30, 70, 20, 40, 60, 80, 35, 45. Perform Inorder traversal of Tree. संख्याओं के निम्नलिखित अनुक्रम का उपयोग करके एक बाइनरी सर्च ट्री (BST) का निर्माण करें: 50, 30, 70, 20, 40, 60, 80, 35, 45. ट्री का इनऑर्डर ट्रैवर्सल करें।"
+   },
+   {
+    "label": "7.a",
+    "marks": 7,
+    "verify": null,
+    "text": "a. Explain two ways to represent a graph in memory and compare their advantages: (i) Adjacency matrix (ii) Adjacency List मेमोरी में ग्राफ को दर्शाने के दो तरीके बताएं और उनके फायदों की तुलना करें: (i) एडजेंसी मैट्रिक्स (ii) एडजेंसी लिस्ट"
+   },
+   {
+    "label": "7.b",
+    "marks": 7,
+    "verify": null,
+    "text": "b. Explain the following graph terminologies with examples: (i) Graph (ii) Weighted Graph (iii) Degree of a Vertex (iv) Connected and Disconnected Graph (v) Cycle in a Graph (vi) Directed and Undirected Graph (vii) MST निम्नलिखित ग्राफ शब्दावली को उदाहरण सहित समझाइए: (i) ग्राफ (ii) भारित ग्राफ (iii) शीर्ष की डिग्री (iv) जुड़ा और डिस्कनेक्टेड ग्राफ (v) ग्राफ में चक्र (vi) निर्देशित और अनिर्देशित ग्राफ (vii) एमएसटी"
+   }
+  ]
+ },
+ "btech-cs-3-sem-data-structure-kcs301-2022": {
+  "meta": {
+   "printed_containers": 7,
+   "printed_atomic": 26
+  },
+  "report": {
+   "rows_before": 7,
+   "clean_changes": [],
+   "garbled_labels": [],
+   "split_changes": [
+    {
+     "kind": "split",
+     "detail": "label 1 -> 10 sub-parts ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'] (container marks 20 off-law: NOT propagated to children)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 2 -> 5 sub-parts ['a', 'b', 'c', 'd', 'e'] (container marks 30 off-law: NOT propagated to children)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 3 -> 2 sub-parts ['a', 'b'] (container marks 10 propagated)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 4 -> 2 sub-parts ['a', 'b'] (container marks 10 propagated)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 5 -> 2 sub-parts ['a', 'b'] (container marks 10 propagated)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 6 -> 2 sub-parts ['a', 'b'] (container marks 10 propagated)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 7 -> 2 sub-parts ['a', 'b'] (container marks 10 propagated)"
+    }
+   ],
+   "demote_changes": [],
+   "label_suspects": [],
+   "rows_after": 25
+  },
+  "rows": [
+   {
+    "label": "1.a",
+    "marks": null,
+    "verify": null,
+    "text": "a) Convert the infix expression (A+B) *(C-D) $E*F to postfix. Give the answer without any spaces. ("
+   },
+   {
+    "label": "1.b",
+    "marks": null,
+    "verify": null,
+    "text": "b) Rank the following typical bounds in increasing order of growth rate: O(log n), O(n4), O(1), O(n2 log n) ("
+   },
+   {
+    "label": "1.c",
+    "marks": null,
+    "verify": null,
+    "text": "c) Draw the binary search tree that results from inserting the following numbers in sequence starting with 11: 11, 47, 81, 9, 61, 10, 12, ("
+   },
+   {
+    "label": "1.d",
+    "marks": null,
+    "verify": null,
+    "text": "d) What does the following recursive function do for a given Linked List with first node as head? void fun1(struct node* head) { if(head == NULL) return; fun1(head->next); printf(\"%d \", head->data); } ("
+   },
+   {
+    "label": "1.e",
+    "marks": null,
+    "verify": null,
+    "text": "e) Define a sparse matrix. Suggest a space efficient representation for space matrices. ("
+   },
+   {
+    "label": "1.f",
+    "marks": null,
+    "verify": null,
+    "text": "f) List the advantages of doubly linked list over single linked list. ("
+   },
+   {
+    "label": "1.g",
+    "marks": null,
+    "verify": null,
+    "text": "g) Give example of one each stable and unstable sorting techniques. ("
+   },
+   {
+    "label": "1.h",
+    "marks": null,
+    "verify": null,
+    "text": "h) Write advantages of AVL tree over Binary Search Tree (BST) ("
+   },
+   {
+    "label": "1.i",
+    "marks": null,
+    "verify": null,
+    "text": "i) What is tail recursion? Explain with a suitable example. ("
+   },
+   {
+    "label": "1.j",
+    "marks": null,
+    "verify": null,
+    "text": "j) Write different representations of graphs in the memory."
+   },
+   {
+    "label": "2.a",
+    "marks": null,
+    "verify": null,
+    "text": "a) Write advantages and disadvantages of linked list over arrays. Write a 'C' function creating new linear linked list by selecting alternate elements of a linear linked list. ("
+   },
+   {
+    "label": "2.b",
+    "marks": null,
+    "verify": null,
+    "text": "b) Write algorithms of insertion sort. Implement the same on the following numbers; also calculate its time complexity. 13, 16, 10, 11, 4, 12, 6, 7 ("
+   },
+   {
+    "label": "2.c",
+    "marks": null,
+    "verify": null,
+    "text": "c) Differentiate between DFS and BFS. Draw the breadth First Tree for the above graph. ("
+   },
+   {
+    "label": "2.d",
+    "marks": null,
+    "verify": null,
+    "text": "d) Differentiate between liner and binary search algorithm. Write a recursive function to implement binary search. ("
+   },
+   {
+    "label": "2.e",
+    "marks": null,
+    "verify": null,
+    "text": "e) What is the significance of maintaining threads in Binary Search Tree? Write an algorithm to insert a node in thread binary tree."
+   },
+   {
+    "label": "3.a",
+    "marks": 10,
+    "verify": null,
+    "text": "a) Suppose a three dimensional array A is declared using A[1:10, -5:5, -10:5] (i) Find the length of each dimension and the number of elements in A (ii) Explain Row major order and Column Major Order in detail with explanation formula expression. ("
+   },
+   {
+    "label": "3.b",
+    "marks": 10,
+    "verify": null,
+    "text": "b) Discuss the representation of polynomial of single variable using linked list. Write 'C' functions to add two such polynomials represented by linked list."
+   },
+   {
+    "label": "4.a",
+    "marks": 10,
+    "verify": null,
+    "text": "a) (i) Use the merge sort algorithm to sort the following elements in ascending order. 13, 16, 10, 11, 4, 12, 6, 7. What is the time and space complexity of merge sort? (ii) Use quick sort algorithm to sort 15,22,30,10,15,64,1,3,9,2. Is it a stable sorting algorithm? Justify. ("
+   },
+   {
+    "label": "4.b",
+    "marks": 10,
+    "verify": null,
+    "text": "b) (i) The keys 12, 17, 13, 2, 5, 43, 5 and 15 are inserted into an initially empty hash table of length 15 using open addressing with hash function h(k) = k mod 10 and linear probing. What is the resultant hash table? (ii) Differentiae between linear and quadratic probing techniques."
+   },
+   {
+    "label": "5.a",
+    "marks": 10,
+    "verify": null,
+    "text": "a) Use Dijkstra’s algorithm to find the shortest paths from source to all other vertices in the following graph. ("
+   },
+   {
+    "label": "5.b",
+    "marks": 10,
+    "verify": null,
+    "text": "b) Apply Prim’s algorithm to find a minimum spanning tree in the following weighted graph as shown below."
+   },
+   {
+    "label": "6.a",
+    "marks": 10,
+    "verify": null,
+    "text": "a) (i) Write an iterative function to search a key in Binary Search Tree (BST). (ii) Discuss disadvantages of recursion with some suitable example. ("
+   },
+   {
+    "label": "6.b",
+    "marks": 10,
+    "verify": null,
+    "text": "b) (i) What is Recursion? (ii)Write a C program to calculate factorial of number using recursive and non-recursive functions."
+   },
+   {
+    "label": "7.a",
+    "marks": 10,
+    "verify": null,
+    "text": "a) (i) Why does time complexity of search operation in B-Tree is better than Binary Search Tree (BST)? (ii) Insert the following keys into an initially empty B-tree of order 5 a, g, f, b, k, d, h, m, j, e, s, i, r, x, c, l, n, t, u, p (iii) What will be the resultant B-Tree after deleting keys j, t and d in sequence? ("
+   },
+   {
+    "label": "7.b",
+    "marks": 10,
+    "verify": null,
+    "text": "b) (i) Design a method for keeping two stacks within a single linear array so that neither stack overflow until all the memory is used. (ii) Write a C program to reverse a string using stack."
+   }
+  ]
+ },
+ "btech-cs-3-sem-data-structure-using-c-ncs301-2022": {
+  "meta": {
+   "printed_containers": 7,
+   "printed_atomic": 25
+  },
+  "report": {
+   "rows_before": 7,
+   "clean_changes": [],
+   "garbled_labels": [],
+   "split_changes": [
+    {
+     "kind": "split",
+     "detail": "label 1 -> 10 sub-parts ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'] (container marks 20 off-law: NOT propagated to children)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 3 -> 2 sub-parts ['a', 'b'] (container marks 10 propagated)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 4 -> 2 sub-parts ['a', 'b'] (container marks 10 propagated)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 5 -> 2 sub-parts ['a', 'b'] (container marks 10 propagated)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 6 -> 2 sub-parts ['a', 'b'] (container marks 10 propagated)"
+    },
+    {
+     "kind": "split",
+     "detail": "label 7 -> 2 sub-parts ['a', 'b'] (container marks 10 propagated)"
+    }
+   ],
+   "demote_changes": [],
+   "label_suspects": [],
+   "rows_after": 21
+  },
+  "rows": [
+   {
+    "label": "1.a",
+    "marks": null,
+    "verify": null,
+    "text": "a) Define Data Structures and also the need of data structure. ("
+   },
+   {
+    "label": "1.b",
+    "marks": null,
+    "verify": null,
+    "text": "b) What do you mean by time space trade off? ("
+   },
+   {
+    "label": "1.c",
+    "marks": null,
+    "verify": null,
+    "text": "c) Differentiate between linked list and array. ("
+   },
+   {
+    "label": "1.d",
+    "marks": null,
+    "verify": null,
+    "text": "d) What do you mean by collision in hashing? ("
+   },
+   {
+    "label": "1.e",
+    "marks": null,
+    "verify": null,
+    "text": "e) What is the advantage of using Circular Queue over linear Queue? ("
+   },
+   {
+    "label": "1.f",
+    "marks": null,
+    "verify": null,
+    "text": "f) Define priority queue and its uses? ("
+   },
+   {
+    "label": "1.g",
+    "marks": null,
+    "verify": null,
+    "text": "g) List any two difference between graph and tree. ("
+   },
+   {
+    "label": "1.h",
+    "marks": null,
+    "verify": null,
+    "text": "h) What are the disadvantages of representing binary tree using array? ("
+   },
+   {
+    "label": "1.i",
+    "marks": null,
+    "verify": null,
+    "text": "i) What do you mean by in place sorting algorithm? ("
+   },
+   {
+    "label": "1.j",
+    "marks": null,
+    "verify": null,
+    "text": "j) List any two difference between stack and queue?"
+   },
+   {
+    "label": "2",
+    "marks": 30,
+    "verify": "printed-matched+marks-off-law",
+    "text": "(a) Explain asymptotic notations? Show relationship between f(n) and g(n) in each notation. (b) Write the push and pop functions in C simulating push and pop operations of stack implemented using an array. (c) Explain tree traversal techniques and also write algorithm of various tree traversal techniques. (d) Write algorithm of DFS. (e) Construct AVL tree with the following keys 35, 44, 80, 85, 67,89,25,16,10,14."
+   },
+   {
+    "label": "3.a",
+    "marks": 10,
+    "verify": null,
+    "text": "a) Write C functions to insert a node at the beginning and delete the last node from a doubly linked list. Also state the advantages and disadvantages of doubly linked list. ("
+   },
+   {
+    "label": "3.b",
+    "marks": 10,
+    "verify": null,
+    "text": "b) An array ARR[30][20] is stored in the memory with each element occupying 4 bytes and base address is 1000. Find out the address of the index ARR [22][15] using row major order (0 indexing is used)."
+   },
+   {
+    "label": "4.a",
+    "marks": 10,
+    "verify": null,
+    "text": "a) Convert the following infix expression into postfix expression using stack X + (Y * Z ^ D) + E / W *(F /H) ("
+   },
+   {
+    "label": "4.b",
+    "marks": 10,
+    "verify": null,
+    "text": "b) Explain circular queue and write program of enqueue and dequeue operations of circular queue?"
+   },
+   {
+    "label": "5.a",
+    "marks": 10,
+    "verify": null,
+    "text": "a) Describe Huffman algorithm with the help of example. ("
+   },
+   {
+    "label": "5.b",
+    "marks": 10,
+    "verify": null,
+    "text": "b) Construct binary tree with following traversals: Inorder: B C A E G D H F I J Preorder: A B C D E G F H I J Also find Post order traversal of it."
+   },
+   {
+    "label": "6.a",
+    "marks": 10,
+    "verify": null,
+    "text": "a) Apply Kruskal algorithm to calculate the cost of the minimum spanning tree for below graph. ("
+   },
+   {
+    "label": "6.b",
+    "marks": 10,
+    "verify": null,
+    "text": "b) Write Dijkstra algorithm for single source shortest path."
+   },
+   {
+    "label": "7.a",
+    "marks": 10,
+    "verify": null,
+    "text": "a) Write algorithm of quick sort? Trace your algorithm on the following data elements to sort the list in ascending order: 2, 16, 5, 21, 7, 57, 52, 85, 69, 1, 9, 10. ("
+   },
+   {
+    "label": "7.b",
+    "marks": 10,
+    "verify": null,
+    "text": "b) Explain hashing and various collision resolution techniques with example?"
+   }
+  ]
+ }
+}

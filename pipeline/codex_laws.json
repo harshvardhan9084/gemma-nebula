@@ -1,10 +1,14 @@
 {
   "codex": "aktu-god",
-  "version": "2026-11-24.1",
+  "version": "2026-11-24.2",
   "note": "LIVING DOCUMENT (owner 2026-11-24: every PDF teaches the pipeline). Laws are seeded from owner directives; each GOD run may APPEND evidence-backed amendments to 'learned' (never silent edits, never deletions). god_extract.py falls back to the seed values below if this file is missing/corrupt, so a law can never silently disappear.",
   "laws": {
     "marks_allowed": {
-      "value": [2, 7, 10],
+      "value": [
+        2,
+        7,
+        10
+      ],
       "source": "owner directive 2026-11-24 (god pipeline task list item 3: 'Add marks-QC law {2,7,10} to god pipeline')",
       "semantics": "per-question printed marks on AKTU B.Tech papers: 2 = Section A short-answer format, 7 = Section B/C long-answer format, 10 = long-format papers (2 x 10 = 20 style).",
       "on_violation": "row annotated verify=+marks-off-law in god6_questions; violation {label, marks} recorded in the god6_audit diff; extracted value is KEPT (never silently rewritten or dropped); 3+ identical off-law values across one run => propose a codex amendment in audit notes for owner review"
@@ -38,6 +42,12 @@
       "run": 10,
       "lesson": "TEXT LEAK + SHAPE POLICY: (a) born-digital ryzenstudy PDFs leak stray Devanagari glyphs (ea84defe row 1.c ends with 'प') - cleaner needs a Devanagari-stray rule; (b) GOD stores container-level rows with sub-parts INLINE (19 rows for ea84defe) while the questions-table shape wants one row per sub-part (Gemini Hydrogen's 22 rows) - the v7 bridge is a deterministic sub-part splitter over verified container rows, NOT a re-extraction call.",
       "evidence": "god6_questions bcs301-2024-25-ryzen-ea84defe (19 rows) vs owner-pasted Gemini output (22 rows); 22-19 = the 3 merged containers (5/6/7)"
+    },
+    {
+      "date": "2026-11-24",
+      "run": "bridge-1 (sandbox cycle 84)",
+      "lesson": "V7 BRIDGE SHIPPED (pipeline/god_bridge.py, 41/41 offline tests): deterministic sub-part splitter + stray-glyph cleaner + flag-gated section-total demotion, 0 AI calls. Validated on the real trust batch: ea84defe 19 -> 22 rows (exact match with the owner's Gemini Hydrogen calibration); universe 96 god rows -> 140 bridge rows, 20 split events. NEW SUB-LAWS proven by implementation: (1) off-law container marks are NEVER propagated to split children (section-total attribution dies at the container; value preserved in the split log + god6 marks-off-law flag); (2) space-flanked 1-2 char Devanagari runs are normal Hindi words (ka/ki/ko) and must never be stripped - only GLUED strays and ASCII-sentence-end tails are leaks; (3) garble detection (Latin-Ext/Greek inside Devanagari runs) is a per-pass FLAG, never a change entry, so bridge idempotence = no further text modifications; (4) demote runs BEFORE split; --bridge/--bridge-demote flags wired into god_extract (default OFF - next god run opts in with one flag).",
+      "evidence": "tools/test_god_bridge.py 41/41; download/god_bridge_report_20261124.json; god6_* trust batch read-only"
     }
   ]
 }

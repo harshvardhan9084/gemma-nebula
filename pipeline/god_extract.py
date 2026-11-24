@@ -762,6 +762,13 @@ def main():
     ap.add_argument('--out-dir', default='evidence/god')
     ap.add_argument('--run-id', type=int, default=0)
     ap.add_argument('--db', action='store_true')
+    ap.add_argument('--bridge', action='store_true',
+                    help='v7 bridge: clean stray glyphs + split verified '
+                         'container rows to sub-part shape (deterministic, '
+                         '0 AI calls; see pipeline/god_bridge.py)')
+    ap.add_argument('--bridge-demote', action='store_true',
+                    help='OWNER-PENDING amendment: demote section-total '
+                         'marks to honest NULL (default OFF)')
     args = ap.parse_args()
 
     rows = [json.loads(l) for l in open(args.papers_file, encoding='utf-8')
@@ -953,11 +960,36 @@ def main():
                 if bad_marks:
                     log(f'    [codex] marks off law: {bad_marks[:6]}'
                         f' ({len(bad_marks)} rows)')
+                bridge_report = None
+                if args.bridge:
+                    # v7 bridge (codex run-10 lesson): deterministic, 0 AI.
+                    # Runs AFTER verify (shape policy: GOD stores verified
+                    # containers; the bridge derives questions-table-shaped
+                    # rows) - push_god_paper then stores bridge-shape rows.
+                    try:
+                        from god_bridge import bridge as god_bridge_run
+                        qs, bridge_report = god_bridge_run(
+                            qs, allowed=marks_allowed,
+                            demote=args.bridge_demote)
+                        verify['bridge'] = {
+                            'rows': [verify.get('extracted_count'),
+                                     bridge_report['rows_after']],
+                            'splits': len(bridge_report['split_changes']),
+                            'strips': len(bridge_report['clean_changes']),
+                            'garbled': len(bridge_report['garbled_labels']),
+                            'demoted': len(bridge_report['demote_changes']),
+                            'mislabels': len(bridge_report['label_suspects'])}
+                        log(f'    [bridge] {verify["bridge"]}')
+                    except Exception as e:
+                        log(f'    [bridge] FAILED ({type(e).__name__}: '
+                            f'{str(e)[:100]}) - unbridged rows kept')
                 if sb:
                     try:
+                        notes = (f"{PROMPT_VERSION} codex={codex.get('version', '?')}"
+                                 + (f" bridge={json.dumps(verify['bridge'])}"
+                                    if args.bridge and verify.get('bridge') else ''))
                         push_audit(sb, row, args.run_id, args.shard, row['attempts'],
-                                   verdict, verify, real_calls(),
-                                   f"{PROMPT_VERSION} codex={codex.get('version', '?')}")
+                                   verdict, verify, real_calls(), notes)
                     except Exception as e:
                         log(f'    [db] audit failed: {str(e)[:120]}')
                 if verdict in ('gold', 'review-weakref', 'review-diff', 'review-ref'):
