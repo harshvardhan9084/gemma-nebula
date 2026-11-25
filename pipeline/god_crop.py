@@ -139,6 +139,7 @@ def main():
             scoreboard['calls'] = router.sends
             if not ai:
                 raise RuntimeError('ai-fail')
+            dbg_now = False  # logged after the group is processed
             if not (ai.get('bboxes') or []):
                 log(f'    [debug] raw ai head: '
                     f"{json.dumps(ai, ensure_ascii=False)[:400]}")
@@ -170,7 +171,9 @@ def main():
                     iobuf = io.BytesIO()
                     crop.save(iobuf, 'PNG')
                 qid8 = r['qid'][:8]
-                local = f'evidence/god/crops/{stem[:90]}/q_{qid8}_p{page}.png'
+                dirkey = re.sub(r'[^A-Za-z0-9._-]+', '-', stem)[:60]
+                local = (f'evidence/god/crops/{dirkey}'
+                         f'/q_{qid8}_p{page}.png')
                 os.makedirs(os.path.dirname(local), exist_ok=True)
                 open(local, 'wb').write(iobuf.getvalue())
                 new_url = None
@@ -194,6 +197,8 @@ def main():
             miss = len(grp) - found
             if miss:
                 scoreboard['kept_old'] += miss
+                log(f'    [debug] raw ai head: '
+                    f"{json.dumps(ai, ensure_ascii=False)[:400]}")
             log(f'  [{gi}/{len(glist)}] {stem[:50]} p{page}: '
                 f'{found}/{len(grp)} cropped')
         except Exception as e:
@@ -201,7 +206,8 @@ def main():
             scoreboard['kept_old'] += len(grp)
             log(f'  [{gi}/{len(glist)}] {stem[:50]} p{page}: FAIL '
                 f'{type(e).__name__}: {e}')
-            ev.write(json.dumps({'stem': stem[:90], 'page': page,
+            ev.write(json.dumps({'stem': re.sub(r'[^A-Za-z0-9._-]+', '-', stem)[:80],
+                                 'page': page,
                                  'error': f'{type(e).__name__}: {e}'}) + '\n')
         ev.flush()
 
