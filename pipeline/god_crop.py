@@ -133,67 +133,107 @@ def main():
             img_parts = v6.render_page_jpegs(cache_pdf, [page])
             if not img_parts:
                 raise RuntimeError('render_page_jpegs-fail')
-            parts = [{'text': f'{BBOX_RULES}\nPAGE {page}.\nQUESTIONS:\n{tagline}'}]
-            parts.extend(img_parts)
-            ai = router.call_crop(parts, BBOX_SCHEMA)
+            def ask_for(pg_no, img_parts, rows_subset):
+                tagl = '\n'.join(
+                    f"- q{r['qid'][:8]}: "
+                    + ' '.join((r.get('stem') or '')[:150].split())
+                    for r in rows_subset)
+                p = [{'text': f'{BBOX_RULES}\nPAGE {pg_no}.\n'
+                              f'QUESTIONS:\n{tagl}'}]
+                p.extend(img_parts)
+                return router.call_crop(p, BBOX_SCHEMA)
+
+            ai = ask_for(page, img_parts, grp)
             scoreboard['calls'] = router.sends
             if not ai:
                 raise RuntimeError('ai-fail')
-            dbg_now = False  # logged after the group is processed
             if not (ai.get('bboxes') or []):
                 log(f'    [debug] raw ai head: '
                     f"{json.dumps(ai, ensure_ascii=False)[:400]}")
             found = 0
-            W, H = img.size
-            for b in ai.get('bboxes') or []:
-                tag = str(b.get('qid') or '')
-                r = tagbase.get(tag)
-                if not r or not b.get('found'):
-                    continue
-                bb = b.get('bbox') or []
-                if len(bb) != 4:
-                    continue
-                try:
-                    x0, y0, x1, y1 = [max(0, min(1000, int(v))) for v in bb]
-                except Exception:
-                    continue
-                x0, x1 = sorted((x0, x1))
-                y0, y1 = sorted((y0, y1))
-                box = (int(x0 / 1000 * W), int(y0 / 1000 * H),
-                       min(W, max(int(x1 / 1000 * W), int(x0 / 1000 * W) + 40)),
-                       min(H, max(int(y1 / 1000 * H), int(y0 / 1000 * H) + 40)))
-                crop = img.crop(box)
-                iobuf = io.BytesIO()
-                crop.save(iobuf, 'PNG')
-                if len(iobuf.getvalue()) > 4_800_000:
-                    crop = crop.resize((max(1, crop.width // 2),
-                                        max(1, crop.height // 2)))
+            done = set()
+
+            def apply_bboxes(resp, page_used, img_p, rows_map):
+                nonlocal found
+                W, H = img_p.size
+                for b in (resp.get('bboxes') or []):
+                    tag = str(b.get('qid') or '')
+                    r = rows_map.get(tag)
+                    if not r or tag in done or not b.get('found'):
+                        continue
+                    bb = b.get('bbox') or []
+                    if len(bb) != 4:
+                        continue
+                    try:
+                        x0, y0, x1, y1 = [max(0, min(1000, int(v))) for v in bb]
+                    except Exception:
+                        continue
+                    x0, x1 = sorted((x0, x1))
+                    y0, y1 = sorted((y0, y1))
+                    box = (int(x0 / 1000 * W), int(y0 / 1000 * H),
+                           min(W, max(int(x1 / 1000 * W),
+                                      int(x0 / 1000 * W) + 40)),
+                           min(H, max(int(y1 / 1000 * H),
+                                      int(y0 / 1000 * H) + 40)))
+                    crop = img_p.crop(box)
                     iobuf = io.BytesIO()
                     crop.save(iobuf, 'PNG')
-                qid8 = r['qid'][:8]
-                dirkey = re.sub(r'[^A-Za-z0-9._-]+', '-', stem)[:60]
-                local = (f'evidence/god/crops/{dirkey}'
-                         f'/q_{qid8}_p{page}.png')
-                os.makedirs(os.path.dirname(local), exist_ok=True)
-                open(local, 'wb').write(iobuf.getvalue())
-                new_url = None
-                if sb:
-                    obj_stem = re.sub(r'[^A-Za-z0-9._-]+', '-', stem)[:70]
-                    obj = f'crops-20261126/{obj_stem}/q_{qid8}_p{page}.png'
-                    new_url = sb.upload_diagram('god-diagrams', obj, local)
-                found += 1
-                patched = False
-                if sb and new_url:
-                    sb.patch('god6_questions',
-                             {'id': f'eq.{r["qid"]}'},
-                             {'diagram_url': new_url})
-                    patched = True
-                    scoreboard['patched'] += 1
-                ev.write(json.dumps({'qid': r['qid'], 'stem': stem[:90],
-                                     'page': page, 'bbox_norm': bb,
-                                     'upload': new_url,
-                                     'patched': patched}) + '\n')
-                scoreboard['cropped'] += 1
+                    if len(iobuf.getvalue()) > 4_800_000:
+                        crop = crop.resize((max(1, crop.width // 2),
+                                            max(1, crop.height // 2)))
+                        iobuf = io.BytesIO()
+                        crop.save(iobuf, 'PNG')
+                    qid8 = r['qid'][:8]
+                    dirkey = re.sub(r'[^A-Za-z0-9._-]+', '-', stem)[:60]
+                    local = (f'evidence/god/crops/{dirkey}'
+                             f'/q_{qid8}_p{page_used}.png')
+                    os.makedirs(os.path.dirname(local), exist_ok=True)
+                    open(local, 'wb').write(iobuf.getvalue())
+                    new_url = None
+                    if sb:
+                        obj_stem = re.sub(r'[^A-Za-z0-9._-]+', '-', stem)[:70]
+                        obj = (f'crops-20261126/{obj_stem}'
+                               f'/q_{qid8}_p{page_used}.png')
+                        new_url = sb.upload_diagram('god-diagrams', obj, local)
+                    found += 1
+                    done.add(tag)
+                    patched = False
+                    if sb and new_url:
+                        sb.patch('god6_questions',
+                                 {'id': f'eq.{r["qid"]}'},
+                                 {'diagram_url': new_url})
+                        patched = True
+                        scoreboard['patched'] += 1
+                    ev.write(json.dumps({'qid': r['qid'],
+                                         'stem': re.sub(r'[^A-Za-z0-9._-]+',
+                                                        '-', stem)[:80],
+                                         'page': page_used, 'bbox_norm': bb,
+                                         'upload': new_url,
+                                         'patched': patched}) + '\n')
+
+            apply_bboxes(ai, page, img, tagbase)
+
+            # second chance: figure printed on the FOLLOWING page (common
+            # layout: question text ends at page bottom, figure on next page)
+            try:
+                import pypdfium2 as _pf
+                _doc = _pf.PdfDocument(cache_pdf)
+                n_pages = len(_doc)
+                _doc.close()
+            except Exception:
+                n_pages = 0
+            missing = [r for r in grp if f'q{r["qid"][:8]}' not in done]
+            if missing and n_pages >= page + 1:
+                imgs2 = g.render_pages_pil(cache_pdf, [page + 1], scale=2.0)
+                iparts2 = v6.render_page_jpegs(cache_pdf, [page + 1])
+                img2 = imgs2.get(page + 1)
+                if img2 is not None and iparts2:
+                    ai2 = ask_for(page + 1, iparts2, missing)
+                    if ai2:
+                        apply_bboxes(ai2, page + 1, img2, tagbase)
+                        log(f'    [next-page] {len(done)} total after retry')
+
+            scoreboard['cropped'] = scoreboard.get('cropped', 0) + found
             miss = len(grp) - found
             if miss:
                 scoreboard['kept_old'] += miss
