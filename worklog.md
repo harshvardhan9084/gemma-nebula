@@ -1,4 +1,177 @@
 ---
+Task ID: CRON-V6-20261125-cycle87
+Agent: Super Z (scheduled fire, job 535407, standing order v4)
+
+# V6 cron cycle #87 — 2026-11-25 (external audit verdicts + fixes)
+
+## Context
+Owner brought an external audit with 4 "hard truths". Verified every claim
+against the DB, then fixed what was fixable. IMPORTANT: a PARALLEL SESSION
+(owner's other AI) was writing the same DB during this cycle (writes
+08:32-08:46 +08: deleted 114 security rows from BCC302, extracted 110 new
+questions from textless papers, rebuilt god6_repeats with n_exams/max_year/
+proven columns [418 rows], set papers.status offtopic/no-text + gold on 51
+papers). This cycle deliberately did NOT touch that work; only orthogonal
+fixes were applied.
+
+## Claim verdicts
+1. Python contamination (KNC301/KNC401 = Computer System Security) — TRUE
+   (slugs confirm all 13 papers). ALREADY FIXED by the parallel session
+   (BCC302 342->228 clean rows; papers offtopic). Security questions
+   preserved in download/god6_backup_20261125/ (pre-parallel snapshot).
+   KNC302 (5 papers) is genuine Python, stays BCC302.
+2. Repeat honesty (most clusters single-year) — TRUE in direction. Parallel
+   rebuild now has honest metrics: 418 clusters, 105 proven (n_years>=2 AND
+   recent). More than the audit's 68 estimate thanks to new extractions.
+3. 263 diagram questions unanswerable — TRUE, NOT FIXED. pdf_cache doesn't
+   cover god6 stems (it's the old bpharm cache). NEXT CYCLE: PDF page-locate
+   stage -> diagram_url = <pdf-url>#page=N.
+4. Mojibake — TRUE but smaller than claimed (60 texts + 3 labels, not 39/7).
+   FIXED THIS CYCLE (58/60): algebra-confirmed glyph map (െ->-, ൅->+, ൌ->=,
+   ሺሻ->(), ᇱ->', ௫->x, ݐܽ݊->tan, ׬->integral, డ->partial, Odia digits ->
+   superscripts), pass-2 text-only updates for hash-stable rows, hashes
+   recomputed on 42, occurrences synced, repeats member_hashes rebuilt on all
+   418, 60 rows re-embedded. 2 bidi-scrambled rows (Runge-Kutta / Labatto)
+   deliberately NOT guessed -> needs_review=true. needs_review 57 -> 100.
+5. Status/gold — audit partially stale: offtopic 13 / no-text 12 / complete
+   184; gold filled on 51/209 by parallel session; 158 remain.
+
+## State after this cycle
+questions 2,439 (6 codes, all embedded) | occurrences 3,300 | repeats 418
+(105 proven) | 0 broken refs, 0 (code,hash) dupes, needs_review 100,
+mojibake 2 (flagged). Snapshots: god6_backup_20261125 (pre-parallel, has
+security rows) + god6_backup_20261125_postfix (current).
+
+## Coordination warning
+Two agents are now fixing the same DB. Do not run overlapping fix passes;
+next agent work should start from the postfix snapshot and this entry.
+---
+Task ID: CRON-V6-20261125-cycle86
+Agent: Super Z (scheduled fire, job 535407, standing order v4)
+
+# V6 cron cycle #86 — 2026-11-25 08:30 (god6 column completeness audit)
+
+## What ran this cycle
+1. PAT re-verified (GitHub API OK, login harshvardhan9084).
+2. Health unchanged: questions 2,443 / codes 6 / embedded 2,443 /
+   occurrences 3,477 / repeats 821.
+3. **Column completeness audit** (first full pass over the 20-column schema):
+     marks 98.0% | question_type 99.9% | language 100% (all 'en')
+     unit 43.1% | unit_topic 64.1%  <- raw-paradigm limitation (AI asked for
+     unit only when printed; old papers rarely show it). unit is NOT part of
+     the needs_review rule (extractor line 199: conf<0.6 / marks-null /
+     type-null / text<15) -> 1,390 unit-null rows are NOT review flags.
+     needs_review queue = 57 rows (2.3%).
+     choice_group 1,496 rows | parent_id 506 rows (115 groups, sizes 1-10).
+4. **Semantics clarified (by design, no bug)**:
+     parent_id = uuid5(code|parent|paper_pid|label) = GROUPING KEY linking
+     sub-parts of the same numbered question; parent container rows were
+     never inserted, so parent_id is not an FK. It works as an equality-join
+     key for sub-parts (a)(b)(c)... Histogram confirms coherent groups.
+5. **Fix applied**: 9 singleton choice_group labels nulled (labels with no
+   surviving siblings carry no grouping value). Invariant now enforced:
+   choice_group non-null => >=2 siblings. Choice rows 1,505 -> 1,496.
+6. **Diagram gap quantified (future work, report-only)**:
+   has_diagram = 263 rows (BCS301 119, BCS303 71, BCS302 64, BCC302 4,
+   BAS303 3, BAS301 2), diagram_kind set (asks|figure), but diagram_url is
+   0/263 filled — the raw paradigm has no crop stage. Filling diagram_url
+   needs a PDF figure-crop stage (like production's, 309/210k there).
+7. All core invariants re-verified after fix: 0 same-subject dup hashes,
+   0 broken rep_question_id, embeddings intact.
+
+## Verdict
+GOD6-COLUMN-AUDIT-DONE. One tiny cleanup (9 dead labels). Remaining owner
+decisions: (a) repeats view n_papers>=2 filter; (b) handover/teaching session
+(V110-15AST feasibility) — still gated on owner "not yet"; (c) diagram crop
+stage as a future pipeline phase.
+---
+Task ID: CRON-V6-20261125-cycle85
+Agent: Super Z (scheduled fire, job 535407, standing order v4)
+
+# V6 cron cycle #85 — 2026-11-25 05:30 (god6 phase-3 audit #2)
+
+## What ran this cycle
+1. PAT re-verified (same token, GitHub API OK, login harshvardhan9084).
+2. Health check: tables unchanged since cycle #84
+   (questions 2,443 / codes 6 / embedded 2,443 / occurrences 3,477 / repeats 821).
+3. **Semantic repeat precision audit**: sampled the 8 largest semantic
+   clusters — 8/8 are genuine paraphrase families (Prim's MST x7, priority
+   queue x6, binary-tree-from-traversals x6, G={1,-1,i,-i} algebra x3,
+   async strobe/handshaking x3, Floyd-Warshall x3, null hypothesis x3,
+   logical-equivalence proof x3). Cosine>=0.92 threshold confirmed working.
+4. **Product readiness per subject** (share of questions belonging to a
+   repeat cluster with n_papers>=2):
+     BAS301 TC   69.8% (157/225)
+     BCC302 PY   67.3% (230/342)
+     BCS302 COA  40.6% (123/303)
+     BCS301 DS   29.1% (186/639)
+     BCS303 DSTL 25.7% (146/568)
+     BAS303 M4   23.0% (84/366)
+   -> TC and Python are the most repetitive subjects; Maths-IV least.
+5. **Cross-subject hash twins (28)** verified sensible: DS x COA share
+   Floyd-Warshall / Heap Sort / Hashing / infix-postfix questions; DS x DSTL
+   share group theory ("Define normal subgroup") — old-scheme overlaps, kept.
+6. **Safety snapshot** (post-phase-3 final state) ->
+   download/god6_backup_20261125/ (5 tables, JSONL.gz + MANIFEST.json;
+   embeddings excluded, recomputable in ~2 min).
+
+## Verdict
+GOD6-PHASE3-STABLE. Zero data drift vs cycle #84. No owner input required.
+Awaiting owner: (a) filter repeats view to n_papers>=2? (b) handover/teaching
+session (V110-15AST feasibility + pipeline walkthrough) — owner said not yet.
+---
+Task ID: CRON-V6-20261125-cycle84
+Agent: Super Z (scheduled fire, job 535407, standing order v4)
+
+# V6 cron cycle #84 — 2026-11-25 (god6 v2/v3 phase audit + dispatch)
+
+## What ran this cycle
+Owner order executed (carried from 2026-11-24 session, completed + audited now):
+1. **PAT updated** -> `.secrets/gh_pat.txt`, verified via GitHub API (login harshvardhan9084).
+2. **Canonical wrap**: all 29 historical codes -> 6 canonical codes in RAW project
+   (DS->BCS301 Data Structure, COA->BCS302 COA, DSTL->BCS303 DSTL,
+   TC->BAS301 Technical Communication, MATHS4->BAS303 Mathematics-IV,
+   PYTHON->BCC302 Python Programming). Mapping validated against
+   `download/subject_directory_20261121.csv` (AktuOnline scrape).
+   Collapse: 2,854 inserted rows -> 2,443 survivors (411 cross-code dups dropped,
+   best row kept); 885 within-code dups were already skipped at insert time.
+   0 same-subject duplicate hashes remain.
+3. **Embeddings**: all-MiniLM-L6-v2 (fastembed, 384-dim, local, 0 API cost)
+   -> `god6_questions.embedding` filled 2,443/2,443.
+4. **god6_occurrences** (RAW): 3,477 (question x paper) sightings rebuilt with
+   ZERO AI calls by normalized containment + long-question fuzzy fallback
+   (exact=3,210 / fuzzy=267); 157 papers have >=1 sighting.
+5. **god6_repeats** (RAW): 821 clusters
+   (exact = question seen in >=2 papers; semantic = >=2 question rows with
+   cosine >= 0.92), importance = n_papers + 0.25*n_years. Top repeat:
+   "Define priority queue." (BCS301) seen in 9 papers across 7 years (2007-2024).
+
+## Audit verdicts (this cycle, read-only scripts god6_v3_*.py)
+- hash twins: 28 hashes in >1 subject, 0 same-subject dups -> collapse CLEAN.
+- round-trip: 130/131 papers with n_inserted>0 verify back into their raw txt.
+- benign anomaly: btech-cs-5-sem-discrete-structure-cs-504-2003 (DSTL, 2002-03):
+  its 23 rows were cross-code dups deleted by the collapse; surviving twin rows
+  (same hash) have AI-cleaned text that does not containment-match this paper's
+  older OCR wording -> 0 sightings, no data loss, noted for honest reporting.
+- 298/2,443 questions (12.2%) have 0 sightings: 177 are choice_group sub-rows
+  or short questions (fuzzy guard off by design to avoid prefix false-positives),
+  rest are AI-cleanup mismatches on scan-era papers. Accepted limitation.
+- repeats: 791/821 have n_papers>=2; 30 low-importance semantic rows are
+  intra-paper paraphrase variants (identifiable by n_papers<2, importance<=1.25).
+- referential integrity: 0 broken rep_question_id, 0 member-count mismatches.
+
+## Tables in RAW project (final state)
+- god6_papers: 209 (29 printed codes, group->canonical documented)
+- god6_questions: 2,443 unique questions / 6 canonical codes / embeddings 384-d
+- god6_occurrences: 3,477 sightings
+- god6_repeats: 821 repeat clusters
+- god6_audit: extraction ledger (run_id=8)
+
+## Next owner decisions open
+- 4GB V110-15AST multi-day feasibility + full pipeline handover walkthrough
+  (owner said "but not yet" — queued right after god6).
+- Whether to filter god6_repeats to n_papers>=2 as the "final" product view.
+---
 Task ID: OWNER-GOD6-20261123
 Agent: Super Z (owner session 2026-11-23 ~07:30-13:30Z, direct chat)
 Task: OWNER ORDER - isolated GOD-level tables for 6 exam subjects, new pipeline built from scratch ("no compromise, no quantity-over-quality excuse; cross-verify every result; run-observe-iterate").
