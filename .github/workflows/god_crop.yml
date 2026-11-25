@@ -20,6 +20,9 @@ on:
         description: 'min seconds between sends (pace law)'
         default: '2'
 
+permissions:
+  contents: write
+
 concurrency:
   group: god-crop
   cancel-in-progress: false

@@ -139,6 +139,9 @@ def main():
             scoreboard['calls'] = router.sends
             if not ai:
                 raise RuntimeError('ai-fail')
+            if not (ai.get('bboxes') or []):
+                log(f'    [debug] raw ai head: '
+                    f"{json.dumps(ai, ensure_ascii=False)[:400]}")
             found = 0
             W, H = img.size
             for b in ai.get('bboxes') or []:
