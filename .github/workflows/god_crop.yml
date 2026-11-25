@@ -1,0 +1,96 @@
+name: GOD crop (diagram bbox -> PNG -> god-diagrams bucket -> row URL)
+
+# Crop-only stage for god6 has_diagram rows (cycle #89 2026-11-26).
+# Dispatch-only: no schedule, no auto-retry. One call per (pdf, page) group;
+# never downgrades an existing diagram_url (old #page anchor kept on failure).
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_file:
+        description: 'committed manifest (JSON: qid,code,stem,url,page)'
+        default: 'pipeline/god_lists/crop_manifest_20261126.json'
+      limit:
+        description: 'max (url,page) groups this run (0=all)'
+        default: '0'
+      max_calls:
+        description: 'whole-run vision send budget (RPD-law slice)'
+        default: '300'
+      min_interval_s:
+        description: 'min seconds between sends (pace law)'
+        default: '2'
+
+concurrency:
+  group: god-crop
+  cancel-in-progress: false
+
+jobs:
+  crop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Preflight secrets
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "::error::Secrets missing: SUPABASE_URL, SUPABASE_SERVICE_KEY, GEMMA_API_KEYS."
+            exit 1
+          fi
+
+      - name: GOD crop
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GEMMA_API_KEYS: ${{ secrets.GEMMA_API_KEYS }}
+          GEMMA_FALLBACK_MODELS: "gemini-3.1-flash-lite,gemini-3.5-flash-lite,gemma-4-31b-it,gemma-4-26b-a4b-it"
+        run: |
+          set -x
+          python3 pipeline/god_crop.py \
+            --input "${{ github.event.inputs.input_file }}" \
+            --limit "${{ github.event.inputs.limit || '0' }}" \
+            --max-calls "${{ github.event.inputs.max_calls || '300' }}" \
+            --min-interval "${{ github.event.inputs.min_interval_s || '2' }}" \
+            --db
+
+      - name: Upload evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: god-crop-evidence
+          path: evidence/god/crops/
+          retention-days: 30
+
+  gather:
+    needs: crop
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout evidence branch
+        uses: actions/checkout@v4
+        with:
+          ref: god-evidence
+      - name: Download crop evidence
+        uses: actions/download-artifact@v4
+        with:
+          name: god-crop-evidence
+          path: crops-run/
+      - name: Commit evidence to god-evidence
+        run: |
+          mkdir -p crops/20261126
+          cp -r crops-run/* crops/20261126/ 2>/dev/null || true
+          git config user.name "god-crop bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add crops/20261126 || true
+          git commit -q -m "crop evidence run ${{ github.run_number }} (scoreboard + pngs + jsonl)" || echo "nothing to commit"
+          git push -q origin god-evidence
