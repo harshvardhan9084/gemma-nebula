@@ -1,4 +1,51 @@
 ---
+Task ID: CRON-V6-20261126-cycle88
+Agent: Super Z (scheduled fire 2026-11-25 18:30Z = 02:00 IST, job 535407; standing order v4)
+
+# V6 cron cycle #88 — 2026-11-26 02:30 IST (PAT swap + T3 diagram page-locate DONE)
+
+## What ran this cycle
+1. **PAT rotated** -> `.secrets/gh_pat.txt` + repo_b remote URL; verified via
+   GitHub API (200, login harshvardhan9084). The old token had been dead since
+   2026-11-23 (cycle #84 blocker) — every push since then silently failed.
+2. **Worklog debt repaired**: cycles 84-87 entries existed only as local files;
+   repo_b remote was stuck at the cycle-72 era commit. FF-pulled repo_b to
+   origin (88fc2f1, includes owner session's v7-bridge work), prepended
+   CRON-V6-20261125-cycle84..87 with Task ID blocks, pushed (d823e23).
+3. **T3 diagram fix (the cycle-87 deferred promise) EXECUTED END-TO-END**:
+   - Truth found: 275 has_diagram questions; 236 had "diagram_url" that were
+     DEAD links (aktuonline .html pages now 302 -> pyqonline.com homepage);
+     39 had no url at all; 32 of those are zero-occurrence rows; all 10
+     parent_id links among them are DANGEROUS ghosts (parent rows deleted).
+   - Sources proved live: aktuonline /papers/<stem>.pdf route (200, %PDF),
+     ryzenstudy /uploads/*.pdf manifest (direct), drive uc?export=download.
+   - Attribution: 243 via occurrences, 31 fuzzy text-match vs god6_raw_txt
+     (>=0.75 word score, flagged needs_review), 1 none.
+   - 69 papers' PDFs fetched to download/god6_pdf_cache/ (11.6MB-class);
+     per-page pypdf extraction; stem anchored by 60-char containment or
+     >=0.75 word score.
+   - WROTE: 275/275 rows updated in one transaction. Result: 257 anchored
+     (<pdf-url>#page=N), 17 bare live-pdf links, 1 unresolved (flagged).
+   - **VERIFY 2x**: verify2 re-downloaded the exact anchored URL per row and
+     confirmed the stem on the anchored page: **257/257 good, 0 bad**.
+   - Papers hygiene: 151 god6_papers.storage_url .html -> live .pdf twins;
+     zero .html links remain in questions or papers.
+   - needs_review 100 -> 136 (+31 fuzzy attribution, +bare/unresolved flags;
+     OR-only, nothing unset).
+4. **Snapshots pair**: god6_backup_20261126_prediagram + _postfix
+   (questions/papers/occurrences/repeats; embedding stubbed EMB).
+
+## State after this cycle
+questions 2,439 (embedded 2,439) | occurrences 3,300 | repeats 418 |
+papers 209 | diagram: 275 flag-rows -> 257 anchored + 17 bare +
+1 empty | needs_review 41 | 0 dead links.
+
+## Coordination
+Parallel session last wrote god6 2026-11-25 16:01Z (cycle-87's own writes);
+no collision this cycle. pdf_cache for god6 stems now exists
+(download/god6_pdf_cache/, 69 papers) — future crop stage (bbox PNG ->
+god-diagrams bucket) can reuse it.
+---
 Task ID: CRON-V6-20261125-cycle87
 Agent: Super Z (scheduled fire, job 535407, standing order v4)
 
