@@ -1,4 +1,50 @@
 ---
+Task ID: CRON-V6-20261126-cycle89
+Agent: Super Z (scheduled fire 2026-11-25 21:30Z = 05:00 IST, job 535407; standing order v4)
+
+# V6 cron cycle #89 — 2026-11-26 05:30 (+08) (crop stage: bbox -> PNG -> bucket -> row)
+
+## What ran this cycle
+1. PAT re-verified (same token, API 200). Deps reinstalled (sandbox recycle).
+2. SANDBOX-RECYCLE DESYNC ROOT-CAUSED: repo_b had rolled back to an old
+   snapshot (43 commits behind + remote URL reverted to a DEAD old token ->
+   push 401 while API 200). Fixed by re-setting the remote URL token; FF-pull
+   to origin (b86c2f0). LAW for every future cycle: after recycle, re-verify
+   .secrets/gh_pat.txt AND repo_b remote URL before any push.
+3. **DIAGRAM CROP STAGE SHIPPED END-TO-END (T3 completion)**:
+   - Scope truth: of 275 has_diagram rows only 59 are diagram_kind='figure'
+     (printed figure worth cropping); 198 are 'asks' (student-draw questions -
+     nothing printed to crop; their #page anchors are the correct artifact).
+   - New tool pipeline/god_crop.py + .github/workflows/god_crop.yml
+     (dispatch-only, no schedule; budget + pace law; exit-0 evidence law;
+     never downgrades an existing diagram_url). Mirrored to main for
+     dispatch registration.
+   - Smoke iterations (3 dispatches): v1 caught 'asks' rows (model correctly
+     refuses), v2 figure-only manifest + gather permissions, v3 evidence-path
+     sanitization (question text contains ':' -> artifact step rejects),
+     v4 ask_for/apply_bboxes helpers + NEXT-PAGE retry (figure printed on the
+     page AFTER the stem page).
+   - FULL RUN 45707940746: 41 groups, 47 wrapper sends, **52 cropped +
+     patched, 7 kept page-anchor, 0 fails**, gather green (evidence on
+     god-evidence branch, crops-20261126/).
+   - DB end state: 275 = **52 bucket crops (live, GET 200 PNG verified)**
+     + 205 #page-anchored + 17 bare live-pdf + 1 flagged. Zero dead links.
+   - rpd booked: 56 today (47 full + 9 smokes) - conservative floor
+     (wrapper sends; ladder internals not itemized).
+4. Worklog pushed each step (crop stage commits 9f..., v2-v4; cycle entry).
+
+## State after this cycle
+questions 2,439 (embedded 2,439) | occurrences 3,300 | repeats 418 |
+diagram: 52 crops + 205 anchored + 17 bare + 1 flagged | needs_review ~136 |
+snapshots: god6_backup_20261126_{pre,post}fix (cycle 88) - crop patches are
+additive URL upgrades on top.
+
+## NEXT (candidate, not committed)
+- 1 empty + 17 bare rows: manual resolve (drive papers page-locate retry).
+- 'asks' rows: page anchors serve; crop adds nothing (by design).
+- god_extract.yml remains untouched - extraction cadence still gated
+  (owner-rule CAMPAIGN gate holds; no dispatches made).
+---
 Task ID: CRON-V6-20261126-cycle88
 Agent: Super Z (scheduled fire 2026-11-25 18:30Z = 02:00 IST, job 535407; standing order v4)
 
