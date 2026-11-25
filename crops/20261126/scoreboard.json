@@ -1,8 +1,8 @@
 {
- "groups": 3,
- "calls": 3,
- "cropped": 1,
- "patched": 1,
- "kept_old": 2,
+ "groups": 41,
+ "calls": 47,
+ "cropped": 52,
+ "patched": 52,
+ "kept_old": 7,
  "fail": 0
 }
