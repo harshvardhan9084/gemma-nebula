@@ -1914,3 +1914,13 @@ Work Log:
 - VERIFY3 independent from-DB: 18/18 GOOD 0 bad (8 ladder 1.0; min 0.60); live GET 12/12 base urls 206. END STATE: 275 = 223 anchored + 52 crops + 0 bare + 0 empty + 0 dead. T3 fully closed.
 - FLAG: 3 god6_papers.storage_url are ryzenstudy /papers/<stem> HTML landing pages (aktu-btech-sem-3-data-structure-2023-24/2024-25/2025-26) - mechanical fix candidate; 24 fuzzy diagram rows remain honestly flagged.
 - LAWS INTACT: no dispatch, no AI calls (quota-day 56/5,700 unchanged), crop/anchored rows untouched, never-downgrade held, no secrets printed or committed.
+
+## CRON-V6-20261126-cycle91: repo hygiene gold-plated — 31 ryzenstudy landing pages -> live PDF uploads; needs_review census
+2026-11-26 (continuation fire, job 535407). Owner: "YOU CONTINUE TO MAKE IT ALL GOLD" (prior session glitched mid-cycle after the #90 push).
+- POST-RECYCLE LAW applied: PAT file = owner token (API 200 harshvardhan9084); repo_b remote URL token had reverted stale -> re-credentialed; local FF 355a890 -> origin ff5e35e; worklog chain cycle84..90 confirmed on origin (d823e23, b86c2f0, 2acc692, ff5e35e).
+- CYCLE90 FLAG CORRECTED: 31 (not 3) god6_papers rows carried ryzenstudy /papers/<stem> HTML landing pages (BAS301/303/401/403, BCC302/402, BCS301/302/303, KAS402, KNC301/401, 2021-22..2025-26); +'.pdf' suffix 404s - real PDFs live in each page's /uploads/*.pdf href.
+- FIX (0 AI, deterministic): fetch page -> extract pdf href -> 200 + %PDF magic verify -> 1-transaction UPDATE 31 rows; POST-COMMIT VERIFY re-read DB 31/31 live-PDF 0 bad; rollback evidence scripts/out/c91_ryzen_fix.json (old_url per row). Two pre-write probe bugs caught and fixed (4KB read cap false-negatives; missing results append) - DB untouched until corrected run.
+- STORAGE_URL CENSUS: 209/209 non-empty = 182 direct .pdf (aktuonline 151 + ryzenstudy 31) + 27 drive uc?export (by design); 0 html, 0 landing, 0 empty.
+- NEEDS_REVIEW CENSUS (129 by cause): marks-null 44, diagram-fuzzy 34, other 32, unit-null 19 | by subject BCS301 55, BCS303 35, BAS303 30, BCS302 7, BAS301 1, BCC302 1 (scripts/out/c91_verify_census.json).
+- LAWS INTACT: no dispatch, 0 AI calls (rpd 56/5,700 unchanged), diagram rows untouched, never-downgrade held, no blind re-shot, no secrets printed or committed.
+- NEXT candidates: drive-link health pass (27), 24 honest fuzzy flags stay, god_extract cadence owner-gated.
