@@ -1934,3 +1934,12 @@ Work Log:
 - AUDIT: 2,439 q | 3,300 occ | 418 rep | needs_review 129 | diagram 275 = 223 anchored + 52 crops + 0 empty + 0 other; GHA quiet since 11-25 crop run; cadence gate holds; 0 AI (rpd 56/5,700).
 - LAWS INTACT: no dispatch, no blind re-shot, no AI calls, diagram/content rows untouched, no secrets printed or committed.
 - NEXT candidates: needs_review 129 triage (owner-gated AI), unit/unit_topic enrichment, extraction cadence owner-gated.
+
+## OWNER-V6-20261127-cycle93: god6_repeats repaired 418/418 live + god6_papers codes 29->6 with real_code
+2026-11-27 (owner session). Orders: (1) audit+complete every god6_repeats row (missing equations/diagrams/text; n_papers=0 but n_questions=2); (2) god6_papers codes -> the 6 canonical, exact code into new real_code column.
+- REPEATS ROOT CAUSE: 11-25 T2 rebuild member_ids died when god6_questions rows were re-created (hashes survived, uuids changed); all 418 rows carried dead member arrays (app shows blank text/diagram), 22 rows stale n_papers=0; reps alive, member_hashes relink 418/418.
+- REPAIR (1 txn, 0 AI, deterministic): member_ids = hashes x live questions subject-filtered; aggregates recomputed per T2 v2 formulas (n_papers=stems, n_exams=distinct (printed_code,year)+stem-fallback, proven=exams>=2 & years>=2 & max>=2020, importance=exams+0.25*years); rep minimal-change -> 13 upgrades (10 short-content/missing-equations, 3 missing-family-diagram); labels=rep text[:240] 100%. VERIFY: 418/418 live, 0 dead refs, 0 diagram gaps, proven 105; occurrences 3300/3300 live-ids (0 re-pointable).
+- 22 np0 rows = HONEST: no occurrence evidence anywhere for those families (documented gap class, cf. orphan c35b4740); NOT fabricated; evidence-hunt queued as candidate.
+- PAPERS: 11-24 wrap canonicalized questions only; papers kept 29 codes. Applied project's own map (god6_paper_list.json, stem-evidence verified); real_code column added = exact original code (196/196); code canonical for 112 remapped + 84 already-canonical; 13 CSS shells (KNC301/KNC401, 0 occ) archived (god6_css_paper_shells_removed_20261127.jsonl.gz) + removed = decontamination completed. FINAL: 196 papers, codes == the 6 canonical exactly, per-code 45/24/47/27/29/24.
+- SNAPSHOTS: download/god6_backup_20261127_prec93 (repeats pre 418 full; papers pre 209 reconstructed + post 196).
+- LAWS INTACT: no AI calls, no dispatch, hashes/evidence preserved, nothing invented, full rollback path, no secrets printed or committed.
